@@ -1,0 +1,58 @@
+var dark__paratroopa_8inc_8c =
+[
+    [ "NAMESPACE", "dark__paratroopa_8inc_8c.html#afa7779fe56b160955b535cd6a8aaf8f4", null ],
+    [ "SWEAT_DECOR_IDX", "dark__paratroopa_8inc_8c.html#a7401c855a18791de78c5d28038d3c1d7", null ],
+    [ "WHIRLWIND_DECOR_IDX", "dark__paratroopa_8inc_8c.html#aecfd093ef9aa0e7da4f593852c7cacab", null ],
+    [ "ActorParams", "dark__paratroopa_8inc_8c.html#a0d3b3b711f5c5bd6236f38291d4a6915", [
+      [ "DMG_SKY_DIVE", "dark__paratroopa_8inc_8c.html#a0d3b3b711f5c5bd6236f38291d4a6915a9261b2c7b9bbbac44260f9be7f9641f3", null ],
+      [ "DMG_SHELL_TOSS", "dark__paratroopa_8inc_8c.html#a0d3b3b711f5c5bd6236f38291d4a6915a476edb9902a29f4e2ba9062724fd9ed5", null ]
+    ] ],
+    [ "ActorPartIDs", "dark__paratroopa_8inc_8c.html#ad1692e67fbd5aad52eec868da37473f4", [
+      [ "PRT_MAIN", "dark__paratroopa_8inc_8c.html#ad1692e67fbd5aad52eec868da37473f4a9928880a6fae88debc8f3ceccc0b2cd8", null ],
+      [ "PRT_FLYING", "dark__paratroopa_8inc_8c.html#ad1692e67fbd5aad52eec868da37473f4aecccb24934e87f0db763554ba5c877f3", null ],
+      [ "PRT_WINGS", "dark__paratroopa_8inc_8c.html#ad1692e67fbd5aad52eec868da37473f4ad9f8b5bd91d35a960307ff30e4eabb38", null ]
+    ] ],
+    [ "ActorVars", "dark__paratroopa_8inc_8c.html#ad5e1752974756fcb68755fb4f8a9df2d", [
+      [ "AVAR_TriggeredFall", "dark__paratroopa_8inc_8c.html#ad5e1752974756fcb68755fb4f8a9df2da312b693d29db596d056ca862b4f776b2", null ],
+      [ "AVAR_HasWhirlwind", "dark__paratroopa_8inc_8c.html#ad5e1752974756fcb68755fb4f8a9df2da91c554e989bacc4c733ab697b04b28f0", null ],
+      [ "AVAR_State", "dark__paratroopa_8inc_8c.html#ad5e1752974756fcb68755fb4f8a9df2da911a37f4844a3ed324edada7c3684195", null ],
+      [ "AVAL_State_Normal", "dark__paratroopa_8inc_8c.html#ad5e1752974756fcb68755fb4f8a9df2da305f8f62106b3e9c637dc27a84a0258b", null ],
+      [ "AVAL_State_Hyper", "dark__paratroopa_8inc_8c.html#ad5e1752974756fcb68755fb4f8a9df2dadedd8a88df8490b0c392f7201ade291f", null ],
+      [ "AVAL_State_ToppledNormal", "dark__paratroopa_8inc_8c.html#ad5e1752974756fcb68755fb4f8a9df2da592da6e0bad8fd347e5adc7890ccdd4e", null ],
+      [ "AVAL_State_ToppledHyper", "dark__paratroopa_8inc_8c.html#ad5e1752974756fcb68755fb4f8a9df2da4b2eab465136f69506aec5818628606c", null ],
+      [ "AVAR_ToppleTurns", "dark__paratroopa_8inc_8c.html#ad5e1752974756fcb68755fb4f8a9df2da9a0d86a6a33148a2ab632447acf37842", null ]
+    ] ],
+    [ "ActorParts", "dark__paratroopa_8inc_8c.html#a853e88c6ebafb84b74899284b53af933", null ],
+    [ "defenseTable2", "dark__paratroopa_8inc_8c.html#ac4df28256c2558fc21ccae869576ad27", null ],
+    [ "EVS_Attack_ShellToss", "dark__paratroopa_8inc_8c.html#a5a13a98d723dc9c10a20b6a8c84c0558", null ],
+    [ "EVS_Attack_Whirlwind", "dark__paratroopa_8inc_8c.html#ad3b11542336b47756c6a4fbab9db15cf", null ],
+    [ "EVS_FallDown", "dark__paratroopa_8inc_8c.html#ae40a6ebe8a6b78f633424853dd09b8f0", null ],
+    [ "EVS_HandleEvent_Flying", "dark__paratroopa_8inc_8c.html#a314b81d84b437699c84d50fb3ef5776f", null ],
+    [ "EVS_HandleEvent_Koopa", "dark__paratroopa_8inc_8c.html#a888698c68a19bb2e327d88ef9f71ffea", null ],
+    [ "EVS_HandlePhase_Flying", "dark__paratroopa_8inc_8c.html#a8fcb9c4b6fc6f52b77e3c8d15bb45c5b", null ],
+    [ "EVS_HandlePhase_Koopa", "dark__paratroopa_8inc_8c.html#a8ef60faf80c695b88ea03c9e6f255104", null ],
+    [ "EVS_Idle_Flying", "dark__paratroopa_8inc_8c.html#a005c831cc1d85392ded80892f5b762fe", null ],
+    [ "EVS_Idle_Koopa", "dark__paratroopa_8inc_8c.html#a9f36d39a448fc1bb3f49bc536417bfaf", null ],
+    [ "EVS_Init_Flying", "dark__paratroopa_8inc_8c.html#aaf5dab87ce3992066a08522faf470b74", null ],
+    [ "EVS_Init_Koopa", "dark__paratroopa_8inc_8c.html#a3c20ee5c168aee015080705810b8a88d", null ],
+    [ "EVS_ReturnHome", "dark__paratroopa_8inc_8c.html#a311bf8f166110cad295ed7cc32ce4853", null ],
+    [ "EVS_TakeTurn_Flying", "dark__paratroopa_8inc_8c.html#a8ce3a9ca38879c75e86b25640fb305b5", null ],
+    [ "EVS_TakeTurn_Koopa", "dark__paratroopa_8inc_8c.html#a48a8b86877fef8851951f5a247aa8f8b", null ],
+    [ "EVS_TryGettingUp", "dark__paratroopa_8inc_8c.html#a55dd2ca25572f4a0c89175d6328d01c8", null ],
+    [ "EVS_UpdateOffsets_Flying", "dark__paratroopa_8inc_8c.html#a4bd5ebca5866e749b5f95ab454f661b3", null ],
+    [ "EVS_UpdateOffsets_Koopa", "dark__paratroopa_8inc_8c.html#a9a40d78acc32ec05fe4c120a8de11fb9", null ],
+    [ "FlipPosOffsets", "dark__paratroopa_8inc_8c.html#a59a5dfe391a25ac98d03cb7982db49c0", null ],
+    [ "FlyingAnims", "dark__paratroopa_8inc_8c.html#ad870ca37e876bca3eb1bbd554d4b4a6f", null ],
+    [ "FlyingShuffleAnims", "dark__paratroopa_8inc_8c.html#a7ed69c65a6756b561174781bd684154e", null ],
+    [ "FlyingStatusTable", "dark__paratroopa_8inc_8c.html#aea110903a0a1a9112dc05f137621328e", null ],
+    [ "HyperAnims", "dark__paratroopa_8inc_8c.html#a1ae12ab24c8b4381898b7ae5a7a6b1ee", null ],
+    [ "HyperShuffleAnims", "dark__paratroopa_8inc_8c.html#a1bafd9bac53498acd665a787849ca491", null ],
+    [ "KoopaAnims", "dark__paratroopa_8inc_8c.html#a12e52534830217f6fab7ea01eb5dcba5", null ],
+    [ "NAMESPACE", "dark__paratroopa_8inc_8c.html#a7d81b5aa9c7b4fcfa98a039812275b07", null ],
+    [ "ShuffleAnims", "dark__paratroopa_8inc_8c.html#abb6a2c88e321aaafee62397ad14e2bb7", null ],
+    [ "StatusTable", "dark__paratroopa_8inc_8c.html#a5fdf7357a3ef202588fa26666a84a89f", null ],
+    [ "ToppledAnims", "dark__paratroopa_8inc_8c.html#a18c7e8c08613fa80106a0fc09275bbbc", null ],
+    [ "ToppledDefenseTable", "dark__paratroopa_8inc_8c.html#a7f16efc0cb7e4379c13e71737da7a4e0", null ],
+    [ "UprightDefenseTable", "dark__paratroopa_8inc_8c.html#a9effdbbd823711b17761f626135eb856", null ],
+    [ "WingAnims", "dark__paratroopa_8inc_8c.html#acfec42b456e1c195d7ecd380d6c22aeb", null ]
+];

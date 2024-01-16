@@ -1,0 +1,25 @@
+var mac__04_8h =
+[
+    [ "NAMESPACE", "mac__04_8h.html#afa7779fe56b160955b535cd6a8aaf8f4", null ],
+    [ "Chapter4NPCs", "mac__04_8h.html#a18561bc5737549a26d9bae483c6853dd", null ],
+    [ "Chapter7NPCs", "mac__04_8h.html#ae78f55e25aa358d67d37643133b505c2", null ],
+    [ "D_8024697C_84954C", "mac__04_8h.html#acf4d7ff54fd8cc5395e61ff6313040f4", null ],
+    [ "DefaultNPCs", "mac__04_8h.html#a7374ac0b449e4ad2ea880b155b9139f7", null ],
+    [ "EVS_ExitToybox", "mac__04_8h.html#a128d62ccaf5f08e7be47a3c14d0a66dd", null ],
+    [ "EVS_ForceStoreroomUnlock", "mac__04_8h.html#a0add92e824d7d922041a82ef145e5591", null ],
+    [ "EVS_HiddenRoom_WaitForOuttaSight", "mac__04_8h.html#a2e56efe9c36f0f9240b112d312a6fe01", null ],
+    [ "EVS_Main", "mac__04_8h.html#a2932ca2a9340b6bc0ba210661962bd9d", null ],
+    [ "EVS_MakeEntities", "mac__04_8h.html#a8f71bd7ea7026039c7ee89919f8ce1e5", null ],
+    [ "EVS_MakeHiddenRoom", "mac__04_8h.html#a50379c6ec808911a2d4c8aba2c80c522", null ],
+    [ "EVS_MakeStoreroom", "mac__04_8h.html#adad3987f33120157fb1b772f710c3da2", null ],
+    [ "EVS_OnEnterShop", "mac__04_8h.html#a7858854cc62194a0e03ac58bb99e20d1", null ],
+    [ "EVS_Scene_WishingToadKid", "mac__04_8h.html#af9089cae72276fc496c6c12b4e1524c7", null ],
+    [ "EVS_SetupFoliage", "mac__04_8h.html#a2cb4dedef1804a701b28173437b9c771", null ],
+    [ "EVS_SetupMusic", "mac__04_8h.html#ae6bcf9bcfc24d38faca57993791bdcab", null ],
+    [ "EVS_SetupMusicTriggers", "mac__04_8h.html#a62fae583ecfb0ddc70aa15f3c07c478b", null ],
+    [ "EVS_SetupRooms", "mac__04_8h.html#ab093da3f10214f7589840085397f6bda", null ],
+    [ "EVS_SetupShop", "mac__04_8h.html#a04f55bbcdd72b2e3f2424c920e5f331a", null ],
+    [ "EVS_Toybox_SetupTrainPrompt", "mac__04_8h.html#af41f6e1070498218d6da6f49f8c6be2c", null ],
+    [ "PostChapter4NPCs", "mac__04_8h.html#a1fad89540ffb40b15b778303e9b09972", null ],
+    [ "WishSceneNPCs", "mac__04_8h.html#a9dd256ee79e3e48ed2cc809088904ad5", null ]
+];

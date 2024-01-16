@@ -1,0 +1,27 @@
+var jan__00__2__npc_8c =
+[
+    [ "D_80242D90_B232D0", "jan__00__2__npc_8c.html#a692e4b7f2b981a3847d605f36a831451", null ],
+    [ "D_80242DB0_B232F0", "jan__00__2__npc_8c.html#a8d8aa601c5337224d48328aeb22066c7", null ],
+    [ "D_80242FA8_B234E8", "jan__00__2__npc_8c.html#a9608eb355531a98b26c7932c84a2b1e0", null ],
+    [ "D_802437C4_B23D04", "jan__00__2__npc_8c.html#adc26797d5e4e4fcb54c9ff1be953eb17", null ],
+    [ "D_802438E4_B23E24", "jan__00__2__npc_8c.html#a06d5f64c93242121879c00749b21d710", null ],
+    [ "D_802441C8_B24708", "jan__00__2__npc_8c.html#aa8e303d716ba3568719e5f9eff18a60d", null ],
+    [ "DefaultNPCs", "jan__00__2__npc_8c.html#a7374ac0b449e4ad2ea880b155b9139f7", null ],
+    [ "EVS_LetterPrompt_Kolorado", "jan__00__2__npc_8c.html#a93a71992719a5ced955174d8b3189148", null ],
+    [ "EVS_LetterReward_Kolorado", "jan__00__2__npc_8c.html#a5b2d20a4d384c4de936f1fdc096986ab", null ],
+    [ "EVS_NpcIdle_JrTroopa", "jan__00__2__npc_8c.html#abadf6b5d2e1fce5ad6298e7e72aa3390", null ],
+    [ "EVS_NpcIdle_Kolorado_01", "jan__00__2__npc_8c.html#a88cc11c0d27b0fe76457336e2523f240", null ],
+    [ "EVS_NpcInit_JrTroopa", "jan__00__2__npc_8c.html#a48e014ac8c65928db353ef594f86a370", null ],
+    [ "EVS_NpcInit_Kolorado_01", "jan__00__2__npc_8c.html#a3e36894637a5d7ae5422b116df038727", null ],
+    [ "EVS_NpcInit_Kolorado_02", "jan__00__2__npc_8c.html#ac6782607e6c555137bed690902fae8a7", null ],
+    [ "EVS_NpcInteract_Kolorado_01", "jan__00__2__npc_8c.html#a8500d973a9f77fb3ab71c1ff4d1d5f35", null ],
+    [ "EVS_NpcInteract_Kolorado_02", "jan__00__2__npc_8c.html#a9d17356a735974e9029503f2d4670dbc", null ],
+    [ "LetterList", "jan__00__2__npc_8c.html#a4a8a32b1f4c1dd574514c747ce138ead", null ],
+    [ "NpcData_Characters", "jan__00__2__npc_8c.html#ae0ae94c009669170ef83efdde74c2a30", null ],
+    [ "NpcData_HeartPlant_01", "jan__00__2__npc_8c.html#ab17885c7f9e289d42a71f727edc9ce6b", null ],
+    [ "NpcData_HeartPlant_02", "jan__00__2__npc_8c.html#aad45a8c32695e171587195295d75252e", null ],
+    [ "NpcData_HeartPlant_03", "jan__00__2__npc_8c.html#a546be14fac01d78c9db0fd3ea8c668aa", null ],
+    [ "NpcData_HeartPlant_04", "jan__00__2__npc_8c.html#a592bfa93bf09bec12fce94b1d6fda632", null ],
+    [ "NpcData_HeartPlant_05", "jan__00__2__npc_8c.html#a2c4f5ae94e71fd6c96f5e3c085e212d9", null ],
+    [ "NpcSettings_Kolorado_01", "jan__00__2__npc_8c.html#a7efcc9803772ba366a663b96e2b42eb1", null ]
+];

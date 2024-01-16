@@ -1,0 +1,28 @@
+var nok__11__4__npc_8c =
+[
+    [ "DefaultNPCs", "nok__11__4__npc_8c.html#a7374ac0b449e4ad2ea880b155b9139f7", null ],
+    [ "EVS_JrTroopa_RunFX", "nok__11__4__npc_8c.html#a4fa87e1ddaeede3e1eec8317f8294d26", null ],
+    [ "EVS_NpcAI_JrTroopa_01", "nok__11__4__npc_8c.html#a64198f37e89e269cbf9ce080ec0af397", null ],
+    [ "EVS_NpcDefeat_JrTroopa_01", "nok__11__4__npc_8c.html#a30d963b96ef13e439c6a4f4e50ee76f1", null ],
+    [ "EVS_NpcDefeat_KentCKoopa_01", "nok__11__4__npc_8c.html#af453c5765a6a94b131574d6f0dae8579", null ],
+    [ "EVS_NpcDefeat_KentCKoopa_02", "nok__11__4__npc_8c.html#af83e41e499f633368d8bc2e03fdc2d0e", null ],
+    [ "EVS_NpcHit_JrTroopa_02", "nok__11__4__npc_8c.html#aa2de94c5126f8a509657f82d217741ea", null ],
+    [ "EVS_NpcIdle_JrTroopa_01", "nok__11__4__npc_8c.html#a3c8ecc5d407848f28da891b359435c95", null ],
+    [ "EVS_NpcIdle_JrTroopa_02", "nok__11__4__npc_8c.html#ae9abd87be10457f692426e13bd4de508", null ],
+    [ "EVS_NpcIdle_KentCKoopa_01", "nok__11__4__npc_8c.html#a4d7af51c5748fe6b850b3e30be09e257", null ],
+    [ "EVS_NpcInit_JrTroopa_01", "nok__11__4__npc_8c.html#aba7b4919d1101e5e9d26e5d2938d25e1", null ],
+    [ "EVS_NpcInit_JrTroopa_02", "nok__11__4__npc_8c.html#aaff50028a983a59aeca7ca244656177e", null ],
+    [ "EVS_NpcInit_KentCKoopa_01", "nok__11__4__npc_8c.html#aaf993e43988b140f21553ebd5f15ae23", null ],
+    [ "EVS_NpcInit_KentCKoopa_02", "nok__11__4__npc_8c.html#a386cd2f87b9dcbead6cbefeff7aa9ece", null ],
+    [ "EVS_NpcInteract_JrTroopa_01", "nok__11__4__npc_8c.html#ac5864498d2fd89c9567a66b6c92c63b3", null ],
+    [ "EVS_NpcInteract_KentCKoopa_02", "nok__11__4__npc_8c.html#a1ec613765c241715e6e9683e9f0c8de1", null ],
+    [ "JrTroopaNPCs", "nok__11__4__npc_8c.html#af879c0021489d628433d3e629130c46c", null ],
+    [ "KentCKoopaNPCs", "nok__11__4__npc_8c.html#a39c7a5218aec495eb72d15668875a597", null ],
+    [ "NpcData_JrTroopa", "nok__11__4__npc_8c.html#ad0bc13df2c323ea84f186e7e78e5ba88", null ],
+    [ "NpcData_KentCKoopa", "nok__11__4__npc_8c.html#afc1acb98da1b45206325e7410c2a6336", null ],
+    [ "NpcData_KoopaTroopa", "nok__11__4__npc_8c.html#ad0bdb76853f7a31fa66a782618265721", null ],
+    [ "NpcData_Paragoomba", "nok__11__4__npc_8c.html#ac888414559c14c6b4272b602633634f7", null ],
+    [ "NpcData_SpikedGoomba", "nok__11__4__npc_8c.html#a5fce7bba43d6517a8b3e0590dccf2e31", null ],
+    [ "SceneBush_Models", "nok__11__4__npc_8c.html#aa0de6e85b0dbda7f9516bd448f3db1e5", null ],
+    [ "SearchBush_Scene", "nok__11__4__npc_8c.html#ab78c26f30c7fadc7d66735263df12387", null ]
+];

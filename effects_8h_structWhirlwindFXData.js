@@ -1,0 +1,26 @@
+var effects_8h_structWhirlwindFXData =
+[
+    [ "envB", "effects_8h.html#a3d7adab6f301a13aa47c66d6a610b844", null ],
+    [ "envG", "effects_8h.html#ae7db2b6444e5fb15100748b87feda44e", null ],
+    [ "envR", "effects_8h.html#a17081019416abb5d56808efcec4ec47b", null ],
+    [ "pos", "effects_8h.html#a640ef03ebdd480faf77414811aa13d6b", null ],
+    [ "primAlpha", "effects_8h.html#ad97afa2ce7385a8391d94527a5d941f5", null ],
+    [ "primB", "effects_8h.html#a60fff4637e98448f8329beee0e0c111e", null ],
+    [ "primG", "effects_8h.html#aeecacf31cce72a685ee3a6dbd3619db8", null ],
+    [ "primR", "effects_8h.html#a4fe34e4601e13113be98547f6a261e78", null ],
+    [ "unk_00", "effects_8h.html#aef373fcbf16d2f2363de2db61b9939a6", null ],
+    [ "unk_10", "effects_8h.html#aa032443c61370cf4861c1d5ce0e24efb", null ],
+    [ "unk_118", "effects_8h.html#a0d0e9a19e03eeb1b577aafba920ba823", null ],
+    [ "unk_138", "effects_8h.html#abb92759b477deadff5c63f525bd889cd", null ],
+    [ "unk_13C", "effects_8h.html#a4aad7256056faeb0c5f97dc251cb2c3e", null ],
+    [ "unk_14", "effects_8h.html#a93be56a9eaf3c00c5d3770fe44486086", null ],
+    [ "unk_140", "effects_8h.html#a09b2933f3d7a8305526427840435f7fb", null ],
+    [ "unk_34", "effects_8h.html#a7a46b8c7f2058f892b4bf2dc38bfddf5", null ],
+    [ "unk_38", "effects_8h.html#a1d31549bec7085ed67063c5ab6206d51", null ],
+    [ "unk_58", "effects_8h.html#aecdcbeeb89ef5ec0a1dd20ec8b31558e", null ],
+    [ "unk_78", "effects_8h.html#a8564e480939c4ec866ed6352db765fb0", null ],
+    [ "unk_98", "effects_8h.html#adb57ac9d750782134f1e95b0d6e22f99", null ],
+    [ "unk_B8", "effects_8h.html#a6fb8a1575868196b79d42634e93decfc", null ],
+    [ "unk_D8", "effects_8h.html#a6e0a84201254e16d88266c2eb55016ce", null ],
+    [ "unk_F8", "effects_8h.html#af7a6e7aa4a1f48ecb3220c9cf6315761", null ]
+];

@@ -1,0 +1,27 @@
+var world_2partner_2goombario_8c =
+[
+    [ "NAMESPACE", "world_2partner_2goombario_8c.html#afa7779fe56b160955b535cd6a8aaf8f4", null ],
+    [ "USE_STATE", "world_2partner_2goombario_8c.html#a6c7b086bd64b3c2cb76b012dbffacbb2", null ],
+    [ "VAR_MSG", "world_2partner_2goombario_8c.html#a1cc9427f117970da5f7dd9aece4206d4", null ],
+    [ "VAR_SKIP", "world_2partner_2goombario_8c.html#aff7f30c7dfafd64fa9be9a9de9655e15", null ],
+    [ "can_open_menus", "world_2partner_2goombario_8c.html#a0e7baae2fd2fd412bb84c5c3d9d09059", null ],
+    [ "get_trigger_tattle", "world_2partner_2goombario_8c.html#ae3d56d371311eb7c90af1dd1434ac19b", null ],
+    [ "init", "world_2partner_2goombario_8c.html#a1a67c393ac4e43f8d033da537883b9f0", null ],
+    [ "pre_battle", "world_2partner_2goombario_8c.html#addd37675bdc0b4cdd5ba998e1b418900", null ],
+    [ "try_cancel_tweester", "world_2partner_2goombario_8c.html#aff752b9269b76cd84ff702de472e836c", null ],
+    [ "D_802BDF3C", "world_2partner_2goombario_8c.html#a9fc4989893ae13d441038981202a4693", null ],
+    [ "D_802BDF5C", "world_2partner_2goombario_8c.html#ae0a8b09e75ee58edbf6f663877a54691", null ],
+    [ "EntityTattles", "world_2partner_2goombario_8c.html#a31399aa66c4fba185f2b24e2dbb41b4a", null ],
+    [ "EVS_WorldGoombario_PutAway", "world_2partner_2goombario_8c.html#af6bae1c6289c57a359ee08d4e67fa97d", null ],
+    [ "EVS_WorldGoombario_TakeOut", "world_2partner_2goombario_8c.html#a30ceda8ae15020b9efa0a8f095773cc8", null ],
+    [ "EVS_WorldGoombario_Update", "world_2partner_2goombario_8c.html#a73a657fd37049f798cabb2ad661b1213", null ],
+    [ "EVS_WorldGoombario_UseAbility", "world_2partner_2goombario_8c.html#a10793e1e13133efad92d7365e184032c", null ],
+    [ "HadInteractPrompt", "world_2partner_2goombario_8c.html#aaa6686311e31304dcbb430cde168cd85", null ],
+    [ "HadSpeechPrompt", "world_2partner_2goombario_8c.html#a7d06d758c3fc5b259db1031a48bd2d01", null ],
+    [ "InteractNpc", "world_2partner_2goombario_8c.html#a22b7e2ec1d5ccfef7161d2a93f64151f", null ],
+    [ "IsTattleActive", "world_2partner_2goombario_8c.html#a91905edb9ee00c634c466e62f4e82f21", null ],
+    [ "SpeechBubblePtr", "world_2partner_2goombario_8c.html#a750f180cad234248c99416ee21719783", null ],
+    [ "TweesterPhysicsData", "world_2partner_2goombario_8c.html#a394802c7fa3ef459af3871e8606b1d7c", null ],
+    [ "TweesterPhysicsPtr", "world_2partner_2goombario_8c.html#a802ec6ddd312147f6d331d6dbe128b29", null ],
+    [ "WorldTattleInteractionID", "world_2partner_2goombario_8c.html#a6f9bd980c55f8588a0d5b29091297483", null ]
+];

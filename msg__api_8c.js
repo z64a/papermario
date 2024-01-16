@@ -1,0 +1,27 @@
+var msg__api_8c =
+[
+    [ "_show_message", "msg__api_8c.html#a2b75a69508214d00f1eecf9f7c971222", null ],
+    [ "cancel_current_message", "msg__api_8c.html#af3984336410c223b3081bf0b0caa66f7", null ],
+    [ "CancelMessage", "msg__api_8c.html#a376abec90cc8bac71bd1de61edffd8ee", null ],
+    [ "CloseChoice", "msg__api_8c.html#a558537a0733c1e8f64fc733f1a7c4ec4", null ],
+    [ "CloseMessage", "msg__api_8c.html#a9f57818c6673d373bd2e41748a08027b", null ],
+    [ "ContinueSpeech", "msg__api_8c.html#a24cbe6d0e125bb368b8b1e04168659d6", null ],
+    [ "EndSpeech", "msg__api_8c.html#a641b78d1f978007f5cf7e1a3b892062f", null ],
+    [ "func_802D0C94", "msg__api_8c.html#a1886500f3056363fcab32f62ab26bdb5", null ],
+    [ "SetMessageImages", "msg__api_8c.html#a5f6d15c454bd2e0f00f16b996ef9fe10", null ],
+    [ "SetMessageText", "msg__api_8c.html#a2ef45fc71587f515e5ac213d520200e2", null ],
+    [ "SetMessageValue", "msg__api_8c.html#a1c86f2feb855ed8ae7153dc1a182da20", null ],
+    [ "ShowChoice", "msg__api_8c.html#ad4f61857f5ca9030f9a98eed59b4f8ae", null ],
+    [ "ShowMessageAtScreenPos", "msg__api_8c.html#abed4a7b308215adb3b40cba45b2efc88", null ],
+    [ "ShowMessageAtWorldPos", "msg__api_8c.html#a77a24824da1566db186838f26df9ded6", null ],
+    [ "SpeakToNpc", "msg__api_8c.html#a84834e10a77ec3968aacb2d5d455e284", null ],
+    [ "SpeakToPlayer", "msg__api_8c.html#a76099193e83f5b44b498b905e0d0001a", null ],
+    [ "SwitchMessage", "msg__api_8c.html#aaa07341def80739f437b100d58c9b184", null ],
+    [ "D_802DAE58", "msg__api_8c.html#a64b5b105a782fd917074aeb65676cc70", null ],
+    [ "D_802DAE60", "msg__api_8c.html#a3070a6cd6a6728f720d723268bcb0ff9", null ],
+    [ "D_802DB264", "msg__api_8c.html#ab329be278838552c955d092e05448c73", null ],
+    [ "D_802DB268", "msg__api_8c.html#aaf1cd92913ab402b4b562fb5778eb3b9", null ],
+    [ "gCurrentPrintContext", "msg__api_8c.html#a13447a9f6ce33ee83b1c4a2783eec8a8", null ],
+    [ "ShowMessageScreenOffsetX", "msg__api_8c.html#aaf41f3a8afd7601b2086e11973774659", null ],
+    [ "ShowMessageScreenOffsetY", "msg__api_8c.html#a016b18b350a9118bcc13e70064039c8b", null ]
+];

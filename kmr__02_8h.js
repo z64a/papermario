@@ -1,0 +1,25 @@
+var kmr__02_8h =
+[
+    [ "NAMESPACE", "kmr__02_8h.html#afa7779fe56b160955b535cd6a8aaf8f4", null ],
+    [ "DefaultNPCs", "kmr__02_8h.html#a7374ac0b449e4ad2ea880b155b9139f7", null ],
+    [ "EpilogueNPCs", "kmr__02_8h.html#a6d25809165a06aafd351cd4dedc5d691", null ],
+    [ "EVS_FadeOutMusic", "kmr__02_8h.html#a581101cca7d0af2443c03c391f1b87d4", null ],
+    [ "EVS_Main", "kmr__02_8h.html#a2932ca2a9340b6bc0ba210661962bd9d", null ],
+    [ "EVS_MakeEntities", "kmr__02_8h.html#a8f71bd7ea7026039c7ee89919f8ce1e5", null ],
+    [ "EVS_NpcAux_Kammy", "kmr__02_8h.html#a6694aa63704616883415d09147f3e460", null ],
+    [ "EVS_NpcInteract_ToadHouse", "kmr__02_8h.html#a1976fd8731ade996e9dbb1cd84240d90", null ],
+    [ "EVS_PlayRestingSong", "kmr__02_8h.html#a4400afacb7bb07593b14a1efe08b3c62", null ],
+    [ "EVS_PopSong", "kmr__02_8h.html#a654cdd757b1c4ec427b4728a898cd1d8", null ],
+    [ "EVS_PushNewPartnerSong", "kmr__02_8h.html#a01d2d0b1661d3a4a7fd0643fd74b03f2", null ],
+    [ "EVS_Scene_KammyStrikes", "kmr__02_8h.html#ab9db093ac5d3b814cdaae70d3c997b94", null ],
+    [ "EVS_SetupFoliage", "kmr__02_8h.html#a2cb4dedef1804a701b28173437b9c771", null ],
+    [ "EVS_SetupMusic", "kmr__02_8h.html#ae6bcf9bcfc24d38faca57993791bdcab", null ],
+    [ "EVS_SetupRooms", "kmr__02_8h.html#ab093da3f10214f7589840085397f6bda", null ],
+    [ "EVS_SetupToadHouse", "kmr__02_8h.html#ac6db455b6378c157441dcd4d4dcf9f34", null ],
+    [ "EVS_SetWallsDown_ToadHouse", "kmr__02_8h.html#a666717883e1a59875162a93312fd5f65", null ],
+    [ "EVS_SummonGateBlock", "kmr__02_8h.html#a7605f0e58b8b0a1b6d8a790483522d20", null ],
+    [ "heart_block_img", "kmr__02_8h.html#a22a9395149a95b60e8f1cf7de8917793", null ],
+    [ "heart_block_pal", "kmr__02_8h.html#a72e0071521922eb70483552a8c7a3cb7", null ],
+    [ "NpcGroup1", "kmr__02_8h.html#a187977f317e168c354ce408929b15392", null ],
+    [ "PrologueNPCs", "kmr__02_8h.html#ad44cc25f30ccd97c483a9c7f00d170f5", null ]
+];

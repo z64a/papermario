@@ -1,0 +1,35 @@
+var battle_2partner_2watt_8c =
+[
+    [ "NAMESPACE", "battle_2partner_2watt_8c.html#afa7779fe56b160955b535cd6a8aaf8f4", null ],
+    [ "ActorPartIDs", "battle_2partner_2watt_8c.html#ad1692e67fbd5aad52eec868da37473f4", [
+      [ "PRT_MAIN", "battle_2partner_2watt_8c.html#ad1692e67fbd5aad52eec868da37473f4a9928880a6fae88debc8f3ceccc0b2cd8", null ],
+      [ "PRT_2", "battle_2partner_2watt_8c.html#ad1692e67fbd5aad52eec868da37473f4a50f80f91eb77eefc45523ee73150e383", null ]
+    ] ],
+    [ "ActorParts", "battle_2partner_2watt_8c.html#a853e88c6ebafb84b74899284b53af933", null ],
+    [ "charge", "battle_2partner_2watt_8c.html#a5132a33eb9521ce1e41c159fb1e1a051", null ],
+    [ "D_8023B948_707438", "battle_2partner_2watt_8c.html#a62f7fdfcb74d5b7c7738666e5ac326d4", null ],
+    [ "dashToTarget", "battle_2partner_2watt_8c.html#a0859dddff2fb99b27c86654cf4a493ba", null ],
+    [ "DefaultAnims", "battle_2partner_2watt_8c.html#a320d15d1a452c2da7f00478b0feabd9e", null ],
+    [ "DefenseTable", "battle_2partner_2watt_8c.html#acc777f400b15bb1865f5ee83d00f50ef", null ],
+    [ "EVS_Attack_ElectroDash", "battle_2partner_2watt_8c.html#ab11ba28fb728b2a46f0add5f1f35153f", null ],
+    [ "EVS_Attack_MegaShock", "battle_2partner_2watt_8c.html#adc55fb9ff7b9ed2a96eccacf4dcdea7f", null ],
+    [ "EVS_Attack_PowerShock", "battle_2partner_2watt_8c.html#a33d7d6c28462c888a196f2045591ff87", null ],
+    [ "EVS_Celebrate", "battle_2partner_2watt_8c.html#ab95db831e1e14bf31589f29bd763b4a0", null ],
+    [ "EVS_ElectroDashDelay", "battle_2partner_2watt_8c.html#a5a4281df2b5ca8699f26447a9ad54eca", null ],
+    [ "EVS_ExecuteAction", "battle_2partner_2watt_8c.html#a2b7262ca59ca004c0558d551961567e2", null ],
+    [ "EVS_HandleEvent", "battle_2partner_2watt_8c.html#a191a76ac1b6d84546efddb06629c256b", null ],
+    [ "EVS_HandlePhase", "battle_2partner_2watt_8c.html#aa52d1df55bcf45c9c7784b507fc7cdbe", null ],
+    [ "EVS_Idle", "battle_2partner_2watt_8c.html#ac02de6d6ec6822435ed192fb6e84772f", null ],
+    [ "EVS_Init", "battle_2partner_2watt_8c.html#a443c5d32ccc8ed964a05d38e02b27bbd", null ],
+    [ "EVS_Move_TurboCharge", "battle_2partner_2watt_8c.html#adbfceb1790bf4d1b9b52ac8a2c2e9f1c", null ],
+    [ "EVS_ReturnHome", "battle_2partner_2watt_8c.html#a311bf8f166110cad295ed7cc32ce4853", null ],
+    [ "EVS_RunAway", "battle_2partner_2watt_8c.html#a7a27a375a8a51bb944c1ca4da2e08751", null ],
+    [ "EVS_RunAwayFail", "battle_2partner_2watt_8c.html#ae66445e7b59bae8ca1396f91bd48bf86", null ],
+    [ "EVS_TakeTurn", "battle_2partner_2watt_8c.html#a9baecb217631d271ccfb2410bc947e63", null ],
+    [ "EVS_TurboCharge_HealthyPlayer", "battle_2partner_2watt_8c.html#a8b567e63b2e64efdf83f195fe0683fdb", null ],
+    [ "EVS_TurboCharge_ImmobilePlayer", "battle_2partner_2watt_8c.html#a1fb194e55cd5f2244d21d063a3a201ab", null ],
+    [ "NAMESPACE", "battle_2partner_2watt_8c.html#a7d81b5aa9c7b4fcfa98a039812275b07", null ],
+    [ "radialShimmer", "battle_2partner_2watt_8c.html#a02652aee7d1aee310386002f7711b6a7", null ],
+    [ "returnHome2", "battle_2partner_2watt_8c.html#a10a8d9ce727f11079fb4c250dffed73a", null ],
+    [ "StatusTable", "battle_2partner_2watt_8c.html#a5fdf7357a3ef202588fa26666a84a89f", null ]
+];

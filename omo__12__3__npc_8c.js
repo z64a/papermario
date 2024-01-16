@@ -1,0 +1,27 @@
+var omo__12__3__npc_8c =
+[
+    [ "MAP_STATIC_PAD", "omo__12__3__npc_8c.html#afc0be37371c4cf91cad8ea1b4750ff98", null ],
+    [ "BombPos_Lantern_Unused", "omo__12__3__npc_8c.html#af94b79bb4c88cf24734dd1f294b39757", null ],
+    [ "DefaultNPCs", "omo__12__3__npc_8c.html#a7374ac0b449e4ad2ea880b155b9139f7", null ],
+    [ "EVS_EnterScene", "omo__12__3__npc_8c.html#a28bcce78b878c774788ac9b55d4bda7b", null ],
+    [ "EVS_ManageLanternLight", "omo__12__3__npc_8c.html#a9d799711d9852f7d70f9e16c4b683b38", null ],
+    [ "EVS_NpcDefeat_BigLanternGhost", "omo__12__3__npc_8c.html#af62a74c61b286d0f79bd754cd1a7a6ca", null ],
+    [ "EVS_NpcIdle_BigLanternGhost", "omo__12__3__npc_8c.html#ab37d2921e956158cfa39fe9c6b23cc47", null ],
+    [ "EVS_NpcIdle_LanternTop", "omo__12__3__npc_8c.html#aa98ae8e201715b0a0775d6254f669a19", null ],
+    [ "EVS_NpcInit_BigLanternGhost", "omo__12__3__npc_8c.html#a45f496bf965b8659316b6c1d1ef32b90", null ],
+    [ "EVS_NpcInit_LanternBottom", "omo__12__3__npc_8c.html#a2f5b677c24bd1b6556027632feed3b25", null ],
+    [ "EVS_NpcInit_LanternTop", "omo__12__3__npc_8c.html#a5dba2a9b0c4811a172b60a611234188f", null ],
+    [ "EVS_NpcInit_Watt", "omo__12__3__npc_8c.html#a2f8a00a9bb58e62ad288801881e93f68", null ],
+    [ "EVS_NpcInteract_LanternTop", "omo__12__3__npc_8c.html#a47172fb01a72a21ca85626a2da499092", null ],
+    [ "EVS_Scene_ReleaseWatt", "omo__12__3__npc_8c.html#a5f9ed7e0b8988601cc8f98cc1e0af5a3", null ],
+    [ "EVS_SetupLightSource", "omo__12__3__npc_8c.html#a5fbb98919c8f8acca994f0abab1752e1", null ],
+    [ "EVS_UseWattTutorial", "omo__12__3__npc_8c.html#a40499933fd99df93339ad44ab448db75", null ],
+    [ "ExtraAnims_LanternGhost", "omo__12__3__npc_8c.html#a2cb4636585f8ee623751190c14083427", null ],
+    [ "NpcData_BigLanternGhost", "omo__12__3__npc_8c.html#ae546ac8f25a1d5f57d5fb4a895940c1a", null ],
+    [ "NpcData_LanternBottom", "omo__12__3__npc_8c.html#a127765b8bf1b8670a8196b8a5c860272", null ],
+    [ "NpcData_LanternTop", "omo__12__3__npc_8c.html#a6a1a05e796357a235a7b9136e797a3d6", null ],
+    [ "NpcData_Watt", "omo__12__3__npc_8c.html#a6278f7229aaa16382a5fe16bab290425", null ],
+    [ "NpcSettings_Watt", "omo__12__3__npc_8c.html#a8c949aba0503e38cca0cd43b8e65f857", null ],
+    [ "WattLeftFlightPath", "omo__12__3__npc_8c.html#ad68ac1f9a0f5e3f9c2621c63b553d8b7", null ],
+    [ "WattRightFlightPath", "omo__12__3__npc_8c.html#afc8bd176b71d92e4b0ee2339f2f7a564", null ]
+];

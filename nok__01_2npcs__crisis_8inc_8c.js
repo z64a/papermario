@@ -1,0 +1,28 @@
+var nok__01_2npcs__crisis_8inc_8c =
+[
+    [ "EVS_BreakBlock_DropShell", "nok__01_2npcs__crisis_8inc_8c.html#a8aa2c2f6b85a14bf5e4eeeb8bbb531d8", null ],
+    [ "EVS_NpcHit_FuzzyWithShell", "nok__01_2npcs__crisis_8inc_8c.html#a125d9c4cc78b2090fd4854d27c1bcfe3", null ],
+    [ "EVS_NpcIdle_FuzzyWithShell", "nok__01_2npcs__crisis_8inc_8c.html#a482683758c384861f369f4a3928cdbae", null ],
+    [ "EVS_NpcIdle_Koopa_02_Crisis", "nok__01_2npcs__crisis_8inc_8c.html#a0511d562c24940bb6c098a1d240c4532", null ],
+    [ "EVS_NpcIdle_Koopa_03_Crisis", "nok__01_2npcs__crisis_8inc_8c.html#a8a280c89e18f0cbdd2c1d656b9e61890", null ],
+    [ "EVS_NpcIdle_Koover_Crisis", "nok__01_2npcs__crisis_8inc_8c.html#a6ac8188fbfb1d304ed5e5490ae217046", null ],
+    [ "EVS_NpcInit_Bobomb_01_Crisis", "nok__01_2npcs__crisis_8inc_8c.html#a1474c6ff92ae2b81f322580ac7f47efb", null ],
+    [ "EVS_NpcInit_Bobomb_02_Crisis", "nok__01_2npcs__crisis_8inc_8c.html#a776763eb4995cac8c53479471f9ffa33", null ],
+    [ "EVS_NpcInit_FuzzyWithShell", "nok__01_2npcs__crisis_8inc_8c.html#a58df22297fa48b4e0b7b87105183b2a7", null ],
+    [ "EVS_NpcInit_Koopa_02_Crisis", "nok__01_2npcs__crisis_8inc_8c.html#aab26d2350fd29803ea233961b241a823", null ],
+    [ "EVS_NpcInit_Koopa_03_Crisis", "nok__01_2npcs__crisis_8inc_8c.html#aa3816794bcd8b94bec87999a73458f8f", null ],
+    [ "EVS_NpcInit_KoopaShell_02", "nok__01_2npcs__crisis_8inc_8c.html#a175fae452cd6abbd5ebfe48ef65b232c", null ],
+    [ "EVS_NpcInit_KoopaShell_03", "nok__01_2npcs__crisis_8inc_8c.html#a454624b53b83f543fb33ac6fe3453e11", null ],
+    [ "EVS_NpcInit_Koover_Crisis", "nok__01_2npcs__crisis_8inc_8c.html#a2ed560926a4f09b6db85e34d4f9b0f6e", null ],
+    [ "EVS_NpcInit_KooversShell", "nok__01_2npcs__crisis_8inc_8c.html#a74674a7e90ab55fcd648d6f66620ea7f", null ],
+    [ "EVS_NpcInit_MiscFuzzy1", "nok__01_2npcs__crisis_8inc_8c.html#a9aa9a43b6da6b543d00df5bf83c5ef0d", null ],
+    [ "EVS_NpcInit_MiscFuzzy2", "nok__01_2npcs__crisis_8inc_8c.html#a60a0471fca20ace5c3c4dc491652333a", null ],
+    [ "EVS_NpcInteract_Bobomb_01_Crisis", "nok__01_2npcs__crisis_8inc_8c.html#a49ebb77d72c8390724cc7dfa444301ef", null ],
+    [ "EVS_NpcInteract_Bobomb_02_Crisis", "nok__01_2npcs__crisis_8inc_8c.html#a1a65649b7da89189b40c931edf536059", null ],
+    [ "EVS_NpcInteract_Koopa_02_Crisis", "nok__01_2npcs__crisis_8inc_8c.html#ae222a12cb4151a563148b1646c6b7774", null ],
+    [ "EVS_NpcInteract_Koopa_03_Crisis", "nok__01_2npcs__crisis_8inc_8c.html#ac6eecbea1a115516ed0d675d2aed7dd2", null ],
+    [ "EVS_NpcInteract_Koover_Crisis", "nok__01_2npcs__crisis_8inc_8c.html#a059836d98599f38630330d88d0db312f", null ],
+    [ "EVS_Scene_KooverGetsMugged", "nok__01_2npcs__crisis_8inc_8c.html#a3db2a1f87d107771fdb1f732befc6503", null ],
+    [ "EVS_Scene_RecoverBlockShell", "nok__01_2npcs__crisis_8inc_8c.html#acba7a44536afc2681ecbf69b4be5f710", null ],
+    [ "EVS_Scene_RecoverTreeShell", "nok__01_2npcs__crisis_8inc_8c.html#ae31cf7a1f0b134195051ea5cf61abbba", null ]
+];

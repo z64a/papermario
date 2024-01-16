@@ -1,0 +1,27 @@
+var nok__02__4__rooms_8c =
+[
+    [ "EVS_DropDoor_KoloradoHouse", "nok__02__4__rooms_8c.html#a08f509ee13f0aecdbd4c7b38f805afc5", null ],
+    [ "EVS_DropDoor_KootHouse", "nok__02__4__rooms_8c.html#aa3163d5addab047b1eeca8f11f131cd1", null ],
+    [ "EVS_PlayKooperVsFuzzyEffects", "nok__02__4__rooms_8c.html#a6c5637c09c86260fd76b2a8dda3d5c8b", null ],
+    [ "EVS_RoomListener_KoloradoHouse", "nok__02__4__rooms_8c.html#ac7bff6f60e726c22ce2920b95306520a", null ],
+    [ "EVS_RoomListener_KooperHouse", "nok__02__4__rooms_8c.html#acee451ac4e9af2c7b9a0b119065b569b", null ],
+    [ "EVS_RoomListener_KootHouse", "nok__02__4__rooms_8c.html#aeb2eec580c5c89c3839b0b0f64183925", null ],
+    [ "EVS_SetDoorRot_KoloradoHouse", "nok__02__4__rooms_8c.html#acaa72e499a9fc73efb3b2af917cd9a4a", null ],
+    [ "EVS_SetDoorRot_KoloradoOffice", "nok__02__4__rooms_8c.html#a00c96d7975525a94bdb7786839120957", null ],
+    [ "EVS_SetDoorRot_KooperBackDoor", "nok__02__4__rooms_8c.html#a6a331faeb7fb26da70d9b6ef8e2c8457", null ],
+    [ "EVS_SetDoorRot_KooperFrontDoor", "nok__02__4__rooms_8c.html#a3aaadaa603bf7adb422ff8dbd55c1014", null ],
+    [ "EVS_SetDoorRot_KootHouse", "nok__02__4__rooms_8c.html#a7b2d287d0a6e66c3e31ca47aa9b8cb69", null ],
+    [ "EVS_SetupRooms", "nok__02__4__rooms_8c.html#ab093da3f10214f7589840085397f6bda", null ],
+    [ "EVS_SetWallRot_KoloradoHouse", "nok__02__4__rooms_8c.html#a7d5d8b4ddd8a949138d5a2dbc34b800f", null ],
+    [ "EVS_SetWallRot_KoloradoOffice", "nok__02__4__rooms_8c.html#a1d78d3ecc9567dd248fc959d7f54cd08", null ],
+    [ "EVS_SetWallRot_KooperHouse", "nok__02__4__rooms_8c.html#aaa1e09b3a5ee9ec952329bff6fe5291c", null ],
+    [ "EVS_SetWallRot_KootHouse", "nok__02__4__rooms_8c.html#ac9c933a747a6b6113de089b231f5fd7b", null ],
+    [ "EVS_SetWallsRot_KooperHouse", "nok__02__4__rooms_8c.html#a2ef18491d53d1f0dfac268e9c47b27ac", null ],
+    [ "EVS_SpinKooperCeilingFan", "nok__02__4__rooms_8c.html#a2716b6e424a6d0ae948961ba8caad928", null ],
+    [ "EVS_UpdateKooperFightSounds", "nok__02__4__rooms_8c.html#a23d55d01fbbb232f28eada0c1a18a341", null ],
+    [ "InteriorNPCs_AfterKentC", "nok__02__4__rooms_8c.html#afd806f24794d0e9efcbe30917dd9e62e", null ],
+    [ "InteriorNPCs_BeforeKentC", "nok__02__4__rooms_8c.html#ae205afc670589fbbd2da8d02e9a2cf1d", null ],
+    [ "InteriorNPCs_KooperHouse_AfterJoin", "nok__02__4__rooms_8c.html#a7af9e8842afc8d775c4a2bf738fe1f1b", null ],
+    [ "InteriorNPCs_KooperHouse_BeforeJoin", "nok__02__4__rooms_8c.html#abacba84cc03f74ef549c17dba4109d65", null ],
+    [ "InteriorNPCs_KootHouse", "nok__02__4__rooms_8c.html#aa17fe58031f70cf11d7afd34615bc774", null ]
+];
