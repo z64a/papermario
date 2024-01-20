@@ -139,7 +139,7 @@ Macros</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line">{ \</div>
-<div class="line">    EVT_CALL(<a class="code hl_function" href="script__api_2common_8h.html#acb48828dfddd5c15b42fb0fea2d1ed5d">PlaySoundAtCollider</a>, collider, <a class="code hl_enumvalue" href="enums_8h.html#ac5d40ac44ef7d8c38c6c72a71348e360ade92356bfab29717d78b1c328f925cf8">SOUND_SEPARATE_BUSHES</a>, 0) \</div>
+<div class="line">    EVT_CALL(PlaySoundAtCollider, collider, <a class="code hl_enumvalue" href="enums_8h.html#ac5d40ac44ef7d8c38c6c72a71348e360ade92356bfab29717d78b1c328f925cf8">SOUND_SEPARATE_BUSHES</a>, 0) \</div>
 <div class="line">    EVT_SET(<a class="code hl_define" href="script__api_2macros_8h.html#af7850f206b899ed1559a492acdb308c8">LVar0</a>, <a class="code hl_enumvalue" href="jan__09_8h.html#af96be3e9de53e065a22cd7978e05dc5cabf2a65c64708101fa065fd98c1803e92">MV_CliffTopBush1OffsetR</a>) \</div>
 <div class="line">    EVT_SET(<a class="code hl_define" href="script__api_2macros_8h.html#a13b56c3e78338a151ecb7a50a7f4246b">LVar6</a>, 0) \</div>
 <div class="line">    EVT_LOOP(60) \</div>
@@ -150,7 +150,7 @@ Macros</h2></td></tr>
 <div class="line">        EVT_MULF(<a class="code hl_define" href="script__api_2macros_8h.html#a13b56c3e78338a151ecb7a50a7f4246b">LVar6</a>, <a class="code hl_define" href="script__api_2macros_8h.html#a44a1b0e2851fce96e54e41bf92961df3">EVT_FLOAT</a>(0.8)) \</div>
 <div class="line">        EVT_ADDF(<a class="code hl_define" href="script__api_2macros_8h.html#a13b56c3e78338a151ecb7a50a7f4246b">LVar6</a>, <a class="code hl_define" href="script__api_2macros_8h.html#aebc1f3985d6d75a94a36b1476fbf8347">LVar4</a>) \</div>
 <div class="line">        EVT_ADDF(<a class="code hl_define" href="script__api_2macros_8h.html#af7850f206b899ed1559a492acdb308c8">LVar0</a>, <a class="code hl_define" href="script__api_2macros_8h.html#a13b56c3e78338a151ecb7a50a7f4246b">LVar6</a>) \</div>
-<div class="line">        EVT_CALL(<a class="code hl_function" href="script__api_2common_8h.html#a12b01b84e8d89d06457dd6d3d06ab5f7">TranslateModel</a>, bushModel, moveVar, 0, 0) \</div>
+<div class="line">        EVT_CALL(TranslateModel, bushModel, moveVar, 0, 0) \</div>
 <div class="line">        EVT_CALL(N(MoveBush_AnimateShearing), bushModel, <a class="code hl_define" href="script__api_2macros_8h.html#a13b56c3e78338a151ecb7a50a7f4246b">LVar6</a>) \</div>
 <div class="line">        EVT_WAIT(1) \</div>
 <div class="line">    EVT_END_LOOP \</div>
@@ -159,8 +159,6 @@ Macros</h2></td></tr>
 <div class="line">}</div>
 <div class="ttc" id="aenums_8h_html_ac5d40ac44ef7d8c38c6c72a71348e360ade92356bfab29717d78b1c328f925cf8"><div class="ttname"><a href="enums_8h.html#ac5d40ac44ef7d8c38c6c72a71348e360ade92356bfab29717d78b1c328f925cf8">SOUND_SEPARATE_BUSHES</a></div><div class="ttdeci">@ SOUND_SEPARATE_BUSHES</div><div class="ttdef"><b>Definition</b> enums.h:1450</div></div>
 <div class="ttc" id="ajan__09_8h_html_af96be3e9de53e065a22cd7978e05dc5cabf2a65c64708101fa065fd98c1803e92"><div class="ttname"><a href="jan__09_8h.html#af96be3e9de53e065a22cd7978e05dc5cabf2a65c64708101fa065fd98c1803e92">MV_CliffTopBush1OffsetR</a></div><div class="ttdeci">@ MV_CliffTopBush1OffsetR</div><div class="ttdef"><b>Definition</b> jan_09.h:22</div></div>
-<div class="ttc" id="ascript__api_2common_8h_html_a12b01b84e8d89d06457dd6d3d06ab5f7"><div class="ttname"><a href="script__api_2common_8h.html#a12b01b84e8d89d06457dd6d3d06ab5f7">TranslateModel</a></div><div class="ttdeci">ApiStatus TranslateModel(Evt *script, s32 isInitialCall)</div><div class="ttdef"><b>Definition</b> map_api.c:10</div></div>
-<div class="ttc" id="ascript__api_2common_8h_html_acb48828dfddd5c15b42fb0fea2d1ed5d"><div class="ttname"><a href="script__api_2common_8h.html#acb48828dfddd5c15b42fb0fea2d1ed5d">PlaySoundAtCollider</a></div><div class="ttdeci">ApiStatus PlaySoundAtCollider(Evt *script, s32 isInitialCall)</div><div class="ttdef"><b>Definition</b> map_api.c:782</div></div>
 <div class="ttc" id="ascript__api_2macros_8h_html_a13b56c3e78338a151ecb7a50a7f4246b"><div class="ttname"><a href="script__api_2macros_8h.html#a13b56c3e78338a151ecb7a50a7f4246b">LVar6</a></div><div class="ttdeci">#define LVar6</div><div class="ttdef"><b>Definition</b> macros.h:150</div></div>
 <div class="ttc" id="ascript__api_2macros_8h_html_a44a1b0e2851fce96e54e41bf92961df3"><div class="ttname"><a href="script__api_2macros_8h.html#a44a1b0e2851fce96e54e41bf92961df3">EVT_FLOAT</a></div><div class="ttdeci">#define EVT_FLOAT(DOUBLE)</div><div class="ttdef"><b>Definition</b> macros.h:47</div></div>
 <div class="ttc" id="ascript__api_2macros_8h_html_a8c79bf1875b724ddb1c625f63dda4d85"><div class="ttname"><a href="script__api_2macros_8h.html#a8c79bf1875b724ddb1c625f63dda4d85">LVar2</a></div><div class="ttdeci">#define LVar2</div><div class="ttdef"><b>Definition</b> macros.h:146</div></div>
@@ -203,7 +201,7 @@ Macros</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line">{ \</div>
-<div class="line">    EVT_CALL(<a class="code hl_function" href="script__api_2common_8h.html#acb48828dfddd5c15b42fb0fea2d1ed5d">PlaySoundAtCollider</a>, collider, <a class="code hl_enumvalue" href="enums_8h.html#ac5d40ac44ef7d8c38c6c72a71348e360ade92356bfab29717d78b1c328f925cf8">SOUND_SEPARATE_BUSHES</a>, 0) \</div>
+<div class="line">    EVT_CALL(PlaySoundAtCollider, collider, <a class="code hl_enumvalue" href="enums_8h.html#ac5d40ac44ef7d8c38c6c72a71348e360ade92356bfab29717d78b1c328f925cf8">SOUND_SEPARATE_BUSHES</a>, 0) \</div>
 <div class="line">    EVT_SET(<a class="code hl_define" href="script__api_2macros_8h.html#af7850f206b899ed1559a492acdb308c8">LVar0</a>, moveVarL) \</div>
 <div class="line">    EVT_SET(<a class="code hl_define" href="script__api_2macros_8h.html#a9e3cbc9299b697ee1ff5da87b3cc103b">LVar1</a>, moveVarR) \</div>
 <div class="line">    EVT_SET(<a class="code hl_define" href="script__api_2macros_8h.html#a13b56c3e78338a151ecb7a50a7f4246b">LVar6</a>, 0) \</div>
@@ -223,8 +221,8 @@ Macros</h2></td></tr>
 <div class="line">        EVT_ADDF(<a class="code hl_define" href="script__api_2macros_8h.html#a750c6906b14814bc14695af658fcaebe">LVar7</a>, <a class="code hl_define" href="script__api_2macros_8h.html#a677266148f9943bba1c1fad4dc5c6e22">LVar5</a>) \</div>
 <div class="line">        EVT_ADDF(<a class="code hl_define" href="script__api_2macros_8h.html#af7850f206b899ed1559a492acdb308c8">LVar0</a>, <a class="code hl_define" href="script__api_2macros_8h.html#a13b56c3e78338a151ecb7a50a7f4246b">LVar6</a>) \</div>
 <div class="line">        EVT_ADDF(<a class="code hl_define" href="script__api_2macros_8h.html#a9e3cbc9299b697ee1ff5da87b3cc103b">LVar1</a>, <a class="code hl_define" href="script__api_2macros_8h.html#a750c6906b14814bc14695af658fcaebe">LVar7</a>) \</div>
-<div class="line">        EVT_CALL(<a class="code hl_function" href="script__api_2common_8h.html#a12b01b84e8d89d06457dd6d3d06ab5f7">TranslateModel</a>, bushModelL, moveVarL, 0, 0) \</div>
-<div class="line">        EVT_CALL(<a class="code hl_function" href="script__api_2common_8h.html#a12b01b84e8d89d06457dd6d3d06ab5f7">TranslateModel</a>, bushmodelR, moveVarR, 0, 0) \</div>
+<div class="line">        EVT_CALL(TranslateModel, bushModelL, moveVarL, 0, 0) \</div>
+<div class="line">        EVT_CALL(TranslateModel, bushmodelR, moveVarR, 0, 0) \</div>
 <div class="line">        EVT_CALL(N(MoveBush_AnimateShearing), bushModelL, <a class="code hl_define" href="script__api_2macros_8h.html#a13b56c3e78338a151ecb7a50a7f4246b">LVar6</a>) \</div>
 <div class="line">        EVT_CALL(N(MoveBush_AnimateShearing), bushmodelR, <a class="code hl_define" href="script__api_2macros_8h.html#a750c6906b14814bc14695af658fcaebe">LVar7</a>) \</div>
 <div class="line">        EVT_WAIT(1) \</div>

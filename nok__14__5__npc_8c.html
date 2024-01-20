@@ -187,13 +187,12 @@ Variables</h2></td></tr>
 <b>Initial value:</b><div class="fragment"><div class="line">= {</div>
 <div class="line"> </div>
 <div class="line"> </div>
-<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a7c09e8c76b51d5be8aeadc85751ff8f0">EVT_CALL</a>(<a class="code hl_function" href="script__api_2common_8h.html#ae92c544091e7f1858cb4aca51124c825">BindNpcIdle</a>, <a class="code hl_enumvalue" href="enums_8h.html#a8ed30857fb1bfefd4de61c6f02040634a0664795bf4a295e3c87e422eadf6870b">NPC_SELF</a>, <a class="code hl_define" href="script__api_2macros_8h.html#a5c78949040b032c6e0c50c2e78e2f7cb">EVT_PTR</a>( <a class="code hl_variable" href="#a7025370313f7623c3bfe5b368a92200f">EVS_NpcIdle_KoopaTroopa_01</a> ))</div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a7c09e8c76b51d5be8aeadc85751ff8f0">EVT_CALL</a>(BindNpcIdle, <a class="code hl_enumvalue" href="enums_8h.html#a8ed30857fb1bfefd4de61c6f02040634a0664795bf4a295e3c87e422eadf6870b">NPC_SELF</a>, <a class="code hl_define" href="script__api_2macros_8h.html#a5c78949040b032c6e0c50c2e78e2f7cb">EVT_PTR</a>( <a class="code hl_variable" href="#a7025370313f7623c3bfe5b368a92200f">EVS_NpcIdle_KoopaTroopa_01</a> ))</div>
 <div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#aa49b4615589f142fe396afa06f44ec5e">EVT_RETURN</a></div>
 <div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a1eb5d3206784e72fb8b5bf5cc7228553">EVT_END</a></div>
 <div class="line">}</div>
 <div class="ttc" id="aenums_8h_html_a8ed30857fb1bfefd4de61c6f02040634a0664795bf4a295e3c87e422eadf6870b"><div class="ttname"><a href="enums_8h.html#a8ed30857fb1bfefd4de61c6f02040634a0664795bf4a295e3c87e422eadf6870b">NPC_SELF</a></div><div class="ttdeci">@ NPC_SELF</div><div class="ttdef"><b>Definition</b> enums.h:2529</div></div>
 <div class="ttc" id="anok__14__5__npc_8c_html_a7025370313f7623c3bfe5b368a92200f"><div class="ttname"><a href="#a7025370313f7623c3bfe5b368a92200f">EVS_NpcIdle_KoopaTroopa_01</a></div><div class="ttdeci">EvtScript EVS_NpcIdle_KoopaTroopa_01</div><div class="ttdef"><b>Definition</b> nok_14_5_npc.c:8</div></div>
-<div class="ttc" id="ascript__api_2common_8h_html_ae92c544091e7f1858cb4aca51124c825"><div class="ttname"><a href="script__api_2common_8h.html#ae92c544091e7f1858cb4aca51124c825">BindNpcIdle</a></div><div class="ttdeci">ApiStatus BindNpcIdle(Evt *script, s32 isInitialCall)</div><div class="ttdef"><b>Definition</b> encounter_api.c:388</div></div>
 <div class="ttc" id="ascript__api_2macros_8h_html_a1eb5d3206784e72fb8b5bf5cc7228553"><div class="ttname"><a href="script__api_2macros_8h.html#a1eb5d3206784e72fb8b5bf5cc7228553">EVT_END</a></div><div class="ttdeci">#define EVT_END</div><div class="ttdoc">Signals the end of EVT script data. A script missing this will likely crash on load.</div><div class="ttdef"><b>Definition</b> macros.h:225</div></div>
 <div class="ttc" id="ascript__api_2macros_8h_html_a5c78949040b032c6e0c50c2e78e2f7cb"><div class="ttname"><a href="script__api_2macros_8h.html#a5c78949040b032c6e0c50c2e78e2f7cb">EVT_PTR</a></div><div class="ttdeci">#define EVT_PTR(sym)</div><div class="ttdoc">Address/pointer constant.</div><div class="ttdef"><b>Definition</b> macros.h:56</div></div>
 <div class="ttc" id="ascript__api_2macros_8h_html_a7c09e8c76b51d5be8aeadc85751ff8f0"><div class="ttname"><a href="script__api_2macros_8h.html#a7c09e8c76b51d5be8aeadc85751ff8f0">EVT_CALL</a></div><div class="ttdeci">#define EVT_CALL(FUNC, ARGS...)</div><div class="ttdoc">Calls a given C EVT API function with any number of arguments.</div><div class="ttdef"><b>Definition</b> macros.h:588</div></div>
@@ -350,7 +349,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line">    .id = <a class="code hl_enumvalue" href="kmr__05_8h.html#ab719707cad671ce69bd3b488843e06b9a02cf09361551cca6e3c8b990151e9c24">NPC_SpikedGoomba</a>,</div>
+<div class="line">    .id = <a class="code hl_enumvalue" href="kmr__05_8h.html#a58b98adda5166b03a45242e2d118c5e1a02cf09361551cca6e3c8b990151e9c24">NPC_SpikedGoomba</a>,</div>
 <div class="line">    .pos = { -257.0f, 0.0f, -47.0f },</div>
 <div class="line">    .yaw = 90,</div>
 <div class="line">    .territory = {</div>
@@ -373,7 +372,7 @@ Variables</h2></td></tr>
 <div class="ttc" id="aSpikedGoomba_8h_html_a7db04f6e820e5c6e7f0a78b5f26f3cda"><div class="ttname"><a href="SpikedGoomba_8h.html#a7db04f6e820e5c6e7f0a78b5f26f3cda">SPIKED_GOOMBA_DROPS</a></div><div class="ttdeci">#define SPIKED_GOOMBA_DROPS</div><div class="ttdef"><b>Definition</b> SpikedGoomba.h:4</div></div>
 <div class="ttc" id="aSpikedGoomba_8h_html_a9d1156a62f28ed5a2f2d84a516dc9a6c"><div class="ttname"><a href="SpikedGoomba_8h.html#a9d1156a62f28ed5a2f2d84a516dc9a6c">SPIKED_GOOMBA_ANIMS</a></div><div class="ttdeci">#define SPIKED_GOOMBA_ANIMS</div><div class="ttdef"><b>Definition</b> SpikedGoomba.h:17</div></div>
 <div class="ttc" id="aSpikedGoomba__Wander_8inc_8c_html_a747f6202c7cd856f3cc7495d1584c156"><div class="ttname"><a href="SpikedGoomba__Wander_8inc_8c.html#a747f6202c7cd856f3cc7495d1584c156">NpcSettings_SpikedGoomba_Wander</a></div><div class="ttdeci">NpcSettings NpcSettings_SpikedGoomba_Wander</div><div class="ttdef"><b>Definition</b> SpikedGoomba_Wander.inc.c:22</div></div>
-<div class="ttc" id="akmr__05_8h_html_ab719707cad671ce69bd3b488843e06b9a02cf09361551cca6e3c8b990151e9c24"><div class="ttname"><a href="kmr__05_8h.html#ab719707cad671ce69bd3b488843e06b9a02cf09361551cca6e3c8b990151e9c24">NPC_SpikedGoomba</a></div><div class="ttdeci">@ NPC_SpikedGoomba</div><div class="ttdef"><b>Definition</b> kmr_05.h:20</div></div>
+<div class="ttc" id="akmr__05_8h_html_a58b98adda5166b03a45242e2d118c5e1a02cf09361551cca6e3c8b990151e9c24"><div class="ttname"><a href="kmr__05_8h.html#a58b98adda5166b03a45242e2d118c5e1a02cf09361551cca6e3c8b990151e9c24">NPC_SpikedGoomba</a></div><div class="ttdeci">@ NPC_SpikedGoomba</div><div class="ttdef"><b>Definition</b> kmr_05.h:20</div></div>
 </div><!-- fragment -->
 </div>
 </div>

@@ -1,18 +1,5 @@
 var script__api_2map_8h =
 [
-    [ "BasicAI_Main", "script__api_2map_8h.html#a1c0cd1c7d8abe3f9aaefb8230adcf48f", null ],
-    [ "CheckActionState", "script__api_2map_8h.html#ad04cf3c95069b5db7bf3ea16dca371b8", null ],
-    [ "CreateMapRoom", "script__api_2map_8h.html#a76f324a05d451b9095d858644ef80bf6", null ],
-    [ "CreatePushBlockGrid", "script__api_2map_8h.html#a0fc6dc8ed3f81c556a608a0f656eb071", null ],
-    [ "GetGridIndexFromPos", "script__api_2map_8h.html#a354ceb518692c428586cd9cee637c40a", null ],
-    [ "GetPushBlock", "script__api_2map_8h.html#a6678b6bdd433c86e2d2622035e33756d", null ],
-    [ "MakeNpcs", "script__api_2map_8h.html#a21740e39af36de0cfd0649b22aff0359", null ],
-    [ "MakeShop", "script__api_2map_8h.html#aec0b270c7639ad5f6d126459abc75112", null ],
-    [ "MakeShopOwner", "script__api_2map_8h.html#a370ccab2c319d4b472b2fa5e2e81b49d", null ],
-    [ "ResetFromLava", "script__api_2map_8h.html#a86fc575d9f98a0bcb1f05a5fae8e12de", null ],
-    [ "SetPushBlock", "script__api_2map_8h.html#a4284a091b9e5c8155f451fab59440313", null ],
-    [ "SetPushBlockFallEffect", "script__api_2map_8h.html#a5e4851fb3f75bd39705e8497ffcc6416", null ],
-    [ "TeleportPartnerToPlayer", "script__api_2map_8h.html#ae88c70376fce6236f63f152e2ee482ce", null ],
     [ "BaseEnterDoor", "script__api_2map_8h.html#acf23d85dcf643a857a7c1e5c8a1bc9ce", null ],
     [ "BaseExitDoor", "script__api_2map_8h.html#ad96cf7e29cf6213968929da5d5ab535b", null ],
     [ "EnterDoubleDoor", "script__api_2map_8h.html#a6956d3258ff218ea4c26b5d64ad39a34", null ],

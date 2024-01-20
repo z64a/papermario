@@ -161,14 +161,13 @@ Variables</h2></td></tr>
 <div class="line"> </div>
 <div class="line"> </div>
 <div class="line">        <a class="code hl_define" href="script__api_2macros_8h.html#ac5cb42a655e177436b4a097c53e97762">EVT_CASE_DEFAULT</a></div>
-<div class="line">            <a class="code hl_define" href="script__api_2macros_8h.html#a7c09e8c76b51d5be8aeadc85751ff8f0">EVT_CALL</a>(<a class="code hl_function" href="script__api_2common_8h.html#a06d6d564f905b5410761c0da0f5ad3de">BindNpcInteract</a>, <a class="code hl_enumvalue" href="enums_8h.html#a8ed30857fb1bfefd4de61c6f02040634a0664795bf4a295e3c87e422eadf6870b">NPC_SELF</a>, <a class="code hl_define" href="script__api_2macros_8h.html#a5c78949040b032c6e0c50c2e78e2f7cb">EVT_PTR</a>( <a class="code hl_variable" href="#af845f96b56b10cb2c373124017ce1cc0">EVS_NpcInteract_Toad</a> ))</div>
+<div class="line">            <a class="code hl_define" href="script__api_2macros_8h.html#a7c09e8c76b51d5be8aeadc85751ff8f0">EVT_CALL</a>(BindNpcInteract, <a class="code hl_enumvalue" href="enums_8h.html#a8ed30857fb1bfefd4de61c6f02040634a0664795bf4a295e3c87e422eadf6870b">NPC_SELF</a>, <a class="code hl_define" href="script__api_2macros_8h.html#a5c78949040b032c6e0c50c2e78e2f7cb">EVT_PTR</a>( <a class="code hl_variable" href="#af845f96b56b10cb2c373124017ce1cc0">EVS_NpcInteract_Toad</a> ))</div>
 <div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#ac6fbdcfa971560087532c99ce65554cf">EVT_END_SWITCH</a></div>
 <div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#aa49b4615589f142fe396afa06f44ec5e">EVT_RETURN</a></div>
 <div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a1eb5d3206784e72fb8b5bf5cc7228553">EVT_END</a></div>
 <div class="line">}</div>
 <div class="ttc" id="aenums_8h_html_a8ed30857fb1bfefd4de61c6f02040634a0664795bf4a295e3c87e422eadf6870b"><div class="ttname"><a href="enums_8h.html#a8ed30857fb1bfefd4de61c6f02040634a0664795bf4a295e3c87e422eadf6870b">NPC_SELF</a></div><div class="ttdeci">@ NPC_SELF</div><div class="ttdef"><b>Definition</b> enums.h:2529</div></div>
 <div class="ttc" id="aosr__01__3__npc_8c_html_af845f96b56b10cb2c373124017ce1cc0"><div class="ttname"><a href="#af845f96b56b10cb2c373124017ce1cc0">EVS_NpcInteract_Toad</a></div><div class="ttdeci">EvtScript EVS_NpcInteract_Toad</div><div class="ttdef"><b>Definition</b> osr_01_3_npc.c:34</div></div>
-<div class="ttc" id="ascript__api_2common_8h_html_a06d6d564f905b5410761c0da0f5ad3de"><div class="ttname"><a href="script__api_2common_8h.html#a06d6d564f905b5410761c0da0f5ad3de">BindNpcInteract</a></div><div class="ttdeci">ApiStatus BindNpcInteract(Evt *script, s32 isInitialCall)</div><div class="ttdef"><b>Definition</b> encounter_api.c:584</div></div>
 <div class="ttc" id="ascript__api_2macros_8h_html_a1eb5d3206784e72fb8b5bf5cc7228553"><div class="ttname"><a href="script__api_2macros_8h.html#a1eb5d3206784e72fb8b5bf5cc7228553">EVT_END</a></div><div class="ttdeci">#define EVT_END</div><div class="ttdoc">Signals the end of EVT script data. A script missing this will likely crash on load.</div><div class="ttdef"><b>Definition</b> macros.h:225</div></div>
 <div class="ttc" id="ascript__api_2macros_8h_html_a5c78949040b032c6e0c50c2e78e2f7cb"><div class="ttname"><a href="script__api_2macros_8h.html#a5c78949040b032c6e0c50c2e78e2f7cb">EVT_PTR</a></div><div class="ttdeci">#define EVT_PTR(sym)</div><div class="ttdoc">Address/pointer constant.</div><div class="ttdef"><b>Definition</b> macros.h:56</div></div>
 <div class="ttc" id="ascript__api_2macros_8h_html_a7c09e8c76b51d5be8aeadc85751ff8f0"><div class="ttname"><a href="script__api_2macros_8h.html#a7c09e8c76b51d5be8aeadc85751ff8f0">EVT_CALL</a></div><div class="ttdeci">#define EVT_CALL(FUNC, ARGS...)</div><div class="ttdoc">Calls a given C EVT API function with any number of arguments.</div><div class="ttdef"><b>Definition</b> macros.h:588</div></div>
@@ -211,7 +210,7 @@ Variables</h2></td></tr>
 <div class="line"> </div>
 <div class="line"> </div>
 <div class="line"> </div>
-<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a7c09e8c76b51d5be8aeadc85751ff8f0">EVT_CALL</a>(<a class="code hl_function" href="script__api_2common_8h.html#a44d52710dfbc98bb42d6eb6cb9568d7d">SetCamPitch</a>, <a class="code hl_enumvalue" href="enums_8h.html#afbfbe32aeee992982c90abc082d07959a2f6ecd22976cb0662ad27ae8b43256c1">CAM_DEFAULT</a>, <a class="code hl_define" href="script__api_2macros_8h.html#a44a1b0e2851fce96e54e41bf92961df3">EVT_FLOAT</a>(3.0), <a class="code hl_define" href="script__api_2macros_8h.html#a44a1b0e2851fce96e54e41bf92961df3">EVT_FLOAT</a>(-10.0))</div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a7c09e8c76b51d5be8aeadc85751ff8f0">EVT_CALL</a>(SetCamPitch, <a class="code hl_enumvalue" href="enums_8h.html#afbfbe32aeee992982c90abc082d07959a2f6ecd22976cb0662ad27ae8b43256c1">CAM_DEFAULT</a>, <a class="code hl_define" href="script__api_2macros_8h.html#a44a1b0e2851fce96e54e41bf92961df3">EVT_FLOAT</a>(3.0), <a class="code hl_define" href="script__api_2macros_8h.html#a44a1b0e2851fce96e54e41bf92961df3">EVT_FLOAT</a>(-10.0))</div>
 <div class="line"> </div>
 <div class="line"> </div>
 <div class="line"> </div>
@@ -224,7 +223,6 @@ Variables</h2></td></tr>
 <div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a1eb5d3206784e72fb8b5bf5cc7228553">EVT_END</a></div>
 <div class="line">}</div>
 <div class="ttc" id="aenums_8h_html_afbfbe32aeee992982c90abc082d07959a2f6ecd22976cb0662ad27ae8b43256c1"><div class="ttname"><a href="enums_8h.html#afbfbe32aeee992982c90abc082d07959a2f6ecd22976cb0662ad27ae8b43256c1">CAM_DEFAULT</a></div><div class="ttdeci">@ CAM_DEFAULT</div><div class="ttdef"><b>Definition</b> enums.h:1800</div></div>
-<div class="ttc" id="ascript__api_2common_8h_html_a44d52710dfbc98bb42d6eb6cb9568d7d"><div class="ttname"><a href="script__api_2common_8h.html#a44d52710dfbc98bb42d6eb6cb9568d7d">SetCamPitch</a></div><div class="ttdeci">ApiStatus SetCamPitch(Evt *script, s32 isInitialCall)</div><div class="ttdef"><b>Definition</b> cam_api.c:432</div></div>
 <div class="ttc" id="ascript__api_2macros_8h_html_a44a1b0e2851fce96e54e41bf92961df3"><div class="ttname"><a href="script__api_2macros_8h.html#a44a1b0e2851fce96e54e41bf92961df3">EVT_FLOAT</a></div><div class="ttdeci">#define EVT_FLOAT(DOUBLE)</div><div class="ttdef"><b>Definition</b> macros.h:47</div></div>
 </div><!-- fragment -->
 </div>
@@ -259,7 +257,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line">    .id = <a class="code hl_enumvalue" href="dro__02_8h.html#a173f34c053cf8ba70e5f775cd03196f4a055de68d10eb10fb60b9bc3cf2a4459c">NPC_Toad</a>,</div>
+<div class="line">    .id = <a class="code hl_enumvalue" href="dro__02_8h.html#a20a66f99673ff3efefccf3a6a6f19f65a055de68d10eb10fb60b9bc3cf2a4459c">NPC_Toad</a>,</div>
 <div class="line">    .pos = { 25.0f, 0.0f, 130.0f },</div>
 <div class="line">    .yaw = 270,</div>
 <div class="line">    .init = &amp; <a class="code hl_variable" href="#aeb8cd463454a007cfe08ac1f7ef26d33">EVS_NpcInit_Toad</a> ,</div>
@@ -271,7 +269,7 @@ Variables</h2></td></tr>
 <div class="line">}</div>
 <div class="ttc" id="aToad_8h_html_a96ecfc6b223852921547f89654e0fffa"><div class="ttname"><a href="Toad_8h.html#a96ecfc6b223852921547f89654e0fffa">TOAD_RED_ANIMS</a></div><div class="ttdeci">#define TOAD_RED_ANIMS</div><div class="ttdef"><b>Definition</b> Toad.h:4</div></div>
 <div class="ttc" id="aToad__Stationary_8inc_8c_html_acd501b23928e1d793b07f15d0a59e312"><div class="ttname"><a href="Toad__Stationary_8inc_8c.html#acd501b23928e1d793b07f15d0a59e312">NpcSettings_Toad_Stationary</a></div><div class="ttdeci">NpcSettings NpcSettings_Toad_Stationary</div><div class="ttdef"><b>Definition</b> Toad_Stationary.inc.c:3</div></div>
-<div class="ttc" id="adro__02_8h_html_a173f34c053cf8ba70e5f775cd03196f4a055de68d10eb10fb60b9bc3cf2a4459c"><div class="ttname"><a href="dro__02_8h.html#a173f34c053cf8ba70e5f775cd03196f4a055de68d10eb10fb60b9bc3cf2a4459c">NPC_Toad</a></div><div class="ttdeci">@ NPC_Toad</div><div class="ttdef"><b>Definition</b> dro_02.h:26</div></div>
+<div class="ttc" id="adro__02_8h_html_a20a66f99673ff3efefccf3a6a6f19f65a055de68d10eb10fb60b9bc3cf2a4459c"><div class="ttname"><a href="dro__02_8h.html#a20a66f99673ff3efefccf3a6a6f19f65a055de68d10eb10fb60b9bc3cf2a4459c">NPC_Toad</a></div><div class="ttdeci">@ NPC_Toad</div><div class="ttdef"><b>Definition</b> dro_02.h:26</div></div>
 <div class="ttc" id="aenums_8h_html_a7de157db6798346d411421949f294617a1ff17418c43dc2e914d8794ebabd1ef1"><div class="ttname"><a href="enums_8h.html#a7de157db6798346d411421949f294617a1ff17418c43dc2e914d8794ebabd1ef1">ENEMY_FLAG_100000</a></div><div class="ttdeci">@ ENEMY_FLAG_100000</div><div class="ttdef"><b>Definition</b> enums.h:4512</div></div>
 <div class="ttc" id="aenums_8h_html_a7de157db6798346d411421949f294617a8d25acba0f36791f9e1e402d24dfda93"><div class="ttname"><a href="enums_8h.html#a7de157db6798346d411421949f294617a8d25acba0f36791f9e1e402d24dfda93">ENEMY_FLAG_10000</a></div><div class="ttdeci">@ ENEMY_FLAG_10000</div><div class="ttdef"><b>Definition</b> enums.h:4508</div></div>
 <div class="ttc" id="aenums_8h_html_a7de157db6798346d411421949f294617ab191039559abaa6be9d7765e05cec539"><div class="ttname"><a href="enums_8h.html#a7de157db6798346d411421949f294617ab191039559abaa6be9d7765e05cec539">ENEMY_FLAG_NO_SHADOW_RAYCAST</a></div><div class="ttdeci">@ ENEMY_FLAG_NO_SHADOW_RAYCAST</div><div class="ttdef"><b>Definition</b> enums.h:4505</div></div>

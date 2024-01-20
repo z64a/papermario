@@ -4,6 +4,10 @@ var msg__data_8c =
     [ "MsgCharDataNormal", "msg__data_8c.html#a1b8cf1a9220550e502849101225cdfaa", null ],
     [ "MsgCharDataSubtitle", "msg__data_8c.html#a1324992659ebd8710732d9db86af17f0", null ],
     [ "MsgCharDataTitle", "msg__data_8c.html#a43576ba21501e2be16cbbb3a93472e39", null ],
+    [ "MsgCharImgKana", "msg__data_8c.html#a914f4cdd0f8e62a49f1498a347924f96", null ],
+    [ "MsgCharImgLatin", "msg__data_8c.html#a187f642c341f027d4a05453f3c58abda", null ],
+    [ "MsgCharImgMenuKana", "msg__data_8c.html#a3c6462c79c40fa7b9a91058030f4364d", null ],
+    [ "MsgCharImgMenuLatin", "msg__data_8c.html#a8a54387d08e907e4538320abb3b34afe", null ],
     [ "MsgCharImgNormal", "msg__data_8c.html#aa042ded38330cdb99627f61212649711", null ],
     [ "MsgCharImgSubtitle", "msg__data_8c.html#a2d0c996edb1c95d6d6300790fd6bebb6", null ],
     [ "MsgCharImgTitle", "msg__data_8c.html#a5a9dfc28a133f8aafb56cb37c6bdec66", null ],
@@ -16,7 +20,7 @@ var msg__data_8c =
     [ "MsgCharWidthSubtitle", "msg__data_8c.html#a07543cbba42e7452c5d6056ab24aa271", null ],
     [ "MsgCharWidthTitle", "msg__data_8c.html#a6d17a9c86ca0dc6c77f6536a60896748", null ],
     [ "MsgLetterPaletteOffsets", "msg__data_8c.html#ab96e6d62ba19d821adaff793d1e92fe5", null ],
-    [ "MsgLetterRasterOffsets", "msg__data_8c.html#a3f89a8d23dc4883daa02e59f08841960", null ],
+    [ "MsgLetterRasterOffsets", "msg__data_8c.html#a5c94cb1c0c0b78392a80543a37dab5e0", null ],
     [ "MsgStyleVerticalLineOffsets", "msg__data_8c.html#a4766736226310e4a0f38010ec755cf72", null ],
     [ "MsgVoices", "msg__data_8c.html#a027c55051e18fb8047496b871256b565", null ]
 ];

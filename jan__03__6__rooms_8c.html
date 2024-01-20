@@ -237,7 +237,7 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= {</div>
 <div class="line">    </div>
-<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a7c09e8c76b51d5be8aeadc85751ff8f0">EVT_CALL</a>(<a class="code hl_function" href="script__api_2map_8h.html#a76f324a05d451b9095d858644ef80bf6">CreateMapRoom</a>,</div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a7c09e8c76b51d5be8aeadc85751ff8f0">EVT_CALL</a>(CreateMapRoom,</div>
 <div class="line">        <a class="code hl_define" href="macros_8h.html#a87e85f121e838f205bba593dfdff46f5">PACK_ROOM_FLAGS</a>(<a class="code hl_enumvalue" href="enums_8h.html#a827450ae6b7f4356908a9cc7f2bf060ba0a2fb75fa910d5022c2961ebc1e14da5">VIS_GROUP_1</a>, <a class="code hl_enumvalue" href="enums_8h.html#a4c242b71d8ee9448266cb37ae4facb65afb1f9bac64b3c47819b3bd05aeb2091e">ROOM_LARGE_DOOR_RIGHT_HINGE_OPENS_IN</a>),</div>
 <div class="line">        <a class="code hl_define" href="script__api_2macros_8h.html#a5c78949040b032c6e0c50c2e78e2f7cb">EVT_PTR</a>( <a class="code hl_variable" href="#aa1d5dca7787dc51fbdb225dbabc5c187">EVS_SetDoorRot_Shop</a> ),</div>
 <div class="line">        <a class="code hl_define" href="script__api_2macros_8h.html#a5c78949040b032c6e0c50c2e78e2f7cb">EVT_PTR</a>( <a class="code hl_variable" href="#afc167ecf9383810c4694fe7bbcd5a2cc">EVS_SetWallRot_Shop</a> ),</div>
@@ -250,7 +250,7 @@ Variables</h2></td></tr>
 <div class="line"> </div>
 <div class="line"> </div>
 <div class="line">    </div>
-<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a7c09e8c76b51d5be8aeadc85751ff8f0">EVT_CALL</a>(<a class="code hl_function" href="script__api_2map_8h.html#a76f324a05d451b9095d858644ef80bf6">CreateMapRoom</a>,</div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a7c09e8c76b51d5be8aeadc85751ff8f0">EVT_CALL</a>(CreateMapRoom,</div>
 <div class="line">        <a class="code hl_define" href="macros_8h.html#a87e85f121e838f205bba593dfdff46f5">PACK_ROOM_FLAGS</a>(<a class="code hl_enumvalue" href="enums_8h.html#a827450ae6b7f4356908a9cc7f2bf060bab1710aded465f2b27fc208c449978095">VIS_GROUP_0</a>, <a class="code hl_enumvalue" href="enums_8h.html#a4c242b71d8ee9448266cb37ae4facb65a37dffd3404a7d60a90024b3ba4c05fc9">ROOM_LARGE_DOOR_RIGHT_HINGE_OPENS_OUT</a>),</div>
 <div class="line">        <a class="code hl_define" href="script__api_2macros_8h.html#a5c78949040b032c6e0c50c2e78e2f7cb">EVT_PTR</a>( <a class="code hl_variable" href="#a0665d924850c7dde08ba421cc416ece4">EVS_SetDoorRot_ToadHouse</a> ),</div>
 <div class="line">        <a class="code hl_define" href="script__api_2macros_8h.html#a5c78949040b032c6e0c50c2e78e2f7cb">EVT_PTR</a>( <a class="code hl_variable" href="#a8a1a1a18b89dfe4159b1dbe43bd2a943">EVS_SetWallRot_ToadHouse</a> ),</div>
@@ -284,7 +284,6 @@ Variables</h2></td></tr>
 <div class="ttc" id="amacros_8h_html_a87e85f121e838f205bba593dfdff46f5"><div class="ttname"><a href="macros_8h.html#a87e85f121e838f205bba593dfdff46f5">PACK_ROOM_FLAGS</a></div><div class="ttdeci">#define PACK_ROOM_FLAGS(itemVisGroup, roomFlags)</div><div class="ttdef"><b>Definition</b> macros.h:187</div></div>
 <div class="ttc" id="ascript__api_2macros_8h_html_a5c78949040b032c6e0c50c2e78e2f7cb"><div class="ttname"><a href="script__api_2macros_8h.html#a5c78949040b032c6e0c50c2e78e2f7cb">EVT_PTR</a></div><div class="ttdeci">#define EVT_PTR(sym)</div><div class="ttdoc">Address/pointer constant.</div><div class="ttdef"><b>Definition</b> macros.h:56</div></div>
 <div class="ttc" id="ascript__api_2macros_8h_html_a7c09e8c76b51d5be8aeadc85751ff8f0"><div class="ttname"><a href="script__api_2macros_8h.html#a7c09e8c76b51d5be8aeadc85751ff8f0">EVT_CALL</a></div><div class="ttdeci">#define EVT_CALL(FUNC, ARGS...)</div><div class="ttdoc">Calls a given C EVT API function with any number of arguments.</div><div class="ttdef"><b>Definition</b> macros.h:588</div></div>
-<div class="ttc" id="ascript__api_2map_8h_html_a76f324a05d451b9095d858644ef80bf6"><div class="ttname"><a href="script__api_2map_8h.html#a76f324a05d451b9095d858644ef80bf6">CreateMapRoom</a></div><div class="ttdeci">ApiStatus CreateMapRoom(Evt *script, s32 isInitialCall)</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -342,10 +341,10 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line">    <a class="code hl_enumvalue" href="jan__02_8h.html#a2215bf270a4991ca057bb6efb294846ba5cb687f6b162fe51f719371a41a457b0">NPC_Yoshi_01</a>,</div>
+<div class="line">    <a class="code hl_enumvalue" href="jan__02_8h.html#aded9ca14dda7907d5a7b2bf085928aafa5cb687f6b162fe51f719371a41a457b0">NPC_Yoshi_01</a>,</div>
 <div class="line">    -1</div>
 <div class="line">}</div>
-<div class="ttc" id="ajan__02_8h_html_a2215bf270a4991ca057bb6efb294846ba5cb687f6b162fe51f719371a41a457b0"><div class="ttname"><a href="jan__02_8h.html#a2215bf270a4991ca057bb6efb294846ba5cb687f6b162fe51f719371a41a457b0">NPC_Yoshi_01</a></div><div class="ttdeci">@ NPC_Yoshi_01</div><div class="ttdef"><b>Definition</b> jan_02.h:17</div></div>
+<div class="ttc" id="ajan__02_8h_html_aded9ca14dda7907d5a7b2bf085928aafa5cb687f6b162fe51f719371a41a457b0"><div class="ttname"><a href="jan__02_8h.html#aded9ca14dda7907d5a7b2bf085928aafa5cb687f6b162fe51f719371a41a457b0">NPC_Yoshi_01</a></div><div class="ttdeci">@ NPC_Yoshi_01</div><div class="ttdef"><b>Definition</b> jan_02.h:17</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -361,10 +360,10 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line">    <a class="code hl_enumvalue" href="dro__02_8h.html#a173f34c053cf8ba70e5f775cd03196f4a055de68d10eb10fb60b9bc3cf2a4459c">NPC_Toad</a>,</div>
+<div class="line">    <a class="code hl_enumvalue" href="dro__02_8h.html#a20a66f99673ff3efefccf3a6a6f19f65a055de68d10eb10fb60b9bc3cf2a4459c">NPC_Toad</a>,</div>
 <div class="line">    -1</div>
 <div class="line">}</div>
-<div class="ttc" id="adro__02_8h_html_a173f34c053cf8ba70e5f775cd03196f4a055de68d10eb10fb60b9bc3cf2a4459c"><div class="ttname"><a href="dro__02_8h.html#a173f34c053cf8ba70e5f775cd03196f4a055de68d10eb10fb60b9bc3cf2a4459c">NPC_Toad</a></div><div class="ttdeci">@ NPC_Toad</div><div class="ttdef"><b>Definition</b> dro_02.h:26</div></div>
+<div class="ttc" id="adro__02_8h_html_a20a66f99673ff3efefccf3a6a6f19f65a055de68d10eb10fb60b9bc3cf2a4459c"><div class="ttname"><a href="dro__02_8h.html#a20a66f99673ff3efefccf3a6a6f19f65a055de68d10eb10fb60b9bc3cf2a4459c">NPC_Toad</a></div><div class="ttdeci">@ NPC_Toad</div><div class="ttdef"><b>Definition</b> dro_02.h:26</div></div>
 </div><!-- fragment -->
 </div>
 </div>

@@ -248,7 +248,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a7c09e8c76b51d5be8aeadc85751ff8f0">EVT_CALL</a>(<a class="code hl_function" href="script__api_2common_8h.html#a2cb1e081354c5783f3ec741b51875278">BindNpcAux</a>, <a class="code hl_enumvalue" href="enums_8h.html#a8ed30857fb1bfefd4de61c6f02040634a0664795bf4a295e3c87e422eadf6870b">NPC_SELF</a>, <a class="code hl_define" href="script__api_2macros_8h.html#a5c78949040b032c6e0c50c2e78e2f7cb">EVT_PTR</a>( <a class="code hl_variable" href="#a42963ffde4154623ac1faa904e5229c0">EVS_NpcAux_Kammy_Broom</a> ))</div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a7c09e8c76b51d5be8aeadc85751ff8f0">EVT_CALL</a>(BindNpcAux, <a class="code hl_enumvalue" href="enums_8h.html#a8ed30857fb1bfefd4de61c6f02040634a0664795bf4a295e3c87e422eadf6870b">NPC_SELF</a>, <a class="code hl_define" href="script__api_2macros_8h.html#a5c78949040b032c6e0c50c2e78e2f7cb">EVT_PTR</a>( <a class="code hl_variable" href="#a42963ffde4154623ac1faa904e5229c0">EVS_NpcAux_Kammy_Broom</a> ))</div>
 <div class="line"> </div>
 <div class="line"> </div>
 <div class="line"> </div>
@@ -257,7 +257,6 @@ Variables</h2></td></tr>
 <div class="line">}</div>
 <div class="ttc" id="aenums_8h_html_a8ed30857fb1bfefd4de61c6f02040634a0664795bf4a295e3c87e422eadf6870b"><div class="ttname"><a href="enums_8h.html#a8ed30857fb1bfefd4de61c6f02040634a0664795bf4a295e3c87e422eadf6870b">NPC_SELF</a></div><div class="ttdeci">@ NPC_SELF</div><div class="ttdef"><b>Definition</b> enums.h:2529</div></div>
 <div class="ttc" id="akkj__25__4__npc__final_8c_html_a42963ffde4154623ac1faa904e5229c0"><div class="ttname"><a href="#a42963ffde4154623ac1faa904e5229c0">EVS_NpcAux_Kammy_Broom</a></div><div class="ttdeci">EvtScript EVS_NpcAux_Kammy_Broom</div><div class="ttdef"><b>Definition</b> kkj_25_4_npc_final.c:18</div></div>
-<div class="ttc" id="ascript__api_2common_8h_html_a2cb1e081354c5783f3ec741b51875278"><div class="ttname"><a href="script__api_2common_8h.html#a2cb1e081354c5783f3ec741b51875278">BindNpcAux</a></div><div class="ttdeci">ApiStatus BindNpcAux(Evt *script, s32 isInitialCall)</div><div class="ttdef"><b>Definition</b> encounter_api.c:509</div></div>
 <div class="ttc" id="ascript__api_2macros_8h_html_a7c09e8c76b51d5be8aeadc85751ff8f0"><div class="ttname"><a href="script__api_2macros_8h.html#a7c09e8c76b51d5be8aeadc85751ff8f0">EVT_CALL</a></div><div class="ttdeci">#define EVT_CALL(FUNC, ARGS...)</div><div class="ttdoc">Calls a given C EVT API function with any number of arguments.</div><div class="ttdef"><b>Definition</b> macros.h:588</div></div>
 </div><!-- fragment -->
 </div>
@@ -575,7 +574,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line">    .id = <a class="code hl_enumvalue" href="hos__05_8h.html#a5347260c3611a5e649db7a4a8370d3c5a49fde7aaec73837d092fe27b23f86cd2">NPC_StarRod</a>,</div>
+<div class="line">    .id = <a class="code hl_enumvalue" href="hos__05_8h.html#a5ae760a5c9b7253fc22419bcd09c6a5ea49fde7aaec73837d092fe27b23f86cd2">NPC_StarRod</a>,</div>
 <div class="line">    .pos = { <a class="code hl_define" href="macros_8h.html#ab7f9217776834a22d625ecc69dcc4846">NPC_DISPOSE_LOCATION</a> },</div>
 <div class="line">    .yaw = 270,</div>
 <div class="line">    .init = &amp; <a class="code hl_variable" href="#a841b5460609060cdd4cb80dee3dd5255">EVS_NpcInit_StarRod</a> ,</div>
@@ -585,7 +584,7 @@ Variables</h2></td></tr>
 <div class="line">    .animations = <a class="code hl_define" href="StarRod_8h.html#ab7bb8afd2cbbd7646f81e94af35224f6">STAR_ROD_ANIMS</a>,</div>
 <div class="line">}</div>
 <div class="ttc" id="aStarRod_8h_html_ab7bb8afd2cbbd7646f81e94af35224f6"><div class="ttname"><a href="StarRod_8h.html#ab7bb8afd2cbbd7646f81e94af35224f6">STAR_ROD_ANIMS</a></div><div class="ttdeci">#define STAR_ROD_ANIMS</div><div class="ttdef"><b>Definition</b> StarRod.h:4</div></div>
-<div class="ttc" id="ahos__05_8h_html_a5347260c3611a5e649db7a4a8370d3c5a49fde7aaec73837d092fe27b23f86cd2"><div class="ttname"><a href="hos__05_8h.html#a5347260c3611a5e649db7a4a8370d3c5a49fde7aaec73837d092fe27b23f86cd2">NPC_StarRod</a></div><div class="ttdeci">@ NPC_StarRod</div><div class="ttdef"><b>Definition</b> hos_05.h:34</div></div>
+<div class="ttc" id="ahos__05_8h_html_a5ae760a5c9b7253fc22419bcd09c6a5ea49fde7aaec73837d092fe27b23f86cd2"><div class="ttname"><a href="hos__05_8h.html#a5ae760a5c9b7253fc22419bcd09c6a5ea49fde7aaec73837d092fe27b23f86cd2">NPC_StarRod</a></div><div class="ttdeci">@ NPC_StarRod</div><div class="ttdef"><b>Definition</b> hos_05.h:34</div></div>
 <div class="ttc" id="akkj__25__4__npc__final_8c_html_a841b5460609060cdd4cb80dee3dd5255"><div class="ttname"><a href="#a841b5460609060cdd4cb80dee3dd5255">EVS_NpcInit_StarRod</a></div><div class="ttdeci">EvtScript EVS_NpcInit_StarRod</div><div class="ttdef"><b>Definition</b> kkj_25_4_npc_final.c:33</div></div>
 <div class="ttc" id="amachi__5__npc_8c_html_aaa0169dc63e08e2954087a606e170d21"><div class="ttname"><a href="machi__5__npc_8c.html#aaa0169dc63e08e2954087a606e170d21">NpcSettings_StarRod</a></div><div class="ttdeci">NpcSettings NpcSettings_StarRod</div><div class="ttdef"><b>Definition</b> machi_5_npc.c:217</div></div>
 <div class="ttc" id="amacros_8h_html_ab7f9217776834a22d625ecc69dcc4846"><div class="ttname"><a href="macros_8h.html#ab7f9217776834a22d625ecc69dcc4846">NPC_DISPOSE_LOCATION</a></div><div class="ttdeci">#define NPC_DISPOSE_LOCATION</div><div class="ttdef"><b>Definition</b> macros.h:163</div></div>

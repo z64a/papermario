@@ -222,7 +222,7 @@ Variables</h2></td></tr>
 <div class="line"> </div>
 <div class="line">        <a class="code hl_define" href="script__api_2macros_8h.html#a15f6226bb8726c87b6a0368d33e4aec1">EVT_END_IF</a></div>
 <div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a15f6226bb8726c87b6a0368d33e4aec1">EVT_END_IF</a></div>
-<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a7c09e8c76b51d5be8aeadc85751ff8f0">EVT_CALL</a>(<a class="code hl_function" href="script__api_2common_8h.html#a3e567d301ea0915b5b45facb82589402">BindNpcDefeat</a>, <a class="code hl_enumvalue" href="enums_8h.html#a8ed30857fb1bfefd4de61c6f02040634a0664795bf4a295e3c87e422eadf6870b">NPC_SELF</a>, <a class="code hl_define" href="script__api_2macros_8h.html#a5c78949040b032c6e0c50c2e78e2f7cb">EVT_PTR</a>( <a class="code hl_variable" href="#a706fe81232f30e80fd7763c35c14fc77">EVS_NpcDefeat_ShyGuy</a> ))</div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a7c09e8c76b51d5be8aeadc85751ff8f0">EVT_CALL</a>(BindNpcDefeat, <a class="code hl_enumvalue" href="enums_8h.html#a8ed30857fb1bfefd4de61c6f02040634a0664795bf4a295e3c87e422eadf6870b">NPC_SELF</a>, <a class="code hl_define" href="script__api_2macros_8h.html#a5c78949040b032c6e0c50c2e78e2f7cb">EVT_PTR</a>( <a class="code hl_variable" href="#a706fe81232f30e80fd7763c35c14fc77">EVS_NpcDefeat_ShyGuy</a> ))</div>
 <div class="line"> </div>
 <div class="line"> </div>
 <div class="line"> </div>
@@ -239,7 +239,6 @@ Variables</h2></td></tr>
 <div class="line">}</div>
 <div class="ttc" id="aenums_8h_html_a8ed30857fb1bfefd4de61c6f02040634a0664795bf4a295e3c87e422eadf6870b"><div class="ttname"><a href="enums_8h.html#a8ed30857fb1bfefd4de61c6f02040634a0664795bf4a295e3c87e422eadf6870b">NPC_SELF</a></div><div class="ttdeci">@ NPC_SELF</div><div class="ttdef"><b>Definition</b> enums.h:2529</div></div>
 <div class="ttc" id="aomo__01__4__npc_8c_html_a706fe81232f30e80fd7763c35c14fc77"><div class="ttname"><a href="#a706fe81232f30e80fd7763c35c14fc77">EVS_NpcDefeat_ShyGuy</a></div><div class="ttdeci">EvtScript EVS_NpcDefeat_ShyGuy</div><div class="ttdef"><b>Definition</b> omo_01_4_npc.c:39</div></div>
-<div class="ttc" id="ascript__api_2common_8h_html_a3e567d301ea0915b5b45facb82589402"><div class="ttname"><a href="script__api_2common_8h.html#a3e567d301ea0915b5b45facb82589402">BindNpcDefeat</a></div><div class="ttdeci">ApiStatus BindNpcDefeat(Evt *script, s32 isInitialCall)</div><div class="ttdef"><b>Definition</b> encounter_api.c:624</div></div>
 <div class="ttc" id="ascript__api_2macros_8h_html_a15f6226bb8726c87b6a0368d33e4aec1"><div class="ttname"><a href="script__api_2macros_8h.html#a15f6226bb8726c87b6a0368d33e4aec1">EVT_END_IF</a></div><div class="ttdeci">#define EVT_END_IF</div><div class="ttdoc">Marks the end of an if statement or an else block.</div><div class="ttdef"><b>Definition</b> macros.h:310</div></div>
 <div class="ttc" id="ascript__api_2macros_8h_html_a5c78949040b032c6e0c50c2e78e2f7cb"><div class="ttname"><a href="script__api_2macros_8h.html#a5c78949040b032c6e0c50c2e78e2f7cb">EVT_PTR</a></div><div class="ttdeci">#define EVT_PTR(sym)</div><div class="ttdoc">Address/pointer constant.</div><div class="ttdef"><b>Definition</b> macros.h:56</div></div>
 <div class="ttc" id="ascript__api_2macros_8h_html_a7c09e8c76b51d5be8aeadc85751ff8f0"><div class="ttname"><a href="script__api_2macros_8h.html#a7c09e8c76b51d5be8aeadc85751ff8f0">EVT_CALL</a></div><div class="ttdeci">#define EVT_CALL(FUNC, ARGS...)</div><div class="ttdoc">Calls a given C EVT API function with any number of arguments.</div><div class="ttdef"><b>Definition</b> macros.h:588</div></div>
@@ -259,7 +258,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a7c09e8c76b51d5be8aeadc85751ff8f0">EVT_CALL</a>(<a class="code hl_function" href="script__api_2common_8h.html#a3e567d301ea0915b5b45facb82589402">BindNpcDefeat</a>, <a class="code hl_enumvalue" href="enums_8h.html#a8ed30857fb1bfefd4de61c6f02040634a0664795bf4a295e3c87e422eadf6870b">NPC_SELF</a>, <a class="code hl_define" href="script__api_2macros_8h.html#a5c78949040b032c6e0c50c2e78e2f7cb">EVT_PTR</a>( <a class="code hl_variable" href="#a706fe81232f30e80fd7763c35c14fc77">EVS_NpcDefeat_ShyGuy</a> ))</div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a7c09e8c76b51d5be8aeadc85751ff8f0">EVT_CALL</a>(BindNpcDefeat, <a class="code hl_enumvalue" href="enums_8h.html#a8ed30857fb1bfefd4de61c6f02040634a0664795bf4a295e3c87e422eadf6870b">NPC_SELF</a>, <a class="code hl_define" href="script__api_2macros_8h.html#a5c78949040b032c6e0c50c2e78e2f7cb">EVT_PTR</a>( <a class="code hl_variable" href="#a706fe81232f30e80fd7763c35c14fc77">EVS_NpcDefeat_ShyGuy</a> ))</div>
 <div class="line"> </div>
 <div class="line"> </div>
 <div class="line"> </div>
@@ -283,7 +282,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a7c09e8c76b51d5be8aeadc85751ff8f0">EVT_CALL</a>(<a class="code hl_function" href="script__api_2common_8h.html#a3e567d301ea0915b5b45facb82589402">BindNpcDefeat</a>, <a class="code hl_enumvalue" href="enums_8h.html#a8ed30857fb1bfefd4de61c6f02040634a0664795bf4a295e3c87e422eadf6870b">NPC_SELF</a>, <a class="code hl_define" href="script__api_2macros_8h.html#a5c78949040b032c6e0c50c2e78e2f7cb">EVT_PTR</a>( <a class="code hl_variable" href="#a706fe81232f30e80fd7763c35c14fc77">EVS_NpcDefeat_ShyGuy</a> ))</div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a7c09e8c76b51d5be8aeadc85751ff8f0">EVT_CALL</a>(BindNpcDefeat, <a class="code hl_enumvalue" href="enums_8h.html#a8ed30857fb1bfefd4de61c6f02040634a0664795bf4a295e3c87e422eadf6870b">NPC_SELF</a>, <a class="code hl_define" href="script__api_2macros_8h.html#a5c78949040b032c6e0c50c2e78e2f7cb">EVT_PTR</a>( <a class="code hl_variable" href="#a706fe81232f30e80fd7763c35c14fc77">EVS_NpcDefeat_ShyGuy</a> ))</div>
 <div class="line"> </div>
 <div class="line"> </div>
 <div class="line"> </div>
@@ -307,7 +306,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a7c09e8c76b51d5be8aeadc85751ff8f0">EVT_CALL</a>(<a class="code hl_function" href="script__api_2common_8h.html#a3e567d301ea0915b5b45facb82589402">BindNpcDefeat</a>, <a class="code hl_enumvalue" href="enums_8h.html#a8ed30857fb1bfefd4de61c6f02040634a0664795bf4a295e3c87e422eadf6870b">NPC_SELF</a>, <a class="code hl_define" href="script__api_2macros_8h.html#a5c78949040b032c6e0c50c2e78e2f7cb">EVT_PTR</a>( <a class="code hl_variable" href="#a706fe81232f30e80fd7763c35c14fc77">EVS_NpcDefeat_ShyGuy</a> ))</div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a7c09e8c76b51d5be8aeadc85751ff8f0">EVT_CALL</a>(BindNpcDefeat, <a class="code hl_enumvalue" href="enums_8h.html#a8ed30857fb1bfefd4de61c6f02040634a0664795bf4a295e3c87e422eadf6870b">NPC_SELF</a>, <a class="code hl_define" href="script__api_2macros_8h.html#a5c78949040b032c6e0c50c2e78e2f7cb">EVT_PTR</a>( <a class="code hl_variable" href="#a706fe81232f30e80fd7763c35c14fc77">EVS_NpcDefeat_ShyGuy</a> ))</div>
 <div class="line"> </div>
 <div class="line"> </div>
 <div class="line"> </div>
@@ -331,7 +330,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a7c09e8c76b51d5be8aeadc85751ff8f0">EVT_CALL</a>(<a class="code hl_function" href="script__api_2common_8h.html#a3e567d301ea0915b5b45facb82589402">BindNpcDefeat</a>, <a class="code hl_enumvalue" href="enums_8h.html#a8ed30857fb1bfefd4de61c6f02040634a0664795bf4a295e3c87e422eadf6870b">NPC_SELF</a>, <a class="code hl_define" href="script__api_2macros_8h.html#a5c78949040b032c6e0c50c2e78e2f7cb">EVT_PTR</a>( <a class="code hl_variable" href="#a706fe81232f30e80fd7763c35c14fc77">EVS_NpcDefeat_ShyGuy</a> ))</div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a7c09e8c76b51d5be8aeadc85751ff8f0">EVT_CALL</a>(BindNpcDefeat, <a class="code hl_enumvalue" href="enums_8h.html#a8ed30857fb1bfefd4de61c6f02040634a0664795bf4a295e3c87e422eadf6870b">NPC_SELF</a>, <a class="code hl_define" href="script__api_2macros_8h.html#a5c78949040b032c6e0c50c2e78e2f7cb">EVT_PTR</a>( <a class="code hl_variable" href="#a706fe81232f30e80fd7763c35c14fc77">EVS_NpcDefeat_ShyGuy</a> ))</div>
 <div class="line"> </div>
 <div class="line"> </div>
 <div class="line"> </div>
@@ -457,7 +456,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line">    .id = <a class="code hl_enumvalue" href="omo__01_8h.html#a1b12b3ffe185e8f6d696dd5fea991f21a5e7ac9b9b54a68c6e5b1f1b405cfe0e1">NPC_ShyGuy_03</a>,</div>
+<div class="line">    .id = <a class="code hl_enumvalue" href="omo__01_8h.html#a56b02a05d82b5dcb4226e6612fc7d2a9a5e7ac9b9b54a68c6e5b1f1b405cfe0e1">NPC_ShyGuy_03</a>,</div>
 <div class="line">    .pos = { -60.0f, 0.0f, 390.0f },</div>
 <div class="line">    .yaw = 270,</div>
 <div class="line">    .territory = {</div>
@@ -479,7 +478,7 @@ Variables</h2></td></tr>
 <div class="line">    .animations = <a class="code hl_define" href="ShyGuy_8h.html#a8196076931b30f898b505a1f1abdbca2">YELLOW_AVOID_SHY_GUY_ANIMS</a>,</div>
 <div class="line">    .aiDetectFlags = <a class="code hl_enumvalue" href="enums_8h.html#a26e74110b3ae5f7e288b62067c5cc5b4a2aa5423736d0963c398e944de24dae73">AI_DETECT_SIGHT</a>,</div>
 <div class="line">}</div>
-<div class="ttc" id="aomo__01_8h_html_a1b12b3ffe185e8f6d696dd5fea991f21a5e7ac9b9b54a68c6e5b1f1b405cfe0e1"><div class="ttname"><a href="omo__01_8h.html#a1b12b3ffe185e8f6d696dd5fea991f21a5e7ac9b9b54a68c6e5b1f1b405cfe0e1">NPC_ShyGuy_03</a></div><div class="ttdeci">@ NPC_ShyGuy_03</div><div class="ttdef"><b>Definition</b> omo_01.h:15</div></div>
+<div class="ttc" id="aomo__01_8h_html_a56b02a05d82b5dcb4226e6612fc7d2a9a5e7ac9b9b54a68c6e5b1f1b405cfe0e1"><div class="ttname"><a href="omo__01_8h.html#a56b02a05d82b5dcb4226e6612fc7d2a9a5e7ac9b9b54a68c6e5b1f1b405cfe0e1">NPC_ShyGuy_03</a></div><div class="ttdeci">@ NPC_ShyGuy_03</div><div class="ttdef"><b>Definition</b> omo_01.h:15</div></div>
 <div class="ttc" id="aomo__01__4__npc_8c_html_a33c3697bd897bec3b3c0476200d61d37"><div class="ttname"><a href="#a33c3697bd897bec3b3c0476200d61d37">EVS_NpcInit_ShyGuy_03</a></div><div class="ttdeci">EvtScript EVS_NpcInit_ShyGuy_03</div><div class="ttdef"><b>Definition</b> omo_01_4_npc.c:139</div></div>
 </div><!-- fragment -->
 </div>
@@ -496,7 +495,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line">    .id = <a class="code hl_enumvalue" href="omo__01_8h.html#a1b12b3ffe185e8f6d696dd5fea991f21a19a39062da08be58855dc1ac45c4e134">NPC_ShyGuy_04</a>,</div>
+<div class="line">    .id = <a class="code hl_enumvalue" href="omo__01_8h.html#a56b02a05d82b5dcb4226e6612fc7d2a9a19a39062da08be58855dc1ac45c4e134">NPC_ShyGuy_04</a>,</div>
 <div class="line">    .pos = { 50.0f, 0.0f, 230.0f },</div>
 <div class="line">    .yaw = 270,</div>
 <div class="line">    .territory = {</div>
@@ -519,7 +518,7 @@ Variables</h2></td></tr>
 <div class="line">    .aiDetectFlags = <a class="code hl_enumvalue" href="enums_8h.html#a26e74110b3ae5f7e288b62067c5cc5b4a2aa5423736d0963c398e944de24dae73">AI_DETECT_SIGHT</a>,</div>
 <div class="line">}</div>
 <div class="ttc" id="aShyGuy_8h_html_a6e8dbeaf899e2730ca1ed4930f289c03"><div class="ttname"><a href="ShyGuy_8h.html#a6e8dbeaf899e2730ca1ed4930f289c03">BLUE_AVOID_SHY_GUY_ANIMS</a></div><div class="ttdeci">#define BLUE_AVOID_SHY_GUY_ANIMS</div><div class="ttdef"><b>Definition</b> ShyGuy.h:167</div></div>
-<div class="ttc" id="aomo__01_8h_html_a1b12b3ffe185e8f6d696dd5fea991f21a19a39062da08be58855dc1ac45c4e134"><div class="ttname"><a href="omo__01_8h.html#a1b12b3ffe185e8f6d696dd5fea991f21a19a39062da08be58855dc1ac45c4e134">NPC_ShyGuy_04</a></div><div class="ttdeci">@ NPC_ShyGuy_04</div><div class="ttdef"><b>Definition</b> omo_01.h:16</div></div>
+<div class="ttc" id="aomo__01_8h_html_a56b02a05d82b5dcb4226e6612fc7d2a9a19a39062da08be58855dc1ac45c4e134"><div class="ttname"><a href="omo__01_8h.html#a56b02a05d82b5dcb4226e6612fc7d2a9a19a39062da08be58855dc1ac45c4e134">NPC_ShyGuy_04</a></div><div class="ttdeci">@ NPC_ShyGuy_04</div><div class="ttdef"><b>Definition</b> omo_01.h:16</div></div>
 <div class="ttc" id="aomo__01__4__npc_8c_html_ae4ea20112605d9f81b99037dbc8970c4"><div class="ttname"><a href="#ae4ea20112605d9f81b99037dbc8970c4">EVS_NpcInit_ShyGuy_04</a></div><div class="ttdeci">EvtScript EVS_NpcInit_ShyGuy_04</div><div class="ttdef"><b>Definition</b> omo_01_4_npc.c:174</div></div>
 </div><!-- fragment -->
 </div>
@@ -536,7 +535,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line">    .id = <a class="code hl_enumvalue" href="omo__01_8h.html#a1b12b3ffe185e8f6d696dd5fea991f21a55abbe806e10ada530d6b25e9445c530">NPC_ShyGuy_05</a>,</div>
+<div class="line">    .id = <a class="code hl_enumvalue" href="omo__01_8h.html#a56b02a05d82b5dcb4226e6612fc7d2a9a55abbe806e10ada530d6b25e9445c530">NPC_ShyGuy_05</a>,</div>
 <div class="line">    .pos = { 340.0f, 0.0f, 120.0f },</div>
 <div class="line">    .yaw = 270,</div>
 <div class="line">    .territory = {</div>
@@ -559,7 +558,7 @@ Variables</h2></td></tr>
 <div class="line">    .aiDetectFlags = <a class="code hl_enumvalue" href="enums_8h.html#a26e74110b3ae5f7e288b62067c5cc5b4a2aa5423736d0963c398e944de24dae73">AI_DETECT_SIGHT</a>,</div>
 <div class="line">}</div>
 <div class="ttc" id="aShyGuy_8h_html_ac9c55a9bc22e571860629675fbb9dda0"><div class="ttname"><a href="ShyGuy_8h.html#ac9c55a9bc22e571860629675fbb9dda0">GREEN_AVOID_SHY_GUY_ANIMS</a></div><div class="ttdeci">#define GREEN_AVOID_SHY_GUY_ANIMS</div><div class="ttdef"><b>Definition</b> ShyGuy.h:187</div></div>
-<div class="ttc" id="aomo__01_8h_html_a1b12b3ffe185e8f6d696dd5fea991f21a55abbe806e10ada530d6b25e9445c530"><div class="ttname"><a href="omo__01_8h.html#a1b12b3ffe185e8f6d696dd5fea991f21a55abbe806e10ada530d6b25e9445c530">NPC_ShyGuy_05</a></div><div class="ttdeci">@ NPC_ShyGuy_05</div><div class="ttdef"><b>Definition</b> omo_01.h:17</div></div>
+<div class="ttc" id="aomo__01_8h_html_a56b02a05d82b5dcb4226e6612fc7d2a9a55abbe806e10ada530d6b25e9445c530"><div class="ttname"><a href="omo__01_8h.html#a56b02a05d82b5dcb4226e6612fc7d2a9a55abbe806e10ada530d6b25e9445c530">NPC_ShyGuy_05</a></div><div class="ttdeci">@ NPC_ShyGuy_05</div><div class="ttdef"><b>Definition</b> omo_01.h:17</div></div>
 <div class="ttc" id="aomo__01__4__npc_8c_html_a885cdd43a23501bc8bcb02d71ea66335"><div class="ttname"><a href="#a885cdd43a23501bc8bcb02d71ea66335">EVS_NpcInit_ShyGuy_05</a></div><div class="ttdeci">EvtScript EVS_NpcInit_ShyGuy_05</div><div class="ttdef"><b>Definition</b> omo_01_4_npc.c:209</div></div>
 </div><!-- fragment -->
 </div>

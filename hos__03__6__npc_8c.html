@@ -200,13 +200,12 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a7c09e8c76b51d5be8aeadc85751ff8f0">EVT_CALL</a>(<a class="code hl_function" href="script__api_2common_8h.html#a06d6d564f905b5410761c0da0f5ad3de">BindNpcInteract</a>, <a class="code hl_enumvalue" href="enums_8h.html#a8ed30857fb1bfefd4de61c6f02040634a0664795bf4a295e3c87e422eadf6870b">NPC_SELF</a>, <a class="code hl_define" href="script__api_2macros_8h.html#a5c78949040b032c6e0c50c2e78e2f7cb">EVT_PTR</a>( <a class="code hl_variable" href="#a70cc6119331862fb93caabd059069ba5">EVS_NpcInteract_ShopOwner</a> ))</div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a7c09e8c76b51d5be8aeadc85751ff8f0">EVT_CALL</a>(BindNpcInteract, <a class="code hl_enumvalue" href="enums_8h.html#a8ed30857fb1bfefd4de61c6f02040634a0664795bf4a295e3c87e422eadf6870b">NPC_SELF</a>, <a class="code hl_define" href="script__api_2macros_8h.html#a5c78949040b032c6e0c50c2e78e2f7cb">EVT_PTR</a>( <a class="code hl_variable" href="#a70cc6119331862fb93caabd059069ba5">EVS_NpcInteract_ShopOwner</a> ))</div>
 <div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#aa49b4615589f142fe396afa06f44ec5e">EVT_RETURN</a></div>
 <div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a1eb5d3206784e72fb8b5bf5cc7228553">EVT_END</a></div>
 <div class="line">}</div>
 <div class="ttc" id="aenums_8h_html_a8ed30857fb1bfefd4de61c6f02040634a0664795bf4a295e3c87e422eadf6870b"><div class="ttname"><a href="enums_8h.html#a8ed30857fb1bfefd4de61c6f02040634a0664795bf4a295e3c87e422eadf6870b">NPC_SELF</a></div><div class="ttdeci">@ NPC_SELF</div><div class="ttdef"><b>Definition</b> enums.h:2529</div></div>
 <div class="ttc" id="ahos__03__6__npc_8c_html_a70cc6119331862fb93caabd059069ba5"><div class="ttname"><a href="#a70cc6119331862fb93caabd059069ba5">EVS_NpcInteract_ShopOwner</a></div><div class="ttdeci">EvtScript EVS_NpcInteract_ShopOwner</div><div class="ttdef"><b>Definition</b> hos_03_6_npc.c:135</div></div>
-<div class="ttc" id="ascript__api_2common_8h_html_a06d6d564f905b5410761c0da0f5ad3de"><div class="ttname"><a href="script__api_2common_8h.html#a06d6d564f905b5410761c0da0f5ad3de">BindNpcInteract</a></div><div class="ttdeci">ApiStatus BindNpcInteract(Evt *script, s32 isInitialCall)</div><div class="ttdef"><b>Definition</b> encounter_api.c:584</div></div>
 <div class="ttc" id="ascript__api_2macros_8h_html_a1eb5d3206784e72fb8b5bf5cc7228553"><div class="ttname"><a href="script__api_2macros_8h.html#a1eb5d3206784e72fb8b5bf5cc7228553">EVT_END</a></div><div class="ttdeci">#define EVT_END</div><div class="ttdoc">Signals the end of EVT script data. A script missing this will likely crash on load.</div><div class="ttdef"><b>Definition</b> macros.h:225</div></div>
 <div class="ttc" id="ascript__api_2macros_8h_html_a5c78949040b032c6e0c50c2e78e2f7cb"><div class="ttname"><a href="script__api_2macros_8h.html#a5c78949040b032c6e0c50c2e78e2f7cb">EVT_PTR</a></div><div class="ttdeci">#define EVT_PTR(sym)</div><div class="ttdoc">Address/pointer constant.</div><div class="ttdef"><b>Definition</b> macros.h:56</div></div>
 <div class="ttc" id="ascript__api_2macros_8h_html_a7c09e8c76b51d5be8aeadc85751ff8f0"><div class="ttname"><a href="script__api_2macros_8h.html#a7c09e8c76b51d5be8aeadc85751ff8f0">EVT_CALL</a></div><div class="ttdeci">#define EVT_CALL(FUNC, ARGS...)</div><div class="ttdoc">Calls a given C EVT API function with any number of arguments.</div><div class="ttdef"><b>Definition</b> macros.h:588</div></div>
@@ -226,7 +225,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a7c09e8c76b51d5be8aeadc85751ff8f0">EVT_CALL</a>(<a class="code hl_function" href="script__api_2common_8h.html#a06d6d564f905b5410761c0da0f5ad3de">BindNpcInteract</a>, <a class="code hl_enumvalue" href="enums_8h.html#a8ed30857fb1bfefd4de61c6f02040634a0664795bf4a295e3c87e422eadf6870b">NPC_SELF</a>, <a class="code hl_define" href="script__api_2macros_8h.html#a5c78949040b032c6e0c50c2e78e2f7cb">EVT_PTR</a>( <a class="code hl_variable" href="#aa89393ccae8e35f5e41bb8a8322efa9b">EVS_NpcInteract_StarKid_01</a> ))</div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a7c09e8c76b51d5be8aeadc85751ff8f0">EVT_CALL</a>(BindNpcInteract, <a class="code hl_enumvalue" href="enums_8h.html#a8ed30857fb1bfefd4de61c6f02040634a0664795bf4a295e3c87e422eadf6870b">NPC_SELF</a>, <a class="code hl_define" href="script__api_2macros_8h.html#a5c78949040b032c6e0c50c2e78e2f7cb">EVT_PTR</a>( <a class="code hl_variable" href="#aa89393ccae8e35f5e41bb8a8322efa9b">EVS_NpcInteract_StarKid_01</a> ))</div>
 <div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#aa49b4615589f142fe396afa06f44ec5e">EVT_RETURN</a></div>
 <div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a1eb5d3206784e72fb8b5bf5cc7228553">EVT_END</a></div>
 <div class="line">}</div>
@@ -246,7 +245,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a7c09e8c76b51d5be8aeadc85751ff8f0">EVT_CALL</a>(<a class="code hl_function" href="script__api_2common_8h.html#a06d6d564f905b5410761c0da0f5ad3de">BindNpcInteract</a>, <a class="code hl_enumvalue" href="enums_8h.html#a8ed30857fb1bfefd4de61c6f02040634a0664795bf4a295e3c87e422eadf6870b">NPC_SELF</a>, <a class="code hl_define" href="script__api_2macros_8h.html#a5c78949040b032c6e0c50c2e78e2f7cb">EVT_PTR</a>( <a class="code hl_variable" href="#af36a7e7b1d23ea04c97903d4c1a893c6">EVS_NpcInteract_StarKid_02</a> ))</div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a7c09e8c76b51d5be8aeadc85751ff8f0">EVT_CALL</a>(BindNpcInteract, <a class="code hl_enumvalue" href="enums_8h.html#a8ed30857fb1bfefd4de61c6f02040634a0664795bf4a295e3c87e422eadf6870b">NPC_SELF</a>, <a class="code hl_define" href="script__api_2macros_8h.html#a5c78949040b032c6e0c50c2e78e2f7cb">EVT_PTR</a>( <a class="code hl_variable" href="#af36a7e7b1d23ea04c97903d4c1a893c6">EVS_NpcInteract_StarKid_02</a> ))</div>
 <div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#aa49b4615589f142fe396afa06f44ec5e">EVT_RETURN</a></div>
 <div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a1eb5d3206784e72fb8b5bf5cc7228553">EVT_END</a></div>
 <div class="line">}</div>
@@ -266,7 +265,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a7c09e8c76b51d5be8aeadc85751ff8f0">EVT_CALL</a>(<a class="code hl_function" href="script__api_2common_8h.html#a06d6d564f905b5410761c0da0f5ad3de">BindNpcInteract</a>, <a class="code hl_enumvalue" href="enums_8h.html#a8ed30857fb1bfefd4de61c6f02040634a0664795bf4a295e3c87e422eadf6870b">NPC_SELF</a>, <a class="code hl_define" href="script__api_2macros_8h.html#a5c78949040b032c6e0c50c2e78e2f7cb">EVT_PTR</a>( <a class="code hl_variable" href="#ab714bfe98f7a9ed2f340e45ae24ba63b">EVS_NpcInteract_StarKid_03</a> ))</div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a7c09e8c76b51d5be8aeadc85751ff8f0">EVT_CALL</a>(BindNpcInteract, <a class="code hl_enumvalue" href="enums_8h.html#a8ed30857fb1bfefd4de61c6f02040634a0664795bf4a295e3c87e422eadf6870b">NPC_SELF</a>, <a class="code hl_define" href="script__api_2macros_8h.html#a5c78949040b032c6e0c50c2e78e2f7cb">EVT_PTR</a>( <a class="code hl_variable" href="#ab714bfe98f7a9ed2f340e45ae24ba63b">EVS_NpcInteract_StarKid_03</a> ))</div>
 <div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#aa49b4615589f142fe396afa06f44ec5e">EVT_RETURN</a></div>
 <div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a1eb5d3206784e72fb8b5bf5cc7228553">EVT_END</a></div>
 <div class="line">}</div>
@@ -286,7 +285,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a7c09e8c76b51d5be8aeadc85751ff8f0">EVT_CALL</a>(<a class="code hl_function" href="script__api_2common_8h.html#a06d6d564f905b5410761c0da0f5ad3de">BindNpcInteract</a>, <a class="code hl_enumvalue" href="enums_8h.html#a8ed30857fb1bfefd4de61c6f02040634a0664795bf4a295e3c87e422eadf6870b">NPC_SELF</a>, <a class="code hl_define" href="script__api_2macros_8h.html#a5c78949040b032c6e0c50c2e78e2f7cb">EVT_PTR</a>( <a class="code hl_variable" href="#a626c698ffe20bdd43bf5a8dc9ac638c0">EVS_NpcInteract_StarKid_04</a> ))</div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a7c09e8c76b51d5be8aeadc85751ff8f0">EVT_CALL</a>(BindNpcInteract, <a class="code hl_enumvalue" href="enums_8h.html#a8ed30857fb1bfefd4de61c6f02040634a0664795bf4a295e3c87e422eadf6870b">NPC_SELF</a>, <a class="code hl_define" href="script__api_2macros_8h.html#a5c78949040b032c6e0c50c2e78e2f7cb">EVT_PTR</a>( <a class="code hl_variable" href="#a626c698ffe20bdd43bf5a8dc9ac638c0">EVS_NpcInteract_StarKid_04</a> ))</div>
 <div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#aa49b4615589f142fe396afa06f44ec5e">EVT_RETURN</a></div>
 <div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a1eb5d3206784e72fb8b5bf5cc7228553">EVT_END</a></div>
 <div class="line">}</div>
@@ -306,7 +305,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a7c09e8c76b51d5be8aeadc85751ff8f0">EVT_CALL</a>(<a class="code hl_function" href="script__api_2common_8h.html#a06d6d564f905b5410761c0da0f5ad3de">BindNpcInteract</a>, <a class="code hl_enumvalue" href="enums_8h.html#a8ed30857fb1bfefd4de61c6f02040634a0664795bf4a295e3c87e422eadf6870b">NPC_SELF</a>, <a class="code hl_define" href="script__api_2macros_8h.html#a5c78949040b032c6e0c50c2e78e2f7cb">EVT_PTR</a>( <a class="code hl_variable" href="#adb27a9c5050734b10243534f3ecbf371">EVS_NpcInteract_StarKid_05</a> ))</div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a7c09e8c76b51d5be8aeadc85751ff8f0">EVT_CALL</a>(BindNpcInteract, <a class="code hl_enumvalue" href="enums_8h.html#a8ed30857fb1bfefd4de61c6f02040634a0664795bf4a295e3c87e422eadf6870b">NPC_SELF</a>, <a class="code hl_define" href="script__api_2macros_8h.html#a5c78949040b032c6e0c50c2e78e2f7cb">EVT_PTR</a>( <a class="code hl_variable" href="#adb27a9c5050734b10243534f3ecbf371">EVS_NpcInteract_StarKid_05</a> ))</div>
 <div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#aa49b4615589f142fe396afa06f44ec5e">EVT_RETURN</a></div>
 <div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a1eb5d3206784e72fb8b5bf5cc7228553">EVT_END</a></div>
 <div class="line">}</div>
@@ -326,7 +325,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a7c09e8c76b51d5be8aeadc85751ff8f0">EVT_CALL</a>(<a class="code hl_function" href="script__api_2common_8h.html#a06d6d564f905b5410761c0da0f5ad3de">BindNpcInteract</a>, <a class="code hl_enumvalue" href="enums_8h.html#a8ed30857fb1bfefd4de61c6f02040634a0664795bf4a295e3c87e422eadf6870b">NPC_SELF</a>, <a class="code hl_define" href="script__api_2macros_8h.html#a5c78949040b032c6e0c50c2e78e2f7cb">EVT_PTR</a>( <a class="code hl_variable" href="ToadHouse_8data_8inc_8c.html#ad9aa713cf11b143eee14cde089f4b8ec">EVS_NpcInteract_ToadHouseKeeper</a> ))</div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a7c09e8c76b51d5be8aeadc85751ff8f0">EVT_CALL</a>(BindNpcInteract, <a class="code hl_enumvalue" href="enums_8h.html#a8ed30857fb1bfefd4de61c6f02040634a0664795bf4a295e3c87e422eadf6870b">NPC_SELF</a>, <a class="code hl_define" href="script__api_2macros_8h.html#a5c78949040b032c6e0c50c2e78e2f7cb">EVT_PTR</a>( <a class="code hl_variable" href="ToadHouse_8data_8inc_8c.html#ad9aa713cf11b143eee14cde089f4b8ec">EVS_NpcInteract_ToadHouseKeeper</a> ))</div>
 <div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#aa49b4615589f142fe396afa06f44ec5e">EVT_RETURN</a></div>
 <div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a1eb5d3206784e72fb8b5bf5cc7228553">EVT_END</a></div>
 <div class="line">}</div>

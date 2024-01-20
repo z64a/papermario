@@ -1,6 +1,18 @@
 var item__entity_8c =
 [
+    [ "HT_VAR1", "item__entity_8c.html#a9e7a3328d98d264cfcab17a483d03ad7", null ],
     [ "MAX_ITEM_ENTITIES", "item__entity_8c.html#a2055cfc1cc23ceb2b390e0897d73b7ea", null ],
+    [ "WD_VAR1", "item__entity_8c.html#ab109d715d30a91ddb1fa412d2b1ad0a9", null ],
+    [ "WD_VAR2", "item__entity_8c.html#a57d53ecac4da3b4ed304774c6eabb163", null ],
+    [ "WD_VAR3", "item__entity_8c.html#a5832d62aef121be6c0b2cdea9645c835", null ],
+    [ "WD_VAR4", "item__entity_8c.html#a376ec2474e0ff0d649e9cbb626f6dace", null ],
+    [ "X_PICKUP_ITEM_1", "item__entity_8c.html#aa4ec6764b25e44621ac12d58c30e2966", null ],
+    [ "X_PICKUP_ITEM_2", "item__entity_8c.html#a83d2db14d69e94850a440067a26442a7", null ],
+    [ "X_PICKUP_THREW", "item__entity_8c.html#adc0d250aac71a0b16ea8cddf8d2481b6", null ],
+    [ "X_VAR1", "item__entity_8c.html#a92dff853d0007aa8d3aa7231c84a1c1d", null ],
+    [ "Y_PICKUP_ITEM_1", "item__entity_8c.html#ad0f70d4c839fc2eeacfb04889b0b6f33", null ],
+    [ "Y_PICKUP_ITEM_2", "item__entity_8c.html#ad66cf28f00d64fbfc0ba4cbfe9e74616", null ],
+    [ "Y_PICKUP_THREW", "item__entity_8c.html#a9247576f693e76697f647198e7393476", null ],
     [ "appendGfx_item_entity", "item__entity_8c.html#a51926eab1b7508deca9304b6e7f37f4e", null ],
     [ "auto_collect_item_entity", "item__entity_8c.html#ad48abb3bda3fe3627b443909749c6c03", null ],
     [ "clear_item_entity_data", "item__entity_8c.html#a06956ea06b823706fa022fbabfe81a52", null ],

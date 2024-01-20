@@ -48,7 +48,6 @@ var inventory_8c =
     [ "setup_status_bar_for_battle", "inventory_8c.html#a2ba02ede6c58f809099eb970d53853cd", null ],
     [ "setup_status_bar_for_world", "inventory_8c.html#a076806bb0d29d01beed5d9308d051cc9", null ],
     [ "show_coin_counter", "inventory_8c.html#a0943c921a33147e5da882327f7cd8eb5", null ],
-    [ "ShowCoinCounter", "inventory_8c.html#afffb5f1a5bd33fb76d03bd2a0b9b6d42", null ],
     [ "sort_items", "inventory_8c.html#add7914e136c04893b89bcc3ab9870d51", null ],
     [ "status_bar_always_show_off", "inventory_8c.html#aa846991beb90ab155f68f295275ad182", null ],
     [ "status_bar_always_show_on", "inventory_8c.html#af8fc753e544f56eae36bea0aae73a8b2", null ],

@@ -35,7 +35,7 @@ var common__structs_8h_structMessagePrintState =
     [ "nextLinePos", "common__structs_8h.html#a39f2780999f4774612623f4df8eeb280", null ],
     [ "numLines", "common__structs_8h.html#a13d668be50288445885072c88012a6ef", null ],
     [ "openStartPos", "common__structs_8h.html#a386516a995f513d50a233b2377dba613", null ],
-    [ "printBuffer", "common__structs_8h.html#aea10c24034797eec65af355dff59d68a", null ],
+    [ "printBuffer", "common__structs_8h.html#a1eaaac1064c2d64b9e5a40570289da32", null ],
     [ "printBufferPos", "common__structs_8h.html#ae4f07c25bb45bf2a2273594954ab97bd", null ],
     [ "printBufferSize", "common__structs_8h.html#a12f0eea96d7e351973daa717a53167bc", null ],
     [ "printDelayTime", "common__structs_8h.html#a9612742948db39ac418ce35a9cfcb745", null ],

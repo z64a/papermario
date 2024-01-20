@@ -13,7 +13,6 @@ var 23680_8c =
     [ "basic_ai_lose_player", "23680_8c.html#a24bac402033402c85c16c117d5c90cfe", null ],
     [ "basic_ai_wander", "23680_8c.html#a67d31aa656c6017d33fec2eaa49f48f8", null ],
     [ "basic_ai_wander_init", "23680_8c.html#aae8ec368d55331b8930fb4ef2b9e2076", null ],
-    [ "BasicAI_Main", "23680_8c.html#a1c0cd1c7d8abe3f9aaefb8230adcf48f", null ],
     [ "func_80048E34", "23680_8c.html#ae4c1d1b8d83969c3e9e885ceb92f6955", null ],
     [ "func_80048F0C", "23680_8c.html#a82ccdc02c634b687e43e8c13492f48d9", null ],
     [ "get_coin_drop_amount", "23680_8c.html#a41ef37255fa85e2f5b9620ee40d71b13", null ],

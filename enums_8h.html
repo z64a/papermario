@@ -3299,7 +3299,7 @@ Enumerations</h2></td></tr>
 , <a class="el" href="#acda3452546886b2b713c62c4a07fd52aa318a5bb616c2115a8623f72530b92cb2">ENTITY_FLAG_DRAW_IF_CLOSE_HIDE_MODE2</a> = 0x00040000
 , <a class="el" href="#acda3452546886b2b713c62c4a07fd52aa2167b49ab59c4a30eb490e460814843e">ENTITY_FLAG_IGNORE_DISTANCE_CULLING</a> = 0x00080000
 , <br />
-&#160;&#160;<a class="el" href="#acda3452546886b2b713c62c4a07fd52aac9f5cfc423c3d5847ab16b1eaef1407d">ENTITY_FLAG_100000</a> = 0x00100000
+&#160;&#160;<a class="el" href="#acda3452546886b2b713c62c4a07fd52aaae9fe69e7996bb79b73ac88b4e9473cf">ENTITY_FLAG_USED</a> = 0x00100000
 , <a class="el" href="#acda3452546886b2b713c62c4a07fd52aa5a3fa010f5ac9ab518fe69822bbc5951">ENTITY_FLAG_200000</a> = 0x00200000
 , <a class="el" href="#acda3452546886b2b713c62c4a07fd52aa27d13cf0c8472cd2eb611270e60ecfc9">ENTITY_FLAG_SHADOW_POS_DIRTY</a> = 0x00400000
 , <a class="el" href="#acda3452546886b2b713c62c4a07fd52aa25e070ca6e3a80c503f5b74d1351984c">ENTITY_FLAG_DARK_SHADOW</a> = 0x00800000
@@ -5897,17 +5897,7 @@ Enumerations</h2></td></tr>
 <br />
  }</td></tr>
 <tr class="separator:a1fc7b6d88cc556178de397eeb35c8ce2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3495c8c8ed51c1943a2faf523df0aa68" id="r_a3495c8c8ed51c1943a2faf523df0aa68"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3495c8c8ed51c1943a2faf523df0aa68">NpcDropFlags</a> { <br />
-&#160;&#160;<a class="el" href="#a3495c8c8ed51c1943a2faf523df0aa68a0231421d7aa821ccb5c47be65f0b1061">NPC_DROP_FLAG_1</a> = 0x01
-, <a class="el" href="#a3495c8c8ed51c1943a2faf523df0aa68a507687158c35ae7cd1a1bd8421c11d60">NPC_DROP_FLAG_2</a> = 0x02
-, <a class="el" href="#a3495c8c8ed51c1943a2faf523df0aa68a6bdbc8511825acbce3e7455f8e7bbde5">NPC_DROP_FLAG_4</a> = 0x04
-, <a class="el" href="#a3495c8c8ed51c1943a2faf523df0aa68a3495110e26020aa924b42396142b8e16">NPC_DROP_FLAG_8</a> = 0x08
-, <br />
-&#160;&#160;<a class="el" href="#a3495c8c8ed51c1943a2faf523df0aa68af741c7c5adcbc1277c0a438ac1858597">NPC_DROP_FLAG_10</a> = 0x10
-, <a class="el" href="#a3495c8c8ed51c1943a2faf523df0aa68aefc58b207e767ae3535f9294a912ac2c">NPC_DROP_FLAG_20</a> = 0x20
-, <a class="el" href="#a3495c8c8ed51c1943a2faf523df0aa68a606134ba7070863a83baf173d4cc6c89">NPC_DROP_FLAG_40</a> = 0x40
-, <a class="el" href="#a3495c8c8ed51c1943a2faf523df0aa68a1e37de0beef2439eeb8903067b1df8e7">NPC_DROP_FLAG_80</a> = 0x80
-<br />
+<tr class="memitem:a3495c8c8ed51c1943a2faf523df0aa68" id="r_a3495c8c8ed51c1943a2faf523df0aa68"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3495c8c8ed51c1943a2faf523df0aa68">NpcDropFlags</a> { <a class="el" href="#a3495c8c8ed51c1943a2faf523df0aa68a1e37de0beef2439eeb8903067b1df8e7">NPC_DROP_FLAG_80</a> = 0x80
  }</td></tr>
 <tr class="separator:a3495c8c8ed51c1943a2faf523df0aa68"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afcccc091304aa38a95ce6f8a4f556b60" id="r_afcccc091304aa38a95ce6f8a4f556b60"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afcccc091304aa38a95ce6f8a4f556b60">ImgFXStateFlags</a> { <br />
@@ -6047,6 +6037,10 @@ Enumerations</h2></td></tr>
 <br />
  }</td></tr>
 <tr class="separator:a9f9a69b8310bd128cc9107afe3f8e175"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1ba259fefc8f09b6e7345a2cd0b0586d" id="r_a1ba259fefc8f09b6e7345a2cd0b0586d"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1ba259fefc8f09b6e7345a2cd0b0586d">SpriteShadingFlags</a> { <a class="el" href="#a1ba259fefc8f09b6e7345a2cd0b0586daebaf73e5106141168eaceb68e45567f8">SPR_SHADING_FLAG_ENABLED</a> = 1
+, <a class="el" href="#a1ba259fefc8f09b6e7345a2cd0b0586da3dc364838c17a37d3514d1681fd9b71d">SPR_SHADING_FLAG_SET_VIEWPORT</a> = 2
+ }</td></tr>
+<tr class="separator:a1ba259fefc8f09b6e7345a2cd0b0586d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab152e38addc9865a033ed991583c1395" id="r_ab152e38addc9865a033ed991583c1395"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab152e38addc9865a033ed991583c1395">MoveType</a> { <br />
 &#160;&#160;<a class="el" href="#ab152e38addc9865a033ed991583c1395a1031a09e0258f961fc3ce72272c9bf94">MOVE_TYPE_NONE</a> = 0
 , <a class="el" href="#ab152e38addc9865a033ed991583c1395ae07923d124eeb62a28dc8df281f9190d">MOVE_TYPE_HAMMER</a> = 1
@@ -10319,7 +10313,7 @@ Enumerations</h2></td></tr>
 <tr><td class="fieldname"><a id="acda3452546886b2b713c62c4a07fd52aa4aa9e5909a20fb71a3b659c5c2878bbc" name="acda3452546886b2b713c62c4a07fd52aa4aa9e5909a20fb71a3b659c5c2878bbc"></a>ENTITY_FLAG_PARTNER_COLLISION&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="acda3452546886b2b713c62c4a07fd52aa318a5bb616c2115a8623f72530b92cb2" name="acda3452546886b2b713c62c4a07fd52aa318a5bb616c2115a8623f72530b92cb2"></a>ENTITY_FLAG_DRAW_IF_CLOSE_HIDE_MODE2&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="acda3452546886b2b713c62c4a07fd52aa2167b49ab59c4a30eb490e460814843e" name="acda3452546886b2b713c62c4a07fd52aa2167b49ab59c4a30eb490e460814843e"></a>ENTITY_FLAG_IGNORE_DISTANCE_CULLING&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="acda3452546886b2b713c62c4a07fd52aac9f5cfc423c3d5847ab16b1eaef1407d" name="acda3452546886b2b713c62c4a07fd52aac9f5cfc423c3d5847ab16b1eaef1407d"></a>ENTITY_FLAG_100000&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="acda3452546886b2b713c62c4a07fd52aaae9fe69e7996bb79b73ac88b4e9473cf" name="acda3452546886b2b713c62c4a07fd52aaae9fe69e7996bb79b73ac88b4e9473cf"></a>ENTITY_FLAG_USED&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="acda3452546886b2b713c62c4a07fd52aa5a3fa010f5ac9ab518fe69822bbc5951" name="acda3452546886b2b713c62c4a07fd52aa5a3fa010f5ac9ab518fe69822bbc5951"></a>ENTITY_FLAG_200000&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="acda3452546886b2b713c62c4a07fd52aa27d13cf0c8472cd2eb611270e60ecfc9" name="acda3452546886b2b713c62c4a07fd52aa27d13cf0c8472cd2eb611270e60ecfc9"></a>ENTITY_FLAG_SHADOW_POS_DIRTY&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="acda3452546886b2b713c62c4a07fd52aa25e070ca6e3a80c503f5b74d1351984c" name="acda3452546886b2b713c62c4a07fd52aa25e070ca6e3a80c503f5b74d1351984c"></a>ENTITY_FLAG_DARK_SHADOW&#160;</td><td class="fielddoc"></td></tr>
@@ -12468,14 +12462,7 @@ Enumerations</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a3495c8c8ed51c1943a2faf523df0aa68a0231421d7aa821ccb5c47be65f0b1061" name="a3495c8c8ed51c1943a2faf523df0aa68a0231421d7aa821ccb5c47be65f0b1061"></a>NPC_DROP_FLAG_1&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a3495c8c8ed51c1943a2faf523df0aa68a507687158c35ae7cd1a1bd8421c11d60" name="a3495c8c8ed51c1943a2faf523df0aa68a507687158c35ae7cd1a1bd8421c11d60"></a>NPC_DROP_FLAG_2&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a3495c8c8ed51c1943a2faf523df0aa68a6bdbc8511825acbce3e7455f8e7bbde5" name="a3495c8c8ed51c1943a2faf523df0aa68a6bdbc8511825acbce3e7455f8e7bbde5"></a>NPC_DROP_FLAG_4&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a3495c8c8ed51c1943a2faf523df0aa68a3495110e26020aa924b42396142b8e16" name="a3495c8c8ed51c1943a2faf523df0aa68a3495110e26020aa924b42396142b8e16"></a>NPC_DROP_FLAG_8&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a3495c8c8ed51c1943a2faf523df0aa68af741c7c5adcbc1277c0a438ac1858597" name="a3495c8c8ed51c1943a2faf523df0aa68af741c7c5adcbc1277c0a438ac1858597"></a>NPC_DROP_FLAG_10&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a3495c8c8ed51c1943a2faf523df0aa68aefc58b207e767ae3535f9294a912ac2c" name="a3495c8c8ed51c1943a2faf523df0aa68aefc58b207e767ae3535f9294a912ac2c"></a>NPC_DROP_FLAG_20&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a3495c8c8ed51c1943a2faf523df0aa68a606134ba7070863a83baf173d4cc6c89" name="a3495c8c8ed51c1943a2faf523df0aa68a606134ba7070863a83baf173d4cc6c89"></a>NPC_DROP_FLAG_40&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a3495c8c8ed51c1943a2faf523df0aa68a1e37de0beef2439eeb8903067b1df8e7" name="a3495c8c8ed51c1943a2faf523df0aa68a1e37de0beef2439eeb8903067b1df8e7"></a>NPC_DROP_FLAG_80&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a3495c8c8ed51c1943a2faf523df0aa68a1e37de0beef2439eeb8903067b1df8e7" name="a3495c8c8ed51c1943a2faf523df0aa68a1e37de0beef2439eeb8903067b1df8e7"></a>NPC_DROP_FLAG_80&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
@@ -15011,6 +14998,24 @@ Enumerations</h2></td></tr>
 <tr><td class="fieldname"><a id="a9f9a69b8310bd128cc9107afe3f8e175a7f33c541d81a0b11068c24f9a1af59df" name="a9f9a69b8310bd128cc9107afe3f8e175a7f33c541d81a0b11068c24f9a1af59df"></a>SPR_IMGFX_FLAG_40000000&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a9f9a69b8310bd128cc9107afe3f8e175a35bd377622ebc4f8434ccad456fecb31" name="a9f9a69b8310bd128cc9107afe3f8e175a35bd377622ebc4f8434ccad456fecb31"></a>SPR_IMGFX_FLAG_80000000&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a9f9a69b8310bd128cc9107afe3f8e175a6387074ffcdba0cdde584e38be015421" name="a9f9a69b8310bd128cc9107afe3f8e175a6387074ffcdba0cdde584e38be015421"></a>SPR_IMGFX_FLAG_ALL&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
+<a id="a1ba259fefc8f09b6e7345a2cd0b0586d" name="a1ba259fefc8f09b6e7345a2cd0b0586d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1ba259fefc8f09b6e7345a2cd0b0586d">&#9670;&#160;</a></span>SpriteShadingFlags</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="#a1ba259fefc8f09b6e7345a2cd0b0586d">SpriteShadingFlags</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a1ba259fefc8f09b6e7345a2cd0b0586daebaf73e5106141168eaceb68e45567f8" name="a1ba259fefc8f09b6e7345a2cd0b0586daebaf73e5106141168eaceb68e45567f8"></a>SPR_SHADING_FLAG_ENABLED&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a1ba259fefc8f09b6e7345a2cd0b0586da3dc364838c17a37d3514d1681fd9b71d" name="a1ba259fefc8f09b6e7345a2cd0b0586da3dc364838c17a37d3514d1681fd9b71d"></a>SPR_SHADING_FLAG_SET_VIEWPORT&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>

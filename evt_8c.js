@@ -1,6 +1,5 @@
 var evt_8c =
 [
-    [ "DeleteTrigger", "evt_8c.html#a472310cab8dc67d4b1ec8fe331ec7fff", null ],
     [ "evt_execute_next_command", "evt_8c.html#a9d2ea0d2c03b11fba2846d71bf4ca5c3", null ],
     [ "evt_find_label", "evt_8c.html#accdb1d8f35c2b904ccbfff0547ba3245", null ],
     [ "evt_fixed_var_to_float", "evt_8c.html#ac3f10e89cac7825dddd0a6b06fa76ddc", null ],

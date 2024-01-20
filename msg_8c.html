@@ -117,6 +117,8 @@ Macros</h2></td></tr>
 <tr class="separator:a62fd3981f6e370df08097a91edb20e62"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6be0b0c1a093f3409c69a20ec00aa0dd" id="r_a6be0b0c1a093f3409c69a20ec00aa0dd"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6be0b0c1a093f3409c69a20ec00aa0dd">CHOICE_POINTER_MOVE_RATE</a>&#160;&#160;&#160;6.0</td></tr>
 <tr class="separator:a6be0b0c1a093f3409c69a20ec00aa0dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aec9c40640d160de1f9a56dba253f31cc" id="r_aec9c40640d160de1f9a56dba253f31cc"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aec9c40640d160de1f9a56dba253f31cc">CHAR_SPACE_MULTIPLIER</a>&#160;&#160;&#160;0.6</td></tr>
+<tr class="separator:aec9c40640d160de1f9a56dba253f31cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
 Typedefs</h2></td></tr>
@@ -224,10 +226,6 @@ Functions</h2></td></tr>
 <tr class="separator:a56f999ae2fcc73c47b8814215d1d96fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acb534ddecce932a492f81e1f65257972" id="r_acb534ddecce932a492f81e1f65257972"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acb534ddecce932a492f81e1f65257972">draw_number</a> (s32 value, s32 x, s32 y, s32 charset, s32 <a class="el" href="jan__04__7__scenes_8c.html#aae2e2ba044869746e8cbe4485745dcd2">palette</a>, s32 opacity, u16 style)</td></tr>
 <tr class="separator:acb534ddecce932a492f81e1f65257972"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0f0b1d849702cda922a3945470b15737" id="r_a0f0b1d849702cda922a3945470b15737"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0f0b1d849702cda922a3945470b15737">drawbox_message_delegate</a> (s32 data, s32 baseX, s32 baseY, s32 width, s32 height, s32 opacity, s32 darkening)</td></tr>
-<tr class="separator:a0f0b1d849702cda922a3945470b15737"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abc29737f0487bf39dd9f7d327eba840b" id="r_abc29737f0487bf39dd9f7d327eba840b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abc29737f0487bf39dd9f7d327eba840b">msg_get_glyph</a> (s32 font, s32 variation, s32 charIndex, s32 <a class="el" href="jan__04__7__scenes_8c.html#aae2e2ba044869746e8cbe4485745dcd2">palette</a>, <a class="el" href="common__structs_8h.html#structMesasgeFontGlyphData">MesasgeFontGlyphData</a> *out)</td></tr>
-<tr class="separator:abc29737f0487bf39dd9f7d327eba840b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
@@ -341,24 +339,6 @@ Variables</h2></td></tr>
 <tr class="separator:aa31ca2eb1bad9c4930df3d7b7f7c7770"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a80219afb1766b170a2ee4cd76a2e71b5" id="r_a80219afb1766b170a2ee4cd76a2e71b5"><td class="memItemLeft" align="right" valign="top">Gfx&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a80219afb1766b170a2ee4cd76a2e71b5">gMsgDlistInitDrawNumber</a> []</td></tr>
 <tr class="separator:a80219afb1766b170a2ee4cd76a2e71b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeeb55f0bd4bc6fd042ddb1506fc22332" id="r_aeeb55f0bd4bc6fd042ddb1506fc22332"><td class="memItemLeft" align="right" valign="top">Vtx&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeeb55f0bd4bc6fd042ddb1506fc22332">gMsgSpeechBoxLQuad</a> [4]</td></tr>
-<tr class="separator:aeeb55f0bd4bc6fd042ddb1506fc22332"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7c1783688f1e244ec679120c65a07db4" id="r_a7c1783688f1e244ec679120c65a07db4"><td class="memItemLeft" align="right" valign="top">Vtx&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7c1783688f1e244ec679120c65a07db4">gMsgSpeechBoxMQuad</a> []</td></tr>
-<tr class="separator:a7c1783688f1e244ec679120c65a07db4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1220632adda285a3e16b0fb194e0d952" id="r_a1220632adda285a3e16b0fb194e0d952"><td class="memItemLeft" align="right" valign="top">Vtx&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1220632adda285a3e16b0fb194e0d952">gMsgSpeechBoxRQuad</a> []</td></tr>
-<tr class="separator:a1220632adda285a3e16b0fb194e0d952"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a366fb92410ad47b0468d32db11d12abc" id="r_a366fb92410ad47b0468d32db11d12abc"><td class="memItemLeft" align="right" valign="top">Vtx&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a366fb92410ad47b0468d32db11d12abc">gMsgArrowQuad1</a> []</td></tr>
-<tr class="separator:a366fb92410ad47b0468d32db11d12abc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab2c9182a88b6e40b264799fc88672668" id="r_ab2c9182a88b6e40b264799fc88672668"><td class="memItemLeft" align="right" valign="top">Vtx&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab2c9182a88b6e40b264799fc88672668">gMsgArrowQuad2</a> []</td></tr>
-<tr class="separator:ab2c9182a88b6e40b264799fc88672668"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acc9f3d1f80db3f5cdfc9b2ef533c21e1" id="r_acc9f3d1f80db3f5cdfc9b2ef533c21e1"><td class="memItemLeft" align="right" valign="top">Gfx&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acc9f3d1f80db3f5cdfc9b2ef533c21e1">D_8014C500</a> []</td></tr>
-<tr class="separator:acc9f3d1f80db3f5cdfc9b2ef533c21e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af411c053f382335e34aa0b949d09e56e" id="r_af411c053f382335e34aa0b949d09e56e"><td class="memItemLeft" align="right" valign="top">u8&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af411c053f382335e34aa0b949d09e56e">D_8014C580</a> [] = { 50, 80, 100, 105, 100, 0, 0, 0 }</td></tr>
-<tr class="separator:af411c053f382335e34aa0b949d09e56e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1b987af32867ab408b1ce4477534c5f9" id="r_a1b987af32867ab408b1ce4477534c5f9"><td class="memItemLeft" align="right" valign="top">u8&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1b987af32867ab408b1ce4477534c5f9">D_8014C588</a> [] = { 105, 100, 77, 57, 40, 27, 16, 8, 3, 0, 0, 0}</td></tr>
-<tr class="separator:a1b987af32867ab408b1ce4477534c5f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a54c91058a2621371acd41c10fc5d72df" id="r_a54c91058a2621371acd41c10fc5d72df"><td class="memItemLeft" align="right" valign="top">u8&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a54c91058a2621371acd41c10fc5d72df">D_8014C594</a> [] = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 }</td></tr>
-<tr class="separator:a54c91058a2621371acd41c10fc5d72df"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6b9c89ad74ed068073579ffb6af54fbd" id="r_a6b9c89ad74ed068073579ffb6af54fbd"><td class="memItemLeft" align="right" valign="top">s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6b9c89ad74ed068073579ffb6af54fbd">gItemIconRasterOffsets</a> []</td></tr>
 <tr class="separator:a6b9c89ad74ed068073579ffb6af54fbd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a08296dc8b41cbca90a9f8c3973445ab6" id="r_a08296dc8b41cbca90a9f8c3973445ab6"><td class="memItemLeft" align="right" valign="top">s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a08296dc8b41cbca90a9f8c3973445ab6">gItemIconPaletteOffsets</a> []</td></tr>
@@ -371,6 +351,22 @@ Variables</h2></td></tr>
 <tr class="separator:a027c55051e18fb8047496b871256b565"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="aec9c40640d160de1f9a56dba253f31cc" name="aec9c40640d160de1f9a56dba253f31cc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aec9c40640d160de1f9a56dba253f31cc">&#9670;&#160;</a></span>CHAR_SPACE_MULTIPLIER</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define CHAR_SPACE_MULTIPLIER&#160;&#160;&#160;0.6</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="#a8e8b90fcecca15272ea22c971a059535">msg_get_draw_char_width()</a>, and <a class="el" href="filemenu__createfile_8c.html#a4b6261dcfb295e3bcde033207284a6da">msg_get_print_char_width()</a>.</p>
+
+</div>
+</div>
 <a id="a6be0b0c1a093f3409c69a20ec00aa0dd" name="a6be0b0c1a093f3409c69a20ec00aa0dd"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6be0b0c1a093f3409c69a20ec00aa0dd">&#9670;&#160;</a></span>CHOICE_POINTER_MOVE_RATE</h2>
 
@@ -549,7 +545,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="#abe2d402953724b6b85f8849b5ed1fd7d">draw_message_window()</a>, <a class="el" href="functions_8h.html#aef435a6ed988fcbccd48d260f938abfe">draw_msg()</a>, and <a class="el" href="#a0f0b1d849702cda922a3945470b15737">drawbox_message_delegate()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="#abe2d402953724b6b85f8849b5ed1fd7d">draw_message_window()</a>, <a class="el" href="functions_8h.html#aef435a6ed988fcbccd48d260f938abfe">draw_msg()</a>, and <a class="el" href="msg__draw_8c.html#a0f0b1d849702cda922a3945470b15737">drawbox_message_delegate()</a>.</p>
 
 </div>
 </div>
@@ -621,7 +617,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="functions_8h.html#af3984336410c223b3081bf0b0caa66f7">cancel_current_message()</a>, and <a class="el" href="script__api_2common_8h.html#a376abec90cc8bac71bd1de61edffd8ee">CancelMessage()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="functions_8h.html#af3984336410c223b3081bf0b0caa66f7">cancel_current_message()</a>.</p>
 
 </div>
 </div>
@@ -678,7 +674,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="msg__api_8c.html#a2b75a69508214d00f1eecf9f7c971222">_show_message()</a>, <a class="el" href="script__api_2common_8h.html#a558537a0733c1e8f64fc733f1a7c4ec4">CloseChoice()</a>, <a class="el" href="script__api_2common_8h.html#a9f57818c6673d373bd2e41748a08027b">CloseMessage()</a>, and <a class="el" href="functions_8h.html#a3033c4b413b29cdcf99887b168349379">entity_SaveBlock_wait_for_close_choice()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="msg__api_8c.html#a804eb2e2907cbee64daac855b10d3c91">_show_message()</a>, and <a class="el" href="functions_8h.html#a3033c4b413b29cdcf99887b168349379">entity_SaveBlock_wait_for_close_choice()</a>.</p>
 
 </div>
 </div>
@@ -911,54 +907,6 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="reference">Referenced by <a class="el" href="kmr__20__13__records_8c.html#a0f97a21f65ab5b55ef30039032d1226b">appendGfx_records_impl()</a>, <a class="el" href="mgm__01__2__npc_8c.html#a74bfd05579b6dda7ce06b938aa7126a9">appendGfx_score_display()</a>, <a class="el" href="inventory_8c.html#ae0c37cd53652e88680eebddb5bff16fd">coin_counter_draw_content()</a>, <a class="el" href="mgm__00__3__scoreboard_8c.html#a3c6b6c57b863d071c9af91fe0f587cfc">draw_record_display()</a>, <a class="el" href="shops_8c.html#a22c4fc57bf43b5ae91174f54241224b6">draw_shop_items()</a>, <a class="el" href="filemenu__main_8c.html#a2015fefb6074d7c10b23abd1ea4dc74b">filemenu_draw_contents_file_info()</a>, <a class="el" href="filemenu__main_8c.html#a814b8254614c9ee345fbfa9bf972196c">filemenu_draw_contents_file_title()</a>, <a class="el" href="filemenu_8h.html#a2233e584ae25a55162c9984778ae6a45">filemenu_info_draw_message_contents()</a>, <a class="el" href="filemenu_8h.html#af7765ce9e2b6d5bb718fa949f1fbaa4a">filemenu_yesno_draw_prompt_contents()</a>, <a class="el" href="8a860__len__3f30_8c.html#ad0b8fbde30b1e90119c6d1729e12956c">func_800F4D28()</a>, <a class="el" href="btl__states__menus_8c.html#a9e2bbcb21089147702fac05557c298e2">func_802A3C98()</a>, <a class="el" href="pause__badges_8c.html#a92d99ab83466c01d43fdd0c4a9e31962">pause_badges_draw_contents()</a>, <a class="el" href="pause__partners_8c.html#a5a45e727e9415f1469653f811bdb3559">pause_partners_draw_movelist()</a>, <a class="el" href="pause__stats_8c.html#ae508ced14ea13823fc13615a7a2e757a">pause_stats_draw_contents()</a>, <a class="el" href="8a860__len__3f30_8c.html#a0a39c600a69a9cae4368d334d32807b2">popup_menu_draw_menu_contents()</a>, and <a class="el" href="8a860__len__3f30_8c.html#a162d8abf7f51d7c3e86af4e59cc25340">popup_menu_draw_title_contents()</a>.</p>
-
-</div>
-</div>
-<a id="a0f0b1d849702cda922a3945470b15737" name="a0f0b1d849702cda922a3945470b15737"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0f0b1d849702cda922a3945470b15737">&#9670;&#160;</a></span>drawbox_message_delegate()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void drawbox_message_delegate </td>
-          <td>(</td>
-          <td class="paramtype">s32</td>          <td class="paramname"><span class="paramname"><em>data</em>, </span></td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">s32</td>          <td class="paramname"><span class="paramname"><em>baseX</em>, </span></td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">s32</td>          <td class="paramname"><span class="paramname"><em>baseY</em>, </span></td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">s32</td>          <td class="paramname"><span class="paramname"><em>width</em>, </span></td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">s32</td>          <td class="paramname"><span class="paramname"><em>height</em>, </span></td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">s32</td>          <td class="paramname"><span class="paramname"><em>opacity</em>, </span></td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">s32</td>          <td class="paramname"><span class="paramname"><em>darkening</em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="#abe2d402953724b6b85f8849b5ed1fd7d">draw_message_window()</a>.</p>
 
 </div>
 </div>
@@ -1293,7 +1241,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="#a4fdbe533b9c744b51798168db4195dc2">appendGfx_message()</a>, <a class="el" href="kmr__20__13__records_8c.html#a0f97a21f65ab5b55ef30039032d1226b">appendGfx_records_impl()</a>, and <a class="el" href="mgm__00__3__scoreboard_8c.html#a3c6b6c57b863d071c9af91fe0f587cfc">draw_record_display()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="kmr__20__13__records_8c.html#a0f97a21f65ab5b55ef30039032d1226b">appendGfx_records_impl()</a>, and <a class="el" href="mgm__00__3__scoreboard_8c.html#a3c6b6c57b863d071c9af91fe0f587cfc">draw_record_display()</a>.</p>
 
 </div>
 </div>
@@ -1490,45 +1438,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="#a4fdbe533b9c744b51798168db4195dc2">appendGfx_message()</a>, and <a class="el" href="#abc29737f0487bf39dd9f7d327eba840b">msg_get_glyph()</a>.</p>
-
-</div>
-</div>
-<a id="abc29737f0487bf39dd9f7d327eba840b" name="abc29737f0487bf39dd9f7d327eba840b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abc29737f0487bf39dd9f7d327eba840b">&#9670;&#160;</a></span>msg_get_glyph()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void msg_get_glyph </td>
-          <td>(</td>
-          <td class="paramtype">s32</td>          <td class="paramname"><span class="paramname"><em>font</em>, </span></td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">s32</td>          <td class="paramname"><span class="paramname"><em>variation</em>, </span></td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">s32</td>          <td class="paramname"><span class="paramname"><em>charIndex</em>, </span></td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">s32</td>          <td class="paramname"><span class="paramname"><em>palette</em>, </span></td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="common__structs_8h.html#structMesasgeFontGlyphData">MesasgeFontGlyphData</a> *</td>          <td class="paramname"><span class="paramname"><em>out</em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="Credits_8inc_8c.html#a1ae5dfddcd25021950cdbd487d1fc98a">CharAnim_FadeIn_0()</a>, <a class="el" href="Credits_8inc_8c.html#a250b4c64dbead7440a6bdeb74f4f7b3a">CharAnim_FadeIn_1()</a>, <a class="el" href="Credits_8inc_8c.html#a4513c13035491f4647d2bb1e0415c03d">CharAnim_FadeIn_2()</a>, <a class="el" href="Credits_8inc_8c.html#ace2da2c6ca3cff54e647fa3c809eee7d">CharAnim_FadeIn_3()</a>, <a class="el" href="Credits_8inc_8c.html#ab8306afe4d49fd2bb3f1c0e3840faa68">CharAnim_FadeIn_4()</a>, <a class="el" href="Credits_8inc_8c.html#ac5bf282690fbf06b342cfb1cac3c86ec">CharAnim_FadeIn_5()</a>, <a class="el" href="Credits_8inc_8c.html#a1681ce91a1d2f7558b151e098e175a8f">CharAnim_FadeOut_0()</a>, <a class="el" href="Credits_8inc_8c.html#a034f0213d25e02d67f2582c8f7799128">CharAnim_FadeOut_1()</a>, <a class="el" href="Credits_8inc_8c.html#a73afcd089171eba947e75ec49f4d5c94">CharAnim_FadeOut_2()</a>, <a class="el" href="Credits_8inc_8c.html#a6bc66f841217ed8db42a443fa06b3335">CharAnim_FadeOut_3()</a>, <a class="el" href="Credits_8inc_8c.html#a5e76965fd902d142ed94137717a9f46b">CharAnim_Hold()</a>, and <a class="el" href="Credits_8inc_8c.html#aff0bad3e9f742c71731e11a26da4342b">CharAnim_HoldClearImgFX()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="#a4fdbe533b9c744b51798168db4195dc2">appendGfx_message()</a>, and <a class="el" href="msg__draw_8c.html#abc29737f0487bf39dd9f7d327eba840b">msg_get_glyph()</a>.</p>
 
 </div>
 </div>
@@ -1594,7 +1504,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="msg__api_8c.html#a2b75a69508214d00f1eecf9f7c971222">_show_message()</a>, <a class="el" href="HeartBlock_8c.html#a4792144d11304359ac46481cf360f8c2">entity_HeartBlock_show_tutorial_message()</a>, <a class="el" href="functions_8h.html#ad78fac8cf3b9f9dbbe02938354d2d7fb">entity_SaveBlock_show_choice_message()</a>, <a class="el" href="functions_8h.html#acdfa460be0b2d4f852787023aeb043df">entity_SaveBlock_show_tutorial_message()</a>, <a class="el" href="8a860__len__3f30_8c.html#a55776b51e975bf078a9c6919695c6cf3">popup_menu_update()</a>, <a class="el" href="script__api_2common_8h.html#ad4f61857f5ca9030f9a98eed59b4f8ae">ShowChoice()</a>, <a class="el" href="script__api_2common_8h.html#abed4a7b308215adb3b40cba45b2efc88">ShowMessageAtScreenPos()</a>, <a class="el" href="script__api_2common_8h.html#a77a24824da1566db186838f26df9ded6">ShowMessageAtWorldPos()</a>, and <a class="el" href="item__entity_8c.html#a22c8dbeb2654f9d2bd8de2e295b32103">update_item_entity_pickup()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="msg__api_8c.html#a804eb2e2907cbee64daac855b10d3c91">_show_message()</a>, <a class="el" href="HeartBlock_8c.html#a4792144d11304359ac46481cf360f8c2">entity_HeartBlock_show_tutorial_message()</a>, <a class="el" href="functions_8h.html#ad78fac8cf3b9f9dbbe02938354d2d7fb">entity_SaveBlock_show_choice_message()</a>, <a class="el" href="functions_8h.html#acdfa460be0b2d4f852787023aeb043df">entity_SaveBlock_show_tutorial_message()</a>, <a class="el" href="8a860__len__3f30_8c.html#a55776b51e975bf078a9c6919695c6cf3">popup_menu_update()</a>, and <a class="el" href="item__entity_8c.html#a22c8dbeb2654f9d2bd8de2e295b32103">update_item_entity_pickup()</a>.</p>
 
 </div>
 </div>
@@ -1640,7 +1550,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="msg__api_8c.html#a2b75a69508214d00f1eecf9f7c971222">_show_message()</a>, <a class="el" href="functions_8h.html#ad0c1706ff20008836063a62bc9598043">entity_SaveBlock_show_result_message()</a>, and <a class="el" href="script__api_2common_8h.html#aaa07341def80739f437b100d58c9b184">SwitchMessage()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="msg__api_8c.html#a804eb2e2907cbee64daac855b10d3c91">_show_message()</a>, and <a class="el" href="functions_8h.html#ad0c1706ff20008836063a62bc9598043">entity_SaveBlock_show_result_message()</a>.</p>
 
 </div>
 </div>
@@ -1668,7 +1578,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="msg__api_8c.html#a2b75a69508214d00f1eecf9f7c971222">_show_message()</a>, <a class="el" href="8a860__len__3f30_8c.html#a55776b51e975bf078a9c6919695c6cf3">popup_menu_update()</a>, <a class="el" href="script__api_2common_8h.html#abed4a7b308215adb3b40cba45b2efc88">ShowMessageAtScreenPos()</a>, <a class="el" href="script__api_2common_8h.html#a77a24824da1566db186838f26df9ded6">ShowMessageAtWorldPos()</a>, and <a class="el" href="item__entity_8c.html#a22c8dbeb2654f9d2bd8de2e295b32103">update_item_entity_pickup()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="msg__api_8c.html#a804eb2e2907cbee64daac855b10d3c91">_show_message()</a>, <a class="el" href="8a860__len__3f30_8c.html#a55776b51e975bf078a9c6919695c6cf3">popup_menu_update()</a>, and <a class="el" href="item__entity_8c.html#a22c8dbeb2654f9d2bd8de2e295b32103">update_item_entity_pickup()</a>.</p>
 
 </div>
 </div>
@@ -1744,8 +1654,6 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="script__api_2common_8h.html#a5f6d15c454bd2e0f00f16b996ef9fe10">SetMessageImages()</a>.</p>
-
 </div>
 </div>
 <a id="aa7317d3672d0cb09936c62bf69486dd9" name="aa7317d3672d0cb09936c62bf69486dd9"></a>
@@ -1767,7 +1675,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="popup__messages_8c.html#a7be1cc1d463a17464bd236526fc3e085">btl_message_popup_draw_content()</a>, <a class="el" href="popup__messages_8c.html#ae2144a8a37a8bee189a929c523db2b0a">btl_show_message_popup()</a>, <a class="el" href="8a860__len__3f30_8c.html#a0a39c600a69a9cae4368d334d32807b2">popup_menu_draw_menu_contents()</a>, <a class="el" href="script__api_2common_8h.html#a1c86f2feb855ed8ae7153dc1a182da20">SetMessageValue()</a>, <a class="el" href="shops_8c.html#a6da57e081c6447dbbaca16dc87d5c349">shop_owner_buy_dialog()</a>, and <a class="el" href="shops_8c.html#ad999fa98d3148f2d510f159668611eba">shop_owner_continue_speech_with_quantity()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="popup__messages_8c.html#a7be1cc1d463a17464bd236526fc3e085">btl_message_popup_draw_content()</a>, <a class="el" href="popup__messages_8c.html#ae2144a8a37a8bee189a929c523db2b0a">btl_show_message_popup()</a>, <a class="el" href="8a860__len__3f30_8c.html#a0a39c600a69a9cae4368d334d32807b2">popup_menu_draw_menu_contents()</a>, <a class="el" href="shops_8c.html#a6da57e081c6447dbbaca16dc87d5c349">shop_owner_buy_dialog()</a>, and <a class="el" href="shops_8c.html#ad999fa98d3148f2d510f159668611eba">shop_owner_continue_speech_with_quantity()</a>.</p>
 
 </div>
 </div>
@@ -1790,7 +1698,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="popup__messages_8c.html#a7be1cc1d463a17464bd236526fc3e085">btl_message_popup_draw_content()</a>, <a class="el" href="popup__messages_8c.html#ae2144a8a37a8bee189a929c523db2b0a">btl_show_message_popup()</a>, <a class="el" href="item__entity_8c.html#a80792dccec52161dc878d0f10e8c32ad">draw_content_pickup_item_header()</a>, <a class="el" href="item__entity_8c.html#aa7e4d8b2a53abc63d1ac09f7737a5988">func_801363A0()</a>, <a class="el" href="script__api_2common_8h.html#a2ef45fc71587f515e5ac213d520200e2">SetMessageText()</a>, <a class="el" href="shops_8c.html#a6da57e081c6447dbbaca16dc87d5c349">shop_owner_buy_dialog()</a>, and <a class="el" href="shops_8c.html#ad999fa98d3148f2d510f159668611eba">shop_owner_continue_speech_with_quantity()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="popup__messages_8c.html#a7be1cc1d463a17464bd236526fc3e085">btl_message_popup_draw_content()</a>, <a class="el" href="popup__messages_8c.html#ae2144a8a37a8bee189a929c523db2b0a">btl_show_message_popup()</a>, <a class="el" href="item__entity_8c.html#a80792dccec52161dc878d0f10e8c32ad">draw_content_pickup_item_header()</a>, <a class="el" href="item__entity_8c.html#aa7e4d8b2a53abc63d1ac09f7737a5988">func_801363A0()</a>, <a class="el" href="shops_8c.html#a6da57e081c6447dbbaca16dc87d5c349">shop_owner_buy_dialog()</a>, and <a class="el" href="shops_8c.html#ad999fa98d3148f2d510f159668611eba">shop_owner_continue_speech_with_quantity()</a>.</p>
 
 </div>
 </div>
@@ -1854,92 +1762,12 @@ Variables</h2></td></tr>
 <div class="line">    gsDPSetTextureFilter(G_TF_AVERAGE),</div>
 <div class="line">    gsDPSetRenderMode(IM_RD | CVG_DST_SAVE | ZMODE_XLU | FORCE_BL | G_RM_PASS, IM_RD | CVG_DST_SAVE | ZMODE_XLU |</div>
 <div class="line">                      FORCE_BL | GBL_c2(G_BL_CLR_IN, G_BL_A_IN, G_BL_CLR_MEM, G_BL_1MA)),</div>
-<div class="line">    gsDPSetCombineMode(<a class="code hl_define" href="macros_8h.html#a1f2db5d64a128b2a5527ccaf7ed90a63">PM_CC_13</a>, G_CC_PASS2),</div>
+<div class="line">    gsDPSetCombineMode(<a class="code hl_define" href="macros_8h.html#a002df669e8df2f97293b2f64ca6bbb3a">PM_CC_MSG_UP_ARROW</a>, G_CC_PASS2),</div>
 <div class="line">    gsSPEndDisplayList(),</div>
 <div class="line">}</div>
-<div class="ttc" id="amacros_8h_html_a1f2db5d64a128b2a5527ccaf7ed90a63"><div class="ttname"><a href="macros_8h.html#a1f2db5d64a128b2a5527ccaf7ed90a63">PM_CC_13</a></div><div class="ttdeci">#define PM_CC_13</div><div class="ttdef"><b>Definition</b> macros.h:299</div></div>
+<div class="ttc" id="amacros_8h_html_a002df669e8df2f97293b2f64ca6bbb3a"><div class="ttname"><a href="macros_8h.html#a002df669e8df2f97293b2f64ca6bbb3a">PM_CC_MSG_UP_ARROW</a></div><div class="ttdeci">#define PM_CC_MSG_UP_ARROW</div><div class="ttdef"><b>Definition</b> macros.h:302</div></div>
 </div><!-- fragment -->
 <p class="reference">Referenced by <a class="el" href="#ab72f906f1f7a0a79adc5bb419b60bacf">msg_update_rewind_arrow()</a>.</p>
-
-</div>
-</div>
-<a id="acc9f3d1f80db3f5cdfc9b2ef533c21e1" name="acc9f3d1f80db3f5cdfc9b2ef533c21e1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acc9f3d1f80db3f5cdfc9b2ef533c21e1">&#9670;&#160;</a></span>D_8014C500</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">Gfx D_8014C500[]</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line">    gsDPSetCycleType(G_CYC_1CYCLE),</div>
-<div class="line">    gsDPSetRenderMode(G_RM_TEX_EDGE, G_RM_TEX_EDGE2),</div>
-<div class="line">    gsDPSetCombineMode(G_CC_DECALRGBA, G_CC_DECALRGBA),</div>
-<div class="line">    gsDPSetTextureFilter(G_TF_AVERAGE),</div>
-<div class="line">    gsSPTexture(-1, -1, 0, G_TX_RENDERTILE, G_ON),</div>
-<div class="line">    gsDPSetTexturePersp(G_TP_NONE),</div>
-<div class="line">    gsDPSetColorDither(G_CD_DISABLE),</div>
-<div class="line">    gsDPSetAlphaDither(G_AD_DISABLE),</div>
-<div class="line">    gsDPSetTextureLOD(G_TL_TILE),</div>
-<div class="line">    gsDPSetTextureLUT(G_TT_RGBA16),</div>
-<div class="line">    gsDPSetTextureDetail(G_TD_CLAMP),</div>
-<div class="line">    gsDPSetTextureConvert(G_TC_FILT),</div>
-<div class="line">    gsDPSetCombineKey(G_CK_NONE),</div>
-<div class="line">    gsDPSetAlphaCompare(G_AC_NONE),</div>
-<div class="line">    gsDPNoOp(),</div>
-<div class="line">    gsSPEndDisplayList(),</div>
-<div class="line">}</div>
-</div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="#a4fdbe533b9c744b51798168db4195dc2">appendGfx_message()</a>, and <a class="el" href="#a94167e725d9082b1be0112a8d675597e">msg_reset_gfx_state()</a>.</p>
-
-</div>
-</div>
-<a id="af411c053f382335e34aa0b949d09e56e" name="af411c053f382335e34aa0b949d09e56e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af411c053f382335e34aa0b949d09e56e">&#9670;&#160;</a></span>D_8014C580</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">u8 D_8014C580[] = { 50, 80, 100, 105, 100, 0, 0, 0 }</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="#abe2d402953724b6b85f8849b5ed1fd7d">draw_message_window()</a>.</p>
-
-</div>
-</div>
-<a id="a1b987af32867ab408b1ce4477534c5f9" name="a1b987af32867ab408b1ce4477534c5f9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1b987af32867ab408b1ce4477534c5f9">&#9670;&#160;</a></span>D_8014C588</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">u8 D_8014C588[] = { 105, 100, 77, 57, 40, 27, 16, 8, 3, 0, 0, 0}</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="#abe2d402953724b6b85f8849b5ed1fd7d">draw_message_window()</a>.</p>
-
-</div>
-</div>
-<a id="a54c91058a2621371acd41c10fc5d72df" name="a54c91058a2621371acd41c10fc5d72df"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a54c91058a2621371acd41c10fc5d72df">&#9670;&#160;</a></span>D_8014C594</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">u8 D_8014C594[] = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 }</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
 
 </div>
 </div>
@@ -2103,7 +1931,7 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="functions_8h.html#af87442688e4ea30572dbf0c9037d34ff">draw_number()</a>, <a class="el" href="functions_8h.html#aca522cc2ffec0bcc82256f55cc5ca512">load_font()</a>, <a class="el" href="#a4fde97330737333892797106aa3feeba">msg_draw_char()</a>, and <a class="el" href="#abc29737f0487bf39dd9f7d327eba840b">msg_get_glyph()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="functions_8h.html#af87442688e4ea30572dbf0c9037d34ff">draw_number()</a>, and <a class="el" href="functions_8h.html#aca522cc2ffec0bcc82256f55cc5ca512">load_font()</a>.</p>
 
 </div>
 </div>
@@ -2175,8 +2003,6 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="#a65e036e670f167d3879ec03bb0f8af21">msg_draw_frame()</a>.</p>
-
 </div>
 </div>
 <a id="a0349c9192fc9298963cf9208d7757264" name="a0349c9192fc9298963cf9208d7757264"></a>
@@ -2240,50 +2066,6 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="reference">Referenced by <a class="el" href="functions_8h.html#a35121fe1d2dd4505b0d9867d48b5a2e4">render_messages()</a>.</p>
-
-</div>
-</div>
-<a id="a366fb92410ad47b0468d32db11d12abc" name="a366fb92410ad47b0468d32db11d12abc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a366fb92410ad47b0468d32db11d12abc">&#9670;&#160;</a></span>gMsgArrowQuad1</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">Vtx gMsgArrowQuad1[]</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line">    { .v = { .ob = {0xFFF1, 0x001E, 0}, .tc = {0, 0},             .cn = {191, 184, 176, 255} } },</div>
-<div class="line">    { .v = { .ob = {0xF, 0x001E, 0},    .tc = {0x1E0, 0},         .cn = {191, 184, 176, 255} } },</div>
-<div class="line">    { .v = { .ob = {0xFFFF, 0, 0},      .tc = {0, 0x1E0},         .cn = {191, 184, 176, 255} } },</div>
-<div class="line">    { .v = { .ob = {1, 0, 0},           .tc = {0x1E0, 0x1E0},     .cn = {191, 184, 176, 255} } },</div>
-<div class="line">}</div>
-</div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="#ab2bc804662588b9ab74677703dc51481">msg_draw_speech_arrow()</a>.</p>
-
-</div>
-</div>
-<a id="ab2c9182a88b6e40b264799fc88672668" name="ab2c9182a88b6e40b264799fc88672668"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab2c9182a88b6e40b264799fc88672668">&#9670;&#160;</a></span>gMsgArrowQuad2</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">Vtx gMsgArrowQuad2[]</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line">    { .v = { .ob = {0xFFF1, 0x001E, 0}, .tc = {0, 0},             .cn = {191, 184, 176, 255} } },</div>
-<div class="line">    { .v = { .ob = {0xF, 0x001E, 0},    .tc = {0x1E0, 0},         .cn = {191, 184, 176, 255} } },</div>
-<div class="line">    { .v = { .ob = {0xFFFF, 0, 0},      .tc = {0, 0x1E0},         .cn = {191, 184, 176, 255} } },</div>
-<div class="line">    { .v = { .ob = {1, 0, 0},           .tc = {0x1E0, 0x1E0},     .cn = {191, 184, 176, 255} } },</div>
-<div class="line">}</div>
-</div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="#ab2bc804662588b9ab74677703dc51481">msg_draw_speech_arrow()</a>.</p>
 
 </div>
 </div>
@@ -2375,92 +2157,8 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line">    {</div>
-<div class="line">        .rasters = &amp;<a class="code hl_variable" href="#aa042ded38330cdb99627f61212649711">MsgCharImgNormal</a>[0x800],</div>
-<div class="line">        .texSize = 128,</div>
-<div class="line">        .texWidth = 16,</div>
-<div class="line">        .texHeight = 16,</div>
-<div class="line">        .digitWidth = {11, 8, 11, 11, 11, 11, 11, 11, 11, 11},</div>
-<div class="line">        .fixedWidth = 11</div>
-<div class="line">    }, {</div>
-<div class="line">        .rasters = &amp;<a class="code hl_variable" href="#aa042ded38330cdb99627f61212649711">MsgCharImgNormal</a>[0x800],</div>
-<div class="line">        .texSize = 128,</div>
-<div class="line">        .texWidth = 16,</div>
-<div class="line">        .texHeight = 16,</div>
-<div class="line">        .digitWidth = {9, 8, 9, 9, 9, 9, 9, 9, 9, 9},</div>
-<div class="line">        .fixedWidth = 9</div>
-<div class="line">    }</div>
-<div class="line">}</div>
-<div class="ttc" id="amsg_8c_html_aa042ded38330cdb99627f61212649711"><div class="ttname"><a href="#aa042ded38330cdb99627f61212649711">MsgCharImgNormal</a></div><div class="ttdeci">IMG_BIN MsgCharImgNormal[]</div><div class="ttdef"><b>Definition</b> msg_img.c:80</div></div>
-</div><!-- fragment -->
+
 <p class="reference">Referenced by <a class="el" href="#a56f999ae2fcc73c47b8814215d1d96fb">draw_digit()</a>, and <a class="el" href="functions_8h.html#af87442688e4ea30572dbf0c9037d34ff">draw_number()</a>.</p>
-
-</div>
-</div>
-<a id="aeeb55f0bd4bc6fd042ddb1506fc22332" name="aeeb55f0bd4bc6fd042ddb1506fc22332"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aeeb55f0bd4bc6fd042ddb1506fc22332">&#9670;&#160;</a></span>gMsgSpeechBoxLQuad</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">Vtx gMsgSpeechBoxLQuad[4]</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line">    { .v = { .ob = {1, 0, 0},           .tc = {0, 0},           .cn = {255, 255, 248, 255} } },</div>
-<div class="line">    { .v = { .ob = {0x20, 0, 0},        .tc = {0x400, 0},       .cn = {255, 255, 248, 255} } },</div>
-<div class="line">    { .v = { .ob = {0x1, 0xFFC0, 0},    .tc = {0, 0x800},       .cn = {191, 184, 176, 255} } },</div>
-<div class="line">    { .v = { .ob = {0x20, 0xFFC0, 0},   .tc = {0x400, 0x800},   .cn = {191, 184, 176, 255} } },</div>
-<div class="line">}</div>
-</div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="#a1380fafca997bdd8acc8b734e74585bd">msg_draw_speech_bubble()</a>.</p>
-
-</div>
-</div>
-<a id="a7c1783688f1e244ec679120c65a07db4" name="a7c1783688f1e244ec679120c65a07db4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7c1783688f1e244ec679120c65a07db4">&#9670;&#160;</a></span>gMsgSpeechBoxMQuad</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">Vtx gMsgSpeechBoxMQuad[]</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line">    { .v = { .ob = {0x20, 0, 0},        .tc = {0, 0},            .cn = {255, 255, 248, 255} } },</div>
-<div class="line">    { .v = { .ob = {0xE1, 0, 0},        .tc = {0x100, 0},        .cn = {255, 255, 248, 255} } },</div>
-<div class="line">    { .v = { .ob = {0x20, 0xFFC0, 0},   .tc = {0, 0x800},        .cn = {191, 184, 176, 255} } },</div>
-<div class="line">    { .v = { .ob = {0xE1, 0xFFC0, 0},   .tc = {0x100, 0x800},    .cn = {191, 184, 176, 255} } },</div>
-<div class="line">}</div>
-</div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="#a1380fafca997bdd8acc8b734e74585bd">msg_draw_speech_bubble()</a>.</p>
-
-</div>
-</div>
-<a id="a1220632adda285a3e16b0fb194e0d952" name="a1220632adda285a3e16b0fb194e0d952"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1220632adda285a3e16b0fb194e0d952">&#9670;&#160;</a></span>gMsgSpeechBoxRQuad</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">Vtx gMsgSpeechBoxRQuad[]</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line">    { .v = { .ob = {0xE1, 0, 0},        .tc = {0, 0},             .cn = {255, 255, 248, 255} } },</div>
-<div class="line">    { .v = { .ob = {0x100, 0, 0},       .tc = {0x400, 0},         .cn = {255, 255, 248, 255} } },</div>
-<div class="line">    { .v = { .ob = {0xE1, 0xFFC0, 0},   .tc = {0, 0x800},         .cn = {191, 184, 176, 255} } },</div>
-<div class="line">    { .v = { .ob = {0x100, 0xFFC0, 0},  .tc = {0x400, 0x800},     .cn = {191, 184, 176, 255} } },</div>
-<div class="line">}</div>
-</div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="#a1380fafca997bdd8acc8b734e74585bd">msg_draw_speech_bubble()</a>.</p>
 
 </div>
 </div>
@@ -2636,7 +2334,7 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="#a4fdbe533b9c744b51798168db4195dc2">appendGfx_message()</a>, <a class="el" href="functions_8h.html#ab2cb28fd5d01bc907a98c5b4ed553802">get_msg_properties()</a>, <a class="el" href="#ac291ccb33767b38a262eda524de8b398">msg_copy_to_print_buffer()</a>, <a class="el" href="#a4fde97330737333892797106aa3feeba">msg_draw_char()</a>, <a class="el" href="#a8e8b90fcecca15272ea22c971a059535">msg_get_draw_char_width()</a>, <a class="el" href="#abc29737f0487bf39dd9f7d327eba840b">msg_get_glyph()</a>, and <a class="el" href="filemenu__createfile_8c.html#a4b6261dcfb295e3bcde033207284a6da">msg_get_print_char_width()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="functions_8h.html#ab2cb28fd5d01bc907a98c5b4ed553802">get_msg_properties()</a>, <a class="el" href="#ac291ccb33767b38a262eda524de8b398">msg_copy_to_print_buffer()</a>, <a class="el" href="#a8e8b90fcecca15272ea22c971a059535">msg_get_draw_char_width()</a>, and <a class="el" href="filemenu__createfile_8c.html#a4b6261dcfb295e3bcde033207284a6da">msg_get_print_char_width()</a>.</p>
 
 </div>
 </div>
@@ -2708,7 +2406,7 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="#a4fdbe533b9c744b51798168db4195dc2">appendGfx_message()</a>, and <a class="el" href="#ac291ccb33767b38a262eda524de8b398">msg_copy_to_print_buffer()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="#ac291ccb33767b38a262eda524de8b398">msg_copy_to_print_buffer()</a>.</p>
 
 </div>
 </div>
@@ -2754,8 +2452,6 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="#ab2bc804662588b9ab74677703dc51481">msg_draw_speech_arrow()</a>.</p>
-
 </div>
 </div>
 <a id="a752020d4228f1204130c3331ed53434c" name="a752020d4228f1204130c3331ed53434c"></a>
@@ -2777,8 +2473,6 @@ Variables</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="#a65e036e670f167d3879ec03bb0f8af21">msg_draw_frame()</a>.</p>
 
 </div>
 </div>
@@ -2802,8 +2496,6 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="#a1380fafca997bdd8acc8b734e74585bd">msg_draw_speech_bubble()</a>.</p>
-
 </div>
 </div>
 <a id="a075f3bad4945fae7387e562926790590" name="a075f3bad4945fae7387e562926790590"></a>
@@ -2825,8 +2517,6 @@ Variables</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="#a1380fafca997bdd8acc8b734e74585bd">msg_draw_speech_bubble()</a>.</p>
 
 </div>
 </div>
@@ -2850,8 +2540,6 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="#a1380fafca997bdd8acc8b734e74585bd">msg_draw_speech_bubble()</a>.</p>
-
 </div>
 </div>
 <a id="a3db155f9cd36aca9fdab875ea6d3aa5c" name="a3db155f9cd36aca9fdab875ea6d3aa5c"></a>
@@ -2873,8 +2561,6 @@ Variables</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="#a4fdbe533b9c744b51798168db4195dc2">appendGfx_message()</a>.</p>
 
 </div>
 </div>
@@ -2898,8 +2584,6 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="#a4fdbe533b9c744b51798168db4195dc2">appendGfx_message()</a>.</p>
-
 </div>
 </div>
 <a id="ab4b40baf3b4554700b386c2c822bae21" name="ab4b40baf3b4554700b386c2c822bae21"></a>
@@ -2921,8 +2605,6 @@ Variables</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="#a65e036e670f167d3879ec03bb0f8af21">msg_draw_frame()</a>, and <a class="el" href="#a1380fafca997bdd8acc8b734e74585bd">msg_draw_speech_bubble()</a>.</p>
 
 </div>
 </div>
@@ -2994,8 +2676,6 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="#a4fdbe533b9c744b51798168db4195dc2">appendGfx_message()</a>.</p>
-
 </div>
 </div>
 <a id="ab46aa02c70cb0df479e88140172913a7" name="ab46aa02c70cb0df479e88140172913a7"></a>
@@ -3017,8 +2697,6 @@ Variables</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="#a4fdbe533b9c744b51798168db4195dc2">appendGfx_message()</a>.</p>
 
 </div>
 </div>
@@ -3042,8 +2720,6 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="#a4fdbe533b9c744b51798168db4195dc2">appendGfx_message()</a>.</p>
-
 </div>
 </div>
 <a id="a538c1ab9e88d03cbf31ea089c2e67a55" name="a538c1ab9e88d03cbf31ea089c2e67a55"></a>
@@ -3065,8 +2741,6 @@ Variables</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="#a4fdbe533b9c744b51798168db4195dc2">appendGfx_message()</a>.</p>
 
 </div>
 </div>
@@ -3090,8 +2764,6 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="#a4fdbe533b9c744b51798168db4195dc2">appendGfx_message()</a>.</p>
-
 </div>
 </div>
 <a id="a92f40a1b381b7172fe6256770a79c67b" name="a92f40a1b381b7172fe6256770a79c67b"></a>
@@ -3113,8 +2785,6 @@ Variables</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="#a4fdbe533b9c744b51798168db4195dc2">appendGfx_message()</a>.</p>
 
 </div>
 </div>
@@ -3138,8 +2808,6 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="#a4fdbe533b9c744b51798168db4195dc2">appendGfx_message()</a>.</p>
-
 </div>
 </div>
 <a id="aee79ca223e063ec5bbfc81b2d3d6373a" name="aee79ca223e063ec5bbfc81b2d3d6373a"></a>
@@ -3161,8 +2829,6 @@ Variables</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="#a4fdbe533b9c744b51798168db4195dc2">appendGfx_message()</a>.</p>
 
 </div>
 </div>
@@ -3186,8 +2852,6 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="#a4fdbe533b9c744b51798168db4195dc2">appendGfx_message()</a>.</p>
-
 </div>
 </div>
 <a id="a4056d93d56ffb94e40267cc35c74b219" name="a4056d93d56ffb94e40267cc35c74b219"></a>
@@ -3209,8 +2873,6 @@ Variables</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="#a4fdbe533b9c744b51798168db4195dc2">appendGfx_message()</a>.</p>
 
 </div>
 </div>

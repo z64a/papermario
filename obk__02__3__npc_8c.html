@@ -188,13 +188,12 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a7c09e8c76b51d5be8aeadc85751ff8f0">EVT_CALL</a>(<a class="code hl_function" href="script__api_2common_8h.html#ae92c544091e7f1858cb4aca51124c825">BindNpcIdle</a>, <a class="code hl_enumvalue" href="enums_8h.html#a8ed30857fb1bfefd4de61c6f02040634a0664795bf4a295e3c87e422eadf6870b">NPC_SELF</a>, <a class="code hl_define" href="script__api_2macros_8h.html#a5c78949040b032c6e0c50c2e78e2f7cb">EVT_PTR</a>( <a class="code hl_variable" href="TrafficBoos_8inc_8c.html#ad1354dd01259c75d9afdfcbcda32dfb7">EVS_NpcIdle_TrafficBoo</a> ))</div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a7c09e8c76b51d5be8aeadc85751ff8f0">EVT_CALL</a>(BindNpcIdle, <a class="code hl_enumvalue" href="enums_8h.html#a8ed30857fb1bfefd4de61c6f02040634a0664795bf4a295e3c87e422eadf6870b">NPC_SELF</a>, <a class="code hl_define" href="script__api_2macros_8h.html#a5c78949040b032c6e0c50c2e78e2f7cb">EVT_PTR</a>( <a class="code hl_variable" href="TrafficBoos_8inc_8c.html#ad1354dd01259c75d9afdfcbcda32dfb7">EVS_NpcIdle_TrafficBoo</a> ))</div>
 <div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#aa49b4615589f142fe396afa06f44ec5e">EVT_RETURN</a></div>
 <div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a1eb5d3206784e72fb8b5bf5cc7228553">EVT_END</a></div>
 <div class="line">}</div>
 <div class="ttc" id="aTrafficBoos_8inc_8c_html_ad1354dd01259c75d9afdfcbcda32dfb7"><div class="ttname"><a href="TrafficBoos_8inc_8c.html#ad1354dd01259c75d9afdfcbcda32dfb7">EVS_NpcIdle_TrafficBoo</a></div><div class="ttdeci">EvtScript EVS_NpcIdle_TrafficBoo</div><div class="ttdef"><b>Definition</b> TrafficBoos.inc.c:97</div></div>
 <div class="ttc" id="aenums_8h_html_a8ed30857fb1bfefd4de61c6f02040634a0664795bf4a295e3c87e422eadf6870b"><div class="ttname"><a href="enums_8h.html#a8ed30857fb1bfefd4de61c6f02040634a0664795bf4a295e3c87e422eadf6870b">NPC_SELF</a></div><div class="ttdeci">@ NPC_SELF</div><div class="ttdef"><b>Definition</b> enums.h:2529</div></div>
-<div class="ttc" id="ascript__api_2common_8h_html_ae92c544091e7f1858cb4aca51124c825"><div class="ttname"><a href="script__api_2common_8h.html#ae92c544091e7f1858cb4aca51124c825">BindNpcIdle</a></div><div class="ttdeci">ApiStatus BindNpcIdle(Evt *script, s32 isInitialCall)</div><div class="ttdef"><b>Definition</b> encounter_api.c:388</div></div>
 <div class="ttc" id="ascript__api_2macros_8h_html_a1eb5d3206784e72fb8b5bf5cc7228553"><div class="ttname"><a href="script__api_2macros_8h.html#a1eb5d3206784e72fb8b5bf5cc7228553">EVT_END</a></div><div class="ttdeci">#define EVT_END</div><div class="ttdoc">Signals the end of EVT script data. A script missing this will likely crash on load.</div><div class="ttdef"><b>Definition</b> macros.h:225</div></div>
 <div class="ttc" id="ascript__api_2macros_8h_html_a5c78949040b032c6e0c50c2e78e2f7cb"><div class="ttname"><a href="script__api_2macros_8h.html#a5c78949040b032c6e0c50c2e78e2f7cb">EVT_PTR</a></div><div class="ttdeci">#define EVT_PTR(sym)</div><div class="ttdoc">Address/pointer constant.</div><div class="ttdef"><b>Definition</b> macros.h:56</div></div>
 <div class="ttc" id="ascript__api_2macros_8h_html_a7c09e8c76b51d5be8aeadc85751ff8f0"><div class="ttname"><a href="script__api_2macros_8h.html#a7c09e8c76b51d5be8aeadc85751ff8f0">EVT_CALL</a></div><div class="ttdeci">#define EVT_CALL(FUNC, ARGS...)</div><div class="ttdoc">Calls a given C EVT API function with any number of arguments.</div><div class="ttdef"><b>Definition</b> macros.h:588</div></div>
@@ -214,7 +213,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a7c09e8c76b51d5be8aeadc85751ff8f0">EVT_CALL</a>(<a class="code hl_function" href="script__api_2common_8h.html#ae92c544091e7f1858cb4aca51124c825">BindNpcIdle</a>, <a class="code hl_enumvalue" href="enums_8h.html#a8ed30857fb1bfefd4de61c6f02040634a0664795bf4a295e3c87e422eadf6870b">NPC_SELF</a>, <a class="code hl_define" href="script__api_2macros_8h.html#a5c78949040b032c6e0c50c2e78e2f7cb">EVT_PTR</a>( <a class="code hl_variable" href="TrafficBoos_8inc_8c.html#ad1354dd01259c75d9afdfcbcda32dfb7">EVS_NpcIdle_TrafficBoo</a> ))</div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a7c09e8c76b51d5be8aeadc85751ff8f0">EVT_CALL</a>(BindNpcIdle, <a class="code hl_enumvalue" href="enums_8h.html#a8ed30857fb1bfefd4de61c6f02040634a0664795bf4a295e3c87e422eadf6870b">NPC_SELF</a>, <a class="code hl_define" href="script__api_2macros_8h.html#a5c78949040b032c6e0c50c2e78e2f7cb">EVT_PTR</a>( <a class="code hl_variable" href="TrafficBoos_8inc_8c.html#ad1354dd01259c75d9afdfcbcda32dfb7">EVS_NpcIdle_TrafficBoo</a> ))</div>
 <div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#aa49b4615589f142fe396afa06f44ec5e">EVT_RETURN</a></div>
 <div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a1eb5d3206784e72fb8b5bf5cc7228553">EVT_END</a></div>
 <div class="line">}</div>
@@ -234,7 +233,7 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= {</div>
 <div class="line">    {</div>
-<div class="line">        .id = <a class="code hl_enumvalue" href="obk__01_8h.html#a248ae085c35a0581bf2c486378e5ce58a9800197f80de6d992beef4ce85592267">NPC_TrafficBoo1</a>,</div>
+<div class="line">        .id = <a class="code hl_enumvalue" href="obk__01_8h.html#a0c234ced91d5ea87134f4967305b5e99a9800197f80de6d992beef4ce85592267">NPC_TrafficBoo1</a>,</div>
 <div class="line">        .pos = { 523.0f, -139.0f, 193.0f },</div>
 <div class="line">        .yaw = 0,</div>
 <div class="line">        .init = &amp; <a class="code hl_variable" href="#a276813cdd099b28e1ca5fd928cb8ae33">EVS_NpcInit_TrafficBoo1</a> ,</div>
@@ -244,7 +243,7 @@ Variables</h2></td></tr>
 <div class="line">        .animations = <a class="code hl_define" href="Boo_8h.html#ac3e736bd10817aacf4ff957e1e877d3b">NORMAL_BOO_ANIMS</a>,</div>
 <div class="line">    },</div>
 <div class="line">    {</div>
-<div class="line">        .id = <a class="code hl_enumvalue" href="obk__01_8h.html#a248ae085c35a0581bf2c486378e5ce58ae2d69425a76ef272ce06877d35476d46">NPC_TrafficBoo2</a>,</div>
+<div class="line">        .id = <a class="code hl_enumvalue" href="obk__01_8h.html#a0c234ced91d5ea87134f4967305b5e99ae2d69425a76ef272ce06877d35476d46">NPC_TrafficBoo2</a>,</div>
 <div class="line">        .pos = { 473.0f, -122.0f, 247.0f },</div>
 <div class="line">        .yaw = 0,</div>
 <div class="line">        .init = &amp; <a class="code hl_variable" href="#ac5eaff9a4a707aafe5b4ef85dd053a76">EVS_NpcInit_TrafficBoo2</a> ,</div>
@@ -263,8 +262,8 @@ Variables</h2></td></tr>
 <div class="ttc" id="aenums_8h_html_a7de157db6798346d411421949f294617aed9d69a717cee97d2dc59c05fb2a46a0"><div class="ttname"><a href="enums_8h.html#a7de157db6798346d411421949f294617aed9d69a717cee97d2dc59c05fb2a46a0">ENEMY_FLAG_IGNORE_WORLD_COLLISION</a></div><div class="ttdeci">@ ENEMY_FLAG_IGNORE_WORLD_COLLISION</div><div class="ttdef"><b>Definition</b> enums.h:4500</div></div>
 <div class="ttc" id="anpc_8h_html_a1978fa00ce63925f27b36739ce529276"><div class="ttname"><a href="npc_8h.html#a1978fa00ce63925f27b36739ce529276">NO_DROPS</a></div><div class="ttdeci">#define NO_DROPS</div><div class="ttdef"><b>Definition</b> npc.h:19</div></div>
 <div class="ttc" id="anpc_8h_html_aee12061e859e9936d22f3c04d9844901"><div class="ttname"><a href="npc_8h.html#aee12061e859e9936d22f3c04d9844901">NpcSettings::flags</a></div><div class="ttdeci">s32 flags</div><div class="ttdef"><b>Definition</b> npc.h:149</div></div>
-<div class="ttc" id="aobk__01_8h_html_a248ae085c35a0581bf2c486378e5ce58a9800197f80de6d992beef4ce85592267"><div class="ttname"><a href="obk__01_8h.html#a248ae085c35a0581bf2c486378e5ce58a9800197f80de6d992beef4ce85592267">NPC_TrafficBoo1</a></div><div class="ttdeci">@ NPC_TrafficBoo1</div><div class="ttdef"><b>Definition</b> obk_01.h:17</div></div>
-<div class="ttc" id="aobk__01_8h_html_a248ae085c35a0581bf2c486378e5ce58ae2d69425a76ef272ce06877d35476d46"><div class="ttname"><a href="obk__01_8h.html#a248ae085c35a0581bf2c486378e5ce58ae2d69425a76ef272ce06877d35476d46">NPC_TrafficBoo2</a></div><div class="ttdeci">@ NPC_TrafficBoo2</div><div class="ttdef"><b>Definition</b> obk_01.h:18</div></div>
+<div class="ttc" id="aobk__01_8h_html_a0c234ced91d5ea87134f4967305b5e99a9800197f80de6d992beef4ce85592267"><div class="ttname"><a href="obk__01_8h.html#a0c234ced91d5ea87134f4967305b5e99a9800197f80de6d992beef4ce85592267">NPC_TrafficBoo1</a></div><div class="ttdeci">@ NPC_TrafficBoo1</div><div class="ttdef"><b>Definition</b> obk_01.h:17</div></div>
+<div class="ttc" id="aobk__01_8h_html_a0c234ced91d5ea87134f4967305b5e99ae2d69425a76ef272ce06877d35476d46"><div class="ttname"><a href="obk__01_8h.html#a0c234ced91d5ea87134f4967305b5e99ae2d69425a76ef272ce06877d35476d46">NPC_TrafficBoo2</a></div><div class="ttdeci">@ NPC_TrafficBoo2</div><div class="ttdef"><b>Definition</b> obk_01.h:18</div></div>
 <div class="ttc" id="aobk__02__3__npc_8c_html_a276813cdd099b28e1ca5fd928cb8ae33"><div class="ttname"><a href="#a276813cdd099b28e1ca5fd928cb8ae33">EVS_NpcInit_TrafficBoo1</a></div><div class="ttdeci">EvtScript EVS_NpcInit_TrafficBoo1</div><div class="ttdef"><b>Definition</b> obk_02_3_npc.c:9</div></div>
 <div class="ttc" id="aobk__02__3__npc_8c_html_ac5eaff9a4a707aafe5b4ef85dd053a76"><div class="ttname"><a href="#ac5eaff9a4a707aafe5b4ef85dd053a76">EVS_NpcInit_TrafficBoo2</a></div><div class="ttdeci">EvtScript EVS_NpcInit_TrafficBoo2</div><div class="ttdef"><b>Definition</b> obk_02_3_npc.c:15</div></div>
 </div><!-- fragment -->

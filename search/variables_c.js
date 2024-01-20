@@ -196,7 +196,7 @@ var searchData=
   ['loaddescriptors_193',['loadDescriptors',['../sprite_8h.html#ac37d6895ce1a4fc2980eb9bb18b99b25',1,'PlayerRastersHeader']]],
   ['loadtracksfadeinfo_194',['loadTracksFadeInfo',['../audio_8h.html#a6f36d8721977de084642bb29959fb051',1,'AmbienceManager']]],
   ['loadtype_195',['loadType',['../common__structs_8h.html#a0f33f43d6b1af2c4d09cbad056713d5e',1,'GameStatus']]],
-  ['location_196',['location',['../structTrigger.html#acc5cd5bb631bf88dda4445200554fb4d',1,'Trigger']]],
+  ['location_196',['location',['../structTrigger.html#a513b30be9d0cc4c6840e54354df42691',1,'Trigger']]],
   ['lockedpos_197',['lockedPos',['../effects_8h.html#a65eb1a211e0f3f8af1ff9956b4a7d461',1,'PeachStarBeamSpirit']]],
   ['lockingplayerinput_198',['LockingPlayerInput',['../world_2partner_2bombette_8c.html#a5a192158f02b804fb4a7b4764c18e01f',1,'LockingPlayerInput:&#160;bombette.c'],['../world_2partner_2bow_8c.html#a5a192158f02b804fb4a7b4764c18e01f',1,'LockingPlayerInput:&#160;bow.c'],['../world_2partner_2kooper_8c.html#a5a192158f02b804fb4a7b4764c18e01f',1,'LockingPlayerInput:&#160;kooper.c'],['../world_2partner_2lakilester_8c.html#a5a192158f02b804fb4a7b4764c18e01f',1,'LockingPlayerInput:&#160;lakilester.c'],['../world_2partner_2parakarry_8c.html#a5a192158f02b804fb4a7b4764c18e01f',1,'LockingPlayerInput:&#160;parakarry.c']]],
   ['lodval_199',['lodVal',['../8a160__len__700_8c.html#a407b455792efc3019a059cb285b60c96',1,'Unk8a160']]],

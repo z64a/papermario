@@ -14,5 +14,5 @@ var dir_a32d6c0e67f4691e2fc012c237d86327 =
     [ "ToadHouse.inc.c", "ToadHouse_8inc_8c.html", null ],
     [ "ToadHouseHos.data.inc.c", "ToadHouseHos_8data_8inc_8c.html", "ToadHouseHos_8data_8inc_8c" ],
     [ "WhaleAnim.inc.c", "WhaleAnim_8inc_8c.html", "WhaleAnim_8inc_8c" ],
-    [ "WhaleGeyser.inc.c", "WhaleGeyser_8inc_8c.html", "WhaleGeyser_8inc_8c" ]
+    [ "WhaleGeyser.inc.c", "WhaleGeyser_8inc_8c.html", null ]
 ];

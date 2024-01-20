@@ -196,13 +196,12 @@ Variables</h2></td></tr>
 <div class="line"> </div>
 <div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a15f6226bb8726c87b6a0368d33e4aec1">EVT_END_IF</a></div>
 <div class="line"> </div>
-<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a7c09e8c76b51d5be8aeadc85751ff8f0">EVT_CALL</a>(<a class="code hl_function" href="script__api_2common_8h.html#a78571712c09a84b7ddf68d3e18a7087e">BindNpcAI</a>, <a class="code hl_enumvalue" href="enums_8h.html#a8ed30857fb1bfefd4de61c6f02040634a0664795bf4a295e3c87e422eadf6870b">NPC_SELF</a>, <a class="code hl_define" href="script__api_2macros_8h.html#a5c78949040b032c6e0c50c2e78e2f7cb">EVT_PTR</a>( <a class="code hl_variable" href="Fuzzy__Wander_8inc_8c.html#a8675fe2930cca4a5d7088e60c5c40fd9">EVS_NpcAI_Fuzzy_Wander</a> ))</div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a7c09e8c76b51d5be8aeadc85751ff8f0">EVT_CALL</a>(BindNpcAI, <a class="code hl_enumvalue" href="enums_8h.html#a8ed30857fb1bfefd4de61c6f02040634a0664795bf4a295e3c87e422eadf6870b">NPC_SELF</a>, <a class="code hl_define" href="script__api_2macros_8h.html#a5c78949040b032c6e0c50c2e78e2f7cb">EVT_PTR</a>( <a class="code hl_variable" href="Fuzzy__Wander_8inc_8c.html#a8675fe2930cca4a5d7088e60c5c40fd9">EVS_NpcAI_Fuzzy_Wander</a> ))</div>
 <div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#aa49b4615589f142fe396afa06f44ec5e">EVT_RETURN</a></div>
 <div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a1eb5d3206784e72fb8b5bf5cc7228553">EVT_END</a></div>
 <div class="line">}</div>
 <div class="ttc" id="aFuzzy__Wander_8inc_8c_html_a8675fe2930cca4a5d7088e60c5c40fd9"><div class="ttname"><a href="Fuzzy__Wander_8inc_8c.html#a8675fe2930cca4a5d7088e60c5c40fd9">EVS_NpcAI_Fuzzy_Wander</a></div><div class="ttdeci">EvtScript EVS_NpcAI_Fuzzy_Wander</div><div class="ttdef"><b>Definition</b> Fuzzy_Wander.inc.c:18</div></div>
 <div class="ttc" id="aenums_8h_html_a8ed30857fb1bfefd4de61c6f02040634a0664795bf4a295e3c87e422eadf6870b"><div class="ttname"><a href="enums_8h.html#a8ed30857fb1bfefd4de61c6f02040634a0664795bf4a295e3c87e422eadf6870b">NPC_SELF</a></div><div class="ttdeci">@ NPC_SELF</div><div class="ttdef"><b>Definition</b> enums.h:2529</div></div>
-<div class="ttc" id="ascript__api_2common_8h_html_a78571712c09a84b7ddf68d3e18a7087e"><div class="ttname"><a href="script__api_2common_8h.html#a78571712c09a84b7ddf68d3e18a7087e">BindNpcAI</a></div><div class="ttdeci">ApiStatus BindNpcAI(Evt *script, s32 isInitialCall)</div><div class="ttdef"><b>Definition</b> encounter_api.c:335</div></div>
 <div class="ttc" id="ascript__api_2macros_8h_html_a15f6226bb8726c87b6a0368d33e4aec1"><div class="ttname"><a href="script__api_2macros_8h.html#a15f6226bb8726c87b6a0368d33e4aec1">EVT_END_IF</a></div><div class="ttdeci">#define EVT_END_IF</div><div class="ttdoc">Marks the end of an if statement or an else block.</div><div class="ttdef"><b>Definition</b> macros.h:310</div></div>
 <div class="ttc" id="ascript__api_2macros_8h_html_a5c78949040b032c6e0c50c2e78e2f7cb"><div class="ttname"><a href="script__api_2macros_8h.html#a5c78949040b032c6e0c50c2e78e2f7cb">EVT_PTR</a></div><div class="ttdeci">#define EVT_PTR(sym)</div><div class="ttdoc">Address/pointer constant.</div><div class="ttdef"><b>Definition</b> macros.h:56</div></div>
 <div class="ttc" id="ascript__api_2macros_8h_html_a7c09e8c76b51d5be8aeadc85751ff8f0"><div class="ttname"><a href="script__api_2macros_8h.html#a7c09e8c76b51d5be8aeadc85751ff8f0">EVT_CALL</a></div><div class="ttdeci">#define EVT_CALL(FUNC, ARGS...)</div><div class="ttdoc">Calls a given C EVT API function with any number of arguments.</div><div class="ttdef"><b>Definition</b> macros.h:588</div></div>
@@ -221,12 +220,11 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a7c09e8c76b51d5be8aeadc85751ff8f0">EVT_CALL</a>(<a class="code hl_function" href="script__api_2common_8h.html#ae92c544091e7f1858cb4aca51124c825">BindNpcIdle</a>, <a class="code hl_enumvalue" href="enums_8h.html#a8ed30857fb1bfefd4de61c6f02040634a0664795bf4a295e3c87e422eadf6870b">NPC_SELF</a>, <a class="code hl_define" href="script__api_2macros_8h.html#a5c78949040b032c6e0c50c2e78e2f7cb">EVT_PTR</a>( <a class="code hl_variable" href="#a2140d08cf6e3156746c8906db5447e71">EVS_NpcIdle_JungleFuzzy</a> ))</div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a7c09e8c76b51d5be8aeadc85751ff8f0">EVT_CALL</a>(BindNpcIdle, <a class="code hl_enumvalue" href="enums_8h.html#a8ed30857fb1bfefd4de61c6f02040634a0664795bf4a295e3c87e422eadf6870b">NPC_SELF</a>, <a class="code hl_define" href="script__api_2macros_8h.html#a5c78949040b032c6e0c50c2e78e2f7cb">EVT_PTR</a>( <a class="code hl_variable" href="#a2140d08cf6e3156746c8906db5447e71">EVS_NpcIdle_JungleFuzzy</a> ))</div>
 <div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#aa49b4615589f142fe396afa06f44ec5e">EVT_RETURN</a></div>
 <div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a1eb5d3206784e72fb8b5bf5cc7228553">EVT_END</a></div>
 <div class="line">}</div>
 <div class="ttc" id="ajan__14__4__npc_8c_html_a2140d08cf6e3156746c8906db5447e71"><div class="ttname"><a href="#a2140d08cf6e3156746c8906db5447e71">EVS_NpcIdle_JungleFuzzy</a></div><div class="ttdeci">EvtScript EVS_NpcIdle_JungleFuzzy</div><div class="ttdef"><b>Definition</b> jan_14_4_npc.c:9</div></div>
-<div class="ttc" id="ascript__api_2common_8h_html_ae92c544091e7f1858cb4aca51124c825"><div class="ttname"><a href="script__api_2common_8h.html#ae92c544091e7f1858cb4aca51124c825">BindNpcIdle</a></div><div class="ttdeci">ApiStatus BindNpcIdle(Evt *script, s32 isInitialCall)</div><div class="ttdef"><b>Definition</b> encounter_api.c:388</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -242,7 +240,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line">    .id = <a class="code hl_enumvalue" href="jan__01_8h.html#a1c0d7318a0967fa9eb0433a82b7ef44eacc7c56981a2bb20c7431eb16a8549517">NPC_JungleFuzzy_01</a>,</div>
+<div class="line">    .id = <a class="code hl_enumvalue" href="jan__01_8h.html#a2215bf270a4991ca057bb6efb294846bacc7c56981a2bb20c7431eb16a8549517">NPC_JungleFuzzy_01</a>,</div>
 <div class="line">    .pos = { <a class="code hl_define" href="macros_8h.html#ab7f9217776834a22d625ecc69dcc4846">NPC_DISPOSE_LOCATION</a> },</div>
 <div class="line">    .yaw = 270,</div>
 <div class="line">    .init = &amp; <a class="code hl_variable" href="#ab775f34ddfb4ef87cbc446d3bb7370ba">EVS_NpcInit_JungleFuzzy</a> ,</div>
@@ -259,7 +257,7 @@ Variables</h2></td></tr>
 <div class="ttc" id="aenums_8h_html_a7de157db6798346d411421949f294617a07db1a7f0e5a09b8ff70c1ce6a193106"><div class="ttname"><a href="enums_8h.html#a7de157db6798346d411421949f294617a07db1a7f0e5a09b8ff70c1ce6a193106">ENEMY_FLAG_FLYING</a></div><div class="ttdeci">@ ENEMY_FLAG_FLYING</div><div class="ttdef"><b>Definition</b> enums.h:4503</div></div>
 <div class="ttc" id="aenums_8h_html_a7de157db6798346d411421949f294617a4052ef7423cc7ce91435fbe220066931"><div class="ttname"><a href="enums_8h.html#a7de157db6798346d411421949f294617a4052ef7423cc7ce91435fbe220066931">ENEMY_FLAG_IGNORE_ENTITY_COLLISION</a></div><div class="ttdeci">@ ENEMY_FLAG_IGNORE_ENTITY_COLLISION</div><div class="ttdef"><b>Definition</b> enums.h:4502</div></div>
 <div class="ttc" id="aenums_8h_html_a7de157db6798346d411421949f294617aed9d69a717cee97d2dc59c05fb2a46a0"><div class="ttname"><a href="enums_8h.html#a7de157db6798346d411421949f294617aed9d69a717cee97d2dc59c05fb2a46a0">ENEMY_FLAG_IGNORE_WORLD_COLLISION</a></div><div class="ttdeci">@ ENEMY_FLAG_IGNORE_WORLD_COLLISION</div><div class="ttdef"><b>Definition</b> enums.h:4500</div></div>
-<div class="ttc" id="ajan__01_8h_html_a1c0d7318a0967fa9eb0433a82b7ef44eacc7c56981a2bb20c7431eb16a8549517"><div class="ttname"><a href="jan__01_8h.html#a1c0d7318a0967fa9eb0433a82b7ef44eacc7c56981a2bb20c7431eb16a8549517">NPC_JungleFuzzy_01</a></div><div class="ttdeci">@ NPC_JungleFuzzy_01</div><div class="ttdef"><b>Definition</b> jan_01.h:14</div></div>
+<div class="ttc" id="ajan__01_8h_html_a2215bf270a4991ca057bb6efb294846bacc7c56981a2bb20c7431eb16a8549517"><div class="ttname"><a href="jan__01_8h.html#a2215bf270a4991ca057bb6efb294846bacc7c56981a2bb20c7431eb16a8549517">NPC_JungleFuzzy_01</a></div><div class="ttdeci">@ NPC_JungleFuzzy_01</div><div class="ttdef"><b>Definition</b> jan_01.h:14</div></div>
 <div class="ttc" id="ajan__14__4__npc_8c_html_ab775f34ddfb4ef87cbc446d3bb7370ba"><div class="ttname"><a href="#ab775f34ddfb4ef87cbc446d3bb7370ba">EVS_NpcInit_JungleFuzzy</a></div><div class="ttdeci">EvtScript EVS_NpcInit_JungleFuzzy</div><div class="ttdef"><b>Definition</b> jan_14_4_npc.c:35</div></div>
 <div class="ttc" id="amacros_8h_html_ab7f9217776834a22d625ecc69dcc4846"><div class="ttname"><a href="macros_8h.html#ab7f9217776834a22d625ecc69dcc4846">NPC_DISPOSE_LOCATION</a></div><div class="ttdeci">#define NPC_DISPOSE_LOCATION</div><div class="ttdef"><b>Definition</b> macros.h:163</div></div>
 <div class="ttc" id="anpc_8h_html_aee12061e859e9936d22f3c04d9844901"><div class="ttname"><a href="npc_8h.html#aee12061e859e9936d22f3c04d9844901">NpcSettings::flags</a></div><div class="ttdeci">s32 flags</div><div class="ttdef"><b>Definition</b> npc.h:149</div></div>
@@ -279,7 +277,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line">    .id = <a class="code hl_enumvalue" href="jan__01_8h.html#a1c0d7318a0967fa9eb0433a82b7ef44eaaed45cf132a3466d0d92b9e0de95225c">NPC_JungleFuzzy_02</a>,</div>
+<div class="line">    .id = <a class="code hl_enumvalue" href="jan__01_8h.html#a2215bf270a4991ca057bb6efb294846baaed45cf132a3466d0d92b9e0de95225c">NPC_JungleFuzzy_02</a>,</div>
 <div class="line">    .pos = { <a class="code hl_define" href="macros_8h.html#ab7f9217776834a22d625ecc69dcc4846">NPC_DISPOSE_LOCATION</a> },</div>
 <div class="line">    .yaw = 270,</div>
 <div class="line">    .init = &amp; <a class="code hl_variable" href="#ab775f34ddfb4ef87cbc446d3bb7370ba">EVS_NpcInit_JungleFuzzy</a> ,</div>
@@ -289,7 +287,7 @@ Variables</h2></td></tr>
 <div class="line">    .animations = <a class="code hl_define" href="JungleFuzzy_8h.html#a3e1225c5a089a4c0207d89797c8082aa">JUNGLE_FUZZY_ANIMS</a>,</div>
 <div class="line">    .aiDetectFlags = <a class="code hl_enumvalue" href="enums_8h.html#a26e74110b3ae5f7e288b62067c5cc5b4a2aa5423736d0963c398e944de24dae73">AI_DETECT_SIGHT</a> | <a class="code hl_enumvalue" href="enums_8h.html#a26e74110b3ae5f7e288b62067c5cc5b4affee5388ad6359cb7a71147f3ea1fabf">AI_DETECT_SENSITIVE_MOTION</a>,</div>
 <div class="line">}</div>
-<div class="ttc" id="ajan__01_8h_html_a1c0d7318a0967fa9eb0433a82b7ef44eaaed45cf132a3466d0d92b9e0de95225c"><div class="ttname"><a href="jan__01_8h.html#a1c0d7318a0967fa9eb0433a82b7ef44eaaed45cf132a3466d0d92b9e0de95225c">NPC_JungleFuzzy_02</a></div><div class="ttdeci">@ NPC_JungleFuzzy_02</div><div class="ttdef"><b>Definition</b> jan_01.h:15</div></div>
+<div class="ttc" id="ajan__01_8h_html_a2215bf270a4991ca057bb6efb294846baaed45cf132a3466d0d92b9e0de95225c"><div class="ttname"><a href="jan__01_8h.html#a2215bf270a4991ca057bb6efb294846baaed45cf132a3466d0d92b9e0de95225c">NPC_JungleFuzzy_02</a></div><div class="ttdeci">@ NPC_JungleFuzzy_02</div><div class="ttdef"><b>Definition</b> jan_01.h:15</div></div>
 </div><!-- fragment -->
 </div>
 </div>

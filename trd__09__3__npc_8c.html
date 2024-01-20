@@ -708,7 +708,7 @@ Variables</h2></td></tr>
 <div class="line"> </div>
 <div class="line"> </div>
 <div class="line"> </div>
-<div class="line">                <a class="code hl_define" href="script__api_2macros_8h.html#a7c09e8c76b51d5be8aeadc85751ff8f0">EVT_CALL</a>(<a class="code hl_function" href="script__api_2common_8h.html#a78571712c09a84b7ddf68d3e18a7087e">BindNpcAI</a>, <a class="code hl_enumvalue" href="enums_8h.html#a8ed30857fb1bfefd4de61c6f02040634a0664795bf4a295e3c87e422eadf6870b">NPC_SELF</a>, <a class="code hl_define" href="script__api_2macros_8h.html#a5c78949040b032c6e0c50c2e78e2f7cb">EVT_PTR</a>( <a class="code hl_variable" href="#a14e7c07f99bae7eb00cbcda4e2840a62">EVS_NpcAI_BulletBill</a> ))</div>
+<div class="line">                <a class="code hl_define" href="script__api_2macros_8h.html#a7c09e8c76b51d5be8aeadc85751ff8f0">EVT_CALL</a>(BindNpcAI, <a class="code hl_enumvalue" href="enums_8h.html#a8ed30857fb1bfefd4de61c6f02040634a0664795bf4a295e3c87e422eadf6870b">NPC_SELF</a>, <a class="code hl_define" href="script__api_2macros_8h.html#a5c78949040b032c6e0c50c2e78e2f7cb">EVT_PTR</a>( <a class="code hl_variable" href="#a14e7c07f99bae7eb00cbcda4e2840a62">EVS_NpcAI_BulletBill</a> ))</div>
 <div class="line">            <a class="code hl_define" href="script__api_2macros_8h.html#a11ba48891f165dc45a558b751bec8aca">EVT_END_THREAD</a></div>
 <div class="line"> </div>
 <div class="line"> </div>
@@ -718,7 +718,6 @@ Variables</h2></td></tr>
 <div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a1eb5d3206784e72fb8b5bf5cc7228553">EVT_END</a></div>
 <div class="line">}</div>
 <div class="ttc" id="aenums_8h_html_a8ed30857fb1bfefd4de61c6f02040634a0664795bf4a295e3c87e422eadf6870b"><div class="ttname"><a href="enums_8h.html#a8ed30857fb1bfefd4de61c6f02040634a0664795bf4a295e3c87e422eadf6870b">NPC_SELF</a></div><div class="ttdeci">@ NPC_SELF</div><div class="ttdef"><b>Definition</b> enums.h:2529</div></div>
-<div class="ttc" id="ascript__api_2common_8h_html_a78571712c09a84b7ddf68d3e18a7087e"><div class="ttname"><a href="script__api_2common_8h.html#a78571712c09a84b7ddf68d3e18a7087e">BindNpcAI</a></div><div class="ttdeci">ApiStatus BindNpcAI(Evt *script, s32 isInitialCall)</div><div class="ttdef"><b>Definition</b> encounter_api.c:335</div></div>
 <div class="ttc" id="ascript__api_2macros_8h_html_a11ba48891f165dc45a558b751bec8aca"><div class="ttname"><a href="script__api_2macros_8h.html#a11ba48891f165dc45a558b751bec8aca">EVT_END_THREAD</a></div><div class="ttdeci">#define EVT_END_THREAD</div><div class="ttdoc">Marks the end of a thread block.</div><div class="ttdef"><b>Definition</b> macros.h:559</div></div>
 <div class="ttc" id="ascript__api_2macros_8h_html_a5c78949040b032c6e0c50c2e78e2f7cb"><div class="ttname"><a href="script__api_2macros_8h.html#a5c78949040b032c6e0c50c2e78e2f7cb">EVT_PTR</a></div><div class="ttdeci">#define EVT_PTR(sym)</div><div class="ttdoc">Address/pointer constant.</div><div class="ttdef"><b>Definition</b> macros.h:56</div></div>
 <div class="ttc" id="ascript__api_2macros_8h_html_a61ef92d6d999392239644a3e7e8fc871"><div class="ttname"><a href="script__api_2macros_8h.html#a61ef92d6d999392239644a3e7e8fc871">EVT_THREAD</a></div><div class="ttdeci">#define EVT_THREAD</div><div class="ttdoc">Marks the start of a thread block.</div><div class="ttdef"><b>Definition</b> macros.h:556</div></div>
@@ -804,14 +803,13 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= {</div>
 <div class="line"> </div>
-<div class="line">        <a class="code hl_define" href="script__api_2macros_8h.html#a7c09e8c76b51d5be8aeadc85751ff8f0">EVT_CALL</a>(<a class="code hl_function" href="script__api_2common_8h.html#a3e567d301ea0915b5b45facb82589402">BindNpcDefeat</a>, <a class="code hl_enumvalue" href="enums_8h.html#a8ed30857fb1bfefd4de61c6f02040634a0664795bf4a295e3c87e422eadf6870b">NPC_SELF</a>, <a class="code hl_define" href="script__api_2macros_8h.html#a5c78949040b032c6e0c50c2e78e2f7cb">EVT_PTR</a>( <a class="code hl_variable" href="#ae9524b577cc526720dadc8852fdd9783">EVS_NpcDefeat_BillBlaster</a> ))</div>
+<div class="line">        <a class="code hl_define" href="script__api_2macros_8h.html#a7c09e8c76b51d5be8aeadc85751ff8f0">EVT_CALL</a>(BindNpcDefeat, <a class="code hl_enumvalue" href="enums_8h.html#a8ed30857fb1bfefd4de61c6f02040634a0664795bf4a295e3c87e422eadf6870b">NPC_SELF</a>, <a class="code hl_define" href="script__api_2macros_8h.html#a5c78949040b032c6e0c50c2e78e2f7cb">EVT_PTR</a>( <a class="code hl_variable" href="#ae9524b577cc526720dadc8852fdd9783">EVS_NpcDefeat_BillBlaster</a> ))</div>
 <div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#aa3705d1ccd4f316c1ce498979c4ee518">EVT_ELSE</a></div>
 <div class="line"> </div>
 <div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a15f6226bb8726c87b6a0368d33e4aec1">EVT_END_IF</a></div>
 <div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#aa49b4615589f142fe396afa06f44ec5e">EVT_RETURN</a></div>
 <div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a1eb5d3206784e72fb8b5bf5cc7228553">EVT_END</a></div>
 <div class="line">}</div>
-<div class="ttc" id="ascript__api_2common_8h_html_a3e567d301ea0915b5b45facb82589402"><div class="ttname"><a href="script__api_2common_8h.html#a3e567d301ea0915b5b45facb82589402">BindNpcDefeat</a></div><div class="ttdeci">ApiStatus BindNpcDefeat(Evt *script, s32 isInitialCall)</div><div class="ttdef"><b>Definition</b> encounter_api.c:624</div></div>
 <div class="ttc" id="ascript__api_2macros_8h_html_aa3705d1ccd4f316c1ce498979c4ee518"><div class="ttname"><a href="script__api_2macros_8h.html#aa3705d1ccd4f316c1ce498979c4ee518">EVT_ELSE</a></div><div class="ttdeci">#define EVT_ELSE</div><div class="ttdoc">Marks the end of an if statement and the start of the else block.</div><div class="ttdef"><b>Definition</b> macros.h:307</div></div>
 <div class="ttc" id="atrd__09__3__npc_8c_html_ae9524b577cc526720dadc8852fdd9783"><div class="ttname"><a href="#ae9524b577cc526720dadc8852fdd9783">EVS_NpcDefeat_BillBlaster</a></div><div class="ttdeci">EvtScript EVS_NpcDefeat_BillBlaster</div><div class="ttdef"><b>Definition</b> trd_09_3_npc.c:528</div></div>
 </div><!-- fragment -->
@@ -829,12 +827,11 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a7c09e8c76b51d5be8aeadc85751ff8f0">EVT_CALL</a>(<a class="code hl_function" href="script__api_2common_8h.html#ae92c544091e7f1858cb4aca51124c825">BindNpcIdle</a>, <a class="code hl_enumvalue" href="enums_8h.html#a8ed30857fb1bfefd4de61c6f02040634a0664795bf4a295e3c87e422eadf6870b">NPC_SELF</a>, <a class="code hl_define" href="script__api_2macros_8h.html#a5c78949040b032c6e0c50c2e78e2f7cb">EVT_PTR</a>( <a class="code hl_variable" href="#affa1035fdde37a9d09b96e7711787ab3">EVS_NpcIdle_BulletBill_Demo</a> ))</div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a7c09e8c76b51d5be8aeadc85751ff8f0">EVT_CALL</a>(BindNpcIdle, <a class="code hl_enumvalue" href="enums_8h.html#a8ed30857fb1bfefd4de61c6f02040634a0664795bf4a295e3c87e422eadf6870b">NPC_SELF</a>, <a class="code hl_define" href="script__api_2macros_8h.html#a5c78949040b032c6e0c50c2e78e2f7cb">EVT_PTR</a>( <a class="code hl_variable" href="#affa1035fdde37a9d09b96e7711787ab3">EVS_NpcIdle_BulletBill_Demo</a> ))</div>
 <div class="line"> </div>
 <div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#aa49b4615589f142fe396afa06f44ec5e">EVT_RETURN</a></div>
 <div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a1eb5d3206784e72fb8b5bf5cc7228553">EVT_END</a></div>
 <div class="line">}</div>
-<div class="ttc" id="ascript__api_2common_8h_html_ae92c544091e7f1858cb4aca51124c825"><div class="ttname"><a href="script__api_2common_8h.html#ae92c544091e7f1858cb4aca51124c825">BindNpcIdle</a></div><div class="ttdeci">ApiStatus BindNpcIdle(Evt *script, s32 isInitialCall)</div><div class="ttdef"><b>Definition</b> encounter_api.c:388</div></div>
 <div class="ttc" id="atrd__09__3__npc_8c_html_affa1035fdde37a9d09b96e7711787ab3"><div class="ttname"><a href="#affa1035fdde37a9d09b96e7711787ab3">EVS_NpcIdle_BulletBill_Demo</a></div><div class="ttdeci">EvtScript EVS_NpcIdle_BulletBill_Demo</div><div class="ttdef"><b>Definition</b> trd_09_3_npc.c:679</div></div>
 </div><!-- fragment -->
 </div>

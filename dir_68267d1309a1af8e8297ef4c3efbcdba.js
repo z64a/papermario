@@ -84,6 +84,7 @@ var dir_68267d1309a1af8e8297ef4c3efbcdba =
     [ "model_clear_render_tasks.h", "model__clear__render__tasks_8h.html", "model__clear__render__tasks_8h" ],
     [ "msg.c", "msg_8c.html", "msg_8c" ],
     [ "msg_data.c", "msg__data_8c.html", "msg__data_8c" ],
+    [ "msg_draw.c", "msg__draw_8c.html", "msg__draw_8c" ],
     [ "msg_img.c", "msg__img_8c.html", "msg__img_8c" ],
     [ "npc.c", "npc_8c.html", "npc_8c" ],
     [ "npc_collision.c", "npc__collision_8c.html", "npc__collision_8c" ],

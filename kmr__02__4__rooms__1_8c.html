@@ -218,12 +218,11 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a7c09e8c76b51d5be8aeadc85751ff8f0">EVT_CALL</a>(<a class="code hl_function" href="script__api_2common_8h.html#a5c56018bcaa91511dfd33ea74208c28b">RotateModel</a>, <a class="code hl_define" href="kmr__02__shape_8h.html#a0fab4a83e95506f8495f0689afd3fd4f">MODEL_syoumen_enter</a>, <a class="code hl_define" href="script__api_2macros_8h.html#af7850f206b899ed1559a492acdb308c8">LVar0</a>, <a class="code hl_define" href="script__api_2macros_8h.html#a44a1b0e2851fce96e54e41bf92961df3">EVT_FLOAT</a>(54.56), 0, <a class="code hl_define" href="script__api_2macros_8h.html#a44a1b0e2851fce96e54e41bf92961df3">EVT_FLOAT</a>(31.5))</div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a7c09e8c76b51d5be8aeadc85751ff8f0">EVT_CALL</a>(RotateModel, <a class="code hl_define" href="kmr__02__shape_8h.html#a0fab4a83e95506f8495f0689afd3fd4f">MODEL_syoumen_enter</a>, <a class="code hl_define" href="script__api_2macros_8h.html#af7850f206b899ed1559a492acdb308c8">LVar0</a>, <a class="code hl_define" href="script__api_2macros_8h.html#a44a1b0e2851fce96e54e41bf92961df3">EVT_FLOAT</a>(54.56), 0, <a class="code hl_define" href="script__api_2macros_8h.html#a44a1b0e2851fce96e54e41bf92961df3">EVT_FLOAT</a>(31.5))</div>
 <div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#aa49b4615589f142fe396afa06f44ec5e">EVT_RETURN</a></div>
 <div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a1eb5d3206784e72fb8b5bf5cc7228553">EVT_END</a></div>
 <div class="line">}</div>
 <div class="ttc" id="akmr__02__shape_8h_html_a0fab4a83e95506f8495f0689afd3fd4f"><div class="ttname"><a href="kmr__02__shape_8h.html#a0fab4a83e95506f8495f0689afd3fd4f">MODEL_syoumen_enter</a></div><div class="ttdeci">#define MODEL_syoumen_enter</div><div class="ttdef"><b>Definition</b> kmr_02_shape.h:101</div></div>
-<div class="ttc" id="ascript__api_2common_8h_html_a5c56018bcaa91511dfd33ea74208c28b"><div class="ttname"><a href="script__api_2common_8h.html#a5c56018bcaa91511dfd33ea74208c28b">RotateModel</a></div><div class="ttdeci">ApiStatus RotateModel(Evt *script, s32 isInitialCall)</div><div class="ttdef"><b>Definition</b> map_api.c:37</div></div>
 <div class="ttc" id="ascript__api_2macros_8h_html_a1eb5d3206784e72fb8b5bf5cc7228553"><div class="ttname"><a href="script__api_2macros_8h.html#a1eb5d3206784e72fb8b5bf5cc7228553">EVT_END</a></div><div class="ttdeci">#define EVT_END</div><div class="ttdoc">Signals the end of EVT script data. A script missing this will likely crash on load.</div><div class="ttdef"><b>Definition</b> macros.h:225</div></div>
 <div class="ttc" id="ascript__api_2macros_8h_html_a44a1b0e2851fce96e54e41bf92961df3"><div class="ttname"><a href="script__api_2macros_8h.html#a44a1b0e2851fce96e54e41bf92961df3">EVT_FLOAT</a></div><div class="ttdeci">#define EVT_FLOAT(DOUBLE)</div><div class="ttdef"><b>Definition</b> macros.h:47</div></div>
 <div class="ttc" id="ascript__api_2macros_8h_html_a7c09e8c76b51d5be8aeadc85751ff8f0"><div class="ttname"><a href="script__api_2macros_8h.html#a7c09e8c76b51d5be8aeadc85751ff8f0">EVT_CALL</a></div><div class="ttdeci">#define EVT_CALL(FUNC, ARGS...)</div><div class="ttdoc">Calls a given C EVT API function with any number of arguments.</div><div class="ttdef"><b>Definition</b> macros.h:588</div></div>
@@ -367,7 +366,7 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= {</div>
 <div class="line">    </div>
-<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a7c09e8c76b51d5be8aeadc85751ff8f0">EVT_CALL</a>(<a class="code hl_function" href="script__api_2map_8h.html#a76f324a05d451b9095d858644ef80bf6">CreateMapRoom</a>,</div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a7c09e8c76b51d5be8aeadc85751ff8f0">EVT_CALL</a>(CreateMapRoom,</div>
 <div class="line">        <a class="code hl_define" href="macros_8h.html#a87e85f121e838f205bba593dfdff46f5">PACK_ROOM_FLAGS</a>(<a class="code hl_enumvalue" href="enums_8h.html#a827450ae6b7f4356908a9cc7f2bf060bab1710aded465f2b27fc208c449978095">VIS_GROUP_0</a>, <a class="code hl_enumvalue" href="enums_8h.html#a4c242b71d8ee9448266cb37ae4facb65a37dffd3404a7d60a90024b3ba4c05fc9">ROOM_LARGE_DOOR_RIGHT_HINGE_OPENS_OUT</a>),</div>
 <div class="line">        <a class="code hl_define" href="script__api_2macros_8h.html#a5c78949040b032c6e0c50c2e78e2f7cb">EVT_PTR</a>( <a class="code hl_variable" href="#a4fd55651185283d5e730e96c9c9efd34">EVS_SetDoorRot_House</a> ),</div>
 <div class="line">        <a class="code hl_define" href="script__api_2macros_8h.html#a5c78949040b032c6e0c50c2e78e2f7cb">EVT_PTR</a>( <a class="code hl_variable" href="#afb4bf7e4b6c1785226ffda1dc08c827d">EVS_SetWallRot_House</a> ),</div>
@@ -378,7 +377,7 @@ Variables</h2></td></tr>
 <div class="line">        <a class="code hl_define" href="kmr__02__shape_8h.html#aae697b9f0d4a52683484f9f9175d8440">MODEL_kuribou_house</a>,</div>
 <div class="line">        <a class="code hl_define" href="script__api_2macros_8h.html#a5c78949040b032c6e0c50c2e78e2f7cb">EVT_PTR</a>( <a class="code hl_variable" href="#a2605afb13bd389c9e11efbdb1171ee09">InsideNPCs_House</a> ))</div>
 <div class="line">    </div>
-<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a7c09e8c76b51d5be8aeadc85751ff8f0">EVT_CALL</a>(<a class="code hl_function" href="script__api_2map_8h.html#a76f324a05d451b9095d858644ef80bf6">CreateMapRoom</a>,</div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a7c09e8c76b51d5be8aeadc85751ff8f0">EVT_CALL</a>(CreateMapRoom,</div>
 <div class="line">        <a class="code hl_define" href="macros_8h.html#a87e85f121e838f205bba593dfdff46f5">PACK_ROOM_FLAGS</a>(<a class="code hl_enumvalue" href="enums_8h.html#a827450ae6b7f4356908a9cc7f2bf060bab1710aded465f2b27fc208c449978095">VIS_GROUP_0</a>, <a class="code hl_enumvalue" href="enums_8h.html#a4c242b71d8ee9448266cb37ae4facb65aa1152a7a876d28b74c707a313476023b">ROOM_LARGE_DOOR_LEFT_HINGE_OPENS_OUT</a>),</div>
 <div class="line">        <a class="code hl_define" href="script__api_2macros_8h.html#a5c78949040b032c6e0c50c2e78e2f7cb">EVT_PTR</a>( <a class="code hl_variable" href="#ac6fa313c1d25f6a88c8067a017aca7c4">EVS_SetDoorRot_Verdana</a> ),</div>
 <div class="line">        <a class="code hl_define" href="script__api_2macros_8h.html#a5c78949040b032c6e0c50c2e78e2f7cb">EVT_PTR</a>( <a class="code hl_variable" href="#a7dc5c6a3d78e0ed1bd2edf71e6967db7">EVS_SetWallRot_Verdana</a> ),</div>
@@ -412,7 +411,6 @@ Variables</h2></td></tr>
 <div class="ttc" id="akmr__02__shape_8h_html_aae697b9f0d4a52683484f9f9175d8440"><div class="ttname"><a href="kmr__02__shape_8h.html#aae697b9f0d4a52683484f9f9175d8440">MODEL_kuribou_house</a></div><div class="ttdeci">#define MODEL_kuribou_house</div><div class="ttdef"><b>Definition</b> kmr_02_shape.h:85</div></div>
 <div class="ttc" id="amacros_8h_html_a87e85f121e838f205bba593dfdff46f5"><div class="ttname"><a href="macros_8h.html#a87e85f121e838f205bba593dfdff46f5">PACK_ROOM_FLAGS</a></div><div class="ttdeci">#define PACK_ROOM_FLAGS(itemVisGroup, roomFlags)</div><div class="ttdef"><b>Definition</b> macros.h:187</div></div>
 <div class="ttc" id="ascript__api_2macros_8h_html_a5c78949040b032c6e0c50c2e78e2f7cb"><div class="ttname"><a href="script__api_2macros_8h.html#a5c78949040b032c6e0c50c2e78e2f7cb">EVT_PTR</a></div><div class="ttdeci">#define EVT_PTR(sym)</div><div class="ttdoc">Address/pointer constant.</div><div class="ttdef"><b>Definition</b> macros.h:56</div></div>
-<div class="ttc" id="ascript__api_2map_8h_html_a76f324a05d451b9095d858644ef80bf6"><div class="ttname"><a href="script__api_2map_8h.html#a76f324a05d451b9095d858644ef80bf6">CreateMapRoom</a></div><div class="ttdeci">ApiStatus CreateMapRoom(Evt *script, s32 isInitialCall)</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -551,12 +549,12 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line">    <a class="code hl_enumvalue" href="kmr__02_8h.html#a2397dacb6bf5299415d295e773dfeb44a95a6e5b46c72c4828de7090048f1703b">NPC_Gooma</a>,</div>
-<div class="line">    <a class="code hl_enumvalue" href="kkj__00_8h.html#a3b39f0c6258619f350327586d1c22cada47688bbb910fd92cdd3f4ae08b868095">NPC_Goompa</a>,</div>
+<div class="line">    <a class="code hl_enumvalue" href="kmr__02_8h.html#acef31600358009411b6fcea11ebe07f6a95a6e5b46c72c4828de7090048f1703b">NPC_Gooma</a>,</div>
+<div class="line">    <a class="code hl_enumvalue" href="kkj__00_8h.html#a19516aacc906a3c234aed4c5fdb53c35a47688bbb910fd92cdd3f4ae08b868095">NPC_Goompa</a>,</div>
 <div class="line">    -1</div>
 <div class="line">}</div>
-<div class="ttc" id="akkj__00_8h_html_a3b39f0c6258619f350327586d1c22cada47688bbb910fd92cdd3f4ae08b868095"><div class="ttname"><a href="kkj__00_8h.html#a3b39f0c6258619f350327586d1c22cada47688bbb910fd92cdd3f4ae08b868095">NPC_Goompa</a></div><div class="ttdeci">@ NPC_Goompa</div><div class="ttdef"><b>Definition</b> kkj_00.h:76</div></div>
-<div class="ttc" id="akmr__02_8h_html_a2397dacb6bf5299415d295e773dfeb44a95a6e5b46c72c4828de7090048f1703b"><div class="ttname"><a href="kmr__02_8h.html#a2397dacb6bf5299415d295e773dfeb44a95a6e5b46c72c4828de7090048f1703b">NPC_Gooma</a></div><div class="ttdeci">@ NPC_Gooma</div><div class="ttdef"><b>Definition</b> kmr_02.h:30</div></div>
+<div class="ttc" id="akkj__00_8h_html_a19516aacc906a3c234aed4c5fdb53c35a47688bbb910fd92cdd3f4ae08b868095"><div class="ttname"><a href="kkj__00_8h.html#a19516aacc906a3c234aed4c5fdb53c35a47688bbb910fd92cdd3f4ae08b868095">NPC_Goompa</a></div><div class="ttdeci">@ NPC_Goompa</div><div class="ttdef"><b>Definition</b> kkj_00.h:76</div></div>
+<div class="ttc" id="akmr__02_8h_html_acef31600358009411b6fcea11ebe07f6a95a6e5b46c72c4828de7090048f1703b"><div class="ttname"><a href="kmr__02_8h.html#acef31600358009411b6fcea11ebe07f6a95a6e5b46c72c4828de7090048f1703b">NPC_Gooma</a></div><div class="ttdeci">@ NPC_Gooma</div><div class="ttdef"><b>Definition</b> kmr_02.h:30</div></div>
 </div><!-- fragment -->
 </div>
 </div>

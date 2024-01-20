@@ -164,8 +164,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a7c09e8c76b51d5be8aeadc85751ff8f0">EVT_CALL</a>(<a class="code hl_function" href="script__api_2map_8h.html#aec0b270c7639ad5f6d126459abc75112">MakeShop</a>, <a class="code hl_define" href="script__api_2macros_8h.html#a5c78949040b032c6e0c50c2e78e2f7cb">EVT_PTR</a>( <a class="code hl_variable" href="#ab334fbc166a2d4e93a81bd706568cf19">ItemPositions</a> ), <a class="code hl_define" href="script__api_2macros_8h.html#a5c78949040b032c6e0c50c2e78e2f7cb">EVT_PTR</a>( <a class="code hl_variable" href="#a4b383c46bc1254f1a07c09c46709929c">Inventory</a> ), <a class="code hl_define" href="script__api_2macros_8h.html#a5c78949040b032c6e0c50c2e78e2f7cb">EVT_PTR</a>( <a class="code hl_variable" href="#a6f5e4f3f14198cc482e5371187b4057f">PriceList</a> ), <a class="code hl_enumvalue" href="enums_8h.html#a3a60d961f29f76be7e8abc923de5f50aacf836420c4e885c5b8d8b6f8d7a2b8f1">ITEM_ENTITY_FLAG_TOSS_LOWER</a>)</div>
-<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a7c09e8c76b51d5be8aeadc85751ff8f0">EVT_CALL</a>(<a class="code hl_function" href="script__api_2map_8h.html#a370ccab2c319d4b472b2fa5e2e81b49d">MakeShopOwner</a>, <a class="code hl_define" href="script__api_2macros_8h.html#a5c78949040b032c6e0c50c2e78e2f7cb">EVT_PTR</a>( <a class="code hl_variable" href="#a2318c99170a2ce17f69f4046ad9436c6">Owner</a> ))</div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a7c09e8c76b51d5be8aeadc85751ff8f0">EVT_CALL</a>(MakeShop, <a class="code hl_define" href="script__api_2macros_8h.html#a5c78949040b032c6e0c50c2e78e2f7cb">EVT_PTR</a>( <a class="code hl_variable" href="#ab334fbc166a2d4e93a81bd706568cf19">ItemPositions</a> ), <a class="code hl_define" href="script__api_2macros_8h.html#a5c78949040b032c6e0c50c2e78e2f7cb">EVT_PTR</a>( <a class="code hl_variable" href="#a4b383c46bc1254f1a07c09c46709929c">Inventory</a> ), <a class="code hl_define" href="script__api_2macros_8h.html#a5c78949040b032c6e0c50c2e78e2f7cb">EVT_PTR</a>( <a class="code hl_variable" href="#a6f5e4f3f14198cc482e5371187b4057f">PriceList</a> ), <a class="code hl_enumvalue" href="enums_8h.html#a3a60d961f29f76be7e8abc923de5f50aacf836420c4e885c5b8d8b6f8d7a2b8f1">ITEM_ENTITY_FLAG_TOSS_LOWER</a>)</div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a7c09e8c76b51d5be8aeadc85751ff8f0">EVT_CALL</a>(MakeShopOwner, <a class="code hl_define" href="script__api_2macros_8h.html#a5c78949040b032c6e0c50c2e78e2f7cb">EVT_PTR</a>( <a class="code hl_variable" href="#a2318c99170a2ce17f69f4046ad9436c6">Owner</a> ))</div>
 <div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#aa49b4615589f142fe396afa06f44ec5e">EVT_RETURN</a></div>
 <div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a1eb5d3206784e72fb8b5bf5cc7228553">EVT_END</a></div>
 <div class="line">}</div>
@@ -176,8 +176,6 @@ Variables</h2></td></tr>
 <div class="ttc" id="amac__00__6__shop_8c_html_ab334fbc166a2d4e93a81bd706568cf19"><div class="ttname"><a href="#ab334fbc166a2d4e93a81bd706568cf19">ItemPositions</a></div><div class="ttdeci">ShopItemLocation ItemPositions[]</div><div class="ttdef"><b>Definition</b> mac_00_6_shop.c:61</div></div>
 <div class="ttc" id="ascript__api_2macros_8h_html_a5c78949040b032c6e0c50c2e78e2f7cb"><div class="ttname"><a href="script__api_2macros_8h.html#a5c78949040b032c6e0c50c2e78e2f7cb">EVT_PTR</a></div><div class="ttdeci">#define EVT_PTR(sym)</div><div class="ttdoc">Address/pointer constant.</div><div class="ttdef"><b>Definition</b> macros.h:56</div></div>
 <div class="ttc" id="ascript__api_2macros_8h_html_a7c09e8c76b51d5be8aeadc85751ff8f0"><div class="ttname"><a href="script__api_2macros_8h.html#a7c09e8c76b51d5be8aeadc85751ff8f0">EVT_CALL</a></div><div class="ttdeci">#define EVT_CALL(FUNC, ARGS...)</div><div class="ttdoc">Calls a given C EVT API function with any number of arguments.</div><div class="ttdef"><b>Definition</b> macros.h:588</div></div>
-<div class="ttc" id="ascript__api_2map_8h_html_a370ccab2c319d4b472b2fa5e2e81b49d"><div class="ttname"><a href="script__api_2map_8h.html#a370ccab2c319d4b472b2fa5e2e81b49d">MakeShopOwner</a></div><div class="ttdeci">ApiStatus MakeShopOwner(Evt *script, s32 isInitialCall)</div></div>
-<div class="ttc" id="ascript__api_2map_8h_html_aec0b270c7639ad5f6d126459abc75112"><div class="ttname"><a href="script__api_2map_8h.html#aec0b270c7639ad5f6d126459abc75112">MakeShop</a></div><div class="ttdeci">ApiStatus MakeShop(Evt *script, s32 isInitialCall)</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -250,13 +248,13 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line">    .npcID = <a class="code hl_enumvalue" href="kkj__00_8h.html#a3b39f0c6258619f350327586d1c22cadaf76567f045a84cdf1a8ea77a8af95ba4">NPC_Toad_01</a>,</div>
+<div class="line">    .npcID = <a class="code hl_enumvalue" href="kkj__00_8h.html#a19516aacc906a3c234aed4c5fdb53c35af76567f045a84cdf1a8ea77a8af95ba4">NPC_Toad_01</a>,</div>
 <div class="line">    .idleAnim = ANIM_HarryT_Idle,</div>
 <div class="line">    .talkAnim = ANIM_HarryT_Talk,</div>
 <div class="line">    .onBuyEvt = &amp; <a class="code hl_variable" href="#a51b2496d9cb38df4c0e373e9cfd8a7ba">EVS_OnBuy</a> ,</div>
 <div class="line">    .shopMsgIDs =  <a class="code hl_variable" href="#adf7ee11d3b78d8d713d4dce151acab8f">ShopMessages</a> ,</div>
 <div class="line">}</div>
-<div class="ttc" id="akkj__00_8h_html_a3b39f0c6258619f350327586d1c22cadaf76567f045a84cdf1a8ea77a8af95ba4"><div class="ttname"><a href="kkj__00_8h.html#a3b39f0c6258619f350327586d1c22cadaf76567f045a84cdf1a8ea77a8af95ba4">NPC_Toad_01</a></div><div class="ttdeci">@ NPC_Toad_01</div><div class="ttdef"><b>Definition</b> kkj_00.h:45</div></div>
+<div class="ttc" id="akkj__00_8h_html_a19516aacc906a3c234aed4c5fdb53c35af76567f045a84cdf1a8ea77a8af95ba4"><div class="ttname"><a href="kkj__00_8h.html#a19516aacc906a3c234aed4c5fdb53c35af76567f045a84cdf1a8ea77a8af95ba4">NPC_Toad_01</a></div><div class="ttdeci">@ NPC_Toad_01</div><div class="ttdef"><b>Definition</b> kkj_00.h:45</div></div>
 <div class="ttc" id="amac__00__6__shop_8c_html_a51b2496d9cb38df4c0e373e9cfd8a7ba"><div class="ttname"><a href="#a51b2496d9cb38df4c0e373e9cfd8a7ba">EVS_OnBuy</a></div><div class="ttdeci">EvtScript EVS_OnBuy</div><div class="ttdef"><b>Definition</b> mac_00_6_shop.c:50</div></div>
 <div class="ttc" id="amac__00__6__shop_8c_html_adf7ee11d3b78d8d713d4dce151acab8f"><div class="ttname"><a href="#adf7ee11d3b78d8d713d4dce151acab8f">ShopMessages</a></div><div class="ttdeci">s32 ShopMessages[]</div><div class="ttdef"><b>Definition</b> mac_00_6_shop.c:3</div></div>
 </div><!-- fragment -->

@@ -107,8 +107,6 @@ $(function(){initNavTree('bug.html',''); initResizable(); });
 <div class="textblock"><dl class="reflist">
 <dt>Global <a class="el" href="actor__rendering_8c.html#a13abca8f79717d2ab6440a34f7207207">add_part_decor_sparkles</a>  (<a class="el" href="common__structs_8h.html#structActorPart">ActorPart</a> *, s32)</dt>
 <dd><a class="anchor" id="_bug000011"></a>this should be % 4  </dd>
-<dt>Global <a class="el" href="1A5830_8c.html#a1362d98d961edb6a71ed3b1917e73962">AfflictActor</a>  (<a class="el" href="common__structs_8h.html#structEvt">Evt</a> *script, s32 isInitialCall)</dt>
-<dd><a class="anchor" id="_bug000010"></a>should be STATUS_TURN_MOD_FROZEN  </dd>
 <dt>Global <a class="el" href="background_8c.html#a928d7c016d765d6fdccd6384dac39e3b">appendGfx_background_texture</a>  (void)</dt>
 <dd><p class="startdd"><a class="anchor" id="_bug000002"></a>xh = 2 * bgXOffset + (bgMinX - 1) * 4 </p>
 <p class="enddd"><a class="anchor" id="_bug000003"></a>xh = 2 * bgXOffset + (bgMinX - 1) * 4  </p>
@@ -134,13 +132,11 @@ $(function(){initNavTree('bug.html',''); initResizable(); });
 <dt>Global <a class="el" href="16C8E0_8c.html#adff86b7917c4ef87dd4aff4c2cea7617">initialize_battle</a>  (void)</dt>
 <dd><a class="anchor" id="_bug000006"></a>? why just 16  </dd>
 <dt>Global <a class="el" href="world_8c.html#ad812f798bebf84899bfce6f5a159cf23">kkj_maps</a>  []</dt>
-<dd><a class="anchor" id="_bug000025"></a>There are two entries for kkj_26; the latter is unreachable.  </dd>
+<dd><a class="anchor" id="_bug000024"></a>There are two entries for kkj_26; the latter is unreachable.  </dd>
 <dt>Global <a class="el" href="npc_8c.html#a4f2f37b2f893e8bc00a719ff8b8de27f">npc_render_with_double_pal_blending</a>  (<a class="el" href="structNpc.html">Npc</a> *npc, s32 yaw, Matrix4f mtx)</dt>
 <dd><a class="anchor" id="_bug000018"></a>? should this be index 3?  </dd>
 <dt>Global <a class="el" href="partners_8h.html#a7484687dd98d76b5fb5ddc35c13e8e18">partner_get_out</a>  (<a class="el" href="structNpc.html">Npc</a> *)</dt>
-<dd><a class="anchor" id="_bug000024"></a>? collider flags not properly masked with COLLIDER_FLAG_SURFACE_TYPE  </dd>
-<dt>Global <a class="el" href="audio__api_8c.html#ae40e1594b24575f7dfba96dac1794797">PollMusicEvents</a>  (<a class="el" href="common__structs_8h.html#structEvt">Evt</a> *script, s32 isInitialCall)</dt>
-<dd><a class="anchor" id="_bug000016"></a>? can cur ever be NULL here? condition should probably be if (cur-&gt;musicEventID != -1)  </dd>
+<dd><a class="anchor" id="_bug000025"></a>? collider flags not properly masked with COLLIDER_FLAG_SURFACE_TYPE  </dd>
 <dt>Global <a class="el" href="SentinelAI_8inc_8c.html#a0c6d1d0874599430648f6ebf3b656a8c">SentinelAI_Descend</a>  (<a class="el" href="common__structs_8h.html#structEvt">Evt</a> *script, <a class="el" href="npc_8h.html#structMobileAISettings">MobileAISettings</a> *aiSettings, <a class="el" href="npc_8h.html#structEnemyDetectVolume">EnemyDetectVolume</a> *territory)</dt>
 <dd><a class="anchor" id="_bug000022"></a>need to use real sound id, not environmental sound id </dd>
 </dl>

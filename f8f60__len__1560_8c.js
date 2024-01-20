@@ -1,32 +1,5 @@
 var f8f60__len__1560_8c =
 [
-    [ "AddVectorPolar", "f8f60__len__1560_8c.html#a65de7e54f5fb1c5718ba60d7c7b16a3f", null ],
-    [ "AwaitPlayerApproach", "f8f60__len__1560_8c.html#a23c980cfd70349d95465c61d9850a1e0", null ],
-    [ "AwaitPlayerLeave", "f8f60__len__1560_8c.html#a60421b21cbea692204cf5e81884290cd", null ],
-    [ "ClampAngleFloat", "f8f60__len__1560_8c.html#a4c38c18a46a72c8f777810e4ae47bdab", null ],
-    [ "ClampAngleInt", "f8f60__len__1560_8c.html#ad10156f3db9ba84057c86dae653d04c0", null ],
-    [ "EnableWorldStatusBar", "f8f60__len__1560_8c.html#a2fc93aadd11fdac755bff0e421d0f1cb", null ],
-    [ "func_802D4BDC", "f8f60__len__1560_8c.html#a8c308f7af483ccb64d3466b5655ea666", null ],
-    [ "func_802D4C4C", "f8f60__len__1560_8c.html#a28ffed123b9b03791809c5b6c140e5a1", null ],
-    [ "func_802D4CC4", "f8f60__len__1560_8c.html#a9ab00201cfc9f1843a7cfecaf92b4551", null ],
-    [ "func_802D4D14", "f8f60__len__1560_8c.html#a35f22e30041bbe21a804af58f3dc626b", null ],
-    [ "func_802D4D88", "f8f60__len__1560_8c.html#a19c050a21606f99ce63c114cf7378ebc", null ],
     [ "get_path_position", "f8f60__len__1560_8c.html#adada669daeeff69f6ab910e9212054c0", null ],
-    [ "GetAngleBetweenNPCs", "f8f60__len__1560_8c.html#ae841d78ba15526e41a317e34c222f323", null ],
-    [ "GetAngleToNPC", "f8f60__len__1560_8c.html#a3a06a5bf4dcc53a2e0d35d90932661a7", null ],
-    [ "GetAngleToPlayer", "f8f60__len__1560_8c.html#a3e3a72a9e711871a0100cf42beff6936", null ],
-    [ "GetDist2D", "f8f60__len__1560_8c.html#a3c0663d8c08e26947afec1712cf52edb", null ],
-    [ "GetNextPathPos", "f8f60__len__1560_8c.html#ab13f6351b9339f1004ec0764de8dcdbf", null ],
-    [ "GetValueByRef", "f8f60__len__1560_8c.html#a4a7bc0e8fda7a200be6306452a6ac97e", null ],
-    [ "IsPlayerWithin", "f8f60__len__1560_8c.html#a05038d1ec65e686aa06dba6475dc6328", null ],
-    [ "load_path_data", "f8f60__len__1560_8c.html#adf101687cfd71d57cb7706b836e6d1c1", null ],
-    [ "LoadPath", "f8f60__len__1560_8c.html#ad877344791a0e27b374143d7f045767d", null ],
-    [ "MakeLerp", "f8f60__len__1560_8c.html#a55ed619eb560b44ab5fdc42ffe66e30b", null ],
-    [ "ModifyGlobalOverrideFlags", "f8f60__len__1560_8c.html#ab538edb292b554c7c69979280f8e3a57", null ],
-    [ "RandInt", "f8f60__len__1560_8c.html#a16912593fdc02fad0fc5b2caacca2847", null ],
-    [ "SetGameMode", "f8f60__len__1560_8c.html#a555de187d07966b56964aa71fae2c04c", null ],
-    [ "SetTimeFreezeMode", "f8f60__len__1560_8c.html#ae727384b10f3c3ede4468b2408fd502b", null ],
-    [ "SetValueByRef", "f8f60__len__1560_8c.html#aacd1021370de9cc9a09e17f1e9aebb1d", null ],
-    [ "ShowWorldStatusBar", "f8f60__len__1560_8c.html#a3f08def094dd1cba89781d0fb08f5434", null ],
-    [ "UpdateLerp", "f8f60__len__1560_8c.html#a75d533723daaa7b5bc8c4c81077f8bc7", null ]
+    [ "load_path_data", "f8f60__len__1560_8c.html#adf101687cfd71d57cb7706b836e6d1c1", null ]
 ];

@@ -257,7 +257,7 @@ Variables</h2></td></tr>
 <div class="line"> </div>
 <div class="line"> </div>
 <div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a11ba48891f165dc45a558b751bec8aca">EVT_END_THREAD</a></div>
-<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a7c09e8c76b51d5be8aeadc85751ff8f0">EVT_CALL</a>(<a class="code hl_function" href="script__api_2common_8h.html#a78571712c09a84b7ddf68d3e18a7087e">BindNpcAI</a>, <a class="code hl_enumvalue" href="enums_8h.html#a8ed30857fb1bfefd4de61c6f02040634a0664795bf4a295e3c87e422eadf6870b">NPC_SELF</a>, <a class="code hl_define" href="script__api_2macros_8h.html#a5c78949040b032c6e0c50c2e78e2f7cb">EVT_PTR</a>( <a class="code hl_variable" href="#a64198f37e89e269cbf9ce080ec0af397">EVS_NpcAI_JrTroopa_01</a> ))</div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a7c09e8c76b51d5be8aeadc85751ff8f0">EVT_CALL</a>(BindNpcAI, <a class="code hl_enumvalue" href="enums_8h.html#a8ed30857fb1bfefd4de61c6f02040634a0664795bf4a295e3c87e422eadf6870b">NPC_SELF</a>, <a class="code hl_define" href="script__api_2macros_8h.html#a5c78949040b032c6e0c50c2e78e2f7cb">EVT_PTR</a>( <a class="code hl_variable" href="#a64198f37e89e269cbf9ce080ec0af397">EVS_NpcAI_JrTroopa_01</a> ))</div>
 <div class="line"> </div>
 <div class="line"> </div>
 <div class="line"> </div>
@@ -266,7 +266,6 @@ Variables</h2></td></tr>
 <div class="line">}</div>
 <div class="ttc" id="aenums_8h_html_a8ed30857fb1bfefd4de61c6f02040634a0664795bf4a295e3c87e422eadf6870b"><div class="ttname"><a href="enums_8h.html#a8ed30857fb1bfefd4de61c6f02040634a0664795bf4a295e3c87e422eadf6870b">NPC_SELF</a></div><div class="ttdeci">@ NPC_SELF</div><div class="ttdef"><b>Definition</b> enums.h:2529</div></div>
 <div class="ttc" id="anok__11__4__npc_8c_html_a64198f37e89e269cbf9ce080ec0af397"><div class="ttname"><a href="#a64198f37e89e269cbf9ce080ec0af397">EVS_NpcAI_JrTroopa_01</a></div><div class="ttdeci">EvtScript EVS_NpcAI_JrTroopa_01</div><div class="ttdef"><b>Definition</b> nok_11_4_npc.c:154</div></div>
-<div class="ttc" id="ascript__api_2common_8h_html_a78571712c09a84b7ddf68d3e18a7087e"><div class="ttname"><a href="script__api_2common_8h.html#a78571712c09a84b7ddf68d3e18a7087e">BindNpcAI</a></div><div class="ttdeci">ApiStatus BindNpcAI(Evt *script, s32 isInitialCall)</div><div class="ttdef"><b>Definition</b> encounter_api.c:335</div></div>
 <div class="ttc" id="ascript__api_2macros_8h_html_a11ba48891f165dc45a558b751bec8aca"><div class="ttname"><a href="script__api_2macros_8h.html#a11ba48891f165dc45a558b751bec8aca">EVT_END_THREAD</a></div><div class="ttdeci">#define EVT_END_THREAD</div><div class="ttdoc">Marks the end of a thread block.</div><div class="ttdef"><b>Definition</b> macros.h:559</div></div>
 <div class="ttc" id="ascript__api_2macros_8h_html_a5c78949040b032c6e0c50c2e78e2f7cb"><div class="ttname"><a href="script__api_2macros_8h.html#a5c78949040b032c6e0c50c2e78e2f7cb">EVT_PTR</a></div><div class="ttdeci">#define EVT_PTR(sym)</div><div class="ttdoc">Address/pointer constant.</div><div class="ttdef"><b>Definition</b> macros.h:56</div></div>
 <div class="ttc" id="ascript__api_2macros_8h_html_a61ef92d6d999392239644a3e7e8fc871"><div class="ttname"><a href="script__api_2macros_8h.html#a61ef92d6d999392239644a3e7e8fc871">EVT_THREAD</a></div><div class="ttdeci">#define EVT_THREAD</div><div class="ttdoc">Marks the start of a thread block.</div><div class="ttdef"><b>Definition</b> macros.h:556</div></div>
@@ -404,18 +403,15 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a7c09e8c76b51d5be8aeadc85751ff8f0">EVT_CALL</a>(<a class="code hl_function" href="script__api_2common_8h.html#ae92c544091e7f1858cb4aca51124c825">BindNpcIdle</a>, <a class="code hl_enumvalue" href="enums_8h.html#a8ed30857fb1bfefd4de61c6f02040634a0664795bf4a295e3c87e422eadf6870b">NPC_SELF</a>, <a class="code hl_define" href="script__api_2macros_8h.html#a5c78949040b032c6e0c50c2e78e2f7cb">EVT_PTR</a>( <a class="code hl_variable" href="#a3c8ecc5d407848f28da891b359435c95">EVS_NpcIdle_JrTroopa_01</a> ))</div>
-<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a7c09e8c76b51d5be8aeadc85751ff8f0">EVT_CALL</a>(<a class="code hl_function" href="script__api_2common_8h.html#a3e567d301ea0915b5b45facb82589402">BindNpcDefeat</a>, <a class="code hl_enumvalue" href="enums_8h.html#a8ed30857fb1bfefd4de61c6f02040634a0664795bf4a295e3c87e422eadf6870b">NPC_SELF</a>, <a class="code hl_define" href="script__api_2macros_8h.html#a5c78949040b032c6e0c50c2e78e2f7cb">EVT_PTR</a>( <a class="code hl_variable" href="#a30d963b96ef13e439c6a4f4e50ee76f1">EVS_NpcDefeat_JrTroopa_01</a> ))</div>
-<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a7c09e8c76b51d5be8aeadc85751ff8f0">EVT_CALL</a>(<a class="code hl_function" href="script__api_2common_8h.html#a06d6d564f905b5410761c0da0f5ad3de">BindNpcInteract</a>, <a class="code hl_enumvalue" href="enums_8h.html#a8ed30857fb1bfefd4de61c6f02040634a0664795bf4a295e3c87e422eadf6870b">NPC_SELF</a>, <a class="code hl_define" href="script__api_2macros_8h.html#a5c78949040b032c6e0c50c2e78e2f7cb">EVT_PTR</a>( <a class="code hl_variable" href="#ac5864498d2fd89c9567a66b6c92c63b3">EVS_NpcInteract_JrTroopa_01</a> ))</div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a7c09e8c76b51d5be8aeadc85751ff8f0">EVT_CALL</a>(BindNpcIdle, <a class="code hl_enumvalue" href="enums_8h.html#a8ed30857fb1bfefd4de61c6f02040634a0664795bf4a295e3c87e422eadf6870b">NPC_SELF</a>, <a class="code hl_define" href="script__api_2macros_8h.html#a5c78949040b032c6e0c50c2e78e2f7cb">EVT_PTR</a>( <a class="code hl_variable" href="#a3c8ecc5d407848f28da891b359435c95">EVS_NpcIdle_JrTroopa_01</a> ))</div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a7c09e8c76b51d5be8aeadc85751ff8f0">EVT_CALL</a>(BindNpcDefeat, <a class="code hl_enumvalue" href="enums_8h.html#a8ed30857fb1bfefd4de61c6f02040634a0664795bf4a295e3c87e422eadf6870b">NPC_SELF</a>, <a class="code hl_define" href="script__api_2macros_8h.html#a5c78949040b032c6e0c50c2e78e2f7cb">EVT_PTR</a>( <a class="code hl_variable" href="#a30d963b96ef13e439c6a4f4e50ee76f1">EVS_NpcDefeat_JrTroopa_01</a> ))</div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a7c09e8c76b51d5be8aeadc85751ff8f0">EVT_CALL</a>(BindNpcInteract, <a class="code hl_enumvalue" href="enums_8h.html#a8ed30857fb1bfefd4de61c6f02040634a0664795bf4a295e3c87e422eadf6870b">NPC_SELF</a>, <a class="code hl_define" href="script__api_2macros_8h.html#a5c78949040b032c6e0c50c2e78e2f7cb">EVT_PTR</a>( <a class="code hl_variable" href="#ac5864498d2fd89c9567a66b6c92c63b3">EVS_NpcInteract_JrTroopa_01</a> ))</div>
 <div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#aa49b4615589f142fe396afa06f44ec5e">EVT_RETURN</a></div>
 <div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a1eb5d3206784e72fb8b5bf5cc7228553">EVT_END</a></div>
 <div class="line">}</div>
 <div class="ttc" id="anok__11__4__npc_8c_html_a30d963b96ef13e439c6a4f4e50ee76f1"><div class="ttname"><a href="#a30d963b96ef13e439c6a4f4e50ee76f1">EVS_NpcDefeat_JrTroopa_01</a></div><div class="ttdeci">EvtScript EVS_NpcDefeat_JrTroopa_01</div><div class="ttdef"><b>Definition</b> nok_11_4_npc.c:189</div></div>
 <div class="ttc" id="anok__11__4__npc_8c_html_a3c8ecc5d407848f28da891b359435c95"><div class="ttname"><a href="#a3c8ecc5d407848f28da891b359435c95">EVS_NpcIdle_JrTroopa_01</a></div><div class="ttdeci">EvtScript EVS_NpcIdle_JrTroopa_01</div><div class="ttdef"><b>Definition</b> nok_11_4_npc.c:28</div></div>
 <div class="ttc" id="anok__11__4__npc_8c_html_ac5864498d2fd89c9567a66b6c92c63b3"><div class="ttname"><a href="#ac5864498d2fd89c9567a66b6c92c63b3">EVS_NpcInteract_JrTroopa_01</a></div><div class="ttdeci">EvtScript EVS_NpcInteract_JrTroopa_01</div><div class="ttdef"><b>Definition</b> nok_11_4_npc.c:159</div></div>
-<div class="ttc" id="ascript__api_2common_8h_html_a06d6d564f905b5410761c0da0f5ad3de"><div class="ttname"><a href="script__api_2common_8h.html#a06d6d564f905b5410761c0da0f5ad3de">BindNpcInteract</a></div><div class="ttdeci">ApiStatus BindNpcInteract(Evt *script, s32 isInitialCall)</div><div class="ttdef"><b>Definition</b> encounter_api.c:584</div></div>
-<div class="ttc" id="ascript__api_2common_8h_html_a3e567d301ea0915b5b45facb82589402"><div class="ttname"><a href="script__api_2common_8h.html#a3e567d301ea0915b5b45facb82589402">BindNpcDefeat</a></div><div class="ttdeci">ApiStatus BindNpcDefeat(Evt *script, s32 isInitialCall)</div><div class="ttdef"><b>Definition</b> encounter_api.c:624</div></div>
-<div class="ttc" id="ascript__api_2common_8h_html_ae92c544091e7f1858cb4aca51124c825"><div class="ttname"><a href="script__api_2common_8h.html#ae92c544091e7f1858cb4aca51124c825">BindNpcIdle</a></div><div class="ttdeci">ApiStatus BindNpcIdle(Evt *script, s32 isInitialCall)</div><div class="ttdef"><b>Definition</b> encounter_api.c:388</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -431,8 +427,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a7c09e8c76b51d5be8aeadc85751ff8f0">EVT_CALL</a>(<a class="code hl_function" href="script__api_2common_8h.html#ae92c544091e7f1858cb4aca51124c825">BindNpcIdle</a>, <a class="code hl_enumvalue" href="enums_8h.html#a8ed30857fb1bfefd4de61c6f02040634a0664795bf4a295e3c87e422eadf6870b">NPC_SELF</a>, <a class="code hl_define" href="script__api_2macros_8h.html#a5c78949040b032c6e0c50c2e78e2f7cb">EVT_PTR</a>( <a class="code hl_variable" href="#ae9abd87be10457f692426e13bd4de508">EVS_NpcIdle_JrTroopa_02</a> ))</div>
-<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a7c09e8c76b51d5be8aeadc85751ff8f0">EVT_CALL</a>(<a class="code hl_function" href="script__api_2common_8h.html#ae3e928ef66955aeb2233339ce059d001">BindNpcHit</a>, <a class="code hl_enumvalue" href="enums_8h.html#a8ed30857fb1bfefd4de61c6f02040634a0664795bf4a295e3c87e422eadf6870b">NPC_SELF</a>, <a class="code hl_define" href="script__api_2macros_8h.html#a5c78949040b032c6e0c50c2e78e2f7cb">EVT_PTR</a>( <a class="code hl_variable" href="#aa2de94c5126f8a509657f82d217741ea">EVS_NpcHit_JrTroopa_02</a> ))</div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a7c09e8c76b51d5be8aeadc85751ff8f0">EVT_CALL</a>(BindNpcIdle, <a class="code hl_enumvalue" href="enums_8h.html#a8ed30857fb1bfefd4de61c6f02040634a0664795bf4a295e3c87e422eadf6870b">NPC_SELF</a>, <a class="code hl_define" href="script__api_2macros_8h.html#a5c78949040b032c6e0c50c2e78e2f7cb">EVT_PTR</a>( <a class="code hl_variable" href="#ae9abd87be10457f692426e13bd4de508">EVS_NpcIdle_JrTroopa_02</a> ))</div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a7c09e8c76b51d5be8aeadc85751ff8f0">EVT_CALL</a>(BindNpcHit, <a class="code hl_enumvalue" href="enums_8h.html#a8ed30857fb1bfefd4de61c6f02040634a0664795bf4a295e3c87e422eadf6870b">NPC_SELF</a>, <a class="code hl_define" href="script__api_2macros_8h.html#a5c78949040b032c6e0c50c2e78e2f7cb">EVT_PTR</a>( <a class="code hl_variable" href="#aa2de94c5126f8a509657f82d217741ea">EVS_NpcHit_JrTroopa_02</a> ))</div>
 <div class="line"> </div>
 <div class="line"> </div>
 <div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#aa49b4615589f142fe396afa06f44ec5e">EVT_RETURN</a></div>
@@ -440,7 +436,6 @@ Variables</h2></td></tr>
 <div class="line">}</div>
 <div class="ttc" id="anok__11__4__npc_8c_html_aa2de94c5126f8a509657f82d217741ea"><div class="ttname"><a href="#aa2de94c5126f8a509657f82d217741ea">EVS_NpcHit_JrTroopa_02</a></div><div class="ttdeci">EvtScript EVS_NpcHit_JrTroopa_02</div><div class="ttdef"><b>Definition</b> nok_11_4_npc.c:175</div></div>
 <div class="ttc" id="anok__11__4__npc_8c_html_ae9abd87be10457f692426e13bd4de508"><div class="ttname"><a href="#ae9abd87be10457f692426e13bd4de508">EVS_NpcIdle_JrTroopa_02</a></div><div class="ttdeci">EvtScript EVS_NpcIdle_JrTroopa_02</div><div class="ttdef"><b>Definition</b> nok_11_4_npc.c:165</div></div>
-<div class="ttc" id="ascript__api_2common_8h_html_ae3e928ef66955aeb2233339ce059d001"><div class="ttname"><a href="script__api_2common_8h.html#ae3e928ef66955aeb2233339ce059d001">BindNpcHit</a></div><div class="ttdeci">ApiStatus BindNpcHit(Evt *script, s32 isInitialCall)</div><div class="ttdef"><b>Definition</b> encounter_api.c:604</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -456,8 +451,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a7c09e8c76b51d5be8aeadc85751ff8f0">EVT_CALL</a>(<a class="code hl_function" href="script__api_2common_8h.html#ae92c544091e7f1858cb4aca51124c825">BindNpcIdle</a>, <a class="code hl_enumvalue" href="enums_8h.html#a8ed30857fb1bfefd4de61c6f02040634a0664795bf4a295e3c87e422eadf6870b">NPC_SELF</a>, <a class="code hl_define" href="script__api_2macros_8h.html#a5c78949040b032c6e0c50c2e78e2f7cb">EVT_PTR</a>( <a class="code hl_variable" href="#a4d7af51c5748fe6b850b3e30be09e257">EVS_NpcIdle_KentCKoopa_01</a> ))</div>
-<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a7c09e8c76b51d5be8aeadc85751ff8f0">EVT_CALL</a>(<a class="code hl_function" href="script__api_2common_8h.html#a3e567d301ea0915b5b45facb82589402">BindNpcDefeat</a>, <a class="code hl_enumvalue" href="enums_8h.html#a8ed30857fb1bfefd4de61c6f02040634a0664795bf4a295e3c87e422eadf6870b">NPC_SELF</a>, <a class="code hl_define" href="script__api_2macros_8h.html#a5c78949040b032c6e0c50c2e78e2f7cb">EVT_PTR</a>( <a class="code hl_variable" href="#af453c5765a6a94b131574d6f0dae8579">EVS_NpcDefeat_KentCKoopa_01</a> ))</div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a7c09e8c76b51d5be8aeadc85751ff8f0">EVT_CALL</a>(BindNpcIdle, <a class="code hl_enumvalue" href="enums_8h.html#a8ed30857fb1bfefd4de61c6f02040634a0664795bf4a295e3c87e422eadf6870b">NPC_SELF</a>, <a class="code hl_define" href="script__api_2macros_8h.html#a5c78949040b032c6e0c50c2e78e2f7cb">EVT_PTR</a>( <a class="code hl_variable" href="#a4d7af51c5748fe6b850b3e30be09e257">EVS_NpcIdle_KentCKoopa_01</a> ))</div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a7c09e8c76b51d5be8aeadc85751ff8f0">EVT_CALL</a>(BindNpcDefeat, <a class="code hl_enumvalue" href="enums_8h.html#a8ed30857fb1bfefd4de61c6f02040634a0664795bf4a295e3c87e422eadf6870b">NPC_SELF</a>, <a class="code hl_define" href="script__api_2macros_8h.html#a5c78949040b032c6e0c50c2e78e2f7cb">EVT_PTR</a>( <a class="code hl_variable" href="#af453c5765a6a94b131574d6f0dae8579">EVS_NpcDefeat_KentCKoopa_01</a> ))</div>
 <div class="line"> </div>
 <div class="line"> </div>
 <div class="line"> </div>
@@ -481,7 +476,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a7c09e8c76b51d5be8aeadc85751ff8f0">EVT_CALL</a>(<a class="code hl_function" href="script__api_2common_8h.html#a3e567d301ea0915b5b45facb82589402">BindNpcDefeat</a>, <a class="code hl_enumvalue" href="enums_8h.html#a8ed30857fb1bfefd4de61c6f02040634a0664795bf4a295e3c87e422eadf6870b">NPC_SELF</a>, <a class="code hl_define" href="script__api_2macros_8h.html#a5c78949040b032c6e0c50c2e78e2f7cb">EVT_PTR</a>( <a class="code hl_variable" href="#af83e41e499f633368d8bc2e03fdc2d0e">EVS_NpcDefeat_KentCKoopa_02</a> ))</div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a7c09e8c76b51d5be8aeadc85751ff8f0">EVT_CALL</a>(BindNpcDefeat, <a class="code hl_enumvalue" href="enums_8h.html#a8ed30857fb1bfefd4de61c6f02040634a0664795bf4a295e3c87e422eadf6870b">NPC_SELF</a>, <a class="code hl_define" href="script__api_2macros_8h.html#a5c78949040b032c6e0c50c2e78e2f7cb">EVT_PTR</a>( <a class="code hl_variable" href="#af83e41e499f633368d8bc2e03fdc2d0e">EVS_NpcDefeat_KentCKoopa_02</a> ))</div>
 <div class="line"> </div>
 <div class="line"> </div>
 <div class="line"> </div>
@@ -735,7 +730,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line">    .id = <a class="code hl_enumvalue" href="kmr__05_8h.html#ab719707cad671ce69bd3b488843e06b9ad2eded23098d55a1e8231027421f44f0">NPC_Paragoomba</a>,</div>
+<div class="line">    .id = <a class="code hl_enumvalue" href="kmr__05_8h.html#a58b98adda5166b03a45242e2d118c5e1ad2eded23098d55a1e8231027421f44f0">NPC_Paragoomba</a>,</div>
 <div class="line">    .pos = { 0.0f, 60.0f, -30.0f },</div>
 <div class="line">    .yaw = 0,</div>
 <div class="line">    .territory = {</div>
@@ -758,7 +753,7 @@ Variables</h2></td></tr>
 <div class="ttc" id="aParagoomba_8h_html_a66abe6b0a50bc4a3bae58f2f9891bfbd"><div class="ttname"><a href="Paragoomba_8h.html#a66abe6b0a50bc4a3bae58f2f9891bfbd">PARAGOOMBA_ANIMS</a></div><div class="ttdeci">#define PARAGOOMBA_ANIMS</div><div class="ttdef"><b>Definition</b> Paragoomba.h:17</div></div>
 <div class="ttc" id="aParagoomba_8h_html_a6bc31d4d463ad3fd53f2b4cc5b62107b"><div class="ttname"><a href="Paragoomba_8h.html#a6bc31d4d463ad3fd53f2b4cc5b62107b">PARAGOOMBA_DROPS</a></div><div class="ttdeci">#define PARAGOOMBA_DROPS</div><div class="ttdef"><b>Definition</b> Paragoomba.h:4</div></div>
 <div class="ttc" id="aParagoomba__Wander_8inc_8c_html_a0fcbeb5e68e440dce7e1f768077036b2"><div class="ttname"><a href="Paragoomba__Wander_8inc_8c.html#a0fcbeb5e68e440dce7e1f768077036b2">NpcSettings_Paragoomba_Wander</a></div><div class="ttdeci">NpcSettings NpcSettings_Paragoomba_Wander</div><div class="ttdef"><b>Definition</b> Paragoomba_Wander.inc.c:28</div></div>
-<div class="ttc" id="akmr__05_8h_html_ab719707cad671ce69bd3b488843e06b9ad2eded23098d55a1e8231027421f44f0"><div class="ttname"><a href="kmr__05_8h.html#ab719707cad671ce69bd3b488843e06b9ad2eded23098d55a1e8231027421f44f0">NPC_Paragoomba</a></div><div class="ttdeci">@ NPC_Paragoomba</div><div class="ttdef"><b>Definition</b> kmr_05.h:21</div></div>
+<div class="ttc" id="akmr__05_8h_html_a58b98adda5166b03a45242e2d118c5e1ad2eded23098d55a1e8231027421f44f0"><div class="ttname"><a href="kmr__05_8h.html#a58b98adda5166b03a45242e2d118c5e1ad2eded23098d55a1e8231027421f44f0">NPC_Paragoomba</a></div><div class="ttdeci">@ NPC_Paragoomba</div><div class="ttdef"><b>Definition</b> kmr_05.h:21</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -774,7 +769,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line">    .id = <a class="code hl_enumvalue" href="kmr__05_8h.html#ab719707cad671ce69bd3b488843e06b9a02cf09361551cca6e3c8b990151e9c24">NPC_SpikedGoomba</a>,</div>
+<div class="line">    .id = <a class="code hl_enumvalue" href="kmr__05_8h.html#a58b98adda5166b03a45242e2d118c5e1a02cf09361551cca6e3c8b990151e9c24">NPC_SpikedGoomba</a>,</div>
 <div class="line">    .pos = { 430.0f, 0.0f, -27.0f },</div>
 <div class="line">    .yaw = 270,</div>
 <div class="line">    .territory = {</div>
@@ -797,7 +792,7 @@ Variables</h2></td></tr>
 <div class="ttc" id="aSpikedGoomba_8h_html_a7db04f6e820e5c6e7f0a78b5f26f3cda"><div class="ttname"><a href="SpikedGoomba_8h.html#a7db04f6e820e5c6e7f0a78b5f26f3cda">SPIKED_GOOMBA_DROPS</a></div><div class="ttdeci">#define SPIKED_GOOMBA_DROPS</div><div class="ttdef"><b>Definition</b> SpikedGoomba.h:4</div></div>
 <div class="ttc" id="aSpikedGoomba_8h_html_a9d1156a62f28ed5a2f2d84a516dc9a6c"><div class="ttname"><a href="SpikedGoomba_8h.html#a9d1156a62f28ed5a2f2d84a516dc9a6c">SPIKED_GOOMBA_ANIMS</a></div><div class="ttdeci">#define SPIKED_GOOMBA_ANIMS</div><div class="ttdef"><b>Definition</b> SpikedGoomba.h:17</div></div>
 <div class="ttc" id="aSpikedGoomba__Wander_8inc_8c_html_a747f6202c7cd856f3cc7495d1584c156"><div class="ttname"><a href="SpikedGoomba__Wander_8inc_8c.html#a747f6202c7cd856f3cc7495d1584c156">NpcSettings_SpikedGoomba_Wander</a></div><div class="ttdeci">NpcSettings NpcSettings_SpikedGoomba_Wander</div><div class="ttdef"><b>Definition</b> SpikedGoomba_Wander.inc.c:22</div></div>
-<div class="ttc" id="akmr__05_8h_html_ab719707cad671ce69bd3b488843e06b9a02cf09361551cca6e3c8b990151e9c24"><div class="ttname"><a href="kmr__05_8h.html#ab719707cad671ce69bd3b488843e06b9a02cf09361551cca6e3c8b990151e9c24">NPC_SpikedGoomba</a></div><div class="ttdeci">@ NPC_SpikedGoomba</div><div class="ttdef"><b>Definition</b> kmr_05.h:20</div></div>
+<div class="ttc" id="akmr__05_8h_html_a58b98adda5166b03a45242e2d118c5e1a02cf09361551cca6e3c8b990151e9c24"><div class="ttname"><a href="kmr__05_8h.html#a58b98adda5166b03a45242e2d118c5e1a02cf09361551cca6e3c8b990151e9c24">NPC_SpikedGoomba</a></div><div class="ttdeci">@ NPC_SpikedGoomba</div><div class="ttdef"><b>Definition</b> kmr_05.h:20</div></div>
 </div><!-- fragment -->
 </div>
 </div>

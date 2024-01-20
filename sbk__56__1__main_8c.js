@@ -1,7 +1,5 @@
 var sbk__56__1__main_8c =
 [
-    [ "StartOasisSongVariation", "sbk__56__1__main_8c.html#a6465703f8d6a7f63b963ae2f91ea051c", null ],
-    [ "StopOasisSongVariation", "sbk__56__1__main_8c.html#a8fc2a5b27b30f9baa7bc51d3cdd5bc35", null ],
     [ "Entrances", "sbk__56__1__main_8c.html#a1cf6f408acbb13828ffc6386c0770daa", null ],
     [ "EVS_BindExitTriggers", "sbk__56__1__main_8c.html#ae40430f8e0981e03c46f4ef8574ded22", null ],
     [ "EVS_ExitWalk_sbk_46_3", "sbk__56__1__main_8c.html#a46cd85c160da70c3494b6a18c92245d9", null ],

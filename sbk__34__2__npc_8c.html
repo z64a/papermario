@@ -186,7 +186,7 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= {</div>
 <div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a7c09e8c76b51d5be8aeadc85751ff8f0">EVT_CALL</a>( LetterDelivery_Init ,</div>
-<div class="line">        <a class="code hl_enumvalue" href="sbk__34_8h.html#a04a7e2e0fb4607e9f468ef40751417aca0b3224a35d56d8be3174b5b1b6aacd80">NPC_Nomadimouse</a>, ANIM_Nomadimouse_Talk, ANIM_Nomadimouse_Idle,</div>
+<div class="line">        <a class="code hl_enumvalue" href="sbk__34_8h.html#a5debefb6ad94a950e2e5b31b16211eaca0b3224a35d56d8be3174b5b1b6aacd80">NPC_Nomadimouse</a>, ANIM_Nomadimouse_Talk, ANIM_Nomadimouse_Idle,</div>
 <div class="line">        ITEM_LETTER_TO_NOMADIMOUSE, ITEM_NONE,</div>
 <div class="line">        MSG_CH2_005B, MSG_CH2_005C, MSG_CH2_005D, MSG_CH2_005E,</div>
 <div class="line">        <a class="code hl_define" href="script__api_2macros_8h.html#a5c78949040b032c6e0c50c2e78e2f7cb">EVT_PTR</a>( <a class="code hl_variable" href="#af7b370df024b4d2a63e79da8bb452c82">LetterList_Nomadimouse</a> ))</div>
@@ -194,7 +194,7 @@ Variables</h2></td></tr>
 <div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#aa49b4615589f142fe396afa06f44ec5e">EVT_RETURN</a></div>
 <div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a1eb5d3206784e72fb8b5bf5cc7228553">EVT_END</a></div>
 <div class="line">}</div>
-<div class="ttc" id="asbk__34_8h_html_a04a7e2e0fb4607e9f468ef40751417aca0b3224a35d56d8be3174b5b1b6aacd80"><div class="ttname"><a href="sbk__34_8h.html#a04a7e2e0fb4607e9f468ef40751417aca0b3224a35d56d8be3174b5b1b6aacd80">NPC_Nomadimouse</a></div><div class="ttdeci">@ NPC_Nomadimouse</div><div class="ttdef"><b>Definition</b> sbk_34.h:16</div></div>
+<div class="ttc" id="asbk__34_8h_html_a5debefb6ad94a950e2e5b31b16211eaca0b3224a35d56d8be3174b5b1b6aacd80"><div class="ttname"><a href="sbk__34_8h.html#a5debefb6ad94a950e2e5b31b16211eaca0b3224a35d56d8be3174b5b1b6aacd80">NPC_Nomadimouse</a></div><div class="ttdeci">@ NPC_Nomadimouse</div><div class="ttdef"><b>Definition</b> sbk_34.h:16</div></div>
 <div class="ttc" id="asbk__34__2__npc_8c_html_af7b370df024b4d2a63e79da8bb452c82"><div class="ttname"><a href="#af7b370df024b4d2a63e79da8bb452c82">LetterList_Nomadimouse</a></div><div class="ttdeci">s32 LetterList_Nomadimouse[]</div><div class="ttdef"><b>Definition</b> sbk_34_2_npc.c:11</div></div>
 <div class="ttc" id="ascript__api_2macros_8h_html_a5c78949040b032c6e0c50c2e78e2f7cb"><div class="ttname"><a href="script__api_2macros_8h.html#a5c78949040b032c6e0c50c2e78e2f7cb">EVT_PTR</a></div><div class="ttdeci">#define EVT_PTR(sym)</div><div class="ttdoc">Address/pointer constant.</div><div class="ttdef"><b>Definition</b> macros.h:56</div></div>
 <div class="ttc" id="ascript__api_2macros_8h_html_a7c09e8c76b51d5be8aeadc85751ff8f0"><div class="ttname"><a href="script__api_2macros_8h.html#a7c09e8c76b51d5be8aeadc85751ff8f0">EVT_CALL</a></div><div class="ttdeci">#define EVT_CALL(FUNC, ARGS...)</div><div class="ttdoc">Calls a given C EVT API function with any number of arguments.</div><div class="ttdef"><b>Definition</b> macros.h:588</div></div>
@@ -213,14 +213,13 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a7c09e8c76b51d5be8aeadc85751ff8f0">EVT_CALL</a>(<a class="code hl_function" href="script__api_2common_8h.html#a06d6d564f905b5410761c0da0f5ad3de">BindNpcInteract</a>, <a class="code hl_enumvalue" href="enums_8h.html#a8ed30857fb1bfefd4de61c6f02040634a0664795bf4a295e3c87e422eadf6870b">NPC_SELF</a>, <a class="code hl_define" href="script__api_2macros_8h.html#a5c78949040b032c6e0c50c2e78e2f7cb">EVT_PTR</a>( <a class="code hl_variable" href="#a55cb0935d7192c6b68e3c11c4913098e">EVS_NpcInteract_Nomadimouse</a> ))</div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a7c09e8c76b51d5be8aeadc85751ff8f0">EVT_CALL</a>(BindNpcInteract, <a class="code hl_enumvalue" href="enums_8h.html#a8ed30857fb1bfefd4de61c6f02040634a0664795bf4a295e3c87e422eadf6870b">NPC_SELF</a>, <a class="code hl_define" href="script__api_2macros_8h.html#a5c78949040b032c6e0c50c2e78e2f7cb">EVT_PTR</a>( <a class="code hl_variable" href="#a55cb0935d7192c6b68e3c11c4913098e">EVS_NpcInteract_Nomadimouse</a> ))</div>
 <div class="line"> </div>
 <div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#aa49b4615589f142fe396afa06f44ec5e">EVT_RETURN</a></div>
 <div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a1eb5d3206784e72fb8b5bf5cc7228553">EVT_END</a></div>
 <div class="line">}</div>
 <div class="ttc" id="aenums_8h_html_a8ed30857fb1bfefd4de61c6f02040634a0664795bf4a295e3c87e422eadf6870b"><div class="ttname"><a href="enums_8h.html#a8ed30857fb1bfefd4de61c6f02040634a0664795bf4a295e3c87e422eadf6870b">NPC_SELF</a></div><div class="ttdeci">@ NPC_SELF</div><div class="ttdef"><b>Definition</b> enums.h:2529</div></div>
 <div class="ttc" id="asbk__34__2__npc_8c_html_a55cb0935d7192c6b68e3c11c4913098e"><div class="ttname"><a href="#a55cb0935d7192c6b68e3c11c4913098e">EVS_NpcInteract_Nomadimouse</a></div><div class="ttdeci">EvtScript EVS_NpcInteract_Nomadimouse</div><div class="ttdef"><b>Definition</b> sbk_34_2_npc.c:35</div></div>
-<div class="ttc" id="ascript__api_2common_8h_html_a06d6d564f905b5410761c0da0f5ad3de"><div class="ttname"><a href="script__api_2common_8h.html#a06d6d564f905b5410761c0da0f5ad3de">BindNpcInteract</a></div><div class="ttdeci">ApiStatus BindNpcInteract(Evt *script, s32 isInitialCall)</div><div class="ttdef"><b>Definition</b> encounter_api.c:584</div></div>
 </div><!-- fragment -->
 </div>
 </div>

@@ -423,7 +423,7 @@ var searchData=
   ['bluepipe_420',['bluePipe',['../common__structs_8h.html#afa8150e6d42bfa3d7f591f2b66c67c48',1,'EntityData']]],
   ['blueprint_421',['blueprint',['../structEntity.html#a7d99e21ab05eea8f5729af459da7678a',1,'Entity']]],
   ['bluestarphaseangle_422',['BlueStarPhaseAngle',['../hos__02__3__model__fx_8c.html#ac139fcdc0f550dfcbc160814c6d4e131',1,'hos_02_3_model_fx.c']]],
-  ['blur_423',['blur',['../structNpc.html#adbb4b2ade732b902adf378e52d42015b',1,'Npc']]],
+  ['blur_423',['blur',['../structNpc.html#ae5e2f1ffa69c3ff629480a98183e3c1e',1,'Npc']]],
   ['blurbufferpos_424',['blurBufferPos',['../common__structs_8h.html#ac7f4196cbfdddfe02335d8d4c99368da',1,'DecorationTable']]],
   ['blurdisabledelay_425',['blurDisableDelay',['../common__structs_8h.html#a473a19cb5c4dc796edff9f88837df15e',1,'DecorationTable']]],
   ['blurdrawcount_426',['blurDrawCount',['../common__structs_8h.html#a1f8295d72ed737f48ed6b5397d9c0dd7',1,'DecorationTable']]],

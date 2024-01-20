@@ -123,6 +123,6 @@ var searchData=
   ['overshootvel_120',['overshootVel',['../nok__04__4__npc_8c.html#af0251e5a6576f2f063f9fc2832584e61',1,'FuzzyThread']]],
   ['owner_121',['owner',['../hud__element_8h.html#a8d6fb6d9ef95fd28922f53ed3a887b88',1,'Shop']]],
   ['owner_122',['Owner',['../dro__01__4__shop_8c.html#a2318c99170a2ce17f69f4046ad9436c6',1,'Owner:&#160;dro_01_4_shop.c'],['../hos__03__7__shop_8c.html#a2318c99170a2ce17f69f4046ad9436c6',1,'Owner:&#160;hos_03_7_shop.c'],['../jan__03__3__shop_8c.html#a2318c99170a2ce17f69f4046ad9436c6',1,'Owner:&#160;jan_03_3_shop.c'],['../kpa__96__3__npc_8c.html#a2318c99170a2ce17f69f4046ad9436c6',1,'Owner:&#160;kpa_96_3_npc.c'],['../mac__00__6__shop_8c.html#a2318c99170a2ce17f69f4046ad9436c6',1,'Owner:&#160;mac_00_6_shop.c'],['../mac__04__5__shop_8c.html#a2318c99170a2ce17f69f4046ad9436c6',1,'Owner:&#160;mac_04_5_shop.c'],['../nok__01__5__shop_8c.html#a2318c99170a2ce17f69f4046ad9436c6',1,'Owner:&#160;nok_01_5_shop.c'],['../obk__03__3__shop_8c.html#a2318c99170a2ce17f69f4046ad9436c6',1,'Owner:&#160;obk_03_3_shop.c'],['../sam__02__6__shop_8c.html#a2318c99170a2ce17f69f4046ad9436c6',1,'Owner:&#160;sam_02_6_shop.c']]],
-  ['owner1_123',['owner1',['../common__structs_8h.html#af5dd142b2e1cbfea2cc4f87ee7b5bd6a',1,'Evt']]],
-  ['owner2_124',['owner2',['../common__structs_8h.html#a6a82dd1b06bed0d23f8fff1aec824007',1,'Evt']]]
+  ['owner1_123',['owner1',['../common__structs_8h.html#a9daba8b7c2a762030d1c73bda6776619',1,'Evt']]],
+  ['owner2_124',['owner2',['../common__structs_8h.html#ab664b580259ddc3e0a5aa980e938494e',1,'Evt']]]
 ];

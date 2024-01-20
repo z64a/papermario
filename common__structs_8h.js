@@ -246,8 +246,8 @@ var common__structs_8h =
       [ "loopCounterTable", "common__structs_8h.html#a5bb40c4841da87355069303f5f6d9695", null ],
       [ "loopDepth", "common__structs_8h.html#a6cc1c20ac131785ab7c636cdb7af1ed3", null ],
       [ "loopStartTable", "common__structs_8h.html#a2bc4bd8e1e6ba8a6de98d33f899c1b50", null ],
-      [ "owner1", "common__structs_8h.html#af5dd142b2e1cbfea2cc4f87ee7b5bd6a", null ],
-      [ "owner2", "common__structs_8h.html#a6a82dd1b06bed0d23f8fff1aec824007", null ],
+      [ "owner1", "common__structs_8h.html#a9daba8b7c2a762030d1c73bda6776619", null ],
+      [ "owner2", "common__structs_8h.html#ab664b580259ddc3e0a5aa980e938494e", null ],
       [ "parentScript", "common__structs_8h.html#a0cd1630599bfcf8c8ca25273f4eb526b", null ],
       [ "priority", "common__structs_8h.html#afe89f0c96df8087a82402b2223a0d4ab", null ],
       [ "ptrCurLine", "common__structs_8h.html#aac69e58926a51b40df76f5e9901e9e4c", null ],
@@ -591,7 +591,7 @@ var common__structs_8h =
       [ "nextLinePos", "common__structs_8h.html#a39f2780999f4774612623f4df8eeb280", null ],
       [ "numLines", "common__structs_8h.html#a13d668be50288445885072c88012a6ef", null ],
       [ "openStartPos", "common__structs_8h.html#a386516a995f513d50a233b2377dba613", null ],
-      [ "printBuffer", "common__structs_8h.html#aea10c24034797eec65af355dff59d68a", null ],
+      [ "printBuffer", "common__structs_8h.html#a1eaaac1064c2d64b9e5a40570289da32", null ],
       [ "printBufferPos", "common__structs_8h.html#ae4f07c25bb45bf2a2273594954ab97bd", null ],
       [ "printBufferSize", "common__structs_8h.html#a12f0eea96d7e351973daa717a53167bc", null ],
       [ "printDelayTime", "common__structs_8h.html#a9612742948db39ac418ce35a9cfcb745", null ],
@@ -1727,17 +1727,17 @@ var common__structs_8h =
       [ "colliderID", "common__structs_8h.html#aa47d3bd8551e0e842a2055c2aea60159", null ],
       [ "pos", "common__structs_8h.html#a5e0bdcbddccca4d66d74ba8c1cee1a68", null ]
     ] ],
-    [ "Trigger.__unnamed5__", "common__structs_8h.html#unionTrigger_8____unnamed5____", [
+    [ "Trigger.__unnamed3__", "common__structs_8h.html#unionTrigger_8____unnamed3____", [
       [ "varTable", "common__structs_8h.html#aa69f276b60e03e8633cf3c89e616a1cc", null ],
       [ "varTableF", "common__structs_8h.html#a126134864f493cadf5144155c740b2a8", null ],
       [ "varTablePtr", "common__structs_8h.html#acecf9c88596eaf5ee0701984b3db61b3", null ]
     ] ],
-    [ "Evt.__unnamed7__", "common__structs_8h.html#unionEvt_8____unnamed7____", [
+    [ "Evt.__unnamed5__", "common__structs_8h.html#unionEvt_8____unnamed5____", [
       [ "functionTemp", "common__structs_8h.html#a77bcd160e703ae33c22a7fad2694d1b5", null ],
       [ "functionTempF", "common__structs_8h.html#a4e3c02ac7fdb10440d0be1d233d09db9", null ],
       [ "functionTempPtr", "common__structs_8h.html#a14c2bd70a1d2a7759f61b3d08fe0524b", null ]
     ] ],
-    [ "Evt.__unnamed9__", "common__structs_8h.html#unionEvt_8____unnamed9____", [
+    [ "Evt.__unnamed7__", "common__structs_8h.html#unionEvt_8____unnamed7____", [
       [ "varTable", "common__structs_8h.html#a93c302ad376e647b9a09d4610947f97b", null ],
       [ "varTableF", "common__structs_8h.html#a087efa785a677c1d328b5219661c7287", null ],
       [ "varTablePtr", "common__structs_8h.html#a82a27a7127b56d8f89a7d27491636376", null ]
@@ -1836,6 +1836,7 @@ var common__structs_8h =
     [ "NPC_BLUR_FRAMES", "common__structs_8h.html#a2b2e6b75c38368daa576ae8243c67565", null ],
     [ "PAL_BIN", "common__structs_8h.html#a9f86dedcb7f597f8351b0ad3c3a5f070", null ],
     [ "PAL_PTR", "common__structs_8h.html#a82131d977b273184a3b6d0936dd4d932", null ],
+    [ "PRINT_BUFFER_SIZE", "common__structs_8h.html#a4724cb7d73c991e1fc236f6aa9c3d15d", null ],
     [ "AnimatedMeshList", "common__structs_8h.html#adf49dffdccf65dd2b163672f96dcd920", null ],
     [ "AnimatedModelList", "common__structs_8h.html#aadb231a1811d5bc7d08cf772b37e2158", null ],
     [ "AnimID", "common__structs_8h.html#af250d7e0529e8afdd2a419f09d0f5e45", null ],

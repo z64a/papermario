@@ -1669,7 +1669,7 @@ var enums_8h =
       [ "ENTITY_FLAG_PARTNER_COLLISION", "enums_8h.html#acda3452546886b2b713c62c4a07fd52aa4aa9e5909a20fb71a3b659c5c2878bbc", null ],
       [ "ENTITY_FLAG_DRAW_IF_CLOSE_HIDE_MODE2", "enums_8h.html#acda3452546886b2b713c62c4a07fd52aa318a5bb616c2115a8623f72530b92cb2", null ],
       [ "ENTITY_FLAG_IGNORE_DISTANCE_CULLING", "enums_8h.html#acda3452546886b2b713c62c4a07fd52aa2167b49ab59c4a30eb490e460814843e", null ],
-      [ "ENTITY_FLAG_100000", "enums_8h.html#acda3452546886b2b713c62c4a07fd52aac9f5cfc423c3d5847ab16b1eaef1407d", null ],
+      [ "ENTITY_FLAG_USED", "enums_8h.html#acda3452546886b2b713c62c4a07fd52aaae9fe69e7996bb79b73ac88b4e9473cf", null ],
       [ "ENTITY_FLAG_200000", "enums_8h.html#acda3452546886b2b713c62c4a07fd52aa5a3fa010f5ac9ab518fe69822bbc5951", null ],
       [ "ENTITY_FLAG_SHADOW_POS_DIRTY", "enums_8h.html#acda3452546886b2b713c62c4a07fd52aa27d13cf0c8472cd2eb611270e60ecfc9", null ],
       [ "ENTITY_FLAG_DARK_SHADOW", "enums_8h.html#acda3452546886b2b713c62c4a07fd52aa25e070ca6e3a80c503f5b74d1351984c", null ],
@@ -2922,13 +2922,6 @@ var enums_8h =
       [ "NPC_DECORATION_CHARGED", "enums_8h.html#a233b48c376a4eef8f9a670b64f961546a8cc111c592c22654be1e2a542b48be4a", null ]
     ] ],
     [ "NpcDropFlags", "enums_8h.html#a3495c8c8ed51c1943a2faf523df0aa68", [
-      [ "NPC_DROP_FLAG_1", "enums_8h.html#a3495c8c8ed51c1943a2faf523df0aa68a0231421d7aa821ccb5c47be65f0b1061", null ],
-      [ "NPC_DROP_FLAG_2", "enums_8h.html#a3495c8c8ed51c1943a2faf523df0aa68a507687158c35ae7cd1a1bd8421c11d60", null ],
-      [ "NPC_DROP_FLAG_4", "enums_8h.html#a3495c8c8ed51c1943a2faf523df0aa68a6bdbc8511825acbce3e7455f8e7bbde5", null ],
-      [ "NPC_DROP_FLAG_8", "enums_8h.html#a3495c8c8ed51c1943a2faf523df0aa68a3495110e26020aa924b42396142b8e16", null ],
-      [ "NPC_DROP_FLAG_10", "enums_8h.html#a3495c8c8ed51c1943a2faf523df0aa68af741c7c5adcbc1277c0a438ac1858597", null ],
-      [ "NPC_DROP_FLAG_20", "enums_8h.html#a3495c8c8ed51c1943a2faf523df0aa68aefc58b207e767ae3535f9294a912ac2c", null ],
-      [ "NPC_DROP_FLAG_40", "enums_8h.html#a3495c8c8ed51c1943a2faf523df0aa68a606134ba7070863a83baf173d4cc6c89", null ],
       [ "NPC_DROP_FLAG_80", "enums_8h.html#a3495c8c8ed51c1943a2faf523df0aa68a1e37de0beef2439eeb8903067b1df8e7", null ]
     ] ],
     [ "NpcFlags", "enums_8h.html#afe67c7f3de9b9f2426f10be3b0b50189", [
@@ -4841,6 +4834,10 @@ var enums_8h =
       [ "SPR_IMGFX_FLAG_40000000", "enums_8h.html#a9f9a69b8310bd128cc9107afe3f8e175a7f33c541d81a0b11068c24f9a1af59df", null ],
       [ "SPR_IMGFX_FLAG_80000000", "enums_8h.html#a9f9a69b8310bd128cc9107afe3f8e175a35bd377622ebc4f8434ccad456fecb31", null ],
       [ "SPR_IMGFX_FLAG_ALL", "enums_8h.html#a9f9a69b8310bd128cc9107afe3f8e175a6387074ffcdba0cdde584e38be015421", null ]
+    ] ],
+    [ "SpriteShadingFlags", "enums_8h.html#a1ba259fefc8f09b6e7345a2cd0b0586d", [
+      [ "SPR_SHADING_FLAG_ENABLED", "enums_8h.html#a1ba259fefc8f09b6e7345a2cd0b0586daebaf73e5106141168eaceb68e45567f8", null ],
+      [ "SPR_SHADING_FLAG_SET_VIEWPORT", "enums_8h.html#a1ba259fefc8f09b6e7345a2cd0b0586da3dc364838c17a37d3514d1681fd9b71d", null ]
     ] ],
     [ "StatusFlags", "enums_8h.html#ac07b406ff87cafb1d2cd8356995f5f81", [
       [ "STATUS_FLAG_SLEEP", "enums_8h.html#ac07b406ff87cafb1d2cd8356995f5f81ac2dcd025eec15cbcf509d542e92852ad", null ],
