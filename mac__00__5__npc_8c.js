@@ -2,26 +2,5 @@ var mac__00__5__npc_8c =
 [
     [ "CHUCK_QUIZMO_NPC_ID", "mac__00__5__npc_8c.html#a819c5e86948b52f9298addc259f04d9a", null ],
     [ "MAP_STATIC_PAD", "mac__00__5__npc_8c.html#a4c4defa8da7099192745057934860e30", null ],
-    [ "MAP_STATIC_PAD", "mac__00__5__npc_8c.html#a3c8e570c8b8afa9b54bd9ab87593890e", null ],
-    [ "DefaultNPCs", "mac__00__5__npc_8c.html#a7374ac0b449e4ad2ea880b155b9139f7", null ],
-    [ "EVS_NpcAI_ShyGuy_03", "mac__00__5__npc_8c.html#ac9254c48644b489344fadf0512987c56", null ],
-    [ "EVS_NpcHit_ShyGuy_03", "mac__00__5__npc_8c.html#a411d0de46d10f46f4b8244480307d3b6", null ],
-    [ "EVS_NpcInit_GardenShyGuy1", "mac__00__5__npc_8c.html#a7f85a9dca0d4065c54b24988ed054041", null ],
-    [ "EVS_NpcInit_ShyGuy_02", "mac__00__5__npc_8c.html#acbdf8b97b0d870ec5243d18be8e38073", null ],
-    [ "EVS_NpcInit_Toad_01", "mac__00__5__npc_8c.html#ae7562c705bd6e1ecc083584296439ec7", null ],
-    [ "EVS_NpcInit_Toad_02", "mac__00__5__npc_8c.html#af3e6c5bc6351533a405450fd6f439b76", null ],
-    [ "EVS_NpcInteract_ShyGuy_02", "mac__00__5__npc_8c.html#a963a8f0966c93bd33b49e878c56e169e", null ],
-    [ "EVS_NpcInteract_Toad_01", "mac__00__5__npc_8c.html#a3f489755d284246bf17f52c39633fb84", null ],
-    [ "EVS_NpcInteract_Toad_02", "mac__00__5__npc_8c.html#a24046e62bd37e67a94440a174e403057", null ],
-    [ "ExtraAnims_Chan", "mac__00__5__npc_8c.html#af5dab18f61f5c9e51ac71a124ebf78a4", null ],
-    [ "ExtraAnims_Lee", "mac__00__5__npc_8c.html#a1f63e1c53deac29760fb15bf9adc6cf2", null ],
-    [ "ExtraAnims_TheMaster", "mac__00__5__npc_8c.html#ab0f7effb0a93c4668032a1c715859c06", null ],
-    [ "NpcData_PrizeToad", "mac__00__5__npc_8c.html#a35381b3a0490cd8e7f113d4c3bbd3728", null ],
-    [ "NpcData_Quizmo_Unused", "mac__00__5__npc_8c.html#aa5c46527a76c6c60b0b7f0616a0709b0", null ],
-    [ "NpcData_RussT", "mac__00__5__npc_8c.html#ae2252018bfe08be4b03b274ed15aee9a", null ],
-    [ "NpcData_SharedTownsfolk", "mac__00__5__npc_8c.html#ac57bcd739399b717d90d170475b73122", null ],
-    [ "NpcData_ShyGuy_01", "mac__00__5__npc_8c.html#a5ecca02c6bd579fa4d164a6259e2f1b3", null ],
-    [ "NpcData_Toad_01", "mac__00__5__npc_8c.html#a250e98eff537b5c9c54d8e90c85d182d", null ],
-    [ "NpcData_Toad_03", "mac__00__5__npc_8c.html#aec51909fb0e567e8d23a7df9621b564b", null ],
-    [ "NpcData_Waterfront_Family", "mac__00__5__npc_8c.html#ad1006c33b8d353a63afcf1b18e1341fe", null ]
+    [ "MAP_STATIC_PAD", "mac__00__5__npc_8c.html#a3c8e570c8b8afa9b54bd9ab87593890e", null ]
 ];

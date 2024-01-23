@@ -13,7 +13,5 @@ var FallingStars_8inc_8c =
     [ "LV_SoundDelay", "FallingStars_8inc_8c.html#a5739ea958be67919283f44a3e7e0b8d6", null ],
     [ "LV_Speed", "FallingStars_8inc_8c.html#ae91a6d1dfc2ae390b32135ed123613d6", null ],
     [ "LV_Time", "FallingStars_8inc_8c.html#aa8c98690f34c35c591e725b354006247", null ],
-    [ "LV_Type", "FallingStars_8inc_8c.html#afe17ec6ca4a9d432202f3f4dcc9b293e", null ],
-    [ "EVS_Starfall_Directed", "FallingStars_8inc_8c.html#a723082f6c0051ee6818af2e4ed4d4dc3", null ],
-    [ "EVS_Starfall_Random", "FallingStars_8inc_8c.html#ac5afe3c60e8ad848a8766510ccef8343", null ]
+    [ "LV_Type", "FallingStars_8inc_8c.html#afe17ec6ca4a9d432202f3f4dcc9b293e", null ]
 ];

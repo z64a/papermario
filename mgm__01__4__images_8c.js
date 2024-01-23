@@ -7,6 +7,5 @@ var mgm__01__4__images_8c =
     [ "INCLUDE_PAL", "mgm__01__4__images_8c.html#ab96fa09b03e8a6834e53e510f3f5fd6e", null ],
     [ "INCLUDE_PAL", "mgm__01__4__images_8c.html#a1aa352e1b510c21cdac87ee3af6b6db8", null ],
     [ "INCLUDE_PAL", "mgm__01__4__images_8c.html#ade4e9e8f14901b1f77ca022e66932fe4", null ],
-    [ "INCLUDE_PAL", "mgm__01__4__images_8c.html#a80c4ed88fd1b8270510459a2c4782144", null ],
-    [ "MsgImgs_Panels", "mgm__01__4__images_8c.html#a9acd983880bd831999c417f261d40be2", null ]
+    [ "INCLUDE_PAL", "mgm__01__4__images_8c.html#a80c4ed88fd1b8270510459a2c4782144", null ]
 ];

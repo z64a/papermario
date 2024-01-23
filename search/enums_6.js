@@ -5,9 +5,8 @@ var searchData=
   ['gamemodeflags_2',['GameModeFlags',['../game__modes_8h.html#ab35178f14f6398b7f0e3a4c299716aa3',1,'game_modes.h']]],
   ['gamemodeids_3',['GameModeIDs',['../game__modes_8h.html#a230f98a24f909e93ac62dd6b0670b3f5',1,'game_modes.h']]],
   ['gameoverstates_4',['GameOverStates',['../111f0__len__860_8c.html#a2604c22f547a55cbd8c0357bdff65d15',1,'111f0_len_860.c']]],
-  ['gamestates_5',['GameStates',['../slot__machine_8inc_8c.html#ae3a29b920db0912c06cb59c2a21688ad',1,'slot_machine.inc.c']]],
-  ['globaloverrides_6',['GlobalOverrides',['../enums_8h.html#af5c170840966ab0b61a98f0795dfa881',1,'enums.h']]],
-  ['glowpalettemodes_7',['GlowPaletteModes',['../enums_8h.html#a281d0ba7db4634740e33d7dbbec358ab',1,'enums.h']]],
-  ['gotitemtype_8',['GotItemType',['../enums_8h.html#a6c483d44cfcb719c5f8988dc182bee22',1,'enums.h']]],
-  ['grouptypes_9',['GroupTypes',['../model_8h.html#aff78a660ea8bf636cfbdf5d248b72345',1,'model.h']]]
+  ['globaloverrides_5',['GlobalOverrides',['../enums_8h.html#af5c170840966ab0b61a98f0795dfa881',1,'enums.h']]],
+  ['glowpalettemodes_6',['GlowPaletteModes',['../enums_8h.html#a281d0ba7db4634740e33d7dbbec358ab',1,'enums.h']]],
+  ['gotitemtype_7',['GotItemType',['../enums_8h.html#a6c483d44cfcb719c5f8988dc182bee22',1,'enums.h']]],
+  ['grouptypes_8',['GroupTypes',['../model_8h.html#aff78a660ea8bf636cfbdf5d248b72345',1,'model.h']]]
 ];

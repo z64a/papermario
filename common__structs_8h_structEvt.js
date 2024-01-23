@@ -13,12 +13,12 @@ var common__structs_8h_structEvt =
     [ "groupFlags", "common__structs_8h.html#a338f5bfaab1d7ee2a2380e834ce92e5f", null ],
     [ "id", "common__structs_8h.html#a8599ddf5009870ecd8711812b37573f4", null ],
     [ "labelIndices", "common__structs_8h.html#a40f044b43dd6f18f9d84d57464575c8a", null ],
-    [ "labelPositions", "common__structs_8h.html#a1cac2fd6a5d330668385f09e0ffadaf4", null ],
+    [ "labelPositions", "common__structs_8h.html#a43dc35fceae81022f5b75054cfd31bf6", null ],
     [ "loopCounterTable", "common__structs_8h.html#a5bb40c4841da87355069303f5f6d9695", null ],
     [ "loopDepth", "common__structs_8h.html#a6cc1c20ac131785ab7c636cdb7af1ed3", null ],
     [ "loopStartTable", "common__structs_8h.html#a2bc4bd8e1e6ba8a6de98d33f899c1b50", null ],
-    [ "owner1", "common__structs_8h.html#a9daba8b7c2a762030d1c73bda6776619", null ],
-    [ "owner2", "common__structs_8h.html#ab664b580259ddc3e0a5aa980e938494e", null ],
+    [ "owner1", "common__structs_8h.html#af5dd142b2e1cbfea2cc4f87ee7b5bd6a", null ],
+    [ "owner2", "common__structs_8h.html#a6a82dd1b06bed0d23f8fff1aec824007", null ],
     [ "parentScript", "common__structs_8h.html#a0cd1630599bfcf8c8ca25273f4eb526b", null ],
     [ "priority", "common__structs_8h.html#afe89f0c96df8087a82402b2223a0d4ab", null ],
     [ "ptrCurLine", "common__structs_8h.html#aac69e58926a51b40df76f5e9901e9e4c", null ],
@@ -32,6 +32,6 @@ var common__structs_8h_structEvt =
     [ "switchDepth", "common__structs_8h.html#a5e1f2064ad51325c182051ae724dab83", null ],
     [ "timeScale", "common__structs_8h.html#ad0c892cb7a2a859070060329ba79335f", null ],
     [ "unk_158", "common__structs_8h.html#a98ddb80e1d760d1dbf86efec3de0b4f2", null ],
-    [ "userData", "common__structs_8h.html#afac4491d13d1132a49b27ea7f8938700", null ],
+    [ "userData", "common__structs_8h.html#abe80d213eadc3315cc888f17d6cb09de", null ],
     [ "varFlags", "common__structs_8h.html#aa77e0b24dcd5bce5bdc22558ae60e7db", null ]
 ];

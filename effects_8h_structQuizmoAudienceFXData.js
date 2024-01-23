@@ -1,11 +1,11 @@
 var effects_8h_structQuizmoAudienceFXData =
 [
-    [ "compMoveMagnitude", "effects_8h.html#ae69eff6adfa23fcf86c1c533c5160516", null ],
-    [ "compPosIdx", "effects_8h.html#afe33764015876b48c77d92ab7eddaeb1", null ],
-    [ "compState", "effects_8h.html#aa005a76a8ebb9477368285c57a3b9b6c", null ],
-    [ "compType", "effects_8h.html#a40658f2d604f9d9218a7854bdd859959", null ],
-    [ "compX", "effects_8h.html#aa1cb8f4e5dc6003964f130818766a16c", null ],
-    [ "compY", "effects_8h.html#ae7f6292034c01dcae615759ebae11901", null ],
+    [ "compMoveMagnitude", "effects_8h.html#acb809844295ef6a3f2a99a729916f0eb", null ],
+    [ "compPosIdx", "effects_8h.html#a8402f91a9f8727652c4d36b91efbd91a", null ],
+    [ "compState", "effects_8h.html#afbc5aabd2d76afb95a9b8f88636d3fd8", null ],
+    [ "compType", "effects_8h.html#a41da7d819a4f42f1f5127afa51b69984", null ],
+    [ "compX", "effects_8h.html#a4f8bc14b61a76ee96f21c0e4a188311a", null ],
+    [ "compY", "effects_8h.html#ae7ca589edeb5a34e3b564f6fc5db89ef", null ],
     [ "lifeTime", "effects_8h.html#a89ad54e712889b8b81fd631e6db0f235", null ],
     [ "pos", "effects_8h.html#a2a4cd4f67ac4dedaf4dd3c7e46510be6", null ],
     [ "primColor", "effects_8h.html#ad7f6ecb16278425789db67759c33c53a", null ],

@@ -109,18 +109,6 @@ $(function(){initNavTree('boss_8h.html',''); initResizable(); });
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumerations</h2></td></tr>
-<tr class="memitem:ad10afefd677c40ab166217762b16a6f3" id="r_ad10afefd677c40ab166217762b16a6f3"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad10afefd677c40ab166217762b16a6f3">ActorIDs</a> { <br />
-&#160;&#160;<a class="el" href="#ad10afefd677c40ab166217762b16a6f3abf42ef1c0fbe851c40475abd553e54c4">GREEN_ACTOR</a> = ACTOR_ENEMY0
-, <a class="el" href="#ad10afefd677c40ab166217762b16a6f3a96bdbc3d72801e5cb5b98006e29c0c08">YELLOW_ACTOR</a> = ACTOR_ENEMY1
-, <a class="el" href="#ad10afefd677c40ab166217762b16a6f3a4628646518692a3efb4d4f0fb5befb18">BLACK_ACTOR</a> = ACTOR_ENEMY2
-, <a class="el" href="#ad10afefd677c40ab166217762b16a6f3adab327ce9dea0451560b2bdffbde104c">RED_ACTOR</a> = ACTOR_ENEMY3
-, <br />
-&#160;&#160;<a class="el" href="#ad10afefd677c40ab166217762b16a6f3a2d050f347f14c31261db5a71847603f3">BOSS_ACTOR</a> = ACTOR_ENEMY4
-, <a class="el" href="#ad10afefd677c40ab166217762b16a6f3ac5bdff463def622b3f316c9a89772910">FIRST_KOOPA_ACTOR</a> = ACTOR_ENEMY0
-<br />
- }</td></tr>
-<tr class="memdesc:ad10afefd677c40ab166217762b16a6f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Koopa Bros Boss Fight.  <a href="#ad10afefd677c40ab166217762b16a6f3">More...</a><br /></td></tr>
-<tr class="separator:ad10afefd677c40ab166217762b16a6f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a78372742882dccd1c13323dbd66c25c5" id="r_a78372742882dccd1c13323dbd66c25c5"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <br />
 &#160;&#160;<a class="el" href="#a78372742882dccd1c13323dbd66c25c5a6c3ba21ad742a3d6d85c77361f1e749b">AVAR_Boss_Flags</a> = 0
 , <a class="el" href="#a78372742882dccd1c13323dbd66c25c5a98b8367f049c3c44abcf72b6639aa2b0">AVAR_Boss_TowerState</a> = 1
@@ -237,35 +225,6 @@ Enumerations</h2></td></tr>
 <tr><td class="fieldname"><a id="a78372742882dccd1c13323dbd66c25c5a36155c34ae1a998226feada3a7c2f962" name="a78372742882dccd1c13323dbd66c25c5a36155c34ae1a998226feada3a7c2f962"></a>BOSS_CMD_SOLO_ATTACK&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a78372742882dccd1c13323dbd66c25c5aa76cbd7ed64e92d55c99882b16076187" name="a78372742882dccd1c13323dbd66c25c5aa76cbd7ed64e92d55c99882b16076187"></a>BOSS_CMD_TRY_GET_UP&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a78372742882dccd1c13323dbd66c25c5a096b31dd7f8859f50677209e8556b211" name="a78372742882dccd1c13323dbd66c25c5a096b31dd7f8859f50677209e8556b211"></a>BOSS_CMD_GET_READY&#160;</td><td class="fielddoc"></td></tr>
-</table>
-
-</div>
-</div>
-<a id="ad10afefd677c40ab166217762b16a6f3" name="ad10afefd677c40ab166217762b16a6f3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad10afefd677c40ab166217762b16a6f3">&#9670;&#160;</a></span>ActorIDs</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="enums_8h.html#ad10afefd677c40ab166217762b16a6f3">ActorIDs</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Koopa Bros Boss Fight. </p>
-<p>The fake_bowser actor controls both parts of the boss battle. During the first part, it uses ANIM commands defined in fake_bowser to animate models from trd_00 forming the parts of its body. In this phase, each group of models (head, shell, feet, etc.) are tethered to a corresponding <a class="el" href="common__structs_8h.html#structActorPart">ActorPart</a> which the animation scripts operate on.</p>
-<p>During the second part, four 'dummy' Koopa Bros actors are enabled, which all have identical behavior. Their actions are completely governed by fake_bowser; they are only responsible for executing animations in response to commands issued by fake_bowser. These commands are listed in the enum below as BOSS_CMD_*. They mostly pertain to the state of the 'tower'.</p>
-<p>During each turn, fake_bowser will attempt to form a Koopa Bros tower. If none exists, all standing Koopa Bros are used to create one. If one already exists and an idle Koopa Bros is found, they are joined with the tower (This can occur if the Koopa in question wass incapacitated when the tower was built). If a valid tower exists, a spin attack is executed.</p>
-<p>The tower topples when hit twice in one turn by the player or when hit with an explosive or electic attack. A single hit puts the tower into an 'unstable' or 'tipping' state. If not knocked over by the start of fake_bowser's turn, the tower will regain stability.</p>
-<p>The current state of the tower is stored in fake_bowser's actor var AVAR_Boss_TowerState The state of each Koopa is stored in their actor var AVAR_Koopa_State </p>
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ad10afefd677c40ab166217762b16a6f3abf42ef1c0fbe851c40475abd553e54c4" name="ad10afefd677c40ab166217762b16a6f3abf42ef1c0fbe851c40475abd553e54c4"></a>GREEN_ACTOR&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ad10afefd677c40ab166217762b16a6f3a96bdbc3d72801e5cb5b98006e29c0c08" name="ad10afefd677c40ab166217762b16a6f3a96bdbc3d72801e5cb5b98006e29c0c08"></a>YELLOW_ACTOR&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ad10afefd677c40ab166217762b16a6f3a4628646518692a3efb4d4f0fb5befb18" name="ad10afefd677c40ab166217762b16a6f3a4628646518692a3efb4d4f0fb5befb18"></a>BLACK_ACTOR&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ad10afefd677c40ab166217762b16a6f3adab327ce9dea0451560b2bdffbde104c" name="ad10afefd677c40ab166217762b16a6f3adab327ce9dea0451560b2bdffbde104c"></a>RED_ACTOR&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ad10afefd677c40ab166217762b16a6f3a2d050f347f14c31261db5a71847603f3" name="ad10afefd677c40ab166217762b16a6f3a2d050f347f14c31261db5a71847603f3"></a>BOSS_ACTOR&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ad10afefd677c40ab166217762b16a6f3ac5bdff463def622b3f316c9a89772910" name="ad10afefd677c40ab166217762b16a6f3ac5bdff463def622b3f316c9a89772910"></a>FIRST_KOOPA_ACTOR&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>

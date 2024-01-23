@@ -15,9 +15,5 @@ var nok__02__8__koot__favors_8c =
     [ "NAME_SUFFIX", "nok__02__8__koot__favors_8c.html#a02c6d39594a3aa893a4c7c5729890618", null ],
     [ "NAME_SUFFIX", "nok__02__8__koot__favors_8c.html#a02c6d39594a3aa893a4c7c5729890618", null ],
     [ "NAME_SUFFIX", "nok__02__8__koot__favors_8c.html#a02c6d39594a3aa893a4c7c5729890618", null ],
-    [ "MAP_STATIC_PAD", "nok__02__8__koot__favors_8c.html#a4c4defa8da7099192745057934860e30", null ],
-    [ "EVS_NpcInteract_KoopaKoot", "nok__02__8__koot__favors_8c.html#a1ab0ab72758066d3840b7c25bd22eee3", null ],
-    [ "EVS_SetupKootFavors", "nok__02__8__koot__favors_8c.html#a0843d944a91a2e8db0b9eb240c8a7b98", null ],
-    [ "FavorItemList", "nok__02__8__koot__favors_8c.html#a6b4d919a55199adeb699855c5ae72054", null ],
-    [ "KootFavorData", "nok__02__8__koot__favors_8c.html#a276becca5234316ad7fbd6ebf0d25814", null ]
+    [ "MAP_STATIC_PAD", "nok__02__8__koot__favors_8c.html#a4c4defa8da7099192745057934860e30", null ]
 ];

@@ -17,13 +17,5 @@ var sleepy__sheep_8c =
     [ "D_802A3F54", "sleepy__sheep_8c.html#a23a935ebd5a50b595bf4fa4b834d8de4", null ],
     [ "D_802A3F58", "sleepy__sheep_8c.html#a33d6f41e4fe8a26db0397758039d5608", null ],
     [ "D_802A3F80", "sleepy__sheep_8c.html#a2ade0d104286ce7f8ebdf72c967a26f8", null ],
-    [ "D_802A3F88", "sleepy__sheep_8c.html#a0681665814899d6d02d9c88bde17f4a3", null ],
-    [ "EVS_UseItem", "sleepy__sheep_8c.html#a7be159735a71e10ae9b53227c1fd484a", null ],
-    [ "frame1_displayList", "sleepy__sheep_8c.html#a33da6ddaf2e1d7d4ae24fddced5b5b4a", null ],
-    [ "frame2_displayList", "sleepy__sheep_8c.html#a8cf09e5f66cd27df965dd0d25b3c388c", null ],
-    [ "frame3_displayList", "sleepy__sheep_8c.html#a66a57d27908dff18cccd973b9e7f4653", null ],
-    [ "model", "sleepy__sheep_8c.html#a10122bf17570d5d7f44d42d7c5ec9390", null ],
-    [ "modelCommandList", "sleepy__sheep_8c.html#a3ecffd1d4b1951ea541e0d84a353fe14", null ],
-    [ "modelCommandList2", "sleepy__sheep_8c.html#a338a6e3d54960e9de4fe86c5b3373084", null ],
-    [ "modelCommandList3", "sleepy__sheep_8c.html#a375b100dc68091bcfb7e82cbafb77917", null ]
+    [ "D_802A3F88", "sleepy__sheep_8c.html#a0681665814899d6d02d9c88bde17f4a3", null ]
 ];

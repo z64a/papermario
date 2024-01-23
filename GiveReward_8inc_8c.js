@@ -7,7 +7,5 @@ var GiveReward_8inc_8c =
     [ "EVT_GIVE_CONSUMABLE_REWARD", "GiveReward_8inc_8c.html#ac60b530a30a39775807e12ae63c9b462", null ],
     [ "EVT_GIVE_CONSUMABLE_REWARD_ALT", "GiveReward_8inc_8c.html#a55341bf676cdeb3d3252898903e1480d", null ],
     [ "EVT_GIVE_KEY_REWARD", "GiveReward_8inc_8c.html#a8d6f594ebf34f9462c52ff81c9c37d4d", null ],
-    [ "EVT_GIVE_STAR_PIECE", "GiveReward_8inc_8c.html#afdf108538dd8daa092e475f554a83152", null ],
-    [ "GiveCoinReward", "GiveReward_8inc_8c.html#a60d4be5a7d294033c8024d41a149d947", null ],
-    [ "GiveItemReward", "GiveReward_8inc_8c.html#ac87dd33a56353d33be211d2843a8ec26", null ]
+    [ "EVT_GIVE_STAR_PIECE", "GiveReward_8inc_8c.html#afdf108538dd8daa092e475f554a83152", null ]
 ];

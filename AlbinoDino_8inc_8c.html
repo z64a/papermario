@@ -101,63 +101,9 @@ $(function(){initNavTree('AlbinoDino_8inc_8c.html',''); initResizable(); });
 </div>
 
 <div class="header">
-  <div class="summary">
-<a href="#var-members">Variables</a>  </div>
   <div class="headertitle"><div class="title">AlbinoDino.inc.c File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
-Variables</h2></td></tr>
-<tr class="memitem:af420533c9d92d775e3546e972d03399a" id="r_af420533c9d92d775e3546e972d03399a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="common__structs_8h.html#ac718b608783f254b030240252606fd0e">EvtScript</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af420533c9d92d775e3546e972d03399a">EVS_NpcAuxAI_AlbinoDino</a></td></tr>
-<tr class="separator:af420533c9d92d775e3546e972d03399a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aba62ffac0826298f5cf954f3ab9484af" id="r_aba62ffac0826298f5cf954f3ab9484af"><td class="memItemLeft" align="right" valign="top"><a class="el" href="npc_8h.html#structNpcSettings">NpcSettings</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aba62ffac0826298f5cf954f3ab9484af">NpcSettings_AlbinoDino</a></td></tr>
-<tr class="separator:aba62ffac0826298f5cf954f3ab9484af"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table>
-<h2 class="groupheader">Variable Documentation</h2>
-<a id="af420533c9d92d775e3546e972d03399a" name="af420533c9d92d775e3546e972d03399a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af420533c9d92d775e3546e972d03399a">&#9670;&#160;</a></span>EVS_NpcAuxAI_AlbinoDino</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="common__structs_8h.html#ac718b608783f254b030240252606fd0e">EvtScript</a> EVS_NpcAuxAI_AlbinoDino</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#aa49b4615589f142fe396afa06f44ec5e">EVT_RETURN</a></div>
-<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a1eb5d3206784e72fb8b5bf5cc7228553">EVT_END</a></div>
-<div class="line">}</div>
-<div class="ttc" id="ascript__api_2macros_8h_html_a1eb5d3206784e72fb8b5bf5cc7228553"><div class="ttname"><a href="script__api_2macros_8h.html#a1eb5d3206784e72fb8b5bf5cc7228553">EVT_END</a></div><div class="ttdeci">#define EVT_END</div><div class="ttdoc">Signals the end of EVT script data. A script missing this will likely crash on load.</div><div class="ttdef"><b>Definition</b> macros.h:225</div></div>
-<div class="ttc" id="ascript__api_2macros_8h_html_aa49b4615589f142fe396afa06f44ec5e"><div class="ttname"><a href="script__api_2macros_8h.html#aa49b4615589f142fe396afa06f44ec5e">EVT_RETURN</a></div><div class="ttdeci">#define EVT_RETURN</div><div class="ttdoc">Kills the current EVT thread.</div><div class="ttdef"><b>Definition</b> macros.h:229</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="aba62ffac0826298f5cf954f3ab9484af" name="aba62ffac0826298f5cf954f3ab9484af"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aba62ffac0826298f5cf954f3ab9484af">&#9670;&#160;</a></span>NpcSettings_AlbinoDino</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="npc_8h.html#structNpcSettings">NpcSettings</a> NpcSettings_AlbinoDino</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line">    .height = 70,</div>
-<div class="line">    .radius = 50,</div>
-<div class="line">    .level = ACTOR_LEVEL_NONE,</div>
-<div class="line">    .otherAI = &amp; <a class="code hl_variable" href="#af420533c9d92d775e3546e972d03399a">EVS_NpcAuxAI_AlbinoDino</a> ,</div>
-<div class="line">    .onDefeat = &amp;<a class="code hl_variable" href="script__api_2common_8h.html#a644aa0fd2e23365db1c5451c98e8e678">EnemyNpcDefeat</a>,</div>
-<div class="line">}</div>
-<div class="ttc" id="aAlbinoDino_8inc_8c_html_af420533c9d92d775e3546e972d03399a"><div class="ttname"><a href="#af420533c9d92d775e3546e972d03399a">EVS_NpcAuxAI_AlbinoDino</a></div><div class="ttdeci">EvtScript EVS_NpcAuxAI_AlbinoDino</div><div class="ttdef"><b>Definition</b> AlbinoDino.inc.c:3</div></div>
-<div class="ttc" id="ascript__api_2common_8h_html_a644aa0fd2e23365db1c5451c98e8e678"><div class="ttname"><a href="script__api_2common_8h.html#a644aa0fd2e23365db1c5451c98e8e678">EnemyNpcDefeat</a></div><div class="ttdeci">EvtScript EnemyNpcDefeat</div><div class="ttdef"><b>Definition</b> encounter.c:155</div></div>
-</div><!-- fragment -->
-</div>
-</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.10.0-->

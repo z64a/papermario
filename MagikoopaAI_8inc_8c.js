@@ -6,16 +6,15 @@ var MagikoopaAI_8inc_8c =
       [ "scaleY", "MagikoopaAI_8inc_8c.html#a79b38f7dd411c7d92b36737edb675dd6", null ]
     ] ],
     [ "ENEMY_FLAG_COMBINATION", "MagikoopaAI_8inc_8c.html#a313235eec32d0091f3e2637d741b5a4e", null ],
-    [ "MagikoopaAI_00", "MagikoopaAI_8inc_8c.html#a27946ba8d5b8496b41e07b5414412b9f", null ],
-    [ "MagikoopaAI_01", "MagikoopaAI_8inc_8c.html#a71df16868a8e440e29579aba02be2c51", null ],
-    [ "MagikoopaAI_05", "MagikoopaAI_8inc_8c.html#a4cd5042aac1350c0c3f1e3f72001f9b6", null ],
-    [ "MagikoopaAI_06", "MagikoopaAI_8inc_8c.html#aadb41c649e7e7bd4785a459c88e759a9", null ],
-    [ "MagikoopaAI_10", "MagikoopaAI_8inc_8c.html#a32dd6f483f915ba53a213a83a58d646b", null ],
-    [ "MagikoopaAI_11", "MagikoopaAI_8inc_8c.html#a4cf71686b7c15c30e0108eca222d1c7e", null ],
-    [ "MagikoopaAI_20", "MagikoopaAI_8inc_8c.html#a5b667659f583985833048ca21798fc28", null ],
-    [ "MagikoopaAI_21", "MagikoopaAI_8inc_8c.html#aa6ca5a4b7db53d4aa926e0e6fc43da62", null ],
-    [ "MagikoopaAI_22", "MagikoopaAI_8inc_8c.html#ad15ceddcd2a32aebdc7b891756ca5c7c", null ],
-    [ "MagikoopaAI_23", "MagikoopaAI_8inc_8c.html#a88af7a7c367c6f42ebc0dcd00ad1724f", null ],
-    [ "MagikoopaAI_24", "MagikoopaAI_8inc_8c.html#a82d3c8dae732419cdc134db7279e3699", null ],
-    [ "MagikoopaAI_TeleportAnim", "MagikoopaAI_8inc_8c.html#ad9b69f3bcc917188acd02d927b922781", null ]
+    [ "MagikoopaAI_00", "MagikoopaAI_8inc_8c.html#a0221dd07ee64711a8af93f106036f8b5", null ],
+    [ "MagikoopaAI_01", "MagikoopaAI_8inc_8c.html#a220327d68221be4314991fddf3f2e796", null ],
+    [ "MagikoopaAI_05", "MagikoopaAI_8inc_8c.html#a6f357f65890ca9c303beabfb6de59bcd", null ],
+    [ "MagikoopaAI_06", "MagikoopaAI_8inc_8c.html#ac5bd7cae584eb7fec160ce0ae10482bf", null ],
+    [ "MagikoopaAI_10", "MagikoopaAI_8inc_8c.html#a22e27c4b5200e01196a0392d1e1a1cc7", null ],
+    [ "MagikoopaAI_11", "MagikoopaAI_8inc_8c.html#a931c74ff044fa4f60b3103abea6167a9", null ],
+    [ "MagikoopaAI_20", "MagikoopaAI_8inc_8c.html#ae43ae8fc05e57220595b9032170a2de6", null ],
+    [ "MagikoopaAI_21", "MagikoopaAI_8inc_8c.html#acf9f631e8d1cfb9df5f3705e0a50dab1", null ],
+    [ "MagikoopaAI_22", "MagikoopaAI_8inc_8c.html#a7dc30d1e966750a43720d15f281b6c3d", null ],
+    [ "MagikoopaAI_23", "MagikoopaAI_8inc_8c.html#a16f8781aa1f98ee7d41806efeea357da", null ],
+    [ "MagikoopaAI_24", "MagikoopaAI_8inc_8c.html#ad65040f63a0423299dfe5532666a1425", null ]
 ];

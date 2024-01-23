@@ -13,11 +13,5 @@ var isk__05__3__npc_8c =
       [ "width", "isk__05__3__npc_8c.html#af1744d2e3a69bef500c4b6e99f9b2c87", null ],
       [ "workerID", "isk__05__3__npc_8c.html#a3f43a11790422d7fc0046c0b93ccd485", null ]
     ] ],
-    [ "func_80241610_97F0E0", "isk__05__3__npc_8c.html#adf39120fb9f08ca8c9c567ff48b49f5b", null ],
-    [ "ChompAmbush", "isk__05__3__npc_8c.html#a7a1b65b254323a6a39bd12b1a80dd264", null ],
-    [ "DefaultNPCs", "isk__05__3__npc_8c.html#a7374ac0b449e4ad2ea880b155b9139f7", null ],
-    [ "EVS_NpcDefeat_StoneChomp_Override", "isk__05__3__npc_8c.html#a931155fd036954cef3717d13f3fb454f", null ],
-    [ "EVS_NpcIdle_StoneChomp", "isk__05__3__npc_8c.html#a337a7679e217adc8aef250f24920809b", null ],
-    [ "EVS_NpcInit_StoneChomp", "isk__05__3__npc_8c.html#ad503c6709bb22643bbcf88d5169e6951", null ],
-    [ "NpcData_StoneChomp", "isk__05__3__npc_8c.html#a405127047ef42a1a38d9476241865d17", null ]
+    [ "func_80241610_97F0E0", "isk__05__3__npc_8c.html#ab9d6ffc3f0885ca4aedf2c2d02791655", null ]
 ];

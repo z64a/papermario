@@ -101,79 +101,9 @@ $(function(){initNavTree('npc__composer_8c.html',''); initResizable(); });
 </div>
 
 <div class="header">
-  <div class="summary">
-<a href="#var-members">Variables</a>  </div>
   <div class="headertitle"><div class="title">npc_composer.c File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
-Variables</h2></td></tr>
-<tr class="memitem:a167d74564ebc3a683ddf20b156f7dfc1" id="r_a167d74564ebc3a683ddf20b156f7dfc1"><td class="memItemLeft" align="right" valign="top">s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a167d74564ebc3a683ddf20b156f7dfc1">LyricsList</a> []</td></tr>
-<tr class="separator:a167d74564ebc3a683ddf20b156f7dfc1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aab4677f1c872429b8725eab8f42d3590" id="r_aab4677f1c872429b8725eab8f42d3590"><td class="memItemLeft" align="right" valign="top"><a class="el" href="common__structs_8h.html#ac718b608783f254b030240252606fd0e">EvtScript</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aab4677f1c872429b8725eab8f42d3590">EVS_NpcInteract_Composer</a></td></tr>
-<tr class="separator:aab4677f1c872429b8725eab8f42d3590"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5d19c6d04c2d6167e1ce0a41daad5dfb" id="r_a5d19c6d04c2d6167e1ce0a41daad5dfb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="common__structs_8h.html#ac718b608783f254b030240252606fd0e">EvtScript</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5d19c6d04c2d6167e1ce0a41daad5dfb">EVS_NpcInit_Composer</a></td></tr>
-<tr class="separator:a5d19c6d04c2d6167e1ce0a41daad5dfb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table>
-<h2 class="groupheader">Variable Documentation</h2>
-<a id="a5d19c6d04c2d6167e1ce0a41daad5dfb" name="a5d19c6d04c2d6167e1ce0a41daad5dfb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5d19c6d04c2d6167e1ce0a41daad5dfb">&#9670;&#160;</a></span>EVS_NpcInit_Composer</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="common__structs_8h.html#ac718b608783f254b030240252606fd0e">EvtScript</a> EVS_NpcInit_Composer</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a7c09e8c76b51d5be8aeadc85751ff8f0">EVT_CALL</a>(BindNpcInteract, <a class="code hl_enumvalue" href="enums_8h.html#a8ed30857fb1bfefd4de61c6f02040634a0664795bf4a295e3c87e422eadf6870b">NPC_SELF</a>, <a class="code hl_define" href="script__api_2macros_8h.html#a5c78949040b032c6e0c50c2e78e2f7cb">EVT_PTR</a>( <a class="code hl_variable" href="#aab4677f1c872429b8725eab8f42d3590">EVS_NpcInteract_Composer</a> ))</div>
-<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#aa49b4615589f142fe396afa06f44ec5e">EVT_RETURN</a></div>
-<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a1eb5d3206784e72fb8b5bf5cc7228553">EVT_END</a></div>
-<div class="line">}</div>
-<div class="ttc" id="aenums_8h_html_a8ed30857fb1bfefd4de61c6f02040634a0664795bf4a295e3c87e422eadf6870b"><div class="ttname"><a href="enums_8h.html#a8ed30857fb1bfefd4de61c6f02040634a0664795bf4a295e3c87e422eadf6870b">NPC_SELF</a></div><div class="ttdeci">@ NPC_SELF</div><div class="ttdef"><b>Definition</b> enums.h:2529</div></div>
-<div class="ttc" id="anpc__composer_8c_html_aab4677f1c872429b8725eab8f42d3590"><div class="ttname"><a href="#aab4677f1c872429b8725eab8f42d3590">EVS_NpcInteract_Composer</a></div><div class="ttdeci">EvtScript EVS_NpcInteract_Composer</div><div class="ttdef"><b>Definition</b> npc_composer.c:9</div></div>
-<div class="ttc" id="ascript__api_2macros_8h_html_a1eb5d3206784e72fb8b5bf5cc7228553"><div class="ttname"><a href="script__api_2macros_8h.html#a1eb5d3206784e72fb8b5bf5cc7228553">EVT_END</a></div><div class="ttdeci">#define EVT_END</div><div class="ttdoc">Signals the end of EVT script data. A script missing this will likely crash on load.</div><div class="ttdef"><b>Definition</b> macros.h:225</div></div>
-<div class="ttc" id="ascript__api_2macros_8h_html_a5c78949040b032c6e0c50c2e78e2f7cb"><div class="ttname"><a href="script__api_2macros_8h.html#a5c78949040b032c6e0c50c2e78e2f7cb">EVT_PTR</a></div><div class="ttdeci">#define EVT_PTR(sym)</div><div class="ttdoc">Address/pointer constant.</div><div class="ttdef"><b>Definition</b> macros.h:56</div></div>
-<div class="ttc" id="ascript__api_2macros_8h_html_a7c09e8c76b51d5be8aeadc85751ff8f0"><div class="ttname"><a href="script__api_2macros_8h.html#a7c09e8c76b51d5be8aeadc85751ff8f0">EVT_CALL</a></div><div class="ttdeci">#define EVT_CALL(FUNC, ARGS...)</div><div class="ttdoc">Calls a given C EVT API function with any number of arguments.</div><div class="ttdef"><b>Definition</b> macros.h:588</div></div>
-<div class="ttc" id="ascript__api_2macros_8h_html_aa49b4615589f142fe396afa06f44ec5e"><div class="ttname"><a href="script__api_2macros_8h.html#aa49b4615589f142fe396afa06f44ec5e">EVT_RETURN</a></div><div class="ttdeci">#define EVT_RETURN</div><div class="ttdoc">Kills the current EVT thread.</div><div class="ttdef"><b>Definition</b> macros.h:229</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="aab4677f1c872429b8725eab8f42d3590" name="aab4677f1c872429b8725eab8f42d3590"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aab4677f1c872429b8725eab8f42d3590">&#9670;&#160;</a></span>EVS_NpcInteract_Composer</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="common__structs_8h.html#ac718b608783f254b030240252606fd0e">EvtScript</a> EVS_NpcInteract_Composer</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a167d74564ebc3a683ddf20b156f7dfc1" name="a167d74564ebc3a683ddf20b156f7dfc1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a167d74564ebc3a683ddf20b156f7dfc1">&#9670;&#160;</a></span>LyricsList</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">s32 LyricsList[]</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line">    ITEM_LYRICS,</div>
-<div class="line">    ITEM_NONE,</div>
-<div class="line">}</div>
-</div><!-- fragment -->
-</div>
-</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.10.0-->

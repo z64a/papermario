@@ -1,6 +1,6 @@
 var dir_2a90af1829a3cfd24165388b20442c42 =
 [
-    [ "boss.h", "boss_8h.html", "boss_8h" ],
+    [ "boss.h", "boss_8h.html", null ],
     [ "common_koopa_bros.inc.c", "common__koopa__bros_8inc_8c.html", "common__koopa__bros_8inc_8c" ],
     [ "fake_bowser.c", "fake__bowser_8c.html", "fake__bowser_8c" ],
     [ "koopa_bros_black.c", "koopa__bros__black_8c.html", "koopa__bros__black_8c" ],

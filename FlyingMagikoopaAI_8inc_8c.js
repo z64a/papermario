@@ -6,15 +6,15 @@ var FlyingMagikoopaAI_8inc_8c =
       [ "RESULT_OK_CLEAR", "FlyingMagikoopaAI_8inc_8c.html#a91c1fd7f692d0aa58183113ee6e4a5bea806ed245879e8ec5593e1e2f15882969", null ],
       [ "RESULT_NONE_FOUND", "FlyingMagikoopaAI_8inc_8c.html#a91c1fd7f692d0aa58183113ee6e4a5beaba6617ce5e080af28e9a1c00b168003b", null ]
     ] ],
-    [ "FlyingMagikoopaAI_10", "FlyingMagikoopaAI_8inc_8c.html#af2719e6b87ea206147ef2290b7decb48", null ],
-    [ "FlyingMagikoopaAI_11", "FlyingMagikoopaAI_8inc_8c.html#a7e2fe0c0633181824291c2519873e6ad", null ],
-    [ "FlyingMagikoopaAI_15", "FlyingMagikoopaAI_8inc_8c.html#a9d6be4353f14ff5d86dcd8e8ec1ada16", null ],
-    [ "FlyingMagikoopaAI_16", "FlyingMagikoopaAI_8inc_8c.html#adf08eb53c5c04a85b7d4c18cff1047b9", null ],
-    [ "FlyingMagikoopaAI_17", "FlyingMagikoopaAI_8inc_8c.html#a3c72d446e85ee74379157358c7803178", null ],
-    [ "FlyingMagikoopaAI_20", "FlyingMagikoopaAI_8inc_8c.html#a78b04cf423c9959b0add8510825fc54d", null ],
-    [ "FlyingMagikoopaAI_21", "FlyingMagikoopaAI_8inc_8c.html#ab404d896c2f85b0bef7099a15be6a9d5", null ],
-    [ "FlyingMagikoopaAI_22", "FlyingMagikoopaAI_8inc_8c.html#ac4b7cd7f2245c6b25d6425de423c440f", null ],
-    [ "FlyingMagikoopaAI_23", "FlyingMagikoopaAI_8inc_8c.html#a659c14415de4f15f2b45aac3458e9f43", null ],
-    [ "FlyingMagikoopaAI_24", "FlyingMagikoopaAI_8inc_8c.html#ade85e3f168dd1ec543de31ffbd89ace9", null ],
-    [ "FlyingMagikoopaAI_50", "FlyingMagikoopaAI_8inc_8c.html#a04cba94b619d3b2b0a9b532f7062a280", null ]
+    [ "FlyingMagikoopaAI_10", "FlyingMagikoopaAI_8inc_8c.html#a33d777c8c8bcdee74d29e5a763b7640c", null ],
+    [ "FlyingMagikoopaAI_11", "FlyingMagikoopaAI_8inc_8c.html#aa75116197e56ba78544521b2cc078d50", null ],
+    [ "FlyingMagikoopaAI_15", "FlyingMagikoopaAI_8inc_8c.html#ad9b293831ea9723ef9480bf79f96ee2f", null ],
+    [ "FlyingMagikoopaAI_16", "FlyingMagikoopaAI_8inc_8c.html#a557ace2d67bf7de9d266544b89e841eb", null ],
+    [ "FlyingMagikoopaAI_17", "FlyingMagikoopaAI_8inc_8c.html#ad6d66efe09c01e2296c102a2e4b3d2e9", null ],
+    [ "FlyingMagikoopaAI_20", "FlyingMagikoopaAI_8inc_8c.html#acd14362045c93e1194ce2f549a1786a0", null ],
+    [ "FlyingMagikoopaAI_21", "FlyingMagikoopaAI_8inc_8c.html#ae55360c6dbed20e43eb6aec9ee78c694", null ],
+    [ "FlyingMagikoopaAI_22", "FlyingMagikoopaAI_8inc_8c.html#a066d46f9d311e0e1e1b579ea6ba50d3e", null ],
+    [ "FlyingMagikoopaAI_23", "FlyingMagikoopaAI_8inc_8c.html#a474124e4b2a79e52795173403d8f348f", null ],
+    [ "FlyingMagikoopaAI_24", "FlyingMagikoopaAI_8inc_8c.html#a3de709ed5d9b017b95d62aa576cdeb43", null ],
+    [ "FlyingMagikoopaAI_50", "FlyingMagikoopaAI_8inc_8c.html#a5f1d03cd9f2b52abaf535aaad48c86de", null ]
 ];

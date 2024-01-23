@@ -1,10 +1,10 @@
 var HoppingAI_8inc_8c =
 [
-    [ "HoppingAI_Chase", "HoppingAI_8inc_8c.html#aa872acfb426d10972a92d399ba7a02c7", null ],
-    [ "HoppingAI_ChaseInit", "HoppingAI_8inc_8c.html#a3cb27e855bd0728a3db1ef367184fe6a", null ],
-    [ "HoppingAI_Hop", "HoppingAI_8inc_8c.html#a6fb07786aa650cbf264910149d5aa648", null ],
-    [ "HoppingAI_HopInit", "HoppingAI_8inc_8c.html#ae87836e2aead01f248e27eb7f3816dcc", null ],
-    [ "HoppingAI_Loiter", "HoppingAI_8inc_8c.html#a61d06731ccf1ac1ba67ecc608b2a2679", null ],
-    [ "HoppingAI_LoiterInit", "HoppingAI_8inc_8c.html#a1064d6de0d6aaefa112d012e302f6bf9", null ],
-    [ "HoppingAI_LosePlayer", "HoppingAI_8inc_8c.html#ad6b67256b7049a372d11dcb645cfa08c", null ]
+    [ "HoppingAI_Chase", "HoppingAI_8inc_8c.html#a705073160664a7c8614c2b3007597974", null ],
+    [ "HoppingAI_ChaseInit", "HoppingAI_8inc_8c.html#ab33a6ccd4f02f6afefafbb86c705d617", null ],
+    [ "HoppingAI_Hop", "HoppingAI_8inc_8c.html#a94295ee6f354ce03eab8eca2e74f8c06", null ],
+    [ "HoppingAI_HopInit", "HoppingAI_8inc_8c.html#af2cd54449b87bb360572b3c03b2a6b9c", null ],
+    [ "HoppingAI_Loiter", "HoppingAI_8inc_8c.html#acf201d6aaea69df024fa003d31a61085", null ],
+    [ "HoppingAI_LoiterInit", "HoppingAI_8inc_8c.html#a512b7b7ca3c089b5c350c777ddb6b4ce", null ],
+    [ "HoppingAI_LosePlayer", "HoppingAI_8inc_8c.html#a047f9743055f8dcf0e47ceef0d548369", null ]
 ];

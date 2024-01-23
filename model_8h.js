@@ -80,7 +80,7 @@ var model_8h =
     ] ],
     [ "ModelIDList", "model_8h.html#structModelIDList", [
       [ "count", "model_8h.html#ad180315e4318652a03cce19038de443d", null ],
-      [ "list", "model_8h.html#af62bd2c6e7c397e9f362dafc964f939e", null ]
+      [ "list", "model_8h.html#a3716ebe2d18d998462c62a6771c56352", null ]
     ] ],
     [ "ModelLocalVertexCopy", "model_8h.html#structModelLocalVertexCopy", [
       [ "gfxCopy", "model_8h.html#a6c176c127060cef7627840de7df890e7", null ],
@@ -96,12 +96,12 @@ var model_8h =
       [ "unk_03", "model_8h.html#a7fa7fe4334b3fcd0a537cf06e08222cb", null ]
     ] ],
     [ "TextureHandle", "model_8h.html#structTextureHandle", [
-      [ "auxPalette", "model_8h.html#ab448130bab0a3c56b3f053a1f9595991", null ],
-      [ "auxRaster", "model_8h.html#adaa80a3a0b17c8d71bb2945c708761c0", null ],
+      [ "auxPalette", "model_8h.html#abe47cfca11a890fd14c66648d4234476", null ],
+      [ "auxRaster", "model_8h.html#a815aabc98d7f47e0bba36c7aea5a4a33", null ],
       [ "gfx", "model_8h.html#aa938f8a1c71681c9d12182cac9143245", null ],
       [ "header", "model_8h.html#ae52af6236042776464161e7846777171", null ],
-      [ "palette", "model_8h.html#adcd134aacda1ad03e5f5633cadb31877", null ],
-      [ "raster", "model_8h.html#ad0e313ce8ec66d38cfd417448a4617be", null ]
+      [ "palette", "model_8h.html#a325d63833978af5a3ed1a391c761792b", null ],
+      [ "raster", "model_8h.html#a7f5984faacbbb9981edf9ab628c5a48c", null ]
     ] ],
     [ "ModelBlueprint", "model_8h.html#structModelBlueprint", [
       [ "flags", "model_8h.html#a47d255f36bdebcce19c6e74e88d48a96", null ],
@@ -119,16 +119,16 @@ var model_8h =
       [ "zoneNames", "model_8h.html#ae003f378ce49540f63e7d59676c0da50", null ]
     ] ],
     [ "ShapeFile", "model_8h.html#structShapeFile", [
-      [ "data", "model_8h.html#a3456601538390e39f9218f1ccf00b900", null ],
+      [ "data", "model_8h.html#a2187c7b1f7268809806d70279353ae8e", null ],
       [ "header", "model_8h.html#a39484dc53eef4b4c464f44549a9eb47b", null ]
     ] ],
     [ "SHAPE_SIZE_LIMIT", "model_8h.html#a43e3c899a58cf5050ca8ddfe12688220", null ],
     [ "ModelCustomGfxBuilderFunc", "model_8h.html#a456afb797ce445c97339cdc2584d5402", null ],
     [ "ModelCustomGfxBuilderList", "model_8h.html#a31e58c1fd93f8edc1452cd39f5627eb3", null ],
     [ "ModelCustomGfxList", "model_8h.html#af9f6f83eee3b61e9d2c87d47e2b84e26", null ],
-    [ "ModelList", "model_8h.html#ada75a3b8335171313040e0bccf544399", null ],
+    [ "ModelList", "model_8h.html#a87f08a5422e0196d1bc195d1e26fc4e2", null ],
     [ "ModelLocalVertexCopyList", "model_8h.html#a2f473850ae09e03e8c5e6c4268895003", null ],
-    [ "ModelTransformGroupList", "model_8h.html#a3d8d81f3258b0790ef52935f631346d4", null ],
+    [ "ModelTransformGroupList", "model_8h.html#ab76ece0781f28b588331d591411c5590", null ],
     [ "ModelTreeInfoList", "model_8h.html#ae7b2c70512d39441c06638f19d74e30d", null ],
     [ "ExtraTileTypes", "model_8h.html#ae6dd10bd2998d61132546c70f544bb02", [
       [ "EXTRA_TILE_NONE", "model_8h.html#ae6dd10bd2998d61132546c70f544bb02a7d8c4e2f8ae4a3d5adc79a8349039249", null ],

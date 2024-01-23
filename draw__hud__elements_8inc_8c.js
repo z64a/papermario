@@ -1,4 +1,4 @@
 var draw__hud__elements_8inc_8c =
 [
-    [ "draw", "draw__hud__elements_8inc_8c.html#ad2e97e7b54d0bf35e406b91fbdd2f256", null ]
+    [ "draw", "draw__hud__elements_8inc_8c.html#ae8e589f4e02a52303c49157c03e87bc5", null ]
 ];

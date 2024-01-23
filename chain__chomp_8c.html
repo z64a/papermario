@@ -103,8 +103,7 @@ $(function(){initNavTree('chain__chomp_8c.html',''); initResizable(); });
 <div class="header">
   <div class="summary">
 <a href="#define-members">Macros</a> &#124;
-<a href="#enum-members">Enumerations</a> &#124;
-<a href="#var-members">Variables</a>  </div>
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle"><div class="title">chain_chomp.c File Reference</div></div>
 </div><!--header-->
 <div class="contents">
@@ -113,78 +112,19 @@ $(function(){initNavTree('chain__chomp_8c.html',''); initResizable(); });
 Macros</h2></td></tr>
 <tr class="memitem:afa7779fe56b160955b535cd6a8aaf8f4" id="r_afa7779fe56b160955b535cd6a8aaf8f4"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afa7779fe56b160955b535cd6a8aaf8f4">NAMESPACE</a>&#160;&#160;&#160;<a class="el" href="macros_8h.html#acece3419bbd73b13edac844f237547d8">A</a>(chain_chomp)</td></tr>
 <tr class="separator:afa7779fe56b160955b535cd6a8aaf8f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae58ae4f73bbfaa204212ede7b5ca318e" id="r_ae58ae4f73bbfaa204212ede7b5ca318e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae58ae4f73bbfaa204212ede7b5ca318e">CHOMP_CHAIN_FIRST_PART_IDX</a>&#160;&#160;&#160;<a class="el" href="#ad1692e67fbd5aad52eec868da37473f4ad1f718bfefe6a7ca6c26f038ffc33906">PRT_CHAIN_1</a></td></tr>
+<tr class="memitem:ae58ae4f73bbfaa204212ede7b5ca318e" id="r_ae58ae4f73bbfaa204212ede7b5ca318e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae58ae4f73bbfaa204212ede7b5ca318e">CHOMP_CHAIN_FIRST_PART_IDX</a>&#160;&#160;&#160;PRT_CHAIN_1</td></tr>
 <tr class="separator:ae58ae4f73bbfaa204212ede7b5ca318e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa43cae12da53d7863a6208c80d7accaa" id="r_aa43cae12da53d7863a6208c80d7accaa"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa43cae12da53d7863a6208c80d7accaa">CHOMP_CHAIN_LAST_PART_IDX</a>&#160;&#160;&#160;<a class="el" href="#ad1692e67fbd5aad52eec868da37473f4aa6d8f55674c3f00dc3cf85bed907ab31">PRT_CHAIN_8</a></td></tr>
+<tr class="memitem:aa43cae12da53d7863a6208c80d7accaa" id="r_aa43cae12da53d7863a6208c80d7accaa"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa43cae12da53d7863a6208c80d7accaa">CHOMP_CHAIN_LAST_PART_IDX</a>&#160;&#160;&#160;PRT_CHAIN_8</td></tr>
 <tr class="separator:aa43cae12da53d7863a6208c80d7accaa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6fe8a7306820ce7b25d9922bb02ed983" id="r_a6fe8a7306820ce7b25d9922bb02ed983"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6fe8a7306820ce7b25d9922bb02ed983">CHOMP_CHAIN_AVAR_SOUNDS</a>&#160;&#160;&#160;<a class="el" href="#ad5e1752974756fcb68755fb4f8a9df2dae89e0cce9cf0ef7a9a3649a0a2ec11b4">AVAR_EnableChainSounds</a></td></tr>
+<tr class="memitem:a6fe8a7306820ce7b25d9922bb02ed983" id="r_a6fe8a7306820ce7b25d9922bb02ed983"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6fe8a7306820ce7b25d9922bb02ed983">CHOMP_CHAIN_AVAR_SOUNDS</a>&#160;&#160;&#160;AVAR_EnableChainSounds</td></tr>
 <tr class="separator:a6fe8a7306820ce7b25d9922bb02ed983"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2e520f18e264529be7c221d8c985d8fb" id="r_a2e520f18e264529be7c221d8c985d8fb"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2e520f18e264529be7c221d8c985d8fb">CHOMP_CHAIN_UPDATE_Z</a>&#160;&#160;&#160;TRUE</td></tr>
 <tr class="separator:a2e520f18e264529be7c221d8c985d8fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
-Enumerations</h2></td></tr>
-<tr class="memitem:ad5e1752974756fcb68755fb4f8a9df2d" id="r_ad5e1752974756fcb68755fb4f8a9df2d"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad5e1752974756fcb68755fb4f8a9df2d">ActorVars</a> { <a class="el" href="#ad5e1752974756fcb68755fb4f8a9df2dae89e0cce9cf0ef7a9a3649a0a2ec11b4">AVAR_EnableChainSounds</a> = 8
- }</td></tr>
-<tr class="separator:ad5e1752974756fcb68755fb4f8a9df2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad1692e67fbd5aad52eec868da37473f4" id="r_ad1692e67fbd5aad52eec868da37473f4"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad1692e67fbd5aad52eec868da37473f4">ActorPartIDs</a> { <br />
-&#160;&#160;<a class="el" href="#ad1692e67fbd5aad52eec868da37473f4a9928880a6fae88debc8f3ceccc0b2cd8">PRT_MAIN</a> = 1
-, <a class="el" href="#ad1692e67fbd5aad52eec868da37473f4a07248b11ec2ae1b8ac84f614fb722f3e">PRT_TARGET</a> = 2
-, <a class="el" href="#ad1692e67fbd5aad52eec868da37473f4ad1f718bfefe6a7ca6c26f038ffc33906">PRT_CHAIN_1</a> = 3
-, <a class="el" href="#ad1692e67fbd5aad52eec868da37473f4a146abf95763dbf37ad12b53aaf416558">PRT_CHAIN_2</a> = 4
-, <br />
-&#160;&#160;<a class="el" href="#ad1692e67fbd5aad52eec868da37473f4a5d7f810da2d539d1f30f0d1a8efabae2">PRT_CHAIN_3</a> = 5
-, <a class="el" href="#ad1692e67fbd5aad52eec868da37473f4acef489cc9aa16fda6cfe603928112e6a">PRT_CHAIN_4</a> = 6
-, <a class="el" href="#ad1692e67fbd5aad52eec868da37473f4a6915f67f991e2dcb23a0410af6ef5b7f">PRT_CHAIN_5</a> = 7
-, <a class="el" href="#ad1692e67fbd5aad52eec868da37473f4a92be93a594f0fecc59343bb783d4dca9">PRT_CHAIN_6</a> = 8
-, <br />
-&#160;&#160;<a class="el" href="#ad1692e67fbd5aad52eec868da37473f4add08c485597091996ef5d6920b958e13">PRT_CHAIN_7</a> = 9
-, <a class="el" href="#ad1692e67fbd5aad52eec868da37473f4aa6d8f55674c3f00dc3cf85bed907ab31">PRT_CHAIN_8</a> = 10
-<br />
- }</td></tr>
-<tr class="separator:ad1692e67fbd5aad52eec868da37473f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0d3b3b711f5c5bd6236f38291d4a6915" id="r_a0d3b3b711f5c5bd6236f38291d4a6915"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0d3b3b711f5c5bd6236f38291d4a6915">ActorParams</a> { <a class="el" href="#a0d3b3b711f5c5bd6236f38291d4a6915a7c4dc3a76f508b291854dbce11a6b385">DMG_CHOMP_BITE</a> = 3
- }</td></tr>
-<tr class="separator:a0d3b3b711f5c5bd6236f38291d4a6915"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
-Variables</h2></td></tr>
-<tr class="memitem:a443c5d32ccc8ed964a05d38e02b27bbd" id="r_a443c5d32ccc8ed964a05d38e02b27bbd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="common__structs_8h.html#ac718b608783f254b030240252606fd0e">EvtScript</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a443c5d32ccc8ed964a05d38e02b27bbd">EVS_Init</a></td></tr>
-<tr class="separator:a443c5d32ccc8ed964a05d38e02b27bbd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac02de6d6ec6822435ed192fb6e84772f" id="r_ac02de6d6ec6822435ed192fb6e84772f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="common__structs_8h.html#ac718b608783f254b030240252606fd0e">EvtScript</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac02de6d6ec6822435ed192fb6e84772f">EVS_Idle</a></td></tr>
-<tr class="separator:ac02de6d6ec6822435ed192fb6e84772f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9baecb217631d271ccfb2410bc947e63" id="r_a9baecb217631d271ccfb2410bc947e63"><td class="memItemLeft" align="right" valign="top"><a class="el" href="common__structs_8h.html#ac718b608783f254b030240252606fd0e">EvtScript</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9baecb217631d271ccfb2410bc947e63">EVS_TakeTurn</a></td></tr>
-<tr class="separator:a9baecb217631d271ccfb2410bc947e63"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a191a76ac1b6d84546efddb06629c256b" id="r_a191a76ac1b6d84546efddb06629c256b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="common__structs_8h.html#ac718b608783f254b030240252606fd0e">EvtScript</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a191a76ac1b6d84546efddb06629c256b">EVS_HandleEvent</a></td></tr>
-<tr class="separator:a191a76ac1b6d84546efddb06629c256b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab8c016935faa51d183421ce51a502eec" id="r_ab8c016935faa51d183421ce51a502eec"><td class="memItemLeft" align="right" valign="top"><a class="el" href="common__structs_8h.html#ac718b608783f254b030240252606fd0e">EvtScript</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab8c016935faa51d183421ce51a502eec">EVS_UpdateChain</a></td></tr>
-<tr class="separator:ab8c016935faa51d183421ce51a502eec"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8be433738caeb821c6bf2501b68281d0" id="r_a8be433738caeb821c6bf2501b68281d0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="common__structs_8h.html#ac718b608783f254b030240252606fd0e">EvtScript</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8be433738caeb821c6bf2501b68281d0">EVS_Chomp_SpinSmashHit</a></td></tr>
-<tr class="separator:a8be433738caeb821c6bf2501b68281d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a312544864c8410046bbe1cca33a5ac51" id="r_a312544864c8410046bbe1cca33a5ac51"><td class="memItemLeft" align="right" valign="top"><a class="el" href="common__structs_8h.html#ac718b608783f254b030240252606fd0e">EvtScript</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a312544864c8410046bbe1cca33a5ac51">EVS_Chomp_HopHome</a></td></tr>
-<tr class="separator:a312544864c8410046bbe1cca33a5ac51"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acd0108faef96434be92c9514fb7e586f" id="r_acd0108faef96434be92c9514fb7e586f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="common__structs_8h.html#ac718b608783f254b030240252606fd0e">EvtScript</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acd0108faef96434be92c9514fb7e586f">EVS_Chomp_HopToPos</a></td></tr>
-<tr class="separator:acd0108faef96434be92c9514fb7e586f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaf12b3fde029dcfed93436ffa2d93988" id="r_aaf12b3fde029dcfed93436ffa2d93988"><td class="memItemLeft" align="right" valign="top">s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaf12b3fde029dcfed93436ffa2d93988">BasicAnims</a> []</td></tr>
-<tr class="separator:aaf12b3fde029dcfed93436ffa2d93988"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acb00ad26e3fc187b13243ae22afa8eff" id="r_acb00ad26e3fc187b13243ae22afa8eff"><td class="memItemLeft" align="right" valign="top">s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acb00ad26e3fc187b13243ae22afa8eff">QuickBiteAnims</a> []</td></tr>
-<tr class="separator:acb00ad26e3fc187b13243ae22afa8eff"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8e4f6be09ec83ec61353a7ee4377625a" id="r_a8e4f6be09ec83ec61353a7ee4377625a"><td class="memItemLeft" align="right" valign="top">s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8e4f6be09ec83ec61353a7ee4377625a">BiteAnims</a> []</td></tr>
-<tr class="separator:a8e4f6be09ec83ec61353a7ee4377625a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab0a9af703c63bb38eb4c34dfde4b378e" id="r_ab0a9af703c63bb38eb4c34dfde4b378e"><td class="memItemLeft" align="right" valign="top">s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab0a9af703c63bb38eb4c34dfde4b378e">SlowBiteAnims</a> []</td></tr>
-<tr class="separator:ab0a9af703c63bb38eb4c34dfde4b378e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8000dcbc682efd482841484a015a1768" id="r_a8000dcbc682efd482841484a015a1768"><td class="memItemLeft" align="right" valign="top">s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8000dcbc682efd482841484a015a1768">ChainAnims</a> []</td></tr>
-<tr class="separator:a8000dcbc682efd482841484a015a1768"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acc777f400b15bb1865f5ee83d00f50ef" id="r_acc777f400b15bb1865f5ee83d00f50ef"><td class="memItemLeft" align="right" valign="top">s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acc777f400b15bb1865f5ee83d00f50ef">DefenseTable</a> []</td></tr>
-<tr class="separator:acc777f400b15bb1865f5ee83d00f50ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5fdf7357a3ef202588fa26666a84a89f" id="r_a5fdf7357a3ef202588fa26666a84a89f"><td class="memItemLeft" align="right" valign="top">s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5fdf7357a3ef202588fa26666a84a89f">StatusTable</a> []</td></tr>
-<tr class="separator:a5fdf7357a3ef202588fa26666a84a89f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a853e88c6ebafb84b74899284b53af933" id="r_a853e88c6ebafb84b74899284b53af933"><td class="memItemLeft" align="right" valign="top"><a class="el" href="common__structs_8h.html#structActorPartBlueprint">ActorPartBlueprint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a853e88c6ebafb84b74899284b53af933">ActorParts</a> []</td></tr>
-<tr class="separator:a853e88c6ebafb84b74899284b53af933"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7d81b5aa9c7b4fcfa98a039812275b07" id="r_a7d81b5aa9c7b4fcfa98a039812275b07"><td class="memItemLeft" align="right" valign="top"><a class="el" href="src_2battle_2battle_8h.html#structActorBlueprint">ActorBlueprint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7d81b5aa9c7b4fcfa98a039812275b07">NAMESPACE</a></td></tr>
-<tr class="separator:a7d81b5aa9c7b4fcfa98a039812275b07"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5de50b64c67e8ff089944d27c71dde9e" id="r_a5de50b64c67e8ff089944d27c71dde9e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="common__structs_8h.html#ac718b608783f254b030240252606fd0e">EvtScript</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5de50b64c67e8ff089944d27c71dde9e">EVS_UpdateTargetPartPos</a></td></tr>
-<tr class="separator:a5de50b64c67e8ff089944d27c71dde9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a75bedaf34f3eecf19a676a8d8eb41037" id="r_a75bedaf34f3eecf19a676a8d8eb41037"><td class="memItemLeft" align="right" valign="top"><a class="el" href="src_2battle_2battle_8h.html#structActorBlueprint">ActorBlueprint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a75bedaf34f3eecf19a676a8d8eb41037">A</a> (chain_chomp)</td></tr>
+<tr class="separator:a75bedaf34f3eecf19a676a8d8eb41037"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
 <a id="a6fe8a7306820ce7b25d9922bb02ed983" name="a6fe8a7306820ce7b25d9922bb02ed983"></a>
@@ -194,7 +134,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define CHOMP_CHAIN_AVAR_SOUNDS&#160;&#160;&#160;<a class="el" href="#ad5e1752974756fcb68755fb4f8a9df2dae89e0cce9cf0ef7a9a3649a0a2ec11b4">AVAR_EnableChainSounds</a></td>
+          <td class="memname">#define CHOMP_CHAIN_AVAR_SOUNDS&#160;&#160;&#160;AVAR_EnableChainSounds</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -208,7 +148,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define CHOMP_CHAIN_FIRST_PART_IDX&#160;&#160;&#160;<a class="el" href="#ad1692e67fbd5aad52eec868da37473f4ad1f718bfefe6a7ca6c26f038ffc33906">PRT_CHAIN_1</a></td>
+          <td class="memname">#define CHOMP_CHAIN_FIRST_PART_IDX&#160;&#160;&#160;PRT_CHAIN_1</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -222,7 +162,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define CHOMP_CHAIN_LAST_PART_IDX&#160;&#160;&#160;<a class="el" href="#ad1692e67fbd5aad52eec868da37473f4aa6d8f55674c3f00dc3cf85bed907ab31">PRT_CHAIN_8</a></td>
+          <td class="memname">#define CHOMP_CHAIN_LAST_PART_IDX&#160;&#160;&#160;PRT_CHAIN_8</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -257,525 +197,22 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<h2 class="groupheader">Enumeration Type Documentation</h2>
-<a id="a0d3b3b711f5c5bd6236f38291d4a6915" name="a0d3b3b711f5c5bd6236f38291d4a6915"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0d3b3b711f5c5bd6236f38291d4a6915">&#9670;&#160;</a></span>ActorParams</h2>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="a75bedaf34f3eecf19a676a8d8eb41037" name="a75bedaf34f3eecf19a676a8d8eb41037"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a75bedaf34f3eecf19a676a8d8eb41037">&#9670;&#160;</a></span>A()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">enum <a class="el" href="arn_2actor_2tubba__blubba_8c.html#a0d3b3b711f5c5bd6236f38291d4a6915">ActorParams</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a0d3b3b711f5c5bd6236f38291d4a6915a7c4dc3a76f508b291854dbce11a6b385" name="a0d3b3b711f5c5bd6236f38291d4a6915a7c4dc3a76f508b291854dbce11a6b385"></a>DMG_CHOMP_BITE&#160;</td><td class="fielddoc"></td></tr>
-</table>
-
-</div>
-</div>
-<a id="ad1692e67fbd5aad52eec868da37473f4" name="ad1692e67fbd5aad52eec868da37473f4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad1692e67fbd5aad52eec868da37473f4">&#9670;&#160;</a></span>ActorPartIDs</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="arn_2actor_2tubba__blubba_8c.html#ad1692e67fbd5aad52eec868da37473f4">ActorPartIDs</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ad1692e67fbd5aad52eec868da37473f4a9928880a6fae88debc8f3ceccc0b2cd8" name="ad1692e67fbd5aad52eec868da37473f4a9928880a6fae88debc8f3ceccc0b2cd8"></a>PRT_MAIN&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ad1692e67fbd5aad52eec868da37473f4a07248b11ec2ae1b8ac84f614fb722f3e" name="ad1692e67fbd5aad52eec868da37473f4a07248b11ec2ae1b8ac84f614fb722f3e"></a>PRT_TARGET&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ad1692e67fbd5aad52eec868da37473f4ad1f718bfefe6a7ca6c26f038ffc33906" name="ad1692e67fbd5aad52eec868da37473f4ad1f718bfefe6a7ca6c26f038ffc33906"></a>PRT_CHAIN_1&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ad1692e67fbd5aad52eec868da37473f4a146abf95763dbf37ad12b53aaf416558" name="ad1692e67fbd5aad52eec868da37473f4a146abf95763dbf37ad12b53aaf416558"></a>PRT_CHAIN_2&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ad1692e67fbd5aad52eec868da37473f4a5d7f810da2d539d1f30f0d1a8efabae2" name="ad1692e67fbd5aad52eec868da37473f4a5d7f810da2d539d1f30f0d1a8efabae2"></a>PRT_CHAIN_3&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ad1692e67fbd5aad52eec868da37473f4acef489cc9aa16fda6cfe603928112e6a" name="ad1692e67fbd5aad52eec868da37473f4acef489cc9aa16fda6cfe603928112e6a"></a>PRT_CHAIN_4&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ad1692e67fbd5aad52eec868da37473f4a6915f67f991e2dcb23a0410af6ef5b7f" name="ad1692e67fbd5aad52eec868da37473f4a6915f67f991e2dcb23a0410af6ef5b7f"></a>PRT_CHAIN_5&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ad1692e67fbd5aad52eec868da37473f4a92be93a594f0fecc59343bb783d4dca9" name="ad1692e67fbd5aad52eec868da37473f4a92be93a594f0fecc59343bb783d4dca9"></a>PRT_CHAIN_6&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ad1692e67fbd5aad52eec868da37473f4add08c485597091996ef5d6920b958e13" name="ad1692e67fbd5aad52eec868da37473f4add08c485597091996ef5d6920b958e13"></a>PRT_CHAIN_7&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ad1692e67fbd5aad52eec868da37473f4aa6d8f55674c3f00dc3cf85bed907ab31" name="ad1692e67fbd5aad52eec868da37473f4aa6d8f55674c3f00dc3cf85bed907ab31"></a>PRT_CHAIN_8&#160;</td><td class="fielddoc"></td></tr>
-</table>
-
-</div>
-</div>
-<a id="ad5e1752974756fcb68755fb4f8a9df2d" name="ad5e1752974756fcb68755fb4f8a9df2d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad5e1752974756fcb68755fb4f8a9df2d">&#9670;&#160;</a></span>ActorVars</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="arn_2actor_2tubba__blubba_8c.html#ad5e1752974756fcb68755fb4f8a9df2d">ActorVars</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ad5e1752974756fcb68755fb4f8a9df2dae89e0cce9cf0ef7a9a3649a0a2ec11b4" name="ad5e1752974756fcb68755fb4f8a9df2dae89e0cce9cf0ef7a9a3649a0a2ec11b4"></a>AVAR_EnableChainSounds&#160;</td><td class="fielddoc"></td></tr>
-</table>
-
-</div>
-</div>
-<h2 class="groupheader">Variable Documentation</h2>
-<a id="a853e88c6ebafb84b74899284b53af933" name="a853e88c6ebafb84b74899284b53af933"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a853e88c6ebafb84b74899284b53af933">&#9670;&#160;</a></span>ActorParts</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="common__structs_8h.html#structActorPartBlueprint">ActorPartBlueprint</a> ActorParts[]</td>
+          <td class="memname"><a class="el" href="src_2battle_2battle_8h.html#structActorBlueprint">ActorBlueprint</a> A </td>
+          <td>(</td>
+          <td class="paramtype">chain_chomp</td>          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-</div>
-</div>
-<a id="aaf12b3fde029dcfed93436ffa2d93988" name="aaf12b3fde029dcfed93436ffa2d93988"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaf12b3fde029dcfed93436ffa2d93988">&#9670;&#160;</a></span>BasicAnims</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">s32 BasicAnims[]</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line">    <a class="code hl_enumvalue" href="enums_8h.html#a7340bfe5a858e0e259ebbae0a27d7644ae345ee58a012fc17a8693ac6a9a8c61c">STATUS_KEY_NORMAL</a>,    ANIM_ChainChomp_Idle,</div>
-<div class="line">    <a class="code hl_enumvalue" href="enums_8h.html#a7340bfe5a858e0e259ebbae0a27d7644a97955ea8bc5660f015d113bef95da1a4">STATUS_KEY_STONE</a>,     ANIM_ChainChomp_Still,</div>
-<div class="line">    <a class="code hl_enumvalue" href="enums_8h.html#a7340bfe5a858e0e259ebbae0a27d7644a8cbff5eaffefbc78b718f03f444a1926">STATUS_KEY_SLEEP</a>,     ANIM_ChainChomp_Sleep,</div>
-<div class="line">    <a class="code hl_enumvalue" href="enums_8h.html#a7340bfe5a858e0e259ebbae0a27d7644aad632275044749af8aaf1762d01d9245">STATUS_KEY_POISON</a>,    ANIM_ChainChomp_Idle,</div>
-<div class="line">    <a class="code hl_enumvalue" href="enums_8h.html#a7340bfe5a858e0e259ebbae0a27d7644a9944275fbb9e0cc55dd5a3a78ae76bc8">STATUS_KEY_STOP</a>,      ANIM_ChainChomp_Still,</div>
-<div class="line">    <a class="code hl_enumvalue" href="enums_8h.html#a7340bfe5a858e0e259ebbae0a27d7644a6f2737180781a642d31cfe92a184cc3a">STATUS_KEY_STATIC</a>,    ANIM_ChainChomp_Still,</div>
-<div class="line">    <a class="code hl_enumvalue" href="enums_8h.html#a7340bfe5a858e0e259ebbae0a27d7644a2830089c24b652a5ef7a8e98fa171fec">STATUS_KEY_PARALYZE</a>,  ANIM_ChainChomp_Still,</div>
-<div class="line">    <a class="code hl_enumvalue" href="enums_8h.html#a7340bfe5a858e0e259ebbae0a27d7644aab27ae1ad64f1c987583792c4f39527e">STATUS_KEY_DIZZY</a>,     ANIM_ChainChomp_Dizzy,</div>
-<div class="line">    <a class="code hl_enumvalue" href="enums_8h.html#a7340bfe5a858e0e259ebbae0a27d7644a7235766631c47c37b0c97ebbaee0b496">STATUS_END</a>,</div>
-<div class="line">}</div>
-<div class="ttc" id="aenums_8h_html_a7340bfe5a858e0e259ebbae0a27d7644a2830089c24b652a5ef7a8e98fa171fec"><div class="ttname"><a href="enums_8h.html#a7340bfe5a858e0e259ebbae0a27d7644a2830089c24b652a5ef7a8e98fa171fec">STATUS_KEY_PARALYZE</a></div><div class="ttdeci">@ STATUS_KEY_PARALYZE</div><div class="ttdef"><b>Definition</b> enums.h:2202</div></div>
-<div class="ttc" id="aenums_8h_html_a7340bfe5a858e0e259ebbae0a27d7644a6f2737180781a642d31cfe92a184cc3a"><div class="ttname"><a href="enums_8h.html#a7340bfe5a858e0e259ebbae0a27d7644a6f2737180781a642d31cfe92a184cc3a">STATUS_KEY_STATIC</a></div><div class="ttdeci">@ STATUS_KEY_STATIC</div><div class="ttdef"><b>Definition</b> enums.h:2208</div></div>
-<div class="ttc" id="aenums_8h_html_a7340bfe5a858e0e259ebbae0a27d7644a7235766631c47c37b0c97ebbaee0b496"><div class="ttname"><a href="enums_8h.html#a7340bfe5a858e0e259ebbae0a27d7644a7235766631c47c37b0c97ebbaee0b496">STATUS_END</a></div><div class="ttdeci">@ STATUS_END</div><div class="ttdef"><b>Definition</b> enums.h:2197</div></div>
-<div class="ttc" id="aenums_8h_html_a7340bfe5a858e0e259ebbae0a27d7644a8cbff5eaffefbc78b718f03f444a1926"><div class="ttname"><a href="enums_8h.html#a7340bfe5a858e0e259ebbae0a27d7644a8cbff5eaffefbc78b718f03f444a1926">STATUS_KEY_SLEEP</a></div><div class="ttdeci">@ STATUS_KEY_SLEEP</div><div class="ttdef"><b>Definition</b> enums.h:2203</div></div>
-<div class="ttc" id="aenums_8h_html_a7340bfe5a858e0e259ebbae0a27d7644a97955ea8bc5660f015d113bef95da1a4"><div class="ttname"><a href="enums_8h.html#a7340bfe5a858e0e259ebbae0a27d7644a97955ea8bc5660f015d113bef95da1a4">STATUS_KEY_STONE</a></div><div class="ttdeci">@ STATUS_KEY_STONE</div><div class="ttdef"><b>Definition</b> enums.h:2209</div></div>
-<div class="ttc" id="aenums_8h_html_a7340bfe5a858e0e259ebbae0a27d7644a9944275fbb9e0cc55dd5a3a78ae76bc8"><div class="ttname"><a href="enums_8h.html#a7340bfe5a858e0e259ebbae0a27d7644a9944275fbb9e0cc55dd5a3a78ae76bc8">STATUS_KEY_STOP</a></div><div class="ttdeci">@ STATUS_KEY_STOP</div><div class="ttdef"><b>Definition</b> enums.h:2205</div></div>
-<div class="ttc" id="aenums_8h_html_a7340bfe5a858e0e259ebbae0a27d7644aab27ae1ad64f1c987583792c4f39527e"><div class="ttname"><a href="enums_8h.html#a7340bfe5a858e0e259ebbae0a27d7644aab27ae1ad64f1c987583792c4f39527e">STATUS_KEY_DIZZY</a></div><div class="ttdeci">@ STATUS_KEY_DIZZY</div><div class="ttdef"><b>Definition</b> enums.h:2201</div></div>
-<div class="ttc" id="aenums_8h_html_a7340bfe5a858e0e259ebbae0a27d7644aad632275044749af8aaf1762d01d9245"><div class="ttname"><a href="enums_8h.html#a7340bfe5a858e0e259ebbae0a27d7644aad632275044749af8aaf1762d01d9245">STATUS_KEY_POISON</a></div><div class="ttdeci">@ STATUS_KEY_POISON</div><div class="ttdef"><b>Definition</b> enums.h:2206</div></div>
-<div class="ttc" id="aenums_8h_html_a7340bfe5a858e0e259ebbae0a27d7644ae345ee58a012fc17a8693ac6a9a8c61c"><div class="ttname"><a href="enums_8h.html#a7340bfe5a858e0e259ebbae0a27d7644ae345ee58a012fc17a8693ac6a9a8c61c">STATUS_KEY_NORMAL</a></div><div class="ttdeci">@ STATUS_KEY_NORMAL</div><div class="ttdef"><b>Definition</b> enums.h:2198</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a8e4f6be09ec83ec61353a7ee4377625a" name="a8e4f6be09ec83ec61353a7ee4377625a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8e4f6be09ec83ec61353a7ee4377625a">&#9670;&#160;</a></span>BiteAnims</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">s32 BiteAnims[]</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line">    <a class="code hl_enumvalue" href="enums_8h.html#a7340bfe5a858e0e259ebbae0a27d7644ae345ee58a012fc17a8693ac6a9a8c61c">STATUS_KEY_NORMAL</a>,    ANIM_ChainChomp_Bite,</div>
-<div class="line">    <a class="code hl_enumvalue" href="enums_8h.html#a7340bfe5a858e0e259ebbae0a27d7644aad632275044749af8aaf1762d01d9245">STATUS_KEY_POISON</a>,    ANIM_ChainChomp_Bite,</div>
-<div class="line">    <a class="code hl_enumvalue" href="enums_8h.html#a7340bfe5a858e0e259ebbae0a27d7644a9944275fbb9e0cc55dd5a3a78ae76bc8">STATUS_KEY_STOP</a>,      ANIM_ChainChomp_Still,</div>
-<div class="line">    <a class="code hl_enumvalue" href="enums_8h.html#a7340bfe5a858e0e259ebbae0a27d7644a97955ea8bc5660f015d113bef95da1a4">STATUS_KEY_STONE</a>,     ANIM_ChainChomp_Still,</div>
-<div class="line">    <a class="code hl_enumvalue" href="enums_8h.html#a7340bfe5a858e0e259ebbae0a27d7644a8cbff5eaffefbc78b718f03f444a1926">STATUS_KEY_SLEEP</a>,     ANIM_ChainChomp_Sleep,</div>
-<div class="line">    <a class="code hl_enumvalue" href="enums_8h.html#a7340bfe5a858e0e259ebbae0a27d7644a6f2737180781a642d31cfe92a184cc3a">STATUS_KEY_STATIC</a>,    ANIM_ChainChomp_Still,</div>
-<div class="line">    <a class="code hl_enumvalue" href="enums_8h.html#a7340bfe5a858e0e259ebbae0a27d7644a2830089c24b652a5ef7a8e98fa171fec">STATUS_KEY_PARALYZE</a>,  ANIM_ChainChomp_Still,</div>
-<div class="line">    <a class="code hl_enumvalue" href="enums_8h.html#a7340bfe5a858e0e259ebbae0a27d7644aab27ae1ad64f1c987583792c4f39527e">STATUS_KEY_DIZZY</a>,     ANIM_ChainChomp_Dizzy,</div>
-<div class="line">    <a class="code hl_enumvalue" href="enums_8h.html#a7340bfe5a858e0e259ebbae0a27d7644a7235766631c47c37b0c97ebbaee0b496">STATUS_END</a>,</div>
-<div class="line">}</div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a8000dcbc682efd482841484a015a1768" name="a8000dcbc682efd482841484a015a1768"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8000dcbc682efd482841484a015a1768">&#9670;&#160;</a></span>ChainAnims</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">s32 ChainAnims[]</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line">    <a class="code hl_enumvalue" href="enums_8h.html#a7340bfe5a858e0e259ebbae0a27d7644ae345ee58a012fc17a8693ac6a9a8c61c">STATUS_KEY_NORMAL</a>,    ANIM_ChainChomp_Chain,</div>
-<div class="line">    <a class="code hl_enumvalue" href="enums_8h.html#a7340bfe5a858e0e259ebbae0a27d7644a7235766631c47c37b0c97ebbaee0b496">STATUS_END</a>,</div>
-<div class="line">}</div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="acc777f400b15bb1865f5ee83d00f50ef" name="acc777f400b15bb1865f5ee83d00f50ef"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acc777f400b15bb1865f5ee83d00f50ef">&#9670;&#160;</a></span>DefenseTable</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">s32 DefenseTable[]</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line">    <a class="code hl_enumvalue" href="enums_8h.html#a3d71b92820bd3decb3c70113e0c8bebaaf9b53c41acb46619cbea5cd763cf4d05">ELEMENT_NORMAL</a>,   3,</div>
-<div class="line">    <a class="code hl_enumvalue" href="enums_8h.html#a3d71b92820bd3decb3c70113e0c8bebaa9faab4f8a1639e66709b9e50b87b576a">ELEMENT_SHOCK</a>,    3,</div>
-<div class="line">    <a class="code hl_enumvalue" href="enums_8h.html#a3d71b92820bd3decb3c70113e0c8bebaa34c8e2f654fc92a6ec4eea7a4d07d46f">ELEMENT_FIRE</a>,    99,</div>
-<div class="line">    <a class="code hl_enumvalue" href="enums_8h.html#a3d71b92820bd3decb3c70113e0c8bebaa81dfe3497341c1901044329442fc992b">ELEMENT_ICE</a>,     99,</div>
-<div class="line">    <a class="code hl_enumvalue" href="enums_8h.html#a3d71b92820bd3decb3c70113e0c8bebaa610334cf5857543b933a6ee7250d0753">ELEMENT_MAGIC</a>,   99,</div>
-<div class="line">    <a class="code hl_enumvalue" href="enums_8h.html#a3d71b92820bd3decb3c70113e0c8bebaa6d43fe3234533e9641acc28c68afc4ee">ELEMENT_END</a>,</div>
-<div class="line">}</div>
-<div class="ttc" id="aenums_8h_html_a3d71b92820bd3decb3c70113e0c8bebaa34c8e2f654fc92a6ec4eea7a4d07d46f"><div class="ttname"><a href="enums_8h.html#a3d71b92820bd3decb3c70113e0c8bebaa34c8e2f654fc92a6ec4eea7a4d07d46f">ELEMENT_FIRE</a></div><div class="ttdeci">@ ELEMENT_FIRE</div><div class="ttdef"><b>Definition</b> enums.h:2117</div></div>
-<div class="ttc" id="aenums_8h_html_a3d71b92820bd3decb3c70113e0c8bebaa610334cf5857543b933a6ee7250d0753"><div class="ttname"><a href="enums_8h.html#a3d71b92820bd3decb3c70113e0c8bebaa610334cf5857543b933a6ee7250d0753">ELEMENT_MAGIC</a></div><div class="ttdeci">@ ELEMENT_MAGIC</div><div class="ttdef"><b>Definition</b> enums.h:2121</div></div>
-<div class="ttc" id="aenums_8h_html_a3d71b92820bd3decb3c70113e0c8bebaa6d43fe3234533e9641acc28c68afc4ee"><div class="ttname"><a href="enums_8h.html#a3d71b92820bd3decb3c70113e0c8bebaa6d43fe3234533e9641acc28c68afc4ee">ELEMENT_END</a></div><div class="ttdeci">@ ELEMENT_END</div><div class="ttdef"><b>Definition</b> enums.h:2115</div></div>
-<div class="ttc" id="aenums_8h_html_a3d71b92820bd3decb3c70113e0c8bebaa81dfe3497341c1901044329442fc992b"><div class="ttname"><a href="enums_8h.html#a3d71b92820bd3decb3c70113e0c8bebaa81dfe3497341c1901044329442fc992b">ELEMENT_ICE</a></div><div class="ttdeci">@ ELEMENT_ICE</div><div class="ttdef"><b>Definition</b> enums.h:2119</div></div>
-<div class="ttc" id="aenums_8h_html_a3d71b92820bd3decb3c70113e0c8bebaa9faab4f8a1639e66709b9e50b87b576a"><div class="ttname"><a href="enums_8h.html#a3d71b92820bd3decb3c70113e0c8bebaa9faab4f8a1639e66709b9e50b87b576a">ELEMENT_SHOCK</a></div><div class="ttdeci">@ ELEMENT_SHOCK</div><div class="ttdef"><b>Definition</b> enums.h:2126</div></div>
-<div class="ttc" id="aenums_8h_html_a3d71b92820bd3decb3c70113e0c8bebaaf9b53c41acb46619cbea5cd763cf4d05"><div class="ttname"><a href="enums_8h.html#a3d71b92820bd3decb3c70113e0c8bebaaf9b53c41acb46619cbea5cd763cf4d05">ELEMENT_NORMAL</a></div><div class="ttdeci">@ ELEMENT_NORMAL</div><div class="ttdef"><b>Definition</b> enums.h:2116</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a312544864c8410046bbe1cca33a5ac51" name="a312544864c8410046bbe1cca33a5ac51"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a312544864c8410046bbe1cca33a5ac51">&#9670;&#160;</a></span>EVS_Chomp_HopHome</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="common__structs_8h.html#ac718b608783f254b030240252606fd0e">EvtScript</a> EVS_Chomp_HopHome</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line"> </div>
-<div class="line"> </div>
-<div class="line"> </div>
-<div class="line"> </div>
-<div class="line"> </div>
-<div class="line"> </div>
-<div class="line"> </div>
-<div class="line"> </div>
-<div class="line"> </div>
-<div class="line"> </div>
-<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#aa49b4615589f142fe396afa06f44ec5e">EVT_RETURN</a></div>
-<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a1eb5d3206784e72fb8b5bf5cc7228553">EVT_END</a></div>
-<div class="line">}</div>
-<div class="ttc" id="ascript__api_2macros_8h_html_a1eb5d3206784e72fb8b5bf5cc7228553"><div class="ttname"><a href="script__api_2macros_8h.html#a1eb5d3206784e72fb8b5bf5cc7228553">EVT_END</a></div><div class="ttdeci">#define EVT_END</div><div class="ttdoc">Signals the end of EVT script data. A script missing this will likely crash on load.</div><div class="ttdef"><b>Definition</b> macros.h:225</div></div>
-<div class="ttc" id="ascript__api_2macros_8h_html_aa49b4615589f142fe396afa06f44ec5e"><div class="ttname"><a href="script__api_2macros_8h.html#aa49b4615589f142fe396afa06f44ec5e">EVT_RETURN</a></div><div class="ttdeci">#define EVT_RETURN</div><div class="ttdoc">Kills the current EVT thread.</div><div class="ttdef"><b>Definition</b> macros.h:229</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="acd0108faef96434be92c9514fb7e586f" name="acd0108faef96434be92c9514fb7e586f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acd0108faef96434be92c9514fb7e586f">&#9670;&#160;</a></span>EVS_Chomp_HopToPos</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="common__structs_8h.html#ac718b608783f254b030240252606fd0e">EvtScript</a> EVS_Chomp_HopToPos</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a8be433738caeb821c6bf2501b68281d0" name="a8be433738caeb821c6bf2501b68281d0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8be433738caeb821c6bf2501b68281d0">&#9670;&#160;</a></span>EVS_Chomp_SpinSmashHit</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="common__structs_8h.html#ac718b608783f254b030240252606fd0e">EvtScript</a> EVS_Chomp_SpinSmashHit</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a191a76ac1b6d84546efddb06629c256b" name="a191a76ac1b6d84546efddb06629c256b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a191a76ac1b6d84546efddb06629c256b">&#9670;&#160;</a></span>EVS_HandleEvent</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="common__structs_8h.html#ac718b608783f254b030240252606fd0e">EvtScript</a> EVS_HandleEvent</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ac02de6d6ec6822435ed192fb6e84772f" name="ac02de6d6ec6822435ed192fb6e84772f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac02de6d6ec6822435ed192fb6e84772f">&#9670;&#160;</a></span>EVS_Idle</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="common__structs_8h.html#ac718b608783f254b030240252606fd0e">EvtScript</a> EVS_Idle</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a443c5d32ccc8ed964a05d38e02b27bbd" name="a443c5d32ccc8ed964a05d38e02b27bbd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a443c5d32ccc8ed964a05d38e02b27bbd">&#9670;&#160;</a></span>EVS_Init</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="common__structs_8h.html#ac718b608783f254b030240252606fd0e">EvtScript</a> EVS_Init</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line"> </div>
-<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a7c09e8c76b51d5be8aeadc85751ff8f0">EVT_CALL</a>(BindTakeTurn, <a class="code hl_enumvalue" href="enums_8h.html#ad10afefd677c40ab166217762b16a6f3ab88ca2a46c41db883d15c8b77099f377">ACTOR_SELF</a>, <a class="code hl_define" href="script__api_2macros_8h.html#a5c78949040b032c6e0c50c2e78e2f7cb">EVT_PTR</a>( <a class="code hl_variable" href="#a9baecb217631d271ccfb2410bc947e63">EVS_TakeTurn</a> ))</div>
-<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a7c09e8c76b51d5be8aeadc85751ff8f0">EVT_CALL</a>(BindIdle, <a class="code hl_enumvalue" href="enums_8h.html#ad10afefd677c40ab166217762b16a6f3ab88ca2a46c41db883d15c8b77099f377">ACTOR_SELF</a>, <a class="code hl_define" href="script__api_2macros_8h.html#a5c78949040b032c6e0c50c2e78e2f7cb">EVT_PTR</a>( <a class="code hl_variable" href="#ac02de6d6ec6822435ed192fb6e84772f">EVS_Idle</a> ))</div>
-<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a7c09e8c76b51d5be8aeadc85751ff8f0">EVT_CALL</a>(BindHandleEvent, <a class="code hl_enumvalue" href="enums_8h.html#ad10afefd677c40ab166217762b16a6f3ab88ca2a46c41db883d15c8b77099f377">ACTOR_SELF</a>, <a class="code hl_define" href="script__api_2macros_8h.html#a5c78949040b032c6e0c50c2e78e2f7cb">EVT_PTR</a>( <a class="code hl_variable" href="#a191a76ac1b6d84546efddb06629c256b">EVS_HandleEvent</a> ))</div>
-<div class="line"> </div>
-<div class="line"> </div>
-<div class="line"> </div>
-<div class="line"> </div>
-<div class="line"> </div>
-<div class="line"> </div>
-<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a1fe124875678cb6b84739e8905fbff2f">EVT_END_LOOP</a></div>
-<div class="line"> </div>
-<div class="line"> </div>
-<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#aa49b4615589f142fe396afa06f44ec5e">EVT_RETURN</a></div>
-<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a1eb5d3206784e72fb8b5bf5cc7228553">EVT_END</a></div>
-<div class="line">}</div>
-<div class="ttc" id="achain__chomp_8c_html_a191a76ac1b6d84546efddb06629c256b"><div class="ttname"><a href="#a191a76ac1b6d84546efddb06629c256b">EVS_HandleEvent</a></div><div class="ttdeci">EvtScript EVS_HandleEvent</div><div class="ttdef"><b>Definition</b> chain_chomp.c:434</div></div>
-<div class="ttc" id="achain__chomp_8c_html_a9baecb217631d271ccfb2410bc947e63"><div class="ttname"><a href="#a9baecb217631d271ccfb2410bc947e63">EVS_TakeTurn</a></div><div class="ttdeci">EvtScript EVS_TakeTurn</div><div class="ttdef"><b>Definition</b> chain_chomp.c:679</div></div>
-<div class="ttc" id="achain__chomp_8c_html_ac02de6d6ec6822435ed192fb6e84772f"><div class="ttname"><a href="#ac02de6d6ec6822435ed192fb6e84772f">EVS_Idle</a></div><div class="ttdeci">EvtScript EVS_Idle</div><div class="ttdef"><b>Definition</b> chain_chomp.c:321</div></div>
-<div class="ttc" id="aenums_8h_html_ad10afefd677c40ab166217762b16a6f3ab88ca2a46c41db883d15c8b77099f377"><div class="ttname"><a href="enums_8h.html#ad10afefd677c40ab166217762b16a6f3ab88ca2a46c41db883d15c8b77099f377">ACTOR_SELF</a></div><div class="ttdeci">@ ACTOR_SELF</div><div class="ttdef"><b>Definition</b> enums.h:2085</div></div>
-<div class="ttc" id="ascript__api_2macros_8h_html_a1fe124875678cb6b84739e8905fbff2f"><div class="ttname"><a href="script__api_2macros_8h.html#a1fe124875678cb6b84739e8905fbff2f">EVT_END_LOOP</a></div><div class="ttdeci">#define EVT_END_LOOP</div><div class="ttdoc">Marks the end of a loop.</div><div class="ttdef"><b>Definition</b> macros.h:260</div></div>
-<div class="ttc" id="ascript__api_2macros_8h_html_a5c78949040b032c6e0c50c2e78e2f7cb"><div class="ttname"><a href="script__api_2macros_8h.html#a5c78949040b032c6e0c50c2e78e2f7cb">EVT_PTR</a></div><div class="ttdeci">#define EVT_PTR(sym)</div><div class="ttdoc">Address/pointer constant.</div><div class="ttdef"><b>Definition</b> macros.h:56</div></div>
-<div class="ttc" id="ascript__api_2macros_8h_html_a7c09e8c76b51d5be8aeadc85751ff8f0"><div class="ttname"><a href="script__api_2macros_8h.html#a7c09e8c76b51d5be8aeadc85751ff8f0">EVT_CALL</a></div><div class="ttdeci">#define EVT_CALL(FUNC, ARGS...)</div><div class="ttdoc">Calls a given C EVT API function with any number of arguments.</div><div class="ttdef"><b>Definition</b> macros.h:588</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a9baecb217631d271ccfb2410bc947e63" name="a9baecb217631d271ccfb2410bc947e63"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9baecb217631d271ccfb2410bc947e63">&#9670;&#160;</a></span>EVS_TakeTurn</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="common__structs_8h.html#ac718b608783f254b030240252606fd0e">EvtScript</a> EVS_TakeTurn</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ab8c016935faa51d183421ce51a502eec" name="ab8c016935faa51d183421ce51a502eec"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab8c016935faa51d183421ce51a502eec">&#9670;&#160;</a></span>EVS_UpdateChain</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="common__structs_8h.html#ac718b608783f254b030240252606fd0e">EvtScript</a> EVS_UpdateChain</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line"> </div>
-<div class="line"> </div>
-<div class="line"> </div>
-<div class="line"> </div>
-<div class="line"> </div>
-<div class="line"> </div>
-<div class="line"> </div>
-<div class="line">        <a class="code hl_define" href="script__api_2macros_8h.html#a15f6226bb8726c87b6a0368d33e4aec1">EVT_END_IF</a></div>
-<div class="line"> </div>
-<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#aa49b4615589f142fe396afa06f44ec5e">EVT_RETURN</a></div>
-<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a1eb5d3206784e72fb8b5bf5cc7228553">EVT_END</a></div>
-<div class="line">}</div>
-<div class="ttc" id="ascript__api_2macros_8h_html_a15f6226bb8726c87b6a0368d33e4aec1"><div class="ttname"><a href="script__api_2macros_8h.html#a15f6226bb8726c87b6a0368d33e4aec1">EVT_END_IF</a></div><div class="ttdeci">#define EVT_END_IF</div><div class="ttdoc">Marks the end of an if statement or an else block.</div><div class="ttdef"><b>Definition</b> macros.h:310</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a5de50b64c67e8ff089944d27c71dde9e" name="a5de50b64c67e8ff089944d27c71dde9e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5de50b64c67e8ff089944d27c71dde9e">&#9670;&#160;</a></span>EVS_UpdateTargetPartPos</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="common__structs_8h.html#ac718b608783f254b030240252606fd0e">EvtScript</a> EVS_UpdateTargetPartPos</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line"> </div>
-<div class="line"> </div>
-<div class="line"> </div>
-<div class="line"> </div>
-<div class="line"> </div>
-<div class="line"> </div>
-<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#aa3705d1ccd4f316c1ce498979c4ee518">EVT_ELSE</a></div>
-<div class="line"> </div>
-<div class="line"> </div>
-<div class="line"> </div>
-<div class="line"> </div>
-<div class="line"> </div>
-<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a15f6226bb8726c87b6a0368d33e4aec1">EVT_END_IF</a></div>
-<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#aa49b4615589f142fe396afa06f44ec5e">EVT_RETURN</a></div>
-<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a1eb5d3206784e72fb8b5bf5cc7228553">EVT_END</a></div>
-<div class="line">}</div>
-<div class="ttc" id="ascript__api_2macros_8h_html_aa3705d1ccd4f316c1ce498979c4ee518"><div class="ttname"><a href="script__api_2macros_8h.html#aa3705d1ccd4f316c1ce498979c4ee518">EVT_ELSE</a></div><div class="ttdeci">#define EVT_ELSE</div><div class="ttdoc">Marks the end of an if statement and the start of the else block.</div><div class="ttdef"><b>Definition</b> macros.h:307</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a7d81b5aa9c7b4fcfa98a039812275b07" name="a7d81b5aa9c7b4fcfa98a039812275b07"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7d81b5aa9c7b4fcfa98a039812275b07">&#9670;&#160;</a></span>NAMESPACE</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="src_2battle_2battle_8h.html#structActorBlueprint">ActorBlueprint</a> NAMESPACE</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line">    .flags = 0,</div>
-<div class="line">    .type = ACTOR_TYPE_CHOMP,</div>
-<div class="line">    .level = ACTOR_LEVEL_CHOMP,</div>
-<div class="line">    .maxHP = 4,</div>
-<div class="line">    .partCount = <a class="code hl_define" href="macros_8h.html#a4bf0a01781df461ad257e5391ac09ae7">ARRAY_COUNT</a>( <a class="code hl_variable" href="#a853e88c6ebafb84b74899284b53af933">ActorParts</a> ),</div>
-<div class="line">    .partsData =  <a class="code hl_variable" href="#a853e88c6ebafb84b74899284b53af933">ActorParts</a> ,</div>
-<div class="line">    .initScript = &amp; <a class="code hl_variable" href="#a443c5d32ccc8ed964a05d38e02b27bbd">EVS_Init</a> ,</div>
-<div class="line">    .statusTable =  <a class="code hl_variable" href="#a5fdf7357a3ef202588fa26666a84a89f">StatusTable</a> ,</div>
-<div class="line">    .escapeChance = 0,</div>
-<div class="line">    .airLiftChance = 0,</div>
-<div class="line">    .hurricaneChance = 0,</div>
-<div class="line">    .spookChance = 0,</div>
-<div class="line">    .upAndAwayChance = 0,</div>
-<div class="line">    .spinSmashReq = 0,</div>
-<div class="line">    .powerBounceChance = 95,</div>
-<div class="line">    .coinReward = 0,</div>
-<div class="line">    .size = { 56, 40 },</div>
-<div class="line">    .healthBarOffset = { 0, 0 },</div>
-<div class="line">    .statusIconOffset = { -10, 20 },</div>
-<div class="line">    .statusTextOffset = { 10, 20 },</div>
-<div class="line">}</div>
-<div class="ttc" id="achain__chomp_8c_html_a443c5d32ccc8ed964a05d38e02b27bbd"><div class="ttname"><a href="#a443c5d32ccc8ed964a05d38e02b27bbd">EVS_Init</a></div><div class="ttdeci">EvtScript EVS_Init</div><div class="ttdef"><b>Definition</b> chain_chomp.c:285</div></div>
-<div class="ttc" id="achain__chomp_8c_html_a5fdf7357a3ef202588fa26666a84a89f"><div class="ttname"><a href="#a5fdf7357a3ef202588fa26666a84a89f">StatusTable</a></div><div class="ttdeci">s32 StatusTable[]</div><div class="ttdef"><b>Definition</b> chain_chomp.c:100</div></div>
-<div class="ttc" id="achain__chomp_8c_html_a853e88c6ebafb84b74899284b53af933"><div class="ttname"><a href="#a853e88c6ebafb84b74899284b53af933">ActorParts</a></div><div class="ttdeci">ActorPartBlueprint ActorParts[]</div><div class="ttdef"><b>Definition</b> chain_chomp.c:125</div></div>
-<div class="ttc" id="amacros_8h_html_a4bf0a01781df461ad257e5391ac09ae7"><div class="ttname"><a href="macros_8h.html#a4bf0a01781df461ad257e5391ac09ae7">ARRAY_COUNT</a></div><div class="ttdeci">#define ARRAY_COUNT(arr)</div><div class="ttdef"><b>Definition</b> macros.h:45</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="acb00ad26e3fc187b13243ae22afa8eff" name="acb00ad26e3fc187b13243ae22afa8eff"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acb00ad26e3fc187b13243ae22afa8eff">&#9670;&#160;</a></span>QuickBiteAnims</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">s32 QuickBiteAnims[]</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line">    <a class="code hl_enumvalue" href="enums_8h.html#a7340bfe5a858e0e259ebbae0a27d7644ae345ee58a012fc17a8693ac6a9a8c61c">STATUS_KEY_NORMAL</a>,    ANIM_ChainChomp_QuickBite,</div>
-<div class="line">    <a class="code hl_enumvalue" href="enums_8h.html#a7340bfe5a858e0e259ebbae0a27d7644aad632275044749af8aaf1762d01d9245">STATUS_KEY_POISON</a>,    ANIM_ChainChomp_QuickBite,</div>
-<div class="line">    <a class="code hl_enumvalue" href="enums_8h.html#a7340bfe5a858e0e259ebbae0a27d7644a9944275fbb9e0cc55dd5a3a78ae76bc8">STATUS_KEY_STOP</a>,      ANIM_ChainChomp_Still,</div>
-<div class="line">    <a class="code hl_enumvalue" href="enums_8h.html#a7340bfe5a858e0e259ebbae0a27d7644a97955ea8bc5660f015d113bef95da1a4">STATUS_KEY_STONE</a>,     ANIM_ChainChomp_Still,</div>
-<div class="line">    <a class="code hl_enumvalue" href="enums_8h.html#a7340bfe5a858e0e259ebbae0a27d7644a8cbff5eaffefbc78b718f03f444a1926">STATUS_KEY_SLEEP</a>,     ANIM_ChainChomp_Sleep,</div>
-<div class="line">    <a class="code hl_enumvalue" href="enums_8h.html#a7340bfe5a858e0e259ebbae0a27d7644a6f2737180781a642d31cfe92a184cc3a">STATUS_KEY_STATIC</a>,    ANIM_ChainChomp_Still,</div>
-<div class="line">    <a class="code hl_enumvalue" href="enums_8h.html#a7340bfe5a858e0e259ebbae0a27d7644a2830089c24b652a5ef7a8e98fa171fec">STATUS_KEY_PARALYZE</a>,  ANIM_ChainChomp_Still,</div>
-<div class="line">    <a class="code hl_enumvalue" href="enums_8h.html#a7340bfe5a858e0e259ebbae0a27d7644aab27ae1ad64f1c987583792c4f39527e">STATUS_KEY_DIZZY</a>,     ANIM_ChainChomp_Dizzy,</div>
-<div class="line">    <a class="code hl_enumvalue" href="enums_8h.html#a7340bfe5a858e0e259ebbae0a27d7644a7235766631c47c37b0c97ebbaee0b496">STATUS_END</a>,</div>
-<div class="line">}</div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="ab0a9af703c63bb38eb4c34dfde4b378e" name="ab0a9af703c63bb38eb4c34dfde4b378e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab0a9af703c63bb38eb4c34dfde4b378e">&#9670;&#160;</a></span>SlowBiteAnims</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">s32 SlowBiteAnims[]</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line">    <a class="code hl_enumvalue" href="enums_8h.html#a7340bfe5a858e0e259ebbae0a27d7644ae345ee58a012fc17a8693ac6a9a8c61c">STATUS_KEY_NORMAL</a>,    ANIM_ChainChomp_SlowBite,</div>
-<div class="line">    <a class="code hl_enumvalue" href="enums_8h.html#a7340bfe5a858e0e259ebbae0a27d7644aad632275044749af8aaf1762d01d9245">STATUS_KEY_POISON</a>,    ANIM_ChainChomp_SlowBite,</div>
-<div class="line">    <a class="code hl_enumvalue" href="enums_8h.html#a7340bfe5a858e0e259ebbae0a27d7644a9944275fbb9e0cc55dd5a3a78ae76bc8">STATUS_KEY_STOP</a>,      ANIM_ChainChomp_Still,</div>
-<div class="line">    <a class="code hl_enumvalue" href="enums_8h.html#a7340bfe5a858e0e259ebbae0a27d7644a97955ea8bc5660f015d113bef95da1a4">STATUS_KEY_STONE</a>,     ANIM_ChainChomp_Still,</div>
-<div class="line">    <a class="code hl_enumvalue" href="enums_8h.html#a7340bfe5a858e0e259ebbae0a27d7644a8cbff5eaffefbc78b718f03f444a1926">STATUS_KEY_SLEEP</a>,     ANIM_ChainChomp_Sleep,</div>
-<div class="line">    <a class="code hl_enumvalue" href="enums_8h.html#a7340bfe5a858e0e259ebbae0a27d7644a6f2737180781a642d31cfe92a184cc3a">STATUS_KEY_STATIC</a>,    ANIM_ChainChomp_Still,</div>
-<div class="line">    <a class="code hl_enumvalue" href="enums_8h.html#a7340bfe5a858e0e259ebbae0a27d7644a2830089c24b652a5ef7a8e98fa171fec">STATUS_KEY_PARALYZE</a>,  ANIM_ChainChomp_Still,</div>
-<div class="line">    <a class="code hl_enumvalue" href="enums_8h.html#a7340bfe5a858e0e259ebbae0a27d7644aab27ae1ad64f1c987583792c4f39527e">STATUS_KEY_DIZZY</a>,     ANIM_ChainChomp_Dizzy,</div>
-<div class="line">    <a class="code hl_enumvalue" href="enums_8h.html#a7340bfe5a858e0e259ebbae0a27d7644a7235766631c47c37b0c97ebbaee0b496">STATUS_END</a>,</div>
-<div class="line">}</div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a5fdf7357a3ef202588fa26666a84a89f" name="a5fdf7357a3ef202588fa26666a84a89f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5fdf7357a3ef202588fa26666a84a89f">&#9670;&#160;</a></span>StatusTable</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">s32 StatusTable[]</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line">    <a class="code hl_enumvalue" href="enums_8h.html#a7340bfe5a858e0e259ebbae0a27d7644ae345ee58a012fc17a8693ac6a9a8c61c">STATUS_KEY_NORMAL</a>,              0,</div>
-<div class="line">    <a class="code hl_enumvalue" href="enums_8h.html#a7340bfe5a858e0e259ebbae0a27d7644afb35712fa7001d7d4b0715b7f64ae17e">STATUS_KEY_DEFAULT</a>,             0,</div>
-<div class="line">    <a class="code hl_enumvalue" href="enums_8h.html#a7340bfe5a858e0e259ebbae0a27d7644a8cbff5eaffefbc78b718f03f444a1926">STATUS_KEY_SLEEP</a>,               0,</div>
-<div class="line">    <a class="code hl_enumvalue" href="enums_8h.html#a7340bfe5a858e0e259ebbae0a27d7644aad632275044749af8aaf1762d01d9245">STATUS_KEY_POISON</a>,              0,</div>
-<div class="line">    <a class="code hl_enumvalue" href="enums_8h.html#a7340bfe5a858e0e259ebbae0a27d7644a3fee1979b93c546aa5b27100138f4697">STATUS_KEY_FROZEN</a>,              0,</div>
-<div class="line">    <a class="code hl_enumvalue" href="enums_8h.html#a7340bfe5a858e0e259ebbae0a27d7644aab27ae1ad64f1c987583792c4f39527e">STATUS_KEY_DIZZY</a>,              75,</div>
-<div class="line">    <a class="code hl_enumvalue" href="enums_8h.html#a7340bfe5a858e0e259ebbae0a27d7644a821ad3811ccaeb900350b0a617efb5bf">STATUS_KEY_FEAR</a>,                0,</div>
-<div class="line">    <a class="code hl_enumvalue" href="enums_8h.html#a7340bfe5a858e0e259ebbae0a27d7644a6f2737180781a642d31cfe92a184cc3a">STATUS_KEY_STATIC</a>,              0,</div>
-<div class="line">    <a class="code hl_enumvalue" href="enums_8h.html#a7340bfe5a858e0e259ebbae0a27d7644a2830089c24b652a5ef7a8e98fa171fec">STATUS_KEY_PARALYZE</a>,            0,</div>
-<div class="line">    <a class="code hl_enumvalue" href="enums_8h.html#a7340bfe5a858e0e259ebbae0a27d7644aa957bf9514444bae9300383eec6e5a07">STATUS_KEY_SHRINK</a>,             75,</div>
-<div class="line">    <a class="code hl_enumvalue" href="enums_8h.html#a7340bfe5a858e0e259ebbae0a27d7644a9944275fbb9e0cc55dd5a3a78ae76bc8">STATUS_KEY_STOP</a>,               75,</div>
-<div class="line">    <a class="code hl_enumvalue" href="enums_8h.html#a7340bfe5a858e0e259ebbae0a27d7644a2e1ced0bfa4d0ee41ced36ebeacd4437">STATUS_TURN_MOD_DEFAULT</a>,        0,</div>
-<div class="line">    <a class="code hl_enumvalue" href="enums_8h.html#a7340bfe5a858e0e259ebbae0a27d7644a4774b164dde71907deb4649492863156">STATUS_TURN_MOD_SLEEP</a>,         -1,</div>
-<div class="line">    <a class="code hl_enumvalue" href="enums_8h.html#a7340bfe5a858e0e259ebbae0a27d7644a80a8ce7bdbc04726557fba905e640d5f">STATUS_TURN_MOD_POISON</a>,         0,</div>
-<div class="line">    <a class="code hl_enumvalue" href="enums_8h.html#a7340bfe5a858e0e259ebbae0a27d7644aa3bdb3247328d15b54f8c160861dc5c3">STATUS_TURN_MOD_FROZEN</a>,         0,</div>
-<div class="line">    <a class="code hl_enumvalue" href="enums_8h.html#a7340bfe5a858e0e259ebbae0a27d7644a59a7e461744c9d522c9e75dbb1fe3a99">STATUS_TURN_MOD_DIZZY</a>,         -1,</div>
-<div class="line">    <a class="code hl_enumvalue" href="enums_8h.html#a7340bfe5a858e0e259ebbae0a27d7644ad1ab26414967960a89085769edd77705">STATUS_TURN_MOD_FEAR</a>,           0,</div>
-<div class="line">    <a class="code hl_enumvalue" href="enums_8h.html#a7340bfe5a858e0e259ebbae0a27d7644abd2ac6427ac18655eacfbdc0b8abff27">STATUS_TURN_MOD_STATIC</a>,         0,</div>
-<div class="line">    <a class="code hl_enumvalue" href="enums_8h.html#a7340bfe5a858e0e259ebbae0a27d7644a305f6b89340380634c5d1975ef3c60d4">STATUS_TURN_MOD_PARALYZE</a>,       0,</div>
-<div class="line">    <a class="code hl_enumvalue" href="enums_8h.html#a7340bfe5a858e0e259ebbae0a27d7644ae477c89510c66bb717c537813af273bf">STATUS_TURN_MOD_SHRINK</a>,         0,</div>
-<div class="line">    <a class="code hl_enumvalue" href="enums_8h.html#a7340bfe5a858e0e259ebbae0a27d7644a868e568605ad26bc5d96c659d0a3d724">STATUS_TURN_MOD_STOP</a>,          -1,</div>
-<div class="line">    <a class="code hl_enumvalue" href="enums_8h.html#a7340bfe5a858e0e259ebbae0a27d7644a7235766631c47c37b0c97ebbaee0b496">STATUS_END</a>,</div>
-<div class="line">}</div>
-<div class="ttc" id="aenums_8h_html_a7340bfe5a858e0e259ebbae0a27d7644a2e1ced0bfa4d0ee41ced36ebeacd4437"><div class="ttname"><a href="enums_8h.html#a7340bfe5a858e0e259ebbae0a27d7644a2e1ced0bfa4d0ee41ced36ebeacd4437">STATUS_TURN_MOD_DEFAULT</a></div><div class="ttdeci">@ STATUS_TURN_MOD_DEFAULT</div><div class="ttdef"><b>Definition</b> enums.h:2228</div></div>
-<div class="ttc" id="aenums_8h_html_a7340bfe5a858e0e259ebbae0a27d7644a305f6b89340380634c5d1975ef3c60d4"><div class="ttname"><a href="enums_8h.html#a7340bfe5a858e0e259ebbae0a27d7644a305f6b89340380634c5d1975ef3c60d4">STATUS_TURN_MOD_PARALYZE</a></div><div class="ttdeci">@ STATUS_TURN_MOD_PARALYZE</div><div class="ttdef"><b>Definition</b> enums.h:2235</div></div>
-<div class="ttc" id="aenums_8h_html_a7340bfe5a858e0e259ebbae0a27d7644a3fee1979b93c546aa5b27100138f4697"><div class="ttname"><a href="enums_8h.html#a7340bfe5a858e0e259ebbae0a27d7644a3fee1979b93c546aa5b27100138f4697">STATUS_KEY_FROZEN</a></div><div class="ttdeci">@ STATUS_KEY_FROZEN</div><div class="ttdef"><b>Definition</b> enums.h:2204</div></div>
-<div class="ttc" id="aenums_8h_html_a7340bfe5a858e0e259ebbae0a27d7644a4774b164dde71907deb4649492863156"><div class="ttname"><a href="enums_8h.html#a7340bfe5a858e0e259ebbae0a27d7644a4774b164dde71907deb4649492863156">STATUS_TURN_MOD_SLEEP</a></div><div class="ttdeci">@ STATUS_TURN_MOD_SLEEP</div><div class="ttdef"><b>Definition</b> enums.h:2229</div></div>
-<div class="ttc" id="aenums_8h_html_a7340bfe5a858e0e259ebbae0a27d7644a59a7e461744c9d522c9e75dbb1fe3a99"><div class="ttname"><a href="enums_8h.html#a7340bfe5a858e0e259ebbae0a27d7644a59a7e461744c9d522c9e75dbb1fe3a99">STATUS_TURN_MOD_DIZZY</a></div><div class="ttdeci">@ STATUS_TURN_MOD_DIZZY</div><div class="ttdef"><b>Definition</b> enums.h:2233</div></div>
-<div class="ttc" id="aenums_8h_html_a7340bfe5a858e0e259ebbae0a27d7644a80a8ce7bdbc04726557fba905e640d5f"><div class="ttname"><a href="enums_8h.html#a7340bfe5a858e0e259ebbae0a27d7644a80a8ce7bdbc04726557fba905e640d5f">STATUS_TURN_MOD_POISON</a></div><div class="ttdeci">@ STATUS_TURN_MOD_POISON</div><div class="ttdef"><b>Definition</b> enums.h:2234</div></div>
-<div class="ttc" id="aenums_8h_html_a7340bfe5a858e0e259ebbae0a27d7644a821ad3811ccaeb900350b0a617efb5bf"><div class="ttname"><a href="enums_8h.html#a7340bfe5a858e0e259ebbae0a27d7644a821ad3811ccaeb900350b0a617efb5bf">STATUS_KEY_FEAR</a></div><div class="ttdeci">@ STATUS_KEY_FEAR</div><div class="ttdef"><b>Definition</b> enums.h:2200</div></div>
-<div class="ttc" id="aenums_8h_html_a7340bfe5a858e0e259ebbae0a27d7644a868e568605ad26bc5d96c659d0a3d724"><div class="ttname"><a href="enums_8h.html#a7340bfe5a858e0e259ebbae0a27d7644a868e568605ad26bc5d96c659d0a3d724">STATUS_TURN_MOD_STOP</a></div><div class="ttdeci">@ STATUS_TURN_MOD_STOP</div><div class="ttdef"><b>Definition</b> enums.h:2238</div></div>
-<div class="ttc" id="aenums_8h_html_a7340bfe5a858e0e259ebbae0a27d7644aa3bdb3247328d15b54f8c160861dc5c3"><div class="ttname"><a href="enums_8h.html#a7340bfe5a858e0e259ebbae0a27d7644aa3bdb3247328d15b54f8c160861dc5c3">STATUS_TURN_MOD_FROZEN</a></div><div class="ttdeci">@ STATUS_TURN_MOD_FROZEN</div><div class="ttdef"><b>Definition</b> enums.h:2231</div></div>
-<div class="ttc" id="aenums_8h_html_a7340bfe5a858e0e259ebbae0a27d7644aa957bf9514444bae9300383eec6e5a07"><div class="ttname"><a href="enums_8h.html#a7340bfe5a858e0e259ebbae0a27d7644aa957bf9514444bae9300383eec6e5a07">STATUS_KEY_SHRINK</a></div><div class="ttdeci">@ STATUS_KEY_SHRINK</div><div class="ttdef"><b>Definition</b> enums.h:2207</div></div>
-<div class="ttc" id="aenums_8h_html_a7340bfe5a858e0e259ebbae0a27d7644abd2ac6427ac18655eacfbdc0b8abff27"><div class="ttname"><a href="enums_8h.html#a7340bfe5a858e0e259ebbae0a27d7644abd2ac6427ac18655eacfbdc0b8abff27">STATUS_TURN_MOD_STATIC</a></div><div class="ttdeci">@ STATUS_TURN_MOD_STATIC</div><div class="ttdef"><b>Definition</b> enums.h:2230</div></div>
-<div class="ttc" id="aenums_8h_html_a7340bfe5a858e0e259ebbae0a27d7644ad1ab26414967960a89085769edd77705"><div class="ttname"><a href="enums_8h.html#a7340bfe5a858e0e259ebbae0a27d7644ad1ab26414967960a89085769edd77705">STATUS_TURN_MOD_FEAR</a></div><div class="ttdeci">@ STATUS_TURN_MOD_FEAR</div><div class="ttdef"><b>Definition</b> enums.h:2232</div></div>
-<div class="ttc" id="aenums_8h_html_a7340bfe5a858e0e259ebbae0a27d7644ae477c89510c66bb717c537813af273bf"><div class="ttname"><a href="enums_8h.html#a7340bfe5a858e0e259ebbae0a27d7644ae477c89510c66bb717c537813af273bf">STATUS_TURN_MOD_SHRINK</a></div><div class="ttdeci">@ STATUS_TURN_MOD_SHRINK</div><div class="ttdef"><b>Definition</b> enums.h:2236</div></div>
-<div class="ttc" id="aenums_8h_html_a7340bfe5a858e0e259ebbae0a27d7644afb35712fa7001d7d4b0715b7f64ae17e"><div class="ttname"><a href="enums_8h.html#a7340bfe5a858e0e259ebbae0a27d7644afb35712fa7001d7d4b0715b7f64ae17e">STATUS_KEY_DEFAULT</a></div><div class="ttdeci">@ STATUS_KEY_DEFAULT</div><div class="ttdef"><b>Definition</b> enums.h:2199</div></div>
-</div><!-- fragment -->
 </div>
 </div>
 </div><!-- contents -->

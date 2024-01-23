@@ -2,7 +2,7 @@ var heaps_8c =
 [
     [ "TlbEntry", "heaps_8c.html#a8696ac644f955d1b8def32c73df61c5e", null ],
     [ "TlbMappablePage", "heaps_8c.html#a865cbcab0d89134c944c131175838832", null ],
-    [ "AuHeapBase", "heaps_8c.html#aa66b5bea834bfabe6ab23c0cf7076357", null ],
+    [ "AuHeapBase", "heaps_8c.html#ab7a6f93056a75195779639b565fac7ca", null ],
     [ "BattleEntityHeapBottom", "heaps_8c.html#a0aa7715b87706685892ca8a2594a7d8a", null ],
     [ "D_80197000", "heaps_8c.html#a426e9cdf4ed296d919bbc92e98af22d9", null ],
     [ "D_801A6000", "heaps_8c.html#a4b432b4128ced02047d66db587ad0353", null ],

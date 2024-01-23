@@ -1,6 +1,6 @@
 var mgm__02__2__npc_8c_structSmashGameData =
 [
-    [ "box", "mgm__02__2__npc_8c.html#a0a583a786fa8d39c77be3f2724207fbd", null ],
+    [ "box", "mgm__02__2__npc_8c.html#a08ab2528e2aa11ddc8bafb0be0034e49", null ],
     [ "curScore", "mgm__02__2__npc_8c.html#a024af781a43c25fa26109c65a6c2f108", null ],
     [ "found", "mgm__02__2__npc_8c.html#a1d7e9c85b492a49d5393cfe221bbbe38", null ],
     [ "hudElemID_AButton", "mgm__02__2__npc_8c.html#a99d0643eb671276f0411de5d87a2a582", null ],

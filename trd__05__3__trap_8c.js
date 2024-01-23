@@ -12,11 +12,5 @@ var trd__05__3__trap_8c =
       [ "width", "trd__06__2__falling_8c.html#a06ef9a48fce014006b7a3e2742aef392", null ],
       [ "workerID", "trd__06__2__falling_8c.html#a961b24f1567d6baee8de44915eb1e138", null ]
     ] ],
-    [ "appendGfx_FallingSprite", "trd__05__3__trap_8c.html#a869881806dd4e2f08d11a6d7e981473b", null ],
-    [ "EVS_OnHitTrapTrigger", "trd__05__3__trap_8c.html#a4c758d207085c96728c2bb95accd4799", null ],
-    [ "EVS_PartnerFalling", "trd__05__3__trap_8c.html#a54a1b0148f4169a25628f1d86ca46ec0", null ],
-    [ "EVS_PlayerFalling", "trd__05__3__trap_8c.html#ad29ee3a50da6a571ef4ad1bc26bb35a1", null ],
-    [ "Falling", "trd__05__3__trap_8c.html#a7c5730d8ad605e2dcfc4f83bab06bc82", null ],
-    [ "FallPath", "trd__05__3__trap_8c.html#a050b82e7daf2e071a6abdbcf828546ac", null ],
-    [ "UnusedPath", "trd__05__3__trap_8c.html#a1fae996fe81548a85989f8d655c981ba", null ]
+    [ "appendGfx_FallingSprite", "trd__05__3__trap_8c.html#a069a407294540eaf6ad045529a9409fa", null ]
 ];

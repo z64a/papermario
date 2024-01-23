@@ -22,14 +22,14 @@ var SentinelAI_8inc_8c =
       [ "AI_STATE_SENTINEL_RETURN_HOME", "SentinelAI_8inc_8c.html#ae5815f5e49fee9e906b755ce09af99ecab05dafa347a13fe59b7a42c30d2b9b98", null ],
       [ "AI_STATE_SENTINEL_CAUGHT_PLAYER", "SentinelAI_8inc_8c.html#ae5815f5e49fee9e906b755ce09af99ecac21c9c063f8f4ac9d7f6cf12053430e1", null ]
     ] ],
-    [ "SentinelAI_Chase", "SentinelAI_8inc_8c.html#a3f62a7404bb4cb5f74647f97669e11a8", null ],
-    [ "SentinelAI_ChaseInit", "SentinelAI_8inc_8c.html#a85f2f3c9ce7ee82e1acc238307499530", null ],
-    [ "SentinelAI_Descend", "SentinelAI_8inc_8c.html#a0c6d1d0874599430648f6ebf3b656a8c", null ],
-    [ "SentinelAI_DescendInit", "SentinelAI_8inc_8c.html#ac499682395607d307f30a6778aa22e41", null ],
-    [ "SentinelAI_GrabPlayer", "SentinelAI_8inc_8c.html#ad2369d852da4e343020d792d93438188", null ],
-    [ "SentinelAI_LosePlayer", "SentinelAI_8inc_8c.html#a542f07a2dcb3272867e164a2f00c1cb8", null ],
-    [ "SentinelAI_LosePlayerInit", "SentinelAI_8inc_8c.html#ada91f79bfd179dfb4662f686941c29fc", null ],
-    [ "SentinelAI_PostLosePlayer", "SentinelAI_8inc_8c.html#ae826b70c81b1873b418b97aac8c39a71", null ],
-    [ "SentinelAI_ReturnHome", "SentinelAI_8inc_8c.html#ae7856f88b69fbf4e03fbfb16179380a4", null ],
-    [ "SentinelAI_ReturnHomeInit", "SentinelAI_8inc_8c.html#a4faf277d6dd1a7e530756de41a356333", null ]
+    [ "SentinelAI_Chase", "SentinelAI_8inc_8c.html#aa76f21628a711e066834f144b8a6cd9d", null ],
+    [ "SentinelAI_ChaseInit", "SentinelAI_8inc_8c.html#a938636bb995a583885d7e550abb22575", null ],
+    [ "SentinelAI_Descend", "SentinelAI_8inc_8c.html#a210b6a1e762bda5e7447cb59a18bd106", null ],
+    [ "SentinelAI_DescendInit", "SentinelAI_8inc_8c.html#afa38b1eea77de65b05b8bbbe40c6b0fe", null ],
+    [ "SentinelAI_GrabPlayer", "SentinelAI_8inc_8c.html#a0b544e4e54b30c972604afab7c0601d6", null ],
+    [ "SentinelAI_LosePlayer", "SentinelAI_8inc_8c.html#ab83452b124374a858b04739c46488e1e", null ],
+    [ "SentinelAI_LosePlayerInit", "SentinelAI_8inc_8c.html#a8f4ef8312d96540c85a74161e7b345da", null ],
+    [ "SentinelAI_PostLosePlayer", "SentinelAI_8inc_8c.html#a327a570fbb4f4ccf32d05aa6743147ac", null ],
+    [ "SentinelAI_ReturnHome", "SentinelAI_8inc_8c.html#a7d8cee210ca105daf38ff6463824ac08", null ],
+    [ "SentinelAI_ReturnHomeInit", "SentinelAI_8inc_8c.html#adeb62c3dde4aa638001ec8477a9d517d", null ]
 ];

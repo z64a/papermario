@@ -1,35 +1,6 @@
 var battle_2partner_2goombario_8c =
 [
     [ "NAMESPACE", "battle_2partner_2goombario_8c.html#afa7779fe56b160955b535cd6a8aaf8f4", null ],
-    [ "ActorPartIDs", "battle_2partner_2goombario_8c.html#ad1692e67fbd5aad52eec868da37473f4", [
-      [ "PRT_MAIN", "battle_2partner_2goombario_8c.html#ad1692e67fbd5aad52eec868da37473f4a9928880a6fae88debc8f3ceccc0b2cd8", null ]
-    ] ],
-    [ "actionCommandTable", "battle_2partner_2goombario_8c.html#a357f50bbe8dd57ffc0fea65f557661bb", null ],
-    [ "ActorParts", "battle_2partner_2goombario_8c.html#a853e88c6ebafb84b74899284b53af933", null ],
     [ "bActorTattles", "battle_2partner_2goombario_8c.html#acbd622a8afc64de8f81d40a90153fcbc", null ],
-    [ "calcJumpTime", "battle_2partner_2goombario_8c.html#a0ce524721f8ba0d83a4b1eab5276e419", null ],
-    [ "DefaultAnims", "battle_2partner_2goombario_8c.html#a320d15d1a452c2da7f00478b0feabd9e", null ],
-    [ "DefenseTable", "battle_2partner_2goombario_8c.html#acc777f400b15bb1865f5ee83d00f50ef", null ],
-    [ "EVS_Attack_Headbonk1", "battle_2partner_2goombario_8c.html#af1a153f8000e9771b1f16749ec50bade", null ],
-    [ "EVS_Attack_Headbonk2", "battle_2partner_2goombario_8c.html#a6cb0b07b70a4651b09f59d2095fae31e", null ],
-    [ "EVS_Attack_Headbonk3", "battle_2partner_2goombario_8c.html#a0876e6c9bae6f9c6a11ecfda1ccb4dcf", null ],
-    [ "EVS_Celebrate", "battle_2partner_2goombario_8c.html#ab95db831e1e14bf31589f29bd763b4a0", null ],
-    [ "EVS_ExecuteAction", "battle_2partner_2goombario_8c.html#a2b7262ca59ca004c0558d551961567e2", null ],
-    [ "EVS_FirstStrike", "battle_2partner_2goombario_8c.html#a89ddd9b67b784d4b308b6540bba4c0a3", null ],
-    [ "EVS_HandleEvent", "battle_2partner_2goombario_8c.html#a191a76ac1b6d84546efddb06629c256b", null ],
-    [ "EVS_HandlePhase", "battle_2partner_2goombario_8c.html#aa52d1df55bcf45c9c7784b507fc7cdbe", null ],
-    [ "EVS_Idle", "battle_2partner_2goombario_8c.html#ac02de6d6ec6822435ed192fb6e84772f", null ],
-    [ "EVS_Init", "battle_2partner_2goombario_8c.html#a443c5d32ccc8ed964a05d38e02b27bbd", null ],
-    [ "EVS_Move_Charge", "battle_2partner_2goombario_8c.html#ac23989286b61e98973612f8bc7abbb7d", null ],
-    [ "EVS_Move_Multibonk", "battle_2partner_2goombario_8c.html#ad4b986f43c7b6ab72010dbad4e9b2f6d", null ],
-    [ "EVS_Move_Tattle", "battle_2partner_2goombario_8c.html#a4addd53d1b4f3aff03df405967f83848", null ],
-    [ "EVS_ReturnHome", "battle_2partner_2goombario_8c.html#a311bf8f166110cad295ed7cc32ce4853", null ],
-    [ "EVS_RunAway", "battle_2partner_2goombario_8c.html#a7a27a375a8a51bb944c1ca4da2e08751", null ],
-    [ "EVS_RunAwayFail", "battle_2partner_2goombario_8c.html#ae66445e7b59bae8ca1396f91bd48bf86", null ],
-    [ "EVS_TakeTurn", "battle_2partner_2goombario_8c.html#a9baecb217631d271ccfb2410bc947e63", null ],
-    [ "MultibonkChance", "battle_2partner_2goombario_8c.html#a847d9bf319644e3aced0aa1f9eb7f2ba", null ],
-    [ "NAMESPACE", "battle_2partner_2goombario_8c.html#a7d81b5aa9c7b4fcfa98a039812275b07", null ],
-    [ "returnHome2", "battle_2partner_2goombario_8c.html#a10a8d9ce727f11079fb4c250dffed73a", null ],
-    [ "runToTarget", "battle_2partner_2goombario_8c.html#ae44bbfb10266f538ae5d650d88eaa993", null ],
-    [ "StatusTable", "battle_2partner_2goombario_8c.html#a5fdf7357a3ef202588fa26666a84a89f", null ]
+    [ "battle_partner_goombario", "battle_2partner_2goombario_8c.html#a74187becc2f49ba4ac31720e05220894", null ]
 ];

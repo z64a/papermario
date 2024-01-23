@@ -1,31 +1,7 @@
 var area__kzn_2kzn__19_2kzn__19__4__npc_8c =
 [
-    [ "EVT_LETTER_PROMPT", "area__kzn_2kzn__19_2kzn__19__4__npc_8c.html#aac68ad64ae0609381de757e9d12ecf9b", null ],
+    [ "EVT_LETTER_PROMPT", "area__kzn_2kzn__19_2kzn__19__4__npc_8c.html#a0803cbd65ff812679943d850d492e4cf", null ],
     [ "EVT_LETTER_REWARD", "area__kzn_2kzn__19_2kzn__19__4__npc_8c.html#a05bcc77f5bc146918b044b9791148ed1", null ],
     [ "INCLUDE_IMG", "area__kzn_2kzn__19_2kzn__19__4__npc_8c.html#a7c26e884b46a02c6452cdfeb985692ca", null ],
-    [ "INCLUDE_PAL", "area__kzn_2kzn__19_2kzn__19__4__npc_8c.html#ae8f0b3f9f732c7c303ae7ec818de899c", null ],
-    [ "BossNPCs", "area__kzn_2kzn__19_2kzn__19__4__npc_8c.html#a91e0a896d2dd81c27800787cc6c28ff1", null ],
-    [ "EscapeNPCs", "area__kzn_2kzn__19_2kzn__19__4__npc_8c.html#aa427ec817acb872f6344c22aa8614640", null ],
-    [ "EVS_Kolorado_Escape", "area__kzn_2kzn__19_2kzn__19__4__npc_8c.html#a3fbad9235377562c1c8a954338076b85", null ],
-    [ "EVS_Misstar_Escape", "area__kzn_2kzn__19_2kzn__19__4__npc_8c.html#a80b3b15ef2c5c26c96dc700abcd106de", null ],
-    [ "EVS_NpcAux_LavaPiranha", "area__kzn_2kzn__19_2kzn__19__4__npc_8c.html#ae8246f72afbdd240c15403d29eb57a92", null ],
-    [ "EVS_NpcDefeat_LavaBud", "area__kzn_2kzn__19_2kzn__19__4__npc_8c.html#a4ea06055062b6339c4474b531163ec03", null ],
-    [ "EVS_NpcDefeat_LavaPiranha", "area__kzn_2kzn__19_2kzn__19__4__npc_8c.html#ade7d886b88370e20dbf0750551f62888", null ],
-    [ "EVS_NpcIdle_Kolorado", "area__kzn_2kzn__19_2kzn__19__4__npc_8c.html#aacd0c7d584051cd9bfa79aefeba41d78", null ],
-    [ "EVS_NpcIdle_LavaPiranha", "area__kzn_2kzn__19_2kzn__19__4__npc_8c.html#a0e95047b3f5e12beb84236b38d828c80", null ],
-    [ "EVS_NpcInit_Kolorado", "area__kzn_2kzn__19_2kzn__19__4__npc_8c.html#ab6a46ba66074195be498249d047df85c", null ],
-    [ "EVS_NpcInit_LavaBud", "area__kzn_2kzn__19_2kzn__19__4__npc_8c.html#a9a924c727f8c90cca68f9b91e4986e56", null ],
-    [ "EVS_NpcInit_LavaPiranha", "area__kzn_2kzn__19_2kzn__19__4__npc_8c.html#a71fd0505cb016f8e4dae472adb3c2be1", null ],
-    [ "EVS_NpcInteract_Kolorado", "area__kzn_2kzn__19_2kzn__19__4__npc_8c.html#a6c8dfec838e359358c93c2d8ef0f7f54", null ],
-    [ "EVS_PlayVinesAnim_Defeat", "area__kzn_2kzn__19_2kzn__19__4__npc_8c.html#a76486511336d8fc1382c950bb78f3260", null ],
-    [ "EVS_PlayVinesAnim_Emerge", "area__kzn_2kzn__19_2kzn__19__4__npc_8c.html#ac99b556db9cc8290976e1fde5c27fe59", null ],
-    [ "EVS_PlayVinesAnim_Idle", "area__kzn_2kzn__19_2kzn__19__4__npc_8c.html#adea72eb9bc91c2115a338664fb8f8f65", null ],
-    [ "EVS_PlayVinesAnim_Talk", "area__kzn_2kzn__19_2kzn__19__4__npc_8c.html#a86d967df07e3f4d34455862affd3fa9e", null ],
-    [ "ExtraAnims_LavaBud", "area__kzn_2kzn__19_2kzn__19__4__npc_8c.html#a4c5944856b2db34abea27ed8cf5ddb32", null ],
-    [ "ExtraAnims_LavaPiranha", "area__kzn_2kzn__19_2kzn__19__4__npc_8c.html#a9dc03fde1add60b3765c57ba3d510c41", null ],
-    [ "FlightPath", "area__kzn_2kzn__19_2kzn__19__4__npc_8c.html#a3ee0c54c0be819a9a62693986f58d8b4", null ],
-    [ "LetterList", "area__kzn_2kzn__19_2kzn__19__4__npc_8c.html#a4a8a32b1f4c1dd574514c747ce138ead", null ],
-    [ "NpcData_Kolorado", "area__kzn_2kzn__19_2kzn__19__4__npc_8c.html#a46526262be08dc9574f85d62470e2f66", null ],
-    [ "NpcData_LavaPiranha", "area__kzn_2kzn__19_2kzn__19__4__npc_8c.html#a4433140078e25aa32b051345e3f283b6", null ],
-    [ "NpcData_Misstar", "area__kzn_2kzn__19_2kzn__19__4__npc_8c.html#a06ca50c0024cef74792a455c70079a68", null ]
+    [ "INCLUDE_PAL", "area__kzn_2kzn__19_2kzn__19__4__npc_8c.html#ae8f0b3f9f732c7c303ae7ec818de899c", null ]
 ];

@@ -104,8 +104,7 @@ $(function(){initNavTree('npc__merlee_8c.html',''); initResizable(); });
   <div class="summary">
 <a href="#nested-classes">Data Structures</a> &#124;
 <a href="#enum-members">Enumerations</a> &#124;
-<a href="#func-members">Functions</a> &#124;
-<a href="#var-members">Variables</a>  </div>
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle"><div class="title">npc_merlee.c File Reference</div></div>
 </div><!--header-->
 <div class="contents">
@@ -117,43 +116,43 @@ Data Structures</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumerations</h2></td></tr>
+<tr class="memitem:a6fde86696b9fb4575b16ddc150ff0a84" id="r_a6fde86696b9fb4575b16ddc150ff0a84"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <br />
+&#160;&#160;<a class="el" href="#a6fde86696b9fb4575b16ddc150ff0a84af9a1883fcea81a166880286a6f2fe0d6">RITUAL_VAR_SHUFFLE_IMGFX</a> = ArrayVar(0)
+, <a class="el" href="#a6fde86696b9fb4575b16ddc150ff0a84aed9d20b25d0a7ed2f88dfe87ea8e4fe2">RITUAL_VAR_FILP1_IMGFX</a> = ArrayVar(1)
+, <a class="el" href="#a6fde86696b9fb4575b16ddc150ff0a84a7a5716020675b18d191313bb2ca3a694">RITUAL_VAR_FILP2_IMGFX</a> = ArrayVar(2)
+, <a class="el" href="#a6fde86696b9fb4575b16ddc150ff0a84a4294a376931923280842ac7b7459bf4e">RITUAL_VAR_FILP3_IMGFX</a> = ArrayVar(3)
+, <br />
+&#160;&#160;<a class="el" href="#a6fde86696b9fb4575b16ddc150ff0a84add754ef8d96f37f872b70c77d0190ad3">RITUAL_VAR_POS_X</a> = ArrayVar(4)
+, <a class="el" href="#a6fde86696b9fb4575b16ddc150ff0a84aa7cd0eda26148ca4fc355065392cf0e0">RITUAL_VAR_POS_Y</a> = ArrayVar(5)
+, <a class="el" href="#a6fde86696b9fb4575b16ddc150ff0a84a7530c3e6844b76a4e1e8f7194817e30a">RITUAL_VAR_POS_Z</a> = ArrayVar(6)
+, <a class="el" href="#a6fde86696b9fb4575b16ddc150ff0a84ad293376a5bc645dd6342a7d60c740c80">RITUAL_VAR_WORKER</a> = ArrayVar(7)
+, <br />
+&#160;&#160;<a class="el" href="#a6fde86696b9fb4575b16ddc150ff0a84a89afc17330bd5b51e32a786fe36f732c">RITUAL_VAR_ORB_EFFECT</a> = ArrayVar(8)
+, <a class="el" href="#a6fde86696b9fb4575b16ddc150ff0a84a716f9cc886231d5834c7fb9f58dbd2e7">RITUAL_VAR_STATE</a> = ArrayVar(9)
+<br />
+ }</td></tr>
+<tr class="separator:a6fde86696b9fb4575b16ddc150ff0a84"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a65a8130020b0f5722cda500f2e67acc2" id="r_a65a8130020b0f5722cda500f2e67acc2"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <br />
-&#160;&#160;<a class="el" href="#a65a8130020b0f5722cda500f2e67acc2af9a1883fcea81a166880286a6f2fe0d6">RITUAL_VAR_SHUFFLE_IMGFX</a> = ArrayVar(0)
-, <a class="el" href="#a65a8130020b0f5722cda500f2e67acc2aed9d20b25d0a7ed2f88dfe87ea8e4fe2">RITUAL_VAR_FILP1_IMGFX</a> = ArrayVar(1)
-, <a class="el" href="#a65a8130020b0f5722cda500f2e67acc2a7a5716020675b18d191313bb2ca3a694">RITUAL_VAR_FILP2_IMGFX</a> = ArrayVar(2)
-, <a class="el" href="#a65a8130020b0f5722cda500f2e67acc2a4294a376931923280842ac7b7459bf4e">RITUAL_VAR_FILP3_IMGFX</a> = ArrayVar(3)
+&#160;&#160;<a class="el" href="#a65a8130020b0f5722cda500f2e67acc2a3db39313aa4951b2b2e686fda4e93064">RITUAL_STATE_INIT</a> = 0
+, <a class="el" href="#a65a8130020b0f5722cda500f2e67acc2af013ed79442080b529a87cfc7a828b56">RITUAL_STATE_APPEAR</a> = 1
+, <a class="el" href="#a65a8130020b0f5722cda500f2e67acc2a72845495b514dd8fb0d54ded170d0388">RITUAL_STATE_2</a> = 2
+, <a class="el" href="#a65a8130020b0f5722cda500f2e67acc2a1f1011860c2727731df45f9803d31d09">RITUAL_STATE_3</a> = 3
 , <br />
-&#160;&#160;<a class="el" href="#a65a8130020b0f5722cda500f2e67acc2add754ef8d96f37f872b70c77d0190ad3">RITUAL_VAR_POS_X</a> = ArrayVar(4)
-, <a class="el" href="#a65a8130020b0f5722cda500f2e67acc2aa7cd0eda26148ca4fc355065392cf0e0">RITUAL_VAR_POS_Y</a> = ArrayVar(5)
-, <a class="el" href="#a65a8130020b0f5722cda500f2e67acc2a7530c3e6844b76a4e1e8f7194817e30a">RITUAL_VAR_POS_Z</a> = ArrayVar(6)
-, <a class="el" href="#a65a8130020b0f5722cda500f2e67acc2ad293376a5bc645dd6342a7d60c740c80">RITUAL_VAR_WORKER</a> = ArrayVar(7)
+&#160;&#160;<a class="el" href="#a65a8130020b0f5722cda500f2e67acc2af8686e8c1a80a4b070bf403453d4c531">RITUAL_STATE_4</a> = 4
+, <a class="el" href="#a65a8130020b0f5722cda500f2e67acc2a480d5df934901d8c86b81fe8decc0c44">RITUAL_STATE_FLIP_LEFT</a> = 5
+, <a class="el" href="#a65a8130020b0f5722cda500f2e67acc2a3cddcf53236881d522adcc28a664af45">RITUAL_STATE_FLIP_MIDDLE</a> = 6
+, <a class="el" href="#a65a8130020b0f5722cda500f2e67acc2ade1491646e5ef225d6ce3211aa57963a">RITUAL_STATE_FLIP_RIGHT</a> = 7
 , <br />
-&#160;&#160;<a class="el" href="#a65a8130020b0f5722cda500f2e67acc2a89afc17330bd5b51e32a786fe36f732c">RITUAL_VAR_ORB_EFFECT</a> = ArrayVar(8)
-, <a class="el" href="#a65a8130020b0f5722cda500f2e67acc2a716f9cc886231d5834c7fb9f58dbd2e7">RITUAL_VAR_STATE</a> = ArrayVar(9)
+&#160;&#160;<a class="el" href="#a65a8130020b0f5722cda500f2e67acc2aba6cf061ad9f12effb5482b2b34d2328">RITUAL_STATE_8</a> = 8
+, <a class="el" href="#a65a8130020b0f5722cda500f2e67acc2aef9803119ce92ef215ff4ae9379ce958">RITUAL_STATE_9</a> = 9
+, <a class="el" href="#a65a8130020b0f5722cda500f2e67acc2a5a3d937f51870d241c8c7c3c9718bced">RITUAL_STATE_A</a> = 10
+, <a class="el" href="#a65a8130020b0f5722cda500f2e67acc2a60e2a520ebd7918f4d3726a02b067350">RITUAL_STATE_B</a> = 11
+, <br />
+&#160;&#160;<a class="el" href="#a65a8130020b0f5722cda500f2e67acc2a85a4a65f912226eae9184926d35d2e90">RITUAL_STATE_C</a> = 12
+, <a class="el" href="#a65a8130020b0f5722cda500f2e67acc2a89c1705b714053a0b0f742acfbf86171">RITUAL_STATE_D</a> = 13
 <br />
  }</td></tr>
 <tr class="separator:a65a8130020b0f5722cda500f2e67acc2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a188c132f478fb544e0213ea0020585bc" id="r_a188c132f478fb544e0213ea0020585bc"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <br />
-&#160;&#160;<a class="el" href="#a188c132f478fb544e0213ea0020585bca3db39313aa4951b2b2e686fda4e93064">RITUAL_STATE_INIT</a> = 0
-, <a class="el" href="#a188c132f478fb544e0213ea0020585bcaf013ed79442080b529a87cfc7a828b56">RITUAL_STATE_APPEAR</a> = 1
-, <a class="el" href="#a188c132f478fb544e0213ea0020585bca72845495b514dd8fb0d54ded170d0388">RITUAL_STATE_2</a> = 2
-, <a class="el" href="#a188c132f478fb544e0213ea0020585bca1f1011860c2727731df45f9803d31d09">RITUAL_STATE_3</a> = 3
-, <br />
-&#160;&#160;<a class="el" href="#a188c132f478fb544e0213ea0020585bcaf8686e8c1a80a4b070bf403453d4c531">RITUAL_STATE_4</a> = 4
-, <a class="el" href="#a188c132f478fb544e0213ea0020585bca480d5df934901d8c86b81fe8decc0c44">RITUAL_STATE_FLIP_LEFT</a> = 5
-, <a class="el" href="#a188c132f478fb544e0213ea0020585bca3cddcf53236881d522adcc28a664af45">RITUAL_STATE_FLIP_MIDDLE</a> = 6
-, <a class="el" href="#a188c132f478fb544e0213ea0020585bcade1491646e5ef225d6ce3211aa57963a">RITUAL_STATE_FLIP_RIGHT</a> = 7
-, <br />
-&#160;&#160;<a class="el" href="#a188c132f478fb544e0213ea0020585bcaba6cf061ad9f12effb5482b2b34d2328">RITUAL_STATE_8</a> = 8
-, <a class="el" href="#a188c132f478fb544e0213ea0020585bcaef9803119ce92ef215ff4ae9379ce958">RITUAL_STATE_9</a> = 9
-, <a class="el" href="#a188c132f478fb544e0213ea0020585bca5a3d937f51870d241c8c7c3c9718bced">RITUAL_STATE_A</a> = 10
-, <a class="el" href="#a188c132f478fb544e0213ea0020585bca60e2a520ebd7918f4d3726a02b067350">RITUAL_STATE_B</a> = 11
-, <br />
-&#160;&#160;<a class="el" href="#a188c132f478fb544e0213ea0020585bca85a4a65f912226eae9184926d35d2e90">RITUAL_STATE_C</a> = 12
-, <a class="el" href="#a188c132f478fb544e0213ea0020585bca89c1705b714053a0b0f742acfbf86171">RITUAL_STATE_D</a> = 13
-<br />
- }</td></tr>
-<tr class="separator:a188c132f478fb544e0213ea0020585bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
@@ -163,43 +162,14 @@ Functions</h2></td></tr>
 <tr class="separator:a4421e17831ef3c0254b3285bab9e1647"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2f31b16bfbc825c0a50820f8a17fc08b" id="r_a2f31b16bfbc825c0a50820f8a17fc08b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2f31b16bfbc825c0a50820f8a17fc08b">INCLUDE_PAL</a> (&quot;world/area_dro/dro_02/card.pal&quot;, dro_02_card_pal)</td></tr>
 <tr class="separator:a2f31b16bfbc825c0a50820f8a17fc08b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac399a85987b09d898407e8420c9bfc75" id="r_ac399a85987b09d898407e8420c9bfc75"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac399a85987b09d898407e8420c9bfc75">card_worker_update</a> (void)</td></tr>
-<tr class="separator:ac399a85987b09d898407e8420c9bfc75"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a732ddd3035c030930cbb1ba564397ffa" id="r_a732ddd3035c030930cbb1ba564397ffa"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a732ddd3035c030930cbb1ba564397ffa">card_worker_render</a> (void)</td></tr>
-<tr class="separator:a732ddd3035c030930cbb1ba564397ffa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6d995bb398b8887742ba484cb2b9b23c" id="r_a6d995bb398b8887742ba484cb2b9b23c"><td class="memItemLeft" align="right" valign="top">u32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6d995bb398b8887742ba484cb2b9b23c">appendGfx_ritual_card</a> (<a class="el" href="#structRitualCard">RitualCard</a> *card, <a class="el" href="common__structs_8h.html#a9587453a89fcbd13a2ba23c4b74fc0fd">Matrix4f</a> mtxParent)</td></tr>
-<tr class="separator:a6d995bb398b8887742ba484cb2b9b23c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9cbf3293dfb9499cb5723031f31c24c2" id="r_a9cbf3293dfb9499cb5723031f31c24c2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9cbf3293dfb9499cb5723031f31c24c2">GetCardOrientation</a> (s32 index, f32 *outX, f32 *outY, f32 *outZ, f32 *outAngle)</td></tr>
-<tr class="separator:a9cbf3293dfb9499cb5723031f31c24c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
-Variables</h2></td></tr>
-<tr class="memitem:aac3e2e4bd3bec68ebd563e5f27c4d195" id="r_aac3e2e4bd3bec68ebd563e5f27c4d195"><td class="memItemLeft" align="right" valign="top"><a class="el" href="macros_8h.html#a476baf4669c951eb7864d94f15a49f75">BSS</a> <a class="el" href="common__structs_8h.html#structEvt">Evt</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aac3e2e4bd3bec68ebd563e5f27c4d195">CreatorScript</a></td></tr>
-<tr class="separator:aac3e2e4bd3bec68ebd563e5f27c4d195"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac3e3c56d40322abeaff46e7e5fa93dd8" id="r_ac3e3c56d40322abeaff46e7e5fa93dd8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="macros_8h.html#a476baf4669c951eb7864d94f15a49f75">BSS</a> s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac3e3c56d40322abeaff46e7e5fa93dd8">RitualBuffer</a> [16]</td></tr>
-<tr class="separator:ac3e3c56d40322abeaff46e7e5fa93dd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad16164fbd735ccfa723e14f74798065a" id="r_ad16164fbd735ccfa723e14f74798065a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="macros_8h.html#a476baf4669c951eb7864d94f15a49f75">BSS</a> <a class="el" href="#structRitualCard">RitualCard</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad16164fbd735ccfa723e14f74798065a">RitualCards</a> [3]</td></tr>
-<tr class="separator:ad16164fbd735ccfa723e14f74798065a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adacb4b46b77d219ae87b6a3a52e2e3ce" id="r_adacb4b46b77d219ae87b6a3a52e2e3ce"><td class="memItemLeft" align="right" valign="top">s8&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adacb4b46b77d219ae87b6a3a52e2e3ce">MerleeSpellCasts</a> []</td></tr>
-<tr class="separator:adacb4b46b77d219ae87b6a3a52e2e3ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a76076bed2f7523d49d5eed568be8134a" id="r_a76076bed2f7523d49d5eed568be8134a"><td class="memItemLeft" align="right" valign="top">s8&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a76076bed2f7523d49d5eed568be8134a">MerleeCoinCosts</a> []</td></tr>
-<tr class="separator:a76076bed2f7523d49d5eed568be8134a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac05b5a80bff88b036ff707a435d69370" id="r_ac05b5a80bff88b036ff707a435d69370"><td class="memItemLeft" align="right" valign="top">s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac05b5a80bff88b036ff707a435d69370">pad_XX111</a> [] = { 0 }</td></tr>
-<tr class="separator:ac05b5a80bff88b036ff707a435d69370"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a841dfe8a45745c83ff881b367c3393a8" id="r_a841dfe8a45745c83ff881b367c3393a8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="common__structs_8h.html#ac718b608783f254b030240252606fd0e">EvtScript</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a841dfe8a45745c83ff881b367c3393a8">EVS_NpcAuxAI_Merlee</a></td></tr>
-<tr class="separator:a841dfe8a45745c83ff881b367c3393a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2b662c1e02de09b815ae02570a517340" id="r_a2b662c1e02de09b815ae02570a517340"><td class="memItemLeft" align="right" valign="top"><a class="el" href="common__structs_8h.html#ac718b608783f254b030240252606fd0e">EvtScript</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2b662c1e02de09b815ae02570a517340">EVS_NpcAI_Merlee</a></td></tr>
-<tr class="separator:a2b662c1e02de09b815ae02570a517340"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abd1658e5ea462cc12259edd5ed472785" id="r_abd1658e5ea462cc12259edd5ed472785"><td class="memItemLeft" align="right" valign="top"><a class="el" href="common__structs_8h.html#ac718b608783f254b030240252606fd0e">EvtScript</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abd1658e5ea462cc12259edd5ed472785">EVS_PerformRitual</a></td></tr>
-<tr class="separator:abd1658e5ea462cc12259edd5ed472785"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4bec55dfac1443ebe3aa2a9db99e3d99" id="r_a4bec55dfac1443ebe3aa2a9db99e3d99"><td class="memItemLeft" align="right" valign="top"><a class="el" href="common__structs_8h.html#ac718b608783f254b030240252606fd0e">EvtScript</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4bec55dfac1443ebe3aa2a9db99e3d99">EVS_BeginMerleeCamera</a></td></tr>
-<tr class="separator:a4bec55dfac1443ebe3aa2a9db99e3d99"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4ec62bd3ea8fe139f1d0da97d50d6adc" id="r_a4ec62bd3ea8fe139f1d0da97d50d6adc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="common__structs_8h.html#ac718b608783f254b030240252606fd0e">EvtScript</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4ec62bd3ea8fe139f1d0da97d50d6adc">EVS_EndMerleeCamera</a></td></tr>
-<tr class="separator:a4ec62bd3ea8fe139f1d0da97d50d6adc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a855a5c47fb67f2563d7b3777644ed995" id="r_a855a5c47fb67f2563d7b3777644ed995"><td class="memItemLeft" align="right" valign="top"><a class="el" href="common__structs_8h.html#ac718b608783f254b030240252606fd0e">EvtScript</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a855a5c47fb67f2563d7b3777644ed995">EVS_NpcInteract_Merlee</a></td></tr>
-<tr class="separator:a855a5c47fb67f2563d7b3777644ed995"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a51acc7db57a64f1c595e7cb39c4f5d41" id="r_a51acc7db57a64f1c595e7cb39c4f5d41"><td class="memItemLeft" align="right" valign="top"><a class="el" href="npc_8h.html#structNpcSettings">NpcSettings</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a51acc7db57a64f1c595e7cb39c4f5d41">NpcSettings_Merlee</a></td></tr>
-<tr class="separator:a51acc7db57a64f1c595e7cb39c4f5d41"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9fb3fba9c201a658ceec5aa8e447b90c" id="r_a9fb3fba9c201a658ceec5aa8e447b90c"><td class="memItemLeft" align="right" valign="top">void N&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9fb3fba9c201a658ceec5aa8e447b90c">card_worker_update</a> (void)</td></tr>
+<tr class="separator:a9fb3fba9c201a658ceec5aa8e447b90c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a33a8ae47aa1c470b5558506036780d45" id="r_a33a8ae47aa1c470b5558506036780d45"><td class="memItemLeft" align="right" valign="top">void N&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a33a8ae47aa1c470b5558506036780d45">card_worker_render</a> (void)</td></tr>
+<tr class="separator:a33a8ae47aa1c470b5558506036780d45"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad485da3884ee2ce838978f2dc03b4dd0" id="r_ad485da3884ee2ce838978f2dc03b4dd0"><td class="memItemLeft" align="right" valign="top">u32 N&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad485da3884ee2ce838978f2dc03b4dd0">appendGfx_ritual_card</a> (<a class="el" href="#structRitualCard">RitualCard</a> *card, <a class="el" href="common__structs_8h.html#a9587453a89fcbd13a2ba23c4b74fc0fd">Matrix4f</a> mtxParent)</td></tr>
+<tr class="separator:ad485da3884ee2ce838978f2dc03b4dd0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaa09fe6b5f686d0296aa2c12f985dfc7" id="r_aaa09fe6b5f686d0296aa2c12f985dfc7"><td class="memItemLeft" align="right" valign="top">void N&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaa09fe6b5f686d0296aa2c12f985dfc7">GetCardOrientation</a> (s32 index, f32 *outX, f32 *outY, f32 *outZ, f32 *outAngle)</td></tr>
+<tr class="separator:aaa09fe6b5f686d0296aa2c12f985dfc7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <hr/><h2 class="groupheader">Data Structure Documentation</h2>
 <a name="structRitualCard" id="structRitualCard"></a>
@@ -262,6 +232,32 @@ yaw</td>
 </div>
 </div>
 <h2 class="groupheader">Enumeration Type Documentation</h2>
+<a id="a6fde86696b9fb4575b16ddc150ff0a84" name="a6fde86696b9fb4575b16ddc150ff0a84"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6fde86696b9fb4575b16ddc150ff0a84">&#9670;&#160;</a></span>anonymous enum</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">anonymous enum</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a6fde86696b9fb4575b16ddc150ff0a84af9a1883fcea81a166880286a6f2fe0d6" name="a6fde86696b9fb4575b16ddc150ff0a84af9a1883fcea81a166880286a6f2fe0d6"></a>RITUAL_VAR_SHUFFLE_IMGFX&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a6fde86696b9fb4575b16ddc150ff0a84aed9d20b25d0a7ed2f88dfe87ea8e4fe2" name="a6fde86696b9fb4575b16ddc150ff0a84aed9d20b25d0a7ed2f88dfe87ea8e4fe2"></a>RITUAL_VAR_FILP1_IMGFX&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a6fde86696b9fb4575b16ddc150ff0a84a7a5716020675b18d191313bb2ca3a694" name="a6fde86696b9fb4575b16ddc150ff0a84a7a5716020675b18d191313bb2ca3a694"></a>RITUAL_VAR_FILP2_IMGFX&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a6fde86696b9fb4575b16ddc150ff0a84a4294a376931923280842ac7b7459bf4e" name="a6fde86696b9fb4575b16ddc150ff0a84a4294a376931923280842ac7b7459bf4e"></a>RITUAL_VAR_FILP3_IMGFX&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a6fde86696b9fb4575b16ddc150ff0a84add754ef8d96f37f872b70c77d0190ad3" name="a6fde86696b9fb4575b16ddc150ff0a84add754ef8d96f37f872b70c77d0190ad3"></a>RITUAL_VAR_POS_X&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a6fde86696b9fb4575b16ddc150ff0a84aa7cd0eda26148ca4fc355065392cf0e0" name="a6fde86696b9fb4575b16ddc150ff0a84aa7cd0eda26148ca4fc355065392cf0e0"></a>RITUAL_VAR_POS_Y&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a6fde86696b9fb4575b16ddc150ff0a84a7530c3e6844b76a4e1e8f7194817e30a" name="a6fde86696b9fb4575b16ddc150ff0a84a7530c3e6844b76a4e1e8f7194817e30a"></a>RITUAL_VAR_POS_Z&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a6fde86696b9fb4575b16ddc150ff0a84ad293376a5bc645dd6342a7d60c740c80" name="a6fde86696b9fb4575b16ddc150ff0a84ad293376a5bc645dd6342a7d60c740c80"></a>RITUAL_VAR_WORKER&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a6fde86696b9fb4575b16ddc150ff0a84a89afc17330bd5b51e32a786fe36f732c" name="a6fde86696b9fb4575b16ddc150ff0a84a89afc17330bd5b51e32a786fe36f732c"></a>RITUAL_VAR_ORB_EFFECT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a6fde86696b9fb4575b16ddc150ff0a84a716f9cc886231d5834c7fb9f58dbd2e7" name="a6fde86696b9fb4575b16ddc150ff0a84a716f9cc886231d5834c7fb9f58dbd2e7"></a>RITUAL_VAR_STATE&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
 <a id="a65a8130020b0f5722cda500f2e67acc2" name="a65a8130020b0f5722cda500f2e67acc2"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a65a8130020b0f5722cda500f2e67acc2">&#9670;&#160;</a></span>anonymous enum</h2>
 
@@ -274,59 +270,33 @@ yaw</td>
       </table>
 </div><div class="memdoc">
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a65a8130020b0f5722cda500f2e67acc2af9a1883fcea81a166880286a6f2fe0d6" name="a65a8130020b0f5722cda500f2e67acc2af9a1883fcea81a166880286a6f2fe0d6"></a>RITUAL_VAR_SHUFFLE_IMGFX&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a65a8130020b0f5722cda500f2e67acc2aed9d20b25d0a7ed2f88dfe87ea8e4fe2" name="a65a8130020b0f5722cda500f2e67acc2aed9d20b25d0a7ed2f88dfe87ea8e4fe2"></a>RITUAL_VAR_FILP1_IMGFX&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a65a8130020b0f5722cda500f2e67acc2a7a5716020675b18d191313bb2ca3a694" name="a65a8130020b0f5722cda500f2e67acc2a7a5716020675b18d191313bb2ca3a694"></a>RITUAL_VAR_FILP2_IMGFX&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a65a8130020b0f5722cda500f2e67acc2a4294a376931923280842ac7b7459bf4e" name="a65a8130020b0f5722cda500f2e67acc2a4294a376931923280842ac7b7459bf4e"></a>RITUAL_VAR_FILP3_IMGFX&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a65a8130020b0f5722cda500f2e67acc2add754ef8d96f37f872b70c77d0190ad3" name="a65a8130020b0f5722cda500f2e67acc2add754ef8d96f37f872b70c77d0190ad3"></a>RITUAL_VAR_POS_X&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a65a8130020b0f5722cda500f2e67acc2aa7cd0eda26148ca4fc355065392cf0e0" name="a65a8130020b0f5722cda500f2e67acc2aa7cd0eda26148ca4fc355065392cf0e0"></a>RITUAL_VAR_POS_Y&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a65a8130020b0f5722cda500f2e67acc2a7530c3e6844b76a4e1e8f7194817e30a" name="a65a8130020b0f5722cda500f2e67acc2a7530c3e6844b76a4e1e8f7194817e30a"></a>RITUAL_VAR_POS_Z&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a65a8130020b0f5722cda500f2e67acc2ad293376a5bc645dd6342a7d60c740c80" name="a65a8130020b0f5722cda500f2e67acc2ad293376a5bc645dd6342a7d60c740c80"></a>RITUAL_VAR_WORKER&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a65a8130020b0f5722cda500f2e67acc2a89afc17330bd5b51e32a786fe36f732c" name="a65a8130020b0f5722cda500f2e67acc2a89afc17330bd5b51e32a786fe36f732c"></a>RITUAL_VAR_ORB_EFFECT&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a65a8130020b0f5722cda500f2e67acc2a716f9cc886231d5834c7fb9f58dbd2e7" name="a65a8130020b0f5722cda500f2e67acc2a716f9cc886231d5834c7fb9f58dbd2e7"></a>RITUAL_VAR_STATE&#160;</td><td class="fielddoc"></td></tr>
-</table>
-
-</div>
-</div>
-<a id="a188c132f478fb544e0213ea0020585bc" name="a188c132f478fb544e0213ea0020585bc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a188c132f478fb544e0213ea0020585bc">&#9670;&#160;</a></span>anonymous enum</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">anonymous enum</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a188c132f478fb544e0213ea0020585bca3db39313aa4951b2b2e686fda4e93064" name="a188c132f478fb544e0213ea0020585bca3db39313aa4951b2b2e686fda4e93064"></a>RITUAL_STATE_INIT&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a188c132f478fb544e0213ea0020585bcaf013ed79442080b529a87cfc7a828b56" name="a188c132f478fb544e0213ea0020585bcaf013ed79442080b529a87cfc7a828b56"></a>RITUAL_STATE_APPEAR&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a188c132f478fb544e0213ea0020585bca72845495b514dd8fb0d54ded170d0388" name="a188c132f478fb544e0213ea0020585bca72845495b514dd8fb0d54ded170d0388"></a>RITUAL_STATE_2&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a188c132f478fb544e0213ea0020585bca1f1011860c2727731df45f9803d31d09" name="a188c132f478fb544e0213ea0020585bca1f1011860c2727731df45f9803d31d09"></a>RITUAL_STATE_3&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a188c132f478fb544e0213ea0020585bcaf8686e8c1a80a4b070bf403453d4c531" name="a188c132f478fb544e0213ea0020585bcaf8686e8c1a80a4b070bf403453d4c531"></a>RITUAL_STATE_4&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a188c132f478fb544e0213ea0020585bca480d5df934901d8c86b81fe8decc0c44" name="a188c132f478fb544e0213ea0020585bca480d5df934901d8c86b81fe8decc0c44"></a>RITUAL_STATE_FLIP_LEFT&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a188c132f478fb544e0213ea0020585bca3cddcf53236881d522adcc28a664af45" name="a188c132f478fb544e0213ea0020585bca3cddcf53236881d522adcc28a664af45"></a>RITUAL_STATE_FLIP_MIDDLE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a188c132f478fb544e0213ea0020585bcade1491646e5ef225d6ce3211aa57963a" name="a188c132f478fb544e0213ea0020585bcade1491646e5ef225d6ce3211aa57963a"></a>RITUAL_STATE_FLIP_RIGHT&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a188c132f478fb544e0213ea0020585bcaba6cf061ad9f12effb5482b2b34d2328" name="a188c132f478fb544e0213ea0020585bcaba6cf061ad9f12effb5482b2b34d2328"></a>RITUAL_STATE_8&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a188c132f478fb544e0213ea0020585bcaef9803119ce92ef215ff4ae9379ce958" name="a188c132f478fb544e0213ea0020585bcaef9803119ce92ef215ff4ae9379ce958"></a>RITUAL_STATE_9&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a188c132f478fb544e0213ea0020585bca5a3d937f51870d241c8c7c3c9718bced" name="a188c132f478fb544e0213ea0020585bca5a3d937f51870d241c8c7c3c9718bced"></a>RITUAL_STATE_A&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a188c132f478fb544e0213ea0020585bca60e2a520ebd7918f4d3726a02b067350" name="a188c132f478fb544e0213ea0020585bca60e2a520ebd7918f4d3726a02b067350"></a>RITUAL_STATE_B&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a188c132f478fb544e0213ea0020585bca85a4a65f912226eae9184926d35d2e90" name="a188c132f478fb544e0213ea0020585bca85a4a65f912226eae9184926d35d2e90"></a>RITUAL_STATE_C&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a188c132f478fb544e0213ea0020585bca89c1705b714053a0b0f742acfbf86171" name="a188c132f478fb544e0213ea0020585bca89c1705b714053a0b0f742acfbf86171"></a>RITUAL_STATE_D&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a65a8130020b0f5722cda500f2e67acc2a3db39313aa4951b2b2e686fda4e93064" name="a65a8130020b0f5722cda500f2e67acc2a3db39313aa4951b2b2e686fda4e93064"></a>RITUAL_STATE_INIT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a65a8130020b0f5722cda500f2e67acc2af013ed79442080b529a87cfc7a828b56" name="a65a8130020b0f5722cda500f2e67acc2af013ed79442080b529a87cfc7a828b56"></a>RITUAL_STATE_APPEAR&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a65a8130020b0f5722cda500f2e67acc2a72845495b514dd8fb0d54ded170d0388" name="a65a8130020b0f5722cda500f2e67acc2a72845495b514dd8fb0d54ded170d0388"></a>RITUAL_STATE_2&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a65a8130020b0f5722cda500f2e67acc2a1f1011860c2727731df45f9803d31d09" name="a65a8130020b0f5722cda500f2e67acc2a1f1011860c2727731df45f9803d31d09"></a>RITUAL_STATE_3&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a65a8130020b0f5722cda500f2e67acc2af8686e8c1a80a4b070bf403453d4c531" name="a65a8130020b0f5722cda500f2e67acc2af8686e8c1a80a4b070bf403453d4c531"></a>RITUAL_STATE_4&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a65a8130020b0f5722cda500f2e67acc2a480d5df934901d8c86b81fe8decc0c44" name="a65a8130020b0f5722cda500f2e67acc2a480d5df934901d8c86b81fe8decc0c44"></a>RITUAL_STATE_FLIP_LEFT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a65a8130020b0f5722cda500f2e67acc2a3cddcf53236881d522adcc28a664af45" name="a65a8130020b0f5722cda500f2e67acc2a3cddcf53236881d522adcc28a664af45"></a>RITUAL_STATE_FLIP_MIDDLE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a65a8130020b0f5722cda500f2e67acc2ade1491646e5ef225d6ce3211aa57963a" name="a65a8130020b0f5722cda500f2e67acc2ade1491646e5ef225d6ce3211aa57963a"></a>RITUAL_STATE_FLIP_RIGHT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a65a8130020b0f5722cda500f2e67acc2aba6cf061ad9f12effb5482b2b34d2328" name="a65a8130020b0f5722cda500f2e67acc2aba6cf061ad9f12effb5482b2b34d2328"></a>RITUAL_STATE_8&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a65a8130020b0f5722cda500f2e67acc2aef9803119ce92ef215ff4ae9379ce958" name="a65a8130020b0f5722cda500f2e67acc2aef9803119ce92ef215ff4ae9379ce958"></a>RITUAL_STATE_9&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a65a8130020b0f5722cda500f2e67acc2a5a3d937f51870d241c8c7c3c9718bced" name="a65a8130020b0f5722cda500f2e67acc2a5a3d937f51870d241c8c7c3c9718bced"></a>RITUAL_STATE_A&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a65a8130020b0f5722cda500f2e67acc2a60e2a520ebd7918f4d3726a02b067350" name="a65a8130020b0f5722cda500f2e67acc2a60e2a520ebd7918f4d3726a02b067350"></a>RITUAL_STATE_B&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a65a8130020b0f5722cda500f2e67acc2a85a4a65f912226eae9184926d35d2e90" name="a65a8130020b0f5722cda500f2e67acc2a85a4a65f912226eae9184926d35d2e90"></a>RITUAL_STATE_C&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a65a8130020b0f5722cda500f2e67acc2a89c1705b714053a0b0f742acfbf86171" name="a65a8130020b0f5722cda500f2e67acc2a89c1705b714053a0b0f742acfbf86171"></a>RITUAL_STATE_D&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="a6d995bb398b8887742ba484cb2b9b23c" name="a6d995bb398b8887742ba484cb2b9b23c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6d995bb398b8887742ba484cb2b9b23c">&#9670;&#160;</a></span>appendGfx_ritual_card()</h2>
+<a id="ad485da3884ee2ce838978f2dc03b4dd0" name="ad485da3884ee2ce838978f2dc03b4dd0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad485da3884ee2ce838978f2dc03b4dd0">&#9670;&#160;</a></span>appendGfx_ritual_card()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">u32 appendGfx_ritual_card </td>
+          <td class="memname">u32 N appendGfx_ritual_card </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#structRitualCard">RitualCard</a> *</td>          <td class="paramname"><span class="paramname"><em>card</em>, </span></td>
         </tr>
@@ -338,18 +308,18 @@ yaw</td>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="#a732ddd3035c030930cbb1ba564397ffa">card_worker_render()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="#a33a8ae47aa1c470b5558506036780d45">card_worker_render()</a>.</p>
 
 </div>
 </div>
-<a id="a732ddd3035c030930cbb1ba564397ffa" name="a732ddd3035c030930cbb1ba564397ffa"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a732ddd3035c030930cbb1ba564397ffa">&#9670;&#160;</a></span>card_worker_render()</h2>
+<a id="a33a8ae47aa1c470b5558506036780d45" name="a33a8ae47aa1c470b5558506036780d45"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a33a8ae47aa1c470b5558506036780d45">&#9670;&#160;</a></span>card_worker_render()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void card_worker_render </td>
+          <td class="memname">void N card_worker_render </td>
           <td>(</td>
           <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"></span></td><td>)</td>
           <td></td>
@@ -359,14 +329,14 @@ yaw</td>
 
 </div>
 </div>
-<a id="ac399a85987b09d898407e8420c9bfc75" name="ac399a85987b09d898407e8420c9bfc75"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac399a85987b09d898407e8420c9bfc75">&#9670;&#160;</a></span>card_worker_update()</h2>
+<a id="a9fb3fba9c201a658ceec5aa8e447b90c" name="a9fb3fba9c201a658ceec5aa8e447b90c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9fb3fba9c201a658ceec5aa8e447b90c">&#9670;&#160;</a></span>card_worker_update()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void card_worker_update </td>
+          <td class="memname">void N card_worker_update </td>
           <td>(</td>
           <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"></span></td><td>)</td>
           <td></td>
@@ -376,14 +346,14 @@ yaw</td>
 
 </div>
 </div>
-<a id="a9cbf3293dfb9499cb5723031f31c24c2" name="a9cbf3293dfb9499cb5723031f31c24c2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9cbf3293dfb9499cb5723031f31c24c2">&#9670;&#160;</a></span>GetCardOrientation()</h2>
+<a id="aaa09fe6b5f686d0296aa2c12f985dfc7" name="aaa09fe6b5f686d0296aa2c12f985dfc7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaa09fe6b5f686d0296aa2c12f985dfc7">&#9670;&#160;</a></span>GetCardOrientation()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void GetCardOrientation </td>
+          <td class="memname">void N GetCardOrientation </td>
           <td>(</td>
           <td class="paramtype">s32</td>          <td class="paramname"><span class="paramname"><em>index</em>, </span></td>
         </tr>
@@ -410,7 +380,7 @@ yaw</td>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="#ac399a85987b09d898407e8420c9bfc75">card_worker_update()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="#a9fb3fba9c201a658ceec5aa8e447b90c">card_worker_update()</a>.</p>
 
 </div>
 </div>
@@ -474,239 +444,6 @@ yaw</td>
         </tr>
       </table>
 </div><div class="memdoc">
-
-</div>
-</div>
-<h2 class="groupheader">Variable Documentation</h2>
-<a id="aac3e2e4bd3bec68ebd563e5f27c4d195" name="aac3e2e4bd3bec68ebd563e5f27c4d195"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aac3e2e4bd3bec68ebd563e5f27c4d195">&#9670;&#160;</a></span>CreatorScript</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="macros_8h.html#a476baf4669c951eb7864d94f15a49f75">BSS</a> <a class="el" href="common__structs_8h.html#structEvt">Evt</a>* CreatorScript</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="#a6d995bb398b8887742ba484cb2b9b23c">appendGfx_ritual_card()</a>, <a class="el" href="#a732ddd3035c030930cbb1ba564397ffa">card_worker_render()</a>, <a class="el" href="#ac399a85987b09d898407e8420c9bfc75">card_worker_update()</a>, and <a class="el" href="#a9cbf3293dfb9499cb5723031f31c24c2">GetCardOrientation()</a>.</p>
-
-</div>
-</div>
-<a id="a4bec55dfac1443ebe3aa2a9db99e3d99" name="a4bec55dfac1443ebe3aa2a9db99e3d99"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4bec55dfac1443ebe3aa2a9db99e3d99">&#9670;&#160;</a></span>EVS_BeginMerleeCamera</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="common__structs_8h.html#ac718b608783f254b030240252606fd0e">EvtScript</a> EVS_BeginMerleeCamera</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line"> </div>
-<div class="line"> </div>
-<div class="line"> </div>
-<div class="line"> </div>
-<div class="line"> </div>
-<div class="line"> </div>
-<div class="line"> </div>
-<div class="line"> </div>
-<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#aa49b4615589f142fe396afa06f44ec5e">EVT_RETURN</a></div>
-<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a1eb5d3206784e72fb8b5bf5cc7228553">EVT_END</a></div>
-<div class="line">}</div>
-<div class="ttc" id="ascript__api_2macros_8h_html_a1eb5d3206784e72fb8b5bf5cc7228553"><div class="ttname"><a href="script__api_2macros_8h.html#a1eb5d3206784e72fb8b5bf5cc7228553">EVT_END</a></div><div class="ttdeci">#define EVT_END</div><div class="ttdoc">Signals the end of EVT script data. A script missing this will likely crash on load.</div><div class="ttdef"><b>Definition</b> macros.h:225</div></div>
-<div class="ttc" id="ascript__api_2macros_8h_html_aa49b4615589f142fe396afa06f44ec5e"><div class="ttname"><a href="script__api_2macros_8h.html#aa49b4615589f142fe396afa06f44ec5e">EVT_RETURN</a></div><div class="ttdeci">#define EVT_RETURN</div><div class="ttdoc">Kills the current EVT thread.</div><div class="ttdef"><b>Definition</b> macros.h:229</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a4ec62bd3ea8fe139f1d0da97d50d6adc" name="a4ec62bd3ea8fe139f1d0da97d50d6adc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4ec62bd3ea8fe139f1d0da97d50d6adc">&#9670;&#160;</a></span>EVS_EndMerleeCamera</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="common__structs_8h.html#ac718b608783f254b030240252606fd0e">EvtScript</a> EVS_EndMerleeCamera</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line"> </div>
-<div class="line"> </div>
-<div class="line"> </div>
-<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#aa49b4615589f142fe396afa06f44ec5e">EVT_RETURN</a></div>
-<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a1eb5d3206784e72fb8b5bf5cc7228553">EVT_END</a></div>
-<div class="line">}</div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a2b662c1e02de09b815ae02570a517340" name="a2b662c1e02de09b815ae02570a517340"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2b662c1e02de09b815ae02570a517340">&#9670;&#160;</a></span>EVS_NpcAI_Merlee</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="common__structs_8h.html#ac718b608783f254b030240252606fd0e">EvtScript</a> EVS_NpcAI_Merlee</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#aa49b4615589f142fe396afa06f44ec5e">EVT_RETURN</a></div>
-<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a1eb5d3206784e72fb8b5bf5cc7228553">EVT_END</a></div>
-<div class="line">}</div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a841dfe8a45745c83ff881b367c3393a8" name="a841dfe8a45745c83ff881b367c3393a8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a841dfe8a45745c83ff881b367c3393a8">&#9670;&#160;</a></span>EVS_NpcAuxAI_Merlee</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="common__structs_8h.html#ac718b608783f254b030240252606fd0e">EvtScript</a> EVS_NpcAuxAI_Merlee</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#aa49b4615589f142fe396afa06f44ec5e">EVT_RETURN</a></div>
-<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a1eb5d3206784e72fb8b5bf5cc7228553">EVT_END</a></div>
-<div class="line">}</div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a855a5c47fb67f2563d7b3777644ed995" name="a855a5c47fb67f2563d7b3777644ed995"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a855a5c47fb67f2563d7b3777644ed995">&#9670;&#160;</a></span>EVS_NpcInteract_Merlee</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="common__structs_8h.html#ac718b608783f254b030240252606fd0e">EvtScript</a> EVS_NpcInteract_Merlee</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="abd1658e5ea462cc12259edd5ed472785" name="abd1658e5ea462cc12259edd5ed472785"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abd1658e5ea462cc12259edd5ed472785">&#9670;&#160;</a></span>EVS_PerformRitual</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="common__structs_8h.html#ac718b608783f254b030240252606fd0e">EvtScript</a> EVS_PerformRitual</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a76076bed2f7523d49d5eed568be8134a" name="a76076bed2f7523d49d5eed568be8134a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a76076bed2f7523d49d5eed568be8134a">&#9670;&#160;</a></span>MerleeCoinCosts</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">s8 MerleeCoinCosts[]</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line">    50, 20, 5, 0,</div>
-<div class="line">}</div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="adacb4b46b77d219ae87b6a3a52e2e3ce" name="adacb4b46b77d219ae87b6a3a52e2e3ce"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adacb4b46b77d219ae87b6a3a52e2e3ce">&#9670;&#160;</a></span>MerleeSpellCasts</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">s8 MerleeSpellCasts[]</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line">    20, 10, 5, 0,</div>
-<div class="line">}</div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a51acc7db57a64f1c595e7cb39c4f5d41" name="a51acc7db57a64f1c595e7cb39c4f5d41"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a51acc7db57a64f1c595e7cb39c4f5d41">&#9670;&#160;</a></span>NpcSettings_Merlee</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="npc_8h.html#structNpcSettings">NpcSettings</a> NpcSettings_Merlee</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line">    .height = 32,</div>
-<div class="line">    .radius = 32,</div>
-<div class="line">    .otherAI = &amp; <a class="code hl_variable" href="#a841dfe8a45745c83ff881b367c3393a8">EVS_NpcAuxAI_Merlee</a> ,</div>
-<div class="line">    .onInteract = &amp; <a class="code hl_variable" href="#a855a5c47fb67f2563d7b3777644ed995">EVS_NpcInteract_Merlee</a> ,</div>
-<div class="line">    .ai = &amp; <a class="code hl_variable" href="#a2b662c1e02de09b815ae02570a517340">EVS_NpcAI_Merlee</a> ,</div>
-<div class="line">    .level = ACTOR_LEVEL_NONE,</div>
-<div class="line">}</div>
-<div class="ttc" id="anpc__merlee_8c_html_a2b662c1e02de09b815ae02570a517340"><div class="ttname"><a href="#a2b662c1e02de09b815ae02570a517340">EVS_NpcAI_Merlee</a></div><div class="ttdeci">EvtScript EVS_NpcAI_Merlee</div><div class="ttdef"><b>Definition</b> npc_merlee.c:602</div></div>
-<div class="ttc" id="anpc__merlee_8c_html_a841dfe8a45745c83ff881b367c3393a8"><div class="ttname"><a href="#a841dfe8a45745c83ff881b367c3393a8">EVS_NpcAuxAI_Merlee</a></div><div class="ttdeci">EvtScript EVS_NpcAuxAI_Merlee</div><div class="ttdef"><b>Definition</b> npc_merlee.c:597</div></div>
-<div class="ttc" id="anpc__merlee_8c_html_a855a5c47fb67f2563d7b3777644ed995"><div class="ttname"><a href="#a855a5c47fb67f2563d7b3777644ed995">EVS_NpcInteract_Merlee</a></div><div class="ttdeci">EvtScript EVS_NpcInteract_Merlee</div><div class="ttdef"><b>Definition</b> npc_merlee.c:766</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="ac05b5a80bff88b036ff707a435d69370" name="ac05b5a80bff88b036ff707a435d69370"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac05b5a80bff88b036ff707a435d69370">&#9670;&#160;</a></span>pad_XX111</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">s32 pad_XX111[] = { 0 }</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ac3e3c56d40322abeaff46e7e5fa93dd8" name="ac3e3c56d40322abeaff46e7e5fa93dd8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac3e3c56d40322abeaff46e7e5fa93dd8">&#9670;&#160;</a></span>RitualBuffer</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="macros_8h.html#a476baf4669c951eb7864d94f15a49f75">BSS</a> s32 RitualBuffer[16]</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ad16164fbd735ccfa723e14f74798065a" name="ad16164fbd735ccfa723e14f74798065a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad16164fbd735ccfa723e14f74798065a">&#9670;&#160;</a></span>RitualCards</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="macros_8h.html#a476baf4669c951eb7864d94f15a49f75">BSS</a> <a class="el" href="#structRitualCard">RitualCard</a> RitualCards[3]</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="#a6d995bb398b8887742ba484cb2b9b23c">appendGfx_ritual_card()</a>, <a class="el" href="#a732ddd3035c030930cbb1ba564397ffa">card_worker_render()</a>, <a class="el" href="#ac399a85987b09d898407e8420c9bfc75">card_worker_update()</a>, and <a class="el" href="#a9cbf3293dfb9499cb5723031f31c24c2">GetCardOrientation()</a>.</p>
 
 </div>
 </div>

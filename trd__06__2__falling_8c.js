@@ -12,11 +12,5 @@ var trd__06__2__falling_8c =
       [ "width", "trd__06__2__falling_8c.html#a06ef9a48fce014006b7a3e2742aef392", null ],
       [ "workerID", "trd__06__2__falling_8c.html#a961b24f1567d6baee8de44915eb1e138", null ]
     ] ],
-    [ "appendGfx_FallingSprite", "trd__06__2__falling_8c.html#a869881806dd4e2f08d11a6d7e981473b", null ],
-    [ "EVS_PartnerFalling", "trd__06__2__falling_8c.html#a54a1b0148f4169a25628f1d86ca46ec0", null ],
-    [ "EVS_PlayerFalling", "trd__06__2__falling_8c.html#ad29ee3a50da6a571ef4ad1bc26bb35a1", null ],
-    [ "EVS_Scene_FallIntoCell", "trd__06__2__falling_8c.html#ae98751a84652b2462133a506a1a1de96", null ],
-    [ "EVS_Unused_GetUp", "trd__06__2__falling_8c.html#a2082cc94ca47cbc7e5c3877d10562f1b", null ],
-    [ "Falling", "trd__06__2__falling_8c.html#a7c5730d8ad605e2dcfc4f83bab06bc82", null ],
-    [ "FallPath", "trd__06__2__falling_8c.html#a050b82e7daf2e071a6abdbcf828546ac", null ]
+    [ "appendGfx_FallingSprite", "trd__06__2__falling_8c.html#a069a407294540eaf6ad045529a9409fa", null ]
 ];

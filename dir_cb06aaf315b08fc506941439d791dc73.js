@@ -34,7 +34,7 @@ var dir_cb06aaf315b08fc506941439d791dc73 =
     [ "SpawnSunEffect.inc.c", "SpawnSunEffect_8inc_8c.html", null ],
     [ "SpinyTromp_CheckDist.inc.c", "SpinyTromp__CheckDist_8inc_8c.html", null ],
     [ "StarSpiritEffectFunc.inc.c", "StarSpiritEffectFunc_8inc_8c.html", "StarSpiritEffectFunc_8inc_8c" ],
-    [ "StashVars.inc.c", "StashVars_8inc_8c.html", "StashVars_8inc_8c" ],
+    [ "StashVars.inc.c", "StashVars_8inc_8c.html", null ],
     [ "SwitchToPartner.inc.c", "SwitchToPartner_8inc_8c.html", null ],
     [ "SyncStatusBar.inc.c", "SyncStatusBar_8inc_8c.html", null ],
     [ "UnkAngleFunc005.inc.c", "UnkAngleFunc005_8inc_8c.html", null ],

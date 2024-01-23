@@ -20,13 +20,5 @@ var tayce__t_8inc_8c =
       [ "QUALITY_GOOD", "tayce__t_8inc_8c.html#a7bb58f877c9db43154c13332df8e364da98eb22cc8a8273ff7e98476d9c6a504c", null ],
       [ "QUALITY_GREAT", "tayce__t_8inc_8c.html#a7bb58f877c9db43154c13332df8e364dabe33635ebf6e70b570bbe5581d937db6", null ],
       [ "QUALITY_ODD", "tayce__t_8inc_8c.html#a7bb58f877c9db43154c13332df8e364dacb55738be91431680329685b096213d5", null ]
-    ] ],
-    [ "EVS_NpcInit_TayceT", "tayce__t_8inc_8c.html#ae8f1073bfc5757e3b665e3bfaed66183", null ],
-    [ "EVS_NpcInteract_TayceT", "tayce__t_8inc_8c.html#a6f5606092e068e18573934ff6ec45b40", null ],
-    [ "EVS_Scene_TayceTCooking", "tayce__t_8inc_8c.html#a0dea79b317b500fc1d73345c648edfd7", null ],
-    [ "EVS_TayceT_Cook", "tayce__t_8inc_8c.html#a8e84cdf4f397c0de4589a3002b81cee4", null ],
-    [ "EVS_TayceT_FryingPanAndCake", "tayce__t_8inc_8c.html#a0175669da8c6bd81aa516e3dcad9b82f", null ],
-    [ "EVS_TayceT_RequestCookbook", "tayce__t_8inc_8c.html#a3e633c5a2fd9bce713e80f15d9e3b166", null ],
-    [ "ItemList_Cookbook", "tayce__t_8inc_8c.html#a7c0182c3cd84a94d4176dcead699a928", null ],
-    [ "ItemList_FryingPan", "tayce__t_8inc_8c.html#a9ed022dc1a3bd878d440ce8d725b74c9", null ]
+    ] ]
 ];

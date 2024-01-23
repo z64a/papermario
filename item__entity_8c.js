@@ -56,7 +56,7 @@ var item__entity_8c =
     [ "update_item_entity_no_pickup", "item__entity_8c.html#aa813f9ff85db98e3fca97f91d84ebdf8", null ],
     [ "update_item_entity_pickup", "item__entity_8c.html#a22c8dbeb2654f9d2bd8de2e295b32103", null ],
     [ "update_item_entity_stationary", "item__entity_8c.html#af8fd8cda7ba9ea57ac150ce4ad170496", null ],
-    [ "BattleItemEntities", "item__entity_8c.html#ac4a60853883290ca560e53ab28b0f42a", null ],
+    [ "BattleItemEntities", "item__entity_8c.html#a720a39da09657724b585a145b9b2bea7", null ],
     [ "CoinSparkleCenterX", "item__entity_8c.html#a2567235e1eaec110f7071ac63a8f6a8a", null ],
     [ "CoinSparkleCenterY", "item__entity_8c.html#a3edbac71c2a41c1710eb0f99d3239c4c", null ],
     [ "CoinSparkleCenterZ", "item__entity_8c.html#a680d6d11b178506da17646ddf20da355", null ],
@@ -92,5 +92,5 @@ var item__entity_8c =
     [ "ThrowAwayItemID", "item__entity_8c.html#a930d4a8666e65971b6c51424f31a1cfd", null ],
     [ "ThrowAwayMenuIdx", "item__entity_8c.html#ae13803c2fc27870baa66507ecae72d4a", null ],
     [ "UnusedItemPhysicsScriptID", "item__entity_8c.html#ac6400bf57efbc0611fc1ba068fb4bd7a", null ],
-    [ "WorldItemEntities", "item__entity_8c.html#af08f4e50933eb083a9ae9094c1fcb026", null ]
+    [ "WorldItemEntities", "item__entity_8c.html#af6c70af548bb05209a766e870fa32491", null ]
 ];

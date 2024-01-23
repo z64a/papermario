@@ -17,10 +17,8 @@ var kmr__20__13__records_8c =
       [ "workerID", "kmr__20__13__records_8c.html#aa35174751d89a6455e5b6ae9fb8e2c14", null ]
     ] ],
     [ "CHARSET", "kmr__20__13__records_8c.html#a1f7910d9f0267cff43b4de0e5eb2ad14", null ],
-    [ "appendGfx_records", "kmr__20__13__records_8c.html#a072ef30fc4b64228da9cda431749a1aa", null ],
-    [ "appendGfx_records_impl", "kmr__20__13__records_8c.html#a0f97a21f65ab5b55ef30039032d1226b", null ],
-    [ "calculate_records", "kmr__20__13__records_8c.html#a9eb5d97b1b41940285dee7091c7a4143", null ],
-    [ "worker_draw_game_records", "kmr__20__13__records_8c.html#a62d7357dc0d0a81155136e7e6af11d89", null ],
-    [ "EVS_Inspect_Records", "kmr__20__13__records_8c.html#a733b324bc005e8f15540822d76f6669b", null ],
-    [ "RecipeFoundVars", "kmr__20__13__records_8c.html#a60b5ec8b49320e30ec81682342fa6a41", null ]
+    [ "appendGfx_records", "kmr__20__13__records_8c.html#aca139c7781f6d002e71af612ab84a10a", null ],
+    [ "appendGfx_records_impl", "kmr__20__13__records_8c.html#a4d6c587aaaf794b59ee3cb8921743cee", null ],
+    [ "calculate_records", "kmr__20__13__records_8c.html#ad6b4147f9c9381ab82b15cb4cb1ba3d0", null ],
+    [ "worker_draw_game_records", "kmr__20__13__records_8c.html#abc088aa0ec87e05f85142deeb8e6dbb9", null ]
 ];

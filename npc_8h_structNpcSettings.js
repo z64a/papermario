@@ -10,7 +10,7 @@ var npc_8h_structNpcSettings =
     [ "onDefeat", "npc_8h.html#a0f7b57ad2e68ebdfdbfd44e81825ad3f", null ],
     [ "onHit", "npc_8h.html#ae84f272e90db474a9272dba5c3c8d7da", null ],
     [ "onInteract", "npc_8h.html#a54930fca09c51616b1fc73da19edf2ca", null ],
-    [ "otherAI", "npc_8h.html#aa513f34284f3e713d131eb9425805d51", null ],
+    [ "otherAI", "npc_8h.html#a54c3ae96fdae2a19f83d62dc4c0e3603", null ],
     [ "radius", "npc_8h.html#a270a185396ce458e6853b8080502c083", null ],
     [ "unk_24", "npc_8h.html#a64d8b189a63f3639d2328e8a580d604c", null ]
 ];

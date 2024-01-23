@@ -12,8 +12,5 @@ var battle_2common_2stage_2lib_2DripVolumes_8inc_8c =
       [ "count", "world_2area__tik_2common_2DripVolumes_8inc_8c.html#ad9d9702a175f6ec8e1723deea44a20b1", null ],
       [ "volumes", "world_2area__tik_2common_2DripVolumes_8inc_8c.html#a0df5db2f7edf8211219c6340f947c285", null ]
     ] ],
-    [ "DROPLET_MODEL", "battle_2common_2stage_2lib_2DripVolumes_8inc_8c.html#a4be78a1f1423356ca904a7f2661d938e", null ],
-    [ "EVS_CreateDripVolumes", "battle_2common_2stage_2lib_2DripVolumes_8inc_8c.html#a33e447f7ed280bd5beced7af891e142d", null ],
-    [ "EVS_UpdateDripSplash", "battle_2common_2stage_2lib_2DripVolumes_8inc_8c.html#a26f97e9bb9f78ea1f0b56d5e2e81670b", null ],
-    [ "EVS_UpdateDripVolume", "battle_2common_2stage_2lib_2DripVolumes_8inc_8c.html#afa3d7ba76fc5418800f136f6c7e4a900", null ]
+    [ "DROPLET_MODEL", "battle_2common_2stage_2lib_2DripVolumes_8inc_8c.html#a4be78a1f1423356ca904a7f2661d938e", null ]
 ];

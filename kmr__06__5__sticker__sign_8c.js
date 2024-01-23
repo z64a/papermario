@@ -14,10 +14,8 @@ var kmr__06__5__sticker__sign_8c =
       [ "workerID", "kmr__06__5__sticker__sign_8c.html#a732b5c2ac1fe595c5dbe6ab6536bd855", null ],
       [ "yaw", "kmr__06__5__sticker__sign_8c.html#af6de2238a867406a8c2d22c0ac51e3b5", null ]
     ] ],
-    [ "appendGfx_sticker", "kmr__06__5__sticker__sign_8c.html#ab87bcb56ea598daf6127bc2b0651d5dc", null ],
-    [ "worker_render_sticker", "kmr__06__5__sticker__sign_8c.html#ac7a1c467f95f60c695de7530aa569cb7", null ],
-    [ "EVS_OnInspect_StickerSign", "kmr__06__5__sticker__sign_8c.html#ac13bff50a9eb6eb7f7ad9ab5c9767146", null ],
-    [ "EVS_SetupStickerSign", "kmr__06__5__sticker__sign_8c.html#a5796e4043da70edba0e0edbaa21b9c56", null ],
+    [ "appendGfx_sticker", "kmr__06__5__sticker__sign_8c.html#aab7c793073cfb75a7694a16062bc50e8", null ],
+    [ "worker_render_sticker", "kmr__06__5__sticker__sign_8c.html#a6abdd17e954af36a19d8e0c6369f3568", null ],
     [ "gItemIconPaletteOffsets", "kmr__06__5__sticker__sign_8c.html#a08296dc8b41cbca90a9f8c3973445ab6", null ],
     [ "gItemIconRasterOffsets", "kmr__06__5__sticker__sign_8c.html#a6b9c89ad74ed068073579ffb6af54fbd", null ]
 ];

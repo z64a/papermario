@@ -152,10 +152,10 @@ Macros</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:ada75a3b8335171313040e0bccf544399" id="r_ada75a3b8335171313040e0bccf544399"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="#structModel">Model</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ada75a3b8335171313040e0bccf544399">ModelList</a>[<a class="el" href="macros_8h.html#aff903af1964a7ac4a6fe71edd5efaa6a">MAX_MODELS</a>]</td></tr>
-<tr class="separator:ada75a3b8335171313040e0bccf544399"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3d8d81f3258b0790ef52935f631346d4" id="r_a3d8d81f3258b0790ef52935f631346d4"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="#structModelTransformGroup">ModelTransformGroup</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3d8d81f3258b0790ef52935f631346d4">ModelTransformGroupList</a>[<a class="el" href="macros_8h.html#aca9b16ed2a138c1f61982b6d2cbf88be">MAX_MODEL_TRANSFORM_GROUPS</a>]</td></tr>
-<tr class="separator:a3d8d81f3258b0790ef52935f631346d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a87f08a5422e0196d1bc195d1e26fc4e2" id="r_a87f08a5422e0196d1bc195d1e26fc4e2"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="#structModel">Model</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a87f08a5422e0196d1bc195d1e26fc4e2">ModelList</a>[256]</td></tr>
+<tr class="separator:a87f08a5422e0196d1bc195d1e26fc4e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab76ece0781f28b588331d591411c5590" id="r_ab76ece0781f28b588331d591411c5590"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="#structModelTransformGroup">ModelTransformGroup</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab76ece0781f28b588331d591411c5590">ModelTransformGroupList</a>[4]</td></tr>
+<tr class="separator:ab76ece0781f28b588331d591411c5590"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2f473850ae09e03e8c5e6c4268895003" id="r_a2f473850ae09e03e8c5e6c4268895003"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="#structModelLocalVertexCopy">ModelLocalVertexCopy</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2f473850ae09e03e8c5e6c4268895003">ModelLocalVertexCopyList</a>[16]</td></tr>
 <tr class="separator:a2f473850ae09e03e8c5e6c4268895003"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a456afb797ce445c97339cdc2584d5402" id="r_a456afb797ce445c97339cdc2584d5402"><td class="memItemLeft" align="right" valign="top">typedef void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a456afb797ce445c97339cdc2584d5402">ModelCustomGfxBuilderFunc</a>) (s32 index)</td></tr>
@@ -269,7 +269,7 @@ Functions</h2></td></tr>
 Variables</h2></td></tr>
 <tr class="memitem:ab7ca0efe6173a36dec44c6092e009658" id="r_ab7ca0efe6173a36dec44c6092e009658"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ae7b2c70512d39441c06638f19d74e30d">ModelTreeInfoList</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab7ca0efe6173a36dec44c6092e009658">gCurrentModelTreeNodeInfo</a></td></tr>
 <tr class="separator:ab7ca0efe6173a36dec44c6092e009658"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acd73d11e34924a141dcafb0f7f81b6d3" id="r_acd73d11e34924a141dcafb0f7f81b6d3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ada75a3b8335171313040e0bccf544399">ModelList</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acd73d11e34924a141dcafb0f7f81b6d3">gCurrentModels</a></td></tr>
+<tr class="memitem:acd73d11e34924a141dcafb0f7f81b6d3" id="r_acd73d11e34924a141dcafb0f7f81b6d3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a87f08a5422e0196d1bc195d1e26fc4e2">ModelList</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acd73d11e34924a141dcafb0f7f81b6d3">gCurrentModels</a></td></tr>
 <tr class="separator:acd73d11e34924a141dcafb0f7f81b6d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <hr/><h2 class="groupheader">Data Structure Documentation</h2>
@@ -801,9 +801,9 @@ count</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="af62bd2c6e7c397e9f362dafc964f939e" name="af62bd2c6e7c397e9f362dafc964f939e"></a>u16</td>
+<a id="a3716ebe2d18d998462c62a6771c56352" name="a3716ebe2d18d998462c62a6771c56352"></a>u16</td>
 <td class="fieldname">
-list[<a class="el" href="macros_8h.html#a117c0021ff60372f4f399b18f4847f79">VLA</a>]</td>
+list[]</td>
 <td class="fielddoc">
 </td></tr>
 </table>
@@ -912,13 +912,13 @@ unk_03</td>
 <table class="fieldtable">
 <tr><th colspan="3">Data Fields</th></tr>
 <tr><td class="fieldtype">
-<a id="ab448130bab0a3c56b3f053a1f9595991" name="ab448130bab0a3c56b3f053a1f9595991"></a><a class="el" href="common__structs_8h.html#a82131d977b273184a3b6d0936dd4d932">PAL_PTR</a></td>
+<a id="abe47cfca11a890fd14c66648d4234476" name="abe47cfca11a890fd14c66648d4234476"></a>u16 *</td>
 <td class="fieldname">
 auxPalette</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="adaa80a3a0b17c8d71bb2945c708761c0" name="adaa80a3a0b17c8d71bb2945c708761c0"></a><a class="el" href="common__structs_8h.html#a834f416d5ff057ebffe262e7f7d15b9a">IMG_PTR</a></td>
+<a id="a815aabc98d7f47e0bba36c7aea5a4a33" name="a815aabc98d7f47e0bba36c7aea5a4a33"></a>u8 *</td>
 <td class="fieldname">
 auxRaster</td>
 <td class="fielddoc">
@@ -936,13 +936,13 @@ header</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="adcd134aacda1ad03e5f5633cadb31877" name="adcd134aacda1ad03e5f5633cadb31877"></a><a class="el" href="common__structs_8h.html#a82131d977b273184a3b6d0936dd4d932">PAL_PTR</a></td>
+<a id="a325d63833978af5a3ed1a391c761792b" name="a325d63833978af5a3ed1a391c761792b"></a>u16 *</td>
 <td class="fieldname">
 palette</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="ad0e313ce8ec66d38cfd417448a4617be" name="ad0e313ce8ec66d38cfd417448a4617be"></a><a class="el" href="common__structs_8h.html#a834f416d5ff057ebffe262e7f7d15b9a">IMG_PTR</a></td>
+<a id="a7f5984faacbbb9981edf9ab628c5a48c" name="a7f5984faacbbb9981edf9ab628c5a48c"></a>u8 *</td>
 <td class="fieldname">
 raster</td>
 <td class="fielddoc">
@@ -1065,9 +1065,9 @@ zoneNames</td>
 <table class="fieldtable">
 <tr><th colspan="3">Data Fields</th></tr>
 <tr><td class="fieldtype">
-<a id="a3456601538390e39f9218f1ccf00b900" name="a3456601538390e39f9218f1ccf00b900"></a>u8</td>
+<a id="a2187c7b1f7268809806d70279353ae8e" name="a2187c7b1f7268809806d70279353ae8e"></a>u8</td>
 <td class="fieldname">
-data[<a class="el" href="#a43e3c899a58cf5050ca8ddfe12688220">SHAPE_SIZE_LIMIT</a> - sizeof(<a class="el" href="#structShapeFileHeader">ShapeFileHeader</a>)]</td>
+data[0x8000 - sizeof(<a class="el" href="#structShapeFileHeader">ShapeFileHeader</a>)]</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
@@ -1138,14 +1138,14 @@ header</td>
 
 </div>
 </div>
-<a id="ada75a3b8335171313040e0bccf544399" name="ada75a3b8335171313040e0bccf544399"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ada75a3b8335171313040e0bccf544399">&#9670;&#160;</a></span>ModelList</h2>
+<a id="a87f08a5422e0196d1bc195d1e26fc4e2" name="a87f08a5422e0196d1bc195d1e26fc4e2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a87f08a5422e0196d1bc195d1e26fc4e2">&#9670;&#160;</a></span>ModelList</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef <a class="el" href="#structModel">Model</a>* ModelList[<a class="el" href="macros_8h.html#aff903af1964a7ac4a6fe71edd5efaa6a">MAX_MODELS</a>]</td>
+          <td class="memname">typedef <a class="el" href="#structModel">Model</a>* ModelList[256]</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1166,14 +1166,14 @@ header</td>
 
 </div>
 </div>
-<a id="a3d8d81f3258b0790ef52935f631346d4" name="a3d8d81f3258b0790ef52935f631346d4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3d8d81f3258b0790ef52935f631346d4">&#9670;&#160;</a></span>ModelTransformGroupList</h2>
+<a id="ab76ece0781f28b588331d591411c5590" name="ab76ece0781f28b588331d591411c5590"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab76ece0781f28b588331d591411c5590">&#9670;&#160;</a></span>ModelTransformGroupList</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef <a class="el" href="#structModelTransformGroup">ModelTransformGroup</a>* ModelTransformGroupList[<a class="el" href="macros_8h.html#aca9b16ed2a138c1f61982b6d2cbf88be">MAX_MODEL_TRANSFORM_GROUPS</a>]</td>
+          <td class="memname">typedef <a class="el" href="#structModelTransformGroup">ModelTransformGroup</a>* ModelTransformGroupList[4]</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1828,7 +1828,7 @@ header</td>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="model__api_8c.html#ad399de62022f79871135826048d1d39c">render_animated_models()</a>, <a class="el" href="functions_8h.html#a217bffd69a34ee91843bf81298aff62e">render_entities()</a>, <a class="el" href="entity_8c.html#a0b6992beaa2ca7bce7b52dc100076491">render_shadows()</a>, and <a class="el" href="tst__04__3__reflection_8c.html#ac12ac83db78efadcf83c0e0cb5c13ddb">worker_render_animator()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="model__api_8c.html#ad399de62022f79871135826048d1d39c">render_animated_models()</a>, <a class="el" href="functions_8h.html#a217bffd69a34ee91843bf81298aff62e">render_entities()</a>, <a class="el" href="entity_8c.html#a0b6992beaa2ca7bce7b52dc100076491">render_shadows()</a>, and <a class="el" href="tst__04__3__reflection_8c.html#aab58fd834e0c1932051364b09089eb39">worker_render_animator()</a>.</p>
 
 </div>
 </div>
@@ -2019,7 +2019,7 @@ header</td>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="entity_8c.html#aca801512213b52e0dd8951b0a654c7a2">load_split_entity_data()</a>, <a class="el" href="#a5bef1c363d4537572f2cede65eb489a5">play_model_animation_starting_from()</a>, <a class="el" href="functions_8h.html#a7bc40acbd4553c105888ce5b4b377663">update_entities()</a>, <a class="el" href="entity_8c.html#a13cefb3f1b1eb98a752b5e26fdd04470">update_shadows()</a>, and <a class="el" href="tst__04__3__reflection_8c.html#ac8f4813e47603b84e12a16a5e2c4f3e8">worker_update_animator()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="entity_8c.html#aca801512213b52e0dd8951b0a654c7a2">load_split_entity_data()</a>, <a class="el" href="#a5bef1c363d4537572f2cede65eb489a5">play_model_animation_starting_from()</a>, <a class="el" href="functions_8h.html#a7bc40acbd4553c105888ce5b4b377663">update_entities()</a>, <a class="el" href="entity_8c.html#a13cefb3f1b1eb98a752b5e26fdd04470">update_shadows()</a>, and <a class="el" href="tst__04__3__reflection_8c.html#aa0080c3f228c49e13385c13f59758dda">worker_update_animator()</a>.</p>
 
 </div>
 </div>
@@ -2057,7 +2057,7 @@ header</td>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="#ada75a3b8335171313040e0bccf544399">ModelList</a>* gCurrentModels</td>
+          <td class="memname"><a class="el" href="#a87f08a5422e0196d1bc195d1e26fc4e2">ModelList</a>* gCurrentModels</td>
         </tr>
       </table>
   </td>

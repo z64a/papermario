@@ -733,23 +733,38 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line"> </div>
-<div class="line"> </div>
-<div class="line"> </div>
-<div class="line"> </div>
-<div class="line"> </div>
-<div class="line"> </div>
-<div class="line"> </div>
-<div class="line"> </div>
-<div class="line"> </div>
-<div class="line"> </div>
-<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#ac6fbdcfa971560087532c99ce65554cf">EVT_END_SWITCH</a></div>
-<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#aa49b4615589f142fe396afa06f44ec5e">EVT_RETURN</a></div>
-<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a1eb5d3206784e72fb8b5bf5cc7228553">EVT_END</a></div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#adebe72a7dc0c86ea5913d44e43944cf2">Call</a>(<a class="code hl_function" href="script__api_2common_8h.html#a7cd80f041b40470c973eb4c1dcfea8a0">SetNpcRotation</a>, <a class="code hl_enumvalue" href="enums_8h.html#a8ed30857fb1bfefd4de61c6f02040634a0664795bf4a295e3c87e422eadf6870b">NPC_SELF</a>, 0, 0, 0)</div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#adebe72a7dc0c86ea5913d44e43944cf2">Call</a>(<a class="code hl_function" href="script__api_2common_8h.html#af046f44406b551852e3526b76d08ffe7">GetBattleOutcome</a>, <a class="code hl_define" href="script__api_2macros_8h.html#af7850f206b899ed1559a492acdb308c8">LVar0</a>)</div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a136c54729193c3d65d8729ec3ba0b2bf">Switch</a>(<a class="code hl_define" href="script__api_2macros_8h.html#af7850f206b899ed1559a492acdb308c8">LVar0</a>)</div>
+<div class="line">        <a class="code hl_define" href="script__api_2macros_8h.html#a27244e471ebf20542262f09b9dbb317b">CaseEq</a>(<a class="code hl_enumvalue" href="enums_8h.html#ad5153a0073fcd5294ed9348e7fc7fbb8a139b014647cbd30bfe886274f9dd7add">OUTCOME_PLAYER_WON</a>)</div>
+<div class="line">            <a class="code hl_define" href="script__api_2macros_8h.html#adebe72a7dc0c86ea5913d44e43944cf2">Call</a>(<a class="code hl_function" href="script__api_2common_8h.html#a93ad6c7869b06962c58cc9d60ba07db2">DoNpcDefeat</a>)</div>
+<div class="line">        <a class="code hl_define" href="script__api_2macros_8h.html#a27244e471ebf20542262f09b9dbb317b">CaseEq</a>(<a class="code hl_enumvalue" href="enums_8h.html#ad5153a0073fcd5294ed9348e7fc7fbb8ad5c3adf1ab0c47f3373bedfd8080e622">OUTCOME_PLAYER_FLED</a>)</div>
+<div class="line">            <a class="code hl_define" href="script__api_2macros_8h.html#adebe72a7dc0c86ea5913d44e43944cf2">Call</a>(<a class="code hl_function" href="script__api_2common_8h.html#ac6a35d65354989813ec4754ca0935602">OnPlayerFled</a>, 0)</div>
+<div class="line">        <a class="code hl_define" href="script__api_2macros_8h.html#a27244e471ebf20542262f09b9dbb317b">CaseEq</a>(<a class="code hl_enumvalue" href="enums_8h.html#ad5153a0073fcd5294ed9348e7fc7fbb8a001cf0ae9bd7969b7c0c28a134d83a71">OUTCOME_ENEMY_FLED</a>)</div>
+<div class="line">            <a class="code hl_define" href="script__api_2macros_8h.html#adebe72a7dc0c86ea5913d44e43944cf2">Call</a>(<a class="code hl_function" href="script__api_2common_8h.html#a68e2e3580e1c6d73a70769beb7365b12">SetEnemyFlagBits</a>, -1, <a class="code hl_enumvalue" href="enums_8h.html#a7de157db6798346d411421949f294617a5e1d8984e43cd7b74a38ca78b82b1b48">ENEMY_FLAG_FLED</a>, 1)</div>
+<div class="line">            <a class="code hl_define" href="script__api_2macros_8h.html#adebe72a7dc0c86ea5913d44e43944cf2">Call</a>(<a class="code hl_function" href="script__api_2common_8h.html#a8ae411e9c4f7a004e06e01fcb407d359">RemoveNpc</a>, <a class="code hl_enumvalue" href="enums_8h.html#a8ed30857fb1bfefd4de61c6f02040634a0664795bf4a295e3c87e422eadf6870b">NPC_SELF</a>)</div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#ad695fd00df09b46787e8321e9f8c4dbe">EndSwitch</a></div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#afdbecdc25961f69820cb0e396872f9fb">Return</a></div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a342404d3b71fbd50588f779f1f1c59b3">End</a></div>
 <div class="line">}</div>
-<div class="ttc" id="ascript__api_2macros_8h_html_a1eb5d3206784e72fb8b5bf5cc7228553"><div class="ttname"><a href="script__api_2macros_8h.html#a1eb5d3206784e72fb8b5bf5cc7228553">EVT_END</a></div><div class="ttdeci">#define EVT_END</div><div class="ttdoc">Signals the end of EVT script data. A script missing this will likely crash on load.</div><div class="ttdef"><b>Definition</b> macros.h:225</div></div>
-<div class="ttc" id="ascript__api_2macros_8h_html_aa49b4615589f142fe396afa06f44ec5e"><div class="ttname"><a href="script__api_2macros_8h.html#aa49b4615589f142fe396afa06f44ec5e">EVT_RETURN</a></div><div class="ttdeci">#define EVT_RETURN</div><div class="ttdoc">Kills the current EVT thread.</div><div class="ttdef"><b>Definition</b> macros.h:229</div></div>
-<div class="ttc" id="ascript__api_2macros_8h_html_ac6fbdcfa971560087532c99ce65554cf"><div class="ttname"><a href="script__api_2macros_8h.html#ac6fbdcfa971560087532c99ce65554cf">EVT_END_SWITCH</a></div><div class="ttdeci">#define EVT_END_SWITCH</div><div class="ttdoc">Marks the end of a switch statement and any case.</div><div class="ttdef"><b>Definition</b> macros.h:374</div></div>
+<div class="ttc" id="aenums_8h_html_a7de157db6798346d411421949f294617a5e1d8984e43cd7b74a38ca78b82b1b48"><div class="ttname"><a href="enums_8h.html#a7de157db6798346d411421949f294617a5e1d8984e43cd7b74a38ca78b82b1b48">ENEMY_FLAG_FLED</a></div><div class="ttdeci">@ ENEMY_FLAG_FLED</div><div class="ttdef"><b>Definition</b> enums.h:4496</div></div>
+<div class="ttc" id="aenums_8h_html_a8ed30857fb1bfefd4de61c6f02040634a0664795bf4a295e3c87e422eadf6870b"><div class="ttname"><a href="enums_8h.html#a8ed30857fb1bfefd4de61c6f02040634a0664795bf4a295e3c87e422eadf6870b">NPC_SELF</a></div><div class="ttdeci">@ NPC_SELF</div><div class="ttdef"><b>Definition</b> enums.h:2529</div></div>
+<div class="ttc" id="aenums_8h_html_ad5153a0073fcd5294ed9348e7fc7fbb8a001cf0ae9bd7969b7c0c28a134d83a71"><div class="ttname"><a href="enums_8h.html#ad5153a0073fcd5294ed9348e7fc7fbb8a001cf0ae9bd7969b7c0c28a134d83a71">OUTCOME_ENEMY_FLED</a></div><div class="ttdeci">@ OUTCOME_ENEMY_FLED</div><div class="ttdef"><b>Definition</b> enums.h:1906</div></div>
+<div class="ttc" id="aenums_8h_html_ad5153a0073fcd5294ed9348e7fc7fbb8a139b014647cbd30bfe886274f9dd7add"><div class="ttname"><a href="enums_8h.html#ad5153a0073fcd5294ed9348e7fc7fbb8a139b014647cbd30bfe886274f9dd7add">OUTCOME_PLAYER_WON</a></div><div class="ttdeci">@ OUTCOME_PLAYER_WON</div><div class="ttdef"><b>Definition</b> enums.h:1903</div></div>
+<div class="ttc" id="aenums_8h_html_ad5153a0073fcd5294ed9348e7fc7fbb8ad5c3adf1ab0c47f3373bedfd8080e622"><div class="ttname"><a href="enums_8h.html#ad5153a0073fcd5294ed9348e7fc7fbb8ad5c3adf1ab0c47f3373bedfd8080e622">OUTCOME_PLAYER_FLED</a></div><div class="ttdeci">@ OUTCOME_PLAYER_FLED</div><div class="ttdef"><b>Definition</b> enums.h:1905</div></div>
+<div class="ttc" id="ascript__api_2common_8h_html_a68e2e3580e1c6d73a70769beb7365b12"><div class="ttname"><a href="script__api_2common_8h.html#a68e2e3580e1c6d73a70769beb7365b12">SetEnemyFlagBits</a></div><div class="ttdeci">ApiStatus SetEnemyFlagBits(Evt *script, b32 isInitialCall)</div></div>
+<div class="ttc" id="ascript__api_2common_8h_html_a7cd80f041b40470c973eb4c1dcfea8a0"><div class="ttname"><a href="script__api_2common_8h.html#a7cd80f041b40470c973eb4c1dcfea8a0">SetNpcRotation</a></div><div class="ttdeci">ApiStatus SetNpcRotation(Evt *script, b32 isInitialCall)</div></div>
+<div class="ttc" id="ascript__api_2common_8h_html_a8ae411e9c4f7a004e06e01fcb407d359"><div class="ttname"><a href="script__api_2common_8h.html#a8ae411e9c4f7a004e06e01fcb407d359">RemoveNpc</a></div><div class="ttdeci">ApiStatus RemoveNpc(Evt *script, b32 isInitialCall)</div></div>
+<div class="ttc" id="ascript__api_2common_8h_html_a93ad6c7869b06962c58cc9d60ba07db2"><div class="ttname"><a href="script__api_2common_8h.html#a93ad6c7869b06962c58cc9d60ba07db2">DoNpcDefeat</a></div><div class="ttdeci">ApiStatus DoNpcDefeat(Evt *script, b32 isInitialCall)</div></div>
+<div class="ttc" id="ascript__api_2common_8h_html_ac6a35d65354989813ec4754ca0935602"><div class="ttname"><a href="script__api_2common_8h.html#ac6a35d65354989813ec4754ca0935602">OnPlayerFled</a></div><div class="ttdeci">ApiStatus OnPlayerFled(Evt *script, b32 isInitialCall)</div></div>
+<div class="ttc" id="ascript__api_2common_8h_html_af046f44406b551852e3526b76d08ffe7"><div class="ttname"><a href="script__api_2common_8h.html#af046f44406b551852e3526b76d08ffe7">GetBattleOutcome</a></div><div class="ttdeci">ApiStatus GetBattleOutcome(Evt *script, b32 isInitialCall)</div></div>
+<div class="ttc" id="ascript__api_2macros_8h_html_a136c54729193c3d65d8729ec3ba0b2bf"><div class="ttname"><a href="script__api_2macros_8h.html#a136c54729193c3d65d8729ec3ba0b2bf">Switch</a></div><div class="ttdeci">#define Switch(LVAR)</div><div class="ttdoc">Marks the start of a switch statement.</div><div class="ttdef"><b>Definition</b> macros.h:323</div></div>
+<div class="ttc" id="ascript__api_2macros_8h_html_a27244e471ebf20542262f09b9dbb317b"><div class="ttname"><a href="script__api_2macros_8h.html#a27244e471ebf20542262f09b9dbb317b">CaseEq</a></div><div class="ttdeci">#define CaseEq(RVAR)</div><div class="ttdoc">Marks the start of a switch case that executes only if LVAR == RVAR. It also marks the end of any pre...</div><div class="ttdef"><b>Definition</b> macros.h:331</div></div>
+<div class="ttc" id="ascript__api_2macros_8h_html_a342404d3b71fbd50588f779f1f1c59b3"><div class="ttname"><a href="script__api_2macros_8h.html#a342404d3b71fbd50588f779f1f1c59b3">End</a></div><div class="ttdeci">#define End</div><div class="ttdoc">Signals the end of EVT script data. A script missing this will likely crash on load.</div><div class="ttdef"><b>Definition</b> macros.h:225</div></div>
+<div class="ttc" id="ascript__api_2macros_8h_html_ad695fd00df09b46787e8321e9f8c4dbe"><div class="ttname"><a href="script__api_2macros_8h.html#ad695fd00df09b46787e8321e9f8c4dbe">EndSwitch</a></div><div class="ttdeci">#define EndSwitch</div><div class="ttdoc">Marks the end of a switch statement and any case.</div><div class="ttdef"><b>Definition</b> macros.h:374</div></div>
+<div class="ttc" id="ascript__api_2macros_8h_html_adebe72a7dc0c86ea5913d44e43944cf2"><div class="ttname"><a href="script__api_2macros_8h.html#adebe72a7dc0c86ea5913d44e43944cf2">Call</a></div><div class="ttdeci">#define Call(FUNC, ARGS...)</div><div class="ttdoc">Calls a given C EVT API function with any number of arguments.</div><div class="ttdef"><b>Definition</b> macros.h:588</div></div>
+<div class="ttc" id="ascript__api_2macros_8h_html_af7850f206b899ed1559a492acdb308c8"><div class="ttname"><a href="script__api_2macros_8h.html#af7850f206b899ed1559a492acdb308c8">LVar0</a></div><div class="ttdeci">#define LVar0</div><div class="ttdef"><b>Definition</b> macros.h:144</div></div>
+<div class="ttc" id="ascript__api_2macros_8h_html_afdbecdc25961f69820cb0e396872f9fb"><div class="ttname"><a href="script__api_2macros_8h.html#afdbecdc25961f69820cb0e396872f9fb">Return</a></div><div class="ttdeci">#define Return</div><div class="ttdoc">Kills the current EVT thread.</div><div class="ttdef"><b>Definition</b> macros.h:229</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -765,36 +780,54 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line"> </div>
-<div class="line"> </div>
-<div class="line"> </div>
-<div class="line"> </div>
-<div class="line"> </div>
-<div class="line"> </div>
-<div class="line"> </div>
-<div class="line"> </div>
-<div class="line"> </div>
-<div class="line">            <a class="code hl_define" href="script__api_2macros_8h.html#a61ef92d6d999392239644a3e7e8fc871">EVT_THREAD</a></div>
-<div class="line"> </div>
-<div class="line"> </div>
-<div class="line"> </div>
-<div class="line"> </div>
-<div class="line"> </div>
-<div class="line"> </div>
-<div class="line"> </div>
-<div class="line">                    <a class="code hl_define" href="script__api_2macros_8h.html#a1fe124875678cb6b84739e8905fbff2f">EVT_END_LOOP</a></div>
-<div class="line">                <a class="code hl_define" href="script__api_2macros_8h.html#a15f6226bb8726c87b6a0368d33e4aec1">EVT_END_IF</a></div>
-<div class="line">            <a class="code hl_define" href="script__api_2macros_8h.html#a11ba48891f165dc45a558b751bec8aca">EVT_END_THREAD</a></div>
-<div class="line">        <a class="code hl_define" href="script__api_2macros_8h.html#a3d95f12c74f92be4e6d9173ff2989358">EVT_END_CASE_GROUP</a></div>
-<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#ac6fbdcfa971560087532c99ce65554cf">EVT_END_SWITCH</a></div>
-<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#aa49b4615589f142fe396afa06f44ec5e">EVT_RETURN</a></div>
-<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a1eb5d3206784e72fb8b5bf5cc7228553">EVT_END</a></div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#adebe72a7dc0c86ea5913d44e43944cf2">Call</a>(<a class="code hl_function" href="script__api_2common_8h.html#a9d79195f68eefcafac96cc078202f213">GetOwnerEncounterTrigger</a>, <a class="code hl_define" href="script__api_2macros_8h.html#af7850f206b899ed1559a492acdb308c8">LVar0</a>)</div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a136c54729193c3d65d8729ec3ba0b2bf">Switch</a>(<a class="code hl_define" href="script__api_2macros_8h.html#af7850f206b899ed1559a492acdb308c8">LVar0</a>)</div>
+<div class="line">        <a class="code hl_define" href="script__api_2macros_8h.html#a27244e471ebf20542262f09b9dbb317b">CaseEq</a>(<a class="code hl_enumvalue" href="enums_8h.html#a7190fe27588707b4bc60ac932aa03af0a7c8ee7f96fcab2665b7b7c4a8989416e">ENCOUNTER_TRIGGER_NONE</a>)</div>
+<div class="line">        <a class="code hl_define" href="script__api_2macros_8h.html#a609c52d999a6a01075609aee404a57fd">CaseOrEq</a>(<a class="code hl_enumvalue" href="enums_8h.html#a7190fe27588707b4bc60ac932aa03af0a58f72927a9235fbcb8c32a2c295e2b02">ENCOUNTER_TRIGGER_JUMP</a>)</div>
+<div class="line">        <a class="code hl_define" href="script__api_2macros_8h.html#a609c52d999a6a01075609aee404a57fd">CaseOrEq</a>(<a class="code hl_enumvalue" href="enums_8h.html#a7190fe27588707b4bc60ac932aa03af0a74634102bedec439026c3dfa92a877d2">ENCOUNTER_TRIGGER_HAMMER</a>)</div>
+<div class="line">        <a class="code hl_define" href="script__api_2macros_8h.html#a609c52d999a6a01075609aee404a57fd">CaseOrEq</a>(<a class="code hl_enumvalue" href="enums_8h.html#a7190fe27588707b4bc60ac932aa03af0aba0d11bdeeee993846aacb862d6fc6f9">ENCOUNTER_TRIGGER_PARTNER</a>)</div>
+<div class="line">            <a class="code hl_define" href="script__api_2macros_8h.html#adebe72a7dc0c86ea5913d44e43944cf2">Call</a>(<a class="code hl_function" href="script__api_2common_8h.html#a8d47f1dd94c78d370301a55b8f502d60">GetSelfAnimationFromTable</a>, <a class="code hl_enumvalue" href="enums_8h.html#a44581e0b0250dbd2048f8e4ed84240cca24b651dfd94a755b04327d9d05b6ea7d">ENEMY_ANIM_INDEX_HIT</a>, <a class="code hl_define" href="script__api_2macros_8h.html#af7850f206b899ed1559a492acdb308c8">LVar0</a>)</div>
+<div class="line">            <a class="code hl_define" href="script__api_2macros_8h.html#a73b76fe2edbe5dc3530323b9cbaf0c31">ExecWait</a>(<a class="code hl_variable" href="map_8h.html#ae7b35a531b1caa3d60c2be1a9f1310a8">EVS_NpcHitRecoil</a>)</div>
+<div class="line">        <a class="code hl_define" href="script__api_2macros_8h.html#a27244e471ebf20542262f09b9dbb317b">CaseEq</a>(<a class="code hl_enumvalue" href="enums_8h.html#a7190fe27588707b4bc60ac932aa03af0aea9df8a9e372f0d0115dbfe1a263d05c">ENCOUNTER_TRIGGER_SPIN</a>)</div>
+<div class="line">            <a class="code hl_define" href="script__api_2macros_8h.html#a7add35317e384cd14231f428e57531ca">Thread</a></div>
+<div class="line">                <a class="code hl_define" href="script__api_2macros_8h.html#adebe72a7dc0c86ea5913d44e43944cf2">Call</a>(<a class="code hl_function" href="script__api_2common_8h.html#ac5ba60189ca4f559e5c5f4d41a660fc5">func_800458CC</a>, <a class="code hl_define" href="script__api_2macros_8h.html#af7850f206b899ed1559a492acdb308c8">LVar0</a>)</div>
+<div class="line">                <a class="code hl_define" href="script__api_2macros_8h.html#ad83d17d5035c14969f8bedf3ba85a5f5">IfEq</a>(<a class="code hl_define" href="script__api_2macros_8h.html#af7850f206b899ed1559a492acdb308c8">LVar0</a>, 0)</div>
+<div class="line">                    <a class="code hl_define" href="script__api_2macros_8h.html#a24cc3bb2b288d68acc0eda9d7fc510e2">Set</a>(<a class="code hl_define" href="script__api_2macros_8h.html#aa36d0b11e068a3e30c62f2820cd1b51e">LVarA</a>, 0)</div>
+<div class="line">                    <a class="code hl_define" href="script__api_2macros_8h.html#ae7b067a332dbc234d75397cafb71da68">Loop</a>(30)</div>
+<div class="line">                        <a class="code hl_define" href="script__api_2macros_8h.html#a38f7808e94586e3a08d8d08d9c4dadb0">Add</a>(<a class="code hl_define" href="script__api_2macros_8h.html#aa36d0b11e068a3e30c62f2820cd1b51e">LVarA</a>, 40)</div>
+<div class="line">                        <a class="code hl_define" href="script__api_2macros_8h.html#adebe72a7dc0c86ea5913d44e43944cf2">Call</a>(<a class="code hl_function" href="script__api_2common_8h.html#a7cd80f041b40470c973eb4c1dcfea8a0">SetNpcRotation</a>, <a class="code hl_enumvalue" href="enums_8h.html#a8ed30857fb1bfefd4de61c6f02040634a0664795bf4a295e3c87e422eadf6870b">NPC_SELF</a>, 0, <a class="code hl_define" href="script__api_2macros_8h.html#aa36d0b11e068a3e30c62f2820cd1b51e">LVarA</a>, 0)</div>
+<div class="line">                        <a class="code hl_define" href="script__api_2macros_8h.html#aafbecd117f663dfc98c9d8a462f333bd">Wait</a>(1)</div>
+<div class="line">                    <a class="code hl_define" href="script__api_2macros_8h.html#a3e321586bf9f186cb3be1164ab56dd89">EndLoop</a></div>
+<div class="line">                <a class="code hl_define" href="script__api_2macros_8h.html#a63f91c4d46d730aafe3fee17f34e9f42">EndIf</a></div>
+<div class="line">            <a class="code hl_define" href="script__api_2macros_8h.html#a7c2e86e719f2eb12fa1d9214e0d13d4a">EndThread</a></div>
+<div class="line">        <a class="code hl_define" href="script__api_2macros_8h.html#a3fd5c42fc38f49cdddf555b5acfa5d43">EndCaseGroup</a></div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#ad695fd00df09b46787e8321e9f8c4dbe">EndSwitch</a></div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#afdbecdc25961f69820cb0e396872f9fb">Return</a></div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a342404d3b71fbd50588f779f1f1c59b3">End</a></div>
 <div class="line">}</div>
-<div class="ttc" id="ascript__api_2macros_8h_html_a11ba48891f165dc45a558b751bec8aca"><div class="ttname"><a href="script__api_2macros_8h.html#a11ba48891f165dc45a558b751bec8aca">EVT_END_THREAD</a></div><div class="ttdeci">#define EVT_END_THREAD</div><div class="ttdoc">Marks the end of a thread block.</div><div class="ttdef"><b>Definition</b> macros.h:559</div></div>
-<div class="ttc" id="ascript__api_2macros_8h_html_a15f6226bb8726c87b6a0368d33e4aec1"><div class="ttname"><a href="script__api_2macros_8h.html#a15f6226bb8726c87b6a0368d33e4aec1">EVT_END_IF</a></div><div class="ttdeci">#define EVT_END_IF</div><div class="ttdoc">Marks the end of an if statement or an else block.</div><div class="ttdef"><b>Definition</b> macros.h:310</div></div>
-<div class="ttc" id="ascript__api_2macros_8h_html_a1fe124875678cb6b84739e8905fbff2f"><div class="ttname"><a href="script__api_2macros_8h.html#a1fe124875678cb6b84739e8905fbff2f">EVT_END_LOOP</a></div><div class="ttdeci">#define EVT_END_LOOP</div><div class="ttdoc">Marks the end of a loop.</div><div class="ttdef"><b>Definition</b> macros.h:260</div></div>
-<div class="ttc" id="ascript__api_2macros_8h_html_a3d95f12c74f92be4e6d9173ff2989358"><div class="ttname"><a href="script__api_2macros_8h.html#a3d95f12c74f92be4e6d9173ff2989358">EVT_END_CASE_GROUP</a></div><div class="ttdeci">#define EVT_END_CASE_GROUP</div><div class="ttdoc">Marks the end of a switch case group (EVT_CASE_OR_EQ and/or EVT_CASE_AND_EQ), stopping fallthrough.</div><div class="ttdef"><b>Definition</b> macros.h:364</div></div>
-<div class="ttc" id="ascript__api_2macros_8h_html_a61ef92d6d999392239644a3e7e8fc871"><div class="ttname"><a href="script__api_2macros_8h.html#a61ef92d6d999392239644a3e7e8fc871">EVT_THREAD</a></div><div class="ttdeci">#define EVT_THREAD</div><div class="ttdoc">Marks the start of a thread block.</div><div class="ttdef"><b>Definition</b> macros.h:556</div></div>
+<div class="ttc" id="aenums_8h_html_a44581e0b0250dbd2048f8e4ed84240cca24b651dfd94a755b04327d9d05b6ea7d"><div class="ttname"><a href="enums_8h.html#a44581e0b0250dbd2048f8e4ed84240cca24b651dfd94a755b04327d9d05b6ea7d">ENEMY_ANIM_INDEX_HIT</a></div><div class="ttdeci">@ ENEMY_ANIM_INDEX_HIT</div><div class="ttdef"><b>Definition</b> enums.h:3436</div></div>
+<div class="ttc" id="aenums_8h_html_a7190fe27588707b4bc60ac932aa03af0a58f72927a9235fbcb8c32a2c295e2b02"><div class="ttname"><a href="enums_8h.html#a7190fe27588707b4bc60ac932aa03af0a58f72927a9235fbcb8c32a2c295e2b02">ENCOUNTER_TRIGGER_JUMP</a></div><div class="ttdeci">@ ENCOUNTER_TRIGGER_JUMP</div><div class="ttdef"><b>Definition</b> enums.h:269</div></div>
+<div class="ttc" id="aenums_8h_html_a7190fe27588707b4bc60ac932aa03af0a74634102bedec439026c3dfa92a877d2"><div class="ttname"><a href="enums_8h.html#a7190fe27588707b4bc60ac932aa03af0a74634102bedec439026c3dfa92a877d2">ENCOUNTER_TRIGGER_HAMMER</a></div><div class="ttdeci">@ ENCOUNTER_TRIGGER_HAMMER</div><div class="ttdef"><b>Definition</b> enums.h:271</div></div>
+<div class="ttc" id="aenums_8h_html_a7190fe27588707b4bc60ac932aa03af0a7c8ee7f96fcab2665b7b7c4a8989416e"><div class="ttname"><a href="enums_8h.html#a7190fe27588707b4bc60ac932aa03af0a7c8ee7f96fcab2665b7b7c4a8989416e">ENCOUNTER_TRIGGER_NONE</a></div><div class="ttdeci">@ ENCOUNTER_TRIGGER_NONE</div><div class="ttdef"><b>Definition</b> enums.h:268</div></div>
+<div class="ttc" id="aenums_8h_html_a7190fe27588707b4bc60ac932aa03af0aba0d11bdeeee993846aacb862d6fc6f9"><div class="ttname"><a href="enums_8h.html#a7190fe27588707b4bc60ac932aa03af0aba0d11bdeeee993846aacb862d6fc6f9">ENCOUNTER_TRIGGER_PARTNER</a></div><div class="ttdeci">@ ENCOUNTER_TRIGGER_PARTNER</div><div class="ttdef"><b>Definition</b> enums.h:273</div></div>
+<div class="ttc" id="aenums_8h_html_a7190fe27588707b4bc60ac932aa03af0aea9df8a9e372f0d0115dbfe1a263d05c"><div class="ttname"><a href="enums_8h.html#a7190fe27588707b4bc60ac932aa03af0aea9df8a9e372f0d0115dbfe1a263d05c">ENCOUNTER_TRIGGER_SPIN</a></div><div class="ttdeci">@ ENCOUNTER_TRIGGER_SPIN</div><div class="ttdef"><b>Definition</b> enums.h:270</div></div>
+<div class="ttc" id="amap_8h_html_ae7b35a531b1caa3d60c2be1a9f1310a8"><div class="ttname"><a href="map_8h.html#ae7b35a531b1caa3d60c2be1a9f1310a8">EVS_NpcHitRecoil</a></div><div class="ttdeci">EvtScript EVS_NpcHitRecoil</div><div class="ttdef"><b>Definition</b> 38F00.c:13</div></div>
+<div class="ttc" id="ascript__api_2common_8h_html_a8d47f1dd94c78d370301a55b8f502d60"><div class="ttname"><a href="script__api_2common_8h.html#a8d47f1dd94c78d370301a55b8f502d60">GetSelfAnimationFromTable</a></div><div class="ttdeci">ApiStatus GetSelfAnimationFromTable(Evt *script, b32 isInitialCall)</div></div>
+<div class="ttc" id="ascript__api_2common_8h_html_a9d79195f68eefcafac96cc078202f213"><div class="ttname"><a href="script__api_2common_8h.html#a9d79195f68eefcafac96cc078202f213">GetOwnerEncounterTrigger</a></div><div class="ttdeci">ApiStatus GetOwnerEncounterTrigger(Evt *script, b32 isInitialCall)</div></div>
+<div class="ttc" id="ascript__api_2common_8h_html_ac5ba60189ca4f559e5c5f4d41a660fc5"><div class="ttname"><a href="script__api_2common_8h.html#ac5ba60189ca4f559e5c5f4d41a660fc5">func_800458CC</a></div><div class="ttdeci">ApiStatus func_800458CC(Evt *script, b32 isInitialCall)</div></div>
+<div class="ttc" id="ascript__api_2macros_8h_html_a24cc3bb2b288d68acc0eda9d7fc510e2"><div class="ttname"><a href="script__api_2macros_8h.html#a24cc3bb2b288d68acc0eda9d7fc510e2">Set</a></div><div class="ttdeci">#define Set(VAR, INT_VALUE)</div><div class="ttdoc">Sets the given variable to a given value casted to an integer.</div><div class="ttdef"><b>Definition</b> macros.h:377</div></div>
+<div class="ttc" id="ascript__api_2macros_8h_html_a38f7808e94586e3a08d8d08d9c4dadb0"><div class="ttname"><a href="script__api_2macros_8h.html#a38f7808e94586e3a08d8d08d9c4dadb0">Add</a></div><div class="ttdeci">#define Add(VAR, INT_VALUE)</div><div class="ttdef"><b>Definition</b> macros.h:388</div></div>
+<div class="ttc" id="ascript__api_2macros_8h_html_a3e321586bf9f186cb3be1164ab56dd89"><div class="ttname"><a href="script__api_2macros_8h.html#a3e321586bf9f186cb3be1164ab56dd89">EndLoop</a></div><div class="ttdeci">#define EndLoop</div><div class="ttdoc">Marks the end of a loop.</div><div class="ttdef"><b>Definition</b> macros.h:260</div></div>
+<div class="ttc" id="ascript__api_2macros_8h_html_a3fd5c42fc38f49cdddf555b5acfa5d43"><div class="ttname"><a href="script__api_2macros_8h.html#a3fd5c42fc38f49cdddf555b5acfa5d43">EndCaseGroup</a></div><div class="ttdeci">#define EndCaseGroup</div><div class="ttdoc">Marks the end of a switch case group (CaseOrEq and/or CaseAndEq), stopping fallthrough.</div><div class="ttdef"><b>Definition</b> macros.h:364</div></div>
+<div class="ttc" id="ascript__api_2macros_8h_html_a609c52d999a6a01075609aee404a57fd"><div class="ttname"><a href="script__api_2macros_8h.html#a609c52d999a6a01075609aee404a57fd">CaseOrEq</a></div><div class="ttdeci">#define CaseOrEq(RVAR)</div><div class="ttdoc">Marks the start of a switch case that executes only if LVAR == RVAR.</div><div class="ttdef"><b>Definition</b> macros.h:353</div></div>
+<div class="ttc" id="ascript__api_2macros_8h_html_a63f91c4d46d730aafe3fee17f34e9f42"><div class="ttname"><a href="script__api_2macros_8h.html#a63f91c4d46d730aafe3fee17f34e9f42">EndIf</a></div><div class="ttdeci">#define EndIf</div><div class="ttdoc">Marks the end of an if statement or an else block.</div><div class="ttdef"><b>Definition</b> macros.h:310</div></div>
+<div class="ttc" id="ascript__api_2macros_8h_html_a73b76fe2edbe5dc3530323b9cbaf0c31"><div class="ttname"><a href="script__api_2macros_8h.html#a73b76fe2edbe5dc3530323b9cbaf0c31">ExecWait</a></div><div class="ttdeci">#define ExecWait(EVT_SOURCE)</div><div class="ttdoc">Launches a new child thread.</div><div class="ttdef"><b>Definition</b> macros.h:487</div></div>
+<div class="ttc" id="ascript__api_2macros_8h_html_a7add35317e384cd14231f428e57531ca"><div class="ttname"><a href="script__api_2macros_8h.html#a7add35317e384cd14231f428e57531ca">Thread</a></div><div class="ttdeci">#define Thread</div><div class="ttdoc">Marks the start of a thread block.</div><div class="ttdef"><b>Definition</b> macros.h:556</div></div>
+<div class="ttc" id="ascript__api_2macros_8h_html_a7c2e86e719f2eb12fa1d9214e0d13d4a"><div class="ttname"><a href="script__api_2macros_8h.html#a7c2e86e719f2eb12fa1d9214e0d13d4a">EndThread</a></div><div class="ttdeci">#define EndThread</div><div class="ttdoc">Marks the end of a thread block.</div><div class="ttdef"><b>Definition</b> macros.h:559</div></div>
+<div class="ttc" id="ascript__api_2macros_8h_html_aa36d0b11e068a3e30c62f2820cd1b51e"><div class="ttname"><a href="script__api_2macros_8h.html#aa36d0b11e068a3e30c62f2820cd1b51e">LVarA</a></div><div class="ttdeci">#define LVarA</div><div class="ttdef"><b>Definition</b> macros.h:154</div></div>
+<div class="ttc" id="ascript__api_2macros_8h_html_aafbecd117f663dfc98c9d8a462f333bd"><div class="ttname"><a href="script__api_2macros_8h.html#aafbecd117f663dfc98c9d8a462f333bd">Wait</a></div><div class="ttdeci">#define Wait(NUM_FRAMES)</div><div class="ttdoc">Blocks for the given number of frames.</div><div class="ttdef"><b>Definition</b> macros.h:266</div></div>
+<div class="ttc" id="ascript__api_2macros_8h_html_ad83d17d5035c14969f8bedf3ba85a5f5"><div class="ttname"><a href="script__api_2macros_8h.html#ad83d17d5035c14969f8bedf3ba85a5f5">IfEq</a></div><div class="ttdeci">#define IfEq(LVAR, RVAR)</div><div class="ttdoc">Marks the beginning of an if statement that only executes if LVAR == RVAR.</div><div class="ttdef"><b>Definition</b> macros.h:281</div></div>
+<div class="ttc" id="ascript__api_2macros_8h_html_ae7b067a332dbc234d75397cafb71da68"><div class="ttname"><a href="script__api_2macros_8h.html#ae7b067a332dbc234d75397cafb71da68">Loop</a></div><div class="ttdeci">#define Loop(TIMES)</div><div class="ttdoc">Marks the beginning of a loop.</div><div class="ttdef"><b>Definition</b> macros.h:257</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -810,10 +843,11 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line"> </div>
-<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#aa49b4615589f142fe396afa06f44ec5e">EVT_RETURN</a></div>
-<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a1eb5d3206784e72fb8b5bf5cc7228553">EVT_END</a></div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#adebe72a7dc0c86ea5913d44e43944cf2">Call</a>(<a class="code hl_function" href="script__api_2common_8h.html#a76eb85b12c6bc00c5ed56bb10e50bb6e">OnFleeBattleDrops</a>)</div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#afdbecdc25961f69820cb0e396872f9fb">Return</a></div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a342404d3b71fbd50588f779f1f1c59b3">End</a></div>
 <div class="line">}</div>
+<div class="ttc" id="ascript__api_2common_8h_html_a76eb85b12c6bc00c5ed56bb10e50bb6e"><div class="ttname"><a href="script__api_2common_8h.html#a76eb85b12c6bc00c5ed56bb10e50bb6e">OnFleeBattleDrops</a></div><div class="ttdeci">ApiStatus OnFleeBattleDrops(Evt *script, b32 isInitialCall)</div></div>
 </div><!-- fragment -->
 <p class="reference">Referenced by <a class="el" href="functions_8h.html#a38d862ec1c4e834bef75a993e7583fbd">update_encounters_post_battle()</a>.</p>
 
@@ -847,16 +881,18 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line"> </div>
-<div class="line"> </div>
-<div class="line"> </div>
-<div class="line"> </div>
-<div class="line"> </div>
-<div class="line"> </div>
-<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#ac6fbdcfa971560087532c99ce65554cf">EVT_END_SWITCH</a></div>
-<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#aa49b4615589f142fe396afa06f44ec5e">EVT_RETURN</a></div>
-<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a1eb5d3206784e72fb8b5bf5cc7228553">EVT_END</a></div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#adebe72a7dc0c86ea5913d44e43944cf2">Call</a>(<a class="code hl_function" href="script__api_2common_8h.html#af046f44406b551852e3526b76d08ffe7">GetBattleOutcome</a>, <a class="code hl_define" href="script__api_2macros_8h.html#af7850f206b899ed1559a492acdb308c8">LVar0</a>)</div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a136c54729193c3d65d8729ec3ba0b2bf">Switch</a>(<a class="code hl_define" href="script__api_2macros_8h.html#af7850f206b899ed1559a492acdb308c8">LVar0</a>)</div>
+<div class="line">        <a class="code hl_define" href="script__api_2macros_8h.html#a27244e471ebf20542262f09b9dbb317b">CaseEq</a>(<a class="code hl_enumvalue" href="enums_8h.html#ad5153a0073fcd5294ed9348e7fc7fbb8a139b014647cbd30bfe886274f9dd7add">OUTCOME_PLAYER_WON</a>)</div>
+<div class="line">            <a class="code hl_define" href="script__api_2macros_8h.html#adebe72a7dc0c86ea5913d44e43944cf2">Call</a>(<a class="code hl_function" href="script__api_2common_8h.html#a98ad0a0b1ffafcf2dc4a8f8ac505a961">OnDefeatEnemy</a>)</div>
+<div class="line">        <a class="code hl_define" href="script__api_2macros_8h.html#a27244e471ebf20542262f09b9dbb317b">CaseEq</a>(<a class="code hl_enumvalue" href="enums_8h.html#ad5153a0073fcd5294ed9348e7fc7fbb8acf5c1f14c5ad6598cc21aa5bc4f464f0">OUTCOME_PLAYER_LOST</a>)</div>
+<div class="line">        <a class="code hl_define" href="script__api_2macros_8h.html#a27244e471ebf20542262f09b9dbb317b">CaseEq</a>(<a class="code hl_enumvalue" href="enums_8h.html#ad5153a0073fcd5294ed9348e7fc7fbb8ad5c3adf1ab0c47f3373bedfd8080e622">OUTCOME_PLAYER_FLED</a>)</div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#ad695fd00df09b46787e8321e9f8c4dbe">EndSwitch</a></div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#afdbecdc25961f69820cb0e396872f9fb">Return</a></div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a342404d3b71fbd50588f779f1f1c59b3">End</a></div>
 <div class="line">}</div>
+<div class="ttc" id="aenums_8h_html_ad5153a0073fcd5294ed9348e7fc7fbb8acf5c1f14c5ad6598cc21aa5bc4f464f0"><div class="ttname"><a href="enums_8h.html#ad5153a0073fcd5294ed9348e7fc7fbb8acf5c1f14c5ad6598cc21aa5bc4f464f0">OUTCOME_PLAYER_LOST</a></div><div class="ttdeci">@ OUTCOME_PLAYER_LOST</div><div class="ttdef"><b>Definition</b> enums.h:1904</div></div>
+<div class="ttc" id="ascript__api_2common_8h_html_a98ad0a0b1ffafcf2dc4a8f8ac505a961"><div class="ttname"><a href="script__api_2common_8h.html#a98ad0a0b1ffafcf2dc4a8f8ac505a961">OnDefeatEnemy</a></div><div class="ttdeci">ApiStatus OnDefeatEnemy(Evt *script, b32 isInitialCall)</div></div>
 </div><!-- fragment -->
 <p class="reference">Referenced by <a class="el" href="functions_8h.html#a38d862ec1c4e834bef75a993e7583fbd">update_encounters_post_battle()</a>.</p>
 

@@ -1,25 +1,5 @@
 var kmr__20_8h =
 [
     [ "NAMESPACE", "kmr__20_8h.html#afa7779fe56b160955b535cd6a8aaf8f4", null ],
-    [ "msg_draw_frame", "kmr__20_8h.html#a65e036e670f167d3879ec03bb0f8af21", null ],
-    [ "DefaultNPCs", "kmr__20_8h.html#a7374ac0b449e4ad2ea880b155b9139f7", null ],
-    [ "EVS_FadeOutAmbientSounds", "kmr__20_8h.html#a17ba396a69ebf160643afd23159d80e8", null ],
-    [ "EVS_Inspect_Records", "kmr__20_8h.html#a733b324bc005e8f15540822d76f6669b", null ],
-    [ "EVS_Main", "kmr__20_8h.html#a2932ca2a9340b6bc0ba210661962bd9d", null ],
-    [ "EVS_MakeEntities", "kmr__20_8h.html#a8f71bd7ea7026039c7ee89919f8ce1e5", null ],
-    [ "EVS_PlayRestingSong", "kmr__20_8h.html#a4400afacb7bb07593b14a1efe08b3c62", null ],
-    [ "EVS_Scene_BeginEpilogue", "kmr__20_8h.html#a8289401be0f5018a3a4211f09fe0ccfa", null ],
-    [ "EVS_Scene_BeginGame", "kmr__20_8h.html#a7909e5e875f3f7f140fc79c17ca31cd3", null ],
-    [ "EVS_Scene_CaughtLuigiInBasement", "kmr__20_8h.html#a752059a8b3c057cc10e1942e1773c241", null ],
-    [ "EVS_Scene_EpilogueGetLetter", "kmr__20_8h.html#a88a3f967521e491900a24edf8c1f4789", null ],
-    [ "EVS_Scene_LuigiWaitingAround", "kmr__20_8h.html#a3665e11b2d7314b8c4834a4a7a6792e3", null ],
-    [ "EVS_Scene_SettingOff", "kmr__20_8h.html#aa1567685d6dcb668f17e5f53b45991a0", null ],
-    [ "EVS_SecretPanel_Flip", "kmr__20_8h.html#a2d243793779cc1402afb676d2bfc2c43", null ],
-    [ "EVS_Setup_Interactables", "kmr__20_8h.html#ab8d3ee0e629fa11d35cdab496887b14d", null ],
-    [ "EVS_SetupBed", "kmr__20_8h.html#a3be282ed5c81775eda6252014a20596f", null ],
-    [ "EVS_SetupBushes", "kmr__20_8h.html#ae1663b9a4062929bd0090568a47544a1", null ],
-    [ "EVS_SetupMusic", "kmr__20_8h.html#ae6bcf9bcfc24d38faca57993791bdcab", null ],
-    [ "EVS_SetupRooms", "kmr__20_8h.html#ab093da3f10214f7589840085397f6bda", null ],
-    [ "EVS_SetupTrees", "kmr__20_8h.html#ae391cadd63836b324041b296bb21e0ad", null ],
-    [ "SceneNPCs", "kmr__20_8h.html#a0be3d16d902f6addd66b2e1d95b30ff9", null ]
+    [ "msg_draw_frame", "kmr__20_8h.html#a65e036e670f167d3879ec03bb0f8af21", null ]
 ];

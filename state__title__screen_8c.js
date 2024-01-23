@@ -50,7 +50,7 @@ var state__title__screen_8c =
     [ "PressStart_IsVisible", "state__title__screen_8c.html#a003173d8110ff66d792793c8cb26e335", null ],
     [ "TitleScreen_AppearDelay", "state__title__screen_8c.html#a27eea239be50eac45866aaed9d31023b", null ],
     [ "TitleScreen_ImgList", "state__title__screen_8c.html#abd5de17e136271001c71e8e343639d8e", null ],
-    [ "TitleScreen_ImgList_Copyright", "state__title__screen_8c.html#aea03299e10fa10b67cdb3d7bd1498571", null ],
+    [ "TitleScreen_ImgList_Copyright", "state__title__screen_8c.html#a66ef7a6dacd2aa9892904c4f4777a7f0", null ],
     [ "TitleScreen_ImgList_Logo", "state__title__screen_8c.html#a646560e502ebde3269663dd96cd6883e", null ],
     [ "TitleScreen_ImgList_PressStart", "state__title__screen_8c.html#a16d50d7647e11440ac53336c3cd15a4a", null ],
     [ "TitleScreen_TimeLeft", "state__title__screen_8c.html#a76dc3128318668ec411e672e5826ab8a", null ],

@@ -726,15 +726,19 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line"> </div>
-<div class="line"> </div>
-<div class="line"> </div>
-<div class="line"> </div>
-<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#aa49b4615589f142fe396afa06f44ec5e">EVT_RETURN</a></div>
-<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a1eb5d3206784e72fb8b5bf5cc7228553">EVT_END</a></div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#adebe72a7dc0c86ea5913d44e43944cf2">Call</a>(SetBattleCamPos, 0, 15, 0)</div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#adebe72a7dc0c86ea5913d44e43944cf2">Call</a>(SetBattleCamParam, <a class="code hl_enumvalue" href="enums_8h.html#a27044aa76ad05ef8f6d9ab823e825de1ae3f701d006586ed9c4299c65a52c46cd">AUX_CAM_BOOM_LENGTH</a>, 550)</div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#adebe72a7dc0c86ea5913d44e43944cf2">Call</a>(SetBattleCamParam, <a class="code hl_enumvalue" href="enums_8h.html#a27044aa76ad05ef8f6d9ab823e825de1ada274b97eddfac1d4679c2c91555d05e">AUX_CAM_PARAM_3</a>, 100)</div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#adebe72a7dc0c86ea5913d44e43944cf2">Call</a>(SetBattleCamParam, <a class="code hl_enumvalue" href="enums_8h.html#a27044aa76ad05ef8f6d9ab823e825de1a4cf79e13abd1f6d0a0ba2534477a0172">AUX_CAM_BOOM_PITCH</a>, 8)</div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#afdbecdc25961f69820cb0e396872f9fb">Return</a></div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a342404d3b71fbd50588f779f1f1c59b3">End</a></div>
 <div class="line">}</div>
-<div class="ttc" id="ascript__api_2macros_8h_html_a1eb5d3206784e72fb8b5bf5cc7228553"><div class="ttname"><a href="script__api_2macros_8h.html#a1eb5d3206784e72fb8b5bf5cc7228553">EVT_END</a></div><div class="ttdeci">#define EVT_END</div><div class="ttdoc">Signals the end of EVT script data. A script missing this will likely crash on load.</div><div class="ttdef"><b>Definition</b> macros.h:225</div></div>
-<div class="ttc" id="ascript__api_2macros_8h_html_aa49b4615589f142fe396afa06f44ec5e"><div class="ttname"><a href="script__api_2macros_8h.html#aa49b4615589f142fe396afa06f44ec5e">EVT_RETURN</a></div><div class="ttdeci">#define EVT_RETURN</div><div class="ttdoc">Kills the current EVT thread.</div><div class="ttdef"><b>Definition</b> macros.h:229</div></div>
+<div class="ttc" id="aenums_8h_html_a27044aa76ad05ef8f6d9ab823e825de1a4cf79e13abd1f6d0a0ba2534477a0172"><div class="ttname"><a href="enums_8h.html#a27044aa76ad05ef8f6d9ab823e825de1a4cf79e13abd1f6d0a0ba2534477a0172">AUX_CAM_BOOM_PITCH</a></div><div class="ttdeci">@ AUX_CAM_BOOM_PITCH</div><div class="ttdef"><b>Definition</b> enums.h:1817</div></div>
+<div class="ttc" id="aenums_8h_html_a27044aa76ad05ef8f6d9ab823e825de1ada274b97eddfac1d4679c2c91555d05e"><div class="ttname"><a href="enums_8h.html#a27044aa76ad05ef8f6d9ab823e825de1ada274b97eddfac1d4679c2c91555d05e">AUX_CAM_PARAM_3</a></div><div class="ttdeci">@ AUX_CAM_PARAM_3</div><div class="ttdef"><b>Definition</b> enums.h:1816</div></div>
+<div class="ttc" id="aenums_8h_html_a27044aa76ad05ef8f6d9ab823e825de1ae3f701d006586ed9c4299c65a52c46cd"><div class="ttname"><a href="enums_8h.html#a27044aa76ad05ef8f6d9ab823e825de1ae3f701d006586ed9c4299c65a52c46cd">AUX_CAM_BOOM_LENGTH</a></div><div class="ttdeci">@ AUX_CAM_BOOM_LENGTH</div><div class="ttdef"><b>Definition</b> enums.h:1815</div></div>
+<div class="ttc" id="ascript__api_2macros_8h_html_a342404d3b71fbd50588f779f1f1c59b3"><div class="ttname"><a href="script__api_2macros_8h.html#a342404d3b71fbd50588f779f1f1c59b3">End</a></div><div class="ttdeci">#define End</div><div class="ttdoc">Signals the end of EVT script data. A script missing this will likely crash on load.</div><div class="ttdef"><b>Definition</b> macros.h:225</div></div>
+<div class="ttc" id="ascript__api_2macros_8h_html_adebe72a7dc0c86ea5913d44e43944cf2"><div class="ttname"><a href="script__api_2macros_8h.html#adebe72a7dc0c86ea5913d44e43944cf2">Call</a></div><div class="ttdeci">#define Call(FUNC, ARGS...)</div><div class="ttdoc">Calls a given C EVT API function with any number of arguments.</div><div class="ttdef"><b>Definition</b> macros.h:588</div></div>
+<div class="ttc" id="ascript__api_2macros_8h_html_afdbecdc25961f69820cb0e396872f9fb"><div class="ttname"><a href="script__api_2macros_8h.html#afdbecdc25961f69820cb0e396872f9fb">Return</a></div><div class="ttdeci">#define Return</div><div class="ttdoc">Kills the current EVT thread.</div><div class="ttdef"><b>Definition</b> macros.h:229</div></div>
 </div><!-- fragment -->
 <p class="reference">Referenced by <a class="el" href="#a2b45f4375e6ff23d9412d21aae9e31e1">btl_cam_use_preset_impl()</a>.</p>
 
@@ -752,9 +756,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line"> </div>
-<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#aa49b4615589f142fe396afa06f44ec5e">EVT_RETURN</a></div>
-<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a1eb5d3206784e72fb8b5bf5cc7228553">EVT_END</a></div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#adebe72a7dc0c86ea5913d44e43944cf2">Call</a>(CamPresetUpdate_B)</div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#afdbecdc25961f69820cb0e396872f9fb">Return</a></div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a342404d3b71fbd50588f779f1f1c59b3">End</a></div>
 <div class="line">}</div>
 </div><!-- fragment -->
 <p class="reference">Referenced by <a class="el" href="#a2b45f4375e6ff23d9412d21aae9e31e1">btl_cam_use_preset_impl()</a>.</p>
@@ -773,9 +777,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line"> </div>
-<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#aa49b4615589f142fe396afa06f44ec5e">EVT_RETURN</a></div>
-<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a1eb5d3206784e72fb8b5bf5cc7228553">EVT_END</a></div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#adebe72a7dc0c86ea5913d44e43944cf2">Call</a>(CamPresetUpdate_D)</div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#afdbecdc25961f69820cb0e396872f9fb">Return</a></div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a342404d3b71fbd50588f779f1f1c59b3">End</a></div>
 <div class="line">}</div>
 </div><!-- fragment -->
 <p class="reference">Referenced by <a class="el" href="#a2b45f4375e6ff23d9412d21aae9e31e1">btl_cam_use_preset_impl()</a>.</p>
@@ -794,9 +798,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line"> </div>
-<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#aa49b4615589f142fe396afa06f44ec5e">EVT_RETURN</a></div>
-<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a1eb5d3206784e72fb8b5bf5cc7228553">EVT_END</a></div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#adebe72a7dc0c86ea5913d44e43944cf2">Call</a>(CamPresetUpdate_E)</div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#afdbecdc25961f69820cb0e396872f9fb">Return</a></div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a342404d3b71fbd50588f779f1f1c59b3">End</a></div>
 <div class="line">}</div>
 </div><!-- fragment -->
 <p class="reference">Referenced by <a class="el" href="#a2b45f4375e6ff23d9412d21aae9e31e1">btl_cam_use_preset_impl()</a>.</p>
@@ -815,10 +819,11 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line"> </div>
-<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#aa49b4615589f142fe396afa06f44ec5e">EVT_RETURN</a></div>
-<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a1eb5d3206784e72fb8b5bf5cc7228553">EVT_END</a></div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#adebe72a7dc0c86ea5913d44e43944cf2">Call</a>(<a class="code hl_function" href="#a857174e6087f92075c1398f4eff46315">CamPresetUpdate_F</a>)</div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#afdbecdc25961f69820cb0e396872f9fb">Return</a></div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a342404d3b71fbd50588f779f1f1c59b3">End</a></div>
 <div class="line">}</div>
+<div class="ttc" id="acamera_8c_html_a857174e6087f92075c1398f4eff46315"><div class="ttname"><a href="#a857174e6087f92075c1398f4eff46315">CamPresetUpdate_F</a></div><div class="ttdeci">s32 CamPresetUpdate_F(Evt *script, s32 isInitialCall)</div><div class="ttdef"><b>Definition</b> camera.c:146</div></div>
 </div><!-- fragment -->
 <p class="reference">Referenced by <a class="el" href="#a2b45f4375e6ff23d9412d21aae9e31e1">btl_cam_use_preset_impl()</a>.</p>
 
@@ -836,10 +841,11 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line"> </div>
-<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#aa49b4615589f142fe396afa06f44ec5e">EVT_RETURN</a></div>
-<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a1eb5d3206784e72fb8b5bf5cc7228553">EVT_END</a></div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#adebe72a7dc0c86ea5913d44e43944cf2">Call</a>(<a class="code hl_function" href="#af6a43cf4ec6ca8da51311693f8060211">CamPresetUpdate_G</a>)</div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#afdbecdc25961f69820cb0e396872f9fb">Return</a></div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a342404d3b71fbd50588f779f1f1c59b3">End</a></div>
 <div class="line">}</div>
+<div class="ttc" id="acamera_8c_html_af6a43cf4ec6ca8da51311693f8060211"><div class="ttname"><a href="#af6a43cf4ec6ca8da51311693f8060211">CamPresetUpdate_G</a></div><div class="ttdeci">s32 CamPresetUpdate_G(Evt *script, s32 isInitialCall)</div><div class="ttdef"><b>Definition</b> camera.c:574</div></div>
 </div><!-- fragment -->
 <p class="reference">Referenced by <a class="el" href="#a2b45f4375e6ff23d9412d21aae9e31e1">btl_cam_use_preset_impl()</a>.</p>
 
@@ -857,10 +863,11 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line"> </div>
-<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#aa49b4615589f142fe396afa06f44ec5e">EVT_RETURN</a></div>
-<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a1eb5d3206784e72fb8b5bf5cc7228553">EVT_END</a></div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#adebe72a7dc0c86ea5913d44e43944cf2">Call</a>(<a class="code hl_function" href="#a06fe8b6f41153fe00740bbd9f93326dd">CamPresetUpdate_H</a>)</div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#afdbecdc25961f69820cb0e396872f9fb">Return</a></div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a342404d3b71fbd50588f779f1f1c59b3">End</a></div>
 <div class="line">}</div>
+<div class="ttc" id="acamera_8c_html_a06fe8b6f41153fe00740bbd9f93326dd"><div class="ttname"><a href="#a06fe8b6f41153fe00740bbd9f93326dd">CamPresetUpdate_H</a></div><div class="ttdeci">s32 CamPresetUpdate_H(Evt *script, s32 isInitialCall)</div><div class="ttdef"><b>Definition</b> camera.c:893</div></div>
 </div><!-- fragment -->
 <p class="reference">Referenced by <a class="el" href="#a2b45f4375e6ff23d9412d21aae9e31e1">btl_cam_use_preset_impl()</a>.</p>
 
@@ -878,10 +885,11 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line"> </div>
-<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#aa49b4615589f142fe396afa06f44ec5e">EVT_RETURN</a></div>
-<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a1eb5d3206784e72fb8b5bf5cc7228553">EVT_END</a></div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#adebe72a7dc0c86ea5913d44e43944cf2">Call</a>(<a class="code hl_function" href="#a286d69135b5dd534f47fb816295ac868">CamPresetUpdate_I</a>)</div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#afdbecdc25961f69820cb0e396872f9fb">Return</a></div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a342404d3b71fbd50588f779f1f1c59b3">End</a></div>
 <div class="line">}</div>
+<div class="ttc" id="acamera_8c_html_a286d69135b5dd534f47fb816295ac868"><div class="ttname"><a href="#a286d69135b5dd534f47fb816295ac868">CamPresetUpdate_I</a></div><div class="ttdeci">s32 CamPresetUpdate_I(Evt *script, s32 isInitialCall)</div><div class="ttdef"><b>Definition</b> camera.c:770</div></div>
 </div><!-- fragment -->
 <p class="reference">Referenced by <a class="el" href="#a2b45f4375e6ff23d9412d21aae9e31e1">btl_cam_use_preset_impl()</a>.</p>
 
@@ -899,9 +907,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line"> </div>
-<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#aa49b4615589f142fe396afa06f44ec5e">EVT_RETURN</a></div>
-<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a1eb5d3206784e72fb8b5bf5cc7228553">EVT_END</a></div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#adebe72a7dc0c86ea5913d44e43944cf2">Call</a>(CamPresetUpdate_J)</div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#afdbecdc25961f69820cb0e396872f9fb">Return</a></div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a342404d3b71fbd50588f779f1f1c59b3">End</a></div>
 <div class="line">}</div>
 </div><!-- fragment -->
 <p class="reference">Referenced by <a class="el" href="#a2b45f4375e6ff23d9412d21aae9e31e1">btl_cam_use_preset_impl()</a>.</p>
@@ -920,9 +928,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line"> </div>
-<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#aa49b4615589f142fe396afa06f44ec5e">EVT_RETURN</a></div>
-<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a1eb5d3206784e72fb8b5bf5cc7228553">EVT_END</a></div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#adebe72a7dc0c86ea5913d44e43944cf2">Call</a>(CamPresetUpdate_K)</div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#afdbecdc25961f69820cb0e396872f9fb">Return</a></div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a342404d3b71fbd50588f779f1f1c59b3">End</a></div>
 <div class="line">}</div>
 </div><!-- fragment -->
 <p class="reference">Referenced by <a class="el" href="#a2b45f4375e6ff23d9412d21aae9e31e1">btl_cam_use_preset_impl()</a>.</p>
@@ -941,9 +949,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line"> </div>
-<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#aa49b4615589f142fe396afa06f44ec5e">EVT_RETURN</a></div>
-<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a1eb5d3206784e72fb8b5bf5cc7228553">EVT_END</a></div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#adebe72a7dc0c86ea5913d44e43944cf2">Call</a>(CamPresetUpdate_L)</div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#afdbecdc25961f69820cb0e396872f9fb">Return</a></div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a342404d3b71fbd50588f779f1f1c59b3">End</a></div>
 <div class="line">}</div>
 </div><!-- fragment -->
 <p class="reference">Referenced by <a class="el" href="#a2b45f4375e6ff23d9412d21aae9e31e1">btl_cam_use_preset_impl()</a>.</p>
@@ -962,10 +970,11 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line"> </div>
-<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#aa49b4615589f142fe396afa06f44ec5e">EVT_RETURN</a></div>
-<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a1eb5d3206784e72fb8b5bf5cc7228553">EVT_END</a></div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#adebe72a7dc0c86ea5913d44e43944cf2">Call</a>(<a class="code hl_function" href="#ab8f42e15ef859d80677fd9ab1f871fda">CamPresetUpdate_M</a>)</div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#afdbecdc25961f69820cb0e396872f9fb">Return</a></div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a342404d3b71fbd50588f779f1f1c59b3">End</a></div>
 <div class="line">}</div>
+<div class="ttc" id="acamera_8c_html_ab8f42e15ef859d80677fd9ab1f871fda"><div class="ttname"><a href="#ab8f42e15ef859d80677fd9ab1f871fda">CamPresetUpdate_M</a></div><div class="ttdeci">s32 CamPresetUpdate_M(Evt *script, s32 isInitialCall)</div><div class="ttdef"><b>Definition</b> camera.c:361</div></div>
 </div><!-- fragment -->
 <p class="reference">Referenced by <a class="el" href="#a2b45f4375e6ff23d9412d21aae9e31e1">btl_cam_use_preset_impl()</a>.</p>
 
@@ -983,9 +992,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line"> </div>
-<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#aa49b4615589f142fe396afa06f44ec5e">EVT_RETURN</a></div>
-<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a1eb5d3206784e72fb8b5bf5cc7228553">EVT_END</a></div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#adebe72a7dc0c86ea5913d44e43944cf2">Call</a>(CamPresetUpdate_N)</div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#afdbecdc25961f69820cb0e396872f9fb">Return</a></div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a342404d3b71fbd50588f779f1f1c59b3">End</a></div>
 <div class="line">}</div>
 </div><!-- fragment -->
 <p class="reference">Referenced by <a class="el" href="#a2b45f4375e6ff23d9412d21aae9e31e1">btl_cam_use_preset_impl()</a>.</p>
@@ -1004,9 +1013,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line"> </div>
-<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#aa49b4615589f142fe396afa06f44ec5e">EVT_RETURN</a></div>
-<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a1eb5d3206784e72fb8b5bf5cc7228553">EVT_END</a></div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#adebe72a7dc0c86ea5913d44e43944cf2">Call</a>(BattleCamImpl_Default)</div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#afdbecdc25961f69820cb0e396872f9fb">Return</a></div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a342404d3b71fbd50588f779f1f1c59b3">End</a></div>
 <div class="line">}</div>
 </div><!-- fragment -->
 <p class="reference">Referenced by <a class="el" href="#a2b45f4375e6ff23d9412d21aae9e31e1">btl_cam_use_preset_impl()</a>.</p>
@@ -1025,20 +1034,31 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line"> </div>
-<div class="line"> </div>
-<div class="line"> </div>
-<div class="line"> </div>
-<div class="line"> </div>
-<div class="line"> </div>
-<div class="line"> </div>
-<div class="line"> </div>
-<div class="line"> </div>
-<div class="line"> </div>
-<div class="line"> </div>
-<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#aa49b4615589f142fe396afa06f44ec5e">EVT_RETURN</a></div>
-<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a1eb5d3206784e72fb8b5bf5cc7228553">EVT_END</a></div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#adebe72a7dc0c86ea5913d44e43944cf2">Call</a>(<a class="code hl_function" href="script__api_2common_8h.html#aeeb13c553a0619510ada6ee0353b57db">SetCamPerspective</a>, <a class="code hl_enumvalue" href="enums_8h.html#afbfbe32aeee992982c90abc082d07959a8bce9102df29f51e0fe6c27fa0af8d50">CAM_BATTLE</a>, <a class="code hl_enumvalue" href="enums_8h.html#ae76b2e2bd776df183fe7e1650a625856a6a0b50d0059ad2599cfd1fd24b4a24ed">CAM_UPDATE_MODE_6</a>, 25, 16, 1024)</div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#adebe72a7dc0c86ea5913d44e43944cf2">Call</a>(<a class="code hl_function" href="script__api_2common_8h.html#a17856a322b69aa63c131f4443ac71cca">SetCamViewport</a>, <a class="code hl_enumvalue" href="enums_8h.html#afbfbe32aeee992982c90abc082d07959a8bce9102df29f51e0fe6c27fa0af8d50">CAM_BATTLE</a>, 12, 20, 296, 200)</div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#adebe72a7dc0c86ea5913d44e43944cf2">Call</a>(<a class="code hl_function" href="script__api_2common_8h.html#a96f2326425863c7f09f088c91abefc66">SetCamBGColor</a>, <a class="code hl_enumvalue" href="enums_8h.html#afbfbe32aeee992982c90abc082d07959a8bce9102df29f51e0fe6c27fa0af8d50">CAM_BATTLE</a>, 0, 0, 0)</div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#adebe72a7dc0c86ea5913d44e43944cf2">Call</a>(<a class="code hl_function" href="script__api_2common_8h.html#a0b8811d178212138a64245e89571295d">SetCamEnabled</a>, <a class="code hl_enumvalue" href="enums_8h.html#afbfbe32aeee992982c90abc082d07959a8bce9102df29f51e0fe6c27fa0af8d50">CAM_BATTLE</a>, TRUE)</div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#aafbecd117f663dfc98c9d8a462f333bd">Wait</a>(1)</div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#adebe72a7dc0c86ea5913d44e43944cf2">Call</a>(<a class="code hl_function" href="script__api_2common_8h.html#a5eb2aa2c7182f28cf6ff12e2a155525b">InitVirtualEntityList</a>)</div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#adebe72a7dc0c86ea5913d44e43944cf2">Call</a>(<a class="code hl_function" href="script__api_2common_8h.html#a8ad46b870a41048c8a94f361cd8cdd95">InitAnimatedModels</a>)</div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#adebe72a7dc0c86ea5913d44e43944cf2">Call</a>(<a class="code hl_function" href="script__api_2common_8h.html#a4f9ca0f4f994bfb3e32ee3e73cbeb405">func_802CABE8</a>, <a class="code hl_enumvalue" href="enums_8h.html#afbfbe32aeee992982c90abc082d07959a8bce9102df29f51e0fe6c27fa0af8d50">CAM_BATTLE</a>, 0, 240, 100, 8)</div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#adebe72a7dc0c86ea5913d44e43944cf2">Call</a>(<a class="code hl_function" href="script__api_2common_8h.html#af44b71486a9f39c7182d7973f5e24054">func_802CAE50</a>, <a class="code hl_enumvalue" href="enums_8h.html#afbfbe32aeee992982c90abc082d07959a8bce9102df29f51e0fe6c27fa0af8d50">CAM_BATTLE</a>, -75, 35, 0)</div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#adebe72a7dc0c86ea5913d44e43944cf2">Call</a>(BattleCamTargetActor, 0)</div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#adebe72a7dc0c86ea5913d44e43944cf2">Call</a>(func_8024CE9C)</div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#afdbecdc25961f69820cb0e396872f9fb">Return</a></div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a342404d3b71fbd50588f779f1f1c59b3">End</a></div>
 <div class="line">}</div>
+<div class="ttc" id="aenums_8h_html_ae76b2e2bd776df183fe7e1650a625856a6a0b50d0059ad2599cfd1fd24b4a24ed"><div class="ttname"><a href="enums_8h.html#ae76b2e2bd776df183fe7e1650a625856a6a0b50d0059ad2599cfd1fd24b4a24ed">CAM_UPDATE_MODE_6</a></div><div class="ttdeci">@ CAM_UPDATE_MODE_6</div><div class="ttdef"><b>Definition</b> enums.h:4710</div></div>
+<div class="ttc" id="aenums_8h_html_afbfbe32aeee992982c90abc082d07959a8bce9102df29f51e0fe6c27fa0af8d50"><div class="ttname"><a href="enums_8h.html#afbfbe32aeee992982c90abc082d07959a8bce9102df29f51e0fe6c27fa0af8d50">CAM_BATTLE</a></div><div class="ttdeci">@ CAM_BATTLE</div><div class="ttdef"><b>Definition</b> enums.h:1801</div></div>
+<div class="ttc" id="ascript__api_2common_8h_html_a0b8811d178212138a64245e89571295d"><div class="ttname"><a href="script__api_2common_8h.html#a0b8811d178212138a64245e89571295d">SetCamEnabled</a></div><div class="ttdeci">ApiStatus SetCamEnabled(Evt *script, b32 isInitialCall)</div></div>
+<div class="ttc" id="ascript__api_2common_8h_html_a17856a322b69aa63c131f4443ac71cca"><div class="ttname"><a href="script__api_2common_8h.html#a17856a322b69aa63c131f4443ac71cca">SetCamViewport</a></div><div class="ttdeci">ApiStatus SetCamViewport(Evt *script, b32 isInitialCall)</div></div>
+<div class="ttc" id="ascript__api_2common_8h_html_a4f9ca0f4f994bfb3e32ee3e73cbeb405"><div class="ttname"><a href="script__api_2common_8h.html#a4f9ca0f4f994bfb3e32ee3e73cbeb405">func_802CABE8</a></div><div class="ttdeci">ApiStatus func_802CABE8(Evt *script, b32 isInitialCall)</div></div>
+<div class="ttc" id="ascript__api_2common_8h_html_a5eb2aa2c7182f28cf6ff12e2a155525b"><div class="ttname"><a href="script__api_2common_8h.html#a5eb2aa2c7182f28cf6ff12e2a155525b">InitVirtualEntityList</a></div><div class="ttdeci">ApiStatus InitVirtualEntityList(Evt *script, b32 isInitialCall)</div></div>
+<div class="ttc" id="ascript__api_2common_8h_html_a8ad46b870a41048c8a94f361cd8cdd95"><div class="ttname"><a href="script__api_2common_8h.html#a8ad46b870a41048c8a94f361cd8cdd95">InitAnimatedModels</a></div><div class="ttdeci">ApiStatus InitAnimatedModels(Evt *script, b32 isInitialCall)</div></div>
+<div class="ttc" id="ascript__api_2common_8h_html_a96f2326425863c7f09f088c91abefc66"><div class="ttname"><a href="script__api_2common_8h.html#a96f2326425863c7f09f088c91abefc66">SetCamBGColor</a></div><div class="ttdeci">ApiStatus SetCamBGColor(Evt *script, b32 isInitialCall)</div></div>
+<div class="ttc" id="ascript__api_2common_8h_html_aeeb13c553a0619510ada6ee0353b57db"><div class="ttname"><a href="script__api_2common_8h.html#aeeb13c553a0619510ada6ee0353b57db">SetCamPerspective</a></div><div class="ttdeci">ApiStatus SetCamPerspective(Evt *script, b32 isInitialCall)</div></div>
+<div class="ttc" id="ascript__api_2common_8h_html_af44b71486a9f39c7182d7973f5e24054"><div class="ttname"><a href="script__api_2common_8h.html#af44b71486a9f39c7182d7973f5e24054">func_802CAE50</a></div><div class="ttdeci">ApiStatus func_802CAE50(Evt *script, b32 isInitialCall)</div></div>
+<div class="ttc" id="ascript__api_2macros_8h_html_aafbecd117f663dfc98c9d8a462f333bd"><div class="ttname"><a href="script__api_2macros_8h.html#aafbecd117f663dfc98c9d8a462f333bd">Wait</a></div><div class="ttdeci">#define Wait(NUM_FRAMES)</div><div class="ttdoc">Blocks for the given number of frames.</div><div class="ttdef"><b>Definition</b> macros.h:266</div></div>
 </div><!-- fragment -->
 <p class="reference">Referenced by <a class="el" href="functions_8h.html#a4dfadc854beed8ef71c107f9730252ae">btl_state_update_normal_start()</a>.</p>
 

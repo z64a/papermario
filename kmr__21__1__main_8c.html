@@ -125,12 +125,6 @@ Variables</h2></td></tr>
 <tr class="separator:a261f290bd1d37ef568ed05857ce9a7fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9b8265c2fee69b4a40c7aef35859aa34" id="r_a9b8265c2fee69b4a40c7aef35859aa34"><td class="memItemLeft" align="right" valign="top">s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9b8265c2fee69b4a40c7aef35859aa34">TitlePosY</a> = 106</td></tr>
 <tr class="separator:a9b8265c2fee69b4a40c7aef35859aa34"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a79383e9c4b3175fb3a19ae012f929ef1" id="r_a79383e9c4b3175fb3a19ae012f929ef1"><td class="memItemLeft" align="right" valign="top">Gfx&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a79383e9c4b3175fb3a19ae012f929ef1">Gfx_TexSetup_TitleImage</a> []</td></tr>
-<tr class="separator:a79383e9c4b3175fb3a19ae012f929ef1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8b8aba55e8597d295f0acd77bb99a001" id="r_a8b8aba55e8597d295f0acd77bb99a001"><td class="memItemLeft" align="right" valign="top"><a class="el" href="common__structs_8h.html#ac718b608783f254b030240252606fd0e">EvtScript</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8b8aba55e8597d295f0acd77bb99a001">EVS_Scene_ShowTitle</a></td></tr>
-<tr class="separator:a8b8aba55e8597d295f0acd77bb99a001"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2932ca2a9340b6bc0ba210661962bd9d" id="r_a2932ca2a9340b6bc0ba210661962bd9d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="common__structs_8h.html#ac718b608783f254b030240252606fd0e">EvtScript</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2932ca2a9340b6bc0ba210661962bd9d">EVS_Main</a></td></tr>
-<tr class="separator:a2932ca2a9340b6bc0ba210661962bd9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <hr/><h2 class="groupheader">Data Structure Documentation</h2>
 <a name="structTitleDataFile" id="structTitleDataFile"></a>
@@ -199,70 +193,6 @@ unk_0C[4]</td>
 </div>
 </div>
 <h2 class="groupheader">Variable Documentation</h2>
-<a id="a2932ca2a9340b6bc0ba210661962bd9d" name="a2932ca2a9340b6bc0ba210661962bd9d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2932ca2a9340b6bc0ba210661962bd9d">&#9670;&#160;</a></span>EVS_Main</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="common__structs_8h.html#ac718b608783f254b030240252606fd0e">EvtScript</a> EVS_Main</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a8b8aba55e8597d295f0acd77bb99a001" name="a8b8aba55e8597d295f0acd77bb99a001"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8b8aba55e8597d295f0acd77bb99a001">&#9670;&#160;</a></span>EVS_Scene_ShowTitle</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="common__structs_8h.html#ac718b608783f254b030240252606fd0e">EvtScript</a> EVS_Scene_ShowTitle</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a79383e9c4b3175fb3a19ae012f929ef1" name="a79383e9c4b3175fb3a19ae012f929ef1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a79383e9c4b3175fb3a19ae012f929ef1">&#9670;&#160;</a></span>Gfx_TexSetup_TitleImage</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">Gfx Gfx_TexSetup_TitleImage[]</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line">    gsDPPipeSync(),</div>
-<div class="line">    gsDPSetCycleType(G_CYC_1CYCLE),</div>
-<div class="line">    gsDPSetRenderMode(G_RM_XLU_SURF, G_RM_XLU_SURF2),</div>
-<div class="line">    gsDPSetCombineMode(<a class="code hl_define" href="macros_8h.html#a75a7b7b57574c687a5eee954721a5022">PM_CC_2E</a>, <a class="code hl_define" href="macros_8h.html#a75a7b7b57574c687a5eee954721a5022">PM_CC_2E</a>),</div>
-<div class="line">    gsDPSetTextureFilter(G_TF_POINT),</div>
-<div class="line">    gsSPTexture(0xFFFF, 0xFFFF, 0, G_TX_RENDERTILE, G_ON),</div>
-<div class="line">    gsDPSetTexturePersp(G_TP_NONE),</div>
-<div class="line">    gsDPSetColorDither(G_CD_DISABLE),</div>
-<div class="line">    gsDPSetAlphaDither(G_AD_DISABLE),</div>
-<div class="line">    gsDPSetTextureLOD(G_TL_TILE),</div>
-<div class="line">    gsDPSetTextureLUT(G_TT_NONE),</div>
-<div class="line">    gsDPSetTextureDetail(G_TD_CLAMP),</div>
-<div class="line">    gsDPSetTextureConvert(G_TC_FILT),</div>
-<div class="line">    gsDPSetCombineKey(G_CK_NONE),</div>
-<div class="line">    gsDPSetAlphaCompare(G_AC_NONE),</div>
-<div class="line">    gsDPNoOp(),</div>
-<div class="line">    gsSPEndDisplayList(),</div>
-<div class="line">}</div>
-<div class="ttc" id="amacros_8h_html_a75a7b7b57574c687a5eee954721a5022"><div class="ttname"><a href="macros_8h.html#a75a7b7b57574c687a5eee954721a5022">PM_CC_2E</a></div><div class="ttdeci">#define PM_CC_2E</div><div class="ttdef"><b>Definition</b> macros.h:387</div></div>
-</div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="#abe546a5dbdec952c771adce7870fa48b">worker_render_title_image()</a>.</p>
-
-</div>
-</div>
 <a id="a9b8265c2fee69b4a40c7aef35859aa34" name="a9b8265c2fee69b4a40c7aef35859aa34"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9b8265c2fee69b4a40c7aef35859aa34">&#9670;&#160;</a></span>TitlePosY</h2>
 

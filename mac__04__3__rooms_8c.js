@@ -1,27 +1,4 @@
 var mac__04__3__rooms_8c =
 [
-    [ "mdl_set_shroud_tint_params", "mac__04__3__rooms_8c.html#afc415f73d295898b4b4aadbeb9ca017c", null ],
-    [ "EVS_DropDoor_NiceHouse", "mac__04__3__rooms_8c.html#ac8b113e85c379f90f7c1390b65dd83ec", null ],
-    [ "EVS_DropDoor_Storeroom", "mac__04__3__rooms_8c.html#a392eefcd8557a236c95562270c5d81f6", null ],
-    [ "EVS_MakeHiddenRoom", "mac__04__3__rooms_8c.html#a50379c6ec808911a2d4c8aba2c80c522", null ],
-    [ "EVS_MakeStoreroom", "mac__04__3__rooms_8c.html#adad3987f33120157fb1b772f710c3da2", null ],
-    [ "EVS_RoomListener_HiddenRoom", "mac__04__3__rooms_8c.html#a1f485dff762de55569b3ea295041f848", null ],
-    [ "EVS_RoomListener_NiceHouse", "mac__04__3__rooms_8c.html#a18342b728d8eaeb9e71c78563fdce03c", null ],
-    [ "EVS_RoomListener_Shop", "mac__04__3__rooms_8c.html#ad836543ed8008f51f4b6b2b77a626aad", null ],
-    [ "EVS_RoomListener_Storeroom", "mac__04__3__rooms_8c.html#ab3998c64eec75b757642e2c8601837dc", null ],
-    [ "EVS_RoomListener_Warehouse", "mac__04__3__rooms_8c.html#aa962d4161f83cd7c750824c1cee54d36", null ],
-    [ "EVS_SetDoorRot_HiddenRoom", "mac__04__3__rooms_8c.html#ae78fe8a357f64bf14271ee997bb31938", null ],
-    [ "EVS_SetDoorRot_NiceHouse", "mac__04__3__rooms_8c.html#a16b9d9852bd773579866ba9b7b651a9e", null ],
-    [ "EVS_SetDoorRot_Shop", "mac__04__3__rooms_8c.html#aa1d5dca7787dc51fbdb225dbabc5c187", null ],
-    [ "EVS_SetDoorRot_Storeroom", "mac__04__3__rooms_8c.html#a3668c967cca5cd3719d2235a9b475713", null ],
-    [ "EVS_SetDoorRot_Warehouse", "mac__04__3__rooms_8c.html#aa32550923a25738282c9b1e1c31421ce", null ],
-    [ "EVS_SetupRooms", "mac__04__3__rooms_8c.html#ab093da3f10214f7589840085397f6bda", null ],
-    [ "EVS_SetWallRot_HiddenRoom", "mac__04__3__rooms_8c.html#a34d454f2d05b258ebc6b0e06a876fdec", null ],
-    [ "EVS_SetWallRot_NiceHouse", "mac__04__3__rooms_8c.html#a13bd99d60737c5f0ad5aeaac6c1e3bc8", null ],
-    [ "EVS_SetWallRot_Shop", "mac__04__3__rooms_8c.html#afc167ecf9383810c4694fe7bbcd5a2cc", null ],
-    [ "EVS_SetWallRot_Storeroom", "mac__04__3__rooms_8c.html#a4385990fda4cde0a6eed9b84d310ea14", null ],
-    [ "EVS_SetWallRot_Warehouse", "mac__04__3__rooms_8c.html#a1300c815da19cf81b5412bcb4b4b2e64", null ],
-    [ "InsideNPCs_NiceHouse", "mac__04__3__rooms_8c.html#a9384473acd0b2dcdc5b72329d8dc051f", null ],
-    [ "InsideNPCs_Shop", "mac__04__3__rooms_8c.html#a7ed9eb2533b95dc0bb8dd2ffb99c1247", null ],
-    [ "InsideNPCs_Warehouse", "mac__04__3__rooms_8c.html#a641f4b0b4682cd51c39b8b68133fd70f", null ]
+    [ "mdl_set_shroud_tint_params", "mac__04__3__rooms_8c.html#afc415f73d295898b4b4aadbeb9ca017c", null ]
 ];

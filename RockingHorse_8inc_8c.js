@@ -10,6 +10,5 @@ var RockingHorse_8inc_8c =
       [ "rockPhase", "RockingHorse_8inc_8c.html#abb303df2094ceb3c489e7e3aede8a0a9", null ],
       [ "rockPhaseAngularVel", "RockingHorse_8inc_8c.html#aa6fcf44ee80bf77b7d63e0570a742e4c", null ],
       [ "unk_14", "RockingHorse_8inc_8c.html#ada4c094617de18d2f4d98e55660611f3", null ]
-    ] ],
-    [ "EVS_Gizmos_RockingHorses", "RockingHorse_8inc_8c.html#a3c06c9f33540070de3a76f1ff58606c4", null ]
+    ] ]
 ];

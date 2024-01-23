@@ -102,8 +102,7 @@ $(function(){initNavTree('GiveReward_8inc_8c.html',''); initResizable(); });
 
 <div class="header">
   <div class="summary">
-<a href="#define-members">Macros</a> &#124;
-<a href="#var-members">Variables</a>  </div>
+<a href="#define-members">Macros</a>  </div>
   <div class="headertitle"><div class="title">GiveReward.inc.c File Reference</div></div>
 </div><!--header-->
 <div class="contents">
@@ -126,13 +125,6 @@ Macros</h2></td></tr>
 <tr class="separator:afdf108538dd8daa092e475f554a83152"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4d4c8ea3fe863114b345127a07e16170" id="r_a4d4c8ea3fe863114b345127a07e16170"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4d4c8ea3fe863114b345127a07e16170">EVT_GIVE_COIN</a>()</td></tr>
 <tr class="separator:a4d4c8ea3fe863114b345127a07e16170"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
-Variables</h2></td></tr>
-<tr class="memitem:ac87dd33a56353d33be211d2843a8ec26" id="r_ac87dd33a56353d33be211d2843a8ec26"><td class="memItemLeft" align="right" valign="top"><a class="el" href="common__structs_8h.html#ac718b608783f254b030240252606fd0e">EvtScript</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac87dd33a56353d33be211d2843a8ec26">GiveItemReward</a></td></tr>
-<tr class="separator:ac87dd33a56353d33be211d2843a8ec26"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a60d4be5a7d294033c8024d41a149d947" id="r_a60d4be5a7d294033c8024d41a149d947"><td class="memItemLeft" align="right" valign="top"><a class="el" href="common__structs_8h.html#ac718b608783f254b030240252606fd0e">EvtScript</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a60d4be5a7d294033c8024d41a149d947">GiveCoinReward</a></td></tr>
-<tr class="separator:a60d4be5a7d294033c8024d41a149d947"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
 <a id="a0e237599bb52df354a490ac730a0cb00" name="a0e237599bb52df354a490ac730a0cb00"></a>
@@ -163,13 +155,13 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a0a95acd3a702d9047b76483262e1d405">EVT_SET</a>(<a class="code hl_define" href="script__api_2macros_8h.html#af7850f206b899ed1559a492acdb308c8">LVar0</a>, itemID) \</div>
-<div class="line">    EVT_SET(<a class="code hl_define" href="script__api_2macros_8h.html#a9e3cbc9299b697ee1ff5da87b3cc103b">LVar1</a>, <a class="code hl_enumvalue" href="enums_8h.html#a6c483d44cfcb719c5f8988dc182bee22a03e6ad115ed72414de7ea9531b591bd4">ITEM_TYPE_BADGE</a>) \</div>
-<div class="line">    EVT_EXEC_WAIT(N(<a class="code hl_variable" href="#ac87dd33a56353d33be211d2843a8ec26">GiveItemReward</a>)) \</div>
-<div class="line">    EVT_CALL(AddBadge, itemID, <a class="code hl_define" href="script__api_2macros_8h.html#af7850f206b899ed1559a492acdb308c8">LVar0</a>)</div>
-<div class="ttc" id="aGiveReward_8inc_8c_html_ac87dd33a56353d33be211d2843a8ec26"><div class="ttname"><a href="#ac87dd33a56353d33be211d2843a8ec26">GiveItemReward</a></div><div class="ttdeci">EvtScript GiveItemReward</div><div class="ttdef"><b>Definition</b> GiveReward.inc.c:33</div></div>
+<b>Value:</b><div class="fragment"><div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a24cc3bb2b288d68acc0eda9d7fc510e2">Set</a>(<a class="code hl_define" href="script__api_2macros_8h.html#af7850f206b899ed1559a492acdb308c8">LVar0</a>, itemID) \</div>
+<div class="line">    Set(<a class="code hl_define" href="script__api_2macros_8h.html#a9e3cbc9299b697ee1ff5da87b3cc103b">LVar1</a>, <a class="code hl_enumvalue" href="enums_8h.html#a6c483d44cfcb719c5f8988dc182bee22a03e6ad115ed72414de7ea9531b591bd4">ITEM_TYPE_BADGE</a>) \</div>
+<div class="line">    ExecWait(N(GiveItemReward)) \</div>
+<div class="line">    Call(<a class="code hl_function" href="script__api_2common_8h.html#adb03905d91cc6267b49dbd561fef4288">AddBadge</a>, itemID, <a class="code hl_define" href="script__api_2macros_8h.html#af7850f206b899ed1559a492acdb308c8">LVar0</a>)</div>
 <div class="ttc" id="aenums_8h_html_a6c483d44cfcb719c5f8988dc182bee22a03e6ad115ed72414de7ea9531b591bd4"><div class="ttname"><a href="enums_8h.html#a6c483d44cfcb719c5f8988dc182bee22a03e6ad115ed72414de7ea9531b591bd4">ITEM_TYPE_BADGE</a></div><div class="ttdeci">@ ITEM_TYPE_BADGE</div><div class="ttdef"><b>Definition</b> enums.h:1830</div></div>
-<div class="ttc" id="ascript__api_2macros_8h_html_a0a95acd3a702d9047b76483262e1d405"><div class="ttname"><a href="script__api_2macros_8h.html#a0a95acd3a702d9047b76483262e1d405">EVT_SET</a></div><div class="ttdeci">#define EVT_SET(VAR, INT_VALUE)</div><div class="ttdoc">Sets the given variable to a given value casted to an integer.</div><div class="ttdef"><b>Definition</b> macros.h:377</div></div>
+<div class="ttc" id="ascript__api_2common_8h_html_adb03905d91cc6267b49dbd561fef4288"><div class="ttname"><a href="script__api_2common_8h.html#adb03905d91cc6267b49dbd561fef4288">AddBadge</a></div><div class="ttdeci">ApiStatus AddBadge(Evt *script, b32 isInitialCall)</div></div>
+<div class="ttc" id="ascript__api_2macros_8h_html_a24cc3bb2b288d68acc0eda9d7fc510e2"><div class="ttname"><a href="script__api_2macros_8h.html#a24cc3bb2b288d68acc0eda9d7fc510e2">Set</a></div><div class="ttdeci">#define Set(VAR, INT_VALUE)</div><div class="ttdoc">Sets the given variable to a given value casted to an integer.</div><div class="ttdef"><b>Definition</b> macros.h:377</div></div>
 <div class="ttc" id="ascript__api_2macros_8h_html_a9e3cbc9299b697ee1ff5da87b3cc103b"><div class="ttname"><a href="script__api_2macros_8h.html#a9e3cbc9299b697ee1ff5da87b3cc103b">LVar1</a></div><div class="ttdeci">#define LVar1</div><div class="ttdef"><b>Definition</b> macros.h:145</div></div>
 <div class="ttc" id="ascript__api_2macros_8h_html_af7850f206b899ed1559a492acdb308c8"><div class="ttname"><a href="script__api_2macros_8h.html#af7850f206b899ed1559a492acdb308c8">LVar0</a></div><div class="ttdeci">#define LVar0</div><div class="ttdef"><b>Definition</b> macros.h:144</div></div>
 </div><!-- fragment -->
@@ -193,10 +185,10 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a0a95acd3a702d9047b76483262e1d405">EVT_SET</a>(<a class="code hl_define" href="script__api_2macros_8h.html#af7850f206b899ed1559a492acdb308c8">LVar0</a>, itemID) \</div>
-<div class="line">    EVT_SET(<a class="code hl_define" href="script__api_2macros_8h.html#a9e3cbc9299b697ee1ff5da87b3cc103b">LVar1</a>, <a class="code hl_enumvalue" href="enums_8h.html#a6c483d44cfcb719c5f8988dc182bee22a03e6ad115ed72414de7ea9531b591bd4">ITEM_TYPE_BADGE</a>) \</div>
-<div class="line">    EVT_EXEC_WAIT(N(<a class="code hl_variable" href="#ac87dd33a56353d33be211d2843a8ec26">GiveItemReward</a>)) \</div>
-<div class="line">    EVT_CALL(AddBadge, <a class="code hl_define" href="script__api_2macros_8h.html#af7850f206b899ed1559a492acdb308c8">LVar0</a>, outIdx)</div>
+<b>Value:</b><div class="fragment"><div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a24cc3bb2b288d68acc0eda9d7fc510e2">Set</a>(<a class="code hl_define" href="script__api_2macros_8h.html#af7850f206b899ed1559a492acdb308c8">LVar0</a>, itemID) \</div>
+<div class="line">    Set(<a class="code hl_define" href="script__api_2macros_8h.html#a9e3cbc9299b697ee1ff5da87b3cc103b">LVar1</a>, <a class="code hl_enumvalue" href="enums_8h.html#a6c483d44cfcb719c5f8988dc182bee22a03e6ad115ed72414de7ea9531b591bd4">ITEM_TYPE_BADGE</a>) \</div>
+<div class="line">    ExecWait(N(GiveItemReward)) \</div>
+<div class="line">    Call(<a class="code hl_function" href="script__api_2common_8h.html#adb03905d91cc6267b49dbd561fef4288">AddBadge</a>, <a class="code hl_define" href="script__api_2macros_8h.html#af7850f206b899ed1559a492acdb308c8">LVar0</a>, outIdx)</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -214,11 +206,11 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a0a95acd3a702d9047b76483262e1d405">EVT_SET</a>(<a class="code hl_define" href="script__api_2macros_8h.html#af7850f206b899ed1559a492acdb308c8">LVar0</a>, ITEM_COIN) \</div>
-<div class="line">    EVT_SET(<a class="code hl_define" href="script__api_2macros_8h.html#a9e3cbc9299b697ee1ff5da87b3cc103b">LVar1</a>, 0) \</div>
-<div class="line">    EVT_EXEC_WAIT(N(<a class="code hl_variable" href="#a60d4be5a7d294033c8024d41a149d947">GiveCoinReward</a>)) \</div>
-<div class="line">    EVT_CALL(AddCoin, 1)</div>
-<div class="ttc" id="aGiveReward_8inc_8c_html_a60d4be5a7d294033c8024d41a149d947"><div class="ttname"><a href="#a60d4be5a7d294033c8024d41a149d947">GiveCoinReward</a></div><div class="ttdeci">EvtScript GiveCoinReward</div><div class="ttdef"><b>Definition</b> GiveReward.inc.c:40</div></div>
+<b>Value:</b><div class="fragment"><div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a24cc3bb2b288d68acc0eda9d7fc510e2">Set</a>(<a class="code hl_define" href="script__api_2macros_8h.html#af7850f206b899ed1559a492acdb308c8">LVar0</a>, ITEM_COIN) \</div>
+<div class="line">    Set(<a class="code hl_define" href="script__api_2macros_8h.html#a9e3cbc9299b697ee1ff5da87b3cc103b">LVar1</a>, 0) \</div>
+<div class="line">    ExecWait(N(GiveCoinReward)) \</div>
+<div class="line">    Call(<a class="code hl_function" href="script__api_2common_8h.html#ab0a3dec96b5c90970a967273e067ca74">AddCoin</a>, 1)</div>
+<div class="ttc" id="ascript__api_2common_8h_html_ab0a3dec96b5c90970a967273e067ca74"><div class="ttname"><a href="script__api_2common_8h.html#ab0a3dec96b5c90970a967273e067ca74">AddCoin</a></div><div class="ttdeci">ApiStatus AddCoin(Evt *script, b32 isInitialCall)</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -236,11 +228,12 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a0a95acd3a702d9047b76483262e1d405">EVT_SET</a>(<a class="code hl_define" href="script__api_2macros_8h.html#af7850f206b899ed1559a492acdb308c8">LVar0</a>, itemID) \</div>
-<div class="line">    EVT_SET(<a class="code hl_define" href="script__api_2macros_8h.html#a9e3cbc9299b697ee1ff5da87b3cc103b">LVar1</a>, <a class="code hl_enumvalue" href="enums_8h.html#a6c483d44cfcb719c5f8988dc182bee22a863a73b1de61671574efcae3a58bfefe">ITEM_TYPE_CONSUMABLE</a>) \</div>
-<div class="line">    EVT_EXEC_WAIT(N(<a class="code hl_variable" href="#ac87dd33a56353d33be211d2843a8ec26">GiveItemReward</a>)) \</div>
-<div class="line">    EVT_CALL(AddItem, <a class="code hl_define" href="script__api_2macros_8h.html#af7850f206b899ed1559a492acdb308c8">LVar0</a>, <a class="code hl_define" href="script__api_2macros_8h.html#a9e3cbc9299b697ee1ff5da87b3cc103b">LVar1</a>)</div>
+<b>Value:</b><div class="fragment"><div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a24cc3bb2b288d68acc0eda9d7fc510e2">Set</a>(<a class="code hl_define" href="script__api_2macros_8h.html#af7850f206b899ed1559a492acdb308c8">LVar0</a>, itemID) \</div>
+<div class="line">    Set(<a class="code hl_define" href="script__api_2macros_8h.html#a9e3cbc9299b697ee1ff5da87b3cc103b">LVar1</a>, <a class="code hl_enumvalue" href="enums_8h.html#a6c483d44cfcb719c5f8988dc182bee22a863a73b1de61671574efcae3a58bfefe">ITEM_TYPE_CONSUMABLE</a>) \</div>
+<div class="line">    ExecWait(N(GiveItemReward)) \</div>
+<div class="line">    Call(<a class="code hl_function" href="script__api_2common_8h.html#a05afca59d73bd6a91fcc89c3e6d3ccad">AddItem</a>, <a class="code hl_define" href="script__api_2macros_8h.html#af7850f206b899ed1559a492acdb308c8">LVar0</a>, <a class="code hl_define" href="script__api_2macros_8h.html#a9e3cbc9299b697ee1ff5da87b3cc103b">LVar1</a>)</div>
 <div class="ttc" id="aenums_8h_html_a6c483d44cfcb719c5f8988dc182bee22a863a73b1de61671574efcae3a58bfefe"><div class="ttname"><a href="enums_8h.html#a6c483d44cfcb719c5f8988dc182bee22a863a73b1de61671574efcae3a58bfefe">ITEM_TYPE_CONSUMABLE</a></div><div class="ttdeci">@ ITEM_TYPE_CONSUMABLE</div><div class="ttdef"><b>Definition</b> enums.h:1828</div></div>
+<div class="ttc" id="ascript__api_2common_8h_html_a05afca59d73bd6a91fcc89c3e6d3ccad"><div class="ttname"><a href="script__api_2common_8h.html#a05afca59d73bd6a91fcc89c3e6d3ccad">AddItem</a></div><div class="ttdeci">ApiStatus AddItem(Evt *script, b32 isInitialCall)</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -258,10 +251,10 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a0a95acd3a702d9047b76483262e1d405">EVT_SET</a>(<a class="code hl_define" href="script__api_2macros_8h.html#af7850f206b899ed1559a492acdb308c8">LVar0</a>, itemID) \</div>
-<div class="line">    EVT_SET(<a class="code hl_define" href="script__api_2macros_8h.html#a9e3cbc9299b697ee1ff5da87b3cc103b">LVar1</a>, <a class="code hl_enumvalue" href="enums_8h.html#a6c483d44cfcb719c5f8988dc182bee22a863a73b1de61671574efcae3a58bfefe">ITEM_TYPE_CONSUMABLE</a>) \</div>
-<div class="line">    EVT_EXEC_WAIT(N(<a class="code hl_variable" href="#ac87dd33a56353d33be211d2843a8ec26">GiveItemReward</a>)) \</div>
-<div class="line">    EVT_CALL(AddItem, itemID, <a class="code hl_define" href="script__api_2macros_8h.html#af7850f206b899ed1559a492acdb308c8">LVar0</a>)</div>
+<b>Value:</b><div class="fragment"><div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a24cc3bb2b288d68acc0eda9d7fc510e2">Set</a>(<a class="code hl_define" href="script__api_2macros_8h.html#af7850f206b899ed1559a492acdb308c8">LVar0</a>, itemID) \</div>
+<div class="line">    Set(<a class="code hl_define" href="script__api_2macros_8h.html#a9e3cbc9299b697ee1ff5da87b3cc103b">LVar1</a>, <a class="code hl_enumvalue" href="enums_8h.html#a6c483d44cfcb719c5f8988dc182bee22a863a73b1de61671574efcae3a58bfefe">ITEM_TYPE_CONSUMABLE</a>) \</div>
+<div class="line">    ExecWait(N(GiveItemReward)) \</div>
+<div class="line">    Call(<a class="code hl_function" href="script__api_2common_8h.html#a05afca59d73bd6a91fcc89c3e6d3ccad">AddItem</a>, itemID, <a class="code hl_define" href="script__api_2macros_8h.html#af7850f206b899ed1559a492acdb308c8">LVar0</a>)</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -279,11 +272,12 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a0a95acd3a702d9047b76483262e1d405">EVT_SET</a>(<a class="code hl_define" href="script__api_2macros_8h.html#af7850f206b899ed1559a492acdb308c8">LVar0</a>, itemID) \</div>
-<div class="line">    EVT_SET(<a class="code hl_define" href="script__api_2macros_8h.html#a9e3cbc9299b697ee1ff5da87b3cc103b">LVar1</a>, <a class="code hl_enumvalue" href="enums_8h.html#a6c483d44cfcb719c5f8988dc182bee22a64a61fc969d419a0a750e239918ad748">ITEM_TYPE_KEY</a>) \</div>
-<div class="line">    EVT_EXEC_WAIT(N(<a class="code hl_variable" href="#ac87dd33a56353d33be211d2843a8ec26">GiveItemReward</a>)) \</div>
-<div class="line">    EVT_CALL(AddKeyItem, itemID)</div>
+<b>Value:</b><div class="fragment"><div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a24cc3bb2b288d68acc0eda9d7fc510e2">Set</a>(<a class="code hl_define" href="script__api_2macros_8h.html#af7850f206b899ed1559a492acdb308c8">LVar0</a>, itemID) \</div>
+<div class="line">    Set(<a class="code hl_define" href="script__api_2macros_8h.html#a9e3cbc9299b697ee1ff5da87b3cc103b">LVar1</a>, <a class="code hl_enumvalue" href="enums_8h.html#a6c483d44cfcb719c5f8988dc182bee22a64a61fc969d419a0a750e239918ad748">ITEM_TYPE_KEY</a>) \</div>
+<div class="line">    ExecWait(N(GiveItemReward)) \</div>
+<div class="line">    Call(<a class="code hl_function" href="script__api_2common_8h.html#ab943dc0712e0a783cd19517cf97bd7c3">AddKeyItem</a>, itemID)</div>
 <div class="ttc" id="aenums_8h_html_a6c483d44cfcb719c5f8988dc182bee22a64a61fc969d419a0a750e239918ad748"><div class="ttname"><a href="enums_8h.html#a6c483d44cfcb719c5f8988dc182bee22a64a61fc969d419a0a750e239918ad748">ITEM_TYPE_KEY</a></div><div class="ttdeci">@ ITEM_TYPE_KEY</div><div class="ttdef"><b>Definition</b> enums.h:1829</div></div>
+<div class="ttc" id="ascript__api_2common_8h_html_ab943dc0712e0a783cd19517cf97bd7c3"><div class="ttname"><a href="script__api_2common_8h.html#ab943dc0712e0a783cd19517cf97bd7c3">AddKeyItem</a></div><div class="ttdeci">ApiStatus AddKeyItem(Evt *script, b32 isInitialCall)</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -301,54 +295,12 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a0a95acd3a702d9047b76483262e1d405">EVT_SET</a>(<a class="code hl_define" href="script__api_2macros_8h.html#af7850f206b899ed1559a492acdb308c8">LVar0</a>, ITEM_STAR_PIECE) \</div>
-<div class="line">    EVT_SET(<a class="code hl_define" href="script__api_2macros_8h.html#a9e3cbc9299b697ee1ff5da87b3cc103b">LVar1</a>, <a class="code hl_enumvalue" href="enums_8h.html#a6c483d44cfcb719c5f8988dc182bee22a46a40e4bdb8169407fe9abe867e3539c">ITEM_TYPE_STAR_PIECE</a>) \</div>
-<div class="line">    EVT_EXEC_WAIT(N(<a class="code hl_variable" href="#ac87dd33a56353d33be211d2843a8ec26">GiveItemReward</a>)) \</div>
-<div class="line">    EVT_CALL(AddStarPieces, 1)</div>
+<b>Value:</b><div class="fragment"><div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a24cc3bb2b288d68acc0eda9d7fc510e2">Set</a>(<a class="code hl_define" href="script__api_2macros_8h.html#af7850f206b899ed1559a492acdb308c8">LVar0</a>, ITEM_STAR_PIECE) \</div>
+<div class="line">    Set(<a class="code hl_define" href="script__api_2macros_8h.html#a9e3cbc9299b697ee1ff5da87b3cc103b">LVar1</a>, <a class="code hl_enumvalue" href="enums_8h.html#a6c483d44cfcb719c5f8988dc182bee22a46a40e4bdb8169407fe9abe867e3539c">ITEM_TYPE_STAR_PIECE</a>) \</div>
+<div class="line">    ExecWait(N(GiveItemReward)) \</div>
+<div class="line">    Call(<a class="code hl_function" href="script__api_2common_8h.html#a2e970166afb2db0ebad126c8cf03faa5">AddStarPieces</a>, 1)</div>
 <div class="ttc" id="aenums_8h_html_a6c483d44cfcb719c5f8988dc182bee22a46a40e4bdb8169407fe9abe867e3539c"><div class="ttname"><a href="enums_8h.html#a6c483d44cfcb719c5f8988dc182bee22a46a40e4bdb8169407fe9abe867e3539c">ITEM_TYPE_STAR_PIECE</a></div><div class="ttdeci">@ ITEM_TYPE_STAR_PIECE</div><div class="ttdef"><b>Definition</b> enums.h:1831</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<h2 class="groupheader">Variable Documentation</h2>
-<a id="a60d4be5a7d294033c8024d41a149d947" name="a60d4be5a7d294033c8024d41a149d947"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a60d4be5a7d294033c8024d41a149d947">&#9670;&#160;</a></span>GiveCoinReward</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="common__structs_8h.html#ac718b608783f254b030240252606fd0e">EvtScript</a> GiveCoinReward</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line"> </div>
-<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#aa49b4615589f142fe396afa06f44ec5e">EVT_RETURN</a></div>
-<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#aa49b4615589f142fe396afa06f44ec5e">EVT_RETURN</a></div>
-<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a1eb5d3206784e72fb8b5bf5cc7228553">EVT_END</a></div>
-<div class="line">}</div>
-<div class="ttc" id="ascript__api_2macros_8h_html_a1eb5d3206784e72fb8b5bf5cc7228553"><div class="ttname"><a href="script__api_2macros_8h.html#a1eb5d3206784e72fb8b5bf5cc7228553">EVT_END</a></div><div class="ttdeci">#define EVT_END</div><div class="ttdoc">Signals the end of EVT script data. A script missing this will likely crash on load.</div><div class="ttdef"><b>Definition</b> macros.h:225</div></div>
-<div class="ttc" id="ascript__api_2macros_8h_html_aa49b4615589f142fe396afa06f44ec5e"><div class="ttname"><a href="script__api_2macros_8h.html#aa49b4615589f142fe396afa06f44ec5e">EVT_RETURN</a></div><div class="ttdeci">#define EVT_RETURN</div><div class="ttdoc">Kills the current EVT thread.</div><div class="ttdef"><b>Definition</b> macros.h:229</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="ac87dd33a56353d33be211d2843a8ec26" name="ac87dd33a56353d33be211d2843a8ec26"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac87dd33a56353d33be211d2843a8ec26">&#9670;&#160;</a></span>GiveItemReward</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="common__structs_8h.html#ac718b608783f254b030240252606fd0e">EvtScript</a> GiveItemReward</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line"> </div>
-<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#aa49b4615589f142fe396afa06f44ec5e">EVT_RETURN</a></div>
-<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#aa49b4615589f142fe396afa06f44ec5e">EVT_RETURN</a></div>
-<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a1eb5d3206784e72fb8b5bf5cc7228553">EVT_END</a></div>
-<div class="line">}</div>
+<div class="ttc" id="ascript__api_2common_8h_html_a2e970166afb2db0ebad126c8cf03faa5"><div class="ttname"><a href="script__api_2common_8h.html#a2e970166afb2db0ebad126c8cf03faa5">AddStarPieces</a></div><div class="ttdeci">ApiStatus AddStarPieces(Evt *script, b32 isInitialCall)</div></div>
 </div><!-- fragment -->
 </div>
 </div>

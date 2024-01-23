@@ -9,10 +9,10 @@ var effects_8h_structWaterBlockFXData =
     [ "unk_2C", "effects_8h.html#a9aaf420464918a3c507a3d81a6560b79", null ],
     [ "unk_30", "effects_8h.html#a970864c143922c9138ea329b2e75c13b", null ],
     [ "unk_34", "effects_8h.html#a82009ab99f71cd7c1a50ad03d0abb3e1", null ],
-    [ "unk_38", "effects_8h.html#aa1f3fcca0fdc294af730e42d78c828ac", null ],
-    [ "unk_48", "effects_8h.html#adcf3d46bcafa232b962c58b57f440418", null ],
-    [ "unk_58", "effects_8h.html#a6b4278a8b7d39c4b3e3829abcba5c248", null ],
-    [ "unk_68", "effects_8h.html#a8eb597011679e5acecb0ca327e1e935d", null ],
-    [ "unk_78", "effects_8h.html#a2e48ebfb02b807e528128cbc5a2880b0", null ],
-    [ "unk_88", "effects_8h.html#abd23489376c5df44b88122838ad34f82", null ]
+    [ "unk_38", "effects_8h.html#accb00700d1134d003d8e2d28b71929b0", null ],
+    [ "unk_48", "effects_8h.html#ab2d29eac55196d5b29f52f6f242f0f81", null ],
+    [ "unk_58", "effects_8h.html#a8927278c98092e2943cdd4b2f47f1d6c", null ],
+    [ "unk_68", "effects_8h.html#ad044a47f7bbb78271630d6e4eeafaec6", null ],
+    [ "unk_78", "effects_8h.html#ad11380f808734f08e3244837a02451ec", null ],
+    [ "unk_88", "effects_8h.html#aa4c00ce417c3aa8e73781b45e8a016c4", null ]
 ];

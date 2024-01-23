@@ -39,7 +39,7 @@ var map_8h =
     [ "ENTRY_COUNT", "map_8h.html#ae019bc4b5ef86b62ec61b86a7ad5052c", null ],
     [ "EVS_BindExitTriggers", "map_8h.html#ae06ba7578cb77235a5a6b4872cc92fd4", null ],
     [ "EVS_EnterMap", "map_8h.html#a6807afa778ebebc6fd00377fc375cf9d", null ],
-    [ "EVS_MakeEntities", "map_8h.html#a8f71bd7ea7026039c7ee89919f8ce1e5", null ],
+    [ "EVS_MakeEntities", "map_8h.html#a8ec054147bdd2db59840d09aed79cebf", null ],
     [ "EVS_SetupFoliage", "map_8h.html#abef6cc30ec7acb9fbaea214e0a5eb30f", null ],
     [ "EVS_SetupMusic", "map_8h.html#a644085d48fd99f3a189c3784dd848591", null ],
     [ "EVS_SetupRooms", "map_8h.html#ab5e72712f1b7fba03b2fbf4bd14b8b19", null ],

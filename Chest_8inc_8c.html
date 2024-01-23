@@ -102,8 +102,7 @@ $(function(){initNavTree('Chest_8inc_8c.html',''); initResizable(); });
 
 <div class="header">
   <div class="summary">
-<a href="#define-members">Macros</a> &#124;
-<a href="#var-members">Variables</a>  </div>
+<a href="#define-members">Macros</a>  </div>
   <div class="headertitle"><div class="title">Chest.inc.c File Reference</div></div>
 </div><!--header-->
 <div class="contents">
@@ -116,15 +115,6 @@ Macros</h2></td></tr>
 <tr class="separator:ae3e8b4d8460e1903073efd6339de5076"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3693073dc156ca3ff4df24a131ee35a5" id="r_a3693073dc156ca3ff4df24a131ee35a5"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3693073dc156ca3ff4df24a131ee35a5">EVT_OPEN_CHEST_BADGE</a>(item,  flag)</td></tr>
 <tr class="separator:a3693073dc156ca3ff4df24a131ee35a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
-Variables</h2></td></tr>
-<tr class="memitem:ae6c11783d2d51121dc45ed668bd7b485" id="r_ae6c11783d2d51121dc45ed668bd7b485"><td class="memItemLeft" align="right" valign="top">s32 **&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae6c11783d2d51121dc45ed668bd7b485">varStash</a> = NULL</td></tr>
-<tr class="separator:ae6c11783d2d51121dc45ed668bd7b485"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a904325cb65a06c4f17c37fda1358d706" id="r_a904325cb65a06c4f17c37fda1358d706"><td class="memItemLeft" align="right" valign="top"><a class="el" href="common__structs_8h.html#ac718b608783f254b030240252606fd0e">EvtScript</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a904325cb65a06c4f17c37fda1358d706">EVS_Chest_ShowGotItem</a></td></tr>
-<tr class="separator:a904325cb65a06c4f17c37fda1358d706"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa5bea87b4cbbc499c04beca126bce3ed" id="r_aa5bea87b4cbbc499c04beca126bce3ed"><td class="memItemLeft" align="right" valign="top"><a class="el" href="common__structs_8h.html#ac718b608783f254b030240252606fd0e">EvtScript</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa5bea87b4cbbc499c04beca126bce3ed">EVS_Chest_GetItem</a></td></tr>
-<tr class="separator:aa5bea87b4cbbc499c04beca126bce3ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
 <a id="a3693073dc156ca3ff4df24a131ee35a5" name="a3693073dc156ca3ff4df24a131ee35a5"></a>
@@ -146,14 +136,13 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line">    { \</div>
-<div class="line">        EVT_SET(<a class="code hl_define" href="script__api_2macros_8h.html#aa36d0b11e068a3e30c62f2820cd1b51e">LVarA</a>, item) \</div>
-<div class="line">        EVT_SET(<a class="code hl_define" href="script__api_2macros_8h.html#a70facb693af0e72fbbc844e9cd656c7f">LVarB</a>, <a class="code hl_enumvalue" href="enums_8h.html#a6c483d44cfcb719c5f8988dc182bee22a03e6ad115ed72414de7ea9531b591bd4">ITEM_TYPE_BADGE</a>) \</div>
-<div class="line">        EVT_SET(flag, TRUE) \</div>
-<div class="line">        EVT_EXEC_WAIT(N(<a class="code hl_variable" href="#aa5bea87b4cbbc499c04beca126bce3ed">EVS_Chest_GetItem</a>)) \</div>
-<div class="line">        EVT_RETURN \</div>
-<div class="line">        EVT_END \</div>
+<div class="line">        Set(<a class="code hl_define" href="script__api_2macros_8h.html#aa36d0b11e068a3e30c62f2820cd1b51e">LVarA</a>, item) \</div>
+<div class="line">        Set(<a class="code hl_define" href="script__api_2macros_8h.html#a70facb693af0e72fbbc844e9cd656c7f">LVarB</a>, <a class="code hl_enumvalue" href="enums_8h.html#a6c483d44cfcb719c5f8988dc182bee22a03e6ad115ed72414de7ea9531b591bd4">ITEM_TYPE_BADGE</a>) \</div>
+<div class="line">        Set(flag, TRUE) \</div>
+<div class="line">        ExecWait(N(EVS_Chest_GetItem)) \</div>
+<div class="line">        Return \</div>
+<div class="line">        End \</div>
 <div class="line">    }</div>
-<div class="ttc" id="aChest_8inc_8c_html_aa5bea87b4cbbc499c04beca126bce3ed"><div class="ttname"><a href="#aa5bea87b4cbbc499c04beca126bce3ed">EVS_Chest_GetItem</a></div><div class="ttdeci">EvtScript EVS_Chest_GetItem</div><div class="ttdef"><b>Definition</b> Chest.inc.c:21</div></div>
 <div class="ttc" id="aenums_8h_html_a6c483d44cfcb719c5f8988dc182bee22a03e6ad115ed72414de7ea9531b591bd4"><div class="ttname"><a href="enums_8h.html#a6c483d44cfcb719c5f8988dc182bee22a03e6ad115ed72414de7ea9531b591bd4">ITEM_TYPE_BADGE</a></div><div class="ttdeci">@ ITEM_TYPE_BADGE</div><div class="ttdef"><b>Definition</b> enums.h:1830</div></div>
 <div class="ttc" id="ascript__api_2macros_8h_html_a70facb693af0e72fbbc844e9cd656c7f"><div class="ttname"><a href="script__api_2macros_8h.html#a70facb693af0e72fbbc844e9cd656c7f">LVarB</a></div><div class="ttdeci">#define LVarB</div><div class="ttdef"><b>Definition</b> macros.h:155</div></div>
 <div class="ttc" id="ascript__api_2macros_8h_html_aa36d0b11e068a3e30c62f2820cd1b51e"><div class="ttname"><a href="script__api_2macros_8h.html#aa36d0b11e068a3e30c62f2820cd1b51e">LVarA</a></div><div class="ttdeci">#define LVarA</div><div class="ttdef"><b>Definition</b> macros.h:154</div></div>
@@ -179,12 +168,12 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line">    { \</div>
-<div class="line">        EVT_SET(<a class="code hl_define" href="script__api_2macros_8h.html#aa36d0b11e068a3e30c62f2820cd1b51e">LVarA</a>, item) \</div>
-<div class="line">        EVT_SET(<a class="code hl_define" href="script__api_2macros_8h.html#a70facb693af0e72fbbc844e9cd656c7f">LVarB</a>, <a class="code hl_enumvalue" href="enums_8h.html#a6c483d44cfcb719c5f8988dc182bee22a863a73b1de61671574efcae3a58bfefe">ITEM_TYPE_CONSUMABLE</a>) \</div>
-<div class="line">        EVT_SET(flag, TRUE) \</div>
-<div class="line">        EVT_EXEC_WAIT(N(<a class="code hl_variable" href="#aa5bea87b4cbbc499c04beca126bce3ed">EVS_Chest_GetItem</a>)) \</div>
-<div class="line">        EVT_RETURN \</div>
-<div class="line">        EVT_END \</div>
+<div class="line">        Set(<a class="code hl_define" href="script__api_2macros_8h.html#aa36d0b11e068a3e30c62f2820cd1b51e">LVarA</a>, item) \</div>
+<div class="line">        Set(<a class="code hl_define" href="script__api_2macros_8h.html#a70facb693af0e72fbbc844e9cd656c7f">LVarB</a>, <a class="code hl_enumvalue" href="enums_8h.html#a6c483d44cfcb719c5f8988dc182bee22a863a73b1de61671574efcae3a58bfefe">ITEM_TYPE_CONSUMABLE</a>) \</div>
+<div class="line">        Set(flag, TRUE) \</div>
+<div class="line">        ExecWait(N(EVS_Chest_GetItem)) \</div>
+<div class="line">        Return \</div>
+<div class="line">        End \</div>
 <div class="line">    }</div>
 <div class="ttc" id="aenums_8h_html_a6c483d44cfcb719c5f8988dc182bee22a863a73b1de61671574efcae3a58bfefe"><div class="ttname"><a href="enums_8h.html#a6c483d44cfcb719c5f8988dc182bee22a863a73b1de61671574efcae3a58bfefe">ITEM_TYPE_CONSUMABLE</a></div><div class="ttdeci">@ ITEM_TYPE_CONSUMABLE</div><div class="ttdef"><b>Definition</b> enums.h:1828</div></div>
 </div><!-- fragment -->
@@ -209,91 +198,15 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line">    { \</div>
-<div class="line">        EVT_SET(<a class="code hl_define" href="script__api_2macros_8h.html#aa36d0b11e068a3e30c62f2820cd1b51e">LVarA</a>, item) \</div>
-<div class="line">        EVT_SET(<a class="code hl_define" href="script__api_2macros_8h.html#a70facb693af0e72fbbc844e9cd656c7f">LVarB</a>, <a class="code hl_enumvalue" href="enums_8h.html#a6c483d44cfcb719c5f8988dc182bee22a64a61fc969d419a0a750e239918ad748">ITEM_TYPE_KEY</a>) \</div>
-<div class="line">        EVT_SET(flag, TRUE) \</div>
-<div class="line">        EVT_EXEC_WAIT(N(<a class="code hl_variable" href="#aa5bea87b4cbbc499c04beca126bce3ed">EVS_Chest_GetItem</a>)) \</div>
-<div class="line">        EVT_RETURN \</div>
-<div class="line">        EVT_END \</div>
+<div class="line">        Set(<a class="code hl_define" href="script__api_2macros_8h.html#aa36d0b11e068a3e30c62f2820cd1b51e">LVarA</a>, item) \</div>
+<div class="line">        Set(<a class="code hl_define" href="script__api_2macros_8h.html#a70facb693af0e72fbbc844e9cd656c7f">LVarB</a>, <a class="code hl_enumvalue" href="enums_8h.html#a6c483d44cfcb719c5f8988dc182bee22a64a61fc969d419a0a750e239918ad748">ITEM_TYPE_KEY</a>) \</div>
+<div class="line">        Set(flag, TRUE) \</div>
+<div class="line">        ExecWait(N(EVS_Chest_GetItem)) \</div>
+<div class="line">        Return \</div>
+<div class="line">        End \</div>
 <div class="line">    }</div>
 <div class="ttc" id="aenums_8h_html_a6c483d44cfcb719c5f8988dc182bee22a64a61fc969d419a0a750e239918ad748"><div class="ttname"><a href="enums_8h.html#a6c483d44cfcb719c5f8988dc182bee22a64a61fc969d419a0a750e239918ad748">ITEM_TYPE_KEY</a></div><div class="ttdeci">@ ITEM_TYPE_KEY</div><div class="ttdef"><b>Definition</b> enums.h:1829</div></div>
 </div><!-- fragment -->
-</div>
-</div>
-<h2 class="groupheader">Variable Documentation</h2>
-<a id="aa5bea87b4cbbc499c04beca126bce3ed" name="aa5bea87b4cbbc499c04beca126bce3ed"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa5bea87b4cbbc499c04beca126bce3ed">&#9670;&#160;</a></span>EVS_Chest_GetItem</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="common__structs_8h.html#ac718b608783f254b030240252606fd0e">EvtScript</a> EVS_Chest_GetItem</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line"> </div>
-<div class="line"> </div>
-<div class="line"> </div>
-<div class="line"> </div>
-<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a15f6226bb8726c87b6a0368d33e4aec1">EVT_END_IF</a></div>
-<div class="line"> </div>
-<div class="line"> </div>
-<div class="line"> </div>
-<div class="line"> </div>
-<div class="line"> </div>
-<div class="line"> </div>
-<div class="line"> </div>
-<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#ac6fbdcfa971560087532c99ce65554cf">EVT_END_SWITCH</a></div>
-<div class="line"> </div>
-<div class="line"> </div>
-<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#aa49b4615589f142fe396afa06f44ec5e">EVT_RETURN</a></div>
-<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a1eb5d3206784e72fb8b5bf5cc7228553">EVT_END</a></div>
-<div class="line">}</div>
-<div class="ttc" id="ascript__api_2macros_8h_html_a15f6226bb8726c87b6a0368d33e4aec1"><div class="ttname"><a href="script__api_2macros_8h.html#a15f6226bb8726c87b6a0368d33e4aec1">EVT_END_IF</a></div><div class="ttdeci">#define EVT_END_IF</div><div class="ttdoc">Marks the end of an if statement or an else block.</div><div class="ttdef"><b>Definition</b> macros.h:310</div></div>
-<div class="ttc" id="ascript__api_2macros_8h_html_a1eb5d3206784e72fb8b5bf5cc7228553"><div class="ttname"><a href="script__api_2macros_8h.html#a1eb5d3206784e72fb8b5bf5cc7228553">EVT_END</a></div><div class="ttdeci">#define EVT_END</div><div class="ttdoc">Signals the end of EVT script data. A script missing this will likely crash on load.</div><div class="ttdef"><b>Definition</b> macros.h:225</div></div>
-<div class="ttc" id="ascript__api_2macros_8h_html_aa49b4615589f142fe396afa06f44ec5e"><div class="ttname"><a href="script__api_2macros_8h.html#aa49b4615589f142fe396afa06f44ec5e">EVT_RETURN</a></div><div class="ttdeci">#define EVT_RETURN</div><div class="ttdoc">Kills the current EVT thread.</div><div class="ttdef"><b>Definition</b> macros.h:229</div></div>
-<div class="ttc" id="ascript__api_2macros_8h_html_ac6fbdcfa971560087532c99ce65554cf"><div class="ttname"><a href="script__api_2macros_8h.html#ac6fbdcfa971560087532c99ce65554cf">EVT_END_SWITCH</a></div><div class="ttdeci">#define EVT_END_SWITCH</div><div class="ttdoc">Marks the end of a switch statement and any case.</div><div class="ttdef"><b>Definition</b> macros.h:374</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a904325cb65a06c4f17c37fda1358d706" name="a904325cb65a06c4f17c37fda1358d706"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a904325cb65a06c4f17c37fda1358d706">&#9670;&#160;</a></span>EVS_Chest_ShowGotItem</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="common__structs_8h.html#ac718b608783f254b030240252606fd0e">EvtScript</a> EVS_Chest_ShowGotItem</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line"> </div>
-<div class="line"> </div>
-<div class="line"> </div>
-<div class="line"> </div>
-<div class="line"> </div>
-<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#aa49b4615589f142fe396afa06f44ec5e">EVT_RETURN</a></div>
-<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#aa49b4615589f142fe396afa06f44ec5e">EVT_RETURN</a></div>
-<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a1eb5d3206784e72fb8b5bf5cc7228553">EVT_END</a></div>
-<div class="line">}</div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="ae6c11783d2d51121dc45ed668bd7b485" name="ae6c11783d2d51121dc45ed668bd7b485"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae6c11783d2d51121dc45ed668bd7b485">&#9670;&#160;</a></span>varStash</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">s32** varStash = NULL</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
 </div>
 </div>
 </div><!-- contents -->

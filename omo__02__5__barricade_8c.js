@@ -14,10 +14,5 @@ var omo__02__5__barricade_8c =
       [ "velocityAngle", "omo__02__5__barricade_8c.html#a7aab923fc1408c2206034f9427666885", null ],
       [ "verticalVel", "omo__02__5__barricade_8c.html#aac21ba5854f911ac5f6422fcbd1184bf", null ]
     ] ],
-    [ "DetermineSphericalSize", "omo__02__5__barricade_8c.html#a8b4952108e567023246acb5f4e353e5f", null ],
-    [ "BarricadeColliders", "omo__02__5__barricade_8c.html#a70896755b66f1623d863a350eab85efe", null ],
-    [ "BarricadeModels", "omo__02__5__barricade_8c.html#a782cd30a2131ba5772d61df7876051f3", null ],
-    [ "BombPos_Barricade", "omo__02__5__barricade_8c.html#a758559a153f90cb643bbfbd267f107ab", null ],
-    [ "EVS_Scene_BreakBarricade", "omo__02__5__barricade_8c.html#a4fc86560515ef56edc3d59f8eef8ed8d", null ],
-    [ "EVS_SetupBarricade", "omo__02__5__barricade_8c.html#afbd266d59be10fae3d29190b5fcd0c4c", null ]
+    [ "DetermineSphericalSize", "omo__02__5__barricade_8c.html#a82982eea46bdecdfc15b657b1e92d5a4", null ]
 ];

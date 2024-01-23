@@ -8,12 +8,12 @@ var ClubbaNappingAI_8inc_8c =
       [ "AI_STATE_NAPPING_CLUBBA_LOITER", "ClubbaNappingAI_8inc_8c.html#ab7628f2932a41f59ac528206c4bcc1a6ad2393e96922ee00d74ce7c6ae8118ceb", null ],
       [ "AI_STATE_NAPPING_CLUBBA_50", "ClubbaNappingAI_8inc_8c.html#ab7628f2932a41f59ac528206c4bcc1a6aeee46abfc9597fdc79f2711fd9bddc2d", null ]
     ] ],
-    [ "ClubbaNappingAI_FallAsleep", "ClubbaNappingAI_8inc_8c.html#a8685b0f2fb278fa447ffc7e05a5b9ea6", null ],
-    [ "ClubbaNappingAI_Init", "ClubbaNappingAI_8inc_8c.html#a3cc1f406acb29b557b04102907a133af", null ],
-    [ "ClubbaNappingAI_Loiter", "ClubbaNappingAI_8inc_8c.html#a448f61b83228eb5bdf47476fb287b80b", null ],
-    [ "ClubbaNappingAI_LoiterInit", "ClubbaNappingAI_8inc_8c.html#ae3e50dfcfed95de5657fc744b8a00a1c", null ],
-    [ "ClubbaNappingAI_ReturnHome", "ClubbaNappingAI_8inc_8c.html#a36ebdb1b5ebf312b7b705c23719a8971", null ],
-    [ "ClubbaNappingAI_ReturnHomeInit", "ClubbaNappingAI_8inc_8c.html#aede33f3b57156cd6d86a706e89c56bcd", null ],
-    [ "ClubbaNappingAI_Sleep", "ClubbaNappingAI_8inc_8c.html#a78b7caf6fab83c90dec92e353c5f3d41", null ],
-    [ "ClubbaNappingAI_WakeUp", "ClubbaNappingAI_8inc_8c.html#a64d6b3406c5c0476025ff3b679bdb55e", null ]
+    [ "ClubbaNappingAI_FallAsleep", "ClubbaNappingAI_8inc_8c.html#a08381ce068301bac52f48cb48b61146b", null ],
+    [ "ClubbaNappingAI_Init", "ClubbaNappingAI_8inc_8c.html#a0a51e552697ad1d2c33fc6be38b36e69", null ],
+    [ "ClubbaNappingAI_Loiter", "ClubbaNappingAI_8inc_8c.html#aae86e7b20eaf9178500d6fb41147a86b", null ],
+    [ "ClubbaNappingAI_LoiterInit", "ClubbaNappingAI_8inc_8c.html#a27e8b52b8a2421d69f7834a5dd87da31", null ],
+    [ "ClubbaNappingAI_ReturnHome", "ClubbaNappingAI_8inc_8c.html#a8d9a450d4e5e41cf3564b6ad2288f63b", null ],
+    [ "ClubbaNappingAI_ReturnHomeInit", "ClubbaNappingAI_8inc_8c.html#a1da226de824ffb51f50c1e22e0833fa7", null ],
+    [ "ClubbaNappingAI_Sleep", "ClubbaNappingAI_8inc_8c.html#a01eee964a625bbcf9126a93719d7f268", null ],
+    [ "ClubbaNappingAI_WakeUp", "ClubbaNappingAI_8inc_8c.html#ab26ce5bd0467f5359897f9a5aa88692a", null ]
 ];

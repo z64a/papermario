@@ -28,7 +28,7 @@ var sfx_8c =
     [ "snd_stop_tracking_env_sound_pos", "sfx_8c.html#a55adfbb0cc4866ca1d942cf28418d52b", null ],
     [ "AlertSounds", "sfx_8c.html#a92a86c4ef7ddc5af34e04d72197b14c6", null ],
     [ "AlternatingSounds", "sfx_8c.html#a8829cb4cc585657e7606ef5a7b827007", null ],
-    [ "bEnvSounds", "sfx_8c.html#a90c8ff341deffdfb2486017944d198d4", null ],
+    [ "bEnvSounds", "sfx_8c.html#afd555c773dbf65264ea28ad7952712d8", null ],
     [ "BooAppearSounds", "sfx_8c.html#a2142fb1b9769f80c5cb29ac88ca7cffd", null ],
     [ "BooVanishSounds", "sfx_8c.html#a876d4a10431d9b65c44c5ab832eab987", null ],
     [ "BulletBillExplodeSounds", "sfx_8c.html#a32366f76289fca5111e49393c3c4f9de", null ],
@@ -66,7 +66,7 @@ var sfx_8c =
     [ "StarSpiritCastSounds", "sfx_8c.html#aea155b8d9f730f2718c38e19fa5dffb7", null ],
     [ "TrainChugSounds", "sfx_8c.html#a12549c070c845912c6afaea96b18e40f", null ],
     [ "UnusedExplodeSounds", "sfx_8c.html#ac47fbe1f38193310f78d263b251837a1", null ],
-    [ "wEnvSounds", "sfx_8c.html#aed0d419f73114f0af77194bb3886cac2", null ],
+    [ "wEnvSounds", "sfx_8c.html#a2234b87d08f09487a983f59580e5de53", null ],
     [ "WindowCloseSounds", "sfx_8c.html#a914604744f3b46f97223da5c74d88cec", null ],
     [ "WindowOpenSounds", "sfx_8c.html#a401b1444fe97549422de0767befe193f", null ]
 ];

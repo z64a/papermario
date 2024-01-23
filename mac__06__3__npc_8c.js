@@ -5,21 +5,5 @@ var mac__06__3__npc_8c =
     [ "D_80243434_867F74", "mac__06__3__npc_8c.html#ac165eb60523c4a91fc688a537cdedb0d", null ],
     [ "D_80243438_867F78", "mac__06__3__npc_8c.html#a94e84fecaf607e8de307195856b5c3e9", null ],
     [ "D_8024343C_867F7C", "mac__06__3__npc_8c.html#a3ec1e9d8a6bd74f170db5f7e11baa257", null ],
-    [ "D_80243440_867F80", "mac__06__3__npc_8c.html#a51aaf3395512ac16775752365bd83c84", null ],
-    [ "DefaultNPCs", "mac__06__3__npc_8c.html#a7374ac0b449e4ad2ea880b155b9139f7", null ],
-    [ "EVS_FlyingGull", "mac__06__3__npc_8c.html#a9842d439d4a2f60971d9b473673d3af3", null ],
-    [ "EVS_NpcIdle_JrTroopa", "mac__06__3__npc_8c.html#abadf6b5d2e1fce5ad6298e7e72aa3390", null ],
-    [ "EVS_NpcIdle_Whale", "mac__06__3__npc_8c.html#ac8fb329d08d170fcb3d1bde67aad1521", null ],
-    [ "EVS_NpcInit_JrTroopa", "mac__06__3__npc_8c.html#a48e014ac8c65928db353ef594f86a370", null ],
-    [ "EVS_NpcInit_Kolorado", "mac__06__3__npc_8c.html#ab6a46ba66074195be498249d047df85c", null ],
-    [ "EVS_NpcInit_Whale", "mac__06__3__npc_8c.html#a0203ace412cf8c0d5230f1889a83e419", null ],
-    [ "EVS_UnusedGull", "mac__06__3__npc_8c.html#a5d39a29c5e66b0a44f2c1fd0b5bda93b", null ],
-    [ "ExtraAnims_JrTroopa", "mac__06__3__npc_8c.html#a97ccf5a29bd34c6b7d509ec5b3ada2fa", null ],
-    [ "FlightPath", "mac__06__3__npc_8c.html#a3ee0c54c0be819a9a62693986f58d8b4", null ],
-    [ "NpcData_JrTroopa", "mac__06__3__npc_8c.html#ace50fe1ed199286919eeb9f453626f42", null ],
-    [ "NpcData_Kolorado", "mac__06__3__npc_8c.html#a46526262be08dc9574f85d62470e2f66", null ],
-    [ "NpcData_Whale", "mac__06__3__npc_8c.html#a3b43a55d4f089c92b829d5fbf47f1d13", null ],
-    [ "NpcSettings_JrTroopa", "mac__06__3__npc_8c.html#a7f0e51c8133d47e524cfbb5a1ecb4925", null ],
-    [ "NpcSettings_Kolorado", "mac__06__3__npc_8c.html#a66307eea2d175f68ae2c8d84ef9fb337", null ],
-    [ "NpcSettings_Whale", "mac__06__3__npc_8c.html#ad2220099dabbb40246a5be899c0a9dba", null ]
+    [ "D_80243440_867F80", "mac__06__3__npc_8c.html#a51aaf3395512ac16775752365bd83c84", null ]
 ];

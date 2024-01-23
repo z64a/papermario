@@ -1,8 +1,8 @@
 var structWindow =
 [
-    [ "UNK_FUN_PTR", "structWindow.html#a014fcb57ad6eaa410b62d1bf79399b61", null ],
     [ "drawContentsArg0", "structWindow.html#ac47abc3d155b6e5de3f0d1632456f436", null ],
     [ "flags", "structWindow.html#a68384450a0b8af679a72a6fb18d9f4f6", null ],
+    [ "fpDrawContents", "structWindow.html#ae082d09e2d650776a9a7973dcb2797c9", null ],
     [ "fpPending", "structWindow.html#acda771544a3aab106cfe27d40ad7323b", null ],
     [ "fpUpdate", "structWindow.html#ae78700b0cce1fc523c7e07ae6931ef68", null ],
     [ "height", "structWindow.html#ac7e235dea247df6408fcc4c59213b312", null ],

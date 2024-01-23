@@ -20,12 +20,7 @@ var mgm__00__3__scoreboard_8c =
       [ "RECORD_STATE_FADE_OUT", "mgm__00__3__scoreboard_8c.html#af59a2de03952e09f9cfbda629a2e3fbca046676e94e71a3ac8efd8479cb288216", null ],
       [ "RECORD_STATE_DONE", "mgm__00__3__scoreboard_8c.html#af59a2de03952e09f9cfbda629a2e3fbcadbe3613665764a1eb2eadbd4b0e70ae1", null ]
     ] ],
-    [ "animate_and_draw_record", "mgm__00__3__scoreboard_8c.html#a8228ce2bcc8a47487c0afe6a02dde626", null ],
-    [ "draw_record_display", "mgm__00__3__scoreboard_8c.html#a3c6b6c57b863d071c9af91fe0f587cfc", null ],
-    [ "work_draw_record", "mgm__00__3__scoreboard_8c.html#a2512db5553f7325f29934f5ce8b1d4a1", null ],
-    [ "D_80243C40_E123E0", "mgm__00__3__scoreboard_8c.html#a3a08d5cf86f795cfe837f044b43f1887", null ],
-    [ "EVS_BindInteractTriggers", "mgm__00__3__scoreboard_8c.html#ad5f28d20d26696bb1d74126ca90e682a", null ],
-    [ "EVS_OnInteract_JumpRecords", "mgm__00__3__scoreboard_8c.html#a5b4d61776acf7da7480233b3c245eb3d", null ],
-    [ "EVS_OnInteract_SmashRecords", "mgm__00__3__scoreboard_8c.html#a6c4a2b3007853d35116feebb66e43044", null ],
-    [ "Gfx_RecordDisplay_Init", "mgm__00__3__scoreboard_8c.html#a24dc1ca505661e3273db4e903aff3696", null ]
+    [ "animate_and_draw_record", "mgm__00__3__scoreboard_8c.html#a6c744ccd365cbd35b27f6ce9b0f624b0", null ],
+    [ "draw_record_display", "mgm__00__3__scoreboard_8c.html#a97f42195ddb3ca5cd7069a185f64826d", null ],
+    [ "work_draw_record", "mgm__00__3__scoreboard_8c.html#af3f41f7e62ee38c6b3eb2b0f9b68cd01", null ]
 ];

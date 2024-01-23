@@ -1,4 +1,0 @@
-var end__00_2credits__jobs__pal_8inc_8c =
-[
-    [ "Credits_Jobs", "end__00_2credits__jobs__pal_8inc_8c.html#a9acc82308bdef58a47fbcec029081f4e", null ]
-];

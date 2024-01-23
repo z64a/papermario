@@ -7,7 +7,5 @@ var food_8c =
     [ "LV_ItemID", "food_8c.html#a67248178527f685c3b04e52b590ae91c", null ],
     [ "LV_NoRefund", "food_8c.html#ac95907adb2bd6be4f7f45e736234aca4", null ],
     [ "NAMESPACE", "food_8c.html#afa7779fe56b160955b535cd6a8aaf8f4", null ],
-    [ "EMS_StarIcon", "food_8c.html#af77f1edec12f8042e3fb95d1a14e5b4e", null ],
-    [ "EVS_UseItem", "food_8c.html#a7be159735a71e10ae9b53227c1fd484a", null ],
-    [ "EVS_UseOnPartner", "food_8c.html#af29aaa59149be8a5f977ba1957b08dcc", null ]
+    [ "EMS_StarIcon", "food_8c.html#af77f1edec12f8042e3fb95d1a14e5b4e", null ]
 ];

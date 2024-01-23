@@ -101,64 +101,9 @@ $(function(){initNavTree('omo__13__5__entity_8c.html',''); initResizable(); });
 </div>
 
 <div class="header">
-  <div class="summary">
-<a href="#var-members">Variables</a>  </div>
   <div class="headertitle"><div class="title">omo_13_5_entity.c File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
-Variables</h2></td></tr>
-<tr class="memitem:a94a19f4818b673a45eef335452e27960" id="r_a94a19f4818b673a45eef335452e27960"><td class="memItemLeft" align="right" valign="top"><a class="el" href="common__structs_8h.html#ac718b608783f254b030240252606fd0e">EvtScript</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a94a19f4818b673a45eef335452e27960">EVS_OpenChest_PowerPlus</a> = <a class="el" href="Chest_8inc_8c.html#a3693073dc156ca3ff4df24a131ee35a5">EVT_OPEN_CHEST_BADGE</a>(ITEM_POWER_PLUS_B, <a class="el" href="saved__flag__names_8h.html#a48154bdb188bc2b8719c12078c16a0daa906871edfa1c3594923e08a6e5640d7a">GF_OMO13_Chest_PowerPlusB</a>)</td></tr>
-<tr class="separator:a94a19f4818b673a45eef335452e27960"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8f71bd7ea7026039c7ee89919f8ce1e5" id="r_a8f71bd7ea7026039c7ee89919f8ce1e5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="common__structs_8h.html#ac718b608783f254b030240252606fd0e">EvtScript</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8f71bd7ea7026039c7ee89919f8ce1e5">EVS_MakeEntities</a></td></tr>
-<tr class="separator:a8f71bd7ea7026039c7ee89919f8ce1e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table>
-<h2 class="groupheader">Variable Documentation</h2>
-<a id="a8f71bd7ea7026039c7ee89919f8ce1e5" name="a8f71bd7ea7026039c7ee89919f8ce1e5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8f71bd7ea7026039c7ee89919f8ce1e5">&#9670;&#160;</a></span>EVS_MakeEntities</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="common__structs_8h.html#ac718b608783f254b030240252606fd0e">EvtScript</a> EVS_MakeEntities</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line"> </div>
-<div class="line"> </div>
-<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a7c09e8c76b51d5be8aeadc85751ff8f0">EVT_CALL</a>(AssignScript, <a class="code hl_define" href="script__api_2macros_8h.html#a5c78949040b032c6e0c50c2e78e2f7cb">EVT_PTR</a>( <a class="code hl_variable" href="#a94a19f4818b673a45eef335452e27960">EVS_OpenChest_PowerPlus</a> ))</div>
-<div class="line"> </div>
-<div class="line"> </div>
-<div class="line"> </div>
-<div class="line"> </div>
-<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#aa49b4615589f142fe396afa06f44ec5e">EVT_RETURN</a></div>
-<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a1eb5d3206784e72fb8b5bf5cc7228553">EVT_END</a></div>
-<div class="line">}</div>
-<div class="ttc" id="aomo__13__5__entity_8c_html_a94a19f4818b673a45eef335452e27960"><div class="ttname"><a href="#a94a19f4818b673a45eef335452e27960">EVS_OpenChest_PowerPlus</a></div><div class="ttdeci">EvtScript EVS_OpenChest_PowerPlus</div><div class="ttdef"><b>Definition</b> omo_13_5_entity.c:6</div></div>
-<div class="ttc" id="ascript__api_2macros_8h_html_a1eb5d3206784e72fb8b5bf5cc7228553"><div class="ttname"><a href="script__api_2macros_8h.html#a1eb5d3206784e72fb8b5bf5cc7228553">EVT_END</a></div><div class="ttdeci">#define EVT_END</div><div class="ttdoc">Signals the end of EVT script data. A script missing this will likely crash on load.</div><div class="ttdef"><b>Definition</b> macros.h:225</div></div>
-<div class="ttc" id="ascript__api_2macros_8h_html_a5c78949040b032c6e0c50c2e78e2f7cb"><div class="ttname"><a href="script__api_2macros_8h.html#a5c78949040b032c6e0c50c2e78e2f7cb">EVT_PTR</a></div><div class="ttdeci">#define EVT_PTR(sym)</div><div class="ttdoc">Address/pointer constant.</div><div class="ttdef"><b>Definition</b> macros.h:56</div></div>
-<div class="ttc" id="ascript__api_2macros_8h_html_a7c09e8c76b51d5be8aeadc85751ff8f0"><div class="ttname"><a href="script__api_2macros_8h.html#a7c09e8c76b51d5be8aeadc85751ff8f0">EVT_CALL</a></div><div class="ttdeci">#define EVT_CALL(FUNC, ARGS...)</div><div class="ttdoc">Calls a given C EVT API function with any number of arguments.</div><div class="ttdef"><b>Definition</b> macros.h:588</div></div>
-<div class="ttc" id="ascript__api_2macros_8h_html_aa49b4615589f142fe396afa06f44ec5e"><div class="ttname"><a href="script__api_2macros_8h.html#aa49b4615589f142fe396afa06f44ec5e">EVT_RETURN</a></div><div class="ttdeci">#define EVT_RETURN</div><div class="ttdoc">Kills the current EVT thread.</div><div class="ttdef"><b>Definition</b> macros.h:229</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a94a19f4818b673a45eef335452e27960" name="a94a19f4818b673a45eef335452e27960"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a94a19f4818b673a45eef335452e27960">&#9670;&#160;</a></span>EVS_OpenChest_PowerPlus</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="common__structs_8h.html#ac718b608783f254b030240252606fd0e">EvtScript</a> EVS_OpenChest_PowerPlus = <a class="el" href="Chest_8inc_8c.html#a3693073dc156ca3ff4df24a131ee35a5">EVT_OPEN_CHEST_BADGE</a>(ITEM_POWER_PLUS_B, <a class="el" href="saved__flag__names_8h.html#a48154bdb188bc2b8719c12078c16a0daa906871edfa1c3594923e08a6e5640d7a">GF_OMO13_Chest_PowerPlusB</a>)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.10.0-->

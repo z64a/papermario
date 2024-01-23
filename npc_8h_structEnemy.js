@@ -37,7 +37,7 @@ var npc_8h_structEnemy =
     [ "territory", "npc_8h.html#afcb99f97f7f703cc371c1429756eb33a", null ],
     [ "unk_10", "npc_8h.html#a7fc488986c5351cc7d842707ad526a79", null ],
     [ "unk_16", "npc_8h.html#adf62e5f309b35a26b4c1ccb369ff0140", null ],
-    [ "unk_64", "npc_8h.html#ad5a0b58b24a79d80bbcc7a615361c20e", null ],
+    [ "unk_64", "npc_8h.html#ae7e91bc9513901120e3bcd429a6d9003", null ],
     [ "unk_68", "npc_8h.html#a54cfb7675a3531abed0da2f7fb9c2324", null ],
     [ "unk_AD", "npc_8h.html#a023a09c3c458234d8effcd420c694cb6", null ],
     [ "unk_B6", "npc_8h.html#aed5b3d24c81f8afad7571e9806aa2682", null ],

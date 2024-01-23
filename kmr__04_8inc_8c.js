@@ -1,8 +1,5 @@
 var kmr__04_8inc_8c =
 [
     [ "NAMESPACE", "kmr__04_8inc_8c.html#afa7779fe56b160955b535cd6a8aaf8f4", null ],
-    [ "EVS_PostBattle", "kmr__04_8inc_8c.html#af59c744f541af3fb8dc35460cf977921", null ],
-    [ "EVS_PreBattle", "kmr__04_8inc_8c.html#a522542a9dacb29a21f52b88545b8d7e8", null ],
-    [ "ForegroundModels", "kmr__04_8inc_8c.html#aaa133ad1f3d215a3d66dcadbee77ff00", null ],
-    [ "NAMESPACE", "kmr__04_8inc_8c.html#a822ec6d32bc994ff818faf4b2ec1cb45", null ]
+    [ "A", "kmr__04_8inc_8c.html#a57d886f31244b2ee080fa49be4e59552", null ]
 ];

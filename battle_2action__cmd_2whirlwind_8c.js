@@ -1,8 +1,8 @@
 var battle_2action__cmd_2whirlwind_8c =
 [
     [ "NAMESPACE", "battle_2action__cmd_2whirlwind_8c.html#afa7779fe56b160955b535cd6a8aaf8f4", null ],
-    [ "draw", "battle_2action__cmd_2whirlwind_8c.html#ad2e97e7b54d0bf35e406b91fbdd2f256", null ],
-    [ "free", "battle_2action__cmd_2whirlwind_8c.html#abc66252667ec72349c25062a87c67f05", null ],
+    [ "draw", "battle_2action__cmd_2whirlwind_8c.html#ae8e589f4e02a52303c49157c03e87bc5", null ],
+    [ "free", "battle_2action__cmd_2whirlwind_8c.html#a8a32d25946e38224f378cf499f5c4740", null ],
     [ "INCLUDE_IMG", "battle_2action__cmd_2whirlwind_8c.html#a834d9e1bb88c4f36d10f5ab44e5cddbc", null ],
     [ "INCLUDE_IMG", "battle_2action__cmd_2whirlwind_8c.html#a1a5c3834096d272402f9f011da8eedbd", null ],
     [ "INCLUDE_IMG", "battle_2action__cmd_2whirlwind_8c.html#ab36e8fc93f93b4df9170a33807d82e91", null ],
@@ -19,7 +19,7 @@ var battle_2action__cmd_2whirlwind_8c =
     [ "INCLUDE_PAL", "battle_2action__cmd_2whirlwind_8c.html#a6d55c4b849831ad196278368b82689b5", null ],
     [ "INCLUDE_PAL", "battle_2action__cmd_2whirlwind_8c.html#a754e740f23148d9d7aee81c2c84c2723", null ],
     [ "INCLUDE_PAL", "battle_2action__cmd_2whirlwind_8c.html#a885d6d84d4f587e43f45a7d1a2a015bc", null ],
-    [ "update", "battle_2action__cmd_2whirlwind_8c.html#a7ebd9759b4e3197bf52bab531982c0ff", null ],
+    [ "update", "battle_2action__cmd_2whirlwind_8c.html#ad99b71be7d3a7a6825297eb250456b85", null ],
     [ "actionCmdTableWhirlwind", "battle_2action__cmd_2whirlwind_8c.html#a44fc5ebd63b708a4874fbc7a20f26444", null ],
     [ "D_802AA844_4254B4", "battle_2action__cmd_2whirlwind_8c.html#aa62496e46f2b185e7f98f5c3c6ed89f6", null ],
     [ "D_802AA85C_4254CC", "battle_2action__cmd_2whirlwind_8c.html#afb22b2ab7a2ef71359a74f1c297320e7", null ],

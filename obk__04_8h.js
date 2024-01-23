@@ -11,12 +11,5 @@ var obk__04_8h =
       [ "KEEP_AWAY_WAITING", "obk__04_8h.html#ae119e5f3188256a7815acb2b0b584373a5d9e841b75dfa82db7a0369f9de66e05", null ],
       [ "KEEP_AWAY_RIGHT", "obk__04_8h.html#ae119e5f3188256a7815acb2b0b584373a13709f305c10fa37f06ab45e84a90d80", null ],
       [ "KEEP_AWAY_WRONG", "obk__04_8h.html#ae119e5f3188256a7815acb2b0b584373add258d7ef6e4b59ea59327b322fc4c1e", null ]
-    ] ],
-    [ "DefaultNPCs", "obk__04_8h.html#a7374ac0b449e4ad2ea880b155b9139f7", null ],
-    [ "EVS_Main", "obk__04_8h.html#a2932ca2a9340b6bc0ba210661962bd9d", null ],
-    [ "EVS_MakeEntities", "obk__04_8h.html#a8f71bd7ea7026039c7ee89919f8ce1e5", null ],
-    [ "EVS_ManageHole", "obk__04_8h.html#a7298de3ab71db179d2dc183523578e80", null ],
-    [ "EVS_PlayUpgradeSong", "obk__04_8h.html#a9ccf620e5275decf4b800fb9069ce7c9", null ],
-    [ "EVS_Scene_BoosUnleashed", "obk__04_8h.html#a398995aa5471e99dca587292c5406755", null ],
-    [ "EVS_SetupMusic", "obk__04_8h.html#ae6bcf9bcfc24d38faca57993791bdcab", null ]
+    ] ]
 ];

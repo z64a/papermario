@@ -32,5 +32,5 @@ var FoliageTransform_8inc_8c =
       [ "spawnFlag", "FoliageTransform_8inc_8c.html#a7dcf2bc54600b0f7d99cafaab75800d2", null ],
       [ "spawnMode", "FoliageTransform_8inc_8c.html#ad5b563520e74350360575e971ab32b71", null ]
     ] ],
-    [ "foliage_setup_shear_mtx", "FoliageTransform_8inc_8c.html#a40dbd527d5e44381d7e844372f111239", null ]
+    [ "foliage_setup_shear_mtx", "FoliageTransform_8inc_8c.html#a13fdf1b68951000f50ccd6e0a27e503d", null ]
 ];

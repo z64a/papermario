@@ -1,5 +1,6 @@
 var msg__img_8c =
 [
+    [ "ALIGNED", "msg__img_8c.html#a52cc2e12d2b9a2c4f07f30749d022020", null ],
     [ "INCLUDE_IMG", "msg__img_8c.html#aa0ac60049f6d2140ebaf85064e560c40", null ],
     [ "INCLUDE_IMG", "msg__img_8c.html#ae85fc11bd5074bd58efc3cd2a41bd9ef", null ],
     [ "INCLUDE_IMG", "msg__img_8c.html#af8305c4edb9741324d1e323807cc8974", null ],
@@ -54,7 +55,6 @@ var msg__img_8c =
     [ "INCLUDE_PAL", "msg__img_8c.html#a13588a6ab75cae9e60672824b5f06f81", null ],
     [ "INCLUDE_PAL", "msg__img_8c.html#a397a947bb04254bf1d4b5ed0244e77f8", null ],
     [ "MATCHING_BSS", "msg__img_8c.html#a3207382f8752f557e6e04a76a7e4097a", null ],
-    [ "D_802F4560", "msg__img_8c.html#ab2c57fdf68ca6e52921eae546ddde53c", null ],
     [ "MsgCharImgNormal", "msg__img_8c.html#aa0beec39e829e36d6f52e360f82f240f", null ],
     [ "MsgCharImgSubtitle", "msg__img_8c.html#aea946c2fb455b7ac0b5d3843c742cbd5", null ],
     [ "MsgCharImgTitle", "msg__img_8c.html#add25d5a6f83ae29c0fe7add95917ef2f", null ],

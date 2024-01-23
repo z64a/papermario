@@ -255,14 +255,19 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line"> </div>
-<div class="line"> </div>
-<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#aa49b4615589f142fe396afa06f44ec5e">EVT_RETURN</a></div>
-<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a1eb5d3206784e72fb8b5bf5cc7228553">EVT_END</a></div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#adebe72a7dc0c86ea5913d44e43944cf2">Call</a>(SetupDoubleDoors)</div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a73b76fe2edbe5dc3530323b9cbaf0c31">ExecWait</a>(<a class="code hl_variable" href="#acf23d85dcf643a857a7c1e5c8a1bc9ce">BaseEnterDoor</a>)</div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#afdbecdc25961f69820cb0e396872f9fb">Return</a></div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a342404d3b71fbd50588f779f1f1c59b3">End</a></div>
 <div class="line">}</div>
-<div class="ttc" id="ascript__api_2macros_8h_html_a1eb5d3206784e72fb8b5bf5cc7228553"><div class="ttname"><a href="script__api_2macros_8h.html#a1eb5d3206784e72fb8b5bf5cc7228553">EVT_END</a></div><div class="ttdeci">#define EVT_END</div><div class="ttdoc">Signals the end of EVT script data. A script missing this will likely crash on load.</div><div class="ttdef"><b>Definition</b> macros.h:225</div></div>
-<div class="ttc" id="ascript__api_2macros_8h_html_aa49b4615589f142fe396afa06f44ec5e"><div class="ttname"><a href="script__api_2macros_8h.html#aa49b4615589f142fe396afa06f44ec5e">EVT_RETURN</a></div><div class="ttdeci">#define EVT_RETURN</div><div class="ttdoc">Kills the current EVT thread.</div><div class="ttdef"><b>Definition</b> macros.h:229</div></div>
+<div class="ttc" id="aenter__exit_8c_html_acf23d85dcf643a857a7c1e5c8a1bc9ce"><div class="ttname"><a href="#acf23d85dcf643a857a7c1e5c8a1bc9ce">BaseEnterDoor</a></div><div class="ttdeci">EvtScript BaseEnterDoor</div><div class="ttdef"><b>Definition</b> enter_exit.c:408</div></div>
+<div class="ttc" id="ascript__api_2macros_8h_html_a342404d3b71fbd50588f779f1f1c59b3"><div class="ttname"><a href="script__api_2macros_8h.html#a342404d3b71fbd50588f779f1f1c59b3">End</a></div><div class="ttdeci">#define End</div><div class="ttdoc">Signals the end of EVT script data. A script missing this will likely crash on load.</div><div class="ttdef"><b>Definition</b> macros.h:225</div></div>
+<div class="ttc" id="ascript__api_2macros_8h_html_a73b76fe2edbe5dc3530323b9cbaf0c31"><div class="ttname"><a href="script__api_2macros_8h.html#a73b76fe2edbe5dc3530323b9cbaf0c31">ExecWait</a></div><div class="ttdeci">#define ExecWait(EVT_SOURCE)</div><div class="ttdoc">Launches a new child thread.</div><div class="ttdef"><b>Definition</b> macros.h:487</div></div>
+<div class="ttc" id="ascript__api_2macros_8h_html_adebe72a7dc0c86ea5913d44e43944cf2"><div class="ttname"><a href="script__api_2macros_8h.html#adebe72a7dc0c86ea5913d44e43944cf2">Call</a></div><div class="ttdeci">#define Call(FUNC, ARGS...)</div><div class="ttdoc">Calls a given C EVT API function with any number of arguments.</div><div class="ttdef"><b>Definition</b> macros.h:588</div></div>
+<div class="ttc" id="ascript__api_2macros_8h_html_afdbecdc25961f69820cb0e396872f9fb"><div class="ttname"><a href="script__api_2macros_8h.html#afdbecdc25961f69820cb0e396872f9fb">Return</a></div><div class="ttdeci">#define Return</div><div class="ttdoc">Kills the current EVT thread.</div><div class="ttdef"><b>Definition</b> macros.h:229</div></div>
 </div><!-- fragment -->
+<p class="reference">Referenced by <a class="el" href="kkj__23__2__main_8c.html#a4e96916f3d71fe02e079bbb090e97f04">MAP_RODATA_PAD()</a>, and <a class="el" href="dgb__08__2__main_8c.html#a9357c1705986f18f87552e191ced2a4a">MAP_RODATA_PAD()</a>.</p>
+
 </div>
 </div>
 <a id="af3159170428eb5908972daa97a232a8a" name="af3159170428eb5908972daa97a232a8a"></a>
@@ -277,15 +282,16 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line"> </div>
-<div class="line"> </div>
-<div class="line"> </div>
-<div class="line"> </div>
-<div class="line"> </div>
-<div class="line"> </div>
-<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#aa49b4615589f142fe396afa06f44ec5e">EVT_RETURN</a></div>
-<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a1eb5d3206784e72fb8b5bf5cc7228553">EVT_END</a></div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#adebe72a7dc0c86ea5913d44e43944cf2">Call</a>(<a class="code hl_function" href="script__api_2common_8h.html#ac2df3a5fb816d810539372983cbc1559">DisablePlayerPhysics</a>, TRUE)</div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#adebe72a7dc0c86ea5913d44e43944cf2">Call</a>(ShortenPartnerTetherDistance)</div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#adebe72a7dc0c86ea5913d44e43944cf2">Call</a>(CheckUsingRideablePartner)</div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#adebe72a7dc0c86ea5913d44e43944cf2">Call</a>(EnterPlayerPostPipe)</div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#adebe72a7dc0c86ea5913d44e43944cf2">Call</a>(ResetPartnerTetherDistance)</div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#adebe72a7dc0c86ea5913d44e43944cf2">Call</a>(<a class="code hl_function" href="script__api_2common_8h.html#ac2df3a5fb816d810539372983cbc1559">DisablePlayerPhysics</a>, FALSE)</div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#afdbecdc25961f69820cb0e396872f9fb">Return</a></div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a342404d3b71fbd50588f779f1f1c59b3">End</a></div>
 <div class="line">}</div>
+<div class="ttc" id="ascript__api_2common_8h_html_ac2df3a5fb816d810539372983cbc1559"><div class="ttname"><a href="script__api_2common_8h.html#ac2df3a5fb816d810539372983cbc1559">DisablePlayerPhysics</a></div><div class="ttdeci">ApiStatus DisablePlayerPhysics(Evt *script, b32 isInitialCall)</div><div class="ttdoc">Disables player physics if disable is TRUE, enables it if FALSE.</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -301,13 +307,15 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line"> </div>
-<div class="line"> </div>
-<div class="line"> </div>
-<div class="line"> </div>
-<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#aa49b4615589f142fe396afa06f44ec5e">EVT_RETURN</a></div>
-<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a1eb5d3206784e72fb8b5bf5cc7228553">EVT_END</a></div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#adebe72a7dc0c86ea5913d44e43944cf2">Call</a>(ShortenPartnerTetherDistance)</div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#adebe72a7dc0c86ea5913d44e43944cf2">Call</a>(SetPlayerPositionFromSaveData)</div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#adebe72a7dc0c86ea5913d44e43944cf2">Call</a>(<a class="code hl_function" href="script__api_2common_8h.html#a241cd96034a44d2dcfcf22330ef2613c">ClearPartnerMoveHistory</a>, <a class="code hl_enumvalue" href="enums_8h.html#a8ed30857fb1bfefd4de61c6f02040634aebd178d1a6a7c7db3c1637bdbe638c62">NPC_PARTNER</a>)</div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#adebe72a7dc0c86ea5913d44e43944cf2">Call</a>(ResetPartnerTetherDistance)</div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#afdbecdc25961f69820cb0e396872f9fb">Return</a></div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a342404d3b71fbd50588f779f1f1c59b3">End</a></div>
 <div class="line">}</div>
+<div class="ttc" id="aenums_8h_html_a8ed30857fb1bfefd4de61c6f02040634aebd178d1a6a7c7db3c1637bdbe638c62"><div class="ttname"><a href="enums_8h.html#a8ed30857fb1bfefd4de61c6f02040634aebd178d1a6a7c7db3c1637bdbe638c62">NPC_PARTNER</a></div><div class="ttdeci">@ NPC_PARTNER</div><div class="ttdef"><b>Definition</b> enums.h:2531</div></div>
+<div class="ttc" id="ascript__api_2common_8h_html_a241cd96034a44d2dcfcf22330ef2613c"><div class="ttname"><a href="script__api_2common_8h.html#a241cd96034a44d2dcfcf22330ef2613c">ClearPartnerMoveHistory</a></div><div class="ttdeci">ApiStatus ClearPartnerMoveHistory(Evt *script, b32 isInitialCall)</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -323,12 +331,14 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line"> </div>
-<div class="line"> </div>
-<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#aa49b4615589f142fe396afa06f44ec5e">EVT_RETURN</a></div>
-<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a1eb5d3206784e72fb8b5bf5cc7228553">EVT_END</a></div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#adebe72a7dc0c86ea5913d44e43944cf2">Call</a>(SetupSingleDoor)</div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a73b76fe2edbe5dc3530323b9cbaf0c31">ExecWait</a>(<a class="code hl_variable" href="#acf23d85dcf643a857a7c1e5c8a1bc9ce">BaseEnterDoor</a>)</div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#afdbecdc25961f69820cb0e396872f9fb">Return</a></div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a342404d3b71fbd50588f779f1f1c59b3">End</a></div>
 <div class="line">}</div>
 </div><!-- fragment -->
+<p class="reference">Referenced by <a class="el" href="dgb__07__2__main_8c.html#a9357c1705986f18f87552e191ced2a4a">MAP_RODATA_PAD()</a>.</p>
+
 </div>
 </div>
 <a id="a181b21eb92e31d1f46c4a19f7763999c" name="a181b21eb92e31d1f46c4a19f7763999c"></a>
@@ -343,10 +353,10 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line"> </div>
-<div class="line"> </div>
-<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#aa49b4615589f142fe396afa06f44ec5e">EVT_RETURN</a></div>
-<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a1eb5d3206784e72fb8b5bf5cc7228553">EVT_END</a></div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#adebe72a7dc0c86ea5913d44e43944cf2">Call</a>(SetupSplitDoubleDoors)</div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a73b76fe2edbe5dc3530323b9cbaf0c31">ExecWait</a>(<a class="code hl_variable" href="#acf23d85dcf643a857a7c1e5c8a1bc9ce">BaseEnterDoor</a>)</div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#afdbecdc25961f69820cb0e396872f9fb">Return</a></div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a342404d3b71fbd50588f779f1f1c59b3">End</a></div>
 <div class="line">}</div>
 </div><!-- fragment -->
 </div>
@@ -363,10 +373,10 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line"> </div>
-<div class="line"> </div>
-<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#aa49b4615589f142fe396afa06f44ec5e">EVT_RETURN</a></div>
-<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a1eb5d3206784e72fb8b5bf5cc7228553">EVT_END</a></div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#adebe72a7dc0c86ea5913d44e43944cf2">Call</a>(SetupSplitSingleDoor)</div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a73b76fe2edbe5dc3530323b9cbaf0c31">ExecWait</a>(<a class="code hl_variable" href="#acf23d85dcf643a857a7c1e5c8a1bc9ce">BaseEnterDoor</a>)</div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#afdbecdc25961f69820cb0e396872f9fb">Return</a></div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a342404d3b71fbd50588f779f1f1c59b3">End</a></div>
 <div class="line">}</div>
 </div><!-- fragment -->
 </div>
@@ -383,29 +393,45 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line"> </div>
-<div class="line"> </div>
-<div class="line"> </div>
-<div class="line"> </div>
-<div class="line"> </div>
-<div class="line"> </div>
-<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#aa3705d1ccd4f316c1ce498979c4ee518">EVT_ELSE</a></div>
-<div class="line"> </div>
-<div class="line"> </div>
-<div class="line"> </div>
-<div class="line"> </div>
-<div class="line"> </div>
-<div class="line"> </div>
-<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a15f6226bb8726c87b6a0368d33e4aec1">EVT_END_IF</a></div>
-<div class="line"> </div>
-<div class="line"> </div>
-<div class="line"> </div>
-<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#aa49b4615589f142fe396afa06f44ec5e">EVT_RETURN</a></div>
-<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a1eb5d3206784e72fb8b5bf5cc7228553">EVT_END</a></div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#adebe72a7dc0c86ea5913d44e43944cf2">Call</a>(ShortenPartnerTetherDistance)</div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#adebe72a7dc0c86ea5913d44e43944cf2">Call</a>(CheckUsingRideablePartner)</div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#adebe72a7dc0c86ea5913d44e43944cf2">Call</a>(<a class="code hl_function" href="script__api_2common_8h.html#a3b90ea38d0524ead76aa0d4e4e56219b">UseEntryHeading</a>, 60, 15)</div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#ad83d17d5035c14969f8bedf3ba85a5f5">IfEq</a>(<a class="code hl_define" href="script__api_2macros_8h.html#aa36d0b11e068a3e30c62f2820cd1b51e">LVarA</a>, 0)</div>
+<div class="line">        <a class="code hl_define" href="script__api_2macros_8h.html#adebe72a7dc0c86ea5913d44e43944cf2">Call</a>(TeleportPartnerToPlayer)</div>
+<div class="line">        <a class="code hl_define" href="script__api_2macros_8h.html#adebe72a7dc0c86ea5913d44e43944cf2">Call</a>(<a class="code hl_function" href="script__api_2common_8h.html#aa6975fd17d038c3da0058285e21554ae">PlayerMoveTo</a>, <a class="code hl_define" href="script__api_2macros_8h.html#a9e3cbc9299b697ee1ff5da87b3cc103b">LVar1</a>, <a class="code hl_define" href="script__api_2macros_8h.html#aed92ab810ef120afec1cf4422cc22515">LVar3</a>, 15)</div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a09a2956af95503e1881a72ff369bef02">Else</a></div>
+<div class="line">        <a class="code hl_define" href="script__api_2macros_8h.html#a24cc3bb2b288d68acc0eda9d7fc510e2">Set</a>(<a class="code hl_define" href="script__api_2macros_8h.html#a316f2a838519b1f0c20992128e1316a7">LVarF</a>, <a class="code hl_define" href="script__api_2macros_8h.html#af7850f206b899ed1559a492acdb308c8">LVar0</a>)</div>
+<div class="line">        <a class="code hl_define" href="script__api_2macros_8h.html#a24cc3bb2b288d68acc0eda9d7fc510e2">Set</a>(<a class="code hl_define" href="script__api_2macros_8h.html#af7850f206b899ed1559a492acdb308c8">LVar0</a>, 0)</div>
+<div class="line">        <a class="code hl_define" href="script__api_2macros_8h.html#a24cc3bb2b288d68acc0eda9d7fc510e2">Set</a>(<a class="code hl_define" href="script__api_2macros_8h.html#a4822eccddc3c8a5ffcbc506b02515584">LVarC</a>, 1)</div>
+<div class="line">        <a class="code hl_define" href="script__api_2macros_8h.html#a24cc3bb2b288d68acc0eda9d7fc510e2">Set</a>(<a class="code hl_define" href="script__api_2macros_8h.html#aebc1f3985d6d75a94a36b1476fbf8347">LVar4</a>, 15)</div>
+<div class="line">        <a class="code hl_define" href="script__api_2macros_8h.html#a73b76fe2edbe5dc3530323b9cbaf0c31">ExecWait</a>(<a class="code hl_define" href="script__api_2macros_8h.html#a70facb693af0e72fbbc844e9cd656c7f">LVarB</a>)</div>
+<div class="line">        <a class="code hl_define" href="script__api_2macros_8h.html#a24cc3bb2b288d68acc0eda9d7fc510e2">Set</a>(<a class="code hl_define" href="script__api_2macros_8h.html#af7850f206b899ed1559a492acdb308c8">LVar0</a>, <a class="code hl_define" href="script__api_2macros_8h.html#a316f2a838519b1f0c20992128e1316a7">LVarF</a>)</div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a63f91c4d46d730aafe3fee17f34e9f42">EndIf</a></div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#afc73bce9a30d9a890a1bfc9444c59c18">Exec</a>(<a class="code hl_define" href="script__api_2macros_8h.html#af7850f206b899ed1559a492acdb308c8">LVar0</a>)</div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#adebe72a7dc0c86ea5913d44e43944cf2">Call</a>(<a class="code hl_function" href="script__api_2common_8h.html#a3a0be78149b90a1ca97a85744126eabe">func_802D2148</a>)</div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#adebe72a7dc0c86ea5913d44e43944cf2">Call</a>(ResetPartnerTetherDistance)</div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#afdbecdc25961f69820cb0e396872f9fb">Return</a></div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a342404d3b71fbd50588f779f1f1c59b3">End</a></div>
 <div class="line">}</div>
-<div class="ttc" id="ascript__api_2macros_8h_html_a15f6226bb8726c87b6a0368d33e4aec1"><div class="ttname"><a href="script__api_2macros_8h.html#a15f6226bb8726c87b6a0368d33e4aec1">EVT_END_IF</a></div><div class="ttdeci">#define EVT_END_IF</div><div class="ttdoc">Marks the end of an if statement or an else block.</div><div class="ttdef"><b>Definition</b> macros.h:310</div></div>
-<div class="ttc" id="ascript__api_2macros_8h_html_aa3705d1ccd4f316c1ce498979c4ee518"><div class="ttname"><a href="script__api_2macros_8h.html#aa3705d1ccd4f316c1ce498979c4ee518">EVT_ELSE</a></div><div class="ttdeci">#define EVT_ELSE</div><div class="ttdoc">Marks the end of an if statement and the start of the else block.</div><div class="ttdef"><b>Definition</b> macros.h:307</div></div>
+<div class="ttc" id="ascript__api_2common_8h_html_a3a0be78149b90a1ca97a85744126eabe"><div class="ttname"><a href="script__api_2common_8h.html#a3a0be78149b90a1ca97a85744126eabe">func_802D2148</a></div><div class="ttdeci">ApiStatus func_802D2148(Evt *script, b32 isInitialCall)</div></div>
+<div class="ttc" id="ascript__api_2common_8h_html_a3b90ea38d0524ead76aa0d4e4e56219b"><div class="ttname"><a href="script__api_2common_8h.html#a3b90ea38d0524ead76aa0d4e4e56219b">UseEntryHeading</a></div><div class="ttdeci">ApiStatus UseEntryHeading(Evt *script, b32 isInitialCall)</div></div>
+<div class="ttc" id="ascript__api_2common_8h_html_aa6975fd17d038c3da0058285e21554ae"><div class="ttname"><a href="script__api_2common_8h.html#aa6975fd17d038c3da0058285e21554ae">PlayerMoveTo</a></div><div class="ttdeci">ApiStatus PlayerMoveTo(Evt *script, b32 isInitialCall)</div></div>
+<div class="ttc" id="ascript__api_2macros_8h_html_a09a2956af95503e1881a72ff369bef02"><div class="ttname"><a href="script__api_2macros_8h.html#a09a2956af95503e1881a72ff369bef02">Else</a></div><div class="ttdeci">#define Else</div><div class="ttdoc">Marks the end of an if statement and the start of the else block.</div><div class="ttdef"><b>Definition</b> macros.h:307</div></div>
+<div class="ttc" id="ascript__api_2macros_8h_html_a24cc3bb2b288d68acc0eda9d7fc510e2"><div class="ttname"><a href="script__api_2macros_8h.html#a24cc3bb2b288d68acc0eda9d7fc510e2">Set</a></div><div class="ttdeci">#define Set(VAR, INT_VALUE)</div><div class="ttdoc">Sets the given variable to a given value casted to an integer.</div><div class="ttdef"><b>Definition</b> macros.h:377</div></div>
+<div class="ttc" id="ascript__api_2macros_8h_html_a316f2a838519b1f0c20992128e1316a7"><div class="ttname"><a href="script__api_2macros_8h.html#a316f2a838519b1f0c20992128e1316a7">LVarF</a></div><div class="ttdeci">#define LVarF</div><div class="ttdef"><b>Definition</b> macros.h:159</div></div>
+<div class="ttc" id="ascript__api_2macros_8h_html_a4822eccddc3c8a5ffcbc506b02515584"><div class="ttname"><a href="script__api_2macros_8h.html#a4822eccddc3c8a5ffcbc506b02515584">LVarC</a></div><div class="ttdeci">#define LVarC</div><div class="ttdef"><b>Definition</b> macros.h:156</div></div>
+<div class="ttc" id="ascript__api_2macros_8h_html_a63f91c4d46d730aafe3fee17f34e9f42"><div class="ttname"><a href="script__api_2macros_8h.html#a63f91c4d46d730aafe3fee17f34e9f42">EndIf</a></div><div class="ttdeci">#define EndIf</div><div class="ttdoc">Marks the end of an if statement or an else block.</div><div class="ttdef"><b>Definition</b> macros.h:310</div></div>
+<div class="ttc" id="ascript__api_2macros_8h_html_a70facb693af0e72fbbc844e9cd656c7f"><div class="ttname"><a href="script__api_2macros_8h.html#a70facb693af0e72fbbc844e9cd656c7f">LVarB</a></div><div class="ttdeci">#define LVarB</div><div class="ttdef"><b>Definition</b> macros.h:155</div></div>
+<div class="ttc" id="ascript__api_2macros_8h_html_a9e3cbc9299b697ee1ff5da87b3cc103b"><div class="ttname"><a href="script__api_2macros_8h.html#a9e3cbc9299b697ee1ff5da87b3cc103b">LVar1</a></div><div class="ttdeci">#define LVar1</div><div class="ttdef"><b>Definition</b> macros.h:145</div></div>
+<div class="ttc" id="ascript__api_2macros_8h_html_aa36d0b11e068a3e30c62f2820cd1b51e"><div class="ttname"><a href="script__api_2macros_8h.html#aa36d0b11e068a3e30c62f2820cd1b51e">LVarA</a></div><div class="ttdeci">#define LVarA</div><div class="ttdef"><b>Definition</b> macros.h:154</div></div>
+<div class="ttc" id="ascript__api_2macros_8h_html_ad83d17d5035c14969f8bedf3ba85a5f5"><div class="ttname"><a href="script__api_2macros_8h.html#ad83d17d5035c14969f8bedf3ba85a5f5">IfEq</a></div><div class="ttdeci">#define IfEq(LVAR, RVAR)</div><div class="ttdoc">Marks the beginning of an if statement that only executes if LVAR == RVAR.</div><div class="ttdef"><b>Definition</b> macros.h:281</div></div>
+<div class="ttc" id="ascript__api_2macros_8h_html_aebc1f3985d6d75a94a36b1476fbf8347"><div class="ttname"><a href="script__api_2macros_8h.html#aebc1f3985d6d75a94a36b1476fbf8347">LVar4</a></div><div class="ttdeci">#define LVar4</div><div class="ttdef"><b>Definition</b> macros.h:148</div></div>
+<div class="ttc" id="ascript__api_2macros_8h_html_aed92ab810ef120afec1cf4422cc22515"><div class="ttname"><a href="script__api_2macros_8h.html#aed92ab810ef120afec1cf4422cc22515">LVar3</a></div><div class="ttdeci">#define LVar3</div><div class="ttdef"><b>Definition</b> macros.h:147</div></div>
+<div class="ttc" id="ascript__api_2macros_8h_html_af7850f206b899ed1559a492acdb308c8"><div class="ttname"><a href="script__api_2macros_8h.html#af7850f206b899ed1559a492acdb308c8">LVar0</a></div><div class="ttdeci">#define LVar0</div><div class="ttdef"><b>Definition</b> macros.h:144</div></div>
+<div class="ttc" id="ascript__api_2macros_8h_html_afc73bce9a30d9a890a1bfc9444c59c18"><div class="ttname"><a href="script__api_2macros_8h.html#afc73bce9a30d9a890a1bfc9444c59c18">Exec</a></div><div class="ttdeci">#define Exec(EVT_SOURCE)</div><div class="ttdoc">Launches a new thread.</div><div class="ttdef"><b>Definition</b> macros.h:467</div></div>
 </div><!-- fragment -->
+<p class="reference">Referenced by <a class="el" href="nok__04__2__main_8c.html#a4e96916f3d71fe02e079bbb090e97f04">MAP_RODATA_PAD()</a>.</p>
+
 </div>
 </div>
 <a id="ade57e0acfbdb882b66449ff82d583a6c" name="ade57e0acfbdb882b66449ff82d583a6c"></a>
@@ -420,24 +446,24 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line"> </div>
-<div class="line"> </div>
-<div class="line"> </div>
-<div class="line"> </div>
-<div class="line"> </div>
-<div class="line"> </div>
-<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#aa3705d1ccd4f316c1ce498979c4ee518">EVT_ELSE</a></div>
-<div class="line"> </div>
-<div class="line"> </div>
-<div class="line"> </div>
-<div class="line"> </div>
-<div class="line"> </div>
-<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a15f6226bb8726c87b6a0368d33e4aec1">EVT_END_IF</a></div>
-<div class="line"> </div>
-<div class="line"> </div>
-<div class="line"> </div>
-<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#aa49b4615589f142fe396afa06f44ec5e">EVT_RETURN</a></div>
-<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a1eb5d3206784e72fb8b5bf5cc7228553">EVT_END</a></div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#adebe72a7dc0c86ea5913d44e43944cf2">Call</a>(ShortenPartnerTetherDistance)</div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#adebe72a7dc0c86ea5913d44e43944cf2">Call</a>(CheckUsingRideablePartner)</div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#adebe72a7dc0c86ea5913d44e43944cf2">Call</a>(<a class="code hl_function" href="script__api_2common_8h.html#a3b90ea38d0524ead76aa0d4e4e56219b">UseEntryHeading</a>, <a class="code hl_define" href="script__api_2macros_8h.html#a9e3cbc9299b697ee1ff5da87b3cc103b">LVar1</a>, <a class="code hl_define" href="script__api_2macros_8h.html#aebc1f3985d6d75a94a36b1476fbf8347">LVar4</a>)</div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#ad83d17d5035c14969f8bedf3ba85a5f5">IfEq</a>(<a class="code hl_define" href="script__api_2macros_8h.html#aa36d0b11e068a3e30c62f2820cd1b51e">LVarA</a>, 0)</div>
+<div class="line">        <a class="code hl_define" href="script__api_2macros_8h.html#adebe72a7dc0c86ea5913d44e43944cf2">Call</a>(TeleportPartnerToPlayer)</div>
+<div class="line">        <a class="code hl_define" href="script__api_2macros_8h.html#adebe72a7dc0c86ea5913d44e43944cf2">Call</a>(<a class="code hl_function" href="script__api_2common_8h.html#aa6975fd17d038c3da0058285e21554ae">PlayerMoveTo</a>, <a class="code hl_define" href="script__api_2macros_8h.html#a9e3cbc9299b697ee1ff5da87b3cc103b">LVar1</a>, <a class="code hl_define" href="script__api_2macros_8h.html#aed92ab810ef120afec1cf4422cc22515">LVar3</a>, <a class="code hl_define" href="script__api_2macros_8h.html#aebc1f3985d6d75a94a36b1476fbf8347">LVar4</a>)</div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a09a2956af95503e1881a72ff369bef02">Else</a></div>
+<div class="line">        <a class="code hl_define" href="script__api_2macros_8h.html#a24cc3bb2b288d68acc0eda9d7fc510e2">Set</a>(<a class="code hl_define" href="script__api_2macros_8h.html#a316f2a838519b1f0c20992128e1316a7">LVarF</a>, <a class="code hl_define" href="script__api_2macros_8h.html#af7850f206b899ed1559a492acdb308c8">LVar0</a>)</div>
+<div class="line">        <a class="code hl_define" href="script__api_2macros_8h.html#a24cc3bb2b288d68acc0eda9d7fc510e2">Set</a>(<a class="code hl_define" href="script__api_2macros_8h.html#af7850f206b899ed1559a492acdb308c8">LVar0</a>, 0)</div>
+<div class="line">        <a class="code hl_define" href="script__api_2macros_8h.html#a24cc3bb2b288d68acc0eda9d7fc510e2">Set</a>(<a class="code hl_define" href="script__api_2macros_8h.html#a4822eccddc3c8a5ffcbc506b02515584">LVarC</a>, 1)</div>
+<div class="line">        <a class="code hl_define" href="script__api_2macros_8h.html#a73b76fe2edbe5dc3530323b9cbaf0c31">ExecWait</a>(<a class="code hl_define" href="script__api_2macros_8h.html#a70facb693af0e72fbbc844e9cd656c7f">LVarB</a>)</div>
+<div class="line">        <a class="code hl_define" href="script__api_2macros_8h.html#a24cc3bb2b288d68acc0eda9d7fc510e2">Set</a>(<a class="code hl_define" href="script__api_2macros_8h.html#af7850f206b899ed1559a492acdb308c8">LVar0</a>, <a class="code hl_define" href="script__api_2macros_8h.html#a316f2a838519b1f0c20992128e1316a7">LVarF</a>)</div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a63f91c4d46d730aafe3fee17f34e9f42">EndIf</a></div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#afc73bce9a30d9a890a1bfc9444c59c18">Exec</a>(<a class="code hl_define" href="script__api_2macros_8h.html#af7850f206b899ed1559a492acdb308c8">LVar0</a>)</div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#adebe72a7dc0c86ea5913d44e43944cf2">Call</a>(<a class="code hl_function" href="script__api_2common_8h.html#a3a0be78149b90a1ca97a85744126eabe">func_802D2148</a>)</div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#adebe72a7dc0c86ea5913d44e43944cf2">Call</a>(ResetPartnerTetherDistance)</div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#afdbecdc25961f69820cb0e396872f9fb">Return</a></div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a342404d3b71fbd50588f779f1f1c59b3">End</a></div>
 <div class="line">}</div>
 </div><!-- fragment -->
 </div>
@@ -454,25 +480,25 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line"> </div>
-<div class="line"> </div>
-<div class="line"> </div>
-<div class="line"> </div>
-<div class="line"> </div>
-<div class="line"> </div>
-<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#aa3705d1ccd4f316c1ce498979c4ee518">EVT_ELSE</a></div>
-<div class="line"> </div>
-<div class="line"> </div>
-<div class="line"> </div>
-<div class="line"> </div>
-<div class="line"> </div>
-<div class="line"> </div>
-<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a15f6226bb8726c87b6a0368d33e4aec1">EVT_END_IF</a></div>
-<div class="line"> </div>
-<div class="line"> </div>
-<div class="line"> </div>
-<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#aa49b4615589f142fe396afa06f44ec5e">EVT_RETURN</a></div>
-<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a1eb5d3206784e72fb8b5bf5cc7228553">EVT_END</a></div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#adebe72a7dc0c86ea5913d44e43944cf2">Call</a>(ShortenPartnerTetherDistance)</div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#adebe72a7dc0c86ea5913d44e43944cf2">Call</a>(CheckUsingRideablePartner)</div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#adebe72a7dc0c86ea5913d44e43944cf2">Call</a>(<a class="code hl_function" href="script__api_2common_8h.html#a3b90ea38d0524ead76aa0d4e4e56219b">UseEntryHeading</a>, 40, 15)</div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#ad83d17d5035c14969f8bedf3ba85a5f5">IfEq</a>(<a class="code hl_define" href="script__api_2macros_8h.html#aa36d0b11e068a3e30c62f2820cd1b51e">LVarA</a>, 0)</div>
+<div class="line">        <a class="code hl_define" href="script__api_2macros_8h.html#adebe72a7dc0c86ea5913d44e43944cf2">Call</a>(TeleportPartnerToPlayer)</div>
+<div class="line">        <a class="code hl_define" href="script__api_2macros_8h.html#adebe72a7dc0c86ea5913d44e43944cf2">Call</a>(<a class="code hl_function" href="script__api_2common_8h.html#aa6975fd17d038c3da0058285e21554ae">PlayerMoveTo</a>, <a class="code hl_define" href="script__api_2macros_8h.html#a9e3cbc9299b697ee1ff5da87b3cc103b">LVar1</a>, <a class="code hl_define" href="script__api_2macros_8h.html#aed92ab810ef120afec1cf4422cc22515">LVar3</a>, 15)</div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a09a2956af95503e1881a72ff369bef02">Else</a></div>
+<div class="line">        <a class="code hl_define" href="script__api_2macros_8h.html#a24cc3bb2b288d68acc0eda9d7fc510e2">Set</a>(<a class="code hl_define" href="script__api_2macros_8h.html#a316f2a838519b1f0c20992128e1316a7">LVarF</a>, <a class="code hl_define" href="script__api_2macros_8h.html#af7850f206b899ed1559a492acdb308c8">LVar0</a>)</div>
+<div class="line">        <a class="code hl_define" href="script__api_2macros_8h.html#a24cc3bb2b288d68acc0eda9d7fc510e2">Set</a>(<a class="code hl_define" href="script__api_2macros_8h.html#af7850f206b899ed1559a492acdb308c8">LVar0</a>, 0)</div>
+<div class="line">        <a class="code hl_define" href="script__api_2macros_8h.html#a24cc3bb2b288d68acc0eda9d7fc510e2">Set</a>(<a class="code hl_define" href="script__api_2macros_8h.html#a4822eccddc3c8a5ffcbc506b02515584">LVarC</a>, 1)</div>
+<div class="line">        <a class="code hl_define" href="script__api_2macros_8h.html#a24cc3bb2b288d68acc0eda9d7fc510e2">Set</a>(<a class="code hl_define" href="script__api_2macros_8h.html#aebc1f3985d6d75a94a36b1476fbf8347">LVar4</a>, 15)</div>
+<div class="line">        <a class="code hl_define" href="script__api_2macros_8h.html#a73b76fe2edbe5dc3530323b9cbaf0c31">ExecWait</a>(<a class="code hl_define" href="script__api_2macros_8h.html#a70facb693af0e72fbbc844e9cd656c7f">LVarB</a>)</div>
+<div class="line">        <a class="code hl_define" href="script__api_2macros_8h.html#a24cc3bb2b288d68acc0eda9d7fc510e2">Set</a>(<a class="code hl_define" href="script__api_2macros_8h.html#af7850f206b899ed1559a492acdb308c8">LVar0</a>, <a class="code hl_define" href="script__api_2macros_8h.html#a316f2a838519b1f0c20992128e1316a7">LVarF</a>)</div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a63f91c4d46d730aafe3fee17f34e9f42">EndIf</a></div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#afc73bce9a30d9a890a1bfc9444c59c18">Exec</a>(<a class="code hl_define" href="script__api_2macros_8h.html#af7850f206b899ed1559a492acdb308c8">LVar0</a>)</div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#adebe72a7dc0c86ea5913d44e43944cf2">Call</a>(<a class="code hl_function" href="script__api_2common_8h.html#a3a0be78149b90a1ca97a85744126eabe">func_802D2148</a>)</div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#adebe72a7dc0c86ea5913d44e43944cf2">Call</a>(ResetPartnerTetherDistance)</div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#afdbecdc25961f69820cb0e396872f9fb">Return</a></div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a342404d3b71fbd50588f779f1f1c59b3">End</a></div>
 <div class="line">}</div>
 </div><!-- fragment -->
 </div>
@@ -489,11 +515,12 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line"> </div>
-<div class="line"> </div>
-<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#aa49b4615589f142fe396afa06f44ec5e">EVT_RETURN</a></div>
-<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a1eb5d3206784e72fb8b5bf5cc7228553">EVT_END</a></div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#adebe72a7dc0c86ea5913d44e43944cf2">Call</a>(SetupDoubleDoors)</div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a73b76fe2edbe5dc3530323b9cbaf0c31">ExecWait</a>(<a class="code hl_variable" href="#ad96cf7e29cf6213968929da5d5ab535b">BaseExitDoor</a>)</div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#afdbecdc25961f69820cb0e396872f9fb">Return</a></div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a342404d3b71fbd50588f779f1f1c59b3">End</a></div>
 <div class="line">}</div>
+<div class="ttc" id="aenter__exit_8c_html_ad96cf7e29cf6213968929da5d5ab535b"><div class="ttname"><a href="#ad96cf7e29cf6213968929da5d5ab535b">BaseExitDoor</a></div><div class="ttdeci">EvtScript BaseExitDoor</div><div class="ttdef"><b>Definition</b> enter_exit.c:358</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -509,10 +536,10 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line"> </div>
-<div class="line"> </div>
-<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#aa49b4615589f142fe396afa06f44ec5e">EVT_RETURN</a></div>
-<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a1eb5d3206784e72fb8b5bf5cc7228553">EVT_END</a></div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#adebe72a7dc0c86ea5913d44e43944cf2">Call</a>(SetupSingleDoor)</div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a73b76fe2edbe5dc3530323b9cbaf0c31">ExecWait</a>(<a class="code hl_variable" href="#ad96cf7e29cf6213968929da5d5ab535b">BaseExitDoor</a>)</div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#afdbecdc25961f69820cb0e396872f9fb">Return</a></div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a342404d3b71fbd50588f779f1f1c59b3">End</a></div>
 <div class="line">}</div>
 </div><!-- fragment -->
 </div>
@@ -529,10 +556,10 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line"> </div>
-<div class="line"> </div>
-<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#aa49b4615589f142fe396afa06f44ec5e">EVT_RETURN</a></div>
-<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a1eb5d3206784e72fb8b5bf5cc7228553">EVT_END</a></div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#adebe72a7dc0c86ea5913d44e43944cf2">Call</a>(SetupSplitDoubleDoors)</div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a73b76fe2edbe5dc3530323b9cbaf0c31">ExecWait</a>(<a class="code hl_variable" href="#ad96cf7e29cf6213968929da5d5ab535b">BaseExitDoor</a>)</div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#afdbecdc25961f69820cb0e396872f9fb">Return</a></div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a342404d3b71fbd50588f779f1f1c59b3">End</a></div>
 <div class="line">}</div>
 </div><!-- fragment -->
 </div>
@@ -549,10 +576,10 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line"> </div>
-<div class="line"> </div>
-<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#aa49b4615589f142fe396afa06f44ec5e">EVT_RETURN</a></div>
-<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a1eb5d3206784e72fb8b5bf5cc7228553">EVT_END</a></div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#adebe72a7dc0c86ea5913d44e43944cf2">Call</a>(SetupSplitSingleDoor)</div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a73b76fe2edbe5dc3530323b9cbaf0c31">ExecWait</a>(<a class="code hl_variable" href="#ad96cf7e29cf6213968929da5d5ab535b">BaseExitDoor</a>)</div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#afdbecdc25961f69820cb0e396872f9fb">Return</a></div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a342404d3b71fbd50588f779f1f1c59b3">End</a></div>
 <div class="line">}</div>
 </div><!-- fragment -->
 </div>
@@ -569,21 +596,22 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line"> </div>
-<div class="line"> </div>
-<div class="line"> </div>
-<div class="line"> </div>
-<div class="line"> </div>
-<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#aa3705d1ccd4f316c1ce498979c4ee518">EVT_ELSE</a></div>
-<div class="line"> </div>
-<div class="line"> </div>
-<div class="line"> </div>
-<div class="line"> </div>
-<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a15f6226bb8726c87b6a0368d33e4aec1">EVT_END_IF</a></div>
-<div class="line"> </div>
-<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#aa49b4615589f142fe396afa06f44ec5e">EVT_RETURN</a></div>
-<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a1eb5d3206784e72fb8b5bf5cc7228553">EVT_END</a></div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#adebe72a7dc0c86ea5913d44e43944cf2">Call</a>(<a class="code hl_function" href="script__api_2common_8h.html#a4c12c93d9af0f8318043e21bde235653">DisablePlayerInput</a>, TRUE)</div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#adebe72a7dc0c86ea5913d44e43944cf2">Call</a>(ShortenPartnerTetherDistance)</div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#adebe72a7dc0c86ea5913d44e43944cf2">Call</a>(CheckUsingRideablePartner)</div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#ad83d17d5035c14969f8bedf3ba85a5f5">IfEq</a>(<a class="code hl_define" href="script__api_2macros_8h.html#aa36d0b11e068a3e30c62f2820cd1b51e">LVarA</a>, 0)</div>
+<div class="line">        <a class="code hl_define" href="script__api_2macros_8h.html#adebe72a7dc0c86ea5913d44e43944cf2">Call</a>(<a class="code hl_function" href="script__api_2common_8h.html#aa6975fd17d038c3da0058285e21554ae">PlayerMoveTo</a>, <a class="code hl_define" href="script__api_2macros_8h.html#a9e3cbc9299b697ee1ff5da87b3cc103b">LVar1</a>, <a class="code hl_define" href="script__api_2macros_8h.html#aed92ab810ef120afec1cf4422cc22515">LVar3</a>, 15)</div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a09a2956af95503e1881a72ff369bef02">Else</a></div>
+<div class="line">        <a class="code hl_define" href="script__api_2macros_8h.html#a24cc3bb2b288d68acc0eda9d7fc510e2">Set</a>(<a class="code hl_define" href="script__api_2macros_8h.html#af7850f206b899ed1559a492acdb308c8">LVar0</a>, 0)</div>
+<div class="line">        <a class="code hl_define" href="script__api_2macros_8h.html#a24cc3bb2b288d68acc0eda9d7fc510e2">Set</a>(<a class="code hl_define" href="script__api_2macros_8h.html#a4822eccddc3c8a5ffcbc506b02515584">LVarC</a>, 0)</div>
+<div class="line">        <a class="code hl_define" href="script__api_2macros_8h.html#a24cc3bb2b288d68acc0eda9d7fc510e2">Set</a>(<a class="code hl_define" href="script__api_2macros_8h.html#aebc1f3985d6d75a94a36b1476fbf8347">LVar4</a>, 15)</div>
+<div class="line">        <a class="code hl_define" href="script__api_2macros_8h.html#a73b76fe2edbe5dc3530323b9cbaf0c31">ExecWait</a>(<a class="code hl_define" href="script__api_2macros_8h.html#a70facb693af0e72fbbc844e9cd656c7f">LVarB</a>)</div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a63f91c4d46d730aafe3fee17f34e9f42">EndIf</a></div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#adebe72a7dc0c86ea5913d44e43944cf2">Call</a>(ResetPartnerTetherDistance)</div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#afdbecdc25961f69820cb0e396872f9fb">Return</a></div>
+<div class="line">    <a class="code hl_define" href="script__api_2macros_8h.html#a342404d3b71fbd50588f779f1f1c59b3">End</a></div>
 <div class="line">}</div>
+<div class="ttc" id="ascript__api_2common_8h_html_a4c12c93d9af0f8318043e21bde235653"><div class="ttname"><a href="script__api_2common_8h.html#a4c12c93d9af0f8318043e21bde235653">DisablePlayerInput</a></div><div class="ttdeci">ApiStatus DisablePlayerInput(Evt *script, b32 isInitialCall)</div><div class="ttdoc">Disables player and partner input, and disables the status menu.</div></div>
 </div><!-- fragment -->
 </div>
 </div>

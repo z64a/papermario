@@ -1,31 +1,4 @@
 var pra__18__3__npc_8c =
 [
-    [ "CLUBBA_EXTRA_FLAGS", "pra__18__3__npc_8c.html#aa548527c3514b4720550b67cebb7ac9f", null ],
-    [ "DefaultNPCs", "pra__18__3__npc_8c.html#a7374ac0b449e4ad2ea880b155b9139f7", null ],
-    [ "EVS_NpcDefeat_Clubba_01", "pra__18__3__npc_8c.html#afc42132d1f66c8f8645e9b5a20f397e3", null ],
-    [ "EVS_NpcDefeat_Clubba_02", "pra__18__3__npc_8c.html#a8f042157685d1457e08dfa179326ffaf", null ],
-    [ "EVS_NpcDefeat_Clubba_03", "pra__18__3__npc_8c.html#a8472b8de9aca1732f137780da33f7e75", null ],
-    [ "EVS_NpcHit_Clubba_01", "pra__18__3__npc_8c.html#a8c9e96b82ea2474721d09be3f583eb2f", null ],
-    [ "EVS_NpcHit_Clubba_01_Aux", "pra__18__3__npc_8c.html#a66317972d7b848ef7248905d0aa13647", null ],
-    [ "EVS_NpcHit_Clubba_02", "pra__18__3__npc_8c.html#a2f5b4ad766e543e3518a9fd63c3d29b3", null ],
-    [ "EVS_NpcHit_Clubba_02_Aux", "pra__18__3__npc_8c.html#ad244483db4e1cbf0b6a42cf9d584c968", null ],
-    [ "EVS_NpcHit_Clubba_03", "pra__18__3__npc_8c.html#a05b041f7167911ba7007dd1024e51282", null ],
-    [ "EVS_NpcHit_Clubba_03_Aux", "pra__18__3__npc_8c.html#ab2a55723abca7f7dfa77f2febad704fa", null ],
-    [ "EVS_NpcIdle_Clubba_01", "pra__18__3__npc_8c.html#a513b5188170cc39db256904f82f0582b", null ],
-    [ "EVS_NpcIdle_Clubba_02", "pra__18__3__npc_8c.html#af382f7521203cc499aef6acb7808a789", null ],
-    [ "EVS_NpcIdle_Clubba_03", "pra__18__3__npc_8c.html#acde1ec1a02e72ccadfe37906b4b95f26", null ],
-    [ "EVS_NpcInit_Clubba_01", "pra__18__3__npc_8c.html#a63dec3a43ddf82ffe8aa713746e34c1b", null ],
-    [ "EVS_NpcInit_Clubba_01_Aux", "pra__18__3__npc_8c.html#aa02ec773b8b7ea0a2ae03053bec76585", null ],
-    [ "EVS_NpcInit_Clubba_02", "pra__18__3__npc_8c.html#ad95292b18b1a97be45fcf5c18017657c", null ],
-    [ "EVS_NpcInit_Clubba_02_Aux", "pra__18__3__npc_8c.html#a6ce91b49ee6b46ebf48935ae7f52a267", null ],
-    [ "EVS_NpcInit_Clubba_03", "pra__18__3__npc_8c.html#aa46634d710ded629694d572eeee7f8ff", null ],
-    [ "EVS_NpcInit_Clubba_03_Aux", "pra__18__3__npc_8c.html#a17d2dd830272e9cd4119fc800da270d1", null ],
-    [ "EVS_NpcInteract_Clubba_01", "pra__18__3__npc_8c.html#a465441e9a64d8f26f723204add8e4d82", null ],
-    [ "EVS_NpcInteract_Clubba_02", "pra__18__3__npc_8c.html#a06d35f24c06b077e84701b803b2384ba", null ],
-    [ "EVS_NpcInteract_Clubba_03", "pra__18__3__npc_8c.html#a3d7b2681b7fc110a6660a2d3efd32fed", null ],
-    [ "EVS_PlayClubbaDefeatFX", "pra__18__3__npc_8c.html#a6dff403b61531ae390307f16ca6bd356", null ],
-    [ "NpcData_Clubba_01", "pra__18__3__npc_8c.html#a23b17bc27782a680bfc3dea0070d448d", null ],
-    [ "NpcData_Clubba_02", "pra__18__3__npc_8c.html#a0900771ddceecb92159946014c987f62", null ],
-    [ "NpcData_Clubba_03", "pra__18__3__npc_8c.html#a217bdb0b1d0a2160b4c6544951170030", null ],
-    [ "NpcSettings_Clubba", "pra__18__3__npc_8c.html#a88f26fd871dd674f364558adf0625d55", null ]
+    [ "CLUBBA_EXTRA_FLAGS", "pra__18__3__npc_8c.html#aa548527c3514b4720550b67cebb7ac9f", null ]
 ];
