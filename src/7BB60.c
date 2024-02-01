@@ -99,11 +99,9 @@ s32 collision_main_above(void) {
             && collisionStatus->curFloor <= NO_COLLIDER
         ) {
             if (sp2C <= fabsf(new_var + playerStatus->gravityIntegrator[0])) {
-                do {
-                    if ((hitResult & COLLISION_WITH_ENTITY_BIT) && get_entity_type(hitResult) == ENTITY_TYPE_BRICK_BLOCK) {
-                        return hitResult;
-                    }
-                } while (0);
+                if ((hitResult & COLLISION_WITH_ENTITY_BIT) && get_entity_type(hitResult) == ENTITY_TYPE_BRICK_BLOCK) {
+                    return hitResult;
+                }
 
                 playerStatus->pos.y = y - ((playerStatus->colliderHeight / 5.0f) * 3.0f);
                 if (playerStatus->actionState != ACTION_STATE_TORNADO_JUMP
@@ -271,15 +269,12 @@ void phys_update_jump(void) {
 }
 
 void phys_init_integrator_for_current_state(void) {
-    PlayerStatus* playerStatus = &gPlayerStatus;
-    f32* params;
-
-    switch (playerStatus->actionState) {
+    switch (gPlayerStatus.actionState) {
         case ACTION_STATE_LANDING_ON_SWITCH:
-            playerStatus->gravityIntegrator[0] = 10.0f;
-            playerStatus->gravityIntegrator[1] = -5.0f;
-            playerStatus->gravityIntegrator[2] = 1.5f;
-            playerStatus->gravityIntegrator[3] = -0.3f;
+            gPlayerStatus.gravityIntegrator[0] = 10.0f;
+            gPlayerStatus.gravityIntegrator[1] = -5.0f;
+            gPlayerStatus.gravityIntegrator[2] = 1.5f;
+            gPlayerStatus.gravityIntegrator[3] = -0.3f;
             break;
         case ACTION_STATE_JUMP:
         case ACTION_STATE_SPIN_JUMP:
@@ -288,41 +283,32 @@ void phys_init_integrator_for_current_state(void) {
         case ACTION_STATE_TORNADO_POUND:
         case ACTION_STATE_HIT_FIRE:
         case ACTION_STATE_HIT_LAVA:
-            params = GravityParamsStartJump;
-            if (!(playerStatus->flags & PS_FLAG_ENTERING_BATTLE)) {
-                playerStatus->gravityIntegrator[0] = *params++;
-                playerStatus->gravityIntegrator[1] = *params++;
-                playerStatus->gravityIntegrator[2] = *params++;
-                playerStatus->gravityIntegrator[3] = *params++;
+            if (!(gPlayerStatus.flags & PS_FLAG_ENTERING_BATTLE)) {
+                gPlayerStatus.gravityIntegrator[0] = GravityParamsStartFall[0];
+                gPlayerStatus.gravityIntegrator[1] = GravityParamsStartFall[1];
+                gPlayerStatus.gravityIntegrator[2] = GravityParamsStartFall[2];
+                gPlayerStatus.gravityIntegrator[3] = GravityParamsStartFall[3];
             } else {
-                playerStatus->gravityIntegrator[0] = *params++ * 0.5f;
-                playerStatus->gravityIntegrator[1] = *params++ * 0.5f;
-                playerStatus->gravityIntegrator[2] = *params++ * 0.5f;
-                playerStatus->gravityIntegrator[3] = *params++ * 0.5f;
+                gPlayerStatus.gravityIntegrator[0] = GravityParamsStartFall[0] * 0.5f;
+                gPlayerStatus.gravityIntegrator[1] = GravityParamsStartFall[1] * 0.5f;
+                gPlayerStatus.gravityIntegrator[2] = GravityParamsStartFall[2] * 0.5f;
+                gPlayerStatus.gravityIntegrator[3] = GravityParamsStartFall[3] * 0.5f;
             }
             break;
     }
 }
 
-static const f32 padding = 0.0f;
-
-// This function is wack. This weird stuff is needed to match
 void gravity_use_fall_parms(void) {
-    f32* params = GravityParamsStartFall;
-    PlayerStatus* playerStatus;
-    do {} while (0);
-    playerStatus = &gPlayerStatus;
-
-    if (playerStatus->flags & PS_FLAG_ENTERING_BATTLE) {
-        playerStatus->gravityIntegrator[0] = *params++ / 12.0f;
-        playerStatus->gravityIntegrator[1] = *params++ / 12.0f;
-        playerStatus->gravityIntegrator[2] = *params++ / 12.0f;
-        playerStatus->gravityIntegrator[3] = *params++ / 12.0f;
+    if (gPlayerStatus.flags & PS_FLAG_ENTERING_BATTLE) {
+        gPlayerStatus.gravityIntegrator[0] = GravityParamsStartFall[0] / 12.0f;
+        gPlayerStatus.gravityIntegrator[1] = GravityParamsStartFall[1] / 12.0f;
+        gPlayerStatus.gravityIntegrator[2] = GravityParamsStartFall[2] / 12.0f;
+        gPlayerStatus.gravityIntegrator[3] = GravityParamsStartFall[3] / 12.0f;
     } else {
-        playerStatus->gravityIntegrator[0] = *params++;
-        playerStatus->gravityIntegrator[1] = *params++;
-        playerStatus->gravityIntegrator[2] = *params++;
-        playerStatus->gravityIntegrator[3] = *params++;
+        gPlayerStatus.gravityIntegrator[0] = GravityParamsStartFall[0];
+        gPlayerStatus.gravityIntegrator[1] = GravityParamsStartFall[1];
+        gPlayerStatus.gravityIntegrator[2] = GravityParamsStartFall[2];
+        gPlayerStatus.gravityIntegrator[3] = GravityParamsStartFall[3];
     }
 }
 

@@ -13,7 +13,7 @@ To get started, see [docs.starhaven.dev](https://docs.starhaven.dev/tools/decomp
 ## List of changes
 
 - US release only (no JP, PAL, or iQue - none of these are near 100% yet).
-- Default configure flags: `--shift --modern-gcc --non-matching --ccache` and `AVOID_UB`
+- Default configure flags: `--shift --modern-gcc --non-matching --ccache`
 - Backtrace (call stack) on crash screen including file names and line numbers.
     - You can call [`debug_backtrace()`](src/dx/backtrace.h) to print a backtrace in any function.
     - Failed assertions (`ASSERT`) will trigger the crash screen and print a backtrace instead of hanging.

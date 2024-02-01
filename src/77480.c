@@ -623,7 +623,6 @@ HitID player_test_move_with_slipping(PlayerStatus* playerStatus, f32* x, f32* y,
 void update_player(void) {
     PlayerStatus* playerStatus = &gPlayerStatus;
     CollisionStatus* collisionStatus = &gCollisionStatus;
-    GameStatus* gameStatus;
 
     #if DX_DEBUG_MENU
     if (dx_debug_is_cheat_enabled(DEBUG_CHEAT_SPEED_MODE)) {
@@ -690,11 +689,10 @@ void update_player(void) {
 
     player_update_sprite();
 
-    gameStatus = gGameStatusPtr;
-    gameStatus->playerPos.x = playerStatus->pos.x;
-    gameStatus->playerPos.y = playerStatus->pos.y;
-    gameStatus->playerPos.z = playerStatus->pos.z;
-    gameStatus->playerYaw = playerStatus->curYaw;
+    gGameStatus.playerPos.x = playerStatus->pos.x;
+    gGameStatus.playerPos.y = playerStatus->pos.y;
+    gGameStatus.playerPos.z = playerStatus->pos.z;
+    gGameStatus.playerYaw = playerStatus->curYaw;
 
     check_input_open_menus();
     if (!(playerStatus->animFlags & PA_FLAG_USING_PEACH_PHYSICS)) {

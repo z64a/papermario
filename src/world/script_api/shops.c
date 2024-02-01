@@ -290,14 +290,14 @@ API_CALLABLE(ShowShopPurchaseDialog) {
         case PURCHASE_DIALOG_STATE_WAIT_FOR_SPEECH:
             if (script->functionTemp[2] == TRUE) {
                 if (D_80286528->curOption == 0) {
-                    if (playerData->coins < shopInventory->price) {
+                    if (gPlayerData.coins < shopInventory->price) {
                         script->functionTemp[1] = shop_owner_continue_speech(SHOP_MSG_NOT_ENOUGH_COINS);
                         script->functionTemp[0] = PURCHASE_DIALOG_STATE_NOT_ENOUGH_COINS;
                     } else if (!item_is_badge(shopInventory->itemID) && get_consumables_empty() < 1) {
                         script->functionTemp[1] = shop_owner_continue_speech(SHOP_MSG_NOT_ENOUGH_ROOM);
                         script->functionTemp[0] = PURCHASE_DIALOG_STATE_NOT_ENOUGH_ROOM;
                     } else {
-                        playerData->coins -= shopInventory->price;
+                        gPlayerData.coins -= shopInventory->price;
                         if (item_is_badge(shopInventory->itemID)) {
                             add_item(shopInventory->itemID);
                             evt_set_variable(NULL, GF_MAC01_BoughtBadgeFromRowf, TRUE);
@@ -463,10 +463,6 @@ s32 shop_get_sell_price(s32 itemID) {
     ShopSellPriceData* items = shop->staticPriceList;
     s32 i;
 
-    if (shop != NULL) {
-        i = 0;
-    } // TODO fake match
-
     for (i = 0; i < numItems; i++) {
         if (items[i].itemID == itemID) {
             return items[i].sellPrice;
@@ -477,9 +473,7 @@ s32 shop_get_sell_price(s32 itemID) {
 }
 
 API_CALLABLE(ShowShopOwnerDialog) {
-    GameStatus* gameStatus = gGameStatusPtr;
-    PlayerData* playerData = &gPlayerData;
-    Shop* shop = gameStatus->mapShop;
+    Shop* shop = gGameStatus.mapShop;
 
     static MessagePrintState* ShopOwnerPrintState;
 
@@ -595,8 +589,8 @@ API_CALLABLE(ShowShopOwnerDialog) {
             }
             shop_close_item_select_popup();
             if (shop->selectedStoreItemSlot >= 0) {
-                ItemData* itemData = &gItemTable[playerData->invItems[shop->selectedStoreItemSlot]];
-                script->functionTemp[1] = shop_owner_buy_dialog(SHOP_MSG_SELL_CONFIRM, itemData->nameMsg, shop_get_sell_price(playerData->invItems[shop->selectedStoreItemSlot]), -1);
+                ItemData* itemData = &gItemTable[gPlayerData.invItems[shop->selectedStoreItemSlot]];
+                script->functionTemp[1] = shop_owner_buy_dialog(SHOP_MSG_SELL_CONFIRM, itemData->nameMsg, shop_get_sell_price(gPlayerData.invItems[shop->selectedStoreItemSlot]), -1);
                 show_coin_counter();
                 script->functionTemp[0] = DIALOG_STATE_AWAIT_SELL_CONFIRM;
             } else {
@@ -614,8 +608,8 @@ API_CALLABLE(ShowShopOwnerDialog) {
         case DIALOG_STATE_HANDLE_SELL_CHOICE:
             if (script->functionTemp[2] == 1) {
                 if (ShopOwnerPrintState->curOption == 0) {
-                    add_coins(shop_get_sell_price(playerData->invItems[shop->selectedStoreItemSlot]));
-                    playerData->invItems[shop->selectedStoreItemSlot] = ITEM_NONE;
+                    add_coins(shop_get_sell_price(gPlayerData.invItems[shop->selectedStoreItemSlot]));
+                    gPlayerData.invItems[shop->selectedStoreItemSlot] = ITEM_NONE;
                     if (get_consumables_count() == 0) {
                         script->functionTemp[1] = shop_owner_reset_speech(SHOP_MSG_SELL_THANKS);
                         script->functionTemp[0] = DIALOG_STATE_CLOSED_SUBMENU;
@@ -670,8 +664,8 @@ API_CALLABLE(ShowShopOwnerDialog) {
             }
             shop_close_item_select_popup();
             if (shop->selectedStoreItemSlot >= 0) {
-                if (store_item(playerData->invItems[shop->selectedStoreItemSlot]) >= 0) {
-                    playerData->invItems[shop->selectedStoreItemSlot] = ITEM_NONE;
+                if (store_item(gPlayerData.invItems[shop->selectedStoreItemSlot]) >= 0) {
+                    gPlayerData.invItems[shop->selectedStoreItemSlot] = ITEM_NONE;
                 }
 
                 if ((get_consumables_count() == 0) || (get_stored_empty() == 0)) {
@@ -723,8 +717,8 @@ API_CALLABLE(ShowShopOwnerDialog) {
             }
             shop_close_item_select_popup();
             if (shop->selectedStoreItemSlot >= 0) {
-                if (add_item(playerData->storedItems[shop->selectedStoreItemSlot]) >= 0) {
-                    playerData->storedItems[shop->selectedStoreItemSlot] = ITEM_NONE;
+                if (add_item(gPlayerData.storedItems[shop->selectedStoreItemSlot]) >= 0) {
+                    gPlayerData.storedItems[shop->selectedStoreItemSlot] = ITEM_NONE;
                 }
 
                 if (get_consumables_empty() == 0 || get_stored_count() == 0) {

@@ -1323,9 +1323,6 @@ void coin_counter_draw_content(UNK_TYPE arg0, s32 posX, s32 posY) {
 
 void update_coin_counter(void) {
     StatusBar* statusBar = &gStatusBar;
-    PlayerData* playerData = &gPlayerData;
-
-    do {} while (0); // Needed to match
 
     if (statusBar->unk_6D != 0) {
         statusBar->unk_6D--;
@@ -1341,11 +1338,11 @@ void update_coin_counter(void) {
         return;
     }
 
-    if ((statusBar->displayCoins == playerData->coins) && (statusBar->coinCounterHideTime > 30)) {
+    if ((statusBar->displayCoins == gPlayerData.coins) && (statusBar->coinCounterHideTime > 30)) {
         statusBar->coinCounterHideTime = 30;
     }
 
-    if ((statusBar->displayCoins == playerData->coins) || (statusBar->coinCounterHideTime <= 30)) {
+    if ((statusBar->displayCoins == gPlayerData.coins) || (statusBar->coinCounterHideTime <= 30)) {
         statusBar->coinCounterHideTime--;
         if (statusBar->coinCounterHideTime == 0) {
             set_window_update(WINDOW_ID_CURRENCY_COUNTER, (s32)basic_hidden_window_update);
@@ -1354,7 +1351,7 @@ void update_coin_counter(void) {
             D_8010CD12 = TRUE;
             statusBar->iconIndex12 = statusBar->coinCountTimesHID;
             statusBar->iconIndex13 = statusBar->coinCountIconHID;
-            statusBar->displayCoins = playerData->coins;
+            statusBar->displayCoins = gPlayerData.coins;
             if (statusBar->unk_6E > -1) {
                 statusBar->ignoreChanges = statusBar->unk_6E;
                 statusBar->unk_6E = -1;
