@@ -614,6 +614,6 @@ var searchData=
   ['hudworker_611',['hudWorker',['../obk__07__6__phonograph_8c.html#aae3d2ce298bc5325e2d44485ead9e5c3',1,'PhonographData']]],
   ['huffpuffbreath_612',['huffPuffBreath',['../effects_8h.html#a752f95af4df1da5f4f2a64b70d7a305a',1,'EffectData']]],
   ['hurricanechance_613',['hurricaneChance',['../src_2battle_2battle_8h.html#a0e5b2892096df9ea29e35bb41c7e9570',1,'ActorBlueprint']]],
-  ['hurt_614',['hurt',['../src_2battle_2battle_8h.html#aea6c3fc3fdb6ef2c860d15eb7c758833',1,'ActorSounds::hurt'],['../common__structs_8h.html#ac0bb722d28c628d3066cc2264dcc7c87',1,'PartnerAnimations.__unnamed25__::hurt']]],
+  ['hurt_614',['hurt',['../src_2battle_2battle_8h.html#aea6c3fc3fdb6ef2c860d15eb7c758833',1,'ActorSounds::hurt'],['../common__structs_8h.html#ac0bb722d28c628d3066cc2264dcc7c87',1,'PartnerAnimations.__unnamed26__::hurt']]],
   ['hustleturns_615',['hustleTurns',['../structBattleStatus.html#a089949173ac6331110a0cd3451a39cd1',1,'BattleStatus']]]
 ];

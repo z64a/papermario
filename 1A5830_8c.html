@@ -133,8 +133,9 @@ Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:a6abb7cbc41bc223221bd0ee42edfda44" id="r_a6abb7cbc41bc223221bd0ee42edfda44"><td class="memItemLeft" align="right" valign="top">s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6abb7cbc41bc223221bd0ee42edfda44">D_802946E0</a> [] = { 100, 100, 100, 110, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130 }</td></tr>
-<tr class="separator:a6abb7cbc41bc223221bd0ee42edfda44"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab03f9cacdb50b819764e8c7de309a22d" id="r_ab03f9cacdb50b819764e8c7de309a22d"><td class="memItemLeft" align="right" valign="top">s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab03f9cacdb50b819764e8c7de309a22d">StarPointMultiplier</a> []</td></tr>
+<tr class="memdesc:ab03f9cacdb50b819764e8c7de309a22d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Star Point multiplier, indexed by actor count.  <br /></td></tr>
+<tr class="separator:ab03f9cacdb50b819764e8c7de309a22d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="ad189cc002aaeefac87665983b8c537af" name="ad189cc002aaeefac87665983b8c537af"></a>
@@ -151,7 +152,7 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<dl class="bug"><dt><b><a class="el" href="bug.html#_bug000009">Bug</a></b></dt><dd>? repeated paralyze and dizzy infliction </dd></dl>
+<dl class="bug"><dt><b><a class="el" href="bug.html#_bug000007">Bug</a></b></dt><dd>? repeated paralyze and dizzy infliction </dd></dl>
 
 </div>
 </div>
@@ -401,17 +402,25 @@ Variables</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Variable Documentation</h2>
-<a id="a6abb7cbc41bc223221bd0ee42edfda44" name="a6abb7cbc41bc223221bd0ee42edfda44"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6abb7cbc41bc223221bd0ee42edfda44">&#9670;&#160;</a></span>D_802946E0</h2>
+<a id="ab03f9cacdb50b819764e8c7de309a22d" name="ab03f9cacdb50b819764e8c7de309a22d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab03f9cacdb50b819764e8c7de309a22d">&#9670;&#160;</a></span>StarPointMultiplier</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">s32 D_802946E0[] = { 100, 100, 100, 110, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130 }</td>
+          <td class="memname">s32 StarPointMultiplier[]</td>
         </tr>
       </table>
 </div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">= {</div>
+<div class="line">    100, 100, 100,</div>
+<div class="line">    110,</div>
+<div class="line">    130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130,</div>
+<div class="line">}</div>
+</div><!-- fragment -->
+<p>Star Point multiplier, indexed by actor count. </p>
+<p>+10% multiplier for three actors +30% multiplier for four or more actors </p>
 
 </div>
 </div>

@@ -21,7 +21,7 @@ var searchData=
   ['campreset_5fm_18',['CamPreset_M',['../include_2script__api_2battle_8h.html#a3a0ac71cbe51265cb040d5d8f6aa3992',1,'CamPreset_M:&#160;camera.c'],['../camera_8c.html#a3a0ac71cbe51265cb040d5d8f6aa3992',1,'CamPreset_M:&#160;camera.c']]],
   ['campreset_5fn_19',['CamPreset_N',['../include_2script__api_2battle_8h.html#a3f4da55b77ef33038733667bbe1bdfe0',1,'CamPreset_N:&#160;camera.c'],['../camera_8c.html#a3f4da55b77ef33038733667bbe1bdfe0',1,'CamPreset_N:&#160;camera.c']]],
   ['camresetdelay_20',['camResetDelay',['../common__structs_8h.html#aba39ebd0f92fac77eb5beb2106ba1db8',1,'PlayerStatus']]],
-  ['camsettings_21',['camSettings',['../common__structs_8h.html#a8bc32d32153678cb029f36efdc08d333',1,'Collider.__unnamed20__::camSettings'],['../common__structs_8h.html#a8bc32d32153678cb029f36efdc08d333',1,'CollisionData.__unnamed22__::camSettings']]],
+  ['camsettings_21',['camSettings',['../common__structs_8h.html#a8bc32d32153678cb029f36efdc08d333',1,'Collider.__unnamed21__::camSettings'],['../common__structs_8h.html#a8bc32d32153678cb029f36efdc08d333',1,'CollisionData.__unnamed23__::camSettings']]],
   ['canbounce_22',['canBounce',['../effects_8h.html#afc081a9f40ba6f2ad5cd70fbea8aef05',1,'StarFXData']]],
   ['canceloption_23',['cancelOption',['../common__structs_8h.html#ae7d8217e8dadcabee18300880ec752a8',1,'MessagePrintState']]],
   ['canceltargetmenusubstate_24',['cancelTargetMenuSubstate',['../structBattleStatus.html#a65c86033476e6c6b16d45c9f8e87d889',1,'BattleStatus']]],

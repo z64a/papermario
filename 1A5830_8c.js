@@ -10,5 +10,5 @@ var 1A5830_8c =
     [ "has_enchanted_part", "1A5830_8c.html#acf9cddf595bc99151077e39883a51f85", null ],
     [ "play_hit_sound", "1A5830_8c.html#a9536d73efc7b294f3721162a85db1136", null ],
     [ "update_lerp_battle", "1A5830_8c.html#a774e7de18863460275ee821364f6ef1c", null ],
-    [ "D_802946E0", "1A5830_8c.html#a6abb7cbc41bc223221bd0ee42edfda44", null ]
+    [ "StarPointMultiplier", "1A5830_8c.html#ab03f9cacdb50b819764e8c7de309a22d", null ]
 ];

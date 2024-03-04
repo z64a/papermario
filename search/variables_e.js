@@ -26,7 +26,7 @@ var searchData=
   ['nextpart_23',['nextPart',['../common__structs_8h.html#ad62183e7087eabfaa0011f03b51c9c51',1,'ActorPart']]],
   ['nextpartnercommand_24',['NextPartnerCommand',['../partners_8c.html#a4721aaf2dac5b8667b66df362885d57f',1,'partners.c']]],
   ['nextpartnerid_25',['NextPartnerID',['../partners_8c.html#a5910055bc8df18fb6f53d12ab7f8b3b4',1,'partners.c']]],
-  ['nextpos_26',['nextPos',['../common__structs_8h.html#ad599a41c6abf178096c07f3cb3dd38fb',1,'MessageDrawState']]],
+  ['nextpos_26',['nextPos',['../common__structs_8h.html#a9b11e98e6a80443aa1ca6da7dca2f18c',1,'MessageDrawState']]],
   ['nextrng_27',['nextRNG',['../common__structs_8h.html#a7b80d808968ee24c4dbc584cf5681182',1,'GameStatus']]],
   ['nextsibling_28',['nextSibling',['../common__structs_8h.html#a6d9341ed2518ff307edfd8d746bd5dae',1,'Collider::nextSibling'],['../collision_8c.html#a02bf14d45225a43491c3242d2de38c96',1,'HitAssetCollider::nextSibling']]],
   ['nextuniqueid_29',['nextUniqueID',['../structModelAnimator.html#ad4cfc6e1d02c8177cbea8d3abc14349d',1,'ModelAnimator']]],

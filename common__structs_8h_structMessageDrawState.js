@@ -12,7 +12,7 @@ var common__structs_8h_structMessageDrawState =
     [ "framePalette", "common__structs_8h.html#a100165f0a4d2e4744e92f453772ed5c7", null ],
     [ "msgScale", "common__structs_8h.html#a1c61212e16db7027824f20e14cead86d", null ],
     [ "nextCounter", "common__structs_8h.html#af6cf2e0c87fc78a1adfb282c97bb825c", null ],
-    [ "nextPos", "common__structs_8h.html#ad599a41c6abf178096c07f3cb3dd38fb", null ],
+    [ "nextPos", "common__structs_8h.html#a9b11e98e6a80443aa1ca6da7dca2f18c", null ],
     [ "printBuffer", "common__structs_8h.html#a2be316777e5207560ac128be28d65ffb", null ],
     [ "printModeFlags", "common__structs_8h.html#a934eea50e9f4ab761b9249df1d6d8fa5", null ],
     [ "savedColor", "common__structs_8h.html#a65abd4e022746f90179018c64739c5f2", null ],

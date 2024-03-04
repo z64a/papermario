@@ -473,7 +473,7 @@ var common__structs_8h =
       [ "basePos", "common__structs_8h.html#a4fe5fa4151dfc6ce2309455a4d222b93", null ],
       [ "children", "common__structs_8h.html#aa55eedabc5d90f32e817f562deb7cb4c", null ],
       [ "displayList", "common__structs_8h.html#a7466a9414764359300fe68dcc49fb2ef", null ],
-      [ "fcData", "common__structs_8h.html#ac1598d0e6da34297555eca3b4674dd65", null ],
+      [ "fcData", "common__structs_8h.html#a27c326a141eba9433df4f90155746dd5", null ],
       [ "flags", "common__structs_8h.html#a9e1eb3f0081e97dc66bf467277b80cae", null ],
       [ "mtx", "common__structs_8h.html#aea644ae5ca2e705713206f333632d303", null ],
       [ "pos", "common__structs_8h.html#a83c39c00be4b11ea5fe5c5703d389ae1", null ],
@@ -660,7 +660,7 @@ var common__structs_8h =
       [ "framePalette", "common__structs_8h.html#a100165f0a4d2e4744e92f453772ed5c7", null ],
       [ "msgScale", "common__structs_8h.html#a1c61212e16db7027824f20e14cead86d", null ],
       [ "nextCounter", "common__structs_8h.html#af6cf2e0c87fc78a1adfb282c97bb825c", null ],
-      [ "nextPos", "common__structs_8h.html#ad599a41c6abf178096c07f3cb3dd38fb", null ],
+      [ "nextPos", "common__structs_8h.html#a9b11e98e6a80443aa1ca6da7dca2f18c", null ],
       [ "printBuffer", "common__structs_8h.html#a2be316777e5207560ac128be28d65ffb", null ],
       [ "printModeFlags", "common__structs_8h.html#a934eea50e9f4ab761b9249df1d6d8fa5", null ],
       [ "savedColor", "common__structs_8h.html#a65abd4e022746f90179018c64739c5f2", null ],
@@ -1205,7 +1205,7 @@ var common__structs_8h =
       [ "scaleModifier", "common__structs_8h.html#a7e1b06119d87e9779ff04055c81ee89a", null ],
       [ "scalingFactor", "common__structs_8h.html#a59b46326f0705305f7b8b3054c8209f2", null ],
       [ "selectedTargetIndex", "common__structs_8h.html#a4406e5a6419256ac2d6d4c5ed3014127", null ],
-      [ "shadow", "common__structs_8h.html#ad482bc307df4553f242e51e4691339c8", null ],
+      [ "shadow", "common__structs_8h.html#aed8b82f92d6918cef688b811708b15d4", null ],
       [ "shadowScale", "common__structs_8h.html#a398fa5ce92711c2a5e1b48f6e5c20b30", null ],
       [ "size", "common__structs_8h.html#a8f39f6c94b7c2a199d062d3830513be4", null ],
       [ "state", "common__structs_8h.html#a632bbd9b005611d0720e79bce77f506b", null ],
@@ -1778,16 +1778,16 @@ var common__structs_8h =
       [ "Cx", "common__structs_8h.html#ac0b860db238ef44d3675e73159bab154", null ],
       [ "Cz", "common__structs_8h.html#a8d12b8849fcf184f52144a1be05cf9cd", null ]
     ] ],
-    [ "BattleStatus.__unnamed18__", "common__structs_8h.html#unionBattleStatus_8____unnamed18____", [
+    [ "BattleStatus.__unnamed19__", "common__structs_8h.html#unionBattleStatus_8____unnamed19____", [
       [ "varTable", "common__structs_8h.html#a93c302ad376e647b9a09d4610947f97b", null ],
       [ "varTableF", "common__structs_8h.html#a087efa785a677c1d328b5219661c7287", null ],
       [ "varTablePtr", "common__structs_8h.html#a82a27a7127b56d8f89a7d27491636376", null ]
     ] ],
-    [ "Collider.__unnamed20__", "common__structs_8h.html#unionCollider_8____unnamed20____", [
+    [ "Collider.__unnamed21__", "common__structs_8h.html#unionCollider_8____unnamed21____", [
       [ "aabb", "common__structs_8h.html#a5e394281dfac81c1e7dddcaf4d35d1f6", null ],
       [ "camSettings", "common__structs_8h.html#a8bc32d32153678cb029f36efdc08d333", null ]
     ] ],
-    [ "CollisionData.__unnamed22__", "common__structs_8h.html#unionCollisionData_8____unnamed22____", [
+    [ "CollisionData.__unnamed23__", "common__structs_8h.html#unionCollisionData_8____unnamed23____", [
       [ "aabbs", "common__structs_8h.html#a9f7cf42e0dad89e417c4df57fa80ba25", null ],
       [ "camSettings", "common__structs_8h.html#a8bc32d32153678cb029f36efdc08d333", null ]
     ] ],
@@ -1795,7 +1795,7 @@ var common__structs_8h =
       [ "modelID", "common__structs_8h.html#aea7422565234078eebab22ed3b2f57a1", null ],
       [ "vtxList", "common__structs_8h.html#a060e2c038132cee90180f4b7c707815e", null ]
     ] ],
-    [ "PartnerAnimations.__unnamed25__", "common__structs_8h.html#structPartnerAnimations_8____unnamed25____", [
+    [ "PartnerAnimations.__unnamed26__", "common__structs_8h.html#structPartnerAnimations_8____unnamed26____", [
       [ "fall", "common__structs_8h.html#a96f223040672ea79c655dceda08e0830", null ],
       [ "fly", "common__structs_8h.html#aaf17bc3b4a86a96a0f053a7e5f7c18ba", null ],
       [ "hurt", "common__structs_8h.html#ac0bb722d28c628d3066cc2264dcc7c87", null ],
@@ -1806,17 +1806,17 @@ var common__structs_8h =
       [ "talk", "common__structs_8h.html#a64b59718a47cf57a5e4f8443ff43d117", null ],
       [ "walk", "common__structs_8h.html#a46f9631576015f35f527af2bc67351a6", null ]
     ] ],
-    [ "ActorPartMovement.__unnamed27__", "common__structs_8h.html#unionActorPartMovement_8____unnamed27____", [
+    [ "ActorPartMovement.__unnamed28__", "common__structs_8h.html#unionActorPartMovement_8____unnamed28____", [
       [ "varTable", "common__structs_8h.html#a93c302ad376e647b9a09d4610947f97b", null ],
       [ "varTableF", "common__structs_8h.html#a087efa785a677c1d328b5219661c7287", null ],
       [ "varTablePtr", "common__structs_8h.html#a82a27a7127b56d8f89a7d27491636376", null ]
     ] ],
-    [ "ActorState.__unnamed29__", "common__structs_8h.html#unionActorState_8____unnamed29____", [
+    [ "ActorState.__unnamed32__", "common__structs_8h.html#unionActorState_8____unnamed32____", [
       [ "functionTemp", "common__structs_8h.html#a77bcd160e703ae33c22a7fad2694d1b5", null ],
       [ "functionTempF", "common__structs_8h.html#a4e3c02ac7fdb10440d0be1d233d09db9", null ],
       [ "functionTempPtr", "common__structs_8h.html#a14c2bd70a1d2a7759f61b3d08fe0524b", null ]
     ] ],
-    [ "ActorState.__unnamed31__", "common__structs_8h.html#unionActorState_8____unnamed31____", [
+    [ "ActorState.__unnamed34__", "common__structs_8h.html#unionActorState_8____unnamed34____", [
       [ "varTable", "common__structs_8h.html#a93c302ad376e647b9a09d4610947f97b", null ],
       [ "varTableF", "common__structs_8h.html#a087efa785a677c1d328b5219661c7287", null ],
       [ "varTablePtr", "common__structs_8h.html#a82a27a7127b56d8f89a7d27491636376", null ]
