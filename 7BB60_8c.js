@@ -35,10 +35,10 @@ var 7BB60_8c =
     [ "player_handle_floor_collider_type", "7BB60_8c.html#a79545a0fd59d3c9cd111ac7e36a6ad59", null ],
     [ "record_jump_apex", "7BB60_8c.html#a9d6cda1698694b2ff67dec2ad1bbbcc8", null ],
     [ "try_player_footstep_sounds", "7BB60_8c.html#a91ad5f45206b30e59ae1767535a0c465", null ],
-    [ "D_8010C928", "7BB60_8c.html#a8cadb18010ca1a3655a73a3de6cfb81e", null ],
-    [ "D_8010C984", "7BB60_8c.html#a64b8faf03d443c1f98fe7884a253ceb9", null ],
-    [ "gCollisionStatus", "7BB60_8c.html#ab5d17997e9a7d1c6411a9eb4a1dad1d8", null ],
+    [ "D_8010C928", "7BB60_8c.html#abbb4a064f0cc08afce9e99c44f8240bf", null ],
+    [ "D_8010C984", "7BB60_8c.html#a2c1e3cbe62ac2118e3d8643f6961532e", null ],
+    [ "gCollisionStatus", "7BB60_8c.html#a3b311cb0e4230ba3537aa362419ba289", null ],
     [ "GravityParamsStartJump", "7BB60_8c.html#adb3d0901c846edb46875613ee2810112", null ],
-    [ "JumpedOnSwitchX", "7BB60_8c.html#ad5c85247b9cd47e71015219dfe9fd878", null ],
-    [ "JumpedOnSwitchZ", "7BB60_8c.html#ac5bc3d7ff349c538e442c01999c72d4e", null ]
+    [ "JumpedOnSwitchX", "7BB60_8c.html#ad7215f4822cb166e81be9ed398a21146", null ],
+    [ "JumpedOnSwitchZ", "7BB60_8c.html#a2483559910413598d7ddad78f6c8b386", null ]
 ];

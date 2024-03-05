@@ -12,7 +12,7 @@ var worker_8c =
     [ "render_workers_world", "worker_8c.html#a70242b919dcb951c6a347bc5cfe63193", null ],
     [ "update_workers", "worker_8c.html#ad3e1541ad7081343d06319a8d6d1e784", null ],
     [ "worker_delegate_do_nothing", "worker_8c.html#a378a068d92c4f8ddca99455c4ee4d4db", null ],
-    [ "gBattleWorkerList", "worker_8c.html#aa732849b243b0f96f99b95f49a4336cf", null ],
-    [ "gCurrentWorkerListPtr", "worker_8c.html#aee0b6c14f3c6b2ff6491e2b5f0903e40", null ],
-    [ "gWorldWorkerList", "worker_8c.html#acc0b350ea4e10f25ad3d087b7b9374d1", null ]
+    [ "gBattleWorkerList", "worker_8c.html#ad5eb783b41674585b78a142f06acc0e1", null ],
+    [ "gCurrentWorkerListPtr", "worker_8c.html#aba122036e335ec7723622e84a48ff26e", null ],
+    [ "gWorldWorkerList", "worker_8c.html#a966db9d25fbec138e931f1779701f035", null ]
 ];

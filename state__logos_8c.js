@@ -24,8 +24,8 @@ var state__logos_8c =
     [ "D_800778C0", "state__logos_8c.html#a05d56b61c4a5644d7a5853a73a8a8c4e", null ],
     [ "D_800778C8", "state__logos_8c.html#a52952428903c5137e44d1453266d7b7f", null ],
     [ "D_80077908", "state__logos_8c.html#a4ed4019acc37bf9c9ab7b15f38aef0c6", null ],
-    [ "gLogosImage1", "state__logos_8c.html#a75def0596075fe67618825d502116bdd", null ],
-    [ "gLogosImage2", "state__logos_8c.html#ae1be9b0bb7ae43c94aeafab55046288a", null ],
-    [ "gLogosImage3", "state__logos_8c.html#a77fcf265ac8329057bbc47b8d3dab651", null ],
-    [ "gLogosImages", "state__logos_8c.html#ab98af6b0b5e0a7f5ff11bc0afc345e4f", null ]
+    [ "gLogosImage1", "state__logos_8c.html#a244939d0136bb473c27fa5228e471e4a", null ],
+    [ "gLogosImage2", "state__logos_8c.html#a23da8894e9fdc0ba1bad3c1f9e45051f", null ],
+    [ "gLogosImage3", "state__logos_8c.html#a5c0f48cdc4676c45614c586b38acd6a0", null ],
+    [ "gLogosImages", "state__logos_8c.html#a047e0a0de54cf1cf1a15e46e1595f27a", null ]
 ];

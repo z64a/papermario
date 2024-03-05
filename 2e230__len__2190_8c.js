@@ -65,14 +65,14 @@ var 2e230__len__2190_8c =
     [ "snd_load_BGM", "2e230__len__2190_8c.html#aece037c514ba110aad79c22f31752ee7", null ],
     [ "snd_load_BK", "2e230__len__2190_8c.html#a5486056b4b98def30fff940207ce73c4", null ],
     [ "AlTuneScaling", "2e230__len__2190_8c.html#a8f183c6dd0c44ce0b2a787c227c9e2d7", null ],
-    [ "BeginSoundUpdateCallback", "2e230__len__2190_8c.html#a5c699d2295fc36a60dddf0a5ce13cede", null ],
+    [ "BeginSoundUpdateCallback", "2e230__len__2190_8c.html#ab2da387459c298473b5f825c45e831cd", null ],
     [ "D_80078530", "2e230__len__2190_8c.html#adf5d001aff0e097ee9203fcbbe0e8f2a", null ],
     [ "EnvelopePressDefault", "2e230__len__2190_8c.html#a0c70e2b266b98fcd3b425e283cd6a39a", null ],
     [ "EnvelopeReleaseDefault", "2e230__len__2190_8c.html#a0c1589ec27846c05ae2679883fb37995", null ],
-    [ "gAuAmbienceManager", "2e230__len__2190_8c.html#a10586a95b638edf4372fce8482c81d18", null ],
-    [ "gBGMPlayerA", "2e230__len__2190_8c.html#afd27dd1cd06c2b687cfd53e2ef3bc4d5", null ],
-    [ "gBGMPlayerB", "2e230__len__2190_8c.html#ab2a61a68717ca692ca7bd9efdf0d5eef", null ],
-    [ "gBGMPlayerC", "2e230__len__2190_8c.html#a9aeb3f8d4d5dbdb8779b5a7d7f7bb910", null ],
-    [ "gSoundGlobals", "2e230__len__2190_8c.html#a82e366498b60cc2dd92492fe587a5408", null ],
-    [ "gSoundManager", "2e230__len__2190_8c.html#aa099cece2fbad49b11d99779b45fcad6", null ]
+    [ "gAuAmbienceManager", "2e230__len__2190_8c.html#afa1d707f7b4958ac99b9365a5b0ad701", null ],
+    [ "gBGMPlayerA", "2e230__len__2190_8c.html#a955c54fa9f8094f8bd5dd385318cd4dc", null ],
+    [ "gBGMPlayerB", "2e230__len__2190_8c.html#a1a2d2b7958b01632fd973475f7b0a8ab", null ],
+    [ "gBGMPlayerC", "2e230__len__2190_8c.html#aad952ede4caa8acd8a799dc8e7be5cc2", null ],
+    [ "gSoundGlobals", "2e230__len__2190_8c.html#a4762f15682195516b01d3e25d9c1b6fa", null ],
+    [ "gSoundManager", "2e230__len__2190_8c.html#a3cddfe95732f962ccf2cffca372e2a7c", null ]
 ];

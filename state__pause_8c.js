@@ -13,8 +13,8 @@ var state__pause_8c =
     [ "gFrameBuf2", "state__pause_8c.html#a665a07edfcdfda6c65a0434db54b8a5a", null ],
     [ "gMapShapeData", "state__pause_8c.html#a8a2319da0fb5277f5578e4b25fbfca97", null ],
     [ "pause_frameBuffers", "state__pause_8c.html#a1acdc9b50c2c6aaf6055cd336d7eab2a", null ],
-    [ "SavedReverbMode", "state__pause_8c.html#aef032aad3137de5cda0b41ad3c47da1b", null ],
-    [ "StepPauseAlpha", "state__pause_8c.html#a1e60e1588a9dab52de9626fca7b2b052", null ],
-    [ "StepPauseDelay", "state__pause_8c.html#a425b701bf06648db15c51d85b0c42cfc", null ],
-    [ "StepPauseState", "state__pause_8c.html#af2affc3e21b6683da8cdfd571f44da46", null ]
+    [ "SavedReverbMode", "state__pause_8c.html#a8455a0031c7f0826a8b74b60d767105c", null ],
+    [ "StepPauseAlpha", "state__pause_8c.html#aa03e53efeb5007baeaa1f05c34ba8a71", null ],
+    [ "StepPauseDelay", "state__pause_8c.html#a17160300c30dbbc44c53d0153585a2d6", null ],
+    [ "StepPauseState", "state__pause_8c.html#ab4a0789c5c78b28a52f9442958ed77c9", null ]
 ];

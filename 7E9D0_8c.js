@@ -22,13 +22,13 @@ var 7E9D0_8c =
     [ "start_bounce_b", "7E9D0_8c.html#a7963e22a2397f40a5adc341f1e724d16", null ],
     [ "start_falling", "7E9D0_8c.html#a0a76f172d880d93db5c9364c74e5cd4d", null ],
     [ "update_locomotion_state", "7E9D0_8c.html#a257ac4824c74f0b5582a8d6b086522e5", null ],
-    [ "D_8010C924", "7E9D0_8c.html#aa8aeefc982b2e3b674f82ef641f3fddc", null ],
-    [ "D_8010C92C", "7E9D0_8c.html#af0c2b3dcf09eca90b06548a83258d17f", null ],
-    [ "D_8010C964", "7E9D0_8c.html#aa296264dddac3bd33c40063f03eae690", null ],
-    [ "D_8010C9B0", "7E9D0_8c.html#a6d7563328fa38e228f74dee903475f2c", null ],
-    [ "gSpinHistoryBufferPos", "7E9D0_8c.html#a2fda3dd316899ff373d37e0c9234ae8b", null ],
-    [ "gSpinHistoryPosAngle", "7E9D0_8c.html#a5060e68a676ef070979fcd5056173d65", null ],
-    [ "gSpinHistoryPosX", "7E9D0_8c.html#aca71f8f2d1a24d496d0840d5862a5a89", null ],
-    [ "gSpinHistoryPosY", "7E9D0_8c.html#aeebcd8efd78be7f8cdb7850ba85b9865", null ],
-    [ "gSpinHistoryPosZ", "7E9D0_8c.html#aa5b5408ce92e3a3e92415f239ff80788", null ]
+    [ "D_8010C924", "7E9D0_8c.html#a9cd76203653b15a845eee1d521d07037", null ],
+    [ "D_8010C92C", "7E9D0_8c.html#ad2c23dc90199a37bf2136fa815ead68a", null ],
+    [ "D_8010C964", "7E9D0_8c.html#abec5048305974443b0e8875f04bedd4e", null ],
+    [ "D_8010C9B0", "7E9D0_8c.html#adf86fee803be735adecd59c3213997f1", null ],
+    [ "gSpinHistoryBufferPos", "7E9D0_8c.html#aa2dcc91ce4ecc253759ca897065c636e", null ],
+    [ "gSpinHistoryPosAngle", "7E9D0_8c.html#ab30341618ab2c160b2d8ecbfa2e11f9e", null ],
+    [ "gSpinHistoryPosX", "7E9D0_8c.html#a59bf2b27285dec8e2756e6da417eac0d", null ],
+    [ "gSpinHistoryPosY", "7E9D0_8c.html#a26908134537deafe05164427d80bc143", null ],
+    [ "gSpinHistoryPosZ", "7E9D0_8c.html#ae84ce529afe19d1e18471b5288b3e760", null ]
 ];

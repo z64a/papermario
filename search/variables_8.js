@@ -25,7 +25,7 @@ var searchData=
   ['hasextrasection_22',['hasExtraSection',['../audio_8h.html#af63409909f4390c47e996891bcd6b824',1,'SEFHeader']]],
   ['hasmerleecoinbonus_23',['hasMerleeCoinBonus',['../npc_8h.html#a741bdbfef3c0f3c3f522c7a63c8e2095',1,'EncounterStatus']]],
   ['hasplayerinteractprompt_24',['hasPlayerInteractPrompt',['../structTrigger.html#a8686f40c5bbe687e11411bad62d74db9',1,'Trigger::hasPlayerInteractPrompt'],['../structTriggerBlueprint.html#aade1b7ad04932a1309d8f400078353a2',1,'TriggerBlueprint::hasPlayerInteractPrompt']]],
-  ['hasprebattlesongpushed_25',['HasPreBattleSongPushed',['../encounter_8c.html#a5e422b2bbd3ec24e313a658908e8a82e',1,'encounter.c']]],
+  ['hasprebattlesongpushed_25',['HasPreBattleSongPushed',['../main__pre__bss_8c.html#a4df3bb388ab71be3ef5ad2a3b4413958',1,'HasPreBattleSongPushed:&#160;main_pre_bss.c'],['../encounter_8c.html#a4192d66d8900097e36852c3dfc1bffd4',1,'HasPreBattleSongPushed:&#160;encounter.c']]],
   ['hazardtype_26',['hazardType',['../common__structs_8h.html#a745952aecfec46b4e799618c831f7769',1,'PlayerStatus']]],
   ['head_27',['head',['../audio_8h.html#ab11c0ee89c99f6f93b8b767102aa1897',1,'AuFxBus']]],
   ['header_28',['header',['../model_8h.html#ae52af6236042776464161e7846777171',1,'TextureHandle::header'],['../model_8h.html#a39484dc53eef4b4c464f44549a9eb47b',1,'ShapeFile::header']]],
@@ -614,6 +614,6 @@ var searchData=
   ['hudworker_611',['hudWorker',['../obk__07__6__phonograph_8c.html#aae3d2ce298bc5325e2d44485ead9e5c3',1,'PhonographData']]],
   ['huffpuffbreath_612',['huffPuffBreath',['../effects_8h.html#a752f95af4df1da5f4f2a64b70d7a305a',1,'EffectData']]],
   ['hurricanechance_613',['hurricaneChance',['../src_2battle_2battle_8h.html#a0e5b2892096df9ea29e35bb41c7e9570',1,'ActorBlueprint']]],
-  ['hurt_614',['hurt',['../src_2battle_2battle_8h.html#aea6c3fc3fdb6ef2c860d15eb7c758833',1,'ActorSounds::hurt'],['../common__structs_8h.html#ac0bb722d28c628d3066cc2264dcc7c87',1,'PartnerAnimations.__unnamed26__::hurt']]],
+  ['hurt_614',['hurt',['../src_2battle_2battle_8h.html#aea6c3fc3fdb6ef2c860d15eb7c758833',1,'ActorSounds::hurt'],['../common__structs_8h.html#ac0bb722d28c628d3066cc2264dcc7c87',1,'PartnerAnimations.__unnamed25__::hurt']]],
   ['hustleturns_615',['hustleTurns',['../structBattleStatus.html#a089949173ac6331110a0cd3451a39cd1',1,'BattleStatus']]]
 ];

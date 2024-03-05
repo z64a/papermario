@@ -31,6 +31,8 @@ var actions_8c =
     [ "action_update_use_spinning_flower", "actions_8c.html#a36fafb1625cf30dc3a1d76e723502f22", null ],
     [ "action_update_use_tweester", "actions_8c.html#a1e0421f12652196f60bef30c35e63c4f", null ],
     [ "action_update_walk", "actions_8c.html#a84b12684c96aeb1d61005b1f6094143c", null ],
+    [ "remove_consumable", "actions_8c.html#ab5990b086f9c5d9826659abf0daaa4d3", null ],
+    [ "use_consumable", "actions_8c.html#a92cb6bbdfd33443c6cc440758aeb432a", null ],
     [ "BasicPeachDisguiseAnims", "actions_8c.html#a28928147e2fb597e649df0e41577a8e6", null ],
     [ "ClubbaDisguiseExtraAnims", "actions_8c.html#ab7713b17cf59066c7fddb2d1a39238d4", null ],
     [ "D_800F7B44", "actions_8c.html#a590eeea03fa97c1ca6f754d03b27bc8c", null ],
@@ -41,6 +43,7 @@ var actions_8c =
     [ "D_800F7B78", "actions_8c.html#a2e5c7e6fc7c20d059d7b4a8334840c22", null ],
     [ "D_800F7B7C", "actions_8c.html#a441e6380e663b881b0b31fd637946078", null ],
     [ "D_800F7B84", "actions_8c.html#ae10837ec0d50e2f32025fa7c49383c60", null ],
+    [ "D_8010CD20", "actions_8c.html#aa4033974aa764b4565bed6cd90dc671a", null ],
     [ "FootstepSoundSelector", "actions_8c.html#a8e9a14c59b7f37ea5470d943b3d8542e", null ],
     [ "GravityParamsStartFall", "actions_8c.html#a41be23a73f66a5b168d020d06f57cc44", null ],
     [ "GravityParamsStartJump", "actions_8c.html#adb3d0901c846edb46875613ee2810112", null ],
@@ -49,5 +52,6 @@ var actions_8c =
     [ "LastMidairPlayerVelY", "actions_8c.html#ae249b649627309e3cbba6d7f572b9062", null ],
     [ "PeachDisguiseExtraAnims", "actions_8c.html#ab60f94e85fd4cca7cce35575687ceac9", null ],
     [ "PlayerActionsTable", "actions_8c.html#af748fdc0a98bdfc1b128b6e8124577ae", null ],
-    [ "PrevPlayerCamRelativeYaw", "actions_8c.html#a6c3dca64a65648bee3256ca159e6e7c1", null ]
+    [ "PrevPlayerCamRelativeYaw", "actions_8c.html#a6c3dca64a65648bee3256ca159e6e7c1", null ],
+    [ "UseItemDmaArgs", "actions_8c.html#a2573500b314be8713d02ef39e6c29546", null ]
 ];

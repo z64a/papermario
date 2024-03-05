@@ -7,5 +7,5 @@ var searchData=
   ['unkstarspiritsenergy_4',['UnkStarSpiritsEnergy',['../star__spirits__energy_8c.html#structUnkStarSpiritsEnergy',1,'']]],
   ['unkstruct_5',['UnkStruct',['../water__fountain_8c.html#structUnkStruct',1,'']]],
   ['unkvec2s_6',['UnkVec2s',['../smack_8c.html#structUnkVec2s',1,'']]],
-  ['useitemstruct_7',['UseItemStruct',['../partners_8c.html#structUseItemStruct',1,'']]]
+  ['useitemstruct_7',['UseItemStruct',['../common__structs_8h.html#structUseItemStruct',1,'']]]
 ];

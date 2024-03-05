@@ -14,10 +14,10 @@ var cam__main_8c =
     [ "render_models", "cam__main_8c.html#acc2c97dee0d08fa1de86ada019f874f0", null ],
     [ "set_cam_viewport", "cam__main_8c.html#af9ca5fd81dd4d67e80165141c930cc15", null ],
     [ "update_cameras", "cam__main_8c.html#a737cd28a787646872034c761b6935b0a", null ],
-    [ "D_8009A5EC", "cam__main_8c.html#a77d76fd6b2e110613740d93f4c537a1f", null ],
-    [ "gCameras", "cam__main_8c.html#ab39f00776634371fe76e6932b6daf2ca", null ],
-    [ "gCurrentCamID", "cam__main_8c.html#a9e1c422bb99ecfdfe87483abf8ba3ac0", null ],
-    [ "gDisplayContext", "cam__main_8c.html#aef1ee8c75683bb6882a129f633627470", null ],
-    [ "gMainGfxPos", "cam__main_8c.html#aa288c8a843455531120a4411151c9f6c", null ],
-    [ "nuGfxCfb_ptr", "cam__main_8c.html#af761c0e85c4af71eecef8c0e963b2111", null ]
+    [ "D_8009A5EC", "cam__main_8c.html#a1488cd2a0d8fcaad7ed953f1d0c3a368", null ],
+    [ "gCameras", "cam__main_8c.html#a692a5d29c29cf9d2cc0acaf3491a6b34", null ],
+    [ "gCurrentCamID", "cam__main_8c.html#af7d0eafb969e04a28c9434a76ece6f3a", null ],
+    [ "gDisplayContext", "cam__main_8c.html#aee064002e72f9f739186dd7864173bda", null ],
+    [ "gMainGfxPos", "cam__main_8c.html#a6d418be31d2e59e929234198339f00e6", null ],
+    [ "nuGfxCfb_ptr", "cam__main_8c.html#afbfe907b3ddfa5e8f7ae21ed26297746", null ]
 ];

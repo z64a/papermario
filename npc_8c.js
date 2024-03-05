@@ -124,10 +124,6 @@ var npc_8c =
     [ "D_80077C34", "npc_8c.html#a0cba075e9906b9efacfe42e5bbf46d15", null ],
     [ "D_80077C38", "npc_8c.html#aad616d6ba908ebdfa1ea7de14694b851", null ],
     [ "D_80077C3A", "npc_8c.html#afc4c5b3454173fac76d6bfa0df282e81", null ],
-    [ "gBattleNpcList", "npc_8c.html#a7c19ad6a02685e1fcbed295a54629370", null ],
-    [ "gCurrentNpcListPtr", "npc_8c.html#a6de9fcd3a9d582526b4fc59f8a7461d3", null ],
-    [ "gNpcCount", "npc_8c.html#a4ec1f7a472a8b4f9bed47c3a80a5fa73", null ],
-    [ "gNpcPlayerCollisionsEnabled", "npc_8c.html#ab1c9a65d8acbcf7772f528ae98455316", null ],
-    [ "gWorldNpcList", "npc_8c.html#a82e59c62fe5efd5d600dcfd246f2ded4", null ],
+    [ "gNpcCount", "npc_8c.html#aed43c9ab8dd17e21c907b7be8e549c19", null ],
     [ "wWattIdlePalettesAnim", "npc_8c.html#a4999a08630b61ace8d8ccb106e607a81", null ]
 ];

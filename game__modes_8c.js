@@ -3,7 +3,7 @@ var game__modes_8c =
     [ "GameModeIncomplete", "structGameModeIncomplete.html", "structGameModeIncomplete" ],
     [ "get_game_mode", "game__modes_8c.html#a1f7cb16a134dbc2c74aa179165118da0", null ],
     [ "set_game_mode", "game__modes_8c.html#a8cf6a8be40c95a7aec3095acecfb8379", null ],
-    [ "CurGameMode", "game__modes_8c.html#a579026c54586261357fbd71fa6387649", null ],
+    [ "CurGameMode", "game__modes_8c.html#aa27e81d2b19918148d5ec22270ac675c", null ],
     [ "D_80077420", "game__modes_8c.html#a09d258f895e27740e4ac5b262dbc4bed", null ],
     [ "GameModeBattle", "game__modes_8c.html#a8e5eae4caa80012b57e55ecca0565ac0", null ],
     [ "GameModeChangeMap", "game__modes_8c.html#a7cc4e64be180c6751fedea15f3c107ff", null ],

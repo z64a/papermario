@@ -17,6 +17,7 @@ var dir_857dd4ac9b413a9fc388f1a6cd09e9a3 =
     [ "actors.c", "actors_8c.html", "actors_8c" ],
     [ "battle.c", "battle_8c.html", "battle_8c" ],
     [ "battle.h", "src_2battle_2battle_8h.html", "src_2battle_2battle_8h" ],
+    [ "battle_bss.c", "battle__bss_8c.html", "battle__bss_8c" ],
     [ "battle_tables.h", "battle__tables_8h.html", "battle__tables_8h" ],
     [ "btl_states_actions.c", "btl__states__actions_8c.html", "btl__states__actions_8c" ],
     [ "btl_states_menus.c", "btl__states__menus_8c.html", "btl__states__menus_8c" ],

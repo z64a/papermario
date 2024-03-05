@@ -90,6 +90,7 @@ var macros_8h =
     [ "NPC_DISPOSE_POS_Y", "macros_8h.html#a51401880c5d26587ad584458d21abeab", null ],
     [ "NPC_DISPOSE_POS_Z", "macros_8h.html#a0079e926d5838be2588295e03caf7f67", null ],
     [ "NS", "macros_8h.html#ad82ac39e74cfc3ad2a1da4c95a08b663", null ],
+    [ "OSALIGNED", "macros_8h.html#a4ce6d4a2dcd4fc50e128030c581ea028", null ],
     [ "PACK_FILL_COLOR", "macros_8h.html#ac224749dda937d6051259db2763b56e7", null ],
     [ "PACK_FILL_DEPTH", "macros_8h.html#a9ad5df3f6c2a9473282a233788d57ed4", null ],
     [ "PACK_PAL_RGBA", "macros_8h.html#a68249d5ead107690629e7ffee200be3b", null ],

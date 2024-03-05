@@ -11,13 +11,13 @@ var state__intro_8c =
     [ "state_drawUI_intro", "state__intro_8c.html#affd108c409b8fed4f345d2cf5e300d34", null ],
     [ "state_init_intro", "state__intro_8c.html#a5e4ba4a407dd236172e2a912361f50a4", null ],
     [ "state_step_intro", "state__intro_8c.html#a8eccae958b97dcbc7f08a58d40a21f35", null ],
-    [ "D_800A0964", "state__intro_8c.html#a36e86cd2fd0a4613abd7afd026d2cc31", null ],
-    [ "IntroEnableDrawFrameDelay", "state__intro_8c.html#ad6ee2a67dcb705167241055bc6519f2d", null ],
-    [ "IntroFadeColorB", "state__intro_8c.html#a73a62a61fe0ca6b47213dbf6356ec479", null ],
-    [ "IntroFadeColorG", "state__intro_8c.html#ae0dab034ec560c66cb0f871fe5619ed2", null ],
-    [ "IntroFadeColorR", "state__intro_8c.html#abcde151a5b08362f9c2f8e11f137f59b", null ],
-    [ "IntroFrontFadeAlpha", "state__intro_8c.html#aa6376b655ae0eaa91bcb3a8ef806d8bb", null ],
-    [ "IntroOverlayAlpha", "state__intro_8c.html#ae03712776ab0fffed78f56a10a4ce236", null ],
-    [ "IntroOverlayDelta", "state__intro_8c.html#a381a8cab877b11a6705115faec63076f", null ],
-    [ "IntroOverlayType", "state__intro_8c.html#a3e48389b0c2457a11e843a22397856e2", null ]
+    [ "D_800A0964", "state__intro_8c.html#ac1ac35b7d46ea053084c8925d2978e8d", null ],
+    [ "IntroEnableDrawFrameDelay", "state__intro_8c.html#a2c29b9f39236689a3f649aad670a38a7", null ],
+    [ "IntroFadeColorB", "state__intro_8c.html#a0c71bfef5d92c30e24185103e00e22af", null ],
+    [ "IntroFadeColorG", "state__intro_8c.html#a2ede031f8df2a60ad2ce56c2d7770e81", null ],
+    [ "IntroFadeColorR", "state__intro_8c.html#a72579241ea31b9a176abb59fcf16464d", null ],
+    [ "IntroFrontFadeAlpha", "state__intro_8c.html#ae4fdf0a70af727f17acffa81b21d4b8e", null ],
+    [ "IntroOverlayAlpha", "state__intro_8c.html#a545b98199da58d4b24d20c2e6ceb23d2", null ],
+    [ "IntroOverlayDelta", "state__intro_8c.html#a2d8f30e8674a44c4030e5fe10f6f885d", null ],
+    [ "IntroOverlayType", "state__intro_8c.html#a9ceca353b93a9292f8a819d096f0acf3", null ]
 ];

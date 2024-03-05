@@ -13,5 +13,6 @@ var game__states_8c =
     [ "state_render_backUI", "game__states_8c.html#a63befbbef820f89aff82b5f79ed37718", null ],
     [ "state_render_frontUI", "game__states_8c.html#a1d7111d66ba9faff37729f02a464ea48", null ],
     [ "step_current_game_mode", "game__states_8c.html#ad0e8db460dd3f6f029863e9e7a27d04c", null ],
-    [ "gMainGameMode", "game__states_8c.html#ab6d79c467ae7feccedba1961309ddb2a", null ]
+    [ "D_80151730", "game__states_8c.html#ad8621cdedfb875ce31f265bf981983aa", null ],
+    [ "gMainGameMode", "game__states_8c.html#ab227e2ef035ace937d6ae572901035b7", null ]
 ];

@@ -32,15 +32,15 @@ var screen__overlays_8c =
     [ "D_8014E8F0", "screen__overlays_8c.html#a0c349bf9cce51da0609581a186a83664", null ],
     [ "D_8014E9A8", "screen__overlays_8c.html#ab059d449937732bd8cd497e136f52a6d", null ],
     [ "D_8014EA48", "screen__overlays_8c.html#a3bf02d880804b1c7944f0f83d43835ad", null ],
-    [ "D_80156910", "screen__overlays_8c.html#acb8471a31b932a561553060ef557f83f", null ],
+    [ "D_80156910", "screen__overlays_8c.html#a1ee041fa100cdb2d2b08f2f119f0d814", null ],
     [ "Gfx_LoadStencilTex_BlurryCircle", "screen__overlays_8c.html#a50bb193071e8ab91f46abbe345374a63", null ],
     [ "Gfx_LoadStencilTex_CommonParams", "screen__overlays_8c.html#a548ca4b263261d51078437e5dcf46549", null ],
     [ "Gfx_LoadStencilTex_Mario", "screen__overlays_8c.html#ab1b811c4c32057df07e4fcc877aa3d6b", null ],
     [ "Gfx_LoadStencilTex_SharpCircle", "screen__overlays_8c.html#a5f254383db7abc63f34107d08710676d", null ],
     [ "Gfx_LoadStencilTex_Star", "screen__overlays_8c.html#a4d72cca412dfa68a358387f0ca8e8ee7", null ],
-    [ "screen_overlay_backType", "screen__overlays_8c.html#a8b19716408362b63dcf4a0ea6f126693", null ],
-    [ "screen_overlay_backZoom", "screen__overlays_8c.html#ac9d3f69965d73f8647cbf282a65f3620", null ],
-    [ "screen_overlay_frontType", "screen__overlays_8c.html#a646c70793854be54ed6dd6eb457d1f18", null ],
-    [ "screen_overlay_frontZoom", "screen__overlays_8c.html#a99337a7d313576ef854328d376170ee3", null ],
-    [ "ScreenOverlays", "screen__overlays_8c.html#abbe45dd2c3c8d7f7db5926091d36c3db", null ]
+    [ "screen_overlay_backType", "screen__overlays_8c.html#aab90911fa76ba12d063c48c20000d2e4", null ],
+    [ "screen_overlay_backZoom", "screen__overlays_8c.html#ace2a95d2938bd43797c4b73107ced885", null ],
+    [ "screen_overlay_frontType", "screen__overlays_8c.html#a0da4ecaf74631ff85a6a5784534441d2", null ],
+    [ "screen_overlay_frontZoom", "screen__overlays_8c.html#a3ac3ee155e0fb368f333d88a63fac1cc", null ],
+    [ "ScreenOverlays", "screen__overlays_8c.html#af1a2fc7bf71dda86b6b1c50f4b1d0c2a", null ]
 ];

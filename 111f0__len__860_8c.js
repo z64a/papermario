@@ -30,9 +30,9 @@ var 111f0__len__860_8c =
     [ "state_step_change_map", "111f0__len__860_8c.html#a343259f226370f7b99d8b39fdfb5498a", null ],
     [ "state_step_enter_world", "111f0__len__860_8c.html#a7dd7dea120d8c87e6809f0a57fee95bd", null ],
     [ "state_step_game_over", "111f0__len__860_8c.html#a9e56882a9f8a2d00af65546f8c45f856", null ],
-    [ "gLoadedFromFileSelect", "111f0__len__860_8c.html#a3d6cb771fae490ca4091a802207c0336", null ],
-    [ "gMapTransitionAlpha", "111f0__len__860_8c.html#ad74f523b2d42890e9c2e5ace7b70f01d", null ],
-    [ "gMapTransitionFadeRate", "111f0__len__860_8c.html#af2e3d7801233479eade2846f934aef96", null ],
-    [ "gMapTransitionState", "111f0__len__860_8c.html#a8bd6904d0b8f5f8eac3abc2a13370d5c", null ],
-    [ "gMapTransitionStateTime", "111f0__len__860_8c.html#ac74117f56a6692f13752ff83fa81c737", null ]
+    [ "gLoadedFromFileSelect", "111f0__len__860_8c.html#a80a69844503c2fbd05c895dcc4eed894", null ],
+    [ "gMapTransitionAlpha", "111f0__len__860_8c.html#a2e9ed1f4790306fe740a533d9e2e9c5a", null ],
+    [ "gMapTransitionFadeRate", "111f0__len__860_8c.html#a0aeef3c9ea5ec8b53d6103de1e3ed45d", null ],
+    [ "gMapTransitionState", "111f0__len__860_8c.html#a11d29fe5d5f4feefdcb3860f54863350", null ],
+    [ "gMapTransitionStateTime", "111f0__len__860_8c.html#a20b84c7621b697bf8a727a361398cdff", null ]
 ];

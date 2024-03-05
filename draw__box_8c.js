@@ -26,7 +26,7 @@ var draw__box_8c =
     [ "gBoxCorners", "draw__box_8c.html#a58dba7d00c055298e71e73f2b608cc22", null ],
     [ "gBoxDefaultStyles", "draw__box_8c.html#a0348e152c5e1aafef88084acd74463d9", null ],
     [ "gBoxMatrix", "draw__box_8c.html#a0a550f712b8380e169cc5648d2ebac2a", null ],
-    [ "gBoxQuadBuffer", "draw__box_8c.html#aa4e505997edaf92cc2832c98bed95aef", null ],
+    [ "gBoxQuadBuffer", "draw__box_8c.html#a3dfb046f67d85261afdfdf62806deb7d", null ],
     [ "gBoxQuadIndex", "draw__box_8c.html#ab4727484416ca16f7c390583ad1d57d5", null ],
     [ "gBoxViewport", "draw__box_8c.html#a8f51af9e962dc45849c0f7af30ccada6", null ]
 ];

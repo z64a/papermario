@@ -9,8 +9,8 @@ var trigger_8c =
     [ "is_another_trigger_bound", "trigger_8c.html#a80e7dea6dc848a7d5342f6c7ffa54327", null ],
     [ "should_collider_allow_interact", "trigger_8c.html#a0921a20564391895418608e1571e4ac3", null ],
     [ "update_triggers", "trigger_8c.html#a78714ea446199073d2b87c0415d941f3", null ],
-    [ "bTriggerList", "trigger_8c.html#aa32e0e604fd94c4fe9947c55cd0fcf57", null ],
-    [ "gCurrentTriggerListPtr", "trigger_8c.html#af36bc0b5960dd867bbd9ea4008a7cf17", null ],
-    [ "gTriggerCount", "trigger_8c.html#acce71edaf3846fc98a5f4af2a1a5294b", null ],
-    [ "wTriggerList", "trigger_8c.html#a52989780683f333e804cc898c42092f5", null ]
+    [ "bTriggerList", "trigger_8c.html#a45223a9a33c220a92d2d7a898ad39ddd", null ],
+    [ "gCurrentTriggerListPtr", "trigger_8c.html#a229187d4a3c40abad0ad17c27952d373", null ],
+    [ "gTriggerCount", "trigger_8c.html#ab78e16cf36afd60c3e291d7a838b11e8", null ],
+    [ "wTriggerList", "trigger_8c.html#a868865eab32b8810c8496bfb84bf6b41", null ]
 ];

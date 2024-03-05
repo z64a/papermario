@@ -15,10 +15,10 @@ var npc__collision_8c =
     [ "npc_test_move_with_slipping", "npc__collision_8c.html#a64097ba61562673cf644baa96068e78d", null ],
     [ "npc_test_move_without_slipping", "npc__collision_8c.html#a408c6b4e3a9b5bddedf739ca918becd6", null ],
     [ "gPlayerStatusPtr", "npc__collision_8c.html#a268adb60d85efacc1f9ac8084b57cb39", null ],
-    [ "NpcHitQueryAheadCollider", "npc__collision_8c.html#accf87896276fed6a3484d39088c71249", null ],
-    [ "NpcHitQueryAheadY", "npc__collision_8c.html#a76ba139eca6b42ff6c9742bcfeb21644", null ],
-    [ "NpcHitQueryBehindCollider", "npc__collision_8c.html#a9d3401ffb8c20bcf6bcab5fae42203d7", null ],
-    [ "NpcHitQueryBehindLeftY", "npc__collision_8c.html#a8293c1f08fecaf5c325a227d945a17cb", null ],
-    [ "NpcHitQueryBehindRightY", "npc__collision_8c.html#a0cf5bc7d077d5f5293a2a83b87b602b8", null ],
-    [ "NpcHitQueryColliderID", "npc__collision_8c.html#af844afce69e22be31c6ce489826bacda", null ]
+    [ "NpcHitQueryAheadCollider", "npc__collision_8c.html#a51f8c5047bdaa5a5ad2cf6ba5ccd2e79", null ],
+    [ "NpcHitQueryAheadY", "npc__collision_8c.html#a86d2e7cea20d65c9e7b9a80a91e2a629", null ],
+    [ "NpcHitQueryBehindCollider", "npc__collision_8c.html#a8b59d046cfc0da79260433a8b1183dd8", null ],
+    [ "NpcHitQueryBehindLeftY", "npc__collision_8c.html#a170e7bf33629ccb629814694e0e133ca", null ],
+    [ "NpcHitQueryBehindRightY", "npc__collision_8c.html#a4c56129c7bed5c3567582f68baf15e09", null ],
+    [ "NpcHitQueryColliderID", "npc__collision_8c.html#a4a734c4b826755f39489f6e1b9f1bda0", null ]
 ];

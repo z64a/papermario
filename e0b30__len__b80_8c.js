@@ -24,11 +24,11 @@ var e0b30__len__b80_8c =
     [ "func_8014AD40", "e0b30__len__b80_8c.html#a2c6da25ca66e7aa75176872d5c8588f2", null ],
     [ "func_8014AFA0", "e0b30__len__b80_8c.html#a247c6ac069f8ed86c8fe72a0cf010505", null ],
     [ "BlankMusicSettings", "e0b30__len__b80_8c.html#aaa93b265714215af0589d5b02d84c076", null ],
-    [ "gMusicSettings", "e0b30__len__b80_8c.html#a135edc70125e272099ed3c72c9c089b6", null ],
-    [ "MusicCurrentVolume", "e0b30__len__b80_8c.html#a3ef4335980bb129a5f9c04ad9b57e275", null ],
-    [ "MusicDefaultVolume", "e0b30__len__b80_8c.html#a42fbb0cfc173c0b1f560fab36bf80bde", null ],
-    [ "MusicMaxVolume", "e0b30__len__b80_8c.html#afa49cff2a4227cd6410b24382d9ef408", null ],
-    [ "MusicTargetVolume", "e0b30__len__b80_8c.html#a636762f7746ea68173decaf71764d2d9", null ],
+    [ "gMusicSettings", "e0b30__len__b80_8c.html#a04f9948a0251b485c7e4faade4392e05", null ],
+    [ "MusicCurrentVolume", "e0b30__len__b80_8c.html#a8b583a33609ab0a7a4544d1b4b77fcc6", null ],
+    [ "MusicDefaultVolume", "e0b30__len__b80_8c.html#ac67c988afd8e7d64475cb5015732bbe8", null ],
+    [ "MusicMaxVolume", "e0b30__len__b80_8c.html#a464dff157b66e6513af4c6a204979320", null ],
+    [ "MusicTargetVolume", "e0b30__len__b80_8c.html#adcb14b49a27a79f73fba4bb5ebb77d82", null ],
     [ "NextVolumeUpdateTimer", "e0b30__len__b80_8c.html#a3b80b960914810d0a1e4a89fe85cd9ac", null ],
     [ "SongsUsingVariationFlag", "e0b30__len__b80_8c.html#a304ff416e38398f9737dc072a6439dc8", null ]
 ];

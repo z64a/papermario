@@ -11,10 +11,10 @@ var cam__mode__zone__interp_8c =
     [ "test_ray_zone_aabb", "cam__mode__zone__interp_8c.html#ab67a30ec055c3d384f11b13bef641697", null ],
     [ "update_camera_from_controller", "cam__mode__zone__interp_8c.html#a5ac3c977f30888d7b1659ef5d451196d", null ],
     [ "update_camera_zone_interp", "cam__mode__zone__interp_8c.html#a534ffa2a24045b0a08a4bf0cfdcf6a03", null ],
-    [ "D_800A08DC", "cam__mode__zone__interp_8c.html#ae33f9d79583f0883d180672cf72c8ae5", null ],
-    [ "D_800A08E0", "cam__mode__zone__interp_8c.html#a5bb6af774693608ae53c92f4e837ada9", null ],
-    [ "D_800A08E4", "cam__mode__zone__interp_8c.html#ac5d7e1febc047321cb0f134f0ec729ac", null ],
-    [ "D_800A08E8", "cam__mode__zone__interp_8c.html#ada02782e9c18638854844cd5d6b50482", null ],
-    [ "D_800A08EC", "cam__mode__zone__interp_8c.html#a8efbb21cc5a7109830ea76f7a130e74a", null ],
-    [ "gCurrentCamConfiguration", "cam__mode__zone__interp_8c.html#a2a7e56f0d503b66a058760127e30929b", null ]
+    [ "D_800A08DC", "cam__mode__zone__interp_8c.html#a100e4c62e3ecba6afb758ad7edcd2458", null ],
+    [ "D_800A08E0", "cam__mode__zone__interp_8c.html#a7fe03e2a224c5b1a8462f384c6cdd306", null ],
+    [ "D_800A08E4", "cam__mode__zone__interp_8c.html#a8feb0ac8ec2ca4ed8a981d8d57e16285", null ],
+    [ "D_800A08E8", "cam__mode__zone__interp_8c.html#aa0554d980e608183b2f4fb4d70f1ce6e", null ],
+    [ "D_800A08EC", "cam__mode__zone__interp_8c.html#a37b3611aac99b42c87a6207bf927f3d3", null ],
+    [ "gCurrentCamConfiguration", "cam__mode__zone__interp_8c.html#abf117fc107c6e55efec82eddf679a0ee", null ]
 ];

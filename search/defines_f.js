@@ -8,6 +8,7 @@ var searchData=
   ['offset_5f3_5fy_5',['OFFSET_3_Y',['../pause__badges_8c.html#a43541392e82e61fd3cd0b5ce75abdfc0',1,'pause_badges.c']]],
   ['offset_5fwidth_6',['OFFSET_WIDTH',['../filemenu__main_8c.html#a3d90d23e4148800e4482f014d1744ba8',1,'filemenu_main.c']]],
   ['opcode_7',['OPCODE',['../mips_8h.html#ad53d337feac7203106555f2b6af076de',1,'mips.h']]],
-  ['output_5fparam_8',['OUTPUT_PARAM',['../reverb_8c.html#a71739774c2764266830b4958c3ca1496',1,'reverb.c']]],
-  ['override_5fmovement_5fspeed_9',['OVERRIDE_MOVEMENT_SPEED',['../npc_8h.html#a7cfcc617458312fb7daa9a0eca0efcc0',1,'npc.h']]]
+  ['osaligned_8',['OSALIGNED',['../macros_8h.html#a4ce6d4a2dcd4fc50e128030c581ea028',1,'macros.h']]],
+  ['output_5fparam_9',['OUTPUT_PARAM',['../reverb_8c.html#a71739774c2764266830b4958c3ca1496',1,'reverb.c']]],
+  ['override_5fmovement_5fspeed_10',['OVERRIDE_MOVEMENT_SPEED',['../npc_8h.html#a7cfcc617458312fb7daa9a0eca0efcc0',1,'npc.h']]]
 ];

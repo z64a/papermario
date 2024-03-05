@@ -261,7 +261,6 @@ var npc_8h =
       [ "unk_18", "npc_8h.html#a3f065be6f3200660388f0a479a00f168", null ],
       [ "unk_22", "npc_8h.html#ac774d716505544b93ef078120c06e731", null ],
       [ "unk_94", "npc_8h.html#a4b2d4c6179ff8b4bac37ba2b5311b7a3", null ],
-      [ "unk_FB4", "npc_8h.html#a5c542a5a71cfeba560acb5c033d56c86", null ],
       [ "unusedAttack1", "npc_8h.html#a3d0efa34e578dd43039dfa5a40c8b22e", null ],
       [ "unusedAttack2", "npc_8h.html#ac1a922edeb7900c84bcdfd3a055d4ae5", null ],
       [ "unusedAttack3", "npc_8h.html#a39bfbd1eb7ee859d6502f0c8b0620c65", null ]

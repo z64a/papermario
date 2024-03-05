@@ -35,6 +35,6 @@ var windows_8c =
     [ "gWindowDisappearFlags", "windows_8c.html#af6dfbfd6b6d3f3e3371d4aea0a77c799", null ],
     [ "gWindowDisappearScales", "windows_8c.html#a9333ab584aea8d2171f8f0dabe4aa27b", null ],
     [ "gWindowGroups", "windows_8c.html#afce171d970fc7d709b1cf0b53dc1dac6", null ],
-    [ "gWindows", "windows_8c.html#a54e2ca0adae7c8284c9e133f93322a42", null ],
+    [ "gWindows", "windows_8c.html#ae8d06554782599f49c03a17178ea2723", null ],
     [ "gWindowStyles", "windows_8c.html#a44c54e70bc73c9458dc8c49891bc0ae2", null ]
 ];

@@ -24,11 +24,11 @@ var fio_8c =
     [ "fio_write_flash", "fio_8c.html#a997522fabbdaff24aff61789f12f8d2d", null ],
     [ "func_8002B608", "fio_8c.html#aefaa17ac7c1c61edfbe98d5cba701d44", null ],
     [ "get_spirits_rescued", "fio_8c.html#a5414adea0fed6b7ad0d49929f3c0a8c0", null ],
-    [ "FetchSaveBuffer", "fio_8c.html#a4d49a30908421d7471bc8abdbda5102f", null ],
-    [ "gCurrentSaveFile", "fio_8c.html#a583d80baef9073235a28801cc212c1f0", null ],
-    [ "gSaveGlobals", "fio_8c.html#af1a561efbe06c3f66edf3a755aed4908", null ],
-    [ "LogicalSaveInfo", "fio_8c.html#a1b91d4f3c14669fe7f7b77ffcdc1bd45", null ],
+    [ "FetchSaveBuffer", "fio_8c.html#a0a6a64e09cc31ae62cc5745d2aad9706", null ],
+    [ "gCurrentSaveFile", "fio_8c.html#a80a5567ec29ebb86591b56ac0469c68e", null ],
+    [ "gSaveGlobals", "fio_8c.html#ab071c4a70cdd2c65473bb49036b871a0", null ],
+    [ "LogicalSaveInfo", "fio_8c.html#a0b457031f104e28cfc2382b8da4ef95b", null ],
     [ "MagicSaveString", "fio_8c.html#af6e38d29836854c7f8a4c1c20457e3b8", null ],
-    [ "NextAvailablePhysicalSave", "fio_8c.html#a645cffff5ecca23507f9a4d77cef8d07", null ],
-    [ "PhysicalSaveInfo", "fio_8c.html#a22c8c39f4bc0a6c6a91b9e992c108e8a", null ]
+    [ "NextAvailablePhysicalSave", "fio_8c.html#a9b2f8d6b59165604c8747e13d9308334", null ],
+    [ "PhysicalSaveInfo", "fio_8c.html#ae99a696c80546cba304a598f8dfa802a", null ]
 ];
