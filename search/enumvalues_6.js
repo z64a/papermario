@@ -1685,7 +1685,7 @@ var searchData=
   ['gf_5ftik03_5fitemblock_5fcoina_1682',['GF_TIK03_ItemBlock_CoinA',['../saved__flag__names_8h.html#a48154bdb188bc2b8719c12078c16a0daaf3e8387c805e34af153aee269fb44b0f',1,'saved_flag_names.h']]],
   ['gf_5ftik03_5fitemblock_5fcoinb_1683',['GF_TIK03_ItemBlock_CoinB',['../saved__flag__names_8h.html#a48154bdb188bc2b8719c12078c16a0daa30819e7d2c47ebc63701911dfc39e786',1,'saved_flag_names.h']]],
   ['gf_5ftik03_5fitemblock_5fsnowmandoll_1684',['GF_TIK03_ItemBlock_SnowmanDoll',['../saved__flag__names_8h.html#a48154bdb188bc2b8719c12078c16a0daa36f9338b3c7a039178bce6979bde193f',1,'saved_flag_names.h']]],
-  ['gf_5ftik05_5fchest_5fpowersmash1_1685',['GF_TIK05_Chest_PowerSmash1',['../saved__flag__names_8h.html#a48154bdb188bc2b8719c12078c16a0daa9c2d3ecd9ddbb4089c3a155f78befa45',1,'saved_flag_names.h']]],
+  ['gf_5ftik05_5fchest_5fpowersmash_1685',['GF_TIK05_Chest_PowerSmash',['../saved__flag__names_8h.html#a48154bdb188bc2b8719c12078c16a0daaa84bff1082fd1a13bf58de6e64c9c7b4',1,'saved_flag_names.h']]],
   ['gf_5ftik05_5fspringbrick_1686',['GF_TIK05_SpringBrick',['../saved__flag__names_8h.html#a48154bdb188bc2b8719c12078c16a0daad74613f2c8eb8c16831e7aa51c3d9a8d',1,'saved_flag_names.h']]],
   ['gf_5ftik07_5fitem_5fstarpiece_1687',['GF_TIK07_Item_StarPiece',['../saved__flag__names_8h.html#a48154bdb188bc2b8719c12078c16a0daa2e357c1374ec89306fc6f3ba7b57b085',1,'saved_flag_names.h']]],
   ['gf_5ftik07_5fsuperblock_1688',['GF_TIK07_SuperBlock',['../saved__flag__names_8h.html#a48154bdb188bc2b8719c12078c16a0daaedb88c3266de93a6b9137cc87a6a70be',1,'saved_flag_names.h']]],
@@ -2605,5 +2605,5 @@ var searchData=
   ['glow_5fpal_5fon_2602',['GLOW_PAL_ON',['../enums_8h.html#a281d0ba7db4634740e33d7dbbec358aba688ad0e6c415c11666b609f55903511f',1,'enums.h']]],
   ['group_5ftype_5f0_2603',['GROUP_TYPE_0',['../model_8h.html#aff78a660ea8bf636cfbdf5d248b72345a9842db07b339d0539b721c5d74a9117c',1,'model.h']]],
   ['group_5ftype_5f1_2604',['GROUP_TYPE_1',['../model_8h.html#aff78a660ea8bf636cfbdf5d248b72345a12a5b50282c880605e4c9c1372249818',1,'model.h']]],
-  ['gv_5f01_5fentry_5f0_2605',['gv_01_ENTRY_0',['../entrances_8h.html#ae824509f5c662ce94430829b0776350da9618437646ff168ec595751e423a21ad',1,'entrances.h']]]
+  ['gv_5f01_5fentry_5f0_2605',['gv_01_ENTRY_0',['../entrances_8h.html#a1aeb713b8bfaf9723c9c06f55bf2d53ba9618437646ff168ec595751e423a21ad',1,'entrances.h']]]
 ];

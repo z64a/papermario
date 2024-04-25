@@ -16,7 +16,7 @@ var searchData=
   ['battlemessages_13',['BattleMessages',['../enums_8h.html#a3436bb0d49a9e7bd1bfe686ce5215825',1,'enums.h']]],
   ['battlemessagestates_14',['BattleMessageStates',['../enums_8h.html#a1149dc0f8095f4e5a091c7cdaaaca098',1,'enums.h']]],
   ['battlemovesubmenustates_15',['BattleMoveSubmenuStates',['../enums_8h.html#a773dec5c7917d69ff3da01a0e167f973',1,'enums.h']]],
-  ['battlenames_16',['BattleNames',['../formation__names_8h.html#a988694304a6f979857a006d5f320b409',1,'formation_names.h']]],
+  ['battlenames_16',['BattleNames',['../battle__names_8h.html#a988694304a6f979857a006d5f320b409',1,'battle_names.h']]],
   ['battlepartnermenusubstates_17',['BattlePartnerMenuSubstates',['../enums_8h.html#a9cb0769a9d634652917a51175ee10734',1,'enums.h']]],
   ['battleplayermenusubstates_18',['BattlePlayerMenuSubstates',['../enums_8h.html#af74ae91ba8875ffe80a4adf4537613d9',1,'enums.h']]],
   ['battlepositions_19',['BattlePositions',['../src_2battle_2battle_8h.html#ab31fd78252fe5486b93f057e860d84ca',1,'battle.h']]],

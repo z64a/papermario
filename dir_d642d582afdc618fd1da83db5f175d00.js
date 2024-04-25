@@ -1,9 +1,9 @@
 var dir_d642d582afdc618fd1da83db5f175d00 =
 [
+    [ "bombable.c", "area__obk_2obk__06_2bombable_8c.html", null ],
+    [ "entity.c", "world_2area__obk_2obk__06_2entity_8c.html", null ],
+    [ "main.c", "world_2area__obk_2obk__06_2main_8c.html", null ],
+    [ "music.c", "area__obk_2obk__06_2music_8c.html", null ],
     [ "obk_06.h", "obk__06_8h.html", "obk__06_8h" ],
-    [ "obk_06_0_header.c", "obk__06__0__header_8c.html", null ],
-    [ "obk_06_1_music.c", "obk__06__1__music_8c.html", null ],
-    [ "obk_06_2_main.c", "obk__06__2__main_8c.html", null ],
-    [ "obk_06_3_bombable.c", "obk__06__3__bombable_8c.html", null ],
-    [ "obk_06_4_entity.c", "obk__06__4__entity_8c.html", null ]
+    [ "settings.c", "area__obk_2obk__06_2settings_8c.html", null ]
 ];

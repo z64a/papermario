@@ -2426,7 +2426,9 @@ var effects_8h =
     [ "MAX_QUIZMO_AUDIENCE", "effects_8h.html#ac726e75ac298dd9d89b6c0920333becc", null ],
     [ "MAX_WHIRLWIND_SEGMENTS", "effects_8h.html#ac9d67b7fb7a294d3cca377e115e00787", null ],
     [ "NUM_WATER_BLOCK_COMPONENTS", "effects_8h.html#ae26a58ad83da253796e63e437ce64c1e", null ],
+    [ "ROCKET_BUF_SIZE", "effects_8h.html#ab30ddc8b3c4e347cf9aac7498f2c732f", null ],
     [ "TUBBA_MINI_HEART_COUNT", "effects_8h.html#aa33d1001c94224cc53524aa4341cf1d3", null ],
+    [ "UNK_ARRAY_SIZE_1", "effects_8h.html#a0f9e800b47ead36fec5e48bfe71cbdb5", null ],
     [ "AuraFXTypes", "effects_8h.html#a77cb0b825fb2e02fb8cb9082d8f0663a", [
       [ "FX_AURA_CAPTURE", "effects_8h.html#a77cb0b825fb2e02fb8cb9082d8f0663aa4e5564bc9082f018c5f48eb170ebc64d", null ],
       [ "FX_AURA_RED", "effects_8h.html#a77cb0b825fb2e02fb8cb9082d8f0663aa26633967e874407457880dcb716954ed", null ],

@@ -1,8 +1,8 @@
 var dir_76e2fd7c7eb8c1ca08d06c9562d446c9 =
 [
-    [ "trd_01.h", "trd__01_8h.html", "trd__01_8h" ],
-    [ "trd_01_0_header.c", "trd__01__0__header_8c.html", null ],
-    [ "trd_01_1_main.c", "trd__01__1__main_8c.html", null ],
-    [ "trd_01_2_entity.c", "trd__01__2__entity_8c.html", null ],
-    [ "trd_01_3_npc.c", "trd__01__3__npc_8c.html", "trd__01__3__npc_8c" ]
+    [ "entity.c", "world_2area__trd_2trd__01_2entity_8c.html", null ],
+    [ "main.c", "world_2area__trd_2trd__01_2main_8c.html", null ],
+    [ "npc.c", "world_2area__trd_2trd__01_2npc_8c.html", "world_2area__trd_2trd__01_2npc_8c" ],
+    [ "settings.c", "area__trd_2trd__01_2settings_8c.html", null ],
+    [ "trd_01.h", "trd__01_8h.html", "trd__01_8h" ]
 ];

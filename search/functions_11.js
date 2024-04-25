@@ -98,7 +98,7 @@ var searchData=
   ['render_5fscreen_5foverlay_5fbackui_95',['render_screen_overlay_backUI',['../functions_8h.html#a1305b4b03ca51fc019605b8cb93a38dc',1,'render_screen_overlay_backUI(void):&#160;screen_overlays.c'],['../screen__overlays_8c.html#a1305b4b03ca51fc019605b8cb93a38dc',1,'render_screen_overlay_backUI(void):&#160;screen_overlays.c']]],
   ['render_5fscreen_5foverlay_5ffrontui_96',['render_screen_overlay_frontUI',['../functions_8h.html#ac074f2023f2e6caeefde0091e792713d',1,'render_screen_overlay_frontUI(void):&#160;screen_overlays.c'],['../screen__overlays_8c.html#ac074f2023f2e6caeefde0091e792713d',1,'render_screen_overlay_frontUI(void):&#160;screen_overlays.c']]],
   ['render_5fshadows_97',['render_shadows',['../entity_8c.html#a0b6992beaa2ca7bce7b52dc100076491',1,'entity.c']]],
-  ['render_5fshrunk_5fplayer_98',['render_shrunk_player',['../mac__04__8__entity_8c.html#a057bcc728246d691af31ca594bec41d8',1,'mac_04_8_entity.c']]],
+  ['render_5fshrunk_5fplayer_98',['render_shrunk_player',['../world_2area__mac_2mac__04_2entity_8c.html#a057bcc728246d691af31ca594bec41d8',1,'entity.c']]],
   ['render_5ftransform_5fgroup_99',['render_transform_group',['../model_8c.html#a093f4ed4371be463193c8170d8974196',1,'model.c']]],
   ['render_5ftransform_5fgroup_5fnode_100',['render_transform_group_node',['../model_8c.html#a1f8d9a763bf9232394947384109f402b',1,'model.c']]],
   ['render_5ftransformed_5fhud_5felements_101',['render_transformed_hud_elements',['../hud__element_8c.html#ad969ebfa045c312458c8d0a13971cce8',1,'render_transformed_hud_elements(void):&#160;hud_element.c'],['../hud__element_8h.html#ad969ebfa045c312458c8d0a13971cce8',1,'render_transformed_hud_elements(void):&#160;hud_element.c']]],

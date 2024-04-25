@@ -1,7 +1,7 @@
 var dir_92c20c9bfa0819f105fae176b8acd397 =
 [
-    [ "tik_22.h", "tik__22_8h.html", "tik__22_8h" ],
-    [ "tik_22_0_header.c", "tik__22__0__header_8c.html", null ],
-    [ "tik_22_1_music.c", "tik__22__1__music_8c.html", null ],
-    [ "tik_22_2_main.c", "tik__22__2__main_8c.html", "tik__22__2__main_8c" ]
+    [ "main.c", "world_2area__tik_2tik__22_2main_8c.html", "world_2area__tik_2tik__22_2main_8c" ],
+    [ "music.c", "area__tik_2tik__22_2music_8c.html", null ],
+    [ "settings.c", "area__tik_2tik__22_2settings_8c.html", null ],
+    [ "tik_22.h", "tik__22_8h.html", "tik__22_8h" ]
 ];

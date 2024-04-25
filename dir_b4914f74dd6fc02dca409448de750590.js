@@ -1,10 +1,10 @@
 var dir_b4914f74dd6fc02dca409448de750590 =
 [
+    [ "entity.c", "world_2area__jan_2jan__00_2entity_8c.html", null ],
+    [ "foliage.c", "area__jan_2jan__00_2foliage_8c.html", null ],
     [ "jan_00.h", "jan__00_8h.html", "jan__00_8h" ],
-    [ "jan_00_0_header.c", "jan__00__0__header_8c.html", null ],
-    [ "jan_00_1_main.c", "jan__00__1__main_8c.html", null ],
-    [ "jan_00_2_npc.c", "jan__00__2__npc_8c.html", null ],
-    [ "jan_00_3_entity.c", "jan__00__3__entity_8c.html", null ],
-    [ "jan_00_4_whale.c", "jan__00__4__whale_8c.html", null ],
-    [ "jan_00_5_foliage.c", "jan__00__5__foliage_8c.html", null ]
+    [ "main.c", "world_2area__jan_2jan__00_2main_8c.html", null ],
+    [ "npc.c", "world_2area__jan_2jan__00_2npc_8c.html", null ],
+    [ "settings.c", "area__jan_2jan__00_2settings_8c.html", null ],
+    [ "whale.c", "area__jan_2jan__00_2whale_8c.html", null ]
 ];

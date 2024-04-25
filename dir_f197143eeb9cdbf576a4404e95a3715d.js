@@ -1,8 +1,8 @@
 var dir_f197143eeb9cdbf576a4404e95a3715d =
 [
+    [ "entity.c", "world_2area__isk_2isk__05_2entity_8c.html", null ],
     [ "isk_05.h", "isk__05_8h.html", "isk__05_8h" ],
-    [ "isk_05_0_header.c", "isk__05__0__header_8c.html", null ],
-    [ "isk_05_1_main.c", "isk__05__1__main_8c.html", null ],
-    [ "isk_05_2_entity.c", "isk__05__2__entity_8c.html", null ],
-    [ "isk_05_3_npc.c", "isk__05__3__npc_8c.html", "isk__05__3__npc_8c" ]
+    [ "main.c", "world_2area__isk_2isk__05_2main_8c.html", null ],
+    [ "npc.c", "world_2area__isk_2isk__05_2npc_8c.html", "world_2area__isk_2isk__05_2npc_8c" ],
+    [ "settings.c", "area__isk_2isk__05_2settings_8c.html", null ]
 ];

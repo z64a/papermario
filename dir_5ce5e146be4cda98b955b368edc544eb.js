@@ -20,6 +20,6 @@ var dir_5ce5e146be4cda98b955b368edc544eb =
     [ "dgb_17", "dir_df44972ac6d3a565e0a8c5e8a22bed8b.html", "dir_df44972ac6d3a565e0a8c5e8a22bed8b" ],
     [ "dgb_18", "dir_b10d7c9215c6b5be65a00a567cbcf5b3.html", "dir_b10d7c9215c6b5be65a00a567cbcf5b3" ],
     [ "dgb.h", "dgb_8h.html", "dgb_8h" ],
-    [ "dgb_01_smash_bridges.c", "dgb__01__smash__bridges_8c.html", null ],
-    [ "dgb_vtx.h", "dgb__vtx_8h.html", "dgb__vtx_8h" ]
+    [ "dgb_vtx.h", "dgb__vtx_8h.html", "dgb__vtx_8h" ],
+    [ "smash_bridges.c", "smash__bridges_8c.html", null ]
 ];

@@ -1,11 +1,11 @@
 var dir_c5278c5fd9b47ac35fd431b35bf4e154 =
 [
+    [ "entity.c", "world_2area__hos_2hos__01_2entity_8c.html", null ],
     [ "hos_01.h", "hos__01_8h.html", "hos__01_8h" ],
-    [ "hos_01_0_header.c", "hos__01__0__header_8c.html", null ],
-    [ "hos_01_1_music.c", "hos__01__1__music_8c.html", null ],
-    [ "hos_01_2_main.c", "hos__01__2__main_8c.html", null ],
-    [ "hos_01_3_model_fx.c", "hos__01__3__model__fx_8c.html", "hos__01__3__model__fx_8c" ],
-    [ "hos_01_4_npc.c", "hos__01__4__npc_8c.html", null ],
-    [ "hos_01_5_entity.c", "hos__01__5__entity_8c.html", null ],
-    [ "hos_01_6_star_way.c", "hos__01__6__star__way_8c.html", "hos__01__6__star__way_8c" ]
+    [ "main.c", "world_2area__hos_2hos__01_2main_8c.html", null ],
+    [ "model_fx.c", "hos__01_2model__fx_8c.html", "hos__01_2model__fx_8c" ],
+    [ "music.c", "area__hos_2hos__01_2music_8c.html", null ],
+    [ "npc.c", "world_2area__hos_2hos__01_2npc_8c.html", null ],
+    [ "settings.c", "area__hos_2hos__01_2settings_8c.html", null ],
+    [ "star_way.c", "star__way_8c.html", "star__way_8c" ]
 ];

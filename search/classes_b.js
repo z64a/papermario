@@ -9,5 +9,5 @@ var searchData=
   ['lightningpreset_6',['LightningPreset',['../lightning__bolt_8c.html#structLightningPreset',1,'']]],
   ['lightraysfxdata_7',['LightRaysFXData',['../effects_8h.html#structLightRaysFXData',1,'']]],
   ['liloinkfxdata_8',['LilOinkFXData',['../effects_8h.html#structLilOinkFXData',1,'']]],
-  ['liloinkreward_9',['LilOinkReward',['../mac__03__7__oinks_8c.html#structLilOinkReward',1,'']]]
+  ['liloinkreward_9',['LilOinkReward',['../oinks_8c.html#structLilOinkReward',1,'']]]
 ];

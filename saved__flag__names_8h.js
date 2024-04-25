@@ -404,7 +404,7 @@ var saved__flag__names_8h =
       [ "GF_TIK03_ItemBlock_SnowmanDoll", "saved__flag__names_8h.html#a48154bdb188bc2b8719c12078c16a0daa36f9338b3c7a039178bce6979bde193f", null ],
       [ "GF_TIK03_ItemBlock_CoinA", "saved__flag__names_8h.html#a48154bdb188bc2b8719c12078c16a0daaf3e8387c805e34af153aee269fb44b0f", null ],
       [ "GF_TIK03_ItemBlock_CoinB", "saved__flag__names_8h.html#a48154bdb188bc2b8719c12078c16a0daa30819e7d2c47ebc63701911dfc39e786", null ],
-      [ "GF_TIK05_Chest_PowerSmash1", "saved__flag__names_8h.html#a48154bdb188bc2b8719c12078c16a0daa9c2d3ecd9ddbb4089c3a155f78befa45", null ],
+      [ "GF_TIK05_Chest_PowerSmash", "saved__flag__names_8h.html#a48154bdb188bc2b8719c12078c16a0daaa84bff1082fd1a13bf58de6e64c9c7b4", null ],
       [ "GF_TIK07_Item_StarPiece", "saved__flag__names_8h.html#a48154bdb188bc2b8719c12078c16a0daa2e357c1374ec89306fc6f3ba7b57b085", null ],
       [ "GF_TIK10_HiddenItem_CoinA", "saved__flag__names_8h.html#a48154bdb188bc2b8719c12078c16a0daadcb5637444f71b30a157ccba3e8a7986", null ],
       [ "GF_TIK10_HiddenItem_CoinB", "saved__flag__names_8h.html#a48154bdb188bc2b8719c12078c16a0daaf919f1f9a1b77a2f75792f2dfcd30b09", null ],

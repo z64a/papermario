@@ -1,9 +1,9 @@
 var searchData=
 [
   ['backgroundheader_0',['BackgroundHeader',['../common__structs_8h.html#structBackgroundHeader',1,'']]],
-  ['badgehint_1',['BadgeHint',['../hos__06__5__merluvlee_8c.html#structBadgeHint',1,'']]],
+  ['badgehint_1',['BadgeHint',['../merluvlee_8c.html#structBadgeHint',1,'']]],
   ['balloonfxdata_2',['BalloonFXData',['../effects_8h.html#structBalloonFXData',1,'']]],
-  ['barricadepart_3',['BarricadePart',['../omo__02__5__barricade_8c.html#structBarricadePart',1,'']]],
+  ['barricadepart_3',['BarricadePart',['../barricade_8c.html#structBarricadePart',1,'']]],
   ['battle_4',['Battle',['../src_2battle_2battle_8h.html#structBattle',1,'']]],
   ['battlearea_5',['BattleArea',['../src_2battle_2battle_8h.html#structBattleArea',1,'']]],
   ['battlemoveentry_6',['BattleMoveEntry',['../src_2battle_2battle_8h.html#structBattleMoveEntry',1,'']]],
@@ -25,12 +25,11 @@ var searchData=
   ['bombablerockdata_22',['BombableRockData',['../entity_8h.html#structBombableRockData',1,'']]],
   ['bombettebreakingfxdata_23',['BombetteBreakingFXData',['../effects_8h.html#structBombetteBreakingFXData',1,'']]],
   ['bombtrigger_24',['BombTrigger',['../common__structs_8h.html#structBombTrigger',1,'']]],
-  ['bombtriggerf_25',['BombTriggerF',['../common__structs_8h.html#structBombTriggerF',1,'']]],
-  ['breakingjunkfxdata_26',['BreakingJunkFXData',['../effects_8h.html#structBreakingJunkFXData',1,'']]],
-  ['buffdata_27',['BuffData',['../effects_8h.html#structBuffData',1,'']]],
-  ['bufferentry_28',['BufferEntry',['../303c0__len__3e10_8c.html#structBufferEntry',1,'']]],
-  ['bulbfragment_29',['BulbFragment',['../light__bulb_8c.html#structBulbFragment',1,'']]],
-  ['bulbglowfxdata_30',['BulbGlowFXData',['../effects_8h.html#structBulbGlowFXData',1,'']]],
-  ['bulletinboardentry_31',['BulletinBoardEntry',['../mac__01__7__bulletin_8c.html#structBulletinBoardEntry',1,'']]],
-  ['butterfliesfxdata_32',['ButterfliesFXData',['../effects_8h.html#structButterfliesFXData',1,'']]]
+  ['breakingjunkfxdata_25',['BreakingJunkFXData',['../effects_8h.html#structBreakingJunkFXData',1,'']]],
+  ['buffdata_26',['BuffData',['../effects_8h.html#structBuffData',1,'']]],
+  ['bufferentry_27',['BufferEntry',['../303c0__len__3e10_8c.html#structBufferEntry',1,'']]],
+  ['bulbfragment_28',['BulbFragment',['../light__bulb_8c.html#structBulbFragment',1,'']]],
+  ['bulbglowfxdata_29',['BulbGlowFXData',['../effects_8h.html#structBulbGlowFXData',1,'']]],
+  ['bulletinboardentry_30',['BulletinBoardEntry',['../bulletin_8c.html#structBulletinBoardEntry',1,'']]],
+  ['butterfliesfxdata_31',['ButterfliesFXData',['../effects_8h.html#structButterfliesFXData',1,'']]]
 ];

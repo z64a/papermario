@@ -1,10 +1,10 @@
 var dir_0b661f72060a2668a3092e07ed7c3823 =
 [
+    [ "entity.c", "world_2area__sam_2sam__04_2entity_8c.html", null ],
+    [ "main.c", "world_2area__sam_2sam__04_2main_8c.html", null ],
+    [ "music.c", "area__sam_2sam__04_2music_8c.html", null ],
+    [ "npc.c", "world_2area__sam_2sam__04_2npc_8c.html", "world_2area__sam_2sam__04_2npc_8c" ],
     [ "sam_04.h", "sam__04_8h.html", "sam__04_8h" ],
-    [ "sam_04_0_header.c", "sam__04__0__header_8c.html", null ],
-    [ "sam_04_1_music.c", "sam__04__1__music_8c.html", null ],
-    [ "sam_04_2_main.c", "sam__04__2__main_8c.html", null ],
-    [ "sam_04_3_snowmen.c", "sam__04__3__snowmen_8c.html", null ],
-    [ "sam_04_4_npc.c", "sam__04__4__npc_8c.html", "sam__04__4__npc_8c" ],
-    [ "sam_04_5_entity.c", "sam__04__5__entity_8c.html", null ]
+    [ "settings.c", "area__sam_2sam__04_2settings_8c.html", null ],
+    [ "snowmen.c", "snowmen_8c.html", null ]
 ];

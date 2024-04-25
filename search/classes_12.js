@@ -6,7 +6,7 @@ var searchData=
   ['textureheader_3',['TextureHeader',['../common__structs_8h.html#structTextureHeader',1,'']]],
   ['throwspinyfxdata_4',['ThrowSpinyFXData',['../effects_8h.html#structThrowSpinyFXData',1,'']]],
   ['thunderboltringfxdata_5',['ThunderboltRingFXData',['../effects_8h.html#structThunderboltRingFXData',1,'']]],
-  ['titledatafile_6',['TitleDataFile',['../kmr__21__1__main_8c.html#structTitleDataFile',1,'']]],
+  ['titledatafile_6',['TitleDataFile',['../world_2area__kmr_2kmr__21_2main_8c.html#structTitleDataFile',1,'']]],
   ['titledatastruct_7',['TitleDataStruct',['../state__title__screen_8c.html#structTitleDataStruct',1,'']]],
   ['transformationdata_8',['TransformationData',['../sneaky__parasol_8c.html#structTransformationData',1,'']]],
   ['trigger_9',['Trigger',['../structTrigger.html',1,'']]],

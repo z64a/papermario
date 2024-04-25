@@ -1,8 +1,8 @@
 var dir_0b75ebf8045086649840f3776e6ccc37 =
 [
+    [ "entity.c", "world_2area__kzn_2kzn__04_2entity_8c.html", "world_2area__kzn_2kzn__04_2entity_8c" ],
     [ "kzn_04.h", "kzn__04_8h.html", "kzn__04_8h" ],
-    [ "kzn_04_0_header.c", "kzn__04__0__header_8c.html", null ],
-    [ "kzn_04_1_main.c", "kzn__04__1__main_8c.html", null ],
-    [ "kzn_04_2_entity.c", "kzn__04__2__entity_8c.html", "kzn__04__2__entity_8c" ],
-    [ "kzn_04_3_npc.c", "kzn__04__3__npc_8c.html", null ]
+    [ "main.c", "world_2area__kzn_2kzn__04_2main_8c.html", null ],
+    [ "npc.c", "world_2area__kzn_2kzn__04_2npc_8c.html", null ],
+    [ "settings.c", "area__kzn_2kzn__04_2settings_8c.html", null ]
 ];

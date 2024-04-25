@@ -21,9 +21,6 @@ var Plants1_8c =
     [ "D_0A0013B8_E9C8B8", "Plants1_8c.html#a87db0624329454da068da9adcc773b9d", null ],
     [ "D_802BCE20", "Plants1_8c.html#af446f4bdee2bb5e80167a989c4bf0e2e", null ],
     [ "D_802BCE24", "Plants1_8c.html#a75b62623d37283009627c6b8269d43f6", null ],
-    [ "D_802BCE30", "Plants1_8c.html#a566baafc1f4306b83c0784c8a4c98687", null ],
-    [ "D_802BCE32", "Plants1_8c.html#ac420d7d9022c98b774c090abb899b0d4", null ],
-    [ "D_802BCE34", "Plants1_8c.html#a35052d0bcf5ca70907ff0a2a274db651", null ],
     [ "Entity_CymbalPlant", "Plants1_8c.html#a3df67dd027ebbce671366bc61f95f6f7", null ],
     [ "Entity_CymbalPlant_AnimationGrab", "Plants1_8c.html#a8aef410ebac1a64049092d192a0e781c", null ],
     [ "Entity_CymbalPlant_AnimationIdle", "Plants1_8c.html#a1f3e789bb403336cbc442c083c4e149f", null ],
@@ -43,5 +40,8 @@ var Plants1_8c =
     [ "Entity_SpinningFlower", "Plants1_8c.html#a80c1127b83427084913aca7e99220df0", null ],
     [ "Entity_SpinningFlower_Render", "Plants1_8c.html#ab54ca4687d4a265faa4a2565f09f9528", null ],
     [ "Entity_SpinningFlower_RenderScript", "Plants1_8c.html#abd88f1ccee2e4f45a299480955ebebe1", null ],
-    [ "Entity_SpinningFlower_Script", "Plants1_8c.html#a5bb8c44e06a42f36c8547db840ded1b1", null ]
+    [ "Entity_SpinningFlower_Script", "Plants1_8c.html#a5bb8c44e06a42f36c8547db840ded1b1", null ],
+    [ "FlowerGoalPositionX", "Plants1_8c.html#a9239134d3087cffb55697cc5f71f8499", null ],
+    [ "FlowerGoalPositionY", "Plants1_8c.html#a9bacd9086d225090c8c3075b81d019a1", null ],
+    [ "FlowerGoalPositionZ", "Plants1_8c.html#a254428b617bbc383c2aad5a3d17e6966", null ]
 ];

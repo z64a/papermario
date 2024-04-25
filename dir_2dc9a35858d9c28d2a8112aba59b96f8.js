@@ -1,11 +1,11 @@
 var dir_2dc9a35858d9c28d2a8112aba59b96f8 =
 [
+    [ "entity.c", "world_2area__sam_2sam__02_2entity_8c.html", null ],
+    [ "main.c", "world_2area__sam_2sam__02_2main_8c.html", null ],
+    [ "music.c", "area__sam_2sam__02_2music_8c.html", null ],
+    [ "npc.c", "world_2area__sam_2sam__02_2npc_8c.html", "world_2area__sam_2sam__02_2npc_8c" ],
+    [ "rooms.c", "area__sam_2sam__02_2rooms_8c.html", null ],
     [ "sam_02.h", "sam__02_8h.html", "sam__02_8h" ],
-    [ "sam_02_0_header.c", "sam__02__0__header_8c.html", null ],
-    [ "sam_02_1_music.c", "sam__02__1__music_8c.html", null ],
-    [ "sam_02_2_main.c", "sam__02__2__main_8c.html", null ],
-    [ "sam_02_3_rooms.c", "sam__02__3__rooms_8c.html", null ],
-    [ "sam_02_4_npc.c", "sam__02__4__npc_8c.html", "sam__02__4__npc_8c" ],
-    [ "sam_02_5_entity.c", "sam__02__5__entity_8c.html", null ],
-    [ "sam_02_6_shop.c", "sam__02__6__shop_8c.html", null ]
+    [ "settings.c", "area__sam_2sam__02_2settings_8c.html", null ],
+    [ "shop.c", "area__sam_2sam__02_2shop_8c.html", null ]
 ];

@@ -1,8 +1,8 @@
 var dir_df06c4a6638ddcb002b9c99677170f11 =
 [
+    [ "chest.c", "area__kkj_2kkj__17_2chest_8c.html", "area__kkj_2kkj__17_2chest_8c" ],
+    [ "entity.c", "world_2area__kkj_2kkj__17_2entity_8c.html", null ],
     [ "kkj_17.h", "kkj__17_8h.html", "kkj__17_8h" ],
-    [ "kkj_17_0_header.c", "kkj__17__0__header_8c.html", null ],
-    [ "kkj_17_1_main.c", "kkj__17__1__main_8c.html", null ],
-    [ "kkj_17_2_entity.c", "kkj__17__2__entity_8c.html", null ],
-    [ "kkj_17_3_chest.c", "kkj__17__3__chest_8c.html", "kkj__17__3__chest_8c" ]
+    [ "main.c", "world_2area__kkj_2kkj__17_2main_8c.html", null ],
+    [ "settings.c", "area__kkj_2kkj__17_2settings_8c.html", null ]
 ];

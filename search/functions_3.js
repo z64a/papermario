@@ -10,7 +10,7 @@ var searchData=
   ['calc_5fplayer_5ftest_5fenemy_7',['calc_player_test_enemy',['../dmg__player_8c.html#a092d7be7302160bf5f6c488c22fbc6df',1,'dmg_player.c']]],
   ['calculate_5fcamera_5fyinterp_5frate_8',['calculate_camera_yinterp_rate',['../functions_8h.html#abed332b8c92b4cf567b07b6c329dbfc3',1,'calculate_camera_yinterp_rate(void):&#160;7B440.c'],['../7B440_8c.html#abed332b8c92b4cf567b07b6c329dbfc3',1,'calculate_camera_yinterp_rate(void):&#160;7B440.c']]],
   ['calculate_5fline_5fsegment_5fintersection_9',['calculate_line_segment_intersection',['../cam__math_8c.html#aa0cfbf8fcf155d426e99cd2d1b1df1e2',1,'cam_math.c']]],
-  ['calculate_5frecords_10',['calculate_records',['../kmr__20__13__records_8c.html#ad6b4147f9c9381ab82b15cb4cb1ba3d0',1,'kmr_20_13_records.c']]],
+  ['calculate_5frecords_10',['calculate_records',['../records_8c.html#ad6b4147f9c9381ab82b15cb4cb1ba3d0',1,'records.c']]],
   ['calculate_5fsegment_5fintersection_11',['calculate_segment_intersection',['../cam__math_8c.html#a062fe64fd08ccd977fb08e145e7999a4',1,'cam_math.c']]],
   ['cam_5finterp_5flookat_5fpos_12',['cam_interp_lookat_pos',['../cam__mode__5_8c.html#a874bf482e885197b4effa2fc27cce795',1,'cam_interp_lookat_pos(Camera *camera, f32 arg1, f32 arg2, s16 arg3):&#160;cam_mode_5.c'],['../cam__mode__zone__interp_8c.html#a874bf482e885197b4effa2fc27cce795',1,'cam_interp_lookat_pos(Camera *camera, f32 arg1, f32 arg2, s16 arg3):&#160;cam_mode_5.c']]],
   ['campresetupdate_5ff_13',['CamPresetUpdate_F',['../camera_8c.html#a857174e6087f92075c1398f4eff46315',1,'camera.c']]],
@@ -258,5 +258,5 @@ var searchData=
   ['credits_5fload_5fmessage_255',['credits_load_message',['../Credits_8inc_8c.html#a44b5edc3e736db2085caf1ea0f86a348',1,'Credits.inc.c']]],
   ['credits_5fupdate_5fline_256',['credits_update_line',['../Credits_8inc_8c.html#a177858e54044cde1c948e13bf2e2ef38',1,'Credits.inc.c']]],
   ['credits_5fworker_5frender_257',['credits_worker_render',['../Credits_8inc_8c.html#ab8993f61d171bc47e1a7a0849b5a2147',1,'Credits.inc.c']]],
-  ['curtain_5fcallback_5fnarration_258',['curtain_callback_narration',['../hos__04__8__narrator_8c.html#a12788f664e2188b2b41959e4cda1e2a4',1,'curtain_callback_narration(void):&#160;hos_04_8_narrator.c'],['../hos__05__6__narrator_8c.html#a12788f664e2188b2b41959e4cda1e2a4',1,'curtain_callback_narration(void):&#160;hos_05_6_narrator.c']]]
+  ['curtain_5fcallback_5fnarration_258',['curtain_callback_narration',['../hos__04_2narrator_8c.html#a12788f664e2188b2b41959e4cda1e2a4',1,'curtain_callback_narration(void):&#160;narrator.c'],['../hos__05_2narrator_8c.html#a12788f664e2188b2b41959e4cda1e2a4',1,'curtain_callback_narration(void):&#160;narrator.c']]]
 ];

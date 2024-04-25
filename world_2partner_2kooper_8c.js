@@ -9,7 +9,6 @@ var world_2partner_2kooper_8c =
     [ "fx_damage_stars", "world_2partner_2kooper_8c.html#a4e518608d41164da0565269cba959472", null ],
     [ "init", "world_2partner_2kooper_8c.html#a0227c777907b3242ee43724dedb54d9f", null ],
     [ "lateral_hit_interactable_entity", "world_2partner_2kooper_8c.html#adac6da3b0745e937767ef3f68ddfd860", null ],
-    [ "npc_raycast_up_corner", "world_2partner_2kooper_8c.html#a7dd8ce9f4f10ad79c9eef4a39ed1f635", null ],
     [ "post_battle", "world_2partner_2kooper_8c.html#ac468662c357572662f37b2c8deecd030", null ],
     [ "pre_battle", "world_2partner_2kooper_8c.html#a44a992b1d7d38faeefd69e2be55c4b49", null ],
     [ "test_first_strike", "world_2partner_2kooper_8c.html#a534ebb38a4fbbef46992cc1fd2e01ecb", null ],

@@ -1,5 +1,7 @@
 var NAVTREEINDEX9 =
 {
+"IsItemBadge_8inc_8c.html":[2,0,1,9,29,6,16],
+"IsJumpMaxCharged_8inc_8c.html":[2,0,1,9,29,6,17],
 "IsPlayerPounding_8inc_8c.html":[2,0,1,9,29,6,18],
 "ItemBlock_8c.html":[2,0,1,5,9],
 "ItemBlock_8c.html#a012d775fd22d99c332c1a06330c973b6":[2,0,1,5,9,4],
@@ -165,6 +167,7 @@ var NAVTREEINDEX9 =
 "MBush_8h.html#a3be1576a7f08c6a1adab41795fa8bfb8":[2,0,1,9,29,2,100,0],
 "MBush_8h.html#afa5073ad9f61e6d16e08f8bbb3625747":[2,0,1,9,29,2,100,1],
 "MBush_8inc_8c.html":[2,0,1,9,29,2,101],
+"MBush_8inc_8c.html#a60f9cc7f846f696f1c6f217a35514a60":[2,0,1,9,29,2,101,0],
 "MagikoopaAI_8inc_8c.html":[2,0,1,9,29,2,0,15],
 "MagikoopaAI_8inc_8c.html#a0221dd07ee64711a8af93f106036f8b5":[2,0,1,9,29,2,0,15,2],
 "MagikoopaAI_8inc_8c.html#a16f8781aa1f98ee7d41806efeea357da":[2,0,1,9,29,2,0,15,11],
@@ -246,8 +249,5 @@ var NAVTREEINDEX9 =
 "MunchlesiaBeginChew__anim_8c.html":[2,0,1,5,2,26],
 "MunchlesiaBeginChew__anim_8c.html#a10de51e8db5a5a6beee2c6288bcde40c":[2,0,1,5,2,26,3],
 "MunchlesiaBeginChew__anim_8c.html#a1918a314e311bed34abbeecc73251d01":[2,0,1,5,2,26,12],
-"MunchlesiaBeginChew__anim_8c.html#a1e4bea7ada37137f60f119c4bf397dc7":[2,0,1,5,2,26,0],
-"MunchlesiaBeginChew__anim_8c.html#a36b29645dcd8f5d9cf4c4bfa7b5677ea":[2,0,1,5,2,26,6],
-"MunchlesiaBeginChew__anim_8c.html#a3e5c1bc693d1dbf37887066f9054a1c5":[2,0,1,5,2,26,1],
-"MunchlesiaBeginChew__anim_8c.html#a555eea66940ea93f3220adf2f2148ba5":[2,0,1,5,2,26,11]
+"MunchlesiaBeginChew__anim_8c.html#a1e4bea7ada37137f60f119c4bf397dc7":[2,0,1,5,2,26,0]
 };

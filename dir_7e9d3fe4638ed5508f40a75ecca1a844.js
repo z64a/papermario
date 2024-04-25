@@ -1,12 +1,12 @@
 var dir_7e9d3fe4638ed5508f40a75ecca1a844 =
 [
+    [ "club64_sign.c", "club64__sign_8c.html", "club64__sign_8c" ],
+    [ "entity.c", "world_2area__mac_2mac__05_2entity_8c.html", null ],
     [ "mac_05.h", "mac__05_8h.html", "mac__05_8h" ],
-    [ "mac_05_0_header.c", "mac__05__0__header_8c.html", null ],
-    [ "mac_05_1_music.c", "mac__05__1__music_8c.html", null ],
-    [ "mac_05_2_entity.c", "mac__05__2__entity_8c.html", null ],
-    [ "mac_05_3_main.c", "mac__05__3__main_8c.html", "mac__05__3__main_8c" ],
-    [ "mac_05_4_npc.c", "mac__05__4__npc_8c.html", "mac__05__4__npc_8c" ],
-    [ "mac_05_5_whale.c", "mac__05__5__whale_8c.html", "mac__05__5__whale_8c" ],
-    [ "mac_05_6_rooms.c", "mac__05__6__rooms_8c.html", null ],
-    [ "mac_05_7_club64_sign.c", "mac__05__7__club64__sign_8c.html", "mac__05__7__club64__sign_8c" ]
+    [ "main.c", "world_2area__mac_2mac__05_2main_8c.html", "world_2area__mac_2mac__05_2main_8c" ],
+    [ "music.c", "area__mac_2mac__05_2music_8c.html", null ],
+    [ "npc.c", "world_2area__mac_2mac__05_2npc_8c.html", "world_2area__mac_2mac__05_2npc_8c" ],
+    [ "rooms.c", "area__mac_2mac__05_2rooms_8c.html", null ],
+    [ "settings.c", "area__mac_2mac__05_2settings_8c.html", null ],
+    [ "whale.c", "area__mac_2mac__05_2whale_8c.html", "area__mac_2mac__05_2whale_8c" ]
 ];

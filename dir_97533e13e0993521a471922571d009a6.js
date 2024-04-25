@@ -1,10 +1,10 @@
 var dir_97533e13e0993521a471922571d009a6 =
 [
+    [ "entity.c", "world_2area__sam_2sam__07_2entity_8c.html", null ],
+    [ "frozen_pit.c", "frozen__pit_8c.html", "frozen__pit_8c" ],
+    [ "main.c", "world_2area__sam_2sam__07_2main_8c.html", null ],
+    [ "music.c", "area__sam_2sam__07_2music_8c.html", null ],
+    [ "npc.c", "world_2area__sam_2sam__07_2npc_8c.html", null ],
     [ "sam_07.h", "sam__07_8h.html", "sam__07_8h" ],
-    [ "sam_07_0_header.c", "sam__07__0__header_8c.html", null ],
-    [ "sam_07_1_music.c", "sam__07__1__music_8c.html", null ],
-    [ "sam_07_2_main.c", "sam__07__2__main_8c.html", null ],
-    [ "sam_07_3_entity.c", "sam__07__3__entity_8c.html", null ],
-    [ "sam_07_4_frozen_pit.c", "sam__07__4__frozen__pit_8c.html", "sam__07__4__frozen__pit_8c" ],
-    [ "sam_07_5_npc.c", "sam__07__5__npc_8c.html", null ]
+    [ "settings.c", "area__sam_2sam__07_2settings_8c.html", null ]
 ];

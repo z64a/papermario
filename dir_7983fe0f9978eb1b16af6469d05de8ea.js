@@ -1,16 +1,12 @@
 var dir_7983fe0f9978eb1b16af6469d05de8ea =
 [
+    [ "entity.c", "world_2area__mac_2mac__04_2entity_8c.html", "world_2area__mac_2mac__04_2entity_8c" ],
+    [ "foliage.c", "area__mac_2mac__04_2foliage_8c.html", null ],
     [ "mac_04.h", "mac__04_8h.html", "mac__04_8h" ],
-    [ "mac_04_0_header.c", "mac__04__0__header_8c.html", "mac__04__0__header_8c" ],
-    [ "mac_04_1_music.c", "mac__04__1__music_8c.html", null ],
-    [ "mac_04_2_main.c", "mac__04__2__main_8c.html", null ],
-    [ "mac_04_3_rooms.c", "mac__04__3__rooms_8c.html", "mac__04__3__rooms_8c" ],
-    [ "mac_04_4_foliage.c", "mac__04__4__foliage_8c.html", null ],
-    [ "mac_04_5_shop.c", "mac__04__5__shop_8c.html", null ],
-    [ "mac_04_6_npc.c", "mac__04__6__npc_8c.html", "mac__04__6__npc_8c" ],
-    [ "mac_04_7_wish_scene.c", "mac__04__7__wish__scene_8c.html", "mac__04__7__wish__scene_8c" ],
-    [ "mac_04_8_entity.c", "mac__04__8__entity_8c.html", "mac__04__8__entity_8c" ],
-    [ "mac_04_9_music_mix.c", "mac__04__9__music__mix_8c.html", null ],
+    [ "main.c", "world_2area__mac_2mac__04_2main_8c.html", null ],
+    [ "music.c", "area__mac_2mac__04_2music_8c.html", null ],
+    [ "music_mix.c", "mac__04_2music__mix_8c.html", null ],
+    [ "npc.c", "world_2area__mac_2mac__04_2npc_8c.html", "world_2area__mac_2mac__04_2npc_8c" ],
     [ "npc_chet_rippo.inc.c", "npc__chet__rippo_8inc_8c.html", null ],
     [ "npc_goomba_family.inc.c", "npc__goomba__family_8inc_8c.html", null ],
     [ "npc_gossip_trio.inc.c", "npc__gossip__trio_8inc_8c.html", null ],
@@ -23,5 +19,9 @@ var dir_7983fe0f9978eb1b16af6469d05de8ea =
     [ "npc_toad_kids.inc.c", "npc__toad__kids_8inc_8c.html", null ],
     [ "npc_toadette_03.inc.c", "npc__toadette__03_8inc_8c.html", null ],
     [ "npc_toybox_shyguy.inc.c", "npc__toybox__shyguy_8inc_8c.html", null ],
-    [ "npc_twink.inc.c", "npc__twink_8inc_8c.html", null ]
+    [ "npc_twink.inc.c", "npc__twink_8inc_8c.html", null ],
+    [ "rooms.c", "area__mac_2mac__04_2rooms_8c.html", "area__mac_2mac__04_2rooms_8c" ],
+    [ "settings.c", "area__mac_2mac__04_2settings_8c.html", "area__mac_2mac__04_2settings_8c" ],
+    [ "shop.c", "area__mac_2mac__04_2shop_8c.html", null ],
+    [ "wish_scene.c", "wish__scene_8c.html", "wish__scene_8c" ]
 ];

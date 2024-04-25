@@ -1,5 +1,7 @@
 var background__gfx_8c =
 [
+    [ "RGBA_BUF_SIZE", "background__gfx_8c.html#a44d8651fd1d550432d4349952e66c942", null ],
+    [ "RGBA_BUF_SIZE", "background__gfx_8c.html#a44d8651fd1d550432d4349952e66c942", null ],
     [ "func_80027600", "background__gfx_8c.html#a739e74f500eeea6674b254d14c6ea8dc", null ],
     [ "func_80027774", "background__gfx_8c.html#adc4f53d2527a33deb957274473921d91", null ],
     [ "func_80027BAC", "background__gfx_8c.html#a27389cb3a2dd4c120d9c767174a682ab", null ],

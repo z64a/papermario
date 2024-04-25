@@ -16,5 +16,5 @@ var dir_a63dedf81f1e5ea1d42bb45ef831eb8c =
     [ "reverb.c", "reverb_8c.html", "reverb_8c" ],
     [ "sfx.c", "sfx_8c.html", "sfx_8c" ],
     [ "sfx_player.c", "sfx__player_8c.html", "sfx__player_8c" ],
-    [ "tables.c", "tables_8c.html", "tables_8c" ]
+    [ "tables.c", "audio_2tables_8c.html", "audio_2tables_8c" ]
 ];

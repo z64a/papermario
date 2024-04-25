@@ -1,8 +1,8 @@
 var dir_06124b2cf3d60605f2f40730561b7178 =
 [
+    [ "main.c", "world_2area__pra_2pra__13_2main_8c.html", null ],
+    [ "music.c", "area__pra_2pra__13_2music_8c.html", null ],
+    [ "npc.c", "world_2area__pra_2pra__13_2npc_8c.html", "world_2area__pra_2pra__13_2npc_8c" ],
     [ "pra_13.h", "pra__13_8h.html", "pra__13_8h" ],
-    [ "pra_13_0_header.c", "pra__13__0__header_8c.html", null ],
-    [ "pra_13_1_music.c", "pra__13__1__music_8c.html", null ],
-    [ "pra_13_2_main.c", "pra__13__2__main_8c.html", null ],
-    [ "pra_13_3_npc.c", "pra__13__3__npc_8c.html", "pra__13__3__npc_8c" ]
+    [ "settings.c", "area__pra_2pra__13_2settings_8c.html", null ]
 ];

@@ -1,11 +1,11 @@
 var dir_9758d6a1430b036ffa4e37a8cd148d18 =
 [
+    [ "entity.c", "world_2area__obk_2obk__07_2entity_8c.html", null ],
+    [ "fireplace.c", "fireplace_8c.html", null ],
+    [ "main.c", "world_2area__obk_2obk__07_2main_8c.html", null ],
+    [ "music.c", "area__obk_2obk__07_2music_8c.html", null ],
+    [ "npc.c", "world_2area__obk_2obk__07_2npc_8c.html", "world_2area__obk_2obk__07_2npc_8c" ],
     [ "obk_07.h", "obk__07_8h.html", "obk__07_8h" ],
-    [ "obk_07_0_header.c", "obk__07__0__header_8c.html", null ],
-    [ "obk_07_1_music.c", "obk__07__1__music_8c.html", null ],
-    [ "obk_07_2_main.c", "obk__07__2__main_8c.html", null ],
-    [ "obk_07_3_entity.c", "obk__07__3__entity_8c.html", null ],
-    [ "obk_07_4_fireplace.c", "obk__07__4__fireplace_8c.html", null ],
-    [ "obk_07_5_npc.c", "obk__07__5__npc_8c.html", "obk__07__5__npc_8c" ],
-    [ "obk_07_6_phonograph.c", "obk__07__6__phonograph_8c.html", "obk__07__6__phonograph_8c" ]
+    [ "phonograph.c", "phonograph_8c.html", "phonograph_8c" ],
+    [ "settings.c", "area__obk_2obk__07_2settings_8c.html", null ]
 ];

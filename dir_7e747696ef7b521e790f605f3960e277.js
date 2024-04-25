@@ -1,11 +1,11 @@
 var dir_7e747696ef7b521e790f605f3960e277 =
 [
+    [ "chest.c", "area__hos_2hos__06_2chest_8c.html", "area__hos_2hos__06_2chest_8c" ],
+    [ "entity.c", "world_2area__hos_2hos__06_2entity_8c.html", null ],
     [ "hos_06.h", "hos__06_8h.html", "hos__06_8h" ],
-    [ "hos_06_0_header.c", "hos__06__0__header_8c.html", null ],
-    [ "hos_06_1_entity.c", "hos__06__1__entity_8c.html", null ],
-    [ "hos_06_2_main.c", "hos__06__2__main_8c.html", null ],
-    [ "hos_06_3_merlow.c", "hos__06__3__merlow_8c.html", "hos__06__3__merlow_8c" ],
-    [ "hos_06_4_rooms.c", "hos__06__4__rooms_8c.html", null ],
-    [ "hos_06_5_merluvlee.c", "hos__06__5__merluvlee_8c.html", "hos__06__5__merluvlee_8c" ],
-    [ "hos_06_6_chest.c", "hos__06__6__chest_8c.html", "hos__06__6__chest_8c" ]
+    [ "main.c", "world_2area__hos_2hos__06_2main_8c.html", null ],
+    [ "merlow.c", "merlow_8c.html", "merlow_8c" ],
+    [ "merluvlee.c", "merluvlee_8c.html", "merluvlee_8c" ],
+    [ "rooms.c", "area__hos_2hos__06_2rooms_8c.html", null ],
+    [ "settings.c", "area__hos_2hos__06_2settings_8c.html", null ]
 ];

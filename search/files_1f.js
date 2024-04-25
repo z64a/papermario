@@ -13,5 +13,6 @@ var searchData=
   ['yoshi_5fpatrol_2einc_2ec_10',['Yoshi_Patrol.inc.c',['../Yoshi__Patrol_8inc_8c.html',1,'']]],
   ['yoshikid_2eh_11',['YoshiKid.h',['../YoshiKid_8h.html',1,'']]],
   ['yoshikid_2einc_2ec_12',['YoshiKid.inc.c',['../YoshiKid_8inc_8c.html',1,'']]],
-  ['yoshikid_5fpatrol_2einc_2ec_13',['YoshiKid_Patrol.inc.c',['../YoshiKid__Patrol_8inc_8c.html',1,'']]]
+  ['yoshikid_5fpatrol_2einc_2ec_13',['YoshiKid_Patrol.inc.c',['../YoshiKid__Patrol_8inc_8c.html',1,'']]],
+  ['yoshis_2ec_14',['yoshis.c',['../yoshis_8c.html',1,'']]]
 ];

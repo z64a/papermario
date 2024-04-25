@@ -1,8 +1,8 @@
 var dir_bc8c425766230556ed95be20532442fb =
 [
+    [ "entity.c", "world_2area__pra_2pra__34_2entity_8c.html", null ],
+    [ "main.c", "world_2area__pra_2pra__34_2main_8c.html", null ],
+    [ "music.c", "area__pra_2pra__34_2music_8c.html", null ],
     [ "pra_34.h", "pra__34_8h.html", "pra__34_8h" ],
-    [ "pra_34_0_header.c", "pra__34__0__header_8c.html", null ],
-    [ "pra_34_1_music.c", "pra__34__1__music_8c.html", null ],
-    [ "pra_34_2_main.c", "pra__34__2__main_8c.html", null ],
-    [ "pra_34_3_entity.c", "pra__34__3__entity_8c.html", null ]
+    [ "settings.c", "area__pra_2pra__34_2settings_8c.html", null ]
 ];

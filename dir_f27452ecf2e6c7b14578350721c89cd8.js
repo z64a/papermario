@@ -1,9 +1,9 @@
 var dir_f27452ecf2e6c7b14578350721c89cd8 =
 [
+    [ "entity.c", "world_2area__kzn_2kzn__09_2entity_8c.html", "world_2area__kzn_2kzn__09_2entity_8c" ],
     [ "kzn_09.h", "kzn__09_8h.html", "kzn__09_8h" ],
-    [ "kzn_09_0_header.c", "kzn__09__0__header_8c.html", null ],
-    [ "kzn_09_1_main.c", "kzn__09__1__main_8c.html", null ],
-    [ "kzn_09_2_entity.c", "kzn__09__2__entity_8c.html", "kzn__09__2__entity_8c" ],
-    [ "kzn_09_3_zipline.c", "kzn__09__3__zipline_8c.html", null ],
-    [ "kzn_09_4_npc.c", "kzn__09__4__npc_8c.html", "kzn__09__4__npc_8c" ]
+    [ "main.c", "world_2area__kzn_2kzn__09_2main_8c.html", null ],
+    [ "npc.c", "world_2area__kzn_2kzn__09_2npc_8c.html", "world_2area__kzn_2kzn__09_2npc_8c" ],
+    [ "settings.c", "area__kzn_2kzn__09_2settings_8c.html", null ],
+    [ "zipline.c", "area__kzn_2kzn__09_2zipline_8c.html", null ]
 ];

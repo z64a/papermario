@@ -1,15 +1,15 @@
 var dir_10dd5c4ba81144eaaeb915f9430de445 =
 [
+    [ "chapter0.c", "kkj__15_2chapter0_8c.html", "kkj__15_2chapter0_8c" ],
+    [ "chapter1.c", "kkj__15_2chapter1_8c.html", null ],
+    [ "chapter2.c", "kkj__15_2chapter2_8c.html", null ],
+    [ "chapter3.c", "kkj__15_2chapter3_8c.html", null ],
     [ "kkj_15.h", "kkj__15_8h.html", "kkj__15_8h" ],
-    [ "kkj_15_0_header.c", "kkj__15__0__header_8c.html", null ],
-    [ "kkj_15_10_npc_chapter3.c", "kkj__15__10__npc__chapter3_8c.html", "kkj__15__10__npc__chapter3_8c" ],
-    [ "kkj_15_1_music.c", "kkj__15__1__music_8c.html", null ],
-    [ "kkj_15_2_main.c", "kkj__15__2__main_8c.html", null ],
-    [ "kkj_15_3_rotating_wall.c", "kkj__15__3__rotating__wall_8c.html", null ],
-    [ "kkj_15_4_chapter0.c", "kkj__15__4__chapter0_8c.html", "kkj__15__4__chapter0_8c" ],
-    [ "kkj_15_5_chapter1.c", "kkj__15__5__chapter1_8c.html", null ],
-    [ "kkj_15_6_chapter2.c", "kkj__15__6__chapter2_8c.html", null ],
-    [ "kkj_15_7_chapter3.c", "kkj__15__7__chapter3_8c.html", null ],
-    [ "kkj_15_8_npc_chapter0.c", "kkj__15__8__npc__chapter0_8c.html", "kkj__15__8__npc__chapter0_8c" ],
-    [ "kkj_15_9_npc_chapter1.c", "kkj__15__9__npc__chapter1_8c.html", "kkj__15__9__npc__chapter1_8c" ]
+    [ "main.c", "world_2area__kkj_2kkj__15_2main_8c.html", null ],
+    [ "music.c", "area__kkj_2kkj__15_2music_8c.html", null ],
+    [ "npc_chapter0.c", "npc__chapter0_8c.html", "npc__chapter0_8c" ],
+    [ "npc_chapter1.c", "npc__chapter1_8c.html", "npc__chapter1_8c" ],
+    [ "npc_chapter3.c", "npc__chapter3_8c.html", "npc__chapter3_8c" ],
+    [ "rotating_wall.c", "kkj__15_2rotating__wall_8c.html", null ],
+    [ "settings.c", "area__kkj_2kkj__15_2settings_8c.html", null ]
 ];

@@ -1,8 +1,8 @@
 var dir_c4db678a440c93958da9e22c804534af =
 [
     [ "kzn_20.h", "dead_2area__kzn_2kzn__20_2kzn__20_8h.html", "dead_2area__kzn_2kzn__20_2kzn__20_8h" ],
-    [ "kzn_20_0_header.c", "dead_2area__kzn_2kzn__20_2kzn__20__0__header_8c.html", null ],
-    [ "kzn_20_1_music.c", "dead_2area__kzn_2kzn__20_2kzn__20__1__music_8c.html", null ],
-    [ "kzn_20_2_main.c", "dead_2area__kzn_2kzn__20_2kzn__20__2__main_8c.html", null ],
-    [ "kzn_20_3_npc.c", "dead_2area__kzn_2kzn__20_2kzn__20__3__npc_8c.html", "dead_2area__kzn_2kzn__20_2kzn__20__3__npc_8c" ]
+    [ "main.c", "world_2dead_2area__kzn_2kzn__20_2main_8c.html", null ],
+    [ "music.c", "dead_2area__kzn_2kzn__20_2music_8c.html", null ],
+    [ "npc.c", "world_2dead_2area__kzn_2kzn__20_2npc_8c.html", "world_2dead_2area__kzn_2kzn__20_2npc_8c" ],
+    [ "settings.c", "dead_2area__kzn_2kzn__20_2settings_8c.html", null ]
 ];

@@ -1,11 +1,11 @@
 var dir_ffe79ad28c8e739501d58a1747de57ce =
 [
+    [ "ease.c", "ease_8c.html", null ],
+    [ "entity.c", "world_2area__kpa_2kpa__133_2entity_8c.html", null ],
     [ "kpa_133.h", "kpa__133_8h.html", "kpa__133_8h" ],
-    [ "kpa_133_0_header.c", "kpa__133__0__header_8c.html", null ],
-    [ "kpa_133_1_music.c", "kpa__133__1__music_8c.html", null ],
-    [ "kpa_133_2_main.c", "kpa__133__2__main_8c.html", null ],
-    [ "kpa_133_3_entity.c", "kpa__133__3__entity_8c.html", null ],
-    [ "kpa_133_4_npc.c", "kpa__133__4__npc_8c.html", null ],
-    [ "kpa_133_5_water.c", "kpa__133__5__water_8c.html", null ],
-    [ "kpa_133_6.c", "kpa__133__6_8c.html", null ]
+    [ "main.c", "world_2area__kpa_2kpa__133_2main_8c.html", null ],
+    [ "music.c", "area__kpa_2kpa__133_2music_8c.html", null ],
+    [ "npc.c", "world_2area__kpa_2kpa__133_2npc_8c.html", null ],
+    [ "settings.c", "area__kpa_2kpa__133_2settings_8c.html", null ],
+    [ "water.c", "area__kpa_2kpa__133_2water_8c.html", null ]
 ];

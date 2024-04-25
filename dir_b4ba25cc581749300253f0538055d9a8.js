@@ -1,8 +1,8 @@
 var dir_b4ba25cc581749300253f0538055d9a8 =
 [
-    [ "trd_10.h", "trd__10_8h.html", "trd__10_8h" ],
-    [ "trd_10_0_header.c", "trd__10__0__header_8c.html", null ],
-    [ "trd_10_1_main.c", "trd__10__1__main_8c.html", "trd__10__1__main_8c" ],
-    [ "trd_10_2_npc.c", "trd__10__2__npc_8c.html", null ],
-    [ "trd_10_3_fake_bowser.c", "trd__10__3__fake__bowser_8c.html", null ]
+    [ "fake_bowser.c", "world_2area__trd_2trd__10_2fake__bowser_8c.html", null ],
+    [ "main.c", "world_2area__trd_2trd__10_2main_8c.html", "world_2area__trd_2trd__10_2main_8c" ],
+    [ "npc.c", "world_2area__trd_2trd__10_2npc_8c.html", null ],
+    [ "settings.c", "area__trd_2trd__10_2settings_8c.html", null ],
+    [ "trd_10.h", "trd__10_8h.html", "trd__10_8h" ]
 ];

@@ -1,11 +1,11 @@
 var dir_af143af52321ab28eba5f974ae10b6f8 =
 [
+    [ "entity.c", "world_2area__omo_2omo__10_2entity_8c.html", null ],
+    [ "gizmos.c", "omo__10_2gizmos_8c.html", null ],
+    [ "main.c", "world_2area__omo_2omo__10_2main_8c.html", null ],
+    [ "music.c", "area__omo_2omo__10_2music_8c.html", null ],
+    [ "npc.c", "world_2area__omo_2omo__10_2npc_8c.html", null ],
     [ "omo_10.h", "omo__10_8h.html", "omo__10_8h" ],
-    [ "omo_10_0_header.c", "omo__10__0__header_8c.html", null ],
-    [ "omo_10_1_music.c", "omo__10__1__music_8c.html", null ],
-    [ "omo_10_2_main.c", "omo__10__2__main_8c.html", null ],
-    [ "omo_10_3_gizmos.c", "omo__10__3__gizmos_8c.html", null ],
-    [ "omo_10_4_train.c", "omo__10__4__train_8c.html", null ],
-    [ "omo_10_5_npc.c", "omo__10__5__npc_8c.html", null ],
-    [ "omo_10_6_entity.c", "omo__10__6__entity_8c.html", null ]
+    [ "settings.c", "area__omo_2omo__10_2settings_8c.html", null ],
+    [ "train.c", "area__omo_2omo__10_2train_8c.html", null ]
 ];

@@ -1,10 +1,10 @@
 var dir_a6fad46d6df665b74d18c69cf8d84153 =
 [
+    [ "entity.c", "world_2area__isk_2isk__09_2entity_8c.html", null ],
     [ "isk_09.h", "isk__09_8h.html", "isk__09_8h" ],
-    [ "isk_09_0_header.c", "isk__09__0__header_8c.html", null ],
-    [ "isk_09_1_music.c", "isk__09__1__music_8c.html", null ],
-    [ "isk_09_2_main.c", "isk__09__2__main_8c.html", null ],
-    [ "isk_09_3_entity.c", "isk__09__3__entity_8c.html", null ],
-    [ "isk_09_4_stairs.c", "isk__09__4__stairs_8c.html", null ],
-    [ "isk_09_5_switch.c", "isk__09__5__switch_8c.html", null ]
+    [ "main.c", "world_2area__isk_2isk__09_2main_8c.html", null ],
+    [ "music.c", "area__isk_2isk__09_2music_8c.html", null ],
+    [ "settings.c", "area__isk_2isk__09_2settings_8c.html", null ],
+    [ "stairs.c", "area__isk_2isk__09_2stairs_8c.html", null ],
+    [ "switch.c", "isk__09_2switch_8c.html", null ]
 ];

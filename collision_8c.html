@@ -103,7 +103,6 @@ $(function(){initNavTree('collision_8c.html',''); initResizable(); });
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Data Structures</a> &#124;
-<a href="#enum-members">Enumerations</a> &#124;
 <a href="#func-members">Functions</a> &#124;
 <a href="#var-members">Variables</a>  </div>
   <div class="headertitle"><div class="title">collision.c File Reference</div></div>
@@ -120,14 +119,6 @@ Data Structures</h2></td></tr>
 <tr class="separator:structHitFileHeader"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:structHitAssetCollider" id="r_structHitAssetCollider"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#structHitAssetCollider">HitAssetCollider</a></td></tr>
 <tr class="separator:structHitAssetCollider"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
-Enumerations</h2></td></tr>
-<tr class="memitem:a7646ae03981912f97626c39dfe9318da" id="r_a7646ae03981912f97626c39dfe9318da"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <a class="el" href="#a7646ae03981912f97626c39dfe9318daa3c7ed77ffc1e3c37a9b87d3d8ca44bf7">ENTITY_TEST_ANY</a> = 0
-, <a class="el" href="#a7646ae03981912f97626c39dfe9318daa17d39ea615eccabcf708708613d69e34">ENTITY_TEST_DOWN</a> = 1
-, <a class="el" href="#a7646ae03981912f97626c39dfe9318daaf65a1c352c0005cf78346c51010a5ee9">ENTITY_TEST_LATERAL</a> = 2
- }</td></tr>
-<tr class="separator:a7646ae03981912f97626c39dfe9318da"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
@@ -180,6 +171,7 @@ Functions</h2></td></tr>
 <tr class="memitem:af1e679be3df3a6520b5b310eae5f8ebc" id="r_af1e679be3df3a6520b5b310eae5f8ebc"><td class="memItemLeft" align="right" valign="top">f32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af1e679be3df3a6520b5b310eae5f8ebc">test_ray_collider_horizontal</a> (s32 ignoreFlags, s32 colliderID, f32 x, f32 y, f32 z, f32 length, f32 yaw)</td></tr>
 <tr class="separator:af1e679be3df3a6520b5b310eae5f8ebc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa072aa69ccd9191ac0068ce8bfe1db93" id="r_aa072aa69ccd9191ac0068ce8bfe1db93"><td class="memItemLeft" align="right" valign="top">s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa072aa69ccd9191ac0068ce8bfe1db93">test_ray_entities</a> (f32 startX, f32 startY, f32 startZ, f32 dirX, f32 dirY, f32 dirZ, f32 *hitX, f32 *hitY, f32 *hitZ, f32 *hitDepth, f32 *hitNx, f32 *hitNy, f32 *hitNz)</td></tr>
+<tr class="memdesc:aa072aa69ccd9191ac0068ce8bfe1db93"><td class="mdescLeft">&#160;</td><td class="mdescRight">Test a general ray from a given starting position and direction against all entities.  <br /></td></tr>
 <tr class="separator:aa072aa69ccd9191ac0068ce8bfe1db93"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
@@ -406,26 +398,6 @@ trianglesOffset</td>
 
 </div>
 </div>
-<h2 class="groupheader">Enumeration Type Documentation</h2>
-<a id="a7646ae03981912f97626c39dfe9318da" name="a7646ae03981912f97626c39dfe9318da"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7646ae03981912f97626c39dfe9318da">&#9670;&#160;</a></span>anonymous enum</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">anonymous enum</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a7646ae03981912f97626c39dfe9318daa3c7ed77ffc1e3c37a9b87d3d8ca44bf7" name="a7646ae03981912f97626c39dfe9318daa3c7ed77ffc1e3c37a9b87d3d8ca44bf7"></a>ENTITY_TEST_ANY&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a7646ae03981912f97626c39dfe9318daa17d39ea615eccabcf708708613d69e34" name="a7646ae03981912f97626c39dfe9318daa17d39ea615eccabcf708708613d69e34"></a>ENTITY_TEST_DOWN&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a7646ae03981912f97626c39dfe9318daaf65a1c352c0005cf78346c51010a5ee9" name="a7646ae03981912f97626c39dfe9318daaf65a1c352c0005cf78346c51010a5ee9"></a>ENTITY_TEST_LATERAL&#160;</td><td class="fielddoc"></td></tr>
-</table>
-
-</div>
-</div>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="ab9cb1ac45913c6395642455b049d8128" name="ab9cb1ac45913c6395642455b049d8128"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab9cb1ac45913c6395642455b049d8128">&#9670;&#160;</a></span>_add_hit_vert_to_buffer()</h2>
@@ -641,7 +613,7 @@ trianglesOffset</td>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="hit__fire_8c.html#a861ebf1ba792adf95b70ba5d3491df9f">action_update_hit_fire()</a>, <a class="el" href="knockback_8c.html#a1e03300622ce6ac4a5d3c7ac034657ab">action_update_knockback()</a>, <a class="el" href="slide_8c.html#a2b4f57d745f07bf638b093041f0ec2d6">action_update_sliding()</a>, <a class="el" href="spin__jump_8c.html#a6b99197d4e21832a898fb341005871d1">action_update_spin_jump()</a>, <a class="el" href="world_2action_2jump_8c.html#a1b7d53c60b03e1b69964a74e74323954">action_update_step_down()</a>, <a class="el" href="tornado__jump_8c.html#adfaeae18e276b97b3be2172348931936">action_update_tornado_jump()</a>, <a class="el" href="world_2partner_2lakilester_8c.html#adf7814c2deab71f1f72153f15a882c0f">can_dismount()</a>, <a class="el" href="functions_8h.html#aca441897ef5b7b3f904eaaa4ae9294d2">check_input_jump()</a>, <a class="el" href="190A10_8c.html#afb5eed48e00f3509c243cdb7c25a1e34">func_80262130()</a>, <a class="el" href="functions_8h.html#a0d69efec69bb46bb3960c91a7ee65014">handle_floor_behavior()</a>, <a class="el" href="partners_8c.html#abeb3ba9a27c85ef6a6894074c66f7704">partner_get_out()</a>, <a class="el" href="partners_8c.html#a1f083772fcce6b9ae3c8903fa6545384">partner_walking_follow_player()</a>, <a class="el" href="functions_8h.html#a6e1f9b2d250fb5cfcb8283aa50b1a214">phys_adjust_cam_on_landing()</a>, <a class="el" href="functions_8h.html#a6ea28b41033ee628406e5efa892d106f">phys_main_collision_below()</a>, <a class="el" href="functions_8h.html#a79545a0fd59d3c9cd111ac7e36a6ad59">player_handle_floor_collider_type()</a>, <a class="el" href="npc_8h.html#ac31c6aec954127b9ccf2677459d2caee">spawn_surface_effects()</a>, <a class="el" href="functions_8h.html#ac24872fdfc7c6e24f9301db166a9fab1">try_player_footstep_sounds()</a>, <a class="el" href="world_2partner_2parakarry_8c.html#ac48a99f407900142a55471a01ad4cc9e">update_current_floor()</a>, <a class="el" href="world_2partner_2lakilester_8c.html#adb3c432eab2e298d6204c110f92d26ae">update_riding_physics()</a>, and <a class="el" href="world_2partner_2sushie_8c.html#a6baaf95a5e5f92ebea87e55f6d396399">update_riding_physics()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="hit__fire_8c.html#a861ebf1ba792adf95b70ba5d3491df9f">action_update_hit_fire()</a>, <a class="el" href="knockback_8c.html#a1e03300622ce6ac4a5d3c7ac034657ab">action_update_knockback()</a>, <a class="el" href="action_2slide_8c.html#a2b4f57d745f07bf638b093041f0ec2d6">action_update_sliding()</a>, <a class="el" href="spin__jump_8c.html#a6b99197d4e21832a898fb341005871d1">action_update_spin_jump()</a>, <a class="el" href="world_2action_2jump_8c.html#a1b7d53c60b03e1b69964a74e74323954">action_update_step_down()</a>, <a class="el" href="tornado__jump_8c.html#adfaeae18e276b97b3be2172348931936">action_update_tornado_jump()</a>, <a class="el" href="world_2partner_2lakilester_8c.html#adf7814c2deab71f1f72153f15a882c0f">can_dismount()</a>, <a class="el" href="functions_8h.html#aca441897ef5b7b3f904eaaa4ae9294d2">check_input_jump()</a>, <a class="el" href="190A10_8c.html#afb5eed48e00f3509c243cdb7c25a1e34">func_80262130()</a>, <a class="el" href="functions_8h.html#a0d69efec69bb46bb3960c91a7ee65014">handle_floor_behavior()</a>, <a class="el" href="partners_8c.html#abeb3ba9a27c85ef6a6894074c66f7704">partner_get_out()</a>, <a class="el" href="partners_8c.html#a1f083772fcce6b9ae3c8903fa6545384">partner_walking_follow_player()</a>, <a class="el" href="functions_8h.html#a6e1f9b2d250fb5cfcb8283aa50b1a214">phys_adjust_cam_on_landing()</a>, <a class="el" href="functions_8h.html#a6ea28b41033ee628406e5efa892d106f">phys_main_collision_below()</a>, <a class="el" href="functions_8h.html#a79545a0fd59d3c9cd111ac7e36a6ad59">player_handle_floor_collider_type()</a>, <a class="el" href="npc_8h.html#ac31c6aec954127b9ccf2677459d2caee">spawn_surface_effects()</a>, <a class="el" href="functions_8h.html#ac24872fdfc7c6e24f9301db166a9fab1">try_player_footstep_sounds()</a>, <a class="el" href="world_2partner_2parakarry_8c.html#a56321c2cb2aeb020e681a38a883a8a06">update_current_floor()</a>, <a class="el" href="world_2partner_2lakilester_8c.html#adb3c432eab2e298d6204c110f92d26ae">update_riding_physics()</a>, and <a class="el" href="world_2partner_2sushie_8c.html#a6baaf95a5e5f92ebea87e55f6d396399">update_riding_physics()</a>.</p>
 
 </div>
 </div>
@@ -923,7 +895,7 @@ trianglesOffset</td>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="functions_8h.html#a81c2441d5e6c583c3cb8fc46af4db097">entity_raycast_down()</a>, <a class="el" href="npc__collision_8c.html#a652753561b51ca22439146c9caf08363">npc_raycast_down()</a>, <a class="el" href="npc__collision_8c.html#a0c5688c375f229161457362dcdd9b6b6">npc_raycast_general()</a>, <a class="el" href="functions_8h.html#a7d93cd6cc065358569c66dc018e60edc">npc_raycast_up()</a>, <a class="el" href="npc__collision_8c.html#a7dd8ce9f4f10ad79c9eef4a39ed1f635">npc_raycast_up_corner()</a>, <a class="el" href="77480_8c.html#a80ce801a2564e6de25ed65286cd1118e">player_raycast_down()</a>, <a class="el" href="77480_8c.html#aff6a82548c2617b482f6180f075dd2a4">player_raycast_general()</a>, <a class="el" href="77480_8c.html#ac87afc7da285987aa923b53ff903f14d">player_raycast_up_corner()</a>, and <a class="el" href="world_2partner_2sushie_8c.html#ae0e2ee63a17adb646490a97b886f1474">test_ray_to_wall_center()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="functions_8h.html#a81c2441d5e6c583c3cb8fc46af4db097">entity_raycast_down()</a>, <a class="el" href="npc__collision_8c.html#a2b1d684e76354ede05d37885135626d7">npc_raycast_down()</a>, <a class="el" href="npc__collision_8c.html#a0c5688c375f229161457362dcdd9b6b6">npc_raycast_general()</a>, <a class="el" href="functions_8h.html#a7d93cd6cc065358569c66dc018e60edc">npc_raycast_up()</a>, <a class="el" href="npc__collision_8c.html#a7dd8ce9f4f10ad79c9eef4a39ed1f635">npc_raycast_up_corner()</a>, <a class="el" href="77480_8c.html#a43564e77d7f19ce9666dd3ccde6efc78">player_raycast_down()</a>, <a class="el" href="77480_8c.html#a54d1527c8de87efa7c2363a8f2de664c">player_raycast_general()</a>, <a class="el" href="77480_8c.html#a171834e3a482f4eccb426dd63b5376f6">player_raycast_up_corner()</a>, and <a class="el" href="world_2partner_2sushie_8c.html#aa864e893d350cf55dd6f56fab4008cfb">test_ray_to_wall_center()</a>.</p>
 
 </div>
 </div>
@@ -1001,7 +973,28 @@ trianglesOffset</td>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="functions_8h.html#a81c2441d5e6c583c3cb8fc46af4db097">entity_raycast_down()</a>, <a class="el" href="npc__collision_8c.html#a652753561b51ca22439146c9caf08363">npc_raycast_down()</a>, <a class="el" href="npc__collision_8c.html#a0c5688c375f229161457362dcdd9b6b6">npc_raycast_general()</a>, <a class="el" href="functions_8h.html#a7d93cd6cc065358569c66dc018e60edc">npc_raycast_up()</a>, <a class="el" href="npc__collision_8c.html#a7dd8ce9f4f10ad79c9eef4a39ed1f635">npc_raycast_up_corner()</a>, <a class="el" href="77480_8c.html#a80ce801a2564e6de25ed65286cd1118e">player_raycast_down()</a>, <a class="el" href="77480_8c.html#aff6a82548c2617b482f6180f075dd2a4">player_raycast_general()</a>, and <a class="el" href="77480_8c.html#ac87afc7da285987aa923b53ff903f14d">player_raycast_up_corner()</a>.</p>
+<p>Test a general ray from a given starting position and direction against all entities. </p>
+<p>If one is hit, returns the position and normal of the hit and the length along the ray on the output params. All output params are invalid when a value of <code>NO_COLLIDER</code> is returned. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir"></td><td class="paramname">startX</td><td>origin x position of the ray </td></tr>
+    <tr><td class="paramdir"></td><td class="paramname">startY</td><td>origin y position of the ray </td></tr>
+    <tr><td class="paramdir"></td><td class="paramname">startZ</td><td>origin z position of the ray </td></tr>
+    <tr><td class="paramdir"></td><td class="paramname">dirX</td><td>normalized x direction of the ray </td></tr>
+    <tr><td class="paramdir"></td><td class="paramname">dirY</td><td>normalized y direction of the ray </td></tr>
+    <tr><td class="paramdir"></td><td class="paramname">dirZ</td><td>normalized z direction of the ray </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">hitX</td><td>normalized x position of the hit </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">hitY</td><td>normalized y position of the hit </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">hitZ</td><td>normalized z position of the hit </td></tr>
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">hitDepth</td><td>as input, maximum length of the ray; as output, distance along the ray of the hit </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">hitNx</td><td>x normal direction of the hit </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">hitNy</td><td>y normal direction of the hit </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">hitNz</td><td>z normal direction of the hit </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>entity index or <code>NO_COLLIDER</code> is none is hit </dd></dl>
+
+<p class="reference">Referenced by <a class="el" href="functions_8h.html#a81c2441d5e6c583c3cb8fc46af4db097">entity_raycast_down()</a>, <a class="el" href="npc__collision_8c.html#a2b1d684e76354ede05d37885135626d7">npc_raycast_down()</a>, <a class="el" href="npc__collision_8c.html#a0c5688c375f229161457362dcdd9b6b6">npc_raycast_general()</a>, <a class="el" href="functions_8h.html#a7d93cd6cc065358569c66dc018e60edc">npc_raycast_up()</a>, <a class="el" href="npc__collision_8c.html#a7dd8ce9f4f10ad79c9eef4a39ed1f635">npc_raycast_up_corner()</a>, <a class="el" href="77480_8c.html#a43564e77d7f19ce9666dd3ccde6efc78">player_raycast_down()</a>, <a class="el" href="77480_8c.html#a54d1527c8de87efa7c2363a8f2de664c">player_raycast_general()</a>, and <a class="el" href="77480_8c.html#a171834e3a482f4eccb426dd63b5376f6">player_raycast_up_corner()</a>.</p>
 
 </div>
 </div>

@@ -1,11 +1,11 @@
 var dir_e2d04d38627a99d2ea6537a2f179f627 =
 [
+    [ "entity.c", "world_2area__mim_2mim__04_2entity_8c.html", null ],
+    [ "gate.c", "mim__04_2gate_8c.html", null ],
+    [ "hint.c", "mim__04_2hint_8c.html", "mim__04_2hint_8c" ],
+    [ "main.c", "world_2area__mim_2mim__04_2main_8c.html", "world_2area__mim_2mim__04_2main_8c" ],
     [ "mim_04.h", "mim__04_8h.html", "mim__04_8h" ],
-    [ "mim_04_0_header.c", "mim__04__0__header_8c.html", null ],
-    [ "mim_04_1_music.c", "mim__04__1__music_8c.html", null ],
-    [ "mim_04_2_main.c", "mim__04__2__main_8c.html", "mim__04__2__main_8c" ],
-    [ "mim_04_3_entity.c", "mim__04__3__entity_8c.html", null ],
-    [ "mim_04_4_hint.c", "mim__04__4__hint_8c.html", "mim__04__4__hint_8c" ],
-    [ "mim_04_5_gate.c", "mim__04__5__gate_8c.html", null ],
-    [ "mim_04_6_npc.c", "mim__04__6__npc_8c.html", null ]
+    [ "music.c", "area__mim_2mim__04_2music_8c.html", null ],
+    [ "npc.c", "world_2area__mim_2mim__04_2npc_8c.html", null ],
+    [ "settings.c", "area__mim_2mim__04_2settings_8c.html", null ]
 ];

@@ -1,7 +1,7 @@
 var dir_ff0ab60bbe0ecc1edf5b2bae6916ad95 =
 [
     [ "kpa_40.h", "kpa__40_8h.html", "kpa__40_8h" ],
-    [ "kpa_40_0_header.c", "kpa__40__0__header_8c.html", null ],
-    [ "kpa_40_1_music.c", "kpa__40__1__music_8c.html", null ],
-    [ "kpa_40_2_main.c", "kpa__40__2__main_8c.html", null ]
+    [ "main.c", "world_2area__kpa_2kpa__40_2main_8c.html", null ],
+    [ "music.c", "area__kpa_2kpa__40_2music_8c.html", null ],
+    [ "settings.c", "area__kpa_2kpa__40_2settings_8c.html", null ]
 ];

@@ -135,6 +135,7 @@ var NAVTREEINDEX8 =
 "HeartPlant_8h.html":[2,0,1,9,29,2,62],
 "HeartPlant_8h.html#a1372976ac1646d8a64d62ebe8ea6f8a8":[2,0,1,9,29,2,62,0],
 "HeartPlant_8inc_8c.html":[2,0,1,9,29,2,63],
+"HeartPlant_8inc_8c.html#a152c053b50f9a572115d20f93dd60e89":[2,0,1,9,29,2,63,0],
 "HeartPlant__SpawnHeart_8inc_8c.html":[2,0,1,9,29,6,13],
 "HiddenPanel_8c.html":[2,0,1,5,8],
 "HiddenPanel_8c.html#a05a54641b52f92391db94e0de04e79e9":[2,0,1,5,8,12],
@@ -216,6 +217,7 @@ var NAVTREEINDEX8 =
 "HurtPlant_8h.html#a60688894d89a765407465f88dfb78cb4":[2,0,1,9,29,2,65,1],
 "HurtPlant_8h.html#a7f0c7e9e71159fec5268574383827316":[2,0,1,9,29,2,65,0],
 "HurtPlant_8inc_8c.html":[2,0,1,9,29,2,66],
+"HurtPlant_8inc_8c.html#aab88854f19764e003b51f6325b49f5e1":[2,0,1,9,29,2,66,0],
 "HyperCleft_8h.html":[2,0,1,9,29,2,67],
 "HyperCleft_8h.html#a943aa29b5bb689deb0b30b316737f1b4":[2,0,1,9,29,2,67,0],
 "HyperCleft_8h.html#ab156d4ee5df119fda9a521ce85694223":[2,0,1,9,29,2,67,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX8 =
 "IntroMathUtil_8inc_8c.html#abc5397ae0b2c9e74e619888af0aed307":[2,0,1,9,7,0,1,0],
 "IsAOrBPressed_8inc_8c.html":[2,0,1,3,21],
 "IsBerserkerEquipped_8inc_8c.html":[2,0,1,9,29,6,14],
-"IsHammerMaxCharged_8inc_8c.html":[2,0,1,9,29,6,15],
-"IsItemBadge_8inc_8c.html":[2,0,1,9,29,6,16],
-"IsJumpMaxCharged_8inc_8c.html":[2,0,1,9,29,6,17]
+"IsHammerMaxCharged_8inc_8c.html":[2,0,1,9,29,6,15]
 };

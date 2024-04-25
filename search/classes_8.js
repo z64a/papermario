@@ -1,7 +1,7 @@
 var searchData=
 [
   ['icepillarfxdata_0',['IcePillarFXData',['../effects_8h.html#structIcePillarFXData',1,'']]],
-  ['iceshard_1',['IceShard',['../sam__07__4__frozen__pit_8c.html#structIceShard',1,'']]],
+  ['iceshard_1',['IceShard',['../frozen__pit_8c.html#structIceShard',1,'']]],
   ['iceshardfxdata_2',['IceShardFXData',['../effects_8h.html#structIceShardFXData',1,'']]],
   ['iconhudscriptpair_3',['IconHudScriptPair',['../hud__element_8h.html#structIconHudScriptPair',1,'']]],
   ['imgfxanimheader_4',['ImgFXAnimHeader',['../imgfx_8h.html#structImgFXAnimHeader',1,'']]],
@@ -23,8 +23,8 @@ var searchData=
   ['imgfxtexture_20',['ImgFXTexture',['../common__structs_8h.html#structImgFXTexture',1,'']]],
   ['imgfxvtx_21',['ImgFXVtx',['../imgfx_8h.html#structImgFXVtx',1,'']]],
   ['imgfxworkingtexture_22',['ImgFXWorkingTexture',['../common__structs_8h.html#structImgFXWorkingTexture',1,'']]],
-  ['imprisonedcard_23',['ImprisonedCard',['../obk__09__4__npc_8c.html#structImprisonedCard',1,'']]],
-  ['ingredientsouce_24',['IngredientSouce',['../kkj__19__2__main_8c.html#structIngredientSouce',1,'']]],
+  ['imprisonedcard_23',['ImprisonedCard',['../world_2area__obk_2obk__09_2npc_8c.html#structImprisonedCard',1,'']]],
+  ['ingredientsouce_24',['IngredientSouce',['../world_2area__kkj_2kkj__19_2main_8c.html#structIngredientSouce',1,'']]],
   ['initheader_25',['INITHeader',['../audio_8h.html#structINITHeader',1,'']]],
   ['initsongentry_26',['InitSongEntry',['../audio_8h.html#structInitSongEntry',1,'']]],
   ['inspecticondata_27',['InspectIconData',['../inspect__icon_8c.html#structInspectIconData',1,'']]],

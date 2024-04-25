@@ -2,7 +2,7 @@ var searchData=
 [
   ['magikoopateleportanim_0',['MagikoopaTeleportAnim',['../MagikoopaAI_8inc_8c.html#structMagikoopaTeleportAnim',1,'']]],
   ['mapconfig_1',['MapConfig',['../map_8h.html#structMapConfig',1,'']]],
-  ['maproom_2',['MapRoom',['../rooms_8c.html#structMapRoom',1,'']]],
+  ['maproom_2',['MapRoom',['../script__api_2rooms_8c.html#structMapRoom',1,'']]],
   ['mapsettings_3',['MapSettings',['../map_8h.html#structMapSettings',1,'']]],
   ['mapsettings_2etattle_4',['MapSettings.tattle',['../unionMapSettings_8tattle.html',1,'']]],
   ['matrix4s_5',['Matrix4s',['../common__structs_8h.html#structMatrix4s',1,'']]],
@@ -34,7 +34,7 @@ var searchData=
   ['modeltreeinfo_31',['ModelTreeInfo',['../model_8h.html#structModelTreeInfo',1,'']]],
   ['motionblurflamefxdata_32',['MotionBlurFlameFXData',['../effects_8h.html#structMotionBlurFlameFXData',1,'']]],
   ['movedata_33',['MoveData',['../common__structs_8h.html#structMoveData',1,'']]],
-  ['movingblock_34',['MovingBlock',['../omo__09__5__gizmos_8c.html#structMovingBlock',1,'']]],
+  ['movingblock_34',['MovingBlock',['../omo__09_2gizmos_8c.html#structMovingBlock',1,'']]],
   ['movingcloudfxdata_35',['MovingCloudFXData',['../effects_8h.html#structMovingCloudFXData',1,'']]],
   ['mseqheader_36',['MSEQHeader',['../audio_8h.html#structMSEQHeader',1,'']]],
   ['mseqtrackdata_37',['MSEQTrackData',['../audio_8h.html#structMSEQTrackData',1,'']]],

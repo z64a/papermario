@@ -1,8 +1,8 @@
 var dir_201bccad10df307b23b15f8aedd71a8f =
 [
+    [ "main.c", "world_2area__osr_2osr__01_2main_8c.html", null ],
+    [ "music.c", "area__osr_2osr__01_2music_8c.html", null ],
+    [ "npc.c", "world_2area__osr_2osr__01_2npc_8c.html", null ],
     [ "osr_01.h", "osr__01_8h.html", "osr__01_8h" ],
-    [ "osr_01_0_header.c", "osr__01__0__header_8c.html", "osr__01__0__header_8c" ],
-    [ "osr_01_1_music.c", "osr__01__1__music_8c.html", null ],
-    [ "osr_01_2_main.c", "osr__01__2__main_8c.html", null ],
-    [ "osr_01_3_npc.c", "osr__01__3__npc_8c.html", null ]
+    [ "settings.c", "area__osr_2osr__01_2settings_8c.html", "area__osr_2osr__01_2settings_8c" ]
 ];

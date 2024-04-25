@@ -11,7 +11,6 @@ var engine1__pre__bss_8c =
     [ "D_8010C948", "engine1__pre__bss_8c.html#af694cc651bdef93e11b3b5a97c444c80", null ],
     [ "D_8010C950", "engine1__pre__bss_8c.html#a33aefa80bd4cce7050b7f1e8de013a58", null ],
     [ "D_8010C964", "engine1__pre__bss_8c.html#ab6f9346feed3dda3fc7c3446af9ab4e9", null ],
-    [ "D_8010C984", "engine1__pre__bss_8c.html#aa49ce9370b03ffcf092007942a0ccf11", null ],
     [ "D_8010C988", "engine1__pre__bss_8c.html#ac02688209c1deda6c1b8d4232e8bbdd0", null ],
     [ "gSpinHistoryBufferPos", "engine1__pre__bss_8c.html#aa33e30e038720bdf2c11767fa2fcfb9e", null ],
     [ "JumpedOnSwitchX", "engine1__pre__bss_8c.html#af51626c2b3024f00da825b5e17b2b4e4", null ],
@@ -27,6 +26,7 @@ var engine1__pre__bss_8c =
     [ "PlayerNormalYaw", "engine1__pre__bss_8c.html#ac154617bf033e5c4fda94f09a45e1e14", null ],
     [ "PlayerRunStateTime", "engine1__pre__bss_8c.html#a3c534ce8e6e45cce6c3f6ed5729c7970", null ],
     [ "PrevPlayerDirection", "engine1__pre__bss_8c.html#a37f9a325650c2bea2922602c5122d21f", null ],
+    [ "StepUpLastYaw", "engine1__pre__bss_8c.html#a51927661b7513a4cb7884e2d0feba083", null ],
     [ "TweesterTouchingPartner", "engine1__pre__bss_8c.html#adfbb10cd0b6129be267bd61632b4d224", null ],
     [ "TweesterTouchingPlayer", "engine1__pre__bss_8c.html#a129776564f318df11b26085753d3c604", null ],
     [ "wPartnerNpc", "engine1__pre__bss_8c.html#af303bdb5f5abb8a80fd813923591ddab", null ]

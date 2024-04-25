@@ -7,10 +7,10 @@ var default_2BombableRock_8c =
     [ "entity_BombableRock_update_fragments", "default_2BombableRock_8c.html#aa80819f7454ba141b8c56d87421a15e7", null ],
     [ "MATCHING_BSS", "default_2BombableRock_8c.html#a700a074b8910473c5087c7aea7051398", null ],
     [ "Entity_BombableRock", "default_2BombableRock_8c.html#a0a590da185a8595d936011977dad9cc5", null ],
-    [ "Entity_BombableRock2", "default_2BombableRock_8c.html#a65da91accbc4fb8300c46656a64111ea", null ],
     [ "Entity_BombableRock_FragmentMatrices", "default_2BombableRock_8c.html#a3477225c61bdb47854c88c8c97ce81c3", null ],
     [ "Entity_BombableRock_FragmentsRender", "default_2BombableRock_8c.html#a5cc54040cd677ae9f3369a3fb04a3165", null ],
     [ "Entity_BombableRock_RenderScript", "default_2BombableRock_8c.html#a1284a4bc55880d1273788487ff1c94da", null ],
     [ "Entity_BombableRock_Script", "default_2BombableRock_8c.html#aac0c77fedf52e3bb7ce68987a75a982d", null ],
+    [ "Entity_BombableRockWide", "default_2BombableRock_8c.html#aaeac30f5ce8ebf05d587184bafce0945", null ],
     [ "Entity_RenderNone", "default_2BombableRock_8c.html#ace44887f3690d4b3322b7d6d444f9664", null ]
 ];

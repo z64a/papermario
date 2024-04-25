@@ -1,8 +1,8 @@
 var dir_fd3152888d0584eee43ece286ea518a9 =
 [
+    [ "entity.c", "world_2area__kpa_2kpa__119_2entity_8c.html", null ],
     [ "kpa_119.h", "kpa__119_8h.html", "kpa__119_8h" ],
-    [ "kpa_119_0_header.c", "kpa__119__0__header_8c.html", null ],
-    [ "kpa_119_1_music.c", "kpa__119__1__music_8c.html", null ],
-    [ "kpa_119_2_entity.c", "kpa__119__2__entity_8c.html", null ],
-    [ "kpa_119_3_main.c", "kpa__119__3__main_8c.html", null ]
+    [ "main.c", "world_2area__kpa_2kpa__119_2main_8c.html", null ],
+    [ "music.c", "area__kpa_2kpa__119_2music_8c.html", null ],
+    [ "settings.c", "area__kpa_2kpa__119_2settings_8c.html", null ]
 ];

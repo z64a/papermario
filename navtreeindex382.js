@@ -1,5 +1,8 @@
 var NAVTREEINDEX382 =
 {
+"world_8c.html#a9a86f09cc592aa523d32cabdb8487dcb":[2,0,1,9,40,41],
+"world_8c.html#a9c722d43ab58e3bac0ec86c57c63edcd":[2,0,1,9,40,4],
+"world_8c.html#aa92c7d778679af01e279a658fa05b703":[2,0,1,9,40,24],
 "world_8c.html#aaae41eb19079e089e6a288179219823f":[2,0,1,9,40,3],
 "world_8c.html#aafc92ac8ba2b2a1276991f6c030d6935":[2,0,1,9,40,15],
 "world_8c.html#ab34930cf704009e4928d3a3235fb8820":[2,0,1,9,40,42],
@@ -61,5 +64,7 @@ var NAVTREEINDEX382 =
 "yellow__shy__guy_8inc_8c.html#af22064e0008b0c8a906acb9fdc8bb6b1":[2,0,1,1,2,0,73,3],
 "yellow__shy__guy_8inc_8c.html#af26d719bce0752f76fe80c4a32c6b918":[2,0,1,1,2,0,73,6],
 "yellow__shy__guy_8inc_8c.html#af89e386ce61edc488d0aa3323ebee4b3":[2,0,1,1,2,0,73,18],
-"yellow__shy__guy_8inc_8c.html#afa7779fe56b160955b535cd6a8aaf8f4":[2,0,1,1,2,0,73,22]
+"yellow__shy__guy_8inc_8c.html#afa7779fe56b160955b535cd6a8aaf8f4":[2,0,1,1,2,0,73,22],
+"yoshis_8c.html":[2,0,1,9,4,1,18],
+"ziplines_8c.html":[2,0,1,9,15,3,5]
 };

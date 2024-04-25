@@ -7,7 +7,7 @@ var world_2partner_2sushie_8c =
     [ "post_battle", "world_2partner_2sushie_8c.html#a222ccb5f0477b2d02d95ffa143cf702f", null ],
     [ "pre_battle", "world_2partner_2sushie_8c.html#ab9fa08b4e2a546a967571f32b00aa055", null ],
     [ "test_for_water_level", "world_2partner_2sushie_8c.html#a5b8d6d7f547ef2cbf97561d4f41632ce", null ],
-    [ "test_ray_to_wall_center", "world_2partner_2sushie_8c.html#ae0e2ee63a17adb646490a97b886f1474", null ],
+    [ "test_ray_to_wall_center", "world_2partner_2sushie_8c.html#aa864e893d350cf55dd6f56fab4008cfb", null ],
     [ "try_cancel_tweester", "world_2partner_2sushie_8c.html#a1281194059103a00d41f3fa4f3b7689c", null ],
     [ "update_riding_physics", "world_2partner_2sushie_8c.html#a6baaf95a5e5f92ebea87e55f6d396399", null ],
     [ "EVS_WorldSushie_EnterMap", "world_2partner_2sushie_8c.html#a14f88067dba76692e4eabfe5d4ad94e5", null ],

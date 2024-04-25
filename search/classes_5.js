@@ -3,7 +3,7 @@ var searchData=
   ['fade_0',['Fade',['../audio_8h.html#structFade',1,'']]],
   ['fade_2e_5f_5funnamed77_5f_5f_1',['Fade.__unnamed77__',['../audio_8h.html#unionFade_8____unnamed77____',1,'']]],
   ['fallingleavesfxdata_2',['FallingLeavesFXData',['../effects_8h.html#structFallingLeavesFXData',1,'']]],
-  ['fallingsprite_3',['FallingSprite',['../trd__06__2__falling_8c.html#structFallingSprite',1,'']]],
+  ['fallingsprite_3',['FallingSprite',['../falling_8c.html#structFallingSprite',1,'']]],
   ['fieldstatus_4',['FieldStatus',['../npc_8h.html#structFieldStatus',1,'']]],
   ['firebaraisettings_5',['FireBarAISettings',['../npc_8h.html#structFireBarAISettings',1,'']]],
   ['firebardata_6',['FireBarData',['../npc_8h.html#structFireBarData',1,'']]],
@@ -31,6 +31,6 @@ var searchData=
   ['formationrow_28',['FormationRow',['../src_2battle_2battle_8h.html#structFormationRow',1,'']]],
   ['formationrow_2ehome_29',['FormationRow.home',['../src_2battle_2battle_8h.html#unionFormationRow_8home',1,'']]],
   ['frightjarfxdata_30',['FrightJarFXData',['../effects_8h.html#structFrightJarFXData',1,'']]],
-  ['fuzzythread_31',['FuzzyThread',['../nok__04__4__npc_8c.html#structFuzzyThread',1,'']]],
+  ['fuzzythread_31',['FuzzyThread',['../world_2area__nok_2nok__04_2npc_8c.html#structFuzzyThread',1,'']]],
   ['fxlightningboltstate_32',['FxLightningBoltState',['../UnkLightningBoltFxFunc1_8inc_8c.html#structFxLightningBoltState',1,'']]]
 ];

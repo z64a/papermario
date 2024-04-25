@@ -1,11 +1,11 @@
 var dir_0aef77ca946791cf7d07f470b78e422c =
 [
+    [ "entity.c", "world_2area__omo_2omo__04_2entity_8c.html", null ],
+    [ "gizmos.c", "omo__04_2gizmos_8c.html", null ],
+    [ "main.c", "world_2area__omo_2omo__04_2main_8c.html", "world_2area__omo_2omo__04_2main_8c" ],
+    [ "music.c", "area__omo_2omo__04_2music_8c.html", null ],
+    [ "npc.c", "world_2area__omo_2omo__04_2npc_8c.html", null ],
     [ "omo_04.h", "omo__04_8h.html", "omo__04_8h" ],
-    [ "omo_04_0_header.c", "omo__04__0__header_8c.html", null ],
-    [ "omo_04_1_music.c", "omo__04__1__music_8c.html", null ],
-    [ "omo_04_2_main.c", "omo__04__2__main_8c.html", "omo__04__2__main_8c" ],
-    [ "omo_04_3_gizmos.c", "omo__04__3__gizmos_8c.html", null ],
-    [ "omo_04_4_entity.c", "omo__04__4__entity_8c.html", null ],
-    [ "omo_04_5_npc.c", "omo__04__5__npc_8c.html", null ],
-    [ "omo_04_6_scenes.c", "omo__04__6__scenes_8c.html", "omo__04__6__scenes_8c" ]
+    [ "scenes.c", "area__omo_2omo__04_2scenes_8c.html", "area__omo_2omo__04_2scenes_8c" ],
+    [ "settings.c", "area__omo_2omo__04_2settings_8c.html", null ]
 ];

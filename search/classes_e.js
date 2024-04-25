@@ -17,7 +17,7 @@ var searchData=
   ['peachstarbeamspirit_14',['PeachStarBeamSpirit',['../effects_8h.html#structPeachStarBeamSpirit',1,'']]],
   ['perentry_15',['PEREntry',['../audio_8h.html#structPEREntry',1,'']]],
   ['perheader_16',['PERHeader',['../audio_8h.html#structPERHeader',1,'']]],
-  ['phonographdata_17',['PhonographData',['../obk__07__6__phonograph_8c.html#structPhonographData',1,'']]],
+  ['phonographdata_17',['PhonographData',['../phonograph_8c.html#structPhonographData',1,'']]],
   ['pinkflowerdata_18',['PinkFlowerData',['../entity_8h.html#structPinkFlowerData',1,'']]],
   ['pinksparklesfxdata_19',['PinkSparklesFXData',['../effects_8h.html#structPinkSparklesFXData',1,'']]],
   ['playercelebrationanimoptions_20',['PlayerCelebrationAnimOptions',['../src_2battle_2battle_8h.html#structPlayerCelebrationAnimOptions',1,'']]],

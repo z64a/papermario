@@ -1066,12 +1066,8 @@ var common__structs_8h =
       [ "pos", "common__structs_8h.html#a32b3a1ef56ed75abb95937f327d70400", null ]
     ] ],
     [ "BombTrigger", "common__structs_8h.html#structBombTrigger", [
-      [ "pos", "common__structs_8h.html#ad44166b2ea5c0b1fc7f5f78267ba040a", null ],
-      [ "radius", "common__structs_8h.html#af3d6cc6a52e357895d43046e8f2ee253", null ]
-    ] ],
-    [ "BombTriggerF", "common__structs_8h.html#structBombTriggerF", [
-      [ "pos", "common__structs_8h.html#a94718c746025eb4b7096f2314b666ab8", null ],
-      [ "radius", "common__structs_8h.html#af1276248a46e8e9b443e8a14a300f7bc", null ]
+      [ "diameter", "common__structs_8h.html#ab495b6c11d6ec42f30d765aca390d283", null ],
+      [ "pos", "common__structs_8h.html#ad44166b2ea5c0b1fc7f5f78267ba040a", null ]
     ] ],
     [ "AnimatedModel", "common__structs_8h.html#structAnimatedModel", [
       [ "animModelID", "common__structs_8h.html#abfac4de57fef8326831119972678ee75", null ],
@@ -1730,8 +1726,8 @@ var common__structs_8h =
       [ "quizmo", "common__structs_8h.html#a2d62810cceba03d6c9e59d37822373f7", null ]
     ] ],
     [ "Trigger.location", "common__structs_8h.html#unionTrigger_8location", [
-      [ "colliderID", "common__structs_8h.html#aa47d3bd8551e0e842a2055c2aea60159", null ],
-      [ "pos", "common__structs_8h.html#a5e0bdcbddccca4d66d74ba8c1cee1a68", null ]
+      [ "blast", "common__structs_8h.html#a9e1b93b20faf4a4798c106c0db299473", null ],
+      [ "colliderID", "common__structs_8h.html#aa47d3bd8551e0e842a2055c2aea60159", null ]
     ] ],
     [ "Trigger.__unnamed5__", "common__structs_8h.html#unionTrigger_8____unnamed5____", [
       [ "varTable", "common__structs_8h.html#aa69f276b60e03e8633cf3c89e616a1cc", null ],

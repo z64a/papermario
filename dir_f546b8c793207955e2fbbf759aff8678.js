@@ -1,10 +1,10 @@
 var dir_f546b8c793207955e2fbbf759aff8678 =
 [
+    [ "entity.c", "world_2area__kmr_2kmr__10_2entity_8c.html", null ],
+    [ "foliage.c", "area__kmr_2kmr__10_2foliage_8c.html", null ],
     [ "kmr_10.h", "kmr__10_8h.html", "kmr__10_8h" ],
-    [ "kmr_10_0_header.c", "kmr__10__0__header_8c.html", null ],
-    [ "kmr_10_1_music.c", "kmr__10__1__music_8c.html", null ],
-    [ "kmr_10_2_main.c", "kmr__10__2__main_8c.html", null ],
-    [ "kmr_10_3_npc.c", "kmr__10__3__npc_8c.html", null ],
-    [ "kmr_10_4_entity.c", "kmr__10__4__entity_8c.html", null ],
-    [ "kmr_10_5_foliage.c", "kmr__10__5__foliage_8c.html", null ]
+    [ "main.c", "world_2area__kmr_2kmr__10_2main_8c.html", null ],
+    [ "music.c", "area__kmr_2kmr__10_2music_8c.html", null ],
+    [ "npc.c", "world_2area__kmr_2kmr__10_2npc_8c.html", null ],
+    [ "settings.c", "area__kmr_2kmr__10_2settings_8c.html", null ]
 ];

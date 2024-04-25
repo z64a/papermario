@@ -1,4 +1,0 @@
-var kkj__23__5__scene_8c =
-[
-    [ "peach_force_disguise_action", "kkj__23__5__scene_8c.html#aa6ae1a2fb274a1db2c76c37c9b376691", null ]
-];

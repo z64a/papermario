@@ -1,6 +1,6 @@
 var dir_299f71991a0f417b9914eebde7ebcbba =
 [
     [ "kmr_21.h", "kmr__21_8h.html", "kmr__21_8h" ],
-    [ "kmr_21_0_header.c", "kmr__21__0__header_8c.html", "kmr__21__0__header_8c" ],
-    [ "kmr_21_1_main.c", "kmr__21__1__main_8c.html", "kmr__21__1__main_8c" ]
+    [ "main.c", "world_2area__kmr_2kmr__21_2main_8c.html", "world_2area__kmr_2kmr__21_2main_8c" ],
+    [ "settings.c", "area__kmr_2kmr__21_2settings_8c.html", "area__kmr_2kmr__21_2settings_8c" ]
 ];

@@ -15,7 +15,7 @@ var searchData=
   ['emotefxdata_12',['EmoteFXData',['../effects_8h.html#structEmoteFXData',1,'']]],
   ['encounter_13',['Encounter',['../npc_8h.html#structEncounter',1,'']]],
   ['encounterstatus_14',['EncounterStatus',['../npc_8h.html#structEncounterStatus',1,'']]],
-  ['endchapter_15',['EndChapter',['../kmr__23__2__npc_8c.html#structEndChapter',1,'']]],
+  ['endchapter_15',['EndChapter',['../world_2area__kmr_2kmr__23_2npc_8c.html#structEndChapter',1,'']]],
   ['endingdecalsfxdata_16',['EndingDecalsFXData',['../effects_8h.html#structEndingDecalsFXData',1,'']]],
   ['enemy_17',['Enemy',['../npc_8h.html#structEnemy',1,'']]],
   ['enemy_2e_5f_5funnamed45_5f_5f_18',['Enemy.__unnamed45__',['../npc_8h.html#unionEnemy_8____unnamed45____',1,'']]],

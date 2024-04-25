@@ -1,6 +1,7 @@
 var npc_8c =
 [
     [ "PAL_ANIM_END", "npc_8c.html#a95d94fdce8c58c8e6e7d83be6febd4f3", null ],
+    [ "RGBA_BUF_SIZE", "npc_8c.html#a44d8651fd1d550432d4349952e66c942", null ],
     [ "PalSwapState", "npc_8c.html#a59121e75e92cf38ad5f16044822e66ab", [
       [ "PAL_SWAP_HOLD_A", "npc_8c.html#a59121e75e92cf38ad5f16044822e66aba3898ea0ac33a937bcfc91594ceb49d40", null ],
       [ "PAL_SWAP_A_TO_B", "npc_8c.html#a59121e75e92cf38ad5f16044822e66abab84a086eb3e1aad7fd5a8f7cd0c1c198", null ],

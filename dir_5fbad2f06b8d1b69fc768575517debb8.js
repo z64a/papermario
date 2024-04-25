@@ -1,8 +1,8 @@
 var dir_5fbad2f06b8d1b69fc768575517debb8 =
 [
-    [ "tik_25.h", "tik__25_8h.html", "tik__25_8h" ],
-    [ "tik_25_0_header.c", "tik__25__0__header_8c.html", null ],
-    [ "tik_25_1_music.c", "tik__25__1__music_8c.html", null ],
-    [ "tik_25_2_main.c", "tik__25__2__main_8c.html", "tik__25__2__main_8c" ],
-    [ "tik_25_3_entity.c", "tik__25__3__entity_8c.html", null ]
+    [ "entity.c", "world_2area__tik_2tik__25_2entity_8c.html", null ],
+    [ "main.c", "world_2area__tik_2tik__25_2main_8c.html", "world_2area__tik_2tik__25_2main_8c" ],
+    [ "music.c", "area__tik_2tik__25_2music_8c.html", null ],
+    [ "settings.c", "area__tik_2tik__25_2settings_8c.html", null ],
+    [ "tik_25.h", "tik__25_8h.html", "tik__25_8h" ]
 ];

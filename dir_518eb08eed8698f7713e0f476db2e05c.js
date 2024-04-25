@@ -1,6 +1,6 @@
 var dir_518eb08eed8698f7713e0f476db2e05c =
 [
-    [ "sbk_14.h", "sbk__14_8h.html", "sbk__14_8h" ],
-    [ "sbk_14_1_main.c", "sbk__14__1__main_8c.html", null ],
-    [ "sbk_14_2_entity.c", "sbk__14__2__entity_8c.html", null ]
+    [ "entity.c", "world_2area__sbk_2sbk__14_2entity_8c.html", null ],
+    [ "main.c", "world_2area__sbk_2sbk__14_2main_8c.html", null ],
+    [ "sbk_14.h", "sbk__14_8h.html", "sbk__14_8h" ]
 ];

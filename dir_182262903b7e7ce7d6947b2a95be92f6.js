@@ -1,10 +1,10 @@
 var dir_182262903b7e7ce7d6947b2a95be92f6 =
 [
+    [ "entity.c", "world_2dead_2area__flo_2flo__15_2entity_8c.html", null ],
     [ "flo_15.h", "dead_2area__flo_2flo__15_2flo__15_8h.html", "dead_2area__flo_2flo__15_2flo__15_8h" ],
-    [ "flo_15_0_header.c", "dead_2area__flo_2flo__15_2flo__15__0__header_8c.html", null ],
-    [ "flo_15_1_music.c", "dead_2area__flo_2flo__15_2flo__15__1__music_8c.html", null ],
-    [ "flo_15_2_main.c", "dead_2area__flo_2flo__15_2flo__15__2__main_8c.html", null ],
-    [ "flo_15_3_npc.c", "dead_2area__flo_2flo__15_2flo__15__3__npc_8c.html", null ],
-    [ "flo_15_4_entity.c", "dead_2area__flo_2flo__15_2flo__15__4__entity_8c.html", null ],
-    [ "flo_15_5_stairs.c", "dead_2area__flo_2flo__15_2flo__15__5__stairs_8c.html", null ]
+    [ "main.c", "world_2dead_2area__flo_2flo__15_2main_8c.html", null ],
+    [ "music.c", "dead_2area__flo_2flo__15_2music_8c.html", null ],
+    [ "npc.c", "world_2dead_2area__flo_2flo__15_2npc_8c.html", null ],
+    [ "settings.c", "dead_2area__flo_2flo__15_2settings_8c.html", null ],
+    [ "stairs.c", "dead_2area__flo_2flo__15_2stairs_8c.html", null ]
 ];

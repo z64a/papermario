@@ -135,8 +135,8 @@ Variables</h2></td></tr>
 <tr class="separator:a1acdc9b50c2c6aaf6055cd336d7eab2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8a2319da0fb5277f5578e4b25fbfca97" id="r_a8a2319da0fb5277f5578e4b25fbfca97"><td class="memItemLeft" align="right" valign="top"><a class="el" href="model_8h.html#structShapeFile">ShapeFile</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8a2319da0fb5277f5578e4b25fbfca97">gMapShapeData</a></td></tr>
 <tr class="separator:a8a2319da0fb5277f5578e4b25fbfca97"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aead4ee9a03ff8f092ff5d6cab97510ae" id="r_aead4ee9a03ff8f092ff5d6cab97510ae"><td class="memItemLeft" align="right" valign="top">NUPiOverlaySegment&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aead4ee9a03ff8f092ff5d6cab97510ae">D_8007795C</a></td></tr>
-<tr class="separator:aead4ee9a03ff8f092ff5d6cab97510ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a11f6cb0b65b2c4b355e82b3268675a07" id="r_a11f6cb0b65b2c4b355e82b3268675a07"><td class="memItemLeft" align="right" valign="top">NUPiOverlaySegment&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a11f6cb0b65b2c4b355e82b3268675a07">PauseOverlaySegment</a></td></tr>
+<tr class="separator:a11f6cb0b65b2c4b355e82b3268675a07"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a17160300c30dbbc44c53d0153585a2d6" id="r_a17160300c30dbbc44c53d0153585a2d6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="macros_8h.html#a476baf4669c951eb7864d94f15a49f75">BSS</a> s8&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a17160300c30dbbc44c53d0153585a2d6">StepPauseDelay</a></td></tr>
 <tr class="separator:a17160300c30dbbc44c53d0153585a2d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab4a0789c5c78b28a52f9442958ed77c9" id="r_ab4a0789c5c78b28a52f9442958ed77c9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="macros_8h.html#a476baf4669c951eb7864d94f15a49f75">BSS</a> s8&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab4a0789c5c78b28a52f9442958ed77c9">StepPauseState</a></td></tr>
@@ -252,33 +252,6 @@ Variables</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Variable Documentation</h2>
-<a id="aead4ee9a03ff8f092ff5d6cab97510ae" name="aead4ee9a03ff8f092ff5d6cab97510ae"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aead4ee9a03ff8f092ff5d6cab97510ae">&#9670;&#160;</a></span>D_8007795C</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">NUPiOverlaySegment D_8007795C</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line">    .romStart = pause_ROM_START,</div>
-<div class="line">    .romEnd = pause_ROM_END,</div>
-<div class="line">    .ramStart = pause_VRAM,</div>
-<div class="line">    .textStart = pause_TEXT_START,</div>
-<div class="line">    .textEnd = pause_TEXT_END,</div>
-<div class="line">    .dataStart = pause_DATA_START,</div>
-<div class="line">    .dataEnd = pause_RODATA_END,</div>
-<div class="line">    .bssStart = pause_BSS_START,</div>
-<div class="line">    .bssEnd = pause_BSS_END,</div>
-<div class="line">}</div>
-</div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="functions_8h.html#a3eeddec59439e048fc2c214a325fd22b">state_step_pause()</a>.</p>
-
-</div>
-</div>
 <a id="ac7735feb934aa6929f8f68e44a7d613c" name="ac7735feb934aa6929f8f68e44a7d613c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac7735feb934aa6929f8f68e44a7d613c">&#9670;&#160;</a></span>D_80200000</h2>
 
@@ -406,6 +379,33 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="reference">Referenced by <a class="el" href="functions_8h.html#a3eeddec59439e048fc2c214a325fd22b">state_step_pause()</a>, and <a class="el" href="functions_8h.html#a2280cc77cce96dea77678e339eea1f67">state_step_unpause()</a>.</p>
+
+</div>
+</div>
+<a id="a11f6cb0b65b2c4b355e82b3268675a07" name="a11f6cb0b65b2c4b355e82b3268675a07"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a11f6cb0b65b2c4b355e82b3268675a07">&#9670;&#160;</a></span>PauseOverlaySegment</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">NUPiOverlaySegment PauseOverlaySegment</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">= {</div>
+<div class="line">    .romStart = pause_ROM_START,</div>
+<div class="line">    .romEnd = pause_ROM_END,</div>
+<div class="line">    .ramStart = pause_VRAM,</div>
+<div class="line">    .textStart = pause_TEXT_START,</div>
+<div class="line">    .textEnd = pause_TEXT_END,</div>
+<div class="line">    .dataStart = pause_DATA_START,</div>
+<div class="line">    .dataEnd = pause_RODATA_END,</div>
+<div class="line">    .bssStart = pause_BSS_START,</div>
+<div class="line">    .bssEnd = pause_BSS_END,</div>
+<div class="line">}</div>
+</div><!-- fragment -->
+<p class="reference">Referenced by <a class="el" href="functions_8h.html#a3eeddec59439e048fc2c214a325fd22b">state_step_pause()</a>.</p>
 
 </div>
 </div>

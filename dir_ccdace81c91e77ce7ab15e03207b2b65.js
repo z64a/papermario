@@ -1,10 +1,10 @@
 var dir_ccdace81c91e77ce7ab15e03207b2b65 =
 [
-    [ "tik_15.h", "tik__15_8h.html", "tik__15_8h" ],
-    [ "tik_15_0_header.c", "tik__15__0__header_8c.html", null ],
-    [ "tik_15_1_music.c", "tik__15__1__music_8c.html", null ],
-    [ "tik_15_2_main.c", "tik__15__2__main_8c.html", null ],
-    [ "tik_15_3_entity.c", "tik__15__3__entity_8c.html", null ],
-    [ "tik_15_4_drips.c", "tik__15__4__drips_8c.html", "tik__15__4__drips_8c" ],
-    [ "tik_15_5_npc.c", "tik__15__5__npc_8c.html", "tik__15__5__npc_8c" ]
+    [ "drips.c", "tik__15_2drips_8c.html", "tik__15_2drips_8c" ],
+    [ "entity.c", "world_2area__tik_2tik__15_2entity_8c.html", null ],
+    [ "main.c", "world_2area__tik_2tik__15_2main_8c.html", null ],
+    [ "music.c", "area__tik_2tik__15_2music_8c.html", null ],
+    [ "npc.c", "world_2area__tik_2tik__15_2npc_8c.html", "world_2area__tik_2tik__15_2npc_8c" ],
+    [ "settings.c", "area__tik_2tik__15_2settings_8c.html", null ],
+    [ "tik_15.h", "tik__15_8h.html", "tik__15_8h" ]
 ];

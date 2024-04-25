@@ -1,6 +1,6 @@
 var dir_9c9eb8f33051147b1962f4da637b0d2c =
 [
     [ "kkj_28.h", "kkj__28_8h.html", "kkj__28_8h" ],
-    [ "kkj_28_0_header.c", "kkj__28__0__header_8c.html", null ],
-    [ "kkj_28_1_main.c", "kkj__28__1__main_8c.html", null ]
+    [ "main.c", "world_2area__kkj_2kkj__28_2main_8c.html", null ],
+    [ "settings.c", "area__kkj_2kkj__28_2settings_8c.html", null ]
 ];

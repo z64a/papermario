@@ -1,5 +1,8 @@
 var NAVTREEINDEX14 =
 {
+"ShatteringHammer3Block_8c.html#a891c0f22e1d206e979926499447b0ed1":[2,0,1,5,2,56,44],
+"ShatteringHammer3Block_8c.html#a8ebb43651cb5d6331d4ecc35d71863f2":[2,0,1,5,2,56,50],
+"ShatteringHammer3Block_8c.html#a956e542c9d8b999f6334b4405b77bd62":[2,0,1,5,2,56,67],
 "ShatteringHammer3Block_8c.html#a96d87db7045a87e78170681737a062b9":[2,0,1,5,2,56,76],
 "ShatteringHammer3Block_8c.html#a97013f1e5c62d97df17a5005380b2ddf":[2,0,1,5,2,56,82],
 "ShatteringHammer3Block_8c.html#aa408bafcbd08a29eafc019cf39b5525a":[2,0,1,5,2,56,39],
@@ -246,8 +249,5 @@ var NAVTREEINDEX14 =
 "StarSpirit__Wander_8inc_8c.html":[2,0,1,9,29,5,78],
 "StartRumbleWithParams_8inc_8c.html":[2,0,1,3,39],
 "StashVars_8inc_8c.html":[2,0,1,9,29,6,34],
-"States__PatrolAI_8inc_8c.html":[2,0,1,9,29,2,0,29],
-"States__PatrolAI_8inc_8c.html#a0734753ad39bff4392471dce34a31500":[2,0,1,9,29,2,0,29,9],
-"States__PatrolAI_8inc_8c.html#a2e604a65c17f3699cf4a1c9e1325e8c7":[2,0,1,9,29,2,0,29,10],
-"States__PatrolAI_8inc_8c.html#a492fdcc156a5bb4c60d5957747145a20":[2,0,1,9,29,2,0,29,5]
+"States__PatrolAI_8inc_8c.html":[2,0,1,9,29,2,0,29]
 };

@@ -1,11 +1,11 @@
 var dir_a53f719382b243460fa4c59d5f945160 =
 [
-    [ "tik_07.h", "tik__07_8h.html", "tik__07_8h" ],
-    [ "tik_07_0_header.c", "tik__07__0__header_8c.html", null ],
-    [ "tik_07_1_music.c", "tik__07__1__music_8c.html", null ],
-    [ "tik_07_2_main.c", "tik__07__2__main_8c.html", null ],
-    [ "tik_07_3_entity.c", "tik__07__3__entity_8c.html", "tik__07__3__entity_8c" ],
-    [ "tik_07_4_drips.c", "tik__07__4__drips_8c.html", "tik__07__4__drips_8c" ],
-    [ "tik_07_5_platforms.c", "tik__07__5__platforms_8c.html", null ],
-    [ "tik_07_6_npc.c", "tik__07__6__npc_8c.html", null ]
+    [ "drips.c", "tik__07_2drips_8c.html", "tik__07_2drips_8c" ],
+    [ "entity.c", "world_2area__tik_2tik__07_2entity_8c.html", "world_2area__tik_2tik__07_2entity_8c" ],
+    [ "main.c", "world_2area__tik_2tik__07_2main_8c.html", null ],
+    [ "music.c", "area__tik_2tik__07_2music_8c.html", null ],
+    [ "npc.c", "world_2area__tik_2tik__07_2npc_8c.html", null ],
+    [ "platforms.c", "area__tik_2tik__07_2platforms_8c.html", null ],
+    [ "settings.c", "area__tik_2tik__07_2settings_8c.html", null ],
+    [ "tik_07.h", "tik__07_8h.html", "tik__07_8h" ]
 ];
