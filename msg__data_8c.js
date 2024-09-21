@@ -19,8 +19,8 @@ var msg__data_8c =
     [ "MsgCharWidthNormal", "msg__data_8c.html#ab53e8472f741a07eeea1a7b7dc77e9d3", null ],
     [ "MsgCharWidthSubtitle", "msg__data_8c.html#a07543cbba42e7452c5d6056ab24aa271", null ],
     [ "MsgCharWidthTitle", "msg__data_8c.html#a6d17a9c86ca0dc6c77f6536a60896748", null ],
-    [ "MsgLetterPaletteOffsets", "msg__data_8c.html#ab96e6d62ba19d821adaff793d1e92fe5", null ],
-    [ "MsgLetterRasterOffsets", "msg__data_8c.html#a5c94cb1c0c0b78392a80543a37dab5e0", null ],
+    [ "MsgLetterPaletteOffsets", "msg__data_8c.html#a4a7cb09b4c8a7678862e9bfb8dbf17f6", null ],
+    [ "MsgLetterRasterOffsets", "msg__data_8c.html#aee99cd07fada01aedb386cc292e62c28", null ],
     [ "MsgStyleVerticalLineOffsets", "msg__data_8c.html#a4766736226310e4a0f38010ec755cf72", null ],
     [ "MsgVoices", "msg__data_8c.html#a027c55051e18fb8047496b871256b565", null ]
 ];

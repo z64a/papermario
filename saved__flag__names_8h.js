@@ -247,7 +247,7 @@ var saved__flag__names_8h =
       [ "GF_MAC00_DictionaryStolen", "saved__flag__names_8h.html#a48154bdb188bc2b8719c12078c16a0daa5e0bc22c4f1c1241d99a8a11663fe951", null ],
       [ "GF_MAC00_DictionaryReturned", "saved__flag__names_8h.html#a48154bdb188bc2b8719c12078c16a0daa5b37a48af2fdb0408d26f83865c5458d", null ],
       [ "GF_MAC00_TranslatedMysteryNote", "saved__flag__names_8h.html#a48154bdb188bc2b8719c12078c16a0daa5617f9e414805fba1d557a934ea69eaf", null ],
-      [ "GF_Unused_MAC_74", "saved__flag__names_8h.html#a48154bdb188bc2b8719c12078c16a0daacbdcae2d4becfe016cb1ac5272ec978c", null ],
+      [ "GF_MAC00_TranslatedSuspiciousNote", "saved__flag__names_8h.html#a48154bdb188bc2b8719c12078c16a0daa5a6c7208323ccc799be1ef30395cd384", null ],
       [ "GF_MAC01_ShyGuyTookOverShop", "saved__flag__names_8h.html#a48154bdb188bc2b8719c12078c16a0daa85304bee2841042a496ea6ea1bd69117", null ],
       [ "GF_MAC00_ShyGuyChasedFromShop", "saved__flag__names_8h.html#a48154bdb188bc2b8719c12078c16a0daac6ece05b90145be7a715d9b3f83b52a9", null ],
       [ "GF_MAC01_Merlon_Shoo1", "saved__flag__names_8h.html#a48154bdb188bc2b8719c12078c16a0daa415122b1273b2b9e87b0b5dd6a1bb638", null ],

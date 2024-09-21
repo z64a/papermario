@@ -123,6 +123,8 @@ Macros</h2></td></tr>
 <tr class="separator:ab432e7ccb5ff73d4d41bfe4757d89f60"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2000f85fd01cec3bbbbc493c856b9380" id="r_a2000f85fd01cec3bbbbc493c856b9380"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2000f85fd01cec3bbbbc493c856b9380">INCLUDE_PAL</a>(FILENAME,  SYMBOLNAME)</td></tr>
 <tr class="separator:a2000f85fd01cec3bbbbc493c856b9380"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adc2c2a720c18eee519b55ec27c45d2ed" id="r_adc2c2a720c18eee519b55ec27c45d2ed"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adc2c2a720c18eee519b55ec27c45d2ed">INCLUDE_RAW</a>(FILENAME,  SYMBOLNAME)</td></tr>
+<tr class="separator:adc2c2a720c18eee519b55ec27c45d2ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
 <a id="ac09ad5a26171f4a141c3cb2f28c19fd8" name="ac09ad5a26171f4a141c3cb2f28c19fd8"></a>
@@ -147,7 +149,7 @@ Macros</h2></td></tr>
 <div class="line">    __asm__( \</div>
 <div class="line">        <span class="stringliteral">&quot;.globl &quot;</span> #SYMBOLNAME<span class="stringliteral">&quot;\n&quot;</span> \</div>
 <div class="line">        <a class="code hl_define" href="#a0fee40ba338852dac7829e4abfe8cdc6">PUSHSECTION</a>(<span class="stringliteral">&quot;.data&quot;</span>) \</div>
-<div class="line">        <span class="stringliteral">&quot;.align 2\n&quot;</span> \</div>
+<div class="line">        <span class="stringliteral">&quot;.align 3\n&quot;</span> \</div>
 <div class="line">        <span class="stringliteral">&quot;.type &quot;</span> #SYMBOLNAME<span class="stringliteral">&quot;, @object\n&quot;</span> \</div>
 <div class="line">        #SYMBOLNAME<span class="stringliteral">&quot;:\n&quot;</span> \</div>
 <div class="line">        <span class="stringliteral">&quot;.incbin \&quot;ver/&quot;</span><a class="code hl_define" href="#af2e2a3a3b3a44c307f2b3ef8b60a8479">ASTRINGIFY</a>(VERSION)<span class="stringliteral">&quot;/build/&quot;</span> FILENAME <span class="stringliteral">&quot;.bin\&quot;\n&quot;</span> \</div>
@@ -236,10 +238,41 @@ Macros</h2></td></tr>
 <div class="line">    __asm__( \</div>
 <div class="line">        <span class="stringliteral">&quot;.globl &quot;</span> #SYMBOLNAME<span class="stringliteral">&quot;\n&quot;</span> \</div>
 <div class="line">        <a class="code hl_define" href="#a0fee40ba338852dac7829e4abfe8cdc6">PUSHSECTION</a>(<span class="stringliteral">&quot;.data&quot;</span>) \</div>
-<div class="line">        <span class="stringliteral">&quot;.align 2\n&quot;</span> \</div>
+<div class="line">        <span class="stringliteral">&quot;.align 3\n&quot;</span> \</div>
 <div class="line">        <span class="stringliteral">&quot;.type &quot;</span> #SYMBOLNAME<span class="stringliteral">&quot;, @object\n&quot;</span> \</div>
 <div class="line">        #SYMBOLNAME<span class="stringliteral">&quot;:\n&quot;</span> \</div>
 <div class="line">        <span class="stringliteral">&quot;.incbin \&quot;ver/&quot;</span><a class="code hl_define" href="#af2e2a3a3b3a44c307f2b3ef8b60a8479">ASTRINGIFY</a>(VERSION)<span class="stringliteral">&quot;/build/&quot;</span> FILENAME <span class="stringliteral">&quot;.bin\&quot;\n&quot;</span> \</div>
+<div class="line">        <a class="code hl_define" href="#a8c258b86999f0bf52865a3922a1570cd">POPSECTION</a> \</div>
+<div class="line">    )</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="adc2c2a720c18eee519b55ec27c45d2ed" name="adc2c2a720c18eee519b55ec27c45d2ed"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adc2c2a720c18eee519b55ec27c45d2ed">&#9670;&#160;</a></span>INCLUDE_RAW</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define INCLUDE_RAW</td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname">FILENAME, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname">SYMBOLNAME</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Value:</b><div class="fragment"><div class="line">    <span class="keyword">extern</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> SYMBOLNAME[]; \</div>
+<div class="line">    __asm__( \</div>
+<div class="line">        <span class="stringliteral">&quot;.globl &quot;</span> #SYMBOLNAME<span class="stringliteral">&quot;\n&quot;</span> \</div>
+<div class="line">        <a class="code hl_define" href="#a0fee40ba338852dac7829e4abfe8cdc6">PUSHSECTION</a>(<span class="stringliteral">&quot;.data&quot;</span>) \</div>
+<div class="line">        <span class="stringliteral">&quot;.align 3\n&quot;</span> \</div>
+<div class="line">        <span class="stringliteral">&quot;.type &quot;</span> #SYMBOLNAME<span class="stringliteral">&quot;, @object\n&quot;</span> \</div>
+<div class="line">        #SYMBOLNAME<span class="stringliteral">&quot;:\n&quot;</span> \</div>
+<div class="line">        <span class="stringliteral">&quot;.incbin \&quot;ver/&quot;</span><a class="code hl_define" href="#af2e2a3a3b3a44c307f2b3ef8b60a8479">ASTRINGIFY</a>(VERSION)<span class="stringliteral">&quot;/build/assets/&quot;</span><a class="code hl_define" href="#af2e2a3a3b3a44c307f2b3ef8b60a8479">ASTRINGIFY</a>(VERSION)<span class="stringliteral">&quot;/&quot;</span> FILENAME <span class="stringliteral">&quot;\&quot;\n&quot;</span> \</div>
 <div class="line">        <a class="code hl_define" href="#a8c258b86999f0bf52865a3922a1570cd">POPSECTION</a> \</div>
 <div class="line">    )</div>
 </div><!-- fragment -->

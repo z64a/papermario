@@ -15,7 +15,7 @@ var state__file__select_8c =
     [ "D_8007798C", "state__file__select_8c.html#ab0604bfcf691cdac68bcc8de19f41672", null ],
     [ "D_800A0930", "state__file__select_8c.html#ab185a3210ae2d8273b0684d32b0eb633", null ],
     [ "D_800A0931", "state__file__select_8c.html#aa8006c0219398e80cea720862b1dac96", null ],
-    [ "D_80200000", "state__file__select_8c.html#ad4905a029f7b6a288d05038161e8a574", null ],
+    [ "D_80200000", "state__file__select_8c.html#afc587f8801933dddf1c8a99970195e29", null ],
     [ "fsFrameBuffers", "state__file__select_8c.html#a8704ce9b467b12244e609877d659efe3", null ],
     [ "gFrameBuf0", "state__file__select_8c.html#adda116d3b88ec8ceeee4639560cfac53", null ],
     [ "gFrameBuf1", "state__file__select_8c.html#a8739ce52be5f8239b69f6ebec7422b54", null ],

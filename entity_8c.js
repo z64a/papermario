@@ -54,7 +54,7 @@ var entity_8c =
     [ "update_entity_transform_matrix", "entity_8c.html#a5bf44f46beb9e1090150c00fc54bd7e0", null ],
     [ "update_shadow_transform_matrix", "entity_8c.html#ab35c9277ac9041ace62bc798989e3bd1", null ],
     [ "update_shadows", "entity_8c.html#a13cefb3f1b1eb98a752b5e26fdd04470", null ],
-    [ "BattleEntityHeapBottom", "entity_8c.html#aa79106ec794a4b3c47581b4c1930e759", null ],
+    [ "BattleEntityHeapBottom", "entity_8c.html#ada440650d36764fa435a3049dbbf3959", null ],
     [ "bEntityBlueprint", "entity_8c.html#a4ea33c7fb777e0e1dbcd78c67cb7b74f", null ],
     [ "bEntityDataLoadedSize", "entity_8c.html#a4187b8a80c82a1c031c79097120c8040", null ],
     [ "CreateEntityVarArgBuffer", "entity_8c.html#a8a4abab043d8be311aa3b4fae8de7689", null ],

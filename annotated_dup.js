@@ -376,6 +376,7 @@ var annotated_dup =
     [ "PartnerPopupProperties", "hud__element_8h.html#structPartnerPopupProperties", "hud__element_8h_structPartnerPopupProperties" ],
     [ "PartnerPosition", "pause__partners_8c.html#structPartnerPosition", "pause__partners_8c_structPartnerPosition" ],
     [ "PartnerStatus", "common__structs_8h.html#structPartnerStatus", "common__structs_8h_structPartnerStatus" ],
+    [ "PartyImage", "LoadPartyImage_8inc_8c.html#structPartyImage", "LoadPartyImage_8inc_8c_structPartyImage" ],
     [ "Path", "common__structs_8h.html#structPath", "common__structs_8h_structPath" ],
     [ "PauseItemPage", "common__structs_8h.html#structPauseItemPage", "common__structs_8h_structPauseItemPage" ],
     [ "PauseMapSpace", "common__structs_8h.html#structPauseMapSpace", "common__structs_8h_structPauseMapSpace" ],

@@ -260,7 +260,7 @@ var searchData=
   ['battlecam_5fisfrozen_257',['BattleCam_IsFrozen',['../camera_8c.html#a63a07e18c4f215a6a998a261715fe031',1,'camera.c']]],
   ['battledescmsg_258',['battleDescMsg',['../hud__element_8h.html#a69319249a4fcee1a59ecfb19516a768e',1,'PartnerPopupProperties']]],
   ['battleenemiescreated_259',['BattleEnemiesCreated',['../btl__states__actions_8c.html#a181bf32ff1cfc90b445b8ff67c7919a6',1,'btl_states_actions.c']]],
-  ['battleentityheapbottom_260',['BattleEntityHeapBottom',['../entity_8c.html#aa79106ec794a4b3c47581b4c1930e759',1,'BattleEntityHeapBottom:&#160;heaps.c'],['../heaps_8c.html#a0aa7715b87706685892ca8a2594a7d8a',1,'BattleEntityHeapBottom:&#160;heaps.c'],['../model_8c.html#aa79106ec794a4b3c47581b4c1930e759',1,'BattleEntityHeapBottom:&#160;heaps.c']]],
+  ['battleentityheapbottom_260',['BattleEntityHeapBottom',['../entity_8c.html#ada440650d36764fa435a3049dbbf3959',1,'BattleEntityHeapBottom:&#160;entity.c'],['../model_8c.html#aa79106ec794a4b3c47581b4c1930e759',1,'BattleEntityHeapBottom:&#160;model.c']]],
   ['battleitementities_261',['BattleItemEntities',['../item__entity_8c.html#ac6a4df99c6402ef6faec531f5656815f',1,'item_entity.c']]],
   ['battlemenu_5fbaseposx_262',['BattleMenu_BasePosX',['../btl__states__menus_8c.html#a80d9aa7f5c5463246f1d9b81537096d4',1,'btl_states_menus.c']]],
   ['battlemenu_5fbaseposy_263',['BattleMenu_BasePosY',['../btl__states__menus_8c.html#a5a907224429f8218b4d27cd9ec18e86b',1,'btl_states_menus.c']]],

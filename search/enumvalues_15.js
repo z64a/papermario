@@ -1,8 +1,8 @@
 var searchData=
 [
-  ['watt_5fbrighter_0',['WATT_BRIGHTER',['../actor__rendering_8c.html#a2dbb833ef0dcc466dd02ee76badaf709a4af2627dcceb7d985a222265dcc7fb06',1,'WATT_BRIGHTER:&#160;actor_rendering.c'],['../npc_8c.html#afb24d298ddd4bc4ff61aa333f07a574aa4af2627dcceb7d985a222265dcc7fb06',1,'WATT_BRIGHTER:&#160;npc.c']]],
-  ['watt_5fbrightest_1',['WATT_BRIGHTEST',['../actor__rendering_8c.html#a2dbb833ef0dcc466dd02ee76badaf709ab83fdc1dc67be06c82f2a2daa3b01993',1,'WATT_BRIGHTEST:&#160;actor_rendering.c'],['../npc_8c.html#afb24d298ddd4bc4ff61aa333f07a574aab83fdc1dc67be06c82f2a2daa3b01993',1,'WATT_BRIGHTEST:&#160;npc.c']]],
-  ['watt_5fdefault_2',['WATT_DEFAULT',['../actor__rendering_8c.html#a2dbb833ef0dcc466dd02ee76badaf709a4d3a6e52a6b8d992eb1de494e8b91b56',1,'WATT_DEFAULT:&#160;actor_rendering.c'],['../npc_8c.html#afb24d298ddd4bc4ff61aa333f07a574aa4d3a6e52a6b8d992eb1de494e8b91b56',1,'WATT_DEFAULT:&#160;npc.c']]],
+  ['watt_5fbrighter_0',['WATT_BRIGHTER',['../actor__rendering_8c.html#a2dbb833ef0dcc466dd02ee76badaf709a4af2627dcceb7d985a222265dcc7fb06',1,'WATT_BRIGHTER:&#160;actor_rendering.c'],['../npc_8c.html#a7ada2556f3c386db5f31969fb6d4d002a4af2627dcceb7d985a222265dcc7fb06',1,'WATT_BRIGHTER:&#160;npc.c']]],
+  ['watt_5fbrightest_1',['WATT_BRIGHTEST',['../actor__rendering_8c.html#a2dbb833ef0dcc466dd02ee76badaf709ab83fdc1dc67be06c82f2a2daa3b01993',1,'WATT_BRIGHTEST:&#160;actor_rendering.c'],['../npc_8c.html#a7ada2556f3c386db5f31969fb6d4d002ab83fdc1dc67be06c82f2a2daa3b01993',1,'WATT_BRIGHTEST:&#160;npc.c']]],
+  ['watt_5fdefault_2',['WATT_DEFAULT',['../actor__rendering_8c.html#a2dbb833ef0dcc466dd02ee76badaf709a4d3a6e52a6b8d992eb1de494e8b91b56',1,'WATT_DEFAULT:&#160;actor_rendering.c'],['../npc_8c.html#a7ada2556f3c386db5f31969fb6d4d002a4d3a6e52a6b8d992eb1de494e8b91b56',1,'WATT_DEFAULT:&#160;npc.c']]],
   ['window_5fflag_5f40_3',['WINDOW_FLAG_40',['../enums_8h.html#a85bb57df22ad4aa3bdf0a3d44a82e7a2a83515b638352fbac2ebb93208ab3807e',1,'enums.h']]],
   ['window_5fflag_5fdisabled_4',['WINDOW_FLAG_DISABLED',['../enums_8h.html#a85bb57df22ad4aa3bdf0a3d44a82e7a2a35d3c3414307577ab1d4f238a994ff3a',1,'enums.h']]],
   ['window_5fflag_5ffpupdate_5fchanged_5',['WINDOW_FLAG_FPUPDATE_CHANGED',['../enums_8h.html#a85bb57df22ad4aa3bdf0a3d44a82e7a2a38a2d3751e703dc2fb816b71614754ae',1,'enums.h']]],

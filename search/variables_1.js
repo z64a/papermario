@@ -217,7 +217,7 @@ var searchData=
   ['auenvelopeintervals_214',['AuEnvelopeIntervals',['../audio_8h.html#a3abe86041aacd34e84254ae369c4a12a',1,'AuEnvelopeIntervals:&#160;sfx_player.c'],['../sfx__player_8c.html#a3abe86041aacd34e84254ae369c4a12a',1,'AuEnvelopeIntervals:&#160;sfx_player.c']]],
   ['aueqpower_215',['AuEqPower',['../31650_8c.html#af9a32d814822a6f46e21496df36bd146',1,'AuEqPower:&#160;33450.c'],['../33450_8c.html#af9a32d814822a6f46e21496df36bd146',1,'AuEqPower:&#160;33450.c']]],
   ['auglobalvolume_216',['AuGlobalVolume',['../audio_8h.html#abab19372867e8e0ad8370ac4053e9d51',1,'AuGlobalVolume:&#160;31650.c'],['../31650_8c.html#abab19372867e8e0ad8370ac4053e9d51',1,'AuGlobalVolume:&#160;31650.c']]],
-  ['auheapbase_217',['AuHeapBase',['../25f00__len__940_8c.html#ab38c030ab809d1871e33bf43e50b4952',1,'AuHeapBase:&#160;heaps.c'],['../heaps_8c.html#ab7a6f93056a75195779639b565fac7ca',1,'AuHeapBase:&#160;heaps.c']]],
+  ['auheapbase_217',['AuHeapBase',['../25f00__len__940_8c.html#a0da54d7e4ab59fa5e74066333bd63599',1,'25f00_len_940.c']]],
   ['auinitialglobalvolume_218',['AuInitialGlobalVolume',['../25f00__len__940_8c.html#aa46fb80f866e7145260e5a06a95605d1',1,'25f00_len_940.c']]],
   ['aura_219',['aura',['../effects_8h.html#aa5ca855e773962fbd7c92d6098c9075c',1,'EffectData']]],
   ['austack_220',['AuStack',['../25f00__len__940_8c.html#ac4fc92503504b209ebebdb90b4390ccb',1,'25f00_len_940.c']]],

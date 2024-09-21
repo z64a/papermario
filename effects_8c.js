@@ -16,7 +16,7 @@ var effects_8c =
     [ "update_effects", "effects_8c.html#a4c6d006d778164f8dd4302e37d79b3d1", null ],
     [ "D_8007FEB8", "effects_8c.html#a2a5d77ae52e07d98120e6082743ae31a", null ],
     [ "D_80197000", "effects_8c.html#a1175a5455c5b88f630a8e3fcc1c13c90", null ],
-    [ "D_801A6000", "effects_8c.html#a08d0371ea360202f196ab65d93f0c897", null ],
+    [ "D_801A6000", "effects_8c.html#a6c64b43a0fd7f734bfec857be9c76457", null ],
     [ "gEffectGraphicsData", "effects_8c.html#a907095e7f5d254ed880c9cb9b45fef3b", null ],
     [ "gEffectInstances", "effects_8c.html#a2a1aa00db137a0788b304fb6b96a5f2d", null ]
 ];

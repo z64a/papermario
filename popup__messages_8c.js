@@ -26,6 +26,8 @@ var popup__messages_8c =
     [ "TIP_X_PWT2", "popup__messages_8c.html#a653c0d5240f0b131302d64978ad3cf1d", null ],
     [ "TIP_Y_BF_RD", "popup__messages_8c.html#ab14093855e6db114ab1056c72f6290e3", null ],
     [ "TIP_Y_HLA2", "popup__messages_8c.html#aa7c8e487749444c7ef69c8d1d2035e2a", null ],
+    [ "TIP_Y_HLT2", "popup__messages_8c.html#aa905ff50df67755407fc733c7022a828", null ],
+    [ "TIP_Y_HTR1", "popup__messages_8c.html#a4bafa47a3af1c79d506b53e36a03106c", null ],
     [ "TIP_Y_MTA1", "popup__messages_8c.html#a84c1b717484b1488e4e55a6363dfe2e6", null ],
     [ "TIP_Y_MTA2", "popup__messages_8c.html#a26c5b83f868b25af5737aa0134974d6c", null ],
     [ "TIP_Y_PBS1", "popup__messages_8c.html#a9779467ee6381e8fa42348f66871e48a", null ],

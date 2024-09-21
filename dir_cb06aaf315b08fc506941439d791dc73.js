@@ -20,7 +20,7 @@ var dir_cb06aaf315b08fc506941439d791dc73 =
     [ "IsJumpMaxCharged.inc.c", "IsJumpMaxCharged_8inc_8c.html", null ],
     [ "IsPlayerPounding.inc.c", "IsPlayerPounding_8inc_8c.html", null ],
     [ "ItemChoice_WaitForSelection.inc.c", "ItemChoice__WaitForSelection_8inc_8c.html", null ],
-    [ "LoadPartyImage.inc.c", "LoadPartyImage_8inc_8c.html", null ],
+    [ "LoadPartyImage.inc.c", "LoadPartyImage_8inc_8c.html", "LoadPartyImage_8inc_8c" ],
     [ "PlayBigSmokePuff.inc.c", "PlayBigSmokePuff_8inc_8c.html", null ],
     [ "PlayRisingBubble.inc.c", "PlayRisingBubble_8inc_8c.html", null ],
     [ "RemovePadlock.inc.c", "RemovePadlock_8inc_8c.html", null ],
@@ -52,6 +52,7 @@ var dir_cb06aaf315b08fc506941439d791dc73 =
     [ "UnkMoveFunc2.inc.c", "UnkMoveFunc2_8inc_8c.html", null ],
     [ "UnkMoveFunc3.inc.c", "UnkMoveFunc3_8inc_8c.html", null ],
     [ "UnkPartnerPosFuncs.inc.c", "UnkPartnerPosFuncs_8inc_8c.html", null ],
+    [ "UnkScriptJP00.inc.c", "UnkScriptJP00_8inc_8c.html", null ],
     [ "UnkVtxFunc.inc.c", "UnkVtxFunc_8inc_8c.html", "UnkVtxFunc_8inc_8c" ],
     [ "UpdateLogShadow.inc.c", "UpdateLogShadow_8inc_8c.html", null ],
     [ "WaitForPlayerToLand.inc.c", "WaitForPlayerToLand_8inc_8c.html", null ]
