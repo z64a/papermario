@@ -1,7 +1,5 @@
 var NAVTREEINDEX13 =
 {
-"ShatteringBrickBlock_8c.html#a907ad4b590949c42ec67295f289387d9":[2,0,1,6,2,53,50],
-"ShatteringBrickBlock_8c.html#a969d4510ec84fe1624ebee63fa284398":[2,0,1,6,2,53,14],
 "ShatteringBrickBlock_8c.html#a98247fd7dc48bdee3134707eb32dc867":[2,0,1,6,2,53,7],
 "ShatteringBrickBlock_8c.html#aa4781823cf031189f8265c5a0b7ffc93":[2,0,1,6,2,53,16],
 "ShatteringBrickBlock_8c.html#aa4a866e447bbe5d28fee3f415c1db844":[2,0,1,6,2,53,38],
@@ -249,5 +247,7 @@ var NAVTREEINDEX13 =
 "ShatteringHammer3Block_8c.html#a5f5e213acbc91a71543220e507942922":[2,0,1,6,2,56,5],
 "ShatteringHammer3Block_8c.html#a61d3298919b95b50b4dc70252a33be22":[2,0,1,6,2,56,21],
 "ShatteringHammer3Block_8c.html#a636a7406cef93e539e5cc910a02d258e":[2,0,1,6,2,56,47],
-"ShatteringHammer3Block_8c.html#a645a11220c6001b8ccd1e9ade7dbf39a":[2,0,1,6,2,56,1]
+"ShatteringHammer3Block_8c.html#a645a11220c6001b8ccd1e9ade7dbf39a":[2,0,1,6,2,56,1],
+"ShatteringHammer3Block_8c.html#a6def2135fbcbc369eb3947cd31961dd6":[2,0,1,6,2,56,20],
+"ShatteringHammer3Block_8c.html#a72ad9121367e5343c09d750b85103caa":[2,0,1,6,2,56,38]
 };

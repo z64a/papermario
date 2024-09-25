@@ -9,7 +9,8 @@ var searchData=
   ['x_5fvar_6',['X_VAR',['../chapter__change_8c.html#af94942bebf19705a9da39fa4378cd8ba',1,'chapter_change.c']]],
   ['x_5fvar1_7',['X_VAR1',['../btl__states__menus_8c.html#a92dff853d0007aa8d3aa7231c84a1c1d',1,'X_VAR1:&#160;btl_states_menus.c'],['../item__entity_8c.html#a92dff853d0007aa8d3aa7231c84a1c1d',1,'X_VAR1:&#160;item_entity.c']]],
   ['x_5fvar2_8',['X_VAR2',['../btl__states__menus_8c.html#a55fc750f73d884b5f9d5eb09a0218c53',1,'btl_states_menus.c']]],
-  ['xoffset_9',['xoffset',['../npc__merlee_8c.html#a2efb199317156227bb05080ecbe7b9a1',1,'RitualCard']]],
+  ['xlimit_9',['xLimit',['../common__structs_8h.html#a15bb3d990999b53086c58c3e960a87a5',1,'Camera.params.confined']]],
   ['xoffset_10',['xOffset',['../common__structs_8h.html#aa012c953d730db6eaa341efae1e8699a',1,'ImgFXTexture']]],
-  ['xscale_11',['xScale',['../effects_8h.html#ae825ac030b5172bda1b9c684e8628064',1,'ThrowSpinyFXData']]]
+  ['xoffset_11',['xoffset',['../npc__merlee_8c.html#a2efb199317156227bb05080ecbe7b9a1',1,'RitualCard']]],
+  ['xscale_12',['xScale',['../effects_8h.html#ae825ac030b5172bda1b9c684e8628064',1,'ThrowSpinyFXData']]]
 ];

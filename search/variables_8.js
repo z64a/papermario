@@ -574,8 +574,8 @@ var searchData=
   ['holdinputbufferpos_571',['holdInputBufferPos',['../structBattleStatus.html#a784e1cbb91905e9639ce7b95558890f8',1,'BattleStatus']]],
   ['holdmode_572',['holdMode',['../common__structs_8h.html#ae392694e441c51673f642addcd157dbb',1,'CreditsEntry::holdMode'],['../common__structs_8h.html#a121f2f31956c2ba71c350aa205b85c4f',1,'CreditsLine::holdMode']]],
   ['holdtime_573',['holdTime',['../common__structs_8h.html#aabc482e390d9275927890bfc8424aeb0',1,'CreditsEntry::holdTime'],['../common__structs_8h.html#adf6d20761d7e1f35e44328767a4a8bb8',1,'CreditsLine::holdTime'],['../common__structs_8h.html#a91046e78f2b4ae75bda70ed5e3aeedf1',1,'SpeechBubbleData::holdTime'],['../inspect__icon_8c.html#a34bbef07df179a05ebea7469bfc006bd',1,'InspectIconData::holdTime']]],
-  ['hologram_574',['hologram',['../imgfx_8c.html#a887ed46e37bbbb73371ea118c746c053',1,'ImgFXIntVars']]],
-  ['home_575',['home',['../src_2battle_2battle_8h.html#a2654d6adfe5802b5e1c99eb4c250b98d',1,'FormationRow']]],
+  ['hologram_574',['hologram',['../imgfx_8c.html#ab34e4ed5d1fdc96229bf48f6efbb1836',1,'ImgFXIntVars']]],
+  ['home_575',['home',['../src_2battle_2battle_8h.html#a1f3c82399cc6299fe2180e42703d3b9b',1,'FormationRow']]],
   ['homepos_576',['homePos',['../structNpc.html#ad9c1a49eefddb510d179ddf5e21ce9f2',1,'Npc::homePos'],['../common__structs_8h.html#a8d7151b1987bd434f180139dc07b4a80',1,'Actor::homePos']]],
   ['horizontal_5fpipe_5fcurl_5fheader_577',['horizontal_pipe_curl_header',['../imgfx_8c.html#a9dc3a8c70b754451fa2442da9554d97c',1,'imgfx.c']]],
   ['hos_5f00_5fsettings_578',['hos_00_settings',['../hos_8h.html#ada363b2c5dee22ff152307722a194215',1,'hos.h']]],
@@ -614,6 +614,6 @@ var searchData=
   ['hudworker_611',['hudWorker',['../phonograph_8c.html#aae3d2ce298bc5325e2d44485ead9e5c3',1,'PhonographData']]],
   ['huffpuffbreath_612',['huffPuffBreath',['../effects_8h.html#a752f95af4df1da5f4f2a64b70d7a305a',1,'EffectData']]],
   ['hurricanechance_613',['hurricaneChance',['../src_2battle_2battle_8h.html#a0e5b2892096df9ea29e35bb41c7e9570',1,'ActorBlueprint']]],
-  ['hurt_614',['hurt',['../src_2battle_2battle_8h.html#aea6c3fc3fdb6ef2c860d15eb7c758833',1,'ActorSounds::hurt'],['../common__structs_8h.html#ac0bb722d28c628d3066cc2264dcc7c87',1,'PartnerAnimations.__unnamed25__::hurt']]],
+  ['hurt_614',['hurt',['../src_2battle_2battle_8h.html#aea6c3fc3fdb6ef2c860d15eb7c758833',1,'ActorSounds::hurt'],['../common__structs_8h.html#ac0bb722d28c628d3066cc2264dcc7c87',1,'PartnerAnimations.__unnamed31__::hurt']]],
   ['hustleturns_615',['hustleTurns',['../structBattleStatus.html#a089949173ac6331110a0cd3451a39cd1',1,'BattleStatus']]]
 ];

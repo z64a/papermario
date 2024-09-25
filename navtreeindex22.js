@@ -1,9 +1,5 @@
 var NAVTREEINDEX22 =
 {
-"area__kzn_2kzn__23_2kzn__23_8h.html":[2,0,1,10,15,17,0],
-"area__kzn_2kzn__23_2kzn__23_8h.html#afa7779fe56b160955b535cd6a8aaf8f4":[2,0,1,10,15,17,0,0],
-"area__kzn_2kzn__23_2music_8c.html":[2,0,1,10,15,17,2],
-"area__kzn_2kzn__23_2settings_8c.html":[2,0,1,10,15,17,4],
 "area__mac_2mac__00_2demo_8c.html":[2,0,1,10,16,0,1],
 "area__mac_2mac__00_2epilogue_8c.html":[2,0,1,10,16,0,3],
 "area__mac_2mac__00_2intro_8c.html":[2,0,1,10,16,0,5],
@@ -249,5 +245,9 @@ var NAVTREEINDEX22 =
 "area__pra_2pra__20_2settings_8c.html":[2,0,1,10,23,17,3],
 "area__pra_2pra__21_2music_8c.html":[2,0,1,10,23,18,2],
 "area__pra_2pra__21_2settings_8c.html":[2,0,1,10,23,18,4],
-"area__pra_2pra__22_2music_8c.html":[2,0,1,10,23,19,2]
+"area__pra_2pra__22_2music_8c.html":[2,0,1,10,23,19,2],
+"area__pra_2pra__22_2settings_8c.html":[2,0,1,10,23,19,4],
+"area__pra_2pra__27_2music_8c.html":[2,0,1,10,23,20,2],
+"area__pra_2pra__27_2settings_8c.html":[2,0,1,10,23,20,4],
+"area__pra_2pra__28_2music_8c.html":[2,0,1,10,23,21,2]
 };

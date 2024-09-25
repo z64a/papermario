@@ -1,9 +1,5 @@
 var NAVTREEINDEX39 =
 {
-"btl__states__menus_8c.html#a502e3a6c491ceda8f2c41460681ed979":[2,0,1,1,21,260],
-"btl__states__menus_8c.html#a5188d8113e406fcd42be05352ea1ee37":[2,0,1,1,21,82],
-"btl__states__menus_8c.html#a518f3aa18b0e13bcd904121d983071e2":[2,0,1,1,21,97],
-"btl__states__menus_8c.html#a51cd3ca747d070199944e501e31a2410":[2,0,1,1,21,162],
 "btl__states__menus_8c.html#a5269686768dce052ec1108141dbb7a05":[2,0,1,1,21,247],
 "btl__states__menus_8c.html#a531dd5d8c02e90fca583f73a5c4c8887":[2,0,1,1,21,201],
 "btl__states__menus_8c.html#a5331d77c8844b37d6edf4327115548f4":[2,0,1,1,21,282],
@@ -249,5 +245,9 @@ var NAVTREEINDEX39 =
 "butterflies_8c.html#aa0d2d3e6ab882c612fb96a81739ce377":[2,0,1,5,10,3],
 "butterflies_8c.html#abcb97c62150057e9c53a9966bb80b8a9":[2,0,1,5,10,14],
 "butterflies_8c.html#ac56a68f74f184f9d7004e24cee116ddd":[2,0,1,5,10,20],
-"butterflies_8c.html#acc849c95c8168e80c4c5e0661b0408ec":[2,0,1,5,10,8]
+"butterflies_8c.html#acc849c95c8168e80c4c5e0661b0408ec":[2,0,1,5,10,8],
+"butterflies_8c.html#ad4acbf1461c87a7bc8daa4a32965d471":[2,0,1,5,10,0],
+"butterflies_8c.html#ad9f60081427d3744933c1a0f7fff67ff":[2,0,1,5,10,18],
+"butterflies_8c.html#ae91b2eed1a676e726a17130a397440d3":[2,0,1,5,10,5],
+"butterflies_8c.html#af03620a44aa8a5be4759dea2473825c2":[2,0,1,5,10,19]
 };

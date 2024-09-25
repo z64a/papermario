@@ -1,6 +1,5 @@
 var NAVTREEINDEX9 =
 {
-"IsItemBadge_8inc_8c.html":[2,0,1,10,29,6,16],
 "IsJumpMaxCharged_8inc_8c.html":[2,0,1,10,29,6,17],
 "IsPlayerPounding_8inc_8c.html":[2,0,1,10,29,6,18],
 "ItemBlock_8c.html":[2,0,1,6,9],
@@ -249,5 +248,6 @@ var NAVTREEINDEX9 =
 "Mouser_8inc_8c.html":[2,0,1,10,29,5,54],
 "MoveBushTemplates_8h.html":[2,0,1,10,10,0,1],
 "MoveBushTemplates_8h.html#a5af8594a04b5829d99055604851f30b7":[2,0,1,10,10,0,1,0],
-"MoveBushTemplates_8h.html#a9563727a01e653b58848ac29778b3dde":[2,0,1,10,10,0,1,1]
+"MoveBushTemplates_8h.html#a9563727a01e653b58848ac29778b3dde":[2,0,1,10,10,0,1,1],
+"MoveBush_8inc_8c.html":[2,0,1,10,10,0,0]
 };

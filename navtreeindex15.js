@@ -1,7 +1,5 @@
 var NAVTREEINDEX15 =
 {
-"StarSpirit_8h.html#ac2a04c502625f6cafc8389e3a8cadf78":[2,0,1,10,29,5,76,1],
-"StarSpirit_8h.html#ae4bc1e1b5fca33526258322e2bcf7efe":[2,0,1,10,29,5,76,7],
 "StarSpirit_8inc_8c.html":[2,0,1,10,29,5,77],
 "StarSpirit__Wander_8inc_8c.html":[2,0,1,10,29,5,78],
 "StartRumbleWithParams_8inc_8c.html":[2,0,1,4,39],
@@ -249,5 +247,7 @@ var NAVTREEINDEX15 =
 "UltraBlock_8c.html#aa138719abccbed09be093707a6ccd616":[2,0,1,6,2,67,9],
 "UltraBlock_8c.html#aaba4321e9fdea839bce8e7582f817a48":[2,0,1,6,2,67,2],
 "UltraBlock_8c.html#aaff137906edf53ac53927d9b8af2ae1d":[2,0,1,6,2,67,1],
-"UltraBlock_8c.html#ab706232453051b0162ceaebcd198e667":[2,0,1,6,2,67,3]
+"UltraBlock_8c.html#ab706232453051b0162ceaebcd198e667":[2,0,1,6,2,67,3],
+"UltraBlock_8c.html#af356eb41148ea17b55af3269d78b34b2":[2,0,1,6,2,67,5],
+"UltraBlock_8c.html#af8f422bffb1a8ac5db83f0793b81a3a7":[2,0,1,6,2,67,0]
 };

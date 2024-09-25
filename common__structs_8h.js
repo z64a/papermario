@@ -90,12 +90,12 @@ var common__structs_8h =
       [ "frac", "common__structs_8h.html#af0c98a685964f347fa8e955329460fb3", null ],
       [ "whole", "common__structs_8h.html#a319721908d812367d37a00678d2d137b", null ]
     ] ],
-    [ "CamConfiguration", "common__structs_8h.html#structCamConfiguration", [
-      [ "boomLength", "common__structs_8h.html#afdfe13c5449c0c84ae8053e6a3cff809", null ],
-      [ "boomPitch", "common__structs_8h.html#a762c655911e9b92305395b395c41ff36", null ],
-      [ "boomYaw", "common__structs_8h.html#ad1417e98168abfe270cb65cc78f41151", null ],
-      [ "targetPos", "common__structs_8h.html#ab1a99b50cfddd87fa043065efcf6caa7", null ],
-      [ "viewPitch", "common__structs_8h.html#a23620239768b69408305ec5add46e84d", null ]
+    [ "CameraRig", "common__structs_8h.html#structCameraRig", [
+      [ "boomLength", "common__structs_8h.html#ae4f27531793d4644c63fa26d78fa2783", null ],
+      [ "boomPitch", "common__structs_8h.html#a28981f262bd920ab83ae430c4313440e", null ],
+      [ "boomYaw", "common__structs_8h.html#a007236c29051bfa1faa38e7709c43b95", null ],
+      [ "targetPos", "common__structs_8h.html#a4391cebb4b482f427516316e5f817c73", null ],
+      [ "viewPitch", "common__structs_8h.html#a8dea63d5a14d450f11e557a4ed4d588d", null ]
     ] ],
     [ "DmaTable", "common__structs_8h.html#structDmaTable", [
       [ "dest", "common__structs_8h.html#aa835cedd280d1c8715918f8be6a21409", null ],
@@ -415,7 +415,7 @@ var common__structs_8h =
     [ "CameraControlSettings", "common__structs_8h.html#structCameraControlSettings", [
       [ "boomLength", "common__structs_8h.html#a31df96a97099beea323a2580a433a923", null ],
       [ "boomPitch", "common__structs_8h.html#a02e5fb63163388fe72e35a5d38a4eb6a", null ],
-      [ "flag", "common__structs_8h.html#ac597def19e0a922208b1765df88b3991", null ],
+      [ "flag", "common__structs_8h.html#a900057088cc5b670ceca3c69ae2f0bc4", null ],
       [ "points", "common__structs_8h.html#af413eb3838f9c5367df154f3e7c5e208", null ],
       [ "type", "common__structs_8h.html#a3ea030d81e37707c456ae661979ccda4", null ],
       [ "viewPitch", "common__structs_8h.html#a09379e5403b7a58d6aca98f21cc5d3e0", null ]
@@ -473,7 +473,7 @@ var common__structs_8h =
       [ "basePos", "common__structs_8h.html#a4fe5fa4151dfc6ce2309455a4d222b93", null ],
       [ "children", "common__structs_8h.html#aa55eedabc5d90f32e817f562deb7cb4c", null ],
       [ "displayList", "common__structs_8h.html#a7466a9414764359300fe68dcc49fb2ef", null ],
-      [ "fcData", "common__structs_8h.html#ac1598d0e6da34297555eca3b4674dd65", null ],
+      [ "fcData", "common__structs_8h.html#a6c99850e028c98f6e10599eae616a9db", null ],
       [ "flags", "common__structs_8h.html#a9e1eb3f0081e97dc66bf467277b80cae", null ],
       [ "mtx", "common__structs_8h.html#aea644ae5ca2e705713206f333632d303", null ],
       [ "pos", "common__structs_8h.html#a83c39c00be4b11ea5fe5c5703d389ae1", null ],
@@ -1201,7 +1201,7 @@ var common__structs_8h =
       [ "scaleModifier", "common__structs_8h.html#a7e1b06119d87e9779ff04055c81ee89a", null ],
       [ "scalingFactor", "common__structs_8h.html#a59b46326f0705305f7b8b3054c8209f2", null ],
       [ "selectedTargetIndex", "common__structs_8h.html#a4406e5a6419256ac2d6d4c5ed3014127", null ],
-      [ "shadow", "common__structs_8h.html#ad482bc307df4553f242e51e4691339c8", null ],
+      [ "shadow", "common__structs_8h.html#a5e45d98cf637e5950055f09f28b05076", null ],
       [ "shadowScale", "common__structs_8h.html#a398fa5ce92711c2a5e1b48f6e5c20b30", null ],
       [ "size", "common__structs_8h.html#a8f39f6c94b7c2a199d062d3830513be4", null ],
       [ "state", "common__structs_8h.html#a632bbd9b005611d0720e79bce77f506b", null ],
@@ -1780,16 +1780,61 @@ var common__structs_8h =
       [ "Cx", "common__structs_8h.html#ac0b860db238ef44d3675e73159bab154", null ],
       [ "Cz", "common__structs_8h.html#a8d12b8849fcf184f52144a1be05cf9cd", null ]
     ] ],
-    [ "BattleStatus.__unnamed18__", "common__structs_8h.html#unionBattleStatus_8____unnamed18____", [
+    [ "Camera.params", "common__structs_8h.html#unionCamera_8params", [
+      [ "basic", "common__structs_8h.html#af17aaabc20bfe045075927934fed52d2", null ],
+      [ "confined", "common__structs_8h.html#a9ae3f37b35ed8083c217fc82c55344a7", null ],
+      [ "interp", "common__structs_8h.html#a16734ccaa675a366a9df21d6975d9294", null ],
+      [ "radial", "common__structs_8h.html#a869836a44b607137a7e094cf8a308938", null ],
+      [ "world", "common__structs_8h.html#a7d793037a0760186574b0282f2f435e7", null ]
+    ] ],
+    [ "Camera.params.world", "common__structs_8h.html#structCamera_8params_8world", [
+      [ "camParam1", "common__structs_8h.html#a18cfe91c066992b9ab450d2c644c68a7", null ],
+      [ "camParam2", "common__structs_8h.html#aac84386290ed2d5bc8963a3da6ef5eb0", null ],
+      [ "camParam3", "common__structs_8h.html#af84de7cd1dd80a57cefa3b83a25b47ff", null ],
+      [ "camParam4", "common__structs_8h.html#a5fc49786a39bca5f765fda176dddb240", null ],
+      [ "camParam5", "common__structs_8h.html#a416f6f9952c83b943d3f2e7eea6d93ec", null ],
+      [ "camParam6", "common__structs_8h.html#a25a5c186b556ce486bb6c349feed97d6", null ],
+      [ "camParam7", "common__structs_8h.html#acd51ff26b4dfbcedc9e6d842218f13a6", null ],
+      [ "zoomPercent", "common__structs_8h.html#aac4309010a7bea450fa8f54e9ddfe9d1", null ]
+    ] ],
+    [ "Camera.params.basic", "common__structs_8h.html#structCamera_8params_8basic", [
+      [ "camParam7", "common__structs_8h.html#acd51ff26b4dfbcedc9e6d842218f13a6", null ],
+      [ "dist", "common__structs_8h.html#a2a6d07eef8b10b84129b42424ed99327", null ],
+      [ "fovScale", "common__structs_8h.html#a658643ae5ee3519cbe9a8c32df8383a2", null ],
+      [ "offsetY", "common__structs_8h.html#a8977a816320b57e617fcdb6e4ae875cf", null ],
+      [ "pitch", "common__structs_8h.html#a8ee0b79fb35b0efe85b44c0ee243f8d5", null ],
+      [ "skipRecalc", "common__structs_8h.html#af34d191550ea1b7bc78efb91227151f7", null ],
+      [ "yaw", "common__structs_8h.html#a92dda6448f3b313c16d01c8f17cdd6a3", null ],
+      [ "zoomPercent", "common__structs_8h.html#aac4309010a7bea450fa8f54e9ddfe9d1", null ]
+    ] ],
+    [ "Camera.params.interp", "common__structs_8h.html#structCamera_8params_8interp", [
+      [ "dist", "common__structs_8h.html#a2a6d07eef8b10b84129b42424ed99327", null ],
+      [ "offsetY", "common__structs_8h.html#a8977a816320b57e617fcdb6e4ae875cf", null ],
+      [ "pitch", "common__structs_8h.html#a8ee0b79fb35b0efe85b44c0ee243f8d5", null ],
+      [ "yaw", "common__structs_8h.html#a92dda6448f3b313c16d01c8f17cdd6a3", null ]
+    ] ],
+    [ "Camera.params.radial", "common__structs_8h.html#structCamera_8params_8radial", [
+      [ "dist", "common__structs_8h.html#a2a6d07eef8b10b84129b42424ed99327", null ],
+      [ "minRadius", "common__structs_8h.html#a1448f5a025a4b20b502965eb27e711be", null ],
+      [ "offsetY", "common__structs_8h.html#a8977a816320b57e617fcdb6e4ae875cf", null ],
+      [ "pitch", "common__structs_8h.html#a8ee0b79fb35b0efe85b44c0ee243f8d5", null ]
+    ] ],
+    [ "Camera.params.confined", "common__structs_8h.html#structCamera_8params_8confined", [
+      [ "dist", "common__structs_8h.html#a2a6d07eef8b10b84129b42424ed99327", null ],
+      [ "offsetY", "common__structs_8h.html#a8977a816320b57e617fcdb6e4ae875cf", null ],
+      [ "xLimit", "common__structs_8h.html#a15bb3d990999b53086c58c3e960a87a5", null ],
+      [ "zLimit", "common__structs_8h.html#aa3cd8862adec7208c8cfed645d481dca", null ]
+    ] ],
+    [ "BattleStatus.__unnamed24__", "common__structs_8h.html#unionBattleStatus_8____unnamed24____", [
       [ "varTable", "common__structs_8h.html#a93c302ad376e647b9a09d4610947f97b", null ],
       [ "varTableF", "common__structs_8h.html#a087efa785a677c1d328b5219661c7287", null ],
       [ "varTablePtr", "common__structs_8h.html#a82a27a7127b56d8f89a7d27491636376", null ]
     ] ],
-    [ "Collider.__unnamed20__", "common__structs_8h.html#unionCollider_8____unnamed20____", [
+    [ "Collider.__unnamed26__", "common__structs_8h.html#unionCollider_8____unnamed26____", [
       [ "aabb", "common__structs_8h.html#a5e394281dfac81c1e7dddcaf4d35d1f6", null ],
       [ "camSettings", "common__structs_8h.html#a8bc32d32153678cb029f36efdc08d333", null ]
     ] ],
-    [ "CollisionData.__unnamed22__", "common__structs_8h.html#unionCollisionData_8____unnamed22____", [
+    [ "CollisionData.__unnamed28__", "common__structs_8h.html#unionCollisionData_8____unnamed28____", [
       [ "aabbs", "common__structs_8h.html#a9f7cf42e0dad89e417c4df57fa80ba25", null ],
       [ "camSettings", "common__structs_8h.html#a8bc32d32153678cb029f36efdc08d333", null ]
     ] ],
@@ -1797,7 +1842,7 @@ var common__structs_8h =
       [ "modelID", "common__structs_8h.html#aea7422565234078eebab22ed3b2f57a1", null ],
       [ "vtxList", "common__structs_8h.html#a060e2c038132cee90180f4b7c707815e", null ]
     ] ],
-    [ "PartnerAnimations.__unnamed25__", "common__structs_8h.html#structPartnerAnimations_8____unnamed25____", [
+    [ "PartnerAnimations.__unnamed31__", "common__structs_8h.html#structPartnerAnimations_8____unnamed31____", [
       [ "fall", "common__structs_8h.html#a96f223040672ea79c655dceda08e0830", null ],
       [ "fly", "common__structs_8h.html#aaf17bc3b4a86a96a0f053a7e5f7c18ba", null ],
       [ "hurt", "common__structs_8h.html#ac0bb722d28c628d3066cc2264dcc7c87", null ],
@@ -1808,17 +1853,17 @@ var common__structs_8h =
       [ "talk", "common__structs_8h.html#a64b59718a47cf57a5e4f8443ff43d117", null ],
       [ "walk", "common__structs_8h.html#a46f9631576015f35f527af2bc67351a6", null ]
     ] ],
-    [ "ActorPartMovement.__unnamed27__", "common__structs_8h.html#unionActorPartMovement_8____unnamed27____", [
+    [ "ActorPartMovement.__unnamed33__", "common__structs_8h.html#unionActorPartMovement_8____unnamed33____", [
       [ "varTable", "common__structs_8h.html#a93c302ad376e647b9a09d4610947f97b", null ],
       [ "varTableF", "common__structs_8h.html#a087efa785a677c1d328b5219661c7287", null ],
       [ "varTablePtr", "common__structs_8h.html#a82a27a7127b56d8f89a7d27491636376", null ]
     ] ],
-    [ "ActorState.__unnamed29__", "common__structs_8h.html#unionActorState_8____unnamed29____", [
+    [ "ActorState.__unnamed35__", "common__structs_8h.html#unionActorState_8____unnamed35____", [
       [ "functionTemp", "common__structs_8h.html#a77bcd160e703ae33c22a7fad2694d1b5", null ],
       [ "functionTempF", "common__structs_8h.html#a4e3c02ac7fdb10440d0be1d233d09db9", null ],
       [ "functionTempPtr", "common__structs_8h.html#a14c2bd70a1d2a7759f61b3d08fe0524b", null ]
     ] ],
-    [ "ActorState.__unnamed31__", "common__structs_8h.html#unionActorState_8____unnamed31____", [
+    [ "ActorState.__unnamed37__", "common__structs_8h.html#unionActorState_8____unnamed37____", [
       [ "varTable", "common__structs_8h.html#a93c302ad376e647b9a09d4610947f97b", null ],
       [ "varTableF", "common__structs_8h.html#a087efa785a677c1d328b5219661c7287", null ],
       [ "varTablePtr", "common__structs_8h.html#a82a27a7127b56d8f89a7d27491636376", null ]

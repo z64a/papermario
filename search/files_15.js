@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['narrator_2ec_0',['narrator.c',['../hos__04_2narrator_8c.html',1,'(Global Namespace)'],['../hos__05_2narrator_8c.html',1,'(Global Namespace)']]],
+  ['narrator_2ec_0',['narrator.c',['../hos__04_2narrator_8c.html',1,'(Global Namespace)'],['../hos__05_2narrator_8c.html',1,'(Global Namespace)'],['../hos__10_2narrator_8c.html',1,'(Global Namespace)']]],
   ['narrator_2einc_2ec_1',['Narrator.inc.c',['../Narrator_8inc_8c.html',1,'']]],
   ['new_5fpartner_2ec_2',['new_partner.c',['../area__flo_2flo__13_2new__partner_8c.html',1,'(Global Namespace)'],['../area__iwa_2iwa__10_2new__partner_8c.html',1,'(Global Namespace)'],['../area__nok_2nok__04_2new__partner_8c.html',1,'(Global Namespace)'],['../area__obk_2obk__09_2new__partner_8c.html',1,'(Global Namespace)'],['../area__omo_2omo__12_2new__partner_8c.html',1,'(Global Namespace)'],['../dead_2area__flo_2flo__13_2new__partner_8c.html',1,'(Global Namespace)']]],
   ['nok_2eh_3',['nok.h',['../nok_8h.html',1,'']]],

@@ -1,6 +1,5 @@
 var NAVTREEINDEX8 =
 {
-"GoombaFamily_8h.html#a6fa523a94eaa49e6fc797e4f0dd43a68":[2,0,1,10,29,5,23,3],
 "GoombaFamily_8h.html#a84ff26292b6403cda7e6b95624a7cfec":[2,0,1,10,29,5,23,4],
 "GoombaFamily_8h.html#a87a841d68252e8f7016f97aa9caa10cf":[2,0,1,10,29,5,23,2],
 "GoombaFamily_8h.html#aa588bb249684c8acd3666384e4d5971d":[2,0,1,10,29,5,23,0],
@@ -249,5 +248,6 @@ var NAVTREEINDEX8 =
 "IntroMathUtil_8inc_8c.html#abc5397ae0b2c9e74e619888af0aed307":[2,0,1,10,7,0,1,0],
 "IsAOrBPressed_8inc_8c.html":[2,0,1,4,21],
 "IsBerserkerEquipped_8inc_8c.html":[2,0,1,10,29,6,14],
-"IsHammerMaxCharged_8inc_8c.html":[2,0,1,10,29,6,15]
+"IsHammerMaxCharged_8inc_8c.html":[2,0,1,10,29,6,15],
+"IsItemBadge_8inc_8c.html":[2,0,1,10,29,6,16]
 };

@@ -4,7 +4,7 @@ var searchData=
   ['cameraflags_1',['CameraFlags',['../enums_8h.html#a5383624a7aa911caba54d5d91e259edc',1,'enums.h']]],
   ['cameramoveflags_2',['CameraMoveFlags',['../enums_8h.html#adc4695fdd07d61af552b6394055b864f',1,'enums.h']]],
   ['camerasettingsptrtype_3',['CameraSettingsPtrType',['../cam__mode__zone__interp_8c.html#ab01493620da4c1a9b219f77ee11195de',1,'cam_mode_zone_interp.c']]],
-  ['cameraupdatetype_4',['CameraUpdateType',['../enums_8h.html#ae76b2e2bd776df183fe7e1650a625856',1,'enums.h']]],
+  ['cameraupdatemode_4',['CameraUpdateMode',['../enums_8h.html#a65a7741078d791f55988d08fe2d3fe94',1,'enums.h']]],
   ['cams_5',['Cams',['../enums_8h.html#afbfbe32aeee992982c90abc082d07959',1,'enums.h']]],
   ['camshakemodes_6',['CamShakeModes',['../enums_8h.html#a269ad67419713ad39b9082f46629673a',1,'enums.h']]],
   ['changemapstates_7',['ChangeMapStates',['../111f0__len__860_8c.html#a3c3d3a84bffd8f589dbea18cea33b36b',1,'111f0_len_860.c']]],

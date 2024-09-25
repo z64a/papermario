@@ -1,9 +1,5 @@
 var NAVTREEINDEX19 =
 {
-"area__arn_2arn__12_2settings_8c.html":[2,0,1,10,1,9,5],
-"area__arn_2arn__13_2music_8c.html":[2,0,1,10,1,10,3],
-"area__arn_2arn__13_2settings_8c.html":[2,0,1,10,1,10,5],
-"area__dgb_2dgb__00_2music_8c.html":[2,0,1,10,2,0,3],
 "area__dgb_2dgb__00_2settings_8c.html":[2,0,1,10,2,0,5],
 "area__dgb_2dgb__01_2music_8c.html":[2,0,1,10,2,1,13],
 "area__dgb_2dgb__01_2settings_8c.html":[2,0,1,10,2,1,15],
@@ -49,8 +45,8 @@ var NAVTREEINDEX19 =
 "area__dro_2dro__01_2rooms_8c.html":[2,0,1,10,3,0,10],
 "area__dro_2dro__01_2settings_8c.html":[2,0,1,10,3,0,11],
 "area__dro_2dro__01_2shop_8c.html":[2,0,1,10,3,0,12],
-"area__dro_2dro__01_2shop_8c.html#afa7779fe56b160955b535cd6a8aaf8f4":[2,0,1,10,3,0,12,1],
 "area__dro_2dro__01_2shop_8c.html#afa7779fe56b160955b535cd6a8aaf8f4":[2,0,1,10,3,0,12,0],
+"area__dro_2dro__01_2shop_8c.html#afa7779fe56b160955b535cd6a8aaf8f4":[2,0,1,10,3,0,12,1],
 "area__dro_2dro__02_2music_8c.html":[2,0,1,10,3,1,3],
 "area__dro_2dro__02_2rooms_8c.html":[2,0,1,10,3,1,7],
 "area__dro_2dro__02_2settings_8c.html":[2,0,1,10,3,1,8],
@@ -102,8 +98,8 @@ var NAVTREEINDEX19 =
 "area__flo_2flo__08_2music_8c.html":[2,0,1,10,5,4,4],
 "area__flo_2flo__08_2settings_8c.html":[2,0,1,10,5,4,6],
 "area__flo_2flo__08_2vines_8c.html":[2,0,1,10,5,4,7],
-"area__flo_2flo__08_2vines_8c.html#afa7779fe56b160955b535cd6a8aaf8f4":[2,0,1,10,5,4,7,0],
 "area__flo_2flo__08_2vines_8c.html#afa7779fe56b160955b535cd6a8aaf8f4":[2,0,1,10,5,4,7,1],
+"area__flo_2flo__08_2vines_8c.html#afa7779fe56b160955b535cd6a8aaf8f4":[2,0,1,10,5,4,7,0],
 "area__flo_2flo__09_2flo__09_8h.html":[2,0,1,10,5,5,0],
 "area__flo_2flo__09_2flo__09_8h.html#afa7779fe56b160955b535cd6a8aaf8f4":[2,0,1,10,5,5,0,0],
 "area__flo_2flo__09_2foliage_8c.html":[2,0,1,10,5,5,1],
@@ -249,5 +245,9 @@ var NAVTREEINDEX19 =
 "area__hos_2hos__05_2intro_8c.html#aaf339adb7949fd52b8de3c29ce8dc142":[2,0,1,10,7,6,1,0,8],
 "area__hos_2hos__05_2intro_8c.html#ab3348416fa73da0327d6756a3503235b":[2,0,1,10,7,6,1,17],
 "area__hos_2hos__05_2intro_8c.html#ab56d476906bdb4eb11eb6c6490e423a5":[2,0,1,10,7,6,1,13],
-"area__hos_2hos__05_2intro_8c.html#ac2db10164a58f3aa698014c390b53eca":[2,0,1,10,7,6,1,0,16]
+"area__hos_2hos__05_2intro_8c.html#ac2db10164a58f3aa698014c390b53eca":[2,0,1,10,7,6,1,0,16],
+"area__hos_2hos__05_2intro_8c.html#ac5cd3f1e61caca4d7f3f60157e6bd539":[2,0,1,10,7,6,1,0,4],
+"area__hos_2hos__05_2intro_8c.html#ad5ac23e4061964322591d77e2d3fd3b7":[2,0,1,10,7,6,1,0,0],
+"area__hos_2hos__05_2intro_8c.html#ad75fe75d43f03a0367482a2b06834f92":[2,0,1,10,7,6,1,0,12],
+"area__hos_2hos__05_2intro_8c.html#ade304d47fe151883078c91a865d0e8f9":[2,0,1,10,7,6,1,0,14]
 };

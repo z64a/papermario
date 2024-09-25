@@ -36,7 +36,7 @@ var effects_8h_unionEffectData =
     [ "firework", "effects_8h.html#a67f150941f805678353f7f6dab7ac13a", null ],
     [ "fireworkRocket", "effects_8h.html#adfc81bbc0d05bbb7459c5aad4baad389", null ],
     [ "flame", "effects_8h.html#afa8f55f050b2d94b60774ca651fbf0d0", null ],
-    [ "flashingBoxShockwave", "effects_8h.html#a47562868a71a7cb2c8e855072fe5c66c", null ],
+    [ "flashingBoxShockwave", "effects_8h.html#af1036cd5ed0df4ea52f304ae38959d8f", null ],
     [ "floatingCloudPuff", "effects_8h.html#ae69e4d62a2d9863c1d56efbdd9f45583", null ],
     [ "floatingFlower", "effects_8h.html#ab9cc52e05ab35b348fad657de69fa40c", null ],
     [ "floatingRock", "effects_8h.html#afba483e493a446639c6d0a47acc4e0fa", null ],

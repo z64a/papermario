@@ -24,7 +24,7 @@ var evt_8h =
       [ "EVT_GROUP_EF", "evt_8h.html#a74ac1e3529dd8656116555adde3b3040ae90e0022306089b94f7fdacec41e1045", null ],
       [ "EVT_GROUP_01", "evt_8h.html#a74ac1e3529dd8656116555adde3b3040a617b264961ed08cbad1a23eab76a7096", null ],
       [ "EVT_GROUP_02", "evt_8h.html#a74ac1e3529dd8656116555adde3b3040a72ff5835f47c0428ce3211e1e28c4b8c", null ],
-      [ "EVT_GROUP_04", "evt_8h.html#a74ac1e3529dd8656116555adde3b3040a6c4d52e7805fa099cd4777fed3fdee4f", null ],
+      [ "EVT_GROUP_SHAKE_CAM", "evt_8h.html#a74ac1e3529dd8656116555adde3b3040aeb5963f35ec7f5d6c7e1dfe16f390279", null ],
       [ "EVT_GROUP_08", "evt_8h.html#a74ac1e3529dd8656116555adde3b3040ae637e40e8581d75fd4585cc99a74f14c", null ],
       [ "EVT_GROUP_10", "evt_8h.html#a74ac1e3529dd8656116555adde3b3040a7bf72008e44777a87fb682fccc8cb098", null ]
     ] ],

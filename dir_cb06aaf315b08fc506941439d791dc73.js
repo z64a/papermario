@@ -52,7 +52,6 @@ var dir_cb06aaf315b08fc506941439d791dc73 =
     [ "UnkMoveFunc2.inc.c", "UnkMoveFunc2_8inc_8c.html", null ],
     [ "UnkMoveFunc3.inc.c", "UnkMoveFunc3_8inc_8c.html", null ],
     [ "UnkPartnerPosFuncs.inc.c", "UnkPartnerPosFuncs_8inc_8c.html", null ],
-    [ "UnkScriptJP00.inc.c", "UnkScriptJP00_8inc_8c.html", null ],
     [ "UnkVtxFunc.inc.c", "UnkVtxFunc_8inc_8c.html", "UnkVtxFunc_8inc_8c" ],
     [ "UpdateLogShadow.inc.c", "UpdateLogShadow_8inc_8c.html", null ],
     [ "WaitForPlayerToLand.inc.c", "WaitForPlayerToLand_8inc_8c.html", null ]

@@ -39,6 +39,5 @@ var searchData=
   ['aurafxtypes_36',['AuraFXTypes',['../effects_8h.html#a77cb0b825fb2e02fb8cb9082d8f0663a',1,'effects.h']]],
   ['auresult_37',['AuResult',['../enums_8h.html#ae06a53ac0390ce55621b4d79a2fdba8b',1,'enums.h']]],
   ['auvoiceenvelopeflags_38',['AuVoiceEnvelopeFlags',['../audio_8h.html#ae34e06fb2d7ec70205da516191997459',1,'audio.h']]],
-  ['auvoicesyncflags_39',['AuVoiceSyncFlags',['../audio_8h.html#a6fd840fc6be88468b29ac6baa7867486',1,'audio.h']]],
-  ['auxcameraparams_40',['AuxCameraParams',['../enums_8h.html#a27044aa76ad05ef8f6d9ab823e825de1',1,'enums.h']]]
+  ['auvoicesyncflags_39',['AuVoiceSyncFlags',['../audio_8h.html#a6fd840fc6be88468b29ac6baa7867486',1,'audio.h']]]
 ];

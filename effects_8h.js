@@ -1158,23 +1158,19 @@ var effects_8h =
       [ "unk_1C", "effects_8h.html#a53f09a3f098d653d83777f878270200a", null ],
       [ "unk_20", "effects_8h.html#affe5275c0e1148e815a58483e47f2e3d", null ]
     ] ],
-    [ "FlashingBoxShockwaveFXData", "effects_8h.html#structFlashingBoxShockwaveFXData", [
-      [ "pos", "effects_8h.html#a8eb8f4d363ff17cf4916b014749c55fa", null ],
-      [ "unk_00", "effects_8h.html#a63f0ca3aea8c9a27eff5e7a3c2384bdd", null ],
-      [ "unk_10", "effects_8h.html#a7e07eaa758cd02d7217385d8918f5b89", null ],
-      [ "unk_14", "effects_8h.html#a7367ae75f7263236908a2545ca1184b4", null ],
-      [ "unk_18", "effects_8h.html#a5f742855dd5a933df780d4268ba4ccc9", null ],
-      [ "unk_1C", "effects_8h.html#ad1edd9d178b48881888a99b2f87c8546", null ],
-      [ "unk_20", "effects_8h.html#a2b39a2e56d58433c39a040a9fa521f5b", null ],
-      [ "unk_24", "effects_8h.html#a63eb2046e99b2ed3ea40ac3b9f42cbcf", null ],
-      [ "unk_28", "effects_8h.html#aadf559446388793c59c78ae844c30830", null ],
-      [ "unk_2C", "effects_8h.html#abbc4515016489f806ba50425fe3c03ba", null ],
-      [ "unk_30", "effects_8h.html#aa61da7e1018b7d366bc3993c5029f996", null ],
-      [ "unk_34", "effects_8h.html#ad43ac9c5b20346fa89e2c79ea0054bd4", null ],
-      [ "unk_38", "effects_8h.html#a106937a4f5161f3dce37a811ca0c770e", null ],
-      [ "unk_3C", "effects_8h.html#af3a81de1ee709729e3c52b00443e4fd0", null ],
-      [ "unk_40", "effects_8h.html#a21586c8d264caf31810f8366c764f3e6", null ],
-      [ "unk_44", "effects_8h.html#a83b0141811bbee7a0c8422c342c73941", null ]
+    [ "ShockOverlayFXData", "effects_8h.html#structShockOverlayFXData", [
+      [ "envCol", "effects_8h.html#a5185413fdd817e4b31b64a1e2569c416", null ],
+      [ "lifetime", "effects_8h.html#ae7601b6626e539d1ab9285f73b208485", null ],
+      [ "pos", "effects_8h.html#ad9e9e641f04108cb676d59bc3306c549", null ],
+      [ "primCol", "effects_8h.html#a18169b1dad8dbe5f139eb75c80246c2a", null ],
+      [ "scaleX", "effects_8h.html#a71f673e7130e7381a8137ca98f2d73bb", null ],
+      [ "scaleY", "effects_8h.html#a16307a75ea5099e89869ee146a806594", null ],
+      [ "timeLeft", "effects_8h.html#ace5f4851f81e7056ac3dc1ecd1da682e", null ],
+      [ "type", "effects_8h.html#a4a0f698fa961c427aae10e50a5c03eaa", null ],
+      [ "unk_10", "effects_8h.html#a2847636be1d308229d26e56223d438a7", null ],
+      [ "unk_14", "effects_8h.html#a9b3d7f82aae385df1c147a65ad9bb5ed", null ],
+      [ "unk_18", "effects_8h.html#acb1dc3d00c67ed2da5af56822fb1a42b", null ],
+      [ "unk_24", "effects_8h.html#a17f09a7d1d34fcc8f66135528f97543e", null ]
     ] ],
     [ "BalloonFXData", "effects_8h.html#structBalloonFXData", [
       [ "unk_00", "effects_8h.html#a8c13da236f63f08483ef638289790b7e", null ],
@@ -2267,7 +2263,7 @@ var effects_8h =
       [ "firework", "effects_8h.html#a67f150941f805678353f7f6dab7ac13a", null ],
       [ "fireworkRocket", "effects_8h.html#adfc81bbc0d05bbb7459c5aad4baad389", null ],
       [ "flame", "effects_8h.html#afa8f55f050b2d94b60774ca651fbf0d0", null ],
-      [ "flashingBoxShockwave", "effects_8h.html#a47562868a71a7cb2c8e855072fe5c66c", null ],
+      [ "flashingBoxShockwave", "effects_8h.html#af1036cd5ed0df4ea52f304ae38959d8f", null ],
       [ "floatingCloudPuff", "effects_8h.html#ae69e4d62a2d9863c1d56efbdd9f45583", null ],
       [ "floatingFlower", "effects_8h.html#ab9cc52e05ab35b348fad657de69fa40c", null ],
       [ "floatingRock", "effects_8h.html#afba483e493a446639c6d0a47acc4e0fa", null ],
@@ -2480,6 +2476,12 @@ var effects_8h =
       [ "LIL_OINK_TYPE_QUESTION", "effects_8h.html#a5ace136e541404a2bdcc3fe8140c23f3a7a54a490bd8408f8a115c4433472599c", null ],
       [ "LIL_OINK_TYPE_SILVER", "effects_8h.html#a5ace136e541404a2bdcc3fe8140c23f3a4ef512a1a896831addacc0e50b7614a9", null ],
       [ "LIL_OINK_TYPE_GOLD", "effects_8h.html#a5ace136e541404a2bdcc3fe8140c23f3a79496356fcb2814a1cb452c32be350d7", null ]
+    ] ],
+    [ "ShockOverlayFXTypes", "effects_8h.html#a3c32c63af9eb202552f45678c639855a", [
+      [ "FX_SHOCK_OVERLAY_SHOCK_HIT", "effects_8h.html#a3c32c63af9eb202552f45678c639855aa8fd2dcaffad6bdb8a439aa8e241200b6", null ],
+      [ "FX_SHOCK_OVERLAY_LIGHTNING_WORLD", "effects_8h.html#a3c32c63af9eb202552f45678c639855aa9f9505f38d58f869c32a2a4e9adb4716", null ],
+      [ "FX_SHOCK_OVERLAY_MEGA_SHOCK", "effects_8h.html#a3c32c63af9eb202552f45678c639855aa53146ce47dbdd0da07d49168aa0cc35f", null ],
+      [ "FX_SHOCK_OVERLAY_LIGHTNING_BATTLE", "effects_8h.html#a3c32c63af9eb202552f45678c639855aaa00480bdb2b29d0b1ec964038113a5a9", null ]
     ] ],
     [ "SparkesFXTypes", "effects_8h.html#a48cd564a354ee2304b2fe3c4ccfa2871", [
       [ "FX_SPARKLES_0", "effects_8h.html#a48cd564a354ee2304b2fe3c4ccfa2871ab2ffc84a37ae524e27297fc89ffd7c5b", null ],

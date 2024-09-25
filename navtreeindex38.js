@@ -1,9 +1,5 @@
 var NAVTREEINDEX38 =
 {
-"bombette__breaking_8c.html#a49a3744652a2a1eabf9466c735c94769":[2,0,1,5,7,2],
-"bombette__breaking_8c.html#a5ff35661ceb1042ce70b868b5dd1850d":[2,0,1,5,7,0],
-"bombette__breaking_8c.html#a8f44a1095797f6ad79b6a144b20ceed7":[2,0,1,5,7,5],
-"bombette__breaking_8c.html#a909e224bc44105aabf3c638bbf67a8a3":[2,0,1,5,7,16],
 "bombette__breaking_8c.html#a97ed82ec76243faee47465c9cc773497":[2,0,1,5,7,17],
 "bombette__breaking_8c.html#a9b307e4efc3131962ec92b74c42047ed":[2,0,1,5,7,10],
 "bombette__breaking_8c.html#aa676301792534ce5dc229ed93d708da2":[2,0,1,5,7,13],
@@ -39,10 +35,10 @@ var NAVTREEINDEX38 =
 "bow_8h.html#af4db3f1ecf23d2b77ae17d37f1cd200e":[2,0,1,10,32,3,5],
 "bowser_8c.html":[2,0,1,10,4,1,2],
 "bowser__defeated_8c.html":[2,0,1,10,12,20,1],
-"bowser__defeated_8c.html#a02c6d39594a3aa893a4c7c5729890618":[2,0,1,10,12,20,1,5],
 "bowser__defeated_8c.html#a02c6d39594a3aa893a4c7c5729890618":[2,0,1,10,12,20,1,2],
 "bowser__defeated_8c.html#a02c6d39594a3aa893a4c7c5729890618":[2,0,1,10,12,20,1,3],
 "bowser__defeated_8c.html#a02c6d39594a3aa893a4c7c5729890618":[2,0,1,10,12,20,1,4],
+"bowser__defeated_8c.html#a02c6d39594a3aa893a4c7c5729890618":[2,0,1,10,12,20,1,5],
 "bowser__defeated_8c.html#a3934f5effd825209b70c05188331743d":[2,0,1,10,12,20,1,1],
 "bowser__defeated_8c.html#aabf53ab6b98bb298afdbdfde60f1aaa3":[2,0,1,10,12,20,1,0],
 "boxes_8c.html":[2,0,1,10,21,8,0],
@@ -249,5 +245,9 @@ var NAVTREEINDEX38 =
 "btl__states__menus_8c.html#a49c6c5fd7b6e93919e43823de868cd3a":[2,0,1,1,21,85],
 "btl__states__menus_8c.html#a4c2d1e336cc71f7a6c679563143685c2":[2,0,1,1,21,62],
 "btl__states__menus_8c.html#a4e3dce0b649ab2c973b70a133d68a917":[2,0,1,1,21,106],
-"btl__states__menus_8c.html#a4fd7d67765076331c421ae3f25043801":[2,0,1,1,21,221]
+"btl__states__menus_8c.html#a4fd7d67765076331c421ae3f25043801":[2,0,1,1,21,221],
+"btl__states__menus_8c.html#a502e3a6c491ceda8f2c41460681ed979":[2,0,1,1,21,260],
+"btl__states__menus_8c.html#a5188d8113e406fcd42be05352ea1ee37":[2,0,1,1,21,82],
+"btl__states__menus_8c.html#a518f3aa18b0e13bcd904121d983071e2":[2,0,1,1,21,97],
+"btl__states__menus_8c.html#a51cd3ca747d070199944e501e31a2410":[2,0,1,1,21,162]
 };
