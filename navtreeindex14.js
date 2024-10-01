@@ -1,12 +1,5 @@
 var NAVTREEINDEX14 =
 {
-"ShatteringHammer3Block_8c.html#a760e85753be6ce287a3ee6e38f14dc1d":[2,0,1,6,2,56,49],
-"ShatteringHammer3Block_8c.html#a7b0f270ef8b321534089c39ef9d666f1":[2,0,1,6,2,56,18],
-"ShatteringHammer3Block_8c.html#a7d41359f00e0c8b4237dcd1f4a504f84":[2,0,1,6,2,56,17],
-"ShatteringHammer3Block_8c.html#a86b1e3c5454c19b1ca348c0e2038c55b":[2,0,1,6,2,56,62],
-"ShatteringHammer3Block_8c.html#a8732819563ffd92da94b461b83a30790":[2,0,1,6,2,56,53],
-"ShatteringHammer3Block_8c.html#a891c0f22e1d206e979926499447b0ed1":[2,0,1,6,2,56,44],
-"ShatteringHammer3Block_8c.html#a8ebb43651cb5d6331d4ecc35d71863f2":[2,0,1,6,2,56,50],
 "ShatteringHammer3Block_8c.html#a956e542c9d8b999f6334b4405b77bd62":[2,0,1,6,2,56,67],
 "ShatteringHammer3Block_8c.html#a96d87db7045a87e78170681737a062b9":[2,0,1,6,2,56,76],
 "ShatteringHammer3Block_8c.html#a97013f1e5c62d97df17a5005380b2ddf":[2,0,1,6,2,56,82],
@@ -249,5 +242,12 @@ var NAVTREEINDEX14 =
 "StarSpirit_8h.html#a9c6c0cdcb9d6e6418e75c06d0cb4cb75":[2,0,1,10,29,5,76,2],
 "StarSpirit_8h.html#aae15b9cdde6c18fe57f56ba947f97fdd":[2,0,1,10,29,5,76,5],
 "StarSpirit_8h.html#ac2a04c502625f6cafc8389e3a8cadf78":[2,0,1,10,29,5,76,1],
-"StarSpirit_8h.html#ae4bc1e1b5fca33526258322e2bcf7efe":[2,0,1,10,29,5,76,7]
+"StarSpirit_8h.html#ae4bc1e1b5fca33526258322e2bcf7efe":[2,0,1,10,29,5,76,7],
+"StarSpirit_8inc_8c.html":[2,0,1,10,29,5,77],
+"StarSpirit__Wander_8inc_8c.html":[2,0,1,10,29,5,78],
+"StartRumbleWithParams_8inc_8c.html":[2,0,1,4,39],
+"StashVars_8inc_8c.html":[2,0,1,10,29,6,34],
+"States__PatrolAI_8inc_8c.html":[2,0,1,10,29,2,0,29],
+"States__PatrolAI_8inc_8c.html#a0734753ad39bff4392471dce34a31500":[2,0,1,10,29,2,0,29,9],
+"States__PatrolAI_8inc_8c.html#a2e604a65c17f3699cf4a1c9e1325e8c7":[2,0,1,10,29,2,0,29,10]
 };

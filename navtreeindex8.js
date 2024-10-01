@@ -1,12 +1,5 @@
 var NAVTREEINDEX8 =
 {
-"GoombaFamily_8h.html#a84ff26292b6403cda7e6b95624a7cfec":[2,0,1,10,29,5,23,4],
-"GoombaFamily_8h.html#a87a841d68252e8f7016f97aa9caa10cf":[2,0,1,10,29,5,23,2],
-"GoombaFamily_8h.html#aa588bb249684c8acd3666384e4d5971d":[2,0,1,10,29,5,23,0],
-"GoombaFamily_8inc_8c.html":[2,0,1,10,29,5,24],
-"GoombaFamily__Wander_8inc_8c.html":[2,0,1,10,29,5,25],
-"Goomba_8h.html":[2,0,1,10,29,2,50],
-"Goomba_8h.html#ac289e9effe7da9a201e2cff5f5944dff":[2,0,1,10,29,2,50,1],
 "Goomba_8h.html#ae3e7d2843589143771c993ca7df9a705":[2,0,1,10,29,2,50,0],
 "Goomba_8inc_8c.html":[2,0,1,10,29,2,51],
 "Goomba__Wander_8inc_8c.html":[2,0,1,10,29,2,52],
@@ -249,5 +242,12 @@ var NAVTREEINDEX8 =
 "IsAOrBPressed_8inc_8c.html":[2,0,1,4,21],
 "IsBerserkerEquipped_8inc_8c.html":[2,0,1,10,29,6,14],
 "IsHammerMaxCharged_8inc_8c.html":[2,0,1,10,29,6,15],
-"IsItemBadge_8inc_8c.html":[2,0,1,10,29,6,16]
+"IsItemBadge_8inc_8c.html":[2,0,1,10,29,6,16],
+"IsJumpMaxCharged_8inc_8c.html":[2,0,1,10,29,6,17],
+"IsPlayerPounding_8inc_8c.html":[2,0,1,10,29,6,18],
+"ItemBlock_8c.html":[2,0,1,6,9],
+"ItemBlock_8c.html#a012d775fd22d99c332c1a06330c973b6":[2,0,1,6,9,4],
+"ItemBlock_8c.html#a022a2ae797f1ddadf1cf2a5d6fbd2743":[2,0,1,6,9,11],
+"ItemBlock_8c.html#a02610627bca0275770354ca5a85f3881":[2,0,1,6,9,21],
+"ItemBlock_8c.html#a07b5df589e11fe1ec44607a3839a77a0":[2,0,1,6,9,22]
 };

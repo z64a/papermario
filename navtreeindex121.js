@@ -1,5 +1,6 @@
 var NAVTREEINDEX121 =
 {
+"gfx_2fire__breath_8c.html#ac8870c58efb7744d04e9765a28e18da7":[2,0,1,5,0,34,0],
 "gfx_2firework_8c.html":[2,0,1,5,0,36],
 "gfx_2firework_8c.html#acc89843a4bf6ec3b273a479b36eb213f":[2,0,1,5,0,36,0],
 "gfx_2firework__rocket_8c.html":[2,0,1,5,0,37],
@@ -248,6 +249,5 @@ var NAVTREEINDEX121 =
 "gfx_2recover_8c.html#ab42ea02921b87b3b6aa521387f635a05":[2,0,1,5,0,74,1],
 "gfx_2recover_8c.html#abb8308fd77c821a2d618e4b3bae242a2":[2,0,1,5,0,74,9],
 "gfx_2recover_8c.html#abbf68de9e4c48379fdc73786eeb013dd":[2,0,1,5,0,74,0],
-"gfx_2recover_8c.html#abf9d5c7aca120d2f056ef3db663b3261":[2,0,1,5,0,74,5],
-"gfx_2recover_8c.html#adc5a71293ef8100f4f97d6b42ef90f15":[2,0,1,5,0,74,3]
+"gfx_2recover_8c.html#abf9d5c7aca120d2f056ef3db663b3261":[2,0,1,5,0,74,5]
 };

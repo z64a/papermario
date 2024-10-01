@@ -1,5 +1,6 @@
 var NAVTREEINDEX349 =
 {
+"shops_8c.html#aab1a5d1e0ce2e54d4629a19fb5cccff4":[2,0,1,10,33,3,17],
 "shops_8c.html#ac1ed944e758949178225880614442b55":[2,0,1,10,33,3,7],
 "shops_8c.html#aca83be0f75a0f33584615300d3b56f81":[2,0,1,10,33,3,1],
 "shops_8c.html#acd258086e617fdb2216a03e2a2c61f87":[2,0,1,10,33,3,5],
@@ -248,6 +249,5 @@ var NAVTREEINDEX349 =
 "something__rotating_8c.html#aae10d0fbbb64784966a60112ae8f9d75":[2,0,1,5,98,27],
 "something__rotating_8c.html#ab6604fb9613acee965c9f1c7c44722e5":[2,0,1,5,98,17],
 "something__rotating_8c.html#ab68bceb87dc72895ab23ca4678570a06":[2,0,1,5,98,9],
-"something__rotating_8c.html#abaf5f43713c3f2838d8545055c110385":[2,0,1,5,98,5],
-"something__rotating_8c.html#abaf6e8d24d7daa9fbc496d8a029c9d9e":[2,0,1,5,98,16]
+"something__rotating_8c.html#abaf5f43713c3f2838d8545055c110385":[2,0,1,5,98,5]
 };

@@ -538,7 +538,7 @@ var searchData=
   ['func_5fe011a3bc_535',['func_E011A3BC',['../partner__buff_8c.html#aa9dd794f370780037aba2290c11e58ef',1,'partner_buff.c']]],
   ['func_5fe011a48c_536',['func_E011A48C',['../partner__buff_8c.html#aef02205c46deed649e2d249887f1450a',1,'partner_buff.c']]],
   ['func_5fe011a700_537',['func_E011A700',['../partner__buff_8c.html#a3469e8303a5b6c72aeaa527b297e1030',1,'partner_buff.c']]],
-  ['func_5fe02000ac_538',['func_E02000AC',['../325AD0_8c.html#ab14327925554f1c4205abda0709c8c23',1,'325AD0.c']]],
+  ['func_5fe02000ac_538',['func_E02000AC',['../effect__utils_8c.html#ab14327925554f1c4205abda0709c8c23',1,'effect_utils.c']]],
   ['func_5ffilemenu_5f8024d710_539',['func_filemenu_8024D710',['../filemenu__selectlanguage_8c.html#a49f48a3a653ae825fbc04d25d520027c',1,'filemenu_selectlanguage.c']]],
   ['func_5fpal_5f8002b574_540',['func_PAL_8002B574',['../filemenu__common_8c.html#ac1f8910e8c4b37c304b3064fef336ec2',1,'filemenu_common.c']]],
   ['func_5funka_5fdraw_5fnpc_541',['func_unkA_draw_npc',['../actor__rendering_8c.html#a4319549d347eb366cb21c1307d4e0ec0',1,'actor_rendering.c']]],

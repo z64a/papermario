@@ -236,7 +236,7 @@ var searchData=
   ['signpostentity_233',['signpostEntity',['../world_2area__mgm_2mgm__02_2npc_8c.html#aad27105aafde8ebc4fb99c4084bfc054',1,'SmashGameData']]],
   ['silhouetteposx_234',['silhouettePosX',['../area__hos_2hos__05_2intro_8c.html#ad75fe75d43f03a0367482a2b06834f92',1,'StoryGraphicData']]],
   ['silhouetteposy_235',['silhouettePosY',['../area__hos_2hos__05_2intro_8c.html#a473c140e8e0ef6b9c9a00b6cc1569946',1,'StoryGraphicData']]],
-  ['simplerandlut_236',['SimpleRandLUT',['../325AD0_8c.html#aa621ae45a557eda66915b26a71060ec8',1,'325AD0.c']]],
+  ['simplerandlut_236',['SimpleRandLUT',['../effect__utils_8c.html#aa621ae45a557eda66915b26a71060ec8',1,'effect_utils.c']]],
   ['simplespring_237',['simpleSpring',['../common__structs_8h.html#aedbd6a86d51fa78f684021026722258f',1,'EntityData']]],
   ['sinkingtimer_238',['sinkingTimer',['../entity_8h.html#a704e56db542218777095a01ced5dad42',1,'BlockData']]],
   ['sintegerdigits_239',['sIntegerDigits',['../43F0_8c.html#a4cfab93ea14ec016d80bf4b84338dc3f',1,'43F0.c']]],

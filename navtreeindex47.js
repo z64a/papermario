@@ -1,12 +1,5 @@
 var NAVTREEINDEX47 =
 {
-"common__structs_8h.html#ad8170e0d527f2c643cb90768a0d07b57":[2,0,0,4,36,6],
-"common__structs_8h.html#ad849cb61021a2de1d38c5f73c4fae03c":[2,0,0,4,80,16],
-"common__structs_8h.html#ad84f19ba31351b3c81dd9ce14f2ff607":[2,0,0,4,72,54],
-"common__structs_8h.html#ad87fd6f94a0aae0d2fa153500a2a7523":[2,0,0,4,79,2],
-"common__structs_8h.html#ad89bf0c0392b5f1b40ec60ac6747577b":[2,0,0,4,22,0],
-"common__structs_8h.html#ad8b8503ff4abb42e680c54e787a4d181":[2,0,0,4,44,7],
-"common__structs_8h.html#ad8c6d291fd3b0c4767f0a78920e6d57d":[2,0,0,4,83,5],
 "common__structs_8h.html#ad90b0567f21ca88f846b6a44da9238cd":[2,0,0,4,9,0],
 "common__structs_8h.html#ad95b55aa85f08077966cde9ac77ca3a8":[2,0,0,4,43,7],
 "common__structs_8h.html#ad9935fdfaefab1dfef11d236f83f31d7":[2,0,0,4,43,0],
@@ -249,5 +242,12 @@ var NAVTREEINDEX47 =
 "common__structs_8h.html#structCameraControlSettings":[2,0,0,4,46],
 "common__structs_8h.html#structCameraControlSettings_8points_8three":[2,0,0,4,158],
 "common__structs_8h.html#structCameraControlSettings_8points_8two":[2,0,0,4,157],
-"common__structs_8h.html#structCameraInitData":[2,0,0,4,44]
+"common__structs_8h.html#structCameraInitData":[2,0,0,4,44],
+"common__structs_8h.html#structCameraRig":[2,0,0,4,19],
+"common__structs_8h.html#structCameraUnk":[2,0,0,4,45],
+"common__structs_8h.html#structCamera_8params_8basic":[2,0,0,4,161],
+"common__structs_8h.html#structCamera_8params_8confined":[2,0,0,4,164],
+"common__structs_8h.html#structCamera_8params_8interp":[2,0,0,4,162],
+"common__structs_8h.html#structCamera_8params_8radial":[2,0,0,4,163],
+"common__structs_8h.html#structCamera_8params_8world":[2,0,0,4,160]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX378 =
 {
+"world_2area__kzn_2kzn__17_2npc_8c.html#a05bcc77f5bc146918b044b9791148ed1":[2,0,1,10,15,12,3,2],
 "world_2area__kzn_2kzn__17_2npc_8c.html#a4c9b43d3d7c824eeef2277efa6bce8b0":[2,0,1,10,15,12,3,1],
 "world_2area__kzn_2kzn__17_2npc_8c.html#abdb801f807725455bea2378281b9ee99":[2,0,1,10,15,12,3,0],
 "world_2area__kzn_2kzn__18_2entity_8c.html":[2,0,1,10,15,13,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX378 =
 "world_2area__mim_2mim__06_2npc_8c.html":[2,0,1,10,18,6,6],
 "world_2area__mim_2mim__07_2entity_8c.html":[2,0,1,10,18,7,0],
 "world_2area__mim_2mim__07_2main_8c.html":[2,0,1,10,18,7,3],
-"world_2area__mim_2mim__07_2npc_8c.html":[2,0,1,10,18,7,6],
-"world_2area__mim_2mim__08_2entity_8c.html":[2,0,1,10,18,8,0]
+"world_2area__mim_2mim__07_2npc_8c.html":[2,0,1,10,18,7,6]
 };

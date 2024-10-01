@@ -1,12 +1,5 @@
 var NAVTREEINDEX7 =
 {
-"Credits_8inc_8c.html#a7fc55e28cb2bd10206fb760cc51cce18":[2,0,1,10,4,0,1,9],
-"Credits_8inc_8c.html#a8712a326c8d5de71017f7abb79fd5401":[2,0,1,10,4,0,1,16],
-"Credits_8inc_8c.html#a89eb95557e7dc3fbae2ce11da3ed91f1":[2,0,1,10,4,0,1,17],
-"Credits_8inc_8c.html#aa2f9c883a91bc5c3d170360a7f56a11c":[2,0,1,10,4,0,1,3],
-"Credits_8inc_8c.html#ab8993f61d171bc47e1a7a0849b5a2147":[2,0,1,10,4,0,1,15],
-"Credits_8inc_8c.html#abc29737f0487bf39dd9f7d327eba840b":[2,0,1,10,4,0,1,18],
-"Credits_8inc_8c.html#acd5decbbaa5c60974120d1102928dd37":[2,0,1,10,4,0,1,7],
 "Credits_8inc_8c.html#ad1827e5647a4297ed952d4fee9535ef3":[2,0,1,10,4,0,1,4],
 "Credits_8inc_8c.html#ad8ec1175a7e33d1231a95238d54c527f":[2,0,1,10,4,0,1,0],
 "CrystalKing_8h.html":[2,0,1,10,29,2,26],
@@ -249,5 +242,12 @@ var NAVTREEINDEX7 =
 "GoombaFamily_8h.html":[2,0,1,10,29,5,23],
 "GoombaFamily_8h.html#a120e456a33703e239471af371450cca6":[2,0,1,10,29,5,23,1],
 "GoombaFamily_8h.html#a58f47a224b14989853e9ffdec9245113":[2,0,1,10,29,5,23,5],
-"GoombaFamily_8h.html#a6fa523a94eaa49e6fc797e4f0dd43a68":[2,0,1,10,29,5,23,3]
+"GoombaFamily_8h.html#a6fa523a94eaa49e6fc797e4f0dd43a68":[2,0,1,10,29,5,23,3],
+"GoombaFamily_8h.html#a84ff26292b6403cda7e6b95624a7cfec":[2,0,1,10,29,5,23,4],
+"GoombaFamily_8h.html#a87a841d68252e8f7016f97aa9caa10cf":[2,0,1,10,29,5,23,2],
+"GoombaFamily_8h.html#aa588bb249684c8acd3666384e4d5971d":[2,0,1,10,29,5,23,0],
+"GoombaFamily_8inc_8c.html":[2,0,1,10,29,5,24],
+"GoombaFamily__Wander_8inc_8c.html":[2,0,1,10,29,5,25],
+"Goomba_8h.html":[2,0,1,10,29,2,50],
+"Goomba_8h.html#ac289e9effe7da9a201e2cff5f5944dff":[2,0,1,10,29,2,50,1]
 };

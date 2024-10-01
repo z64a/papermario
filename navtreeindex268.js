@@ -1,5 +1,6 @@
 var NAVTREEINDEX268 =
 {
+"npc_8h.html#a89a3c0eec6baf15c0630159ff4c8a3f0":[2,0,0,25,18,17],
 "npc_8h.html#a8a55e361f465999c3580afdf3c93b82c":[2,0,0,25,103],
 "npc_8h.html#a8a723d95228c5290e9f637ddd3fca14b":[2,0,0,25,5,1],
 "npc_8h.html#a8aebfe3a0f7295af4bea6c3cc594acfa":[2,0,0,25,42],
@@ -202,14 +203,14 @@ var NAVTREEINDEX268 =
 "npc__api_8c.html#aab5c82f3953375249d38d809f97814bf":[2,0,1,7,11,1],
 "npc__api_8c.html#af549fb66e4771c4574ccf773d88c570b":[2,0,1,7,11,4],
 "npc__ch0_8c.html":[2,0,1,10,12,9,12],
-"npc__ch0_8c.html#a02c6d39594a3aa893a4c7c5729890618":[2,0,1,10,12,9,12,0],
 "npc__ch0_8c.html#a02c6d39594a3aa893a4c7c5729890618":[2,0,1,10,12,9,12,1],
+"npc__ch0_8c.html#a02c6d39594a3aa893a4c7c5729890618":[2,0,1,10,12,9,12,0],
 "npc__ch2_8c.html":[2,0,1,10,12,9,13],
 "npc__ch2_8c.html#a02c6d39594a3aa893a4c7c5729890618":[2,0,1,10,12,9,13,0],
 "npc__ch2_8c.html#a02c6d39594a3aa893a4c7c5729890618":[2,0,1,10,12,9,13,1],
 "npc__ch7_8c.html":[2,0,1,10,12,9,14],
-"npc__ch7_8c.html#a02c6d39594a3aa893a4c7c5729890618":[2,0,1,10,12,9,14,1],
 "npc__ch7_8c.html#a02c6d39594a3aa893a4c7c5729890618":[2,0,1,10,12,9,14,0],
+"npc__ch7_8c.html#a02c6d39594a3aa893a4c7c5729890618":[2,0,1,10,12,9,14,1],
 "npc__chapter0_8c.html":[2,0,1,10,12,10,7],
 "npc__chapter0_8c.html#a02c6d39594a3aa893a4c7c5729890618":[2,0,1,10,12,10,7,0],
 "npc__chapter0_8c.html#a02c6d39594a3aa893a4c7c5729890618":[2,0,1,10,12,10,7,1],
@@ -245,9 +246,8 @@ var NAVTREEINDEX268 =
 "npc__composer_8c.html":[2,0,1,10,3,0,6],
 "npc__ending_8c.html":[2,0,1,10,12,1,3],
 "npc__final_8c.html":[2,0,1,10,12,20,6],
-"npc__final_8c.html#a02c6d39594a3aa893a4c7c5729890618":[2,0,1,10,12,20,6,1],
 "npc__final_8c.html#a02c6d39594a3aa893a4c7c5729890618":[2,0,1,10,12,20,6,0],
+"npc__final_8c.html#a02c6d39594a3aa893a4c7c5729890618":[2,0,1,10,12,20,6,1],
 "npc__goomba__family_8inc_8c.html":[2,0,1,10,16,4,8],
-"npc__gossip__trio_8inc_8c.html":[2,0,1,10,16,4,9],
-"npc__guards_8c.html":[2,0,1,10,12,9,15]
+"npc__gossip__trio_8inc_8c.html":[2,0,1,10,16,4,9]
 };

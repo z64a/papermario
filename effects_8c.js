@@ -1,5 +1,6 @@
 var effects_8c =
 [
+    [ "EFFECT_GLOBALS_TLB_IDX", "effects_8c.html#ae6bb5f49aecd166012924ea81f8e7c93", null ],
     [ "FX_ENTRY", "effects_8c.html#a499afd2e9e9647b4822b9b31547a9b6f", null ],
     [ "TlbEntry", "effects_8c.html#a8696ac644f955d1b8def32c73df61c5e", null ],
     [ "TlbMappablePage", "effects_8c.html#a865cbcab0d89134c944c131175838832", null ],
@@ -15,8 +16,8 @@ var effects_8c =
     [ "stub_effect_delegate", "effects_8c.html#a657b16e4da695f5429ec36990b2a92a3", null ],
     [ "update_effects", "effects_8c.html#a4c6d006d778164f8dd4302e37d79b3d1", null ],
     [ "D_8007FEB8", "effects_8c.html#a2a5d77ae52e07d98120e6082743ae31a", null ],
-    [ "D_80197000", "effects_8c.html#a1175a5455c5b88f630a8e3fcc1c13c90", null ],
-    [ "D_801A6000", "effects_8c.html#a6c64b43a0fd7f734bfec857be9c76457", null ],
+    [ "gEffectDataBuffer", "effects_8c.html#ab916b184fd533d0ec6ba89a2f57e6dd8", null ],
+    [ "gEffectGlobals", "effects_8c.html#a3b6fa6c0278d31d68a858f6557acfa1c", null ],
     [ "gEffectGraphicsData", "effects_8c.html#a907095e7f5d254ed880c9cb9b45fef3b", null ],
     [ "gEffectInstances", "effects_8c.html#a2a1aa00db137a0788b304fb6b96a5f2d", null ]
 ];

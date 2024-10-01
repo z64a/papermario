@@ -1,5 +1,6 @@
 var NAVTREEINDEX379 =
 {
+"world_2area__mim_2mim__08_2entity_8c.html":[2,0,1,10,18,8,0],
 "world_2area__mim_2mim__08_2main_8c.html":[2,0,1,10,18,8,2],
 "world_2area__mim_2mim__08_2npc_8c.html":[2,0,1,10,18,8,5],
 "world_2area__mim_2mim__09_2entity_8c.html":[2,0,1,10,18,9,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX379 =
 "world_2area__pra_2pra__31_2npc_8c.html#af0156a3b22d684db60cd6c6db30fa7e7":[2,0,1,10,23,23,2,0],
 "world_2area__pra_2pra__32_2main_8c.html":[2,0,1,10,23,24,0],
 "world_2area__pra_2pra__32_2main_8c.html#a7c33cea3fc2294b92f9586b6fb7b2229":[2,0,1,10,23,24,0,0],
-"world_2area__pra_2pra__32_2npc_8c.html":[2,0,1,10,23,24,2],
-"world_2area__pra_2pra__33_2entity_8c.html":[2,0,1,10,23,25,0]
+"world_2area__pra_2pra__32_2npc_8c.html":[2,0,1,10,23,24,2]
 };

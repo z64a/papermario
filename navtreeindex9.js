@@ -1,12 +1,5 @@
 var NAVTREEINDEX9 =
 {
-"IsJumpMaxCharged_8inc_8c.html":[2,0,1,10,29,6,17],
-"IsPlayerPounding_8inc_8c.html":[2,0,1,10,29,6,18],
-"ItemBlock_8c.html":[2,0,1,6,9],
-"ItemBlock_8c.html#a012d775fd22d99c332c1a06330c973b6":[2,0,1,6,9,4],
-"ItemBlock_8c.html#a022a2ae797f1ddadf1cf2a5d6fbd2743":[2,0,1,6,9,11],
-"ItemBlock_8c.html#a02610627bca0275770354ca5a85f3881":[2,0,1,6,9,21],
-"ItemBlock_8c.html#a07b5df589e11fe1ec44607a3839a77a0":[2,0,1,6,9,22],
 "ItemBlock_8c.html#a1078368cc3e8c74f3434e6e7af535f52":[2,0,1,6,9,39],
 "ItemBlock_8c.html#a11b413e5bca8dce6db6c547c5abd7774":[2,0,1,6,9,16],
 "ItemBlock_8c.html#a152cc57ab157bb4f62dbc808d17568c2":[2,0,1,6,9,1],
@@ -249,5 +242,12 @@ var NAVTREEINDEX9 =
 "MoveBushTemplates_8h.html":[2,0,1,10,10,0,1],
 "MoveBushTemplates_8h.html#a5af8594a04b5829d99055604851f30b7":[2,0,1,10,10,0,1,0],
 "MoveBushTemplates_8h.html#a9563727a01e653b58848ac29778b3dde":[2,0,1,10,10,0,1,1],
-"MoveBush_8inc_8c.html":[2,0,1,10,10,0,0]
+"MoveBush_8inc_8c.html":[2,0,1,10,10,0,0],
+"MoveBush_8inc_8c.html#a4bdd44899ce699d5efbedd59e60ebb86":[2,0,1,10,10,0,0,0],
+"MovingClouds_8inc_8c.html":[2,0,1,1,2,2,21,2],
+"MunchlesiaBeginChew__anim_8c.html":[2,0,1,6,2,26],
+"MunchlesiaBeginChew__anim_8c.html#a10de51e8db5a5a6beee2c6288bcde40c":[2,0,1,6,2,26,3],
+"MunchlesiaBeginChew__anim_8c.html#a1918a314e311bed34abbeecc73251d01":[2,0,1,6,2,26,12],
+"MunchlesiaBeginChew__anim_8c.html#a1e4bea7ada37137f60f119c4bf397dc7":[2,0,1,6,2,26,0],
+"MunchlesiaBeginChew__anim_8c.html#a36b29645dcd8f5d9cf4c4bfa7b5677ea":[2,0,1,6,2,26,6]
 };

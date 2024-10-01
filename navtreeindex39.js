@@ -1,12 +1,5 @@
 var NAVTREEINDEX39 =
 {
-"btl__states__menus_8c.html#a5269686768dce052ec1108141dbb7a05":[2,0,1,1,21,247],
-"btl__states__menus_8c.html#a531dd5d8c02e90fca583f73a5c4c8887":[2,0,1,1,21,201],
-"btl__states__menus_8c.html#a5331d77c8844b37d6edf4327115548f4":[2,0,1,1,21,282],
-"btl__states__menus_8c.html#a533b138c4f66198115c59770dd4fb07f":[2,0,1,1,21,15],
-"btl__states__menus_8c.html#a53c6bfb65ddbfaf2d2e9ebfb6c1e6141":[2,0,1,1,21,187],
-"btl__states__menus_8c.html#a54020fc225aae541ccb2eccfd9e8cabd":[2,0,1,1,21,207],
-"btl__states__menus_8c.html#a540883af8f24347fcb5a6dc633370082":[2,0,1,1,21,283],
 "btl__states__menus_8c.html#a55616b4d8cec1af8ff4c13e2ab4d7a7c":[2,0,1,1,21,223],
 "btl__states__menus_8c.html#a55fc750f73d884b5f9d5eb09a0218c53":[2,0,1,1,21,2],
 "btl__states__menus_8c.html#a56cb2f0d22f34e0ceacd8ff96a75d431":[2,0,1,1,21,172],
@@ -249,5 +242,12 @@ var NAVTREEINDEX39 =
 "butterflies_8c.html#ad4acbf1461c87a7bc8daa4a32965d471":[2,0,1,5,10,0],
 "butterflies_8c.html#ad9f60081427d3744933c1a0f7fff67ff":[2,0,1,5,10,18],
 "butterflies_8c.html#ae91b2eed1a676e726a17130a397440d3":[2,0,1,5,10,5],
-"butterflies_8c.html#af03620a44aa8a5be4759dea2473825c2":[2,0,1,5,10,19]
+"butterflies_8c.html#af03620a44aa8a5be4759dea2473825c2":[2,0,1,5,10,19],
+"butterflies_8c.html#af09b9c7023ed6c5238a5d66094b9e554":[2,0,1,5,10,4],
+"butterflies_8c.html#afaea0fc3d70c3a84beb75bb60efa9961":[2,0,1,5,10,1],
+"butterflies_8c.html#afdbbd5f5b17e3ca94b69a159ea34aa66":[2,0,1,5,10,2],
+"buzzar_8c.html":[2,0,1,1,1,8,0,0],
+"buzzar_8c.html#a3d11a6f0a1036a5df8953540b1afb60a":[2,0,1,1,1,8,0,0,1],
+"buzzar_8c.html#afa7779fe56b160955b535cd6a8aaf8f4":[2,0,1,1,1,8,0,0,0],
+"buzzy__beetle_8inc_8c.html":[2,0,1,1,2,0,10]
 };

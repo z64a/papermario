@@ -1,12 +1,5 @@
 var NAVTREEINDEX38 =
 {
-"bombette__breaking_8c.html#a97ed82ec76243faee47465c9cc773497":[2,0,1,5,7,17],
-"bombette__breaking_8c.html#a9b307e4efc3131962ec92b74c42047ed":[2,0,1,5,7,10],
-"bombette__breaking_8c.html#aa676301792534ce5dc229ed93d708da2":[2,0,1,5,7,13],
-"bombette__breaking_8c.html#ac91ee11f21172752ff19c654509d07f2":[2,0,1,5,7,14],
-"bombette__breaking_8c.html#ae38cf0898ac3cb9661de58c3b7ab96fd":[2,0,1,5,7,18],
-"bombette__breaking_8c.html#ae4ed11a4d97633a53082bb65753c686f":[2,0,1,5,7,1],
-"bombette__breaking_8c.html#aea7fcf95e95118101c069c0342561df0":[2,0,1,5,7,8],
 "bombette__breaking_8c.html#aeea654b998cf1e8055d64732da1affbf":[2,0,1,5,7,15],
 "bombette__breaking_8c.html#afe4f58fc7f162d06a6689500db8296a1":[2,0,1,5,7,4],
 "bombshell__bill_8c.html":[2,0,1,1,1,19,0,0],
@@ -35,9 +28,9 @@ var NAVTREEINDEX38 =
 "bow_8h.html#af4db3f1ecf23d2b77ae17d37f1cd200e":[2,0,1,10,32,3,5],
 "bowser_8c.html":[2,0,1,10,4,1,2],
 "bowser__defeated_8c.html":[2,0,1,10,12,20,1],
+"bowser__defeated_8c.html#a02c6d39594a3aa893a4c7c5729890618":[2,0,1,10,12,20,1,4],
 "bowser__defeated_8c.html#a02c6d39594a3aa893a4c7c5729890618":[2,0,1,10,12,20,1,2],
 "bowser__defeated_8c.html#a02c6d39594a3aa893a4c7c5729890618":[2,0,1,10,12,20,1,3],
-"bowser__defeated_8c.html#a02c6d39594a3aa893a4c7c5729890618":[2,0,1,10,12,20,1,4],
 "bowser__defeated_8c.html#a02c6d39594a3aa893a4c7c5729890618":[2,0,1,10,12,20,1,5],
 "bowser__defeated_8c.html#a3934f5effd825209b70c05188331743d":[2,0,1,10,12,20,1,1],
 "bowser__defeated_8c.html#aabf53ab6b98bb298afdbdfde60f1aaa3":[2,0,1,10,12,20,1,0],
@@ -249,5 +242,12 @@ var NAVTREEINDEX38 =
 "btl__states__menus_8c.html#a502e3a6c491ceda8f2c41460681ed979":[2,0,1,1,21,260],
 "btl__states__menus_8c.html#a5188d8113e406fcd42be05352ea1ee37":[2,0,1,1,21,82],
 "btl__states__menus_8c.html#a518f3aa18b0e13bcd904121d983071e2":[2,0,1,1,21,97],
-"btl__states__menus_8c.html#a51cd3ca747d070199944e501e31a2410":[2,0,1,1,21,162]
+"btl__states__menus_8c.html#a51cd3ca747d070199944e501e31a2410":[2,0,1,1,21,162],
+"btl__states__menus_8c.html#a5269686768dce052ec1108141dbb7a05":[2,0,1,1,21,247],
+"btl__states__menus_8c.html#a531dd5d8c02e90fca583f73a5c4c8887":[2,0,1,1,21,201],
+"btl__states__menus_8c.html#a5331d77c8844b37d6edf4327115548f4":[2,0,1,1,21,282],
+"btl__states__menus_8c.html#a533b138c4f66198115c59770dd4fb07f":[2,0,1,1,21,15],
+"btl__states__menus_8c.html#a53c6bfb65ddbfaf2d2e9ebfb6c1e6141":[2,0,1,1,21,187],
+"btl__states__menus_8c.html#a54020fc225aae541ccb2eccfd9e8cabd":[2,0,1,1,21,207],
+"btl__states__menus_8c.html#a540883af8f24347fcb5a6dc633370082":[2,0,1,1,21,283]
 };

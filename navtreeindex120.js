@@ -1,5 +1,6 @@
 var NAVTREEINDEX120 =
 {
+"game__states_8c.html#a66e0977683b0464b6a01fd4a1abe34f2":[2,0,1,58,1],
 "game__states_8c.html#a89f08d9188da7b6addbf43459c6668d4":[2,0,1,58,3],
 "game__states_8c.html#a8b41a45980732e86996a060f4a53b990":[2,0,1,58,5],
 "game__states_8c.html#a93c5b12fb59cd94ae219815267087f70":[2,0,1,58,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX120 =
 "gfx_2falling__leaves_8c.html":[2,0,1,5,0,33],
 "gfx_2falling__leaves_8c.html#a22ecf469a2000f6a128c1e1042dc6eb1":[2,0,1,5,0,33,0],
 "gfx_2fire__breath_8c.html":[2,0,1,5,0,34],
-"gfx_2fire__breath_8c.html#a1472c1d26e4b93db6531a3ad85ed6ea8":[2,0,1,5,0,34,1],
-"gfx_2fire__breath_8c.html#ac8870c58efb7744d04e9765a28e18da7":[2,0,1,5,0,34,0]
+"gfx_2fire__breath_8c.html#a1472c1d26e4b93db6531a3ad85ed6ea8":[2,0,1,5,0,34,1]
 };

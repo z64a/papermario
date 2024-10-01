@@ -1,12 +1,5 @@
 var NAVTREEINDEX33 =
 {
-"battle_2level__up_8c.html#a45ae0daa03ce3fad6866f64ca65ab170":[2,0,1,1,27,107],
-"battle_2level__up_8c.html#a48dc93f3718b6549748578e4db7592b0":[2,0,1,1,27,84],
-"battle_2level__up_8c.html#a4aab95a43d90dedce643705320ae2d8f":[2,0,1,1,27,95],
-"battle_2level__up_8c.html#a4ae284967dd2458626f22a04d3bcd0e1":[2,0,1,1,27,12],
-"battle_2level__up_8c.html#a4bcd171ce32a99cb894b20dea6e6439c":[2,0,1,1,27,69],
-"battle_2level__up_8c.html#a4cba6e97037d1c0f216dcd49fb1670a5":[2,0,1,1,27,101],
-"battle_2level__up_8c.html#a4d2cd496a56c75eac2d976d465a49cfa":[2,0,1,1,27,63],
 "battle_2level__up_8c.html#a51c5cc43b18a019037bea082bf072c5a":[2,0,1,1,27,47],
 "battle_2level__up_8c.html#a561f03e1f7108a4ed4b3a0bb761f3c4e":[2,0,1,1,27,89],
 "battle_2level__up_8c.html#a5c5ab2834abdb2abf9b29d719b48edc5":[2,0,1,1,27,27],
@@ -217,9 +210,9 @@ var NAVTREEINDEX33 =
 "battle__bss_8c.html#ad0a0f5010f1ac1fc255b9d27a92c972b":[2,0,1,1,17,0],
 "battle__bss_8c.html#afbfa5f86a19c3000cbb44f7959479071":[2,0,1,1,17,3],
 "battle__bss_8c.html#afe49d8b248081d8169d182525707a3fe":[2,0,1,1,17,14],
-"battle__heap__create__obfuscated_8c.html":[2,0,1,32],
-"battle__heap__create__obfuscated_8c.html#a01e339de2fd0f80f0386906c8c0d56da":[2,0,1,32,1],
-"battle__heap__create__obfuscated_8c.html#aafdbc6f9d78953946effa87c97ccf2c6":[2,0,1,32,0],
+"battle__heap__create__obfuscated_8c.html":[2,0,1,31],
+"battle__heap__create__obfuscated_8c.html#a01e339de2fd0f80f0386906c8c0d56da":[2,0,1,31,1],
+"battle__heap__create__obfuscated_8c.html#aafdbc6f9d78953946effa87c97ccf2c6":[2,0,1,31,0],
 "battle__names_8h.html":[2,0,1,1,18],
 "battle__names_8h.html#a988694304a6f979857a006d5f320b409":[2,0,1,1,18,0],
 "battle__names_8h.html#a988694304a6f979857a006d5f320b409a00a4cae46bfa6c4dbb728d01a16341e5":[2,0,1,1,18,0,45],
@@ -249,5 +242,12 @@ var NAVTREEINDEX33 =
 "battle__names_8h.html#a988694304a6f979857a006d5f320b409a096a50dd18fe9e6843160b7cd3e2cf7b":[2,0,1,1,18,0,316],
 "battle__names_8h.html#a988694304a6f979857a006d5f320b409a0977f6d0a7e672a7795f5c361b01eff3":[2,0,1,1,18,0,150],
 "battle__names_8h.html#a988694304a6f979857a006d5f320b409a0a6b29ef140ba17eb9c58b4d84727604":[2,0,1,1,18,0,315],
-"battle__names_8h.html#a988694304a6f979857a006d5f320b409a0a8b8efa8dc5a599d292bb281285c30e":[2,0,1,1,18,0,378]
+"battle__names_8h.html#a988694304a6f979857a006d5f320b409a0a8b8efa8dc5a599d292bb281285c30e":[2,0,1,1,18,0,378],
+"battle__names_8h.html#a988694304a6f979857a006d5f320b409a0a8d7dd81921947234e85577fbd33f1e":[2,0,1,1,18,0,146],
+"battle__names_8h.html#a988694304a6f979857a006d5f320b409a0c2f272df380d8be4f5f8e9efc5fe888":[2,0,1,1,18,0,441],
+"battle__names_8h.html#a988694304a6f979857a006d5f320b409a0c45cc594cbd6b68e96d40846ba64190":[2,0,1,1,18,0,221],
+"battle__names_8h.html#a988694304a6f979857a006d5f320b409a0d15d05a9ccec2fbdd0c839568653874":[2,0,1,1,18,0,286],
+"battle__names_8h.html#a988694304a6f979857a006d5f320b409a0d580b27fcd9a02fbc1a8606f9ea5283":[2,0,1,1,18,0,73],
+"battle__names_8h.html#a988694304a6f979857a006d5f320b409a0dc7be8a628a0e16a8efbbf79ad44220":[2,0,1,1,18,0,350],
+"battle__names_8h.html#a988694304a6f979857a006d5f320b409a0dee1557771294f05d33a9e087703eca":[2,0,1,1,18,0,546]
 };

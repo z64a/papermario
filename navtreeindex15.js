@@ -1,12 +1,5 @@
 var NAVTREEINDEX15 =
 {
-"StarSpirit_8inc_8c.html":[2,0,1,10,29,5,77],
-"StarSpirit__Wander_8inc_8c.html":[2,0,1,10,29,5,78],
-"StartRumbleWithParams_8inc_8c.html":[2,0,1,4,39],
-"StashVars_8inc_8c.html":[2,0,1,10,29,6,34],
-"States__PatrolAI_8inc_8c.html":[2,0,1,10,29,2,0,29],
-"States__PatrolAI_8inc_8c.html#a0734753ad39bff4392471dce34a31500":[2,0,1,10,29,2,0,29,9],
-"States__PatrolAI_8inc_8c.html#a2e604a65c17f3699cf4a1c9e1325e8c7":[2,0,1,10,29,2,0,29,10],
 "States__PatrolAI_8inc_8c.html#a492fdcc156a5bb4c60d5957747145a20":[2,0,1,10,29,2,0,29,5],
 "States__PatrolAI_8inc_8c.html#a5c6b9872a1aaab6e5afcacdcb2d06f2b":[2,0,1,10,29,2,0,29,11],
 "States__PatrolAI_8inc_8c.html#a7579a6870eed26d2aac1e9e9ede16ef5":[2,0,1,10,29,2,0,29,3],
@@ -249,5 +242,12 @@ var NAVTREEINDEX15 =
 "UltraBlock_8c.html#aaff137906edf53ac53927d9b8af2ae1d":[2,0,1,6,2,67,1],
 "UltraBlock_8c.html#ab706232453051b0162ceaebcd198e667":[2,0,1,6,2,67,3],
 "UltraBlock_8c.html#af356eb41148ea17b55af3269d78b34b2":[2,0,1,6,2,67,5],
-"UltraBlock_8c.html#af8f422bffb1a8ac5db83f0793b81a3a7":[2,0,1,6,2,67,0]
+"UltraBlock_8c.html#af8f422bffb1a8ac5db83f0793b81a3a7":[2,0,1,6,2,67,0],
+"UnkActorPosFunc_8inc_8c.html":[2,0,1,4,40],
+"UnkAngleFunc005_8inc_8c.html":[2,0,1,10,29,6,37],
+"UnkBackgroundFunc3_8inc_8c.html":[2,0,1,4,41],
+"UnkEffect6FFunc_8inc_8c.html":[2,0,1,4,42],
+"UnkFloatFunc001_8inc_8c.html":[2,0,1,10,29,6,38],
+"UnkFloatFunc005_8inc_8c.html":[2,0,1,4,43],
+"UnkFunc11_8inc_8c.html":[2,0,1,10,29,6,40]
 };

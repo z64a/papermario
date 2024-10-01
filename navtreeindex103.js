@@ -1,5 +1,6 @@
 var NAVTREEINDEX103 =
 {
+"filemenu__msg_8c.html#ac1b7b6cafd3d0c1f9761b73312470777":[2,0,1,8,5,46],
 "filemenu__msg_8c.html#ac3d4ebd00a6f60f50384e299082f7b17":[2,0,1,8,5,14],
 "filemenu__msg_8c.html#ac45fc14bf3f46027c1d740eba72d8b0a":[2,0,1,8,5,7],
 "filemenu__msg_8c.html#ac6da9bb9891336d9f6a5aa40579b8ee6":[2,0,1,8,5,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX103 =
 "flo_2actor_2bzzap_8c.html":[2,0,1,1,1,3,0,1],
 "flo_2actor_2green__magikoopa_8c.html":[2,0,1,1,1,3,0,3],
 "flo_2actor_2medi__guy_8c.html":[2,0,1,1,1,3,0,5],
-"flo_2actor_2red__magikoopa_8c.html":[2,0,1,1,1,3,0,6],
-"flo_2actor_2spiny_8c.html":[2,0,1,1,1,3,0,8]
+"flo_2actor_2red__magikoopa_8c.html":[2,0,1,1,1,3,0,6]
 };

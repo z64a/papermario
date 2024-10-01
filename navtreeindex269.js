@@ -1,14 +1,15 @@
 var NAVTREEINDEX269 =
 {
+"npc__guards_8c.html":[2,0,1,10,12,9,15],
 "npc__harry__t_8inc_8c.html":[2,0,1,10,16,4,10],
 "npc__hint__dryite_8c.html":[2,0,1,10,3,0,7],
 "npc__hint__dryite_8c.html#ae23b24777b4b6c4abe66d2c2ad8930eb":[2,0,1,10,3,0,7,0],
 "npc__hint__dryite__companion_8c.html":[2,0,1,10,3,0,8],
 "npc__initial_8c.html":[2,0,1,10,12,20,7],
+"npc__initial_8c.html#a02c6d39594a3aa893a4c7c5729890618":[2,0,1,10,12,20,7,0],
 "npc__initial_8c.html#a02c6d39594a3aa893a4c7c5729890618":[2,0,1,10,12,20,7,1],
 "npc__initial_8c.html#a02c6d39594a3aa893a4c7c5729890618":[2,0,1,10,12,20,7,2],
 "npc__initial_8c.html#a02c6d39594a3aa893a4c7c5729890618":[2,0,1,10,12,20,7,3],
-"npc__initial_8c.html#a02c6d39594a3aa893a4c7c5729890618":[2,0,1,10,12,20,7,0],
 "npc__koopa__bros_8c.html":[2,0,1,10,27,6,3],
 "npc__koopa__bros_8c.html#a53bfe3ebf3e53d784d05f30b2eb2d147":[2,0,1,10,27,6,3,0],
 "npc__merlee_8c.html":[2,0,1,10,3,1,5],
@@ -28,8 +29,8 @@ var NAVTREEINDEX269 =
 "npc__merlee_8c.html#af7c0c6b4425ad548a043172293e323d9":[2,0,1,10,3,1,5,0,3],
 "npc__merlee_8c.html#structRitualCard":[2,0,1,10,3,1,5,0],
 "npc__midpoint_8c.html":[2,0,1,10,12,20,8],
-"npc__midpoint_8c.html#a02c6d39594a3aa893a4c7c5729890618":[2,0,1,10,12,20,8,1],
 "npc__midpoint_8c.html#a02c6d39594a3aa893a4c7c5729890618":[2,0,1,10,12,20,8,0],
+"npc__midpoint_8c.html#a02c6d39594a3aa893a4c7c5729890618":[2,0,1,10,12,20,8,1],
 "npc__moustafa_8c.html":[2,0,1,10,3,1,6],
 "npc__muskular_8inc_8c.html":[2,0,1,10,16,4,11],
 "npc__new__residents_8inc_8c.html":[2,0,1,10,16,4,12],
@@ -248,6 +249,5 @@ var NAVTREEINDEX269 =
 "obk__01__shape_8h.html#a2dffc58bd90adcc3cb3cb050b79b97ce":[2,0,0,0,637,17],
 "obk__01__shape_8h.html#a3127b2203e429258989464b5c158fbdc":[2,0,0,0,637,93],
 "obk__01__shape_8h.html#a31beda22fdf887c1292ca44325adb32f":[2,0,0,0,637,149],
-"obk__01__shape_8h.html#a33e2e92d8cccd1f9a1e2c573c95be18e":[2,0,0,0,637,142],
-"obk__01__shape_8h.html#a368884b3c85d1839c15019e5910d4600":[2,0,0,0,637,7]
+"obk__01__shape_8h.html#a33e2e92d8cccd1f9a1e2c573c95be18e":[2,0,0,0,637,142]
 };
