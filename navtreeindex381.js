@@ -1,5 +1,9 @@
 var NAVTREEINDEX381 =
 {
+"world_2area__tik_2tik__12_2entity_8c.html#afaa242feefc6ca503f1a330bd94b797b":[2,0,1,10,26,11,1,0],
+"world_2area__tik_2tik__12_2main_8c.html":[2,0,1,10,26,11,2],
+"world_2area__tik_2tik__12_2npc_8c.html":[2,0,1,10,26,11,4],
+"world_2area__tik_2tik__14_2entity_8c.html":[2,0,1,10,26,12,1],
 "world_2area__tik_2tik__14_2main_8c.html":[2,0,1,10,26,12,2],
 "world_2area__tik_2tik__15_2entity_8c.html":[2,0,1,10,26,13,1],
 "world_2area__tik_2tik__15_2main_8c.html":[2,0,1,10,26,13,2],
@@ -245,9 +249,5 @@ var NAVTREEINDEX381 =
 "world_2partner_2kooper_8c.html#a44a992b1d7d38faeefd69e2be55c4b49":[2,0,1,10,32,10,10],
 "world_2partner_2kooper_8c.html#a455e1936f9dc1827637944439db3de64":[2,0,1,10,32,10,20],
 "world_2partner_2kooper_8c.html#a4e518608d41164da0565269cba959472":[2,0,1,10,32,10,6],
-"world_2partner_2kooper_8c.html#a534ebb38a4fbbef46992cc1fd2e01ecb":[2,0,1,10,32,10,11],
-"world_2partner_2kooper_8c.html#a5d371959d66785a321b4ee499a9a5d62":[2,0,1,10,32,10,1],
-"world_2partner_2kooper_8c.html#a6c7b086bd64b3c2cb76b012dbffacbb2":[2,0,1,10,32,10,2],
-"world_2partner_2kooper_8c.html#a77f5281515d5f5d5fc20ab3c4990747c":[2,0,1,10,32,10,3],
-"world_2partner_2kooper_8c.html#a7f2cef38efbaaa05694496d01ddcfa75":[2,0,1,10,32,10,19]
+"world_2partner_2kooper_8c.html#a534ebb38a4fbbef46992cc1fd2e01ecb":[2,0,1,10,32,10,11]
 };

@@ -4267,6 +4267,11 @@ Enumerations</h2></td></tr>
 , <a class="el" href="#a2822ea2391e1527ec580e27045cc9cbcaa641f38136e3618fe211d65fc6666f30">FX_GRAPHICS_CAN_FREE</a> = 0x00000002
  }</td></tr>
 <tr class="separator:a2822ea2391e1527ec580e27045cc9cbc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abe7ef679b6c00692cf8fac4f99f3ee1e" id="r_abe7ef679b6c00692cf8fac4f99f3ee1e"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abe7ef679b6c00692cf8fac4f99f3ee1e">GameContext</a> { <a class="el" href="#abe7ef679b6c00692cf8fac4f99f3ee1eaecd2014cfce132822e90c0d8b3cf688c">CONTEXT_WORLD</a> = 0
+, <a class="el" href="#abe7ef679b6c00692cf8fac4f99f3ee1ea96ad3c77fbbe8b82a00c850a6d6377fc">CONTEXT_BATTLE</a> = 1
+, <a class="el" href="#abe7ef679b6c00692cf8fac4f99f3ee1eaaf36a2f305c697fdeff63d4160831090">CONTEXT_PAUSE</a> = 2
+ }</td></tr>
+<tr class="separator:abe7ef679b6c00692cf8fac4f99f3ee1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af0eb7107e83d80496c05ddda7a3da009" id="r_af0eb7107e83d80496c05ddda7a3da009"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af0eb7107e83d80496c05ddda7a3da009">DemoState</a> { <br />
 &#160;&#160;<a class="el" href="#af0eb7107e83d80496c05ddda7a3da009a53ea9f49cc3fbe21a03959c13e24fdfb">DEMO_STATE_NONE</a> = 0
 , <a class="el" href="#af0eb7107e83d80496c05ddda7a3da009a1442b3d7cadc37426190a2a8b893a363">DEMO_STATE_ACTIVE</a> = 1
@@ -5362,15 +5367,15 @@ Enumerations</h2></td></tr>
  }</td></tr>
 <tr class="separator:a7de157db6798346d411421949f294617"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a613ec96bee71e287c1116d4e8a174edf" id="r_a613ec96bee71e287c1116d4e8a174edf"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a613ec96bee71e287c1116d4e8a174edf">EnemyAIFlags</a> { <br />
-&#160;&#160;<a class="el" href="#a613ec96bee71e287c1116d4e8a174edfa5482b659247836c3793ec2fe9fcfcb54">ENEMY_AI_FLAG_1</a> = 0x00000001
-, <a class="el" href="#a613ec96bee71e287c1116d4e8a174edfa73b843070b21a1cb24db0304dab0bfe2">ENEMY_AI_FLAG_2</a> = 0x00000002
-, <a class="el" href="#a613ec96bee71e287c1116d4e8a174edfa7eb6e680e0d0ba5cfbfb81ed0029b430">ENEMY_AI_FLAG_SUSPEND</a> = 0x00000004
-, <a class="el" href="#a613ec96bee71e287c1116d4e8a174edfa80f3c48823ec56477a258ad42b5c0223">ENEMY_AI_FLAG_8</a> = 0x00000008
+&#160;&#160;<a class="el" href="#a613ec96bee71e287c1116d4e8a174edfa3e92b222e4f03582db8c3541d4008c51">AI_FLAG_1</a> = 0x00000001
+, <a class="el" href="#a613ec96bee71e287c1116d4e8a174edfa582f75fa96fc8946c541658cc5a4b033">AI_FLAG_CANT_DETECT_PLAYER</a> = 0x00000002
+, <a class="el" href="#a613ec96bee71e287c1116d4e8a174edfa2f215651c4cff43451583ff421bcbd3a">AI_FLAG_SUSPEND</a> = 0x00000004
+, <a class="el" href="#a613ec96bee71e287c1116d4e8a174edfa9818a7c6624475af7f3c1869a55dc1ba">AI_FLAG_SKIP_EMOTE_AFTER_FLEE</a> = 0x00000008
 , <br />
-&#160;&#160;<a class="el" href="#a613ec96bee71e287c1116d4e8a174edfa362f84590c3c924600a783c7698be3f1">ENEMY_AI_FLAG_10</a> = 0x00000010
-, <a class="el" href="#a613ec96bee71e287c1116d4e8a174edfa04f80078a0b59812e97a1dd8b901cdbe">ENEMY_AI_FLAG_20</a> = 0x00000020
-, <a class="el" href="#a613ec96bee71e287c1116d4e8a174edfa8e95505a57bd210086fc6d8c49af3ee3">ENEMY_AI_FLAG_40</a> = 0x00000040
-, <a class="el" href="#a613ec96bee71e287c1116d4e8a174edfa447713286834fc1ae398930ae1d3e3a4">ENEMY_AI_FLAG_80</a> = 0x00000080
+&#160;&#160;<a class="el" href="#a613ec96bee71e287c1116d4e8a174edfab79e680046c4dbc2e0ff9eba5fb4bce7">AI_FLAG_SKIP_IDLE_ANIM_AFTER_FLEE</a> = 0x00000010
+, <a class="el" href="#a613ec96bee71e287c1116d4e8a174edfad2174ca1a5ee8dc87e223421fe2472cc">AI_FLAG_OUTSIDE_TERRITORY</a> = 0x00000020
+, <a class="el" href="#a613ec96bee71e287c1116d4e8a174edfac62ce03aec249929094b7d64025a2f6d">AI_FLAG_NEEDS_HEADING</a> = 0x00000040
+, <a class="el" href="#a613ec96bee71e287c1116d4e8a174edfa19f9d32e460cef32a7043caa73d57f3c">AI_FLAG_80</a> = 0x00000080
 <br />
  }</td></tr>
 <tr class="separator:a613ec96bee71e287c1116d4e8a174edf"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -5426,10 +5431,10 @@ Enumerations</h2></td></tr>
 , <a class="el" href="#a26e74110b3ae5f7e288b62067c5cc5b4acfa55192dd6ba2f897773a2e8956e60a">AI_DETECT_FLAG_8</a> = 0x08
  }</td></tr>
 <tr class="separator:a26e74110b3ae5f7e288b62067c5cc5b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afe0db78261873e6c750a5d79fa622061" id="r_afe0db78261873e6c750a5d79fa622061"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afe0db78261873e6c750a5d79fa622061">EnemyTerritoryFlags</a> { <a class="el" href="#afe0db78261873e6c750a5d79fa622061a35f4972c32df3fe9cd81601bc085425b">AI_TERRITORY_IGNORE_HIDING</a> = 0x01
-, <a class="el" href="#afe0db78261873e6c750a5d79fa622061aca26fcefb19c84a4bc464f17602e2ef4">AI_TERRITORY_IGNORE_ELEVATION</a> = 0x02
+<tr class="memitem:ad1e5347f2f5f1d5332a99bb7583f061c" id="r_ad1e5347f2f5f1d5332a99bb7583f061c"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad1e5347f2f5f1d5332a99bb7583f061c">TerritoryFlags</a> { <a class="el" href="#ad1e5347f2f5f1d5332a99bb7583f061ca35f4972c32df3fe9cd81601bc085425b">AI_TERRITORY_IGNORE_HIDING</a> = 0x01
+, <a class="el" href="#ad1e5347f2f5f1d5332a99bb7583f061caca26fcefb19c84a4bc464f17602e2ef4">AI_TERRITORY_IGNORE_ELEVATION</a> = 0x02
  }</td></tr>
-<tr class="separator:afe0db78261873e6c750a5d79fa622061"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="separator:ad1e5347f2f5f1d5332a99bb7583f061c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6110723386de0a831461ca03fb52caf8" id="r_a6110723386de0a831461ca03fb52caf8"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6110723386de0a831461ca03fb52caf8">PiranhaPlantStates</a> { <br />
 &#160;&#160;<a class="el" href="#a6110723386de0a831461ca03fb52caf8ae8f1beb345c1379bc74185d9161ddbd3">AI_STATE_PIRANHA_PLANT_00</a> = 0
 , <a class="el" href="#a6110723386de0a831461ca03fb52caf8a0788c54e9ad9cc8276143b4bb6fa1344">AI_STATE_PIRANHA_PLANT_01</a> = 1
@@ -7033,11 +7038,11 @@ Enumerations</h2></td></tr>
 <div class="line">    | <a class="code hl_enumvalue" href="#a7de157db6798346d411421949f294617aed9d69a717cee97d2dc59c05fb2a46a0">ENEMY_FLAG_IGNORE_WORLD_COLLISION</a> \</div>
 <div class="line">    | <a class="code hl_enumvalue" href="#a7de157db6798346d411421949f294617a4052ef7423cc7ce91435fbe220066931">ENEMY_FLAG_IGNORE_ENTITY_COLLISION</a> \</div>
 <div class="line">    | <a class="code hl_enumvalue" href="#a7de157db6798346d411421949f294617a07db1a7f0e5a09b8ff70c1ce6a193106">ENEMY_FLAG_FLYING</a></div>
-<div class="ttc" id="aenums_8h_html_a7de157db6798346d411421949f294617a07db1a7f0e5a09b8ff70c1ce6a193106"><div class="ttname"><a href="#a7de157db6798346d411421949f294617a07db1a7f0e5a09b8ff70c1ce6a193106">ENEMY_FLAG_FLYING</a></div><div class="ttdeci">@ ENEMY_FLAG_FLYING</div><div class="ttdef"><b>Definition</b> enums.h:4527</div></div>
-<div class="ttc" id="aenums_8h_html_a7de157db6798346d411421949f294617a4052ef7423cc7ce91435fbe220066931"><div class="ttname"><a href="#a7de157db6798346d411421949f294617a4052ef7423cc7ce91435fbe220066931">ENEMY_FLAG_IGNORE_ENTITY_COLLISION</a></div><div class="ttdeci">@ ENEMY_FLAG_IGNORE_ENTITY_COLLISION</div><div class="ttdef"><b>Definition</b> enums.h:4526</div></div>
-<div class="ttc" id="aenums_8h_html_a7de157db6798346d411421949f294617a539dd9d04de1dc0bda709b8178ce908c"><div class="ttname"><a href="#a7de157db6798346d411421949f294617a539dd9d04de1dc0bda709b8178ce908c">ENEMY_FLAG_PASSIVE</a></div><div class="ttdeci">@ ENEMY_FLAG_PASSIVE</div><div class="ttdef"><b>Definition</b> enums.h:4516</div></div>
-<div class="ttc" id="aenums_8h_html_a7de157db6798346d411421949f294617a65dea317593aadeaa73837677b5ddf88"><div class="ttname"><a href="#a7de157db6798346d411421949f294617a65dea317593aadeaa73837677b5ddf88">ENEMY_FLAG_ENABLE_HIT_SCRIPT</a></div><div class="ttdeci">@ ENEMY_FLAG_ENABLE_HIT_SCRIPT</div><div class="ttdef"><b>Definition</b> enums.h:4519</div></div>
-<div class="ttc" id="aenums_8h_html_a7de157db6798346d411421949f294617aed9d69a717cee97d2dc59c05fb2a46a0"><div class="ttname"><a href="#a7de157db6798346d411421949f294617aed9d69a717cee97d2dc59c05fb2a46a0">ENEMY_FLAG_IGNORE_WORLD_COLLISION</a></div><div class="ttdeci">@ ENEMY_FLAG_IGNORE_WORLD_COLLISION</div><div class="ttdef"><b>Definition</b> enums.h:4524</div></div>
+<div class="ttc" id="aenums_8h_html_a7de157db6798346d411421949f294617a07db1a7f0e5a09b8ff70c1ce6a193106"><div class="ttname"><a href="#a7de157db6798346d411421949f294617a07db1a7f0e5a09b8ff70c1ce6a193106">ENEMY_FLAG_FLYING</a></div><div class="ttdeci">@ ENEMY_FLAG_FLYING</div><div class="ttdef"><b>Definition</b> enums.h:4533</div></div>
+<div class="ttc" id="aenums_8h_html_a7de157db6798346d411421949f294617a4052ef7423cc7ce91435fbe220066931"><div class="ttname"><a href="#a7de157db6798346d411421949f294617a4052ef7423cc7ce91435fbe220066931">ENEMY_FLAG_IGNORE_ENTITY_COLLISION</a></div><div class="ttdeci">@ ENEMY_FLAG_IGNORE_ENTITY_COLLISION</div><div class="ttdef"><b>Definition</b> enums.h:4532</div></div>
+<div class="ttc" id="aenums_8h_html_a7de157db6798346d411421949f294617a539dd9d04de1dc0bda709b8178ce908c"><div class="ttname"><a href="#a7de157db6798346d411421949f294617a539dd9d04de1dc0bda709b8178ce908c">ENEMY_FLAG_PASSIVE</a></div><div class="ttdeci">@ ENEMY_FLAG_PASSIVE</div><div class="ttdef"><b>Definition</b> enums.h:4522</div></div>
+<div class="ttc" id="aenums_8h_html_a7de157db6798346d411421949f294617a65dea317593aadeaa73837677b5ddf88"><div class="ttname"><a href="#a7de157db6798346d411421949f294617a65dea317593aadeaa73837677b5ddf88">ENEMY_FLAG_ENABLE_HIT_SCRIPT</a></div><div class="ttdeci">@ ENEMY_FLAG_ENABLE_HIT_SCRIPT</div><div class="ttdef"><b>Definition</b> enums.h:4525</div></div>
+<div class="ttc" id="aenums_8h_html_a7de157db6798346d411421949f294617aed9d69a717cee97d2dc59c05fb2a46a0"><div class="ttname"><a href="#a7de157db6798346d411421949f294617aed9d69a717cee97d2dc59c05fb2a46a0">ENEMY_FLAG_IGNORE_WORLD_COLLISION</a></div><div class="ttdeci">@ ENEMY_FLAG_IGNORE_WORLD_COLLISION</div><div class="ttdef"><b>Definition</b> enums.h:4530</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -7079,18 +7084,18 @@ Enumerations</h2></td></tr>
 <div class="line">    | <a class="code hl_enumvalue" href="#a829dc978e29d88ada1059ea4ca6c4cd3a20db4152e215aa1fe532013d307ac3c2">MODEL_FLAG_IGNORE_MATRIX</a> \</div>
 <div class="line">    | <a class="code hl_enumvalue" href="#a829dc978e29d88ada1059ea4ca6c4cd3a636f8e6e5e8f03c3e57aa4ada7e79169">MODEL_FLAG_UNUSED_4000</a> \</div>
 <div class="line">    | <a class="code hl_enumvalue" href="#a829dc978e29d88ada1059ea4ca6c4cd3a86a02aa5775090fbbc95887fdfc2f6e8">MODEL_FLAG_UNUSED_8000</a>)</div>
-<div class="ttc" id="aenums_8h_html_a829dc978e29d88ada1059ea4ca6c4cd3a1dd8bac6b3fc85ea143c6bd1130c91a5"><div class="ttname"><a href="#a829dc978e29d88ada1059ea4ca6c4cd3a1dd8bac6b3fc85ea143c6bd1130c91a5">MODEL_FLAG_DO_BOUNDS_CULLING</a></div><div class="ttdeci">@ MODEL_FLAG_DO_BOUNDS_CULLING</div><div class="ttdef"><b>Definition</b> enums.h:4361</div></div>
-<div class="ttc" id="aenums_8h_html_a829dc978e29d88ada1059ea4ca6c4cd3a20db4152e215aa1fe532013d307ac3c2"><div class="ttname"><a href="#a829dc978e29d88ada1059ea4ca6c4cd3a20db4152e215aa1fe532013d307ac3c2">MODEL_FLAG_IGNORE_MATRIX</a></div><div class="ttdeci">@ MODEL_FLAG_IGNORE_MATRIX</div><div class="ttdef"><b>Definition</b> enums.h:4365</div></div>
-<div class="ttc" id="aenums_8h_html_a829dc978e29d88ada1059ea4ca6c4cd3a249b225f282d1d7072380e1835ac4899"><div class="ttname"><a href="#a829dc978e29d88ada1059ea4ca6c4cd3a249b225f282d1d7072380e1835ac4899">MODEL_FLAG_HAS_LOCAL_VERTEX_COPY</a></div><div class="ttdeci">@ MODEL_FLAG_HAS_LOCAL_VERTEX_COPY</div><div class="ttdef"><b>Definition</b> enums.h:4359</div></div>
-<div class="ttc" id="aenums_8h_html_a829dc978e29d88ada1059ea4ca6c4cd3a455353a560267f02c472f396cb77bcbb"><div class="ttname"><a href="#a829dc978e29d88ada1059ea4ca6c4cd3a455353a560267f02c472f396cb77bcbb">MODEL_FLAG_HAS_TRANSFORM</a></div><div class="ttdeci">@ MODEL_FLAG_HAS_TRANSFORM</div><div class="ttdef"><b>Definition</b> enums.h:4362</div></div>
-<div class="ttc" id="aenums_8h_html_a829dc978e29d88ada1059ea4ca6c4cd3a636f8e6e5e8f03c3e57aa4ada7e79169"><div class="ttname"><a href="#a829dc978e29d88ada1059ea4ca6c4cd3a636f8e6e5e8f03c3e57aa4ada7e79169">MODEL_FLAG_UNUSED_4000</a></div><div class="ttdeci">@ MODEL_FLAG_UNUSED_4000</div><div class="ttdef"><b>Definition</b> enums.h:4366</div></div>
-<div class="ttc" id="aenums_8h_html_a829dc978e29d88ada1059ea4ca6c4cd3a7b3b0a89f6c272f8b29b4cdf81285607"><div class="ttname"><a href="#a829dc978e29d88ada1059ea4ca6c4cd3a7b3b0a89f6c272f8b29b4cdf81285607">MODEL_FLAG_BILLBOARD</a></div><div class="ttdeci">@ MODEL_FLAG_BILLBOARD</div><div class="ttdef"><b>Definition</b> enums.h:4360</div></div>
-<div class="ttc" id="aenums_8h_html_a829dc978e29d88ada1059ea4ca6c4cd3a7e5a8a4781b80c6bf60146989cba347f"><div class="ttname"><a href="#a829dc978e29d88ada1059ea4ca6c4cd3a7e5a8a4781b80c6bf60146989cba347f">MODEL_FLAG_20</a></div><div class="ttdeci">@ MODEL_FLAG_20</div><div class="ttdef"><b>Definition</b> enums.h:4357</div></div>
-<div class="ttc" id="aenums_8h_html_a829dc978e29d88ada1059ea4ca6c4cd3a85470b8c65bf37ee8a08451ccb7ebe3f"><div class="ttname"><a href="#a829dc978e29d88ada1059ea4ca6c4cd3a85470b8c65bf37ee8a08451ccb7ebe3f">MODEL_FLAG_USES_CUSTOM_GFX</a></div><div class="ttdeci">@ MODEL_FLAG_USES_CUSTOM_GFX</div><div class="ttdef"><b>Definition</b> enums.h:4356</div></div>
-<div class="ttc" id="aenums_8h_html_a829dc978e29d88ada1059ea4ca6c4cd3a86a02aa5775090fbbc95887fdfc2f6e8"><div class="ttname"><a href="#a829dc978e29d88ada1059ea4ca6c4cd3a86a02aa5775090fbbc95887fdfc2f6e8">MODEL_FLAG_UNUSED_8000</a></div><div class="ttdeci">@ MODEL_FLAG_UNUSED_8000</div><div class="ttdef"><b>Definition</b> enums.h:4367</div></div>
-<div class="ttc" id="aenums_8h_html_a829dc978e29d88ada1059ea4ca6c4cd3ab84a9be9b28d7926da21962908132d8b"><div class="ttname"><a href="#a829dc978e29d88ada1059ea4ca6c4cd3ab84a9be9b28d7926da21962908132d8b">MODEL_FLAG_MATRIX_DIRTY</a></div><div class="ttdeci">@ MODEL_FLAG_MATRIX_DIRTY</div><div class="ttdef"><b>Definition</b> enums.h:4364</div></div>
-<div class="ttc" id="aenums_8h_html_a829dc978e29d88ada1059ea4ca6c4cd3ae9200f509be4d2d75cfc62d5dc7f59d4"><div class="ttname"><a href="#a829dc978e29d88ada1059ea4ca6c4cd3ae9200f509be4d2d75cfc62d5dc7f59d4">MODEL_FLAG_HAS_TEX_PANNER</a></div><div class="ttdeci">@ MODEL_FLAG_HAS_TEX_PANNER</div><div class="ttdef"><b>Definition</b> enums.h:4363</div></div>
-<div class="ttc" id="aenums_8h_html_a829dc978e29d88ada1059ea4ca6c4cd3aea494e963b386fe8f4a66548205a7442"><div class="ttname"><a href="#a829dc978e29d88ada1059ea4ca6c4cd3aea494e963b386fe8f4a66548205a7442">MODEL_FLAG_IGNORE_FOG</a></div><div class="ttdeci">@ MODEL_FLAG_IGNORE_FOG</div><div class="ttdef"><b>Definition</b> enums.h:4358</div></div>
+<div class="ttc" id="aenums_8h_html_a829dc978e29d88ada1059ea4ca6c4cd3a1dd8bac6b3fc85ea143c6bd1130c91a5"><div class="ttname"><a href="#a829dc978e29d88ada1059ea4ca6c4cd3a1dd8bac6b3fc85ea143c6bd1130c91a5">MODEL_FLAG_DO_BOUNDS_CULLING</a></div><div class="ttdeci">@ MODEL_FLAG_DO_BOUNDS_CULLING</div><div class="ttdef"><b>Definition</b> enums.h:4367</div></div>
+<div class="ttc" id="aenums_8h_html_a829dc978e29d88ada1059ea4ca6c4cd3a20db4152e215aa1fe532013d307ac3c2"><div class="ttname"><a href="#a829dc978e29d88ada1059ea4ca6c4cd3a20db4152e215aa1fe532013d307ac3c2">MODEL_FLAG_IGNORE_MATRIX</a></div><div class="ttdeci">@ MODEL_FLAG_IGNORE_MATRIX</div><div class="ttdef"><b>Definition</b> enums.h:4371</div></div>
+<div class="ttc" id="aenums_8h_html_a829dc978e29d88ada1059ea4ca6c4cd3a249b225f282d1d7072380e1835ac4899"><div class="ttname"><a href="#a829dc978e29d88ada1059ea4ca6c4cd3a249b225f282d1d7072380e1835ac4899">MODEL_FLAG_HAS_LOCAL_VERTEX_COPY</a></div><div class="ttdeci">@ MODEL_FLAG_HAS_LOCAL_VERTEX_COPY</div><div class="ttdef"><b>Definition</b> enums.h:4365</div></div>
+<div class="ttc" id="aenums_8h_html_a829dc978e29d88ada1059ea4ca6c4cd3a455353a560267f02c472f396cb77bcbb"><div class="ttname"><a href="#a829dc978e29d88ada1059ea4ca6c4cd3a455353a560267f02c472f396cb77bcbb">MODEL_FLAG_HAS_TRANSFORM</a></div><div class="ttdeci">@ MODEL_FLAG_HAS_TRANSFORM</div><div class="ttdef"><b>Definition</b> enums.h:4368</div></div>
+<div class="ttc" id="aenums_8h_html_a829dc978e29d88ada1059ea4ca6c4cd3a636f8e6e5e8f03c3e57aa4ada7e79169"><div class="ttname"><a href="#a829dc978e29d88ada1059ea4ca6c4cd3a636f8e6e5e8f03c3e57aa4ada7e79169">MODEL_FLAG_UNUSED_4000</a></div><div class="ttdeci">@ MODEL_FLAG_UNUSED_4000</div><div class="ttdef"><b>Definition</b> enums.h:4372</div></div>
+<div class="ttc" id="aenums_8h_html_a829dc978e29d88ada1059ea4ca6c4cd3a7b3b0a89f6c272f8b29b4cdf81285607"><div class="ttname"><a href="#a829dc978e29d88ada1059ea4ca6c4cd3a7b3b0a89f6c272f8b29b4cdf81285607">MODEL_FLAG_BILLBOARD</a></div><div class="ttdeci">@ MODEL_FLAG_BILLBOARD</div><div class="ttdef"><b>Definition</b> enums.h:4366</div></div>
+<div class="ttc" id="aenums_8h_html_a829dc978e29d88ada1059ea4ca6c4cd3a7e5a8a4781b80c6bf60146989cba347f"><div class="ttname"><a href="#a829dc978e29d88ada1059ea4ca6c4cd3a7e5a8a4781b80c6bf60146989cba347f">MODEL_FLAG_20</a></div><div class="ttdeci">@ MODEL_FLAG_20</div><div class="ttdef"><b>Definition</b> enums.h:4363</div></div>
+<div class="ttc" id="aenums_8h_html_a829dc978e29d88ada1059ea4ca6c4cd3a85470b8c65bf37ee8a08451ccb7ebe3f"><div class="ttname"><a href="#a829dc978e29d88ada1059ea4ca6c4cd3a85470b8c65bf37ee8a08451ccb7ebe3f">MODEL_FLAG_USES_CUSTOM_GFX</a></div><div class="ttdeci">@ MODEL_FLAG_USES_CUSTOM_GFX</div><div class="ttdef"><b>Definition</b> enums.h:4362</div></div>
+<div class="ttc" id="aenums_8h_html_a829dc978e29d88ada1059ea4ca6c4cd3a86a02aa5775090fbbc95887fdfc2f6e8"><div class="ttname"><a href="#a829dc978e29d88ada1059ea4ca6c4cd3a86a02aa5775090fbbc95887fdfc2f6e8">MODEL_FLAG_UNUSED_8000</a></div><div class="ttdeci">@ MODEL_FLAG_UNUSED_8000</div><div class="ttdef"><b>Definition</b> enums.h:4373</div></div>
+<div class="ttc" id="aenums_8h_html_a829dc978e29d88ada1059ea4ca6c4cd3ab84a9be9b28d7926da21962908132d8b"><div class="ttname"><a href="#a829dc978e29d88ada1059ea4ca6c4cd3ab84a9be9b28d7926da21962908132d8b">MODEL_FLAG_MATRIX_DIRTY</a></div><div class="ttdeci">@ MODEL_FLAG_MATRIX_DIRTY</div><div class="ttdef"><b>Definition</b> enums.h:4370</div></div>
+<div class="ttc" id="aenums_8h_html_a829dc978e29d88ada1059ea4ca6c4cd3ae9200f509be4d2d75cfc62d5dc7f59d4"><div class="ttname"><a href="#a829dc978e29d88ada1059ea4ca6c4cd3ae9200f509be4d2d75cfc62d5dc7f59d4">MODEL_FLAG_HAS_TEX_PANNER</a></div><div class="ttdeci">@ MODEL_FLAG_HAS_TEX_PANNER</div><div class="ttdef"><b>Definition</b> enums.h:4369</div></div>
+<div class="ttc" id="aenums_8h_html_a829dc978e29d88ada1059ea4ca6c4cd3aea494e963b386fe8f4a66548205a7442"><div class="ttname"><a href="#a829dc978e29d88ada1059ea4ca6c4cd3aea494e963b386fe8f4a66548205a7442">MODEL_FLAG_IGNORE_FOG</a></div><div class="ttdeci">@ MODEL_FLAG_IGNORE_FOG</div><div class="ttdef"><b>Definition</b> enums.h:4364</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -10123,14 +10128,14 @@ Enumerations</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a613ec96bee71e287c1116d4e8a174edfa5482b659247836c3793ec2fe9fcfcb54" name="a613ec96bee71e287c1116d4e8a174edfa5482b659247836c3793ec2fe9fcfcb54"></a>ENEMY_AI_FLAG_1&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a613ec96bee71e287c1116d4e8a174edfa73b843070b21a1cb24db0304dab0bfe2" name="a613ec96bee71e287c1116d4e8a174edfa73b843070b21a1cb24db0304dab0bfe2"></a>ENEMY_AI_FLAG_2&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a613ec96bee71e287c1116d4e8a174edfa7eb6e680e0d0ba5cfbfb81ed0029b430" name="a613ec96bee71e287c1116d4e8a174edfa7eb6e680e0d0ba5cfbfb81ed0029b430"></a>ENEMY_AI_FLAG_SUSPEND&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a613ec96bee71e287c1116d4e8a174edfa80f3c48823ec56477a258ad42b5c0223" name="a613ec96bee71e287c1116d4e8a174edfa80f3c48823ec56477a258ad42b5c0223"></a>ENEMY_AI_FLAG_8&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a613ec96bee71e287c1116d4e8a174edfa362f84590c3c924600a783c7698be3f1" name="a613ec96bee71e287c1116d4e8a174edfa362f84590c3c924600a783c7698be3f1"></a>ENEMY_AI_FLAG_10&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a613ec96bee71e287c1116d4e8a174edfa04f80078a0b59812e97a1dd8b901cdbe" name="a613ec96bee71e287c1116d4e8a174edfa04f80078a0b59812e97a1dd8b901cdbe"></a>ENEMY_AI_FLAG_20&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a613ec96bee71e287c1116d4e8a174edfa8e95505a57bd210086fc6d8c49af3ee3" name="a613ec96bee71e287c1116d4e8a174edfa8e95505a57bd210086fc6d8c49af3ee3"></a>ENEMY_AI_FLAG_40&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a613ec96bee71e287c1116d4e8a174edfa447713286834fc1ae398930ae1d3e3a4" name="a613ec96bee71e287c1116d4e8a174edfa447713286834fc1ae398930ae1d3e3a4"></a>ENEMY_AI_FLAG_80&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a613ec96bee71e287c1116d4e8a174edfa3e92b222e4f03582db8c3541d4008c51" name="a613ec96bee71e287c1116d4e8a174edfa3e92b222e4f03582db8c3541d4008c51"></a>AI_FLAG_1&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a613ec96bee71e287c1116d4e8a174edfa582f75fa96fc8946c541658cc5a4b033" name="a613ec96bee71e287c1116d4e8a174edfa582f75fa96fc8946c541658cc5a4b033"></a>AI_FLAG_CANT_DETECT_PLAYER&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a613ec96bee71e287c1116d4e8a174edfa2f215651c4cff43451583ff421bcbd3a" name="a613ec96bee71e287c1116d4e8a174edfa2f215651c4cff43451583ff421bcbd3a"></a>AI_FLAG_SUSPEND&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a613ec96bee71e287c1116d4e8a174edfa9818a7c6624475af7f3c1869a55dc1ba" name="a613ec96bee71e287c1116d4e8a174edfa9818a7c6624475af7f3c1869a55dc1ba"></a>AI_FLAG_SKIP_EMOTE_AFTER_FLEE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a613ec96bee71e287c1116d4e8a174edfab79e680046c4dbc2e0ff9eba5fb4bce7" name="a613ec96bee71e287c1116d4e8a174edfab79e680046c4dbc2e0ff9eba5fb4bce7"></a>AI_FLAG_SKIP_IDLE_ANIM_AFTER_FLEE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a613ec96bee71e287c1116d4e8a174edfad2174ca1a5ee8dc87e223421fe2472cc" name="a613ec96bee71e287c1116d4e8a174edfad2174ca1a5ee8dc87e223421fe2472cc"></a>AI_FLAG_OUTSIDE_TERRITORY&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a613ec96bee71e287c1116d4e8a174edfac62ce03aec249929094b7d64025a2f6d" name="a613ec96bee71e287c1116d4e8a174edfac62ce03aec249929094b7d64025a2f6d"></a>AI_FLAG_NEEDS_HEADING&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a613ec96bee71e287c1116d4e8a174edfa19f9d32e460cef32a7043caa73d57f3c" name="a613ec96bee71e287c1116d4e8a174edfa19f9d32e460cef32a7043caa73d57f3c"></a>AI_FLAG_80&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
@@ -10266,24 +10271,6 @@ Enumerations</h2></td></tr>
 <tr><td class="fieldname"><a id="a7de157db6798346d411421949f294617aab96517c17c2b840c11160e01510f34d" name="a7de157db6798346d411421949f294617aab96517c17c2b840c11160e01510f34d"></a>ENEMY_FLAG_IGNORE_SPIN&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a7de157db6798346d411421949f294617ab41a9a0b038f651959597257c58558f1" name="a7de157db6798346d411421949f294617ab41a9a0b038f651959597257c58558f1"></a>ENEMY_FLAG_BEGIN_WITH_CHASING&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a7de157db6798346d411421949f294617ab2eae7a88d2c766fdb0a624934e2e2d0" name="a7de157db6798346d411421949f294617ab2eae7a88d2c766fdb0a624934e2e2d0"></a>ENEMY_FLAG_SUSPENDED&#160;</td><td class="fielddoc"></td></tr>
-</table>
-
-</div>
-</div>
-<a id="afe0db78261873e6c750a5d79fa622061" name="afe0db78261873e6c750a5d79fa622061"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afe0db78261873e6c750a5d79fa622061">&#9670;&#160;</a></span>EnemyTerritoryFlags</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="#afe0db78261873e6c750a5d79fa622061">EnemyTerritoryFlags</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="afe0db78261873e6c750a5d79fa622061a35f4972c32df3fe9cd81601bc085425b" name="afe0db78261873e6c750a5d79fa622061a35f4972c32df3fe9cd81601bc085425b"></a>AI_TERRITORY_IGNORE_HIDING&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="afe0db78261873e6c750a5d79fa622061aca26fcefb19c84a4bc464f17602e2ef4" name="afe0db78261873e6c750a5d79fa622061aca26fcefb19c84a4bc464f17602e2ef4"></a>AI_TERRITORY_IGNORE_ELEVATION&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
@@ -10685,6 +10672,25 @@ Enumerations</h2></td></tr>
 <table class="fieldtable">
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="aad87025e4e9f0faed402664c36a5b8ddaf6b3049d8c34f29c6ab085419011ebc7" name="aad87025e4e9f0faed402664c36a5b8ddaf6b3049d8c34f29c6ab085419011ebc7"></a>FLASH_PAL_OFF&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="aad87025e4e9f0faed402664c36a5b8dda31343d089c1a31fb67387028219f2bd9" name="aad87025e4e9f0faed402664c36a5b8dda31343d089c1a31fb67387028219f2bd9"></a>FLASH_PAL_ON&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
+<a id="abe7ef679b6c00692cf8fac4f99f3ee1e" name="abe7ef679b6c00692cf8fac4f99f3ee1e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abe7ef679b6c00692cf8fac4f99f3ee1e">&#9670;&#160;</a></span>GameContext</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="#abe7ef679b6c00692cf8fac4f99f3ee1e">GameContext</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="abe7ef679b6c00692cf8fac4f99f3ee1eaecd2014cfce132822e90c0d8b3cf688c" name="abe7ef679b6c00692cf8fac4f99f3ee1eaecd2014cfce132822e90c0d8b3cf688c"></a>CONTEXT_WORLD&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="abe7ef679b6c00692cf8fac4f99f3ee1ea96ad3c77fbbe8b82a00c850a6d6377fc" name="abe7ef679b6c00692cf8fac4f99f3ee1ea96ad3c77fbbe8b82a00c850a6d6377fc"></a>CONTEXT_BATTLE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="abe7ef679b6c00692cf8fac4f99f3ee1eaaf36a2f305c697fdeff63d4160831090" name="abe7ef679b6c00692cf8fac4f99f3ee1eaaf36a2f305c697fdeff63d4160831090"></a>CONTEXT_PAUSE&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
@@ -15583,6 +15589,24 @@ Enumerations</h2></td></tr>
 <tr><td class="fieldname"><a id="a4fbbf029d36c68fdc7c54db5f460eac1a441dc069764a880974db7fdfec8088d1" name="a4fbbf029d36c68fdc7c54db5f460eac1a441dc069764a880974db7fdfec8088d1"></a>TEMP_SET_ZONE_ENABLED_FLAG_20000000&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a4fbbf029d36c68fdc7c54db5f460eac1ae32779232e5cdd6c6d26e9c566f1bb03" name="a4fbbf029d36c68fdc7c54db5f460eac1ae32779232e5cdd6c6d26e9c566f1bb03"></a>TEMP_SET_ZONE_ENABLED_FLAG_40000000&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a4fbbf029d36c68fdc7c54db5f460eac1a6e65c113c33801a1336d4d88935865bb" name="a4fbbf029d36c68fdc7c54db5f460eac1a6e65c113c33801a1336d4d88935865bb"></a>TEMP_SET_ZONE_ENABLED_FLAG_80000000&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
+<a id="ad1e5347f2f5f1d5332a99bb7583f061c" name="ad1e5347f2f5f1d5332a99bb7583f061c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad1e5347f2f5f1d5332a99bb7583f061c">&#9670;&#160;</a></span>TerritoryFlags</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="#ad1e5347f2f5f1d5332a99bb7583f061c">TerritoryFlags</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ad1e5347f2f5f1d5332a99bb7583f061ca35f4972c32df3fe9cd81601bc085425b" name="ad1e5347f2f5f1d5332a99bb7583f061ca35f4972c32df3fe9cd81601bc085425b"></a>AI_TERRITORY_IGNORE_HIDING&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ad1e5347f2f5f1d5332a99bb7583f061caca26fcefb19c84a4bc464f17602e2ef4" name="ad1e5347f2f5f1d5332a99bb7583f061caca26fcefb19c84a4bc464f17602e2ef4"></a>AI_TERRITORY_IGNORE_ELEVATION&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>

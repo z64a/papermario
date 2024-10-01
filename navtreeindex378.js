@@ -1,5 +1,9 @@
 var NAVTREEINDEX378 =
 {
+"world_2area__kzn_2kzn__11_2npc_8c.html":[2,0,1,10,15,11,2],
+"world_2area__kzn_2kzn__17_2entity_8c.html":[2,0,1,10,15,12,0],
+"world_2area__kzn_2kzn__17_2main_8c.html":[2,0,1,10,15,12,2],
+"world_2area__kzn_2kzn__17_2npc_8c.html":[2,0,1,10,15,12,3],
 "world_2area__kzn_2kzn__17_2npc_8c.html#a05bcc77f5bc146918b044b9791148ed1":[2,0,1,10,15,12,3,2],
 "world_2area__kzn_2kzn__17_2npc_8c.html#a4c9b43d3d7c824eeef2277efa6bce8b0":[2,0,1,10,15,12,3,1],
 "world_2area__kzn_2kzn__17_2npc_8c.html#abdb801f807725455bea2378281b9ee99":[2,0,1,10,15,12,3,0],
@@ -148,9 +152,9 @@ var NAVTREEINDEX378 =
 "world_2area__mgm_2mgm__02_2main_8c.html":[2,0,1,10,17,2,1],
 "world_2area__mgm_2mgm__02_2npc_8c.html":[2,0,1,10,17,2,3],
 "world_2area__mgm_2mgm__02_2npc_8c.html#a024af781a43c25fa26109c65a6c2f108":[2,0,1,10,17,2,3,1,1],
-"world_2area__mgm_2mgm__02_2npc_8c.html#a03489319becfc174408e8f8680d15ed7":[2,0,1,10,17,2,3,14],
 "world_2area__mgm_2mgm__02_2npc_8c.html#a03489319becfc174408e8f8680d15ed7":[2,0,1,10,17,2,3,13],
 "world_2area__mgm_2mgm__02_2npc_8c.html#a03489319becfc174408e8f8680d15ed7":[2,0,1,10,17,2,3,12],
+"world_2area__mgm_2mgm__02_2npc_8c.html#a03489319becfc174408e8f8680d15ed7":[2,0,1,10,17,2,3,14],
 "world_2area__mgm_2mgm__02_2npc_8c.html#a08ab2528e2aa11ddc8bafb0be0034e49":[2,0,1,10,17,2,3,1,0],
 "world_2area__mgm_2mgm__02_2npc_8c.html#a151667be97d407d57f4266ddbdbe5fdb":[2,0,1,10,17,2,3,5],
 "world_2area__mgm_2mgm__02_2npc_8c.html#a1aa1dd4a8800aef029b7553e26d74050":[2,0,1,10,17,2,3,24],
@@ -245,9 +249,5 @@ var NAVTREEINDEX378 =
 "world_2area__mim_2mim__05_2npc_8c.html":[2,0,1,10,18,5,6],
 "world_2area__mim_2mim__06_2entity_8c.html":[2,0,1,10,18,6,0],
 "world_2area__mim_2mim__06_2main_8c.html":[2,0,1,10,18,6,3],
-"world_2area__mim_2mim__06_2main_8c.html#ac641a6bc3d56f2dbb10bfdf41c8399ba":[2,0,1,10,18,6,3,0],
-"world_2area__mim_2mim__06_2npc_8c.html":[2,0,1,10,18,6,6],
-"world_2area__mim_2mim__07_2entity_8c.html":[2,0,1,10,18,7,0],
-"world_2area__mim_2mim__07_2main_8c.html":[2,0,1,10,18,7,3],
-"world_2area__mim_2mim__07_2npc_8c.html":[2,0,1,10,18,7,6]
+"world_2area__mim_2mim__06_2main_8c.html#ac641a6bc3d56f2dbb10bfdf41c8399ba":[2,0,1,10,18,6,3,0]
 };

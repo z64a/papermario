@@ -1,5 +1,9 @@
 var NAVTREEINDEX382 =
 {
+"world_2partner_2kooper_8c.html#a5d371959d66785a321b4ee499a9a5d62":[2,0,1,10,32,10,1],
+"world_2partner_2kooper_8c.html#a6c7b086bd64b3c2cb76b012dbffacbb2":[2,0,1,10,32,10,2],
+"world_2partner_2kooper_8c.html#a77f5281515d5f5d5fc20ab3c4990747c":[2,0,1,10,32,10,3],
+"world_2partner_2kooper_8c.html#a7f2cef38efbaaa05694496d01ddcfa75":[2,0,1,10,32,10,19],
 "world_2partner_2kooper_8c.html#aa7dc458c489515fa76e09dd8551866c9":[2,0,1,10,32,10,5],
 "world_2partner_2kooper_8c.html#aaa2e99dcc444dd5e466b47e7f7a6f730":[2,0,1,10,32,10,12],
 "world_2partner_2kooper_8c.html#aac5484d24402a14fc8911cca3460f5bd":[2,0,1,10,32,10,14],

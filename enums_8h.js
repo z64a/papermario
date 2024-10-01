@@ -1545,14 +1545,14 @@ var enums_8h =
       [ "AI_ACTION_20", "enums_8h.html#ae972d4d25dd43cd998df42beda8b144fa56a3f61a3e959941363d6ed85d90281e", null ]
     ] ],
     [ "EnemyAIFlags", "enums_8h.html#a613ec96bee71e287c1116d4e8a174edf", [
-      [ "ENEMY_AI_FLAG_1", "enums_8h.html#a613ec96bee71e287c1116d4e8a174edfa5482b659247836c3793ec2fe9fcfcb54", null ],
-      [ "ENEMY_AI_FLAG_2", "enums_8h.html#a613ec96bee71e287c1116d4e8a174edfa73b843070b21a1cb24db0304dab0bfe2", null ],
-      [ "ENEMY_AI_FLAG_SUSPEND", "enums_8h.html#a613ec96bee71e287c1116d4e8a174edfa7eb6e680e0d0ba5cfbfb81ed0029b430", null ],
-      [ "ENEMY_AI_FLAG_8", "enums_8h.html#a613ec96bee71e287c1116d4e8a174edfa80f3c48823ec56477a258ad42b5c0223", null ],
-      [ "ENEMY_AI_FLAG_10", "enums_8h.html#a613ec96bee71e287c1116d4e8a174edfa362f84590c3c924600a783c7698be3f1", null ],
-      [ "ENEMY_AI_FLAG_20", "enums_8h.html#a613ec96bee71e287c1116d4e8a174edfa04f80078a0b59812e97a1dd8b901cdbe", null ],
-      [ "ENEMY_AI_FLAG_40", "enums_8h.html#a613ec96bee71e287c1116d4e8a174edfa8e95505a57bd210086fc6d8c49af3ee3", null ],
-      [ "ENEMY_AI_FLAG_80", "enums_8h.html#a613ec96bee71e287c1116d4e8a174edfa447713286834fc1ae398930ae1d3e3a4", null ]
+      [ "AI_FLAG_1", "enums_8h.html#a613ec96bee71e287c1116d4e8a174edfa3e92b222e4f03582db8c3541d4008c51", null ],
+      [ "AI_FLAG_CANT_DETECT_PLAYER", "enums_8h.html#a613ec96bee71e287c1116d4e8a174edfa582f75fa96fc8946c541658cc5a4b033", null ],
+      [ "AI_FLAG_SUSPEND", "enums_8h.html#a613ec96bee71e287c1116d4e8a174edfa2f215651c4cff43451583ff421bcbd3a", null ],
+      [ "AI_FLAG_SKIP_EMOTE_AFTER_FLEE", "enums_8h.html#a613ec96bee71e287c1116d4e8a174edfa9818a7c6624475af7f3c1869a55dc1ba", null ],
+      [ "AI_FLAG_SKIP_IDLE_ANIM_AFTER_FLEE", "enums_8h.html#a613ec96bee71e287c1116d4e8a174edfab79e680046c4dbc2e0ff9eba5fb4bce7", null ],
+      [ "AI_FLAG_OUTSIDE_TERRITORY", "enums_8h.html#a613ec96bee71e287c1116d4e8a174edfad2174ca1a5ee8dc87e223421fe2472cc", null ],
+      [ "AI_FLAG_NEEDS_HEADING", "enums_8h.html#a613ec96bee71e287c1116d4e8a174edfac62ce03aec249929094b7d64025a2f6d", null ],
+      [ "AI_FLAG_80", "enums_8h.html#a613ec96bee71e287c1116d4e8a174edfa19f9d32e460cef32a7043caa73d57f3c", null ]
     ] ],
     [ "EnemyAIStates", "enums_8h.html#a6c5489662392ca0ccf529533bf2fb348", [
       [ "AI_STATE_WANDER_INIT", "enums_8h.html#a6c5489662392ca0ccf529533bf2fb348a1d9400d604940e0f9ba7d0d8af02cc15", null ],
@@ -1632,10 +1632,6 @@ var enums_8h =
       [ "ENEMY_FLAG_IGNORE_SPIN", "enums_8h.html#a7de157db6798346d411421949f294617aab96517c17c2b840c11160e01510f34d", null ],
       [ "ENEMY_FLAG_BEGIN_WITH_CHASING", "enums_8h.html#a7de157db6798346d411421949f294617ab41a9a0b038f651959597257c58558f1", null ],
       [ "ENEMY_FLAG_SUSPENDED", "enums_8h.html#a7de157db6798346d411421949f294617ab2eae7a88d2c766fdb0a624934e2e2d0", null ]
-    ] ],
-    [ "EnemyTerritoryFlags", "enums_8h.html#afe0db78261873e6c750a5d79fa622061", [
-      [ "AI_TERRITORY_IGNORE_HIDING", "enums_8h.html#afe0db78261873e6c750a5d79fa622061a35f4972c32df3fe9cd81601bc085425b", null ],
-      [ "AI_TERRITORY_IGNORE_ELEVATION", "enums_8h.html#afe0db78261873e6c750a5d79fa622061aca26fcefb19c84a4bc464f17602e2ef4", null ]
     ] ],
     [ "EntityCollisionFlags", "enums_8h.html#aadb4d38bc31a3e1ac05921932daeb0f4", [
       [ "ENTITY_COLLISION_PLAYER_TOUCH_FLOOR", "enums_8h.html#aadb4d38bc31a3e1ac05921932daeb0f4a47f1a3ed0bd130aeebe69650377ce50d", null ],
@@ -1897,6 +1893,11 @@ var enums_8h =
     [ "FlashPaletteModes", "enums_8h.html#aad87025e4e9f0faed402664c36a5b8dd", [
       [ "FLASH_PAL_OFF", "enums_8h.html#aad87025e4e9f0faed402664c36a5b8ddaf6b3049d8c34f29c6ab085419011ebc7", null ],
       [ "FLASH_PAL_ON", "enums_8h.html#aad87025e4e9f0faed402664c36a5b8dda31343d089c1a31fb67387028219f2bd9", null ]
+    ] ],
+    [ "GameContext", "enums_8h.html#abe7ef679b6c00692cf8fac4f99f3ee1e", [
+      [ "CONTEXT_WORLD", "enums_8h.html#abe7ef679b6c00692cf8fac4f99f3ee1eaecd2014cfce132822e90c0d8b3cf688c", null ],
+      [ "CONTEXT_BATTLE", "enums_8h.html#abe7ef679b6c00692cf8fac4f99f3ee1ea96ad3c77fbbe8b82a00c850a6d6377fc", null ],
+      [ "CONTEXT_PAUSE", "enums_8h.html#abe7ef679b6c00692cf8fac4f99f3ee1eaaf36a2f305c697fdeff63d4160831090", null ]
     ] ],
     [ "GlobalOverrides", "enums_8h.html#af5c170840966ab0b61a98f0795dfa881", [
       [ "GLOBAL_OVERRIDES_DISABLE_RENDER_WORLD", "enums_8h.html#af5c170840966ab0b61a98f0795dfa881ab34e676069063929a8cf3f9ef897d463", null ],
@@ -5231,6 +5232,10 @@ var enums_8h =
       [ "TEMP_SET_ZONE_ENABLED_FLAG_20000000", "enums_8h.html#a4fbbf029d36c68fdc7c54db5f460eac1a441dc069764a880974db7fdfec8088d1", null ],
       [ "TEMP_SET_ZONE_ENABLED_FLAG_40000000", "enums_8h.html#a4fbbf029d36c68fdc7c54db5f460eac1ae32779232e5cdd6c6d26e9c566f1bb03", null ],
       [ "TEMP_SET_ZONE_ENABLED_FLAG_80000000", "enums_8h.html#a4fbbf029d36c68fdc7c54db5f460eac1a6e65c113c33801a1336d4d88935865bb", null ]
+    ] ],
+    [ "TerritoryFlags", "enums_8h.html#ad1e5347f2f5f1d5332a99bb7583f061c", [
+      [ "AI_TERRITORY_IGNORE_HIDING", "enums_8h.html#ad1e5347f2f5f1d5332a99bb7583f061ca35f4972c32df3fe9cd81601bc085425b", null ],
+      [ "AI_TERRITORY_IGNORE_ELEVATION", "enums_8h.html#ad1e5347f2f5f1d5332a99bb7583f061caca26fcefb19c84a4bc464f17602e2ef4", null ]
     ] ],
     [ "TexPanner", "enums_8h.html#a105a0a292ea686b3615509955c1d5171", [
       [ "TEX_PANNER_0", "enums_8h.html#a105a0a292ea686b3615509955c1d5171a82666a605ded89b069ad02d6f8bf8d5d", null ],

@@ -313,7 +313,7 @@ var npc_8h =
     ] ],
     [ "appendGfx_npc", "npc_8h.html#ad131038d53581244cf560f63e04e3b9b", null ],
     [ "appendGfx_npc_blur", "npc_8h.html#a0de4b670e85efa6d90c8c182916e9e78", null ],
-    [ "basic_ai_check_player_dist", "npc_8h.html#aa8505fa149304fb645bdb2750a55efa9", null ],
+    [ "basic_ai_check_player_dist", "npc_8h.html#ad15e051bb98fe6ee127b8ce039aa045b", null ],
     [ "bind_enemy_ai", "npc_8h.html#a2d841fec0614c99f3928b5e93eb5a586", null ],
     [ "bind_enemy_aux", "npc_8h.html#a2fbae7b6c8c85e55fbe9e9b3d7c23976", null ],
     [ "bind_enemy_interact", "npc_8h.html#afa22699a821ea589751f5850c3f1519d", null ],

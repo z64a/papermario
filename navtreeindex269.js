@@ -1,5 +1,9 @@
 var NAVTREEINDEX269 =
 {
+"npc__final_8c.html#a02c6d39594a3aa893a4c7c5729890618":[2,0,1,10,12,20,6,1],
+"npc__final_8c.html#a02c6d39594a3aa893a4c7c5729890618":[2,0,1,10,12,20,6,0],
+"npc__goomba__family_8inc_8c.html":[2,0,1,10,16,4,8],
+"npc__gossip__trio_8inc_8c.html":[2,0,1,10,16,4,9],
 "npc__guards_8c.html":[2,0,1,10,12,9,15],
 "npc__harry__t_8inc_8c.html":[2,0,1,10,16,4,10],
 "npc__hint__dryite_8c.html":[2,0,1,10,3,0,7],
@@ -245,9 +249,5 @@ var NAVTREEINDEX269 =
 "obk__01__shape_8h.html#a28dec32f43cffb5b53c8f14c5495ad99":[2,0,0,0,637,156],
 "obk__01__shape_8h.html#a2b521cd2058006541dd1ba558a8582f0":[2,0,0,0,637,121],
 "obk__01__shape_8h.html#a2b895e161cfdf1e9caec1bb8b8142921":[2,0,0,0,637,128],
-"obk__01__shape_8h.html#a2d59267dfde2eb287bd123a5243fc228":[2,0,0,0,637,36],
-"obk__01__shape_8h.html#a2dffc58bd90adcc3cb3cb050b79b97ce":[2,0,0,0,637,17],
-"obk__01__shape_8h.html#a3127b2203e429258989464b5c158fbdc":[2,0,0,0,637,93],
-"obk__01__shape_8h.html#a31beda22fdf887c1292ca44325adb32f":[2,0,0,0,637,149],
-"obk__01__shape_8h.html#a33e2e92d8cccd1f9a1e2c573c95be18e":[2,0,0,0,637,142]
+"obk__01__shape_8h.html#a2d59267dfde2eb287bd123a5243fc228":[2,0,0,0,637,36]
 };
