@@ -17,13 +17,11 @@ var main__pre__bss_8c =
     [ "D_8009A5BC", "main__pre__bss_8c.html#aefdb5208020306d0b03e18bee850589b", null ],
     [ "D_8009A5C4", "main__pre__bss_8c.html#af5ab9371ba6e7337ae040dc1ddde3868", null ],
     [ "D_8009A624", "main__pre__bss_8c.html#a4b585cbe8af1df7c5452b442253d2bda", null ],
-    [ "D_8009A63C", "main__pre__bss_8c.html#acc1e16cfd14f2ca3eae745e2f4211249", null ],
     [ "D_8009A644", "main__pre__bss_8c.html#a5387c9fa4aa935e9b743fda6fb93ed9b", null ],
     [ "D_8009A648", "main__pre__bss_8c.html#a2e7bf91ae857a6d3e1332108b3b31126", null ],
     [ "D_8009A65C", "main__pre__bss_8c.html#ac3220f0192cc59f5a3130bdc0098ca79", null ],
-    [ "D_8009A670", "main__pre__bss_8c.html#a886b83cfc2761009828d4af5d46264e1", null ],
-    [ "D_8009A678", "main__pre__bss_8c.html#afdb91650be2280b9c79c3327dc834e2e", null ],
     [ "D_8009A67C", "main__pre__bss_8c.html#aca09305feb977678ec59cc8175e7449e", null ],
+    [ "EncounterStateChanged", "main__pre__bss_8c.html#ac4333c5e173d873c332021c37a6eab46", null ],
     [ "gAuAmbienceManager", "main__pre__bss_8c.html#a6dda931d9cb213def3ccb07a1a630264", null ],
     [ "gBGMPlayerA", "main__pre__bss_8c.html#ad7f62e04aab8f53260ca4c59ada6b56a", null ],
     [ "gBGMPlayerB", "main__pre__bss_8c.html#aeb7d906b011f6808db15b4434a2530bc", null ],
@@ -39,7 +37,9 @@ var main__pre__bss_8c =
     [ "gOverrideFlags", "main__pre__bss_8c.html#a4c3a822072d9c88c3be4a4454fcb7c70", null ],
     [ "gSoundGlobals", "main__pre__bss_8c.html#a8a7a206246fd2b3a70f6a4e06b744aec", null ],
     [ "gSoundManager", "main__pre__bss_8c.html#a44fdd16787fe376b4844178b980ddc73", null ],
+    [ "gTimeFreezeMode", "main__pre__bss_8c.html#af37beba35867e8f29a2628c9717a0eb9", null ],
     [ "HasPreBattleSongPushed", "main__pre__bss_8c.html#a4df3bb388ab71be3ef5ad2a3b4413958", null ],
+    [ "LastBattleStartedBySpin", "main__pre__bss_8c.html#aa361a693ea3209517553fc4552c2f16f", null ],
     [ "nuContDataLockKey", "main__pre__bss_8c.html#ae1a2515618030428a6f0fc3b0b86cbe3", null ],
     [ "nuContNum", "main__pre__bss_8c.html#adbd8a68407c156c10e9ffbc21e98785e", null ],
     [ "nuGfxCfb", "main__pre__bss_8c.html#a478bc61fa46bc096e5a16a54d2cc7ac9", null ],
@@ -52,6 +52,6 @@ var main__pre__bss_8c =
     [ "nuIdleFunc", "main__pre__bss_8c.html#a1d5dd51931c015362e4de995c451b177", null ],
     [ "nuPiCartHandle", "main__pre__bss_8c.html#a769f9919fdd1c09ea4033cfe562d31fc", null ],
     [ "nuScPreNMIFlag", "main__pre__bss_8c.html#a795a041c4720db28a9747b32e71c1fcb", null ],
-    [ "ResetFrameBufferArray", "main__pre__bss_8c.html#a4c357cae919113e20f449f2e296c5b5e", null ],
-    [ "timeFreezeMode", "main__pre__bss_8c.html#a6f8d64e114ceb89fbe07bd7b348cc35a", null ]
+    [ "PendingPartnerAbilityResume", "main__pre__bss_8c.html#ac7c73fda8018a951e3b4d44ae53efe5d", null ],
+    [ "ResetFrameBufferArray", "main__pre__bss_8c.html#a4c357cae919113e20f449f2e296c5b5e", null ]
 ];

@@ -124,7 +124,7 @@ Functions</h2></td></tr>
 <tr class="memitem:a5c89c1b590450db58ee623f748628cea" id="r_a5c89c1b590450db58ee623f748628cea"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5c89c1b590450db58ee623f748628cea">load_engine_data</a> (void)</td></tr>
 <tr class="separator:a5c89c1b590450db58ee623f748628cea"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a536126650e0fa764752013d10207fd10" id="r_a536126650e0fa764752013d10207fd10"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a536126650e0fa764752013d10207fd10">set_time_freeze_mode</a> (s32 mode)</td></tr>
-<tr class="memdesc:a536126650e0fa764752013d10207fd10"><td class="mdescLeft">&#160;</td><td class="mdescRight">Time freeze modes: 0: normal 1: NPCs move, can't be interacted with 2: NPCs don't move, no partner ability, can't interact, can't use exits 3: NPCs don't more or animate 4: NPCs can move, animations don't update, can use exits.  <br /></td></tr>
+<tr class="memdesc:a536126650e0fa764752013d10207fd10"><td class="mdescLeft">&#160;</td><td class="mdescRight">Time freeze modes: 0: none 1: NPCs move, can't be interacted with 2: NPCs don't move, no partner ability, can't interact, can't use exits 3: NPCs don't more or animate 4: NPCs can move, animations don't update, can use exits.  <br /></td></tr>
 <tr class="separator:a536126650e0fa764752013d10207fd10"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac97c8785dd6d7da6d4a2850a6999fbe7" id="r_ac97c8785dd6d7da6d4a2850a6999fbe7"><td class="memItemLeft" align="right" valign="top">s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac97c8785dd6d7da6d4a2850a6999fbe7">get_time_freeze_mode</a> (void)</td></tr>
 <tr class="separator:ac97c8785dd6d7da6d4a2850a6999fbe7"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -133,8 +133,8 @@ Functions</h2></td></tr>
 Variables</h2></td></tr>
 <tr class="memitem:a091dc0469f07f19f0ff5ce59bad257ff" id="r_a091dc0469f07f19f0ff5ce59bad257ff"><td class="memItemLeft" align="right" valign="top">s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a091dc0469f07f19f0ff5ce59bad257ff">gOverrideFlags</a></td></tr>
 <tr class="separator:a091dc0469f07f19f0ff5ce59bad257ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa7b6022b2608f742655cf94ecdf1e1ba" id="r_aa7b6022b2608f742655cf94ecdf1e1ba"><td class="memItemLeft" align="right" valign="top">s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa7b6022b2608f742655cf94ecdf1e1ba">timeFreezeMode</a></td></tr>
-<tr class="separator:aa7b6022b2608f742655cf94ecdf1e1ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad88afb2805dd986c41239f16afa09e34" id="r_ad88afb2805dd986c41239f16afa09e34"><td class="memItemLeft" align="right" valign="top">s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad88afb2805dd986c41239f16afa09e34">gTimeFreezeMode</a></td></tr>
+<tr class="separator:ad88afb2805dd986c41239f16afa09e34"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4310ee0e31b208c6ff609e2150f76dc5" id="r_a4310ee0e31b208c6ff609e2150f76dc5"><td class="memItemLeft" align="right" valign="top">u16 **&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4310ee0e31b208c6ff609e2150f76dc5">nuGfxCfb</a></td></tr>
 <tr class="separator:a4310ee0e31b208c6ff609e2150f76dc5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2fea8fd56ff17f5210870bc3c1019117" id="r_a2fea8fd56ff17f5210870bc3c1019117"><td class="memItemLeft" align="right" valign="top"><a class="el" href="macros_8h.html#a476baf4669c951eb7864d94f15a49f75">BSS</a> s16&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2fea8fd56ff17f5210870bc3c1019117">SoftResetDelay</a></td></tr>
@@ -309,7 +309,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Time freeze modes: 0: normal 1: NPCs move, can't be interacted with 2: NPCs don't move, no partner ability, can't interact, can't use exits 3: NPCs don't more or animate 4: NPCs can move, animations don't update, can use exits. </p>
+<p>Time freeze modes: 0: none 1: NPCs move, can't be interacted with 2: NPCs don't move, no partner ability, can't interact, can't use exits 3: NPCs don't more or animate 4: NPCs can move, animations don't update, can use exits. </p>
 
 <p class="reference">Referenced by <a class="el" href="partners_8c.html#acbc0a4cec275c377ecd3acfdf341e3c4">_use_partner_ability()</a>, <a class="el" href="sneaky__parasol_8c.html#ad9e1b4907c3976245af0adc61672907f">action_update_parasol()</a>, <a class="el" href="functions_8h.html#a5e088342c2b5340a2f23626ec8fdd714">check_input_open_menus()</a>, <a class="el" href="HeartBlock_8c.html#a4792144d11304359ac46481cf360f8c2">entity_HeartBlock_show_tutorial_message()</a>, <a class="el" href="HeartBlock_8c.html#a7330bf06fbd15ae44c83c08b3650fb77">entity_HeartBlock_wait_for_close_tutorial()</a>, <a class="el" href="HeartBlock_8c.html#a765840023114185d39736a3ab0040af4">entity_HeartBlockContent__anim_heal()</a>, <a class="el" href="HeartBlock_8c.html#a844828191f6913c078a6b5fbfddcf9bf">entity_HeartBlockContent_anim_idle()</a>, <a class="el" href="HiddenPanel_8c.html#a23d6c318305abdf99ef28674c3691fed">entity_HiddenPanel_flip_over()</a>, <a class="el" href="functions_8h.html#a487cc9420c286513beccf592f2349533">entity_SaveBlock_pause_game()</a>, <a class="el" href="functions_8h.html#a48b86cb983fec5102ecb61ac67aa9912">entity_SaveBlock_resume_game()</a>, <a class="el" href="world_2partner_2goombario_8c.html#a74e1c37e8640b47bd52c10e33cafe20d">pre_battle()</a>, <a class="el" href="functions_8h.html#a0e1d45d8fd8a97029ce3bacb3e45a9b6">state_init_file_select()</a>, <a class="el" href="functions_8h.html#a110b232a6897436c7ef8fa3b0051605b">state_init_language_select()</a>, <a class="el" href="functions_8h.html#a278b2ae5eeeab8987f0b8aebdc80c099">state_init_pause()</a>, <a class="el" href="functions_8h.html#ae99fb0081376240f4e87695a9327bea0">state_step_battle()</a>, <a class="el" href="functions_8h.html#a343259f226370f7b99d8b39fdfb5498a">state_step_change_map()</a>, <a class="el" href="functions_8h.html#a0f9b0a6ae0739dac5f74da6a1d275ad6">state_step_end_battle()</a>, <a class="el" href="functions_8h.html#a7dd7dea120d8c87e6809f0a57fee95bd">state_step_enter_world()</a>, <a class="el" href="functions_8h.html#a147c51f4ccfe5a2f4a278e1d56090d94">state_step_exit_file_select()</a>, <a class="el" href="functions_8h.html#a56a8511bd1d63abc7804946927d8b7bd">state_step_exit_language_select()</a>, <a class="el" href="functions_8h.html#a2280cc77cce96dea77678e339eea1f67">state_step_unpause()</a>, and <a class="el" href="item__entity_8c.html#a22c8dbeb2654f9d2bd8de2e295b32103">update_item_entity_pickup()</a>.</p>
 
@@ -543,6 +543,22 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="ad88afb2805dd986c41239f16afa09e34" name="ad88afb2805dd986c41239f16afa09e34"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad88afb2805dd986c41239f16afa09e34">&#9670;&#160;</a></span>gTimeFreezeMode</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">s32 gTimeFreezeMode</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="functions_8h.html#ac97c8785dd6d7da6d4a2850a6999fbe7">get_time_freeze_mode()</a>, <a class="el" href="functions_8h.html#a8232f3e5cc409aa9b603aa637fd20500">init_enter_world_shared()</a>, <a class="el" href="main_8c.html#a5c89c1b590450db58ee623f748628cea">load_engine_data()</a>, <a class="el" href="functions_8h.html#ac9f14c202623bc3d97a41b3350448659">set_time_freeze_mode()</a>, <a class="el" href="functions_8h.html#acd60663a15a876b66b8ca6a92517d459">state_init_title_screen()</a>, and <a class="el" href="script__list_8c.html#a9d69ad328a514f9e86561e779b51327e">suspend_frozen_scripts()</a>.</p>
+
+</div>
+</div>
 <a id="ae714b1f5407babd97524246e5ccfb64c" name="ae714b1f5407babd97524246e5ccfb64c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae714b1f5407babd97524246e5ccfb64c">&#9670;&#160;</a></span>MasterIdentityMtx</h2>
 
@@ -625,22 +641,6 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="reference">Referenced by <a class="el" href="main_8c.html#a7012aad40e598ee9acc6111ff6521cc2">gfx_draw_frame()</a>, and <a class="el" href="functions_8h.html#a11c5bb3e8f4c125169b95de57c59d1ea">step_game_loop()</a>.</p>
-
-</div>
-</div>
-<a id="aa7b6022b2608f742655cf94ecdf1e1ba" name="aa7b6022b2608f742655cf94ecdf1e1ba"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa7b6022b2608f742655cf94ecdf1e1ba">&#9670;&#160;</a></span>timeFreezeMode</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">s32 timeFreezeMode</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="functions_8h.html#ac97c8785dd6d7da6d4a2850a6999fbe7">get_time_freeze_mode()</a>, <a class="el" href="functions_8h.html#a8232f3e5cc409aa9b603aa637fd20500">init_enter_world_shared()</a>, <a class="el" href="main_8c.html#a5c89c1b590450db58ee623f748628cea">load_engine_data()</a>, <a class="el" href="functions_8h.html#ac9f14c202623bc3d97a41b3350448659">set_time_freeze_mode()</a>, <a class="el" href="functions_8h.html#acd60663a15a876b66b8ca6a92517d459">state_init_title_screen()</a>, and <a class="el" href="script__list_8c.html#a9d69ad328a514f9e86561e779b51327e">suspend_frozen_scripts()</a>.</p>
 
 </div>
 </div>

@@ -1,17 +1,15 @@
 var player__events_8c =
 [
     [ "btl_set_player_idle_anims", "player__events_8c.html#a6b2c596178c5c10b5af63ff3e825fbb5", null ],
+    [ "BattleMerleeBasePosY", "player__events_8c.html#af1c1a5bb06f62040d0e2e9bcfcefec98", null ],
+    [ "BattleMerleeEffectsState", "player__events_8c.html#a7371804de5588179248a92ef9b4d8f95", null ],
+    [ "BattleMerleeEffectsTime", "player__events_8c.html#a00423d8fcd7193d25e7aa864551a64ff", null ],
     [ "BattleMerleeOrbEffect", "player__events_8c.html#abe1c326404cd6a21985e633432c86a7f", null ],
     [ "BattleMerleeWaveEffect", "player__events_8c.html#a1673997c8de19887a1800241348f767b", null ],
     [ "bPlayerCelebrations", "player__events_8c.html#abfa20f55cf1ada88a024da2d60b03ce6", null ],
     [ "D_80287404", "player__events_8c.html#a81b6c69ab68b47d92547b7cff554907f", null ],
     [ "D_80287708", "player__events_8c.html#a1e0888953ece6ac61ed23938b9885f93", null ],
     [ "D_80287834", "player__events_8c.html#a42d17f7af99c833f9c8b9967e0e35d3f", null ],
-    [ "D_8029FB90", "player__events_8c.html#ac228828383c4b5f011ee62ea9b71a0b8", null ],
-    [ "D_8029FB94", "player__events_8c.html#a3522c7ce6772a153ccd595dd0fb7e02a", null ],
-    [ "D_8029FBA4", "player__events_8c.html#a1a313c36edd351eefa70f81671a1382d", null ],
-    [ "D_8029FBA8", "player__events_8c.html#a179155234c7272fe08bd5f11092c7df2", null ],
-    [ "D_8029FBAC", "player__events_8c.html#a63cc5d1004ed026331c178024926dcab", null ],
     [ "D_8029FBB0", "player__events_8c.html#a794886fa6428e6de8d1138d7aa9c3e6f", null ],
     [ "EVS_ApplyDizzyAttack", "player__events_8c.html#a3481d05faa589699dedd2b52bd55e54c", null ],
     [ "EVS_ExecuteMarioAction", "player__events_8c.html#a39d8456e7213a76d279f4429a2bfaab5", null ],
@@ -44,5 +42,7 @@ var player__events_8c =
     [ "EVS_UseLifeShroom", "player__events_8c.html#ad90031ca74c666006ac446e4b2fa733d", null ],
     [ "HES_Happy", "player__events_8c.html#a25ca9c7a702448e43201dce0d97765b2", null ],
     [ "HES_HPDrain", "player__events_8c.html#aa14d01a84bf6dcccc01c854e65762844", null ],
-    [ "RefundHudElem", "player__events_8c.html#a6af1974699fc7e5ff5203c3d1ee50f6b", null ]
+    [ "HID_Happy", "player__events_8c.html#aca291c180e0ee8406afc1b84f72b0bf4", null ],
+    [ "HID_HPDrain", "player__events_8c.html#ae5c742d468bfa0a0038a7a4f08916a20", null ],
+    [ "HID_Refund", "player__events_8c.html#acd0eea26a80ea1f93f211b9548422551", null ]
 ];

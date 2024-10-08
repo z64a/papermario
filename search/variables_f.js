@@ -99,7 +99,7 @@ var searchData=
   ['overallscale_96',['overallScale',['../effects_8h.html#afff059167710a4423550d559483b1233',1,'TubbaHeartAttackFXData']]],
   ['overlappushamount_97',['overlapPushAmount',['../common__structs_8h.html#abd6f551335d49575247736e406a59485',1,'PlayerStatus']]],
   ['overlappushyaw_98',['overlapPushYaw',['../common__structs_8h.html#ae966635cef6ed97274e81e9fdd933fcf',1,'PlayerStatus']]],
-  ['overlay_99',['overlay',['../imgfx_8c.html#ad1112090be2e5aefb3ca1bea989da44d',1,'ImgFXIntVars::overlay'],['../imgfx_8c.html#abf9511db147293945fa61a870d8b06a6',1,'ImgFXFloatVars::overlay']]],
+  ['overlay_99',['overlay',['../imgfx_8c.html#a65e35aec6e0164bf2b0f0d8f695c78b9',1,'ImgFXIntVars::overlay'],['../imgfx_8c.html#aecd63744883b7bf6813a0b042162e8cb',1,'ImgFXFloatVars::overlay']]],
   ['overridedescmsg_100',['overrideDescMsg',['../world_2area__kkj_2kkj__19_2main_8c.html#abe89b164b73fe6d6b46577265200ec0b',1,'IngredientSouce']]],
   ['overridedropdoor_101',['overrideDropDoor',['../script__api_2rooms_8c.html#a1d62c9a5cb3ca19571830fa12a981289',1,'MapRoom']]],
   ['overridemovewall_102',['overrideMoveWall',['../script__api_2rooms_8c.html#ae75976c704ba700bd3587a7d3f9d8d6c',1,'MapRoom']]],

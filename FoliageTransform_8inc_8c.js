@@ -6,7 +6,7 @@ var FoliageTransform_8inc_8c =
     ] ],
     [ "FoliageDropList", "FoliageTransform_8inc_8c.html#structFoliageDropList", [
       [ "count", "FoliageTransform_8inc_8c.html#a50abafe5326feb2eefd99f4856a67095", null ],
-      [ "drops", "FoliageTransform_8inc_8c.html#ad7d5fa87958f3084c9333c84ee84bdc8", null ]
+      [ "drops", "FoliageTransform_8inc_8c.html#abac59ec52c4e39a5a34743a5ee5368c6", null ]
     ] ],
     [ "FoliageVectorList", "FoliageTransform_8inc_8c.html#structFoliageVectorList", [
       [ "count", "FoliageTransform_8inc_8c.html#acc834c002dfeea4c1494b3a7ff3c2935", null ],

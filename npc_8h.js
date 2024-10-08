@@ -254,12 +254,12 @@ var npc_8h =
       [ "resetMapEncounterFlags", "npc_8h.html#a0806be7a76e49812f9147432bed882b6", null ],
       [ "scriptedBattle", "npc_8h.html#a19890c11a2f1c2b993b3c4acc44839e0", null ],
       [ "songID", "npc_8h.html#a98c22fe94e43143a9441b7885182f117", null ],
+      [ "substateDelay", "npc_8h.html#af5f60e4a25c31af9babbb6e84b4dea42", null ],
       [ "unk_07", "npc_8h.html#a187abb2534f3c1d6ffbc2e0e318befc6", null ],
       [ "unk_08", "npc_8h.html#acc2e2a0fe6e6396fac11acb7e2572722", null ],
       [ "unk_0D", "npc_8h.html#a13e497adb2bf83a4bb03e030517426d7", null ],
       [ "unk_18", "npc_8h.html#a3f065be6f3200660388f0a479a00f168", null ],
       [ "unk_22", "npc_8h.html#ac774d716505544b93ef078120c06e731", null ],
-      [ "unk_94", "npc_8h.html#a4b2d4c6179ff8b4bac37ba2b5311b7a3", null ],
       [ "unusedAttack1", "npc_8h.html#a3d0efa34e578dd43039dfa5a40c8b22e", null ],
       [ "unusedAttack2", "npc_8h.html#ac1a922edeb7900c84bcdfd3a055d4ae5", null ],
       [ "unusedAttack3", "npc_8h.html#a39bfbd1eb7ee859d6502f0c8b0620c65", null ]
