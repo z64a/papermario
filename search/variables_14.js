@@ -44,7 +44,7 @@ var searchData=
   ['targety_41',['targetY',['../entity_8h.html#a61ed453f80c6862f449d4a3df967ceff',1,'TweesterData']]],
   ['targetyaw_42',['targetYaw',['../common__structs_8h.html#a357d333aae66e912bed2c41325b4fa55',1,'PlayerStatus']]],
   ['targetz_43',['targetZ',['../entity_8h.html#a94c4b0394ab7eabb52ccfb35e235261c',1,'TweesterData']]],
-  ['tattle_44',['tattle',['../map_8h.html#a15b8b41c7ee9f1c26127ac8c7fa1bc34',1,'MapSettings::tattle'],['../npc_8h.html#ae16acfbe965b61c063678fc432f08047',1,'NpcData::tattle']]],
+  ['tattle_44',['tattle',['../map_8h.html#a49e445af948b76c111110072243a3d8c',1,'MapSettings::tattle'],['../npc_8h.html#ae16acfbe965b61c063678fc432f08047',1,'NpcData::tattle']]],
   ['tattlecam_45',['tattleCam',['../src_2battle_2battle_8h.html#a52222ded343c0ef9a2cd3f439ab70941',1,'ActorOffsets']]],
   ['tattleflags_46',['tattleFlags',['../structBattleStatus.html#aa50a71ba42d3313363e4a9533d977f9e',1,'BattleStatus']]],
   ['tattlemsg_47',['tattleMsg',['../structTrigger.html#a04c16de145119cf73c04701d44009abd',1,'Trigger::tattleMsg'],['../structTriggerBlueprint.html#a22aebac36507924f3ff125ad4b71fe78',1,'TriggerBlueprint::tattleMsg'],['../npc_8h.html#ae110ed9943a80032bd371bbecf39d058',1,'Enemy::tattleMsg']]],

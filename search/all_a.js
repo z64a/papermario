@@ -708,7 +708,7 @@ var searchData=
   ['blueswitch_2ec_705',['BlueSwitch.c',['../BlueSwitch_8c.html',1,'']]],
   ['bluewarppipe_2ec_706',['BlueWarpPipe.c',['../BlueWarpPipe_8c.html',1,'(Global Namespace)'],['../model_2BlueWarpPipe_8c.html',1,'(Global Namespace)']]],
   ['bluewarppipedata_707',['BlueWarpPipeData',['../entity_8h.html#structBlueWarpPipeData',1,'']]],
-  ['blur_708',['blur',['../structNpc.html#ae5e2f1ffa69c3ff629480a98183e3c1e',1,'Npc']]],
+  ['blur_708',['blur',['../structNpc.html#adbb4b2ade732b902adf378e52d42015b',1,'Npc']]],
   ['blurbufferpos_709',['blurBufferPos',['../common__structs_8h.html#ac7f4196cbfdddfe02335d8d4c99368da',1,'DecorationTable']]],
   ['blurdisabledelay_710',['blurDisableDelay',['../common__structs_8h.html#a473a19cb5c4dc796edff9f88837df15e',1,'DecorationTable']]],
   ['blurdrawcount_711',['blurDrawCount',['../common__structs_8h.html#a1f8295d72ed737f48ed6b5397d9c0dd7',1,'DecorationTable']]],
