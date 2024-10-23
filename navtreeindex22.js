@@ -1,8 +1,5 @@
 var NAVTREEINDEX22 =
 {
-"area__mac_2mac__01_2foliage_8c.html":[2,0,1,10,16,1,5],
-"area__mac_2mac__01_2intro_8c.html":[2,0,1,10,16,1,6],
-"area__mac_2mac__01_2music_8c.html":[2,0,1,10,16,1,10],
 "area__mac_2mac__01_2rooms_8c.html":[2,0,1,10,16,1,13],
 "area__mac_2mac__01_2settings_8c.html":[2,0,1,10,16,1,14],
 "area__mac_2mac__01_2shop_8c.html":[2,0,1,10,16,1,15],
@@ -249,5 +246,8 @@ var NAVTREEINDEX22 =
 "area__pra_2pra__29_2bridge_8c.html#ac23492d59f969d057a374b48aa2d25c1":[2,0,1,10,23,22,0,0],
 "area__pra_2pra__29_2music_8c.html":[2,0,1,10,23,22,3],
 "area__pra_2pra__29_2settings_8c.html":[2,0,1,10,23,22,5],
-"area__pra_2pra__31_2music_8c.html":[2,0,1,10,23,23,1]
+"area__pra_2pra__31_2music_8c.html":[2,0,1,10,23,23,1],
+"area__pra_2pra__31_2puzzle_8c.html":[2,0,1,10,23,23,4],
+"area__pra_2pra__31_2puzzle_8c.html#a22839e361d9584e139420f11ae4b1028":[2,0,1,10,23,23,4,1,0],
+"area__pra_2pra__31_2puzzle_8c.html#a26da2add05c2d4f155e8b3818a2f979c":[2,0,1,10,23,23,4,0,6]
 };

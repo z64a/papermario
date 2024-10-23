@@ -19,7 +19,7 @@ var npc_8h_structEncounterStatus =
     [ "fadeOutAmount", "npc_8h.html#aad09bc4effb34eab90e2077a481a87b3", null ],
     [ "firstStrikeType", "npc_8h.html#ae92869fcd18af29d17b99238d9ad7d66", null ],
     [ "flags", "npc_8h.html#a2ceaac7f1a87580969f1a6e073e408af", null ],
-    [ "hasMerleeCoinBonus", "npc_8h.html#a741bdbfef3c0f3c3f522c7a63c8e2095", null ],
+    [ "hasMerleeCoinBonus", "npc_8h.html#ac2680f519a0552c9732e66f693b28949", null ],
     [ "hitTier", "npc_8h.html#a067171758c0f92f3c3296247079a52c0", null ],
     [ "hitType", "npc_8h.html#a69f8d717b75cb22052dd17794c0ff190", null ],
     [ "instigatorValue", "npc_8h.html#ac3f7fb19836fc4956446570d8f69e1b9", null ],

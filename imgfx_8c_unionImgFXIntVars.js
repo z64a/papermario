@@ -1,10 +1,10 @@
 var imgfx_8c_unionImgFXIntVars =
 [
-    [ "anim", "imgfx_8c.html#a381adea68a3a39b39d96e3e1bd608195", null ],
-    [ "args", "imgfx_8c.html#a0a40c02cf0143ab6a09ddb858d43cdc0", null ],
-    [ "color", "imgfx_8c.html#af6c47f62011d9ca3431efabc5e9fabb7", null ],
-    [ "hologram", "imgfx_8c.html#a0d9da5cb6d73bd5b6dafd1bfcffa78f3", null ],
-    [ "overlay", "imgfx_8c.html#a65e35aec6e0164bf2b0f0d8f695c78b9", null ],
+    [ "anim", "imgfx_8c.html#ae381ed627bcd2fb951719b61c6d9c1ce", null ],
+    [ "args", "imgfx_8c.html#a14c12ed882a95fe9d4b7f11455dab19d", null ],
+    [ "color", "imgfx_8c.html#a775212395c3872a61823340ef957de42", null ],
+    [ "hologram", "imgfx_8c.html#aff3878f0ed16e1e1e109e1da94781112", null ],
+    [ "overlay", "imgfx_8c.html#ad7453637b534d240310627e992be1599", null ],
     [ "raw", "imgfx_8c.html#a903fa6db05540cd91a99ef398343ff88", null ],
-    [ "wavy", "imgfx_8c.html#a179f6657a29d236308c26a9acb07f011", null ]
+    [ "wavy", "imgfx_8c.html#af8a2b1f54545eee2c004a4e0a9050a6e", null ]
 ];

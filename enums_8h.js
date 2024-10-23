@@ -75,10 +75,10 @@ var enums_8h =
       [ "ACTION_COMMAND_BREAK_FREE", "enums_8h.html#a1bc5081eb9f8716ea2ba77f5b2c2f72da531079b9110ae3bf8b8cc71822a7fa3d", null ],
       [ "ACTION_COMMAND_WHIRLWIND", "enums_8h.html#a1bc5081eb9f8716ea2ba77f5b2c2f72da6b6b19932087ef2482bf9991407037f8", null ],
       [ "ACTION_COMMAND_STOP_LEECH", "enums_8h.html#a1bc5081eb9f8716ea2ba77f5b2c2f72dafaba4560a0fde2cc253eb2f86e199188", null ],
-      [ "ACTION_COMMAND_07", "enums_8h.html#a1bc5081eb9f8716ea2ba77f5b2c2f72da4d249b9aba91df843c9aaa24e3dd6675", null ],
+      [ "ACTION_COMMAND_UNUSED_FLEE", "enums_8h.html#a1bc5081eb9f8716ea2ba77f5b2c2f72dabab0eaa9a1395f5a6a03e19e3c92ba67", null ],
       [ "ACTION_COMMAND_DIZZY_SHELL", "enums_8h.html#a1bc5081eb9f8716ea2ba77f5b2c2f72daa329be6c1e5d11bf1ead7ae719fab543", null ],
       [ "ACTION_COMMAND_FIRE_SHELL", "enums_8h.html#a1bc5081eb9f8716ea2ba77f5b2c2f72da929fe82764f3e6da4260c3017613f3d7", null ],
-      [ "ACTION_COMMAND_0A", "enums_8h.html#a1bc5081eb9f8716ea2ba77f5b2c2f72dadc7ec9d0ae1f89483e858dc0b3b5d48c", null ],
+      [ "ACTION_COMMAND_UNUSED_MASH_A", "enums_8h.html#a1bc5081eb9f8716ea2ba77f5b2c2f72da205e0d125430b8cd438c1579b6ab242e", null ],
       [ "ACTION_COMMAND_BOMB", "enums_8h.html#a1bc5081eb9f8716ea2ba77f5b2c2f72da01fbf53defa522dd03ff4d1664fec742", null ],
       [ "ACTION_COMMAND_BODY_SLAM", "enums_8h.html#a1bc5081eb9f8716ea2ba77f5b2c2f72da8e75141be8490ef0fee535edc4537a5d", null ],
       [ "ACTION_COMMAND_AIR_LIFT", "enums_8h.html#a1bc5081eb9f8716ea2ba77f5b2c2f72da1b40664b67d5490b311bc83fd509fc06", null ],
@@ -90,7 +90,7 @@ var enums_8h =
       [ "ACTION_COMMAND_SPINY_SURGE", "enums_8h.html#a1bc5081eb9f8716ea2ba77f5b2c2f72dac38a4ece2671b4e555248965ecf418db", null ],
       [ "ACTION_COMMAND_HURRICANE", "enums_8h.html#a1bc5081eb9f8716ea2ba77f5b2c2f72da12d9a0d53a9414db7a2bcbc6c89c980e", null ],
       [ "ACTION_COMMAND_SPOOK", "enums_8h.html#a1bc5081eb9f8716ea2ba77f5b2c2f72da06e9c4f51b8c66f2f172b97891ca3122", null ],
-      [ "ACTION_COMMAND_WATER_BLOCK", "enums_8h.html#a1bc5081eb9f8716ea2ba77f5b2c2f72da0a9901fbe7a4ba7565d08255c704a502", null ],
+      [ "ACTION_COMMAND_THREE_CHANCES", "enums_8h.html#a1bc5081eb9f8716ea2ba77f5b2c2f72da2d989ef40ed8c369265feb7ff470ee9d", null ],
       [ "ACTION_COMMAND_TIDAL_WAVE", "enums_8h.html#a1bc5081eb9f8716ea2ba77f5b2c2f72daebec14f1ccd938c97646cb9f3887b16c", null ]
     ] ],
     [ "ActionRatings", "enums_8h.html#a16114d7ba8a32c16cc09cccdccbf7516", [
@@ -103,8 +103,8 @@ var enums_8h =
     ] ],
     [ "ActionResult", "enums_8h.html#aee2205359d0b7e255e34eef4d76435df", [
       [ "ACTION_RESULT_NONE", "enums_8h.html#aee2205359d0b7e255e34eef4d76435dfa013536a21cd5f393ab97c02c817894d0", null ],
-      [ "ACTION_RESULT_MINUS_4", "enums_8h.html#aee2205359d0b7e255e34eef4d76435dfa6a65514ae09bd231c9be2b4eddc5763d", null ],
-      [ "ACTION_RESULT_MINUS_2", "enums_8h.html#aee2205359d0b7e255e34eef4d76435dfa96ecb8acd2d903f3ae37af2e34e5efd2", null ],
+      [ "ACTION_RESULT_METER_BELOW_HALF", "enums_8h.html#aee2205359d0b7e255e34eef4d76435dfae38610c8fb9f958df651bc52bde90849", null ],
+      [ "ACTION_RESULT_METER_NOT_ENOUGH", "enums_8h.html#aee2205359d0b7e255e34eef4d76435dfa4ebe2122f133dccdddcef79aae7911f3", null ],
       [ "ACTION_RESULT_EARLY", "enums_8h.html#aee2205359d0b7e255e34eef4d76435dfa3599eb5a91d3486eb5316b3f93157018", null ],
       [ "ACTION_RESULT_FAIL", "enums_8h.html#aee2205359d0b7e255e34eef4d76435dfaf00788bb49b5217b745c2670960f8739", null ],
       [ "ACTION_RESULT_SUCCESS", "enums_8h.html#aee2205359d0b7e255e34eef4d76435dfa5cf70e33b5d4c2afe95aa54c63b59235", null ]
@@ -1401,16 +1401,15 @@ var enums_8h =
       [ "EASING_SIN_OUT", "enums_8h.html#a9ea5b34ee227ae0a47dfc39140a8fc89a11d119d84a9f7e718597f3dd18cdee2a", null ],
       [ "EASING_COS_IN", "enums_8h.html#a9ea5b34ee227ae0a47dfc39140a8fc89a17eecda8219e79a9d9116cfa8802d7e7", null ]
     ] ],
-    [ "EffectGfxDataFlags", "enums_8h.html#a2822ea2391e1527ec580e27045cc9cbc", [
-      [ "FX_GRAPHICS_DISABLED", "enums_8h.html#a2822ea2391e1527ec580e27045cc9cbca3de884dbaa4b688d519c8a670b3def26", null ],
-      [ "FX_GRAPHICS_LOADED", "enums_8h.html#a2822ea2391e1527ec580e27045cc9cbcad0fcd12ced6b1534ed094a2add28bb53", null ],
-      [ "FX_GRAPHICS_CAN_FREE", "enums_8h.html#a2822ea2391e1527ec580e27045cc9cbcaa641f38136e3618fe211d65fc6666f30", null ]
-    ] ],
     [ "EffectInstanceFlags", "enums_8h.html#a061b50bab68c0ca92ddc140845f7c6b4", [
       [ "FX_INSTANCE_FLAG_ENABLED", "enums_8h.html#a061b50bab68c0ca92ddc140845f7c6b4a029b52060abfd50e3dbc91f4c1366090", null ],
       [ "FX_INSTANCE_FLAG_BATTLE", "enums_8h.html#a061b50bab68c0ca92ddc140845f7c6b4a02374026db3c03e52dac7cf0ff579b47", null ],
       [ "FX_INSTANCE_FLAG_HAS_UPDATED", "enums_8h.html#a061b50bab68c0ca92ddc140845f7c6b4a173a9a5891aaa11da7980af670fed39a", null ],
       [ "FX_INSTANCE_FLAG_DISMISS", "enums_8h.html#a061b50bab68c0ca92ddc140845f7c6b4aff6d7d422690c3c24ba978256686e87e", null ]
+    ] ],
+    [ "EffectSharedDataFlags", "enums_8h.html#a996cb19f1de4c56a20f9b08d025d8a10", [
+      [ "FX_SHARED_DATA_LOADED", "enums_8h.html#a996cb19f1de4c56a20f9b08d025d8a10a2c558ee8266dee6cffc42bfbdc0abbe8", null ],
+      [ "FX_SHARED_DATA_CAN_FREE", "enums_8h.html#a996cb19f1de4c56a20f9b08d025d8a10ae79232d3851c3cdd88d0c76f7a792b84", null ]
     ] ],
     [ "Elements", "enums_8h.html#a3d71b92820bd3decb3c70113e0c8beba", [
       [ "ELEMENT_END", "enums_8h.html#a3d71b92820bd3decb3c70113e0c8bebaa6d43fe3234533e9641acc28c68afc4ee", null ],
@@ -4199,7 +4198,7 @@ var enums_8h =
       [ "SOUND_FIRE_BAR_8_A", "enums_8h.html#ac5d40ac44ef7d8c38c6c72a71348e360ada3fd4ad8a4c45e8c83ac5902741948b", null ],
       [ "SOUND_FIRE_BAR_9_A", "enums_8h.html#ac5d40ac44ef7d8c38c6c72a71348e360ab8671b5b8e47693d491bb5f8df7405e3", null ],
       [ "SOUND_FIRE_BAR_DEAD", "enums_8h.html#ac5d40ac44ef7d8c38c6c72a71348e360a6ffebabff9c38fd389a924d62dd7c42a", null ],
-      [ "SOUND_LRAW_CHARGE_BAR", "enums_8h.html#ac5d40ac44ef7d8c38c6c72a71348e360a2c0d43dab9d69b18f29d6c08461432ef", null ],
+      [ "SOUND_LRAW_CHARGE_METER", "enums_8h.html#ac5d40ac44ef7d8c38c6c72a71348e360a5d4805d3ce15e102427e673aa95c85ca", null ],
       [ "SOUND_POKEY_SWAY", "enums_8h.html#ac5d40ac44ef7d8c38c6c72a71348e360a89a862a385123d5c56f56977e35fb124", null ],
       [ "SOUND_POKEY_WALK", "enums_8h.html#ac5d40ac44ef7d8c38c6c72a71348e360a1c98232de6b4d40a9a7828031c0688ab", null ],
       [ "SOUND_POKEY_LEAN_FORWARD", "enums_8h.html#ac5d40ac44ef7d8c38c6c72a71348e360a331e7109b8c6fe4e8ba3a1b6380f93dc", null ],
@@ -4699,7 +4698,7 @@ var enums_8h =
       [ "SOUND_LOOP_TIK_UNUSED3_FLOW3", "enums_8h.html#ac5d40ac44ef7d8c38c6c72a71348e360a11cf15e83dcbcb99b5fe748b75ffaea6", null ],
       [ "SOUND_LOOP_TIK_UNUSED3_FLOW2", "enums_8h.html#ac5d40ac44ef7d8c38c6c72a71348e360a74c87ee5a9e60f447bf42145bdc042d0", null ],
       [ "SOUND_LOOP_SAM_STAIRS_RISE", "enums_8h.html#ac5d40ac44ef7d8c38c6c72a71348e360ae9bd669a9abdefd4fcccc1aeeaee0f0d", null ],
-      [ "SOUND_LOOP_CHARGE_BAR", "enums_8h.html#ac5d40ac44ef7d8c38c6c72a71348e360ad3872253c10268883d1b9221455ebe92", null ],
+      [ "SOUND_LOOP_CHARGE_METER", "enums_8h.html#ac5d40ac44ef7d8c38c6c72a71348e360a7cf8401c018ce00bd20fda3436202114", null ],
       [ "SOUND_LOOP_CRYSTAL_BALL_GLOW", "enums_8h.html#ac5d40ac44ef7d8c38c6c72a71348e360a79d5e2c5548a4c9f26a9fd05b2cc6f1a", null ],
       [ "SOUND_LOOP_TIK18_WATER", "enums_8h.html#ac5d40ac44ef7d8c38c6c72a71348e360ac2a026b12ce341b89f0f4db331fdbf6c", null ],
       [ "SOUND_LOOP_TIK19_WATER", "enums_8h.html#ac5d40ac44ef7d8c38c6c72a71348e360a07bb4a18f647236894b53d35d9cbc790", null ],

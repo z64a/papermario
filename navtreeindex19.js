@@ -1,8 +1,5 @@
 var NAVTREEINDEX19 =
 {
-"area__dgb_2dgb__03_2settings_8c.html":[2,0,1,10,2,3,6],
-"area__dgb_2dgb__04_2music_8c.html":[2,0,1,10,2,4,3],
-"area__dgb_2dgb__04_2settings_8c.html":[2,0,1,10,2,4,5],
 "area__dgb_2dgb__05_2hole_8c.html":[2,0,1,10,2,5,2],
 "area__dgb_2dgb__05_2music_8c.html":[2,0,1,10,2,5,4],
 "area__dgb_2dgb__05_2settings_8c.html":[2,0,1,10,2,5,6],
@@ -91,16 +88,16 @@ var NAVTREEINDEX19 =
 "area__flo_2flo__08_2music_8c.html":[2,0,1,10,5,4,4],
 "area__flo_2flo__08_2settings_8c.html":[2,0,1,10,5,4,6],
 "area__flo_2flo__08_2vines_8c.html":[2,0,1,10,5,4,7],
-"area__flo_2flo__08_2vines_8c.html#afa7779fe56b160955b535cd6a8aaf8f4":[2,0,1,10,5,4,7,1],
 "area__flo_2flo__08_2vines_8c.html#afa7779fe56b160955b535cd6a8aaf8f4":[2,0,1,10,5,4,7,0],
+"area__flo_2flo__08_2vines_8c.html#afa7779fe56b160955b535cd6a8aaf8f4":[2,0,1,10,5,4,7,1],
 "area__flo_2flo__09_2flo__09_8h.html":[2,0,1,10,5,5,0],
 "area__flo_2flo__09_2flo__09_8h.html#afa7779fe56b160955b535cd6a8aaf8f4":[2,0,1,10,5,5,0,0],
 "area__flo_2flo__09_2foliage_8c.html":[2,0,1,10,5,5,1],
 "area__flo_2flo__09_2music_8c.html":[2,0,1,10,5,5,3],
 "area__flo_2flo__09_2settings_8c.html":[2,0,1,10,5,5,5],
 "area__flo_2flo__09_2vines_8c.html":[2,0,1,10,5,5,6],
-"area__flo_2flo__09_2vines_8c.html#afa7779fe56b160955b535cd6a8aaf8f4":[2,0,1,10,5,5,6,1],
 "area__flo_2flo__09_2vines_8c.html#afa7779fe56b160955b535cd6a8aaf8f4":[2,0,1,10,5,5,6,0],
+"area__flo_2flo__09_2vines_8c.html#afa7779fe56b160955b535cd6a8aaf8f4":[2,0,1,10,5,5,6,1],
 "area__flo_2flo__10_2flo__10_8h.html":[2,0,1,10,5,6,1],
 "area__flo_2flo__10_2flo__10_8h.html#afa7779fe56b160955b535cd6a8aaf8f4":[2,0,1,10,5,6,1,0],
 "area__flo_2flo__10_2foliage_8c.html":[2,0,1,10,5,6,2],
@@ -249,5 +246,8 @@ var NAVTREEINDEX19 =
 "area__hos_2hos__05_2intro_8c.html#structStoryGraphicData":[2,0,1,10,7,6,1,0],
 "area__hos_2hos__05_2misc_8c.html":[2,0,1,10,7,6,3],
 "area__hos_2hos__05_2music_8c.html":[2,0,1,10,7,6,5],
-"area__hos_2hos__05_2settings_8c.html":[2,0,1,10,7,6,8]
+"area__hos_2hos__05_2settings_8c.html":[2,0,1,10,7,6,8],
+"area__hos_2hos__06_2chest_8c.html":[2,0,1,10,7,7,0],
+"area__hos_2hos__06_2chest_8c.html#a02c6d39594a3aa893a4c7c5729890618":[2,0,1,10,7,7,0,0],
+"area__hos_2hos__06_2chest_8c.html#a02c6d39594a3aa893a4c7c5729890618":[2,0,1,10,7,7,0,1]
 };

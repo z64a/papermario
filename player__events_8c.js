@@ -42,7 +42,7 @@ var player__events_8c =
     [ "EVS_UseLifeShroom", "player__events_8c.html#ad90031ca74c666006ac446e4b2fa733d", null ],
     [ "HES_Happy", "player__events_8c.html#a25ca9c7a702448e43201dce0d97765b2", null ],
     [ "HES_HPDrain", "player__events_8c.html#aa14d01a84bf6dcccc01c854e65762844", null ],
-    [ "HID_Happy", "player__events_8c.html#aca291c180e0ee8406afc1b84f72b0bf4", null ],
-    [ "HID_HPDrain", "player__events_8c.html#ae5c742d468bfa0a0038a7a4f08916a20", null ],
-    [ "HID_Refund", "player__events_8c.html#acd0eea26a80ea1f93f211b9548422551", null ]
+    [ "HID_Happy", "player__events_8c.html#adca81a1bc72afd8d8d7eadfa97873df7", null ],
+    [ "HID_HPDrain", "player__events_8c.html#a26cb37fe27a3b85c5a48c7979701623c", null ],
+    [ "HID_Refund", "player__events_8c.html#ad076c4c0db575bc459d42d3f4a607a4d", null ]
 ];

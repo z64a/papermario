@@ -1,8 +1,8 @@
 var searchData=
 [
   ['easingtype_0',['EasingType',['../enums_8h.html#a9ea5b34ee227ae0a47dfc39140a8fc89',1,'enums.h']]],
-  ['effectgfxdataflags_1',['EffectGfxDataFlags',['../enums_8h.html#a2822ea2391e1527ec580e27045cc9cbc',1,'enums.h']]],
-  ['effectinstanceflags_2',['EffectInstanceFlags',['../enums_8h.html#a061b50bab68c0ca92ddc140845f7c6b4',1,'enums.h']]],
+  ['effectinstanceflags_1',['EffectInstanceFlags',['../enums_8h.html#a061b50bab68c0ca92ddc140845f7c6b4',1,'enums.h']]],
+  ['effectshareddataflags_2',['EffectSharedDataFlags',['../enums_8h.html#a996cb19f1de4c56a20f9b08d025d8a10',1,'enums.h']]],
   ['elements_3',['Elements',['../enums_8h.html#a3d71b92820bd3decb3c70113e0c8beba',1,'enums.h']]],
   ['emoters_4',['Emoters',['../enums_8h.html#ab574d1bf7337f9fd6048e1765eac65c7',1,'enums.h']]],
   ['emotes_5',['Emotes',['../enums_8h.html#a2d0a63150f7988db8ff39124dc1cb21a',1,'enums.h']]],

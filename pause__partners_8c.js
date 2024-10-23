@@ -24,7 +24,7 @@ var pause__partners_8c =
     [ "gPausePartnersCurrentPortraitIndex", "pause__partners_8c.html#a14dd07be7c484f81abfa882df4ffead4", null ],
     [ "gPausePartnersDL", "pause__partners_8c.html#a266de860873ae9bc57750d7fc992c4e9", null ],
     [ "gPausePartnersGridData", "pause__partners_8c.html#a62de04258ba171332829b4e1267f46b8", null ],
-    [ "gPausePartnersIconScripts", "pause__partners_8c.html#a513d6e1662347668c063b0cd515875af", null ],
+    [ "gPausePartnersHudScripts", "pause__partners_8c.html#a0c1678fb7375303182035ad65a93cda6", null ],
     [ "gPausePartnersImageBuffers", "pause__partners_8c.html#a4bd752375a9b46f51910fe5b3014913f", null ],
     [ "gPausePartnersMessages", "pause__partners_8c.html#afca9817afa760fd70b17aa5a1f5c1440", null ],
     [ "gPausePartnersMoveBase", "pause__partners_8c.html#a8e479a320f8d804277678ad28005c83a", null ],

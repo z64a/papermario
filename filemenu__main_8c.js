@@ -32,7 +32,7 @@ var filemenu__main_8c =
     [ "filemenu_main_update", "filemenu__main_8c.html#adaaefa2a1d91e59c0c4985070f23022e", null ],
     [ "filemenu_filename", "filemenu__main_8c.html#ab0d38b62312a9f2c8412d2282a83918b", null ],
     [ "filemenu_main_gridData", "filemenu__main_8c.html#ae16ee790953b81b80876868cbf918545", null ],
-    [ "filemenu_main_hudElemScripts", "filemenu__main_8c.html#af527bfbd3fa24fe82d2f73f1833c9755", null ],
+    [ "filemenu_main_hudScripts", "filemenu__main_8c.html#a84311c149e928d55a9404a2917e11ec6", null ],
     [ "filemenu_main_menuBP", "filemenu__main_8c.html#a6a9f1f42b766dd52ae5ca48516d1daf4", null ],
     [ "filemenu_main_windowBPs", "filemenu__main_8c.html#abe0d744bad01eae64782673a0cbbc6ab", null ],
     [ "HES_JpFile", "filemenu__main_8c.html#a4ee2a81a06c6d302477bf2fb12afbf68", null ],

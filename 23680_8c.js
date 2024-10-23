@@ -5,7 +5,7 @@ var 23680_8c =
     [ "ai_try_set_state", "23680_8c.html#a66e4b6656ebc3f1ce695e67db3ca0b24", null ],
     [ "basic_ai_chase", "23680_8c.html#a81c1251575bb5b3007ee77463f6847f8", null ],
     [ "basic_ai_chase_init", "23680_8c.html#a1b956d4760c35492af7d949ac1241dac", null ],
-    [ "basic_ai_check_player_dist", "23680_8c.html#a5510573c1a354a4a34baf184e5a458fe", null ],
+    [ "basic_ai_check_player_dist", "23680_8c.html#a594be52fe7c16d7fe5893ccaebf8383e", null ],
     [ "basic_ai_found_player_jump", "23680_8c.html#ad8dc8bafe4b66906f97255c8d13b1c73", null ],
     [ "basic_ai_found_player_jump_init", "23680_8c.html#a8e5e0eda4f45467357ffa047603e3b97", null ],
     [ "basic_ai_loiter", "23680_8c.html#a817ff7e120580b939cf08cb41759988e", null ],

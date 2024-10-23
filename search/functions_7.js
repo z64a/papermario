@@ -76,7 +76,7 @@ var searchData=
   ['get_5fnpc_5fanim_5ffor_5fstatus_73',['get_npc_anim_for_status',['../190B20_8c.html#ad346b2cc9715d108182cd0e852a68604',1,'get_npc_anim_for_status(AnimID *, s32):&#160;190B20.c'],['../actor__rendering_8c.html#a2e82e02179b14e8d5eacc420ed9295b1',1,'get_npc_anim_for_status(u32 *, s32):&#160;190B20.c']]],
   ['get_5fnpc_5fby_5findex_74',['get_npc_by_index',['../npc_8h.html#aaf32dba75db05ace33202e1794ea9060',1,'get_npc_by_index(s32 listIndex):&#160;npc.c'],['../npc_8c.html#aaf32dba75db05ace33202e1794ea9060',1,'get_npc_by_index(s32 listIndex):&#160;npc.c']]],
   ['get_5fnpc_5fcomp_5fimgfx_5fidx_75',['get_npc_comp_imgfx_idx',['../sprite_8c.html#afb89e6d356263728866184f0841241a5',1,'get_npc_comp_imgfx_idx(s32 spriteIdx, s32 compIdx):&#160;sprite.c'],['../sprite_8h.html#a6df01a58c1be1fdcb666e89fd8dc4d7f',1,'get_npc_comp_imgfx_idx(s32, s32):&#160;sprite.c']]],
-  ['get_5fnpc_5fpos_76',['get_npc_pos',['../39210__len__aa0_8c.html#a17d6a1d7f06d59c5e1d01bc92fed1ec3',1,'39210_len_aa0.c']]],
+  ['get_5fnpc_5fpos_76',['get_npc_pos',['../npc__follow_8c.html#a17d6a1d7f06d59c5e1d01bc92fed1ec3',1,'npc_follow.c']]],
   ['get_5fnpc_5fsafe_77',['get_npc_safe',['../npc_8h.html#afcfb741aeeb7806b9b9eca29bc4f84bb',1,'get_npc_safe(s32 npcID):&#160;npc.c'],['../npc_8c.html#afcfb741aeeb7806b9b9eca29bc4f84bb',1,'get_npc_safe(s32 npcID):&#160;npc.c']]],
   ['get_5fnpc_5funsafe_78',['get_npc_unsafe',['../npc_8h.html#a7cc4a0736fac77c123d4fa2ec932e0b8',1,'get_npc_unsafe(s32 npcID):&#160;npc.c'],['../npc_8c.html#a7cc4a0736fac77c123d4fa2ec932e0b8',1,'get_npc_unsafe(s32 npcID):&#160;npc.c']]],
   ['get_5foverriding_5fplayer_5fanim_79',['get_overriding_player_anim',['../77480_8c.html#a6c0f67edd7ec7aa0c0a7158d289af1cc',1,'77480.c']]],

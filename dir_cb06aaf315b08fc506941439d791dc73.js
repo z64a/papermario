@@ -14,7 +14,6 @@ var dir_cb06aaf315b08fc506941439d791dc73 =
     [ "GetPeachDisguise.inc.c", "GetPeachDisguise_8inc_8c.html", null ],
     [ "GetPlayerCoins.inc.c", "GetPlayerCoins_8inc_8c.html", null ],
     [ "HeartPlant_SpawnHeart.inc.c", "HeartPlant__SpawnHeart_8inc_8c.html", null ],
-    [ "IsBerserkerEquipped.inc.c", "IsBerserkerEquipped_8inc_8c.html", null ],
     [ "IsHammerMaxCharged.inc.c", "IsHammerMaxCharged_8inc_8c.html", null ],
     [ "IsItemBadge.inc.c", "IsItemBadge_8inc_8c.html", null ],
     [ "IsJumpMaxCharged.inc.c", "IsJumpMaxCharged_8inc_8c.html", null ],

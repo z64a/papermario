@@ -16,7 +16,7 @@ var pause__items_8c =
     [ "pause_items_scroll_offset_x", "pause__items_8c.html#a128ed8273c3cee190e25af5e7af0982a", null ],
     [ "pause_items_scroll_offset_y", "pause__items_8c.html#a44f971c5dac2e53a7d8109bdd5ef2e95", null ],
     [ "pause_items_update", "pause__items_8c.html#aecfb5337a828db950c91fc290d729dc4", null ],
-    [ "gPauseItemsElements", "pause__items_8c.html#a4973b9a012da78889c3439ae91b65922", null ],
+    [ "gPauseItemsHudScripts", "pause__items_8c.html#acacb0828c3d283db00d6f6306c25b0b5", null ],
     [ "gPauseItemsWindowBPs", "pause__items_8c.html#a9bef0854b831645320156f42a1d78ee9", null ],
     [ "gPausePanelItems", "pause__items_8c.html#a991d1727aac2308e45cb70d8517a1bca", null ]
 ];

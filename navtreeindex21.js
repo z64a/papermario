@@ -1,8 +1,5 @@
 var NAVTREEINDEX21 =
 {
-"area__kkj_2kkj__28_2settings_8c.html":[2,0,1,10,12,23,2],
-"area__kkj_2kkj__29_2settings_8c.html":[2,0,1,10,12,24,4],
-"area__kmr_2kmr__00_2music_8c.html":[2,0,1,10,13,0,3],
 "area__kmr_2kmr__00_2settings_8c.html":[2,0,1,10,13,0,6],
 "area__kmr_2kmr__02_2foliage_8c.html":[2,0,1,10,13,1,1],
 "area__kmr_2kmr__02_2images_8c.html":[2,0,1,10,13,1,2],
@@ -40,16 +37,16 @@ var NAVTREEINDEX21 =
 "area__kmr_2kmr__12_2music_8c.html":[2,0,1,10,13,10,3],
 "area__kmr_2kmr__12_2settings_8c.html":[2,0,1,10,13,10,5],
 "area__kmr_2kmr__20_2bushes_8c.html":[2,0,1,10,13,11,1],
-"area__kmr_2kmr__20_2bushes_8c.html#a02c6d39594a3aa893a4c7c5729890618":[2,0,1,10,13,11,1,0],
 "area__kmr_2kmr__20_2bushes_8c.html#a02c6d39594a3aa893a4c7c5729890618":[2,0,1,10,13,11,1,1],
+"area__kmr_2kmr__20_2bushes_8c.html#a02c6d39594a3aa893a4c7c5729890618":[2,0,1,10,13,11,1,0],
 "area__kmr_2kmr__20_2music_8c.html":[2,0,1,10,13,11,6],
 "area__kmr_2kmr__20_2npc__epilogue_8c.html":[2,0,1,10,13,11,8],
 "area__kmr_2kmr__20_2npc__epilogue_8c.html#a02c6d39594a3aa893a4c7c5729890618":[2,0,1,10,13,11,8,1],
 "area__kmr_2kmr__20_2npc__epilogue_8c.html#a02c6d39594a3aa893a4c7c5729890618":[2,0,1,10,13,11,8,0],
 "area__kmr_2kmr__20_2npc__epilogue_8c.html#aa62ef05120a214db9521ceb7d069b9d5":[2,0,1,10,13,11,8,2],
 "area__kmr_2kmr__20_2npc__intro_8c.html":[2,0,1,10,13,11,9],
-"area__kmr_2kmr__20_2npc__intro_8c.html#a02c6d39594a3aa893a4c7c5729890618":[2,0,1,10,13,11,9,0],
 "area__kmr_2kmr__20_2npc__intro_8c.html#a02c6d39594a3aa893a4c7c5729890618":[2,0,1,10,13,11,9,1],
+"area__kmr_2kmr__20_2npc__intro_8c.html#a02c6d39594a3aa893a4c7c5729890618":[2,0,1,10,13,11,9,0],
 "area__kmr_2kmr__20_2rooms_8c.html":[2,0,1,10,13,11,12],
 "area__kmr_2kmr__20_2settings_8c.html":[2,0,1,10,13,11,13],
 "area__kmr_2kmr__20_2trees_8c.html":[2,0,1,10,13,11,14],
@@ -249,5 +246,8 @@ var NAVTREEINDEX21 =
 "area__mac_2mac__00_2music_8c.html":[2,0,1,10,16,0,9],
 "area__mac_2mac__00_2rooms_8c.html":[2,0,1,10,16,0,12],
 "area__mac_2mac__00_2settings_8c.html":[2,0,1,10,16,0,13],
-"area__mac_2mac__00_2shop_8c.html":[2,0,1,10,16,0,15]
+"area__mac_2mac__00_2shop_8c.html":[2,0,1,10,16,0,15],
+"area__mac_2mac__01_2foliage_8c.html":[2,0,1,10,16,1,5],
+"area__mac_2mac__01_2intro_8c.html":[2,0,1,10,16,1,6],
+"area__mac_2mac__01_2music_8c.html":[2,0,1,10,16,1,10]
 };

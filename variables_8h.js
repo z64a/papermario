@@ -9,7 +9,7 @@ var variables_8h =
     [ "D_800F7B74", "variables_8h.html#a5266088540301f2d1a8c07d1681d3d47", null ],
     [ "D_8010C92C", "variables_8h.html#ad2c23dc90199a37bf2136fa815ead68a", null ],
     [ "D_8010C950", "variables_8h.html#a8dc835cae8aaebd8230b4ef4d97afc22", null ],
-    [ "D_8014C248", "variables_8h.html#ae3c8f8bc16495c3726ec6ab24a008834", null ],
+    [ "D_8014C248", "variables_8h.html#a7cec0e65db88941737606b3ad4ce3637", null ],
     [ "D_80164000", "variables_8h.html#a6f87595876932fabe49ecf253b9f9634", null ],
     [ "EncounterStateChanged", "variables_8h.html#abc14a7de4ec36c08ba7fa1342bd12634", null ],
     [ "EVS_NpcDefeat", "variables_8h.html#a8b28d53c0021a24a583d7f2137f438e8", null ],

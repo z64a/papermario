@@ -107,7 +107,7 @@ var dir_12237804e0332a512b0526d80cf6826f =
     [ "thunderbolt_ring.c", "gfx_2thunderbolt__ring_8c.html", null ],
     [ "tubba_heart_attack.c", "gfx_2tubba__heart__attack_8c.html", "gfx_2tubba__heart__attack_8c" ],
     [ "underwater.c", "gfx_2underwater_8c.html", "gfx_2underwater_8c" ],
-    [ "water_block.c", "effects_2gfx_2water__block_8c.html", "effects_2gfx_2water__block_8c" ],
+    [ "water_block.c", "gfx_2water__block_8c.html", "gfx_2water__block_8c" ],
     [ "water_fountain.c", "gfx_2water__fountain_8c.html", "gfx_2water__fountain_8c" ],
     [ "water_splash.c", "gfx_2water__splash_8c.html", "gfx_2water__splash_8c" ],
     [ "waterfall.c", "gfx_2waterfall_8c.html", "gfx_2waterfall_8c" ],
