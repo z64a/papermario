@@ -46,7 +46,7 @@ var model_8c =
     [ "init_model_data", "model_8c.html#a27e90682629776e072a5c5780b04a5a0", null ],
     [ "is_identity_fixed_mtx", "model_8c.html#a9e79d38a64ed6ef91b1822c671af5c97", null ],
     [ "is_model_center_visible", "model_8c.html#a1343342597992ce913bf65314a172614", null ],
-    [ "is_point_visible", "model_8c.html#a8545b2cc939d78f6643b603d8b2d9f83", null ],
+    [ "is_point_visible", "model_8c.html#a6c1fcff2606c0a57b458adc39afc5666", null ],
     [ "is_world_fog_enabled", "model_8c.html#a6074e5529e1ae72ce27a53ecf49bcd88", null ],
     [ "iterate_models", "model_8c.html#a1852f263a728c2f2e87b8cf353b6f891", null ],
     [ "load_data_for_models", "model_8c.html#a5c6376e8ed9ae804f773a2513973dd21", null ],
