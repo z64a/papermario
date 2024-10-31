@@ -1,5 +1,10 @@
 var NAVTREEINDEX351 =
 {
+"src_2battle_2battle_8h.html#a17899fbf41d21d35dde98896cc4af72e":[2,0,1,1,16,1,3],
+"src_2battle_2battle_8h.html#a231dcb29a14013f3b365e42012fcd935":[2,0,1,1,16,11,2],
+"src_2battle_2battle_8h.html#a241bcf97024a76fc3965793512d9164c":[2,0,1,1,16,1,15],
+"src_2battle_2battle_8h.html#a2a7a005cc53b197cb822785f4ebaac5f":[2,0,1,1,16,38],
+"src_2battle_2battle_8h.html#a2fa3c253a1d469f86e55ae518e5e377f":[2,0,1,1,16,39],
 "src_2battle_2battle_8h.html#a34ae7c05edaa352b7705164e4a2445b7":[2,0,1,1,16,0,1],
 "src_2battle_2battle_8h.html#a3c7b59b85e0a66c437222042fdd691d2":[2,0,1,1,16,35],
 "src_2battle_2battle_8h.html#a3f1b230ab3f4b0d852f6d40f6107539f":[2,0,1,1,16,15],
@@ -7,6 +12,7 @@ var NAVTREEINDEX351 =
 "src_2battle_2battle_8h.html#a47e388da58a890b2e58b9a8d41952b68":[2,0,1,1,16,1,17],
 "src_2battle_2battle_8h.html#a4aab7290eac64ab2782124e648c32585":[2,0,1,1,16,4,1],
 "src_2battle_2battle_8h.html#a4ce06b5c1e4ac1c47837448a9d52c777":[2,0,1,1,16,0,0],
+"src_2battle_2battle_8h.html#a4e06d8c5205df98556703ef006853faa":[2,0,1,1,16,2,1],
 "src_2battle_2battle_8h.html#a4e6a7bf6dc26e1181ad91e0c4e18e428":[2,0,1,1,16,9,3],
 "src_2battle_2battle_8h.html#a51175b6887f9bd6b77449e251c3e9c77":[2,0,1,1,16,5,4],
 "src_2battle_2battle_8h.html#a52222ded343c0ef9a2cd3f439ab70941":[2,0,1,1,16,10,1],
@@ -151,7 +157,6 @@ var NAVTREEINDEX351 =
 "src_2battle_2battle_8h.html#acad4f467d71830c28184d24c172a0865":[2,0,1,1,16,11,0],
 "src_2battle_2battle_8h.html#ad018abfca726080fa9846defd8e33870":[2,0,1,1,16,18],
 "src_2battle_2battle_8h.html#ad12bdac96233a152f6fc55c46549f1cf":[2,0,1,1,16,14],
-"src_2battle_2battle_8h.html#ad3e0aa8ba1882f1fb1a1e70a34322921":[2,0,1,1,16,2,1],
 "src_2battle_2battle_8h.html#ad4411a428ac1a81eeab685002611d628":[2,0,1,1,16,1,11],
 "src_2battle_2battle_8h.html#ad55c8728f938b5b8587d7b5426c23e7f":[2,0,1,1,16,1,20],
 "src_2battle_2battle_8h.html#ad86a0c82f55b6ee86ead8bbfc459c360":[2,0,1,1,16,2,5],
@@ -244,10 +249,5 @@ var NAVTREEINDEX351 =
 "stage_2pra__03c_8c.html":[2,0,1,1,1,34,1,4],
 "stage_2pra__04_8c.html":[2,0,1,1,1,34,1,5],
 "stage_2sam__02_8c.html":[2,0,1,1,1,37,1,1],
-"stage_2sam__02b_8c.html":[2,0,1,1,1,37,1,2],
-"stage_2sam__02c_8c.html":[2,0,1,1,1,37,1,3],
-"stage_2sam__02d_8c.html":[2,0,1,1,1,37,1,4],
-"stage_2sam__03_8c.html":[2,0,1,1,1,37,1,5],
-"stage_2tik__01_8c.html":[2,0,1,1,1,40,1,0],
-"stage_2tik__02_8c.html":[2,0,1,1,1,40,1,1]
+"stage_2sam__02b_8c.html":[2,0,1,1,1,37,1,2]
 };

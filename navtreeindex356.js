@@ -1,5 +1,10 @@
 var NAVTREEINDEX356 =
 {
+"structBattleStatus.html#a3a6dcf20a6895768c8609c33e0ad37c6":[1,0,71,126],
+"structBattleStatus.html#a3b0c093638103f7ba0dca08bd6b5d5f3":[1,0,71,79],
+"structBattleStatus.html#a3bf6713bc6af20b66165bb496570e102":[1,0,71,69],
+"structBattleStatus.html#a3cb41bc19c1165a1b372127900d86bde":[1,0,71,101],
+"structBattleStatus.html#a3ecfa4f3dd4eea48f359a936f12564af":[1,0,71,98],
 "structBattleStatus.html#a3f35e56b036c2a816d726b8ac94765bb":[1,0,71,16],
 "structBattleStatus.html#a42b6ecd075000c1088a2b35107ac2429":[1,0,71,55],
 "structBattleStatus.html#a43dc776aad452d4d5f182d9db745a2bb":[1,0,71,84],
@@ -244,10 +249,5 @@ var NAVTREEINDEX356 =
 "structEntityBlueprint.html#a53cb615d0f18e50a475205ef72bef4b5":[1,0,198,2],
 "structEntityBlueprint.html#a65e54feb6dba4c9a2805502b004e0774":[1,0,198,3],
 "structEntityBlueprint.html#ab359da62e3af510d84a4692b073bd382":[1,0,198,8],
-"structEntityBlueprint.html#ac5c64e833fbfb69710805cf014afff54":[1,0,198,5],
-"structEntityBlueprint.html#adaa32fadcc887d18ec9acce8bcdf8162":[1,0,198,7],
-"structEntityBlueprint.html#adb31ce7def7e6d4e94c31b85d61e7653":[1,0,198,4],
-"structEntityBlueprint.html#ae0c54e32420b6447c21db3d39ed2c4f3":[1,0,198,6],
-"structEntityModel.html":[1,0,201],
-"structEntityModel.html#a009140aea2c59f4390b80e6020e9a3d9":[1,0,201,2]
+"structEntityBlueprint.html#ac5c64e833fbfb69710805cf014afff54":[1,0,198,5]
 };

@@ -18,7 +18,7 @@ var searchData=
   ['endchapter_15',['EndChapter',['../world_2area__kmr_2kmr__23_2npc_8c.html#structEndChapter',1,'']]],
   ['endingdecalsfxdata_16',['EndingDecalsFXData',['../effects_8h.html#structEndingDecalsFXData',1,'']]],
   ['enemy_17',['Enemy',['../npc_8h.html#structEnemy',1,'']]],
-  ['enemy_2e_5f_5funnamed51_5f_5f_18',['Enemy.__unnamed51__',['../npc_8h.html#unionEnemy_8____unnamed51____',1,'']]],
+  ['enemy_2e_5f_5funnamed53_5f_5f_18',['Enemy.__unnamed53__',['../npc_8h.html#unionEnemy_8____unnamed53____',1,'']]],
   ['enemydetectvolume_19',['EnemyDetectVolume',['../npc_8h.html#structEnemyDetectVolume',1,'']]],
   ['enemydrops_20',['EnemyDrops',['../npc_8h.html#structEnemyDrops',1,'']]],
   ['enemydropsflat_21',['EnemyDropsFlat',['../npc_8h.html#structEnemyDropsFlat',1,'']]],

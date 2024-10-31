@@ -1,5 +1,10 @@
 var NAVTREEINDEX309 =
 {
+"quizmo__answer_8c.html#acac82989324e9743af5527869f4eb18a":[2,0,1,5,73,0],
+"quizmo__answer_8c.html#ad2693e341f18af2723484d6b63966782":[2,0,1,5,73,1],
+"quizmo__assistant_8c.html":[2,0,1,5,74],
+"quizmo__assistant_8c.html#a15f29bf430d257c9fbe9bfcc53f89cd0":[2,0,1,5,74,2],
+"quizmo__assistant_8c.html#a3f0187a392f0ba48e884743e33aca926":[2,0,1,5,74,7],
 "quizmo__assistant_8c.html#a4867bfac0ec1a67546c5956b2c5f86f1":[2,0,1,5,74,5],
 "quizmo__assistant_8c.html#a61a5f589d614f5bd6368309be07fbddc":[2,0,1,5,74,12],
 "quizmo__assistant_8c.html#a7508df85d4791dc8b84f0e5df5894fd6":[2,0,1,5,74,0],
@@ -244,10 +249,5 @@ var NAVTREEINDEX309 =
 "rising__bubble_8c.html#a1eb44d41cc5b634864c7fc79f183f12a":[2,0,1,5,82,8],
 "rising__bubble_8c.html#a26bfcf0fae9329dcfc585e1b6f48c504":[2,0,1,5,82,10],
 "rising__bubble_8c.html#a369ee68537425572a309fbe1f8192481":[2,0,1,5,82,11],
-"rising__bubble_8c.html#a455a58a3e991e49118f641a5cfe4f374":[2,0,1,5,82,6],
-"rising__bubble_8c.html#a53f0c4b14aa8b11c0b9157e9871b9337":[2,0,1,5,82,2],
-"rising__bubble_8c.html#a5fc7608a3e1dc468b69e49418d4e45e4":[2,0,1,5,82,1],
-"rising__bubble_8c.html#a615d4e40c4fc14a826352a87bc829538":[2,0,1,5,82,13],
-"rising__bubble_8c.html#a6de5f1206c6d48fe6a03435cfc61b822":[2,0,1,5,82,7],
-"rising__bubble_8c.html#a95be0ea7a6a9c3aa876920d404ba5032":[2,0,1,5,82,14]
+"rising__bubble_8c.html#a455a58a3e991e49118f641a5cfe4f374":[2,0,1,5,82,6]
 };

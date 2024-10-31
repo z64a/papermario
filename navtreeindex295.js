@@ -1,5 +1,10 @@
 var NAVTREEINDEX295 =
 {
+"pink__shy__guy_8inc_8c.html#ab21c8efb98a566be460024287a4d2c8e":[2,0,1,1,2,0,48,8],
+"pink__shy__guy_8inc_8c.html#acf843e1e34128c5abb7d5b3206e575c6":[2,0,1,1,2,0,48,21],
+"pink__shy__guy_8inc_8c.html#ad90a38dbfcd001abd87ed3123c79283c":[2,0,1,1,2,0,48,12],
+"pink__shy__guy_8inc_8c.html#aefcb790c8fe41046fb6ad2c93e9b4f07":[2,0,1,1,2,0,48,9],
+"pink__shy__guy_8inc_8c.html#af184a4170328dfb044ac567da41c49d8":[2,0,1,1,2,0,48,4],
 "pink__shy__guy_8inc_8c.html#af22064e0008b0c8a906acb9fdc8bb6b1":[2,0,1,1,2,0,48,3],
 "pink__shy__guy_8inc_8c.html#af26d719bce0752f76fe80c4a32c6b918":[2,0,1,1,2,0,48,6],
 "pink__shy__guy_8inc_8c.html#af89e386ce61edc488d0aa3323ebee4b3":[2,0,1,1,2,0,48,18],
@@ -244,10 +249,5 @@ var NAVTREEINDEX295 =
 "pra2_2area_8h.html":[2,0,1,1,1,35,3],
 "pra2_2area_8h.html#a3e54e4b23953aa0d01f7117cb5515282":[2,0,1,1,1,35,3,0],
 "pra3_2actor_2duplighost_8c.html":[2,0,1,1,1,36,0,0],
-"pra3_2actor_2gray__magikoopa_8c.html":[2,0,1,1,1,36,0,1],
-"pra3_2actor_2red__magikoopa_8c.html":[2,0,1,1,1,36,0,2],
-"pra3_2actor_2swoopula_8c.html":[2,0,1,1,1,36,0,3],
-"pra3_2actor_2white__clubba_8c.html":[2,0,1,1,1,36,0,4],
-"pra3_2area_8c.html":[2,0,1,1,1,36,2],
-"pra3_2area_8c.html#a0ec3238fb33baf90ce420e3e9cbcb13a":[2,0,1,1,1,36,2,18]
+"pra3_2actor_2gray__magikoopa_8c.html":[2,0,1,1,1,36,0,1]
 };

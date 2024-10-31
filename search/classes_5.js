@@ -1,7 +1,7 @@
 var searchData=
 [
   ['fade_0',['Fade',['../audio_8h.html#structFade',1,'']]],
-  ['fade_2e_5f_5funnamed83_5f_5f_1',['Fade.__unnamed83__',['../audio_8h.html#unionFade_8____unnamed83____',1,'']]],
+  ['fade_2e_5f_5funnamed85_5f_5f_1',['Fade.__unnamed85__',['../audio_8h.html#unionFade_8____unnamed85____',1,'']]],
   ['fallingleavesfxdata_2',['FallingLeavesFXData',['../effects_8h.html#structFallingLeavesFXData',1,'']]],
   ['fallingsprite_3',['FallingSprite',['../falling_8c.html#structFallingSprite',1,'']]],
   ['fieldstatus_4',['FieldStatus',['../npc_8h.html#structFieldStatus',1,'']]],

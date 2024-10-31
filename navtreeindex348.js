@@ -1,5 +1,10 @@
 var NAVTREEINDEX348 =
 {
+"sfx__player_8c.html#ac8afe156ed2a4abce1d50b697a5d9288a1f9505b04ec775c3d94ec8674cf5ce74":[2,0,1,0,15,2,1],
+"sfx__player_8c.html#ac8afe156ed2a4abce1d50b697a5d9288a26462867f7919207cd505562c6a141b1":[2,0,1,0,15,2,7],
+"sfx__player_8c.html#ac8afe156ed2a4abce1d50b697a5d9288a345b0fea51166294f4acb340431cdb09":[2,0,1,0,15,2,3],
+"sfx__player_8c.html#ac8afe156ed2a4abce1d50b697a5d9288a4f59eac7a98823ef91551e8deea4c57d":[2,0,1,0,15,2,6],
+"sfx__player_8c.html#ac8afe156ed2a4abce1d50b697a5d9288a7e61617eb039fd42fae368ac921bb2e8":[2,0,1,0,15,2,5],
 "sfx__player_8c.html#ac8afe156ed2a4abce1d50b697a5d9288a8441cbbf50ea9f2be96d33be11973fbb":[2,0,1,0,15,2,0],
 "sfx__player_8c.html#ac8afe156ed2a4abce1d50b697a5d9288ab880ecab0407740fa0323e4bf751497c":[2,0,1,0,15,2,2],
 "sfx__player_8c.html#ac8afe156ed2a4abce1d50b697a5d9288ac3a2a7035b08bebc603abb2ca667634d":[2,0,1,0,15,2,4],
@@ -30,8 +35,8 @@ var NAVTREEINDEX348 =
 "shape__spell_8c.html#ade1a447376005403d5329e47ec6051cc":[2,0,1,5,83,12],
 "shape__spell_8c.html#aedfbd0d1ef8ed38cd4c3ae51f68cb36a":[2,0,1,5,83,15],
 "shared__npc_8c.html":[2,0,1,10,16,0,14],
-"shared__npc_8c.html#a02c6d39594a3aa893a4c7c5729890618":[2,0,1,10,16,0,14,1],
 "shared__npc_8c.html#a02c6d39594a3aa893a4c7c5729890618":[2,0,1,10,16,0,14,0],
+"shared__npc_8c.html#a02c6d39594a3aa893a4c7c5729890618":[2,0,1,10,16,0,14,1],
 "shattering__stones_8c.html":[2,0,1,5,84],
 "shattering__stones_8c.html#a09c9066e5050a905eb7fbbb1498cbb91":[2,0,1,5,84,10],
 "shattering__stones_8c.html#a12013e93a87d1c24f75814cafda0caf3":[2,0,1,5,84,11],
@@ -244,10 +249,5 @@ var NAVTREEINDEX348 =
 "slot__machine_8inc_8c.html#a582c3b3b4411bc3dd9b3d1f81e22ccde":[2,0,1,1,2,0,59,9],
 "slot__machine_8inc_8c.html#a7f33191fe1b6d82c18548a2085acb505":[2,0,1,1,2,0,59,4],
 "slot__machine_8inc_8c.html#a8c74e2cdf6820b0332e1510137d1ac4a":[2,0,1,1,2,0,59,2],
-"slot__machine_8inc_8c.html#aac4636050aba926042e17d0ec0b9a506":[2,0,1,1,2,0,59,12],
-"slot__machine_8inc_8c.html#abbf244124cb34e5a01dbf8bff1c5e0b6":[2,0,1,1,2,0,59,3],
-"slot__machine_8inc_8c.html#acf18657ec3a50513d63ef99229c195c8":[2,0,1,1,2,0,59,6],
-"slot__machine_8inc_8c.html#ad422915ee12a608805cb1b78b45ce937":[2,0,1,1,2,0,59,5],
-"slot__machine_8inc_8c.html#adb3efd2506ae1e98b337519092a22757":[2,0,1,1,2,0,59,8],
-"slot__machine_8inc_8c.html#ae6e08584996ef9c0225119035ddd672e":[2,0,1,1,2,0,59,10]
+"slot__machine_8inc_8c.html#aac4636050aba926042e17d0ec0b9a506":[2,0,1,1,2,0,59,12]
 };

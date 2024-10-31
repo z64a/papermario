@@ -1,5 +1,7 @@
 var filemenu_8h =
 [
+    [ "CENTER_WINDOW_X", "filemenu_8h.html#a57b7836e8637a23a3fa94d27b01dcb1f", null ],
+    [ "CENTER_WINDOW_Y", "filemenu_8h.html#ae4d7cce1c41289326f3a77dc067d6aad", null ],
     [ "WINDOW_UPDATE_FUNC", "filemenu_8h.html#a809b1e2913887ecb315cde01327d71d2", null ],
     [ "filemenu_choose_name_cleanup", "filemenu_8h.html#af515dc2c0f01abb48c7f8b360069f425", null ],
     [ "filemenu_choose_name_handle_input", "filemenu_8h.html#a4f26d68b12317fe7bcc57f15a41ca11b", null ],

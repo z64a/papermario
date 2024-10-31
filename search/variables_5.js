@@ -793,7 +793,7 @@ var searchData=
   ['eventflags_790',['eventFlags',['../common__structs_8h.html#ad87fd6f94a0aae0d2fa153500a2a7523',1,'ActorPartBlueprint::eventFlags'],['../common__structs_8h.html#aea2b905549b9a5f71ecf8238733a87ce',1,'ActorPart::eventFlags']]],
   ['eventinfo_791',['eventInfo',['../audio_8h.html#ace3280d763b11208823de6adaa1d80dd',1,'SeqArgs.EventTrigger']]],
   ['eventlistener_792',['eventListener',['../structPlayerOrbitState.html#a2137d7e410af4bb6a430c6a8b3630312',1,'PlayerOrbitState::eventListener'],['../structPlayerOrbitTarget.html#a7afe057adbe854ea6e46431d4ee9620c',1,'PlayerOrbitTarget::eventListener']]],
-  ['eventtrigger_793',['EventTrigger',['../audio_8h.html#a3127defb87332bb925d1c88b37ad4934',1,'SeqArgs']]],
+  ['eventtrigger_793',['EventTrigger',['../audio_8h.html#ab3d377dc2f3ef693073398432d406fb0',1,'SeqArgs']]],
   ['evs_5f800936c0_794',['EVS_800936C0',['../map_8h.html#aa204adc13a499f084e5370460651a109',1,'EVS_800936C0:&#160;38F00.c'],['../38F00_8c.html#aa204adc13a499f084e5370460651a109',1,'EVS_800936C0:&#160;38F00.c']]],
   ['evs_5fapplydizzyattack_795',['EVS_ApplyDizzyAttack',['../include_2script__api_2battle_8h.html#a3481d05faa589699dedd2b52bd55e54c',1,'EVS_ApplyDizzyAttack:&#160;player_events.c'],['../player__events_8c.html#a3481d05faa589699dedd2b52bd55e54c',1,'EVS_ApplyDizzyAttack:&#160;player_events.c']]],
   ['evs_5fbattlecam_5ffocusactor_796',['EVS_BattleCam_FocusActor',['../camera_8c.html#a1c2fda77bb4defa8dbc1c0ddfbe582c0',1,'camera.c']]],

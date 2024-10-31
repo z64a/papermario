@@ -1,11 +1,11 @@
 var filemenu__common_8c =
 [
-    [ "PAGE_4", "filemenu__common_8c.html#a718ddb3a7302ccf4ed18fd98ee01477e", null ],
     [ "filemenu_cleanup", "filemenu__common_8c.html#a23834778ddd40b3e127b5ef2b28cd946", null ],
     [ "filemenu_draw_contents_copy_arrow", "filemenu__common_8c.html#ac6e603405a969fd0ac15242354045a5f", null ],
     [ "filemenu_draw_cursor", "filemenu__common_8c.html#ab12cfa1f3472c0113ea55877f6a13f8d", null ],
     [ "filemenu_draw_rect", "filemenu__common_8c.html#a81c60f585ed0c200cde7ba4ebaac51f7", null ],
-    [ "filemenu_init", "filemenu__common_8c.html#a7d67283fee58a57b9a88b22c38d1a370", null ],
+    [ "filemenu_get_exit_mode", "filemenu__common_8c.html#ae942c50d20a54bbd9636dcab517ca2be", null ],
+    [ "filemenu_init", "filemenu__common_8c.html#aab8871fb3711c467048758f9d9ac3e44", null ],
     [ "filemenu_set_cursor_alpha", "filemenu__common_8c.html#a57757a3be1befe707cd9b2f21741fa07", null ],
     [ "filemenu_set_cursor_goal_pos", "filemenu__common_8c.html#a24be26cc0e492ba1013d23ead2fd720b", null ],
     [ "filemenu_set_selected", "filemenu__common_8c.html#af494dbe0e05129016076b0c5a0a3c49d", null ],
@@ -29,7 +29,6 @@ var filemenu__common_8c =
     [ "filemenu_update_show_with_rotation", "filemenu__common_8c.html#ab9e39e38729c8888fb73913eb7943c75", null ],
     [ "func_8024330C", "filemenu__common_8c.html#a3cedf00a9bd8d742b83808923faeed6c", null ],
     [ "func_802435C4", "filemenu__common_8c.html#a038438241c4fbe53df3c5ee3ce0ee885", null ],
-    [ "func_80244BC4", "filemenu__common_8c.html#ac7ead08233b38772ae348baf63ef9744", null ],
     [ "func_PAL_8002B574", "filemenu__common_8c.html#ac1f8910e8c4b37c304b3064fef336ec2", null ],
     [ "D_80249BB0", "filemenu__common_8c.html#a08c77d09ab777135baab92a1b6085a12", null ],
     [ "D_80249BB4", "filemenu__common_8c.html#a5eb401d5db1deff9a5c7c6ab2f62fe5e", null ],

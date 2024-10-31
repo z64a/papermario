@@ -2,7 +2,6 @@ var filemenu__createfile_8c =
 [
     [ "FILEMENU_C9_OFFSET", "filemenu__createfile_8c.html#a54538eb5d08d4369e1f40f6c1fba30aa", null ],
     [ "FILEMENU_ROW_AMT", "filemenu__createfile_8c.html#a4ac6034743d8716920e2f0533893f710", null ],
-    [ "INPUT_FINAL_PAGE", "filemenu__createfile_8c.html#a186bc7c531bfd3705f1140c777d2f528", null ],
     [ "ROWS", "filemenu__createfile_8c.html#a3cfd3aa62338d12609f6d65bce97e9cd", null ],
     [ "WINDOW_1_Y", "filemenu__createfile_8c.html#aeb2ac6dcee69db8d9970c66a172e031f", null ],
     [ "WINDOW_2_HEIGHT", "filemenu__createfile_8c.html#a425a9d01d2c42d2eecafe6deefa4b665", null ],

@@ -1,5 +1,10 @@
 var NAVTREEINDEX308 =
 {
+"private_8h.html#a5c2de386d54fd65f9eecd67d3cd917c4":[2,0,1,0,11,142],
+"private_8h.html#a5d965b315c4cc9da3d8969ab42724e99":[2,0,1,0,11,137],
+"private_8h.html#a5ed176dbd0258b92a377ed4f32ea83ab":[2,0,1,0,11,30],
+"private_8h.html#a5f489c097fec2ab47b469b51ac0b31d1":[2,0,1,0,11,33],
+"private_8h.html#a6024ca9e060373ed9ff80c1ecb6e43e8":[2,0,1,0,11,99],
 "private_8h.html#a625cecaf42c81417c5f6ae0591f7d918":[2,0,1,0,11,17],
 "private_8h.html#a6387eda8ca7bdd918ac7e8e45f7e274e":[2,0,1,0,11,74],
 "private_8h.html#a64f24c304378cce5991d5155551711e4":[2,0,1,0,11,1],
@@ -244,10 +249,5 @@ var NAVTREEINDEX308 =
 "quake__hammer_8c.html#afa7779fe56b160955b535cd6a8aaf8f4":[2,0,1,1,3,0,11,0],
 "quiz_8c.html":[2,0,1,10,12,24,3],
 "quizmo__answer_8c.html":[2,0,1,5,73],
-"quizmo__answer_8c.html#a9eea285f346385399252beb7457888c4":[2,0,1,5,73,2],
-"quizmo__answer_8c.html#acac82989324e9743af5527869f4eb18a":[2,0,1,5,73,0],
-"quizmo__answer_8c.html#ad2693e341f18af2723484d6b63966782":[2,0,1,5,73,1],
-"quizmo__assistant_8c.html":[2,0,1,5,74],
-"quizmo__assistant_8c.html#a15f29bf430d257c9fbe9bfcc53f89cd0":[2,0,1,5,74,2],
-"quizmo__assistant_8c.html#a3f0187a392f0ba48e884743e33aca926":[2,0,1,5,74,7]
+"quizmo__answer_8c.html#a9eea285f346385399252beb7457888c4":[2,0,1,5,73,2]
 };

@@ -1,5 +1,10 @@
 var NAVTREEINDEX353 =
 {
+"stage__names_8h.html#a3b62914a03e28ea0a332c069bd5e9deeafce488f2de7c6a4c6c1c32fdbd969b0a":[2,0,1,1,31,1,22],
+"stage__names_8h.html#a3b62914a03e28ea0a332c069bd5e9deeafd9a96f8f3b2190370546482ef20d265":[2,0,1,1,31,1,232],
+"stage__names_8h.html#a3b62914a03e28ea0a332c069bd5e9deeafdc7dd49981e5badb46c949003daeda7":[2,0,1,1,31,1,12],
+"stage__names_8h.html#a3b62914a03e28ea0a332c069bd5e9deeafdd1c4b53ae6c3ae2f35b213bb2b132b":[2,0,1,1,31,1,235],
+"stage__names_8h.html#ac2d4af0b340978001e320d6d3bf116a7":[2,0,1,1,31,0],
 "staircase_8c.html":[2,0,1,10,24,11,10],
 "stairs__anim_8c.html":[2,0,1,10,23,23,6],
 "stairs__lights_8c.html":[2,0,1,10,23,23,7],
@@ -244,10 +249,5 @@ var NAVTREEINDEX353 =
 "state__battle_8c.html#a665a07edfcdfda6c65a0434db54b8a5a":[2,0,1,98,13],
 "state__battle_8c.html#a8199c17c8331451aeb16de0be2cc5051":[2,0,1,98,1],
 "state__battle_8c.html#a8739ce52be5f8239b69f6ebec7422b54":[2,0,1,98,12],
-"state__battle_8c.html#a8a2319da0fb5277f5578e4b25fbfca97":[2,0,1,98,14],
-"state__battle_8c.html#aa96cd298938bf5fb484c6b6ad41fa398":[2,0,1,98,6],
-"state__battle_8c.html#ab6214b141edbab80ab5d3e0fafe40c16":[2,0,1,98,0],
-"state__battle_8c.html#ab7950165c97fed71c2a5c1b65948f528":[2,0,1,98,9],
-"state__battle_8c.html#aceaf2659467f5c93a740298bcc2c7be3":[2,0,1,98,3],
-"state__battle_8c.html#adda116d3b88ec8ceeee4639560cfac53":[2,0,1,98,11]
+"state__battle_8c.html#a8a2319da0fb5277f5578e4b25fbfca97":[2,0,1,98,14]
 };

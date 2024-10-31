@@ -1,5 +1,10 @@
 var NAVTREEINDEX379 =
 {
+"world_2area__mgm_2mgm__02_2npc_8c.html#ab76aeb39274a7576f7a6765add56c660a56e536f9fede0088cc53c8cdada0aea2":[2,0,1,10,17,2,3,17,8],
+"world_2area__mgm_2mgm__02_2npc_8c.html#ab76aeb39274a7576f7a6765add56c660a6f6cadb43df45d66f0b1b6598f880468":[2,0,1,10,17,2,3,17,17],
+"world_2area__mgm_2mgm__02_2npc_8c.html#ab76aeb39274a7576f7a6765add56c660a72403115561e07a3183a60e403bf04b4":[2,0,1,10,17,2,3,17,22],
+"world_2area__mgm_2mgm__02_2npc_8c.html#ab76aeb39274a7576f7a6765add56c660a7b1457f2330ac2bb60de5948e0a46214":[2,0,1,10,17,2,3,17,14],
+"world_2area__mgm_2mgm__02_2npc_8c.html#ab76aeb39274a7576f7a6765add56c660a7f48888c783385a6459645676e8bef93":[2,0,1,10,17,2,3,17,24],
 "world_2area__mgm_2mgm__02_2npc_8c.html#ab76aeb39274a7576f7a6765add56c660a98a432d8a182f802854913f433537681":[2,0,1,10,17,2,3,17,0],
 "world_2area__mgm_2mgm__02_2npc_8c.html#ab76aeb39274a7576f7a6765add56c660ab46521901cf76dd893d155d5c57e1441":[2,0,1,10,17,2,3,17,21],
 "world_2area__mgm_2mgm__02_2npc_8c.html#ab76aeb39274a7576f7a6765add56c660abcec736d3bbfaa31bfe8ee38303fa0b5":[2,0,1,10,17,2,3,17,1],
@@ -72,8 +77,8 @@ var NAVTREEINDEX379 =
 "world_2area__nok_2nok__02_2entity_8c.html":[2,0,1,10,19,2,2],
 "world_2area__nok_2nok__02_2entity_8c.html#a4e96916f3d71fe02e079bbb090e97f04":[2,0,1,10,19,2,2,0],
 "world_2area__nok_2nok__02_2main_8c.html":[2,0,1,10,19,2,6],
-"world_2area__nok_2nok__02_2main_8c.html#a02c6d39594a3aa893a4c7c5729890618":[2,0,1,10,19,2,6,1],
 "world_2area__nok_2nok__02_2main_8c.html#a02c6d39594a3aa893a4c7c5729890618":[2,0,1,10,19,2,6,0],
+"world_2area__nok_2nok__02_2main_8c.html#a02c6d39594a3aa893a4c7c5729890618":[2,0,1,10,19,2,6,1],
 "world_2area__nok_2nok__02_2npc_8c.html":[2,0,1,10,19,2,9],
 "world_2area__nok_2nok__02_2npc_8c.html#a819c5e86948b52f9298addc259f04d9a":[2,0,1,10,19,2,9,0],
 "world_2area__nok_2nok__02_2npc_8c.html#af0156a3b22d684db60cd6c6db30fa7e7":[2,0,1,10,19,2,9,1],
@@ -244,10 +249,5 @@ var NAVTREEINDEX379 =
 "world_2area__pra_2pra__04_2entity_8c.html":[2,0,1,10,23,4,0],
 "world_2area__pra_2pra__04_2main_8c.html":[2,0,1,10,23,4,1],
 "world_2area__pra_2pra__04_2main_8c.html#a4e96916f3d71fe02e079bbb090e97f04":[2,0,1,10,23,4,1,0],
-"world_2area__pra_2pra__04_2npc_8c.html":[2,0,1,10,23,4,3],
-"world_2area__pra_2pra__05_2entity_8c.html":[2,0,1,10,23,5,0],
-"world_2area__pra_2pra__05_2main_8c.html":[2,0,1,10,23,5,1],
-"world_2area__pra_2pra__06_2entity_8c.html":[2,0,1,10,23,6,0],
-"world_2area__pra_2pra__06_2main_8c.html":[2,0,1,10,23,6,1],
-"world_2area__pra_2pra__06_2main_8c.html#a9732871bb621f3df221b78505904cd85":[2,0,1,10,23,6,1,0]
+"world_2area__pra_2pra__04_2npc_8c.html":[2,0,1,10,23,4,3]
 };

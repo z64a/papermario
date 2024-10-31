@@ -1,5 +1,10 @@
 var NAVTREEINDEX382 =
 {
+"world_2partner_2bow_8c.html#a168416bab35cdc0913c25e5893d3714a":[2,0,1,10,32,2,5],
+"world_2partner_2bow_8c.html#a2917462dc0a84e71ffd3a24005b2f5d5":[2,0,1,10,32,2,3],
+"world_2partner_2bow_8c.html#a4df380813d07b959f055ad39e711ec22":[2,0,1,10,32,2,9],
+"world_2partner_2bow_8c.html#a64dba0006c316a67716c1a95f31ec6e0":[2,0,1,10,32,2,7],
+"world_2partner_2bow_8c.html#a6c7b086bd64b3c2cb76b012dbffacbb2":[2,0,1,10,32,2,1],
 "world_2partner_2bow_8c.html#a7ed8bbab4844df6ab66b02f77d92fd7e":[2,0,1,10,32,2,4],
 "world_2partner_2bow_8c.html#a824b946b58e88f473c19985746a7b5a9":[2,0,1,10,32,2,8],
 "world_2partner_2bow_8c.html#af4db3f1ecf23d2b77ae17d37f1cd200e":[2,0,1,10,32,2,10],

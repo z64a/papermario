@@ -240,7 +240,7 @@ var NAVTREEINDEX47 =
 "common__structs_8h.html#structNpcMotionBlur":[2,0,0,4,23],
 "common__structs_8h.html#structNpcQuizmoBlur":[2,0,0,4,25],
 "common__structs_8h.html#structParadeNpcInfo":[2,0,0,4,136],
-"common__structs_8h.html#structPartnerAnimations_8____unnamed35____":[2,0,0,4,169],
+"common__structs_8h.html#structPartnerAnimations_8____unnamed31____":[2,0,0,4,169],
 "common__structs_8h.html#structPartnerDMAData":[2,0,0,4,142],
 "common__structs_8h.html#structPartnerData":[2,0,0,4,21],
 "common__structs_8h.html#structPartnerStatus":[2,0,0,4,122],
