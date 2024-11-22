@@ -132,8 +132,8 @@ Functions</h2></td></tr>
 <tr class="separator:a5fdecf33ce2b21cb78f6493b30313cd0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a997522fabbdaff24aff61789f12f8d2d" id="r_a997522fabbdaff24aff61789f12f8d2d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="common__structs_8h.html#a8d2e4e903f7277916e7c1e2f36539d26">b32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a997522fabbdaff24aff61789f12f8d2d">fio_write_flash</a> (s32 pageNum, s8 *readBuffer, u32 numBytes)</td></tr>
 <tr class="separator:a997522fabbdaff24aff61789f12f8d2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5aac7d4cc2674a94a3871f81b830d9f0" id="r_a5aac7d4cc2674a94a3871f81b830d9f0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5aac7d4cc2674a94a3871f81b830d9f0">fio_erase_flash</a> (s32 pageNum)</td></tr>
-<tr class="separator:a5aac7d4cc2674a94a3871f81b830d9f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5831253783e4b462dafcc2abcde86a0c" id="r_a5831253783e4b462dafcc2abcde86a0c"><td class="memItemLeft" align="right" valign="top">s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5831253783e4b462dafcc2abcde86a0c">fio_erase_flash</a> (s32 pageNum)</td></tr>
+<tr class="separator:a5831253783e4b462dafcc2abcde86a0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5414adea0fed6b7ad0d49929f3c0a8c0" id="r_a5414adea0fed6b7ad0d49929f3c0a8c0"><td class="memItemLeft" align="right" valign="top">s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5414adea0fed6b7ad0d49929f3c0a8c0">get_spirits_rescued</a> (void)</td></tr>
 <tr class="separator:a5414adea0fed6b7ad0d49929f3c0a8c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a96c30a6f03c9480098e0350baefbf1ce" id="r_a96c30a6f03c9480098e0350baefbf1ce"><td class="memItemLeft" align="right" valign="top">s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a96c30a6f03c9480098e0350baefbf1ce">fio_calc_globals_checksum</a> (void)</td></tr>
@@ -299,14 +299,14 @@ slot</td>
 
 </div>
 </div>
-<a id="a5aac7d4cc2674a94a3871f81b830d9f0" name="a5aac7d4cc2674a94a3871f81b830d9f0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5aac7d4cc2674a94a3871f81b830d9f0">&#9670;&#160;</a></span>fio_erase_flash()</h2>
+<a id="a5831253783e4b462dafcc2abcde86a0c" name="a5831253783e4b462dafcc2abcde86a0c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5831253783e4b462dafcc2abcde86a0c">&#9670;&#160;</a></span>fio_erase_flash()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void fio_erase_flash </td>
+          <td class="memname">s32 fio_erase_flash </td>
           <td>(</td>
           <td class="paramtype">s32</td>          <td class="paramname"><span class="paramname"><em>pageNum</em></span></td><td>)</td>
           <td></td>
@@ -437,7 +437,7 @@ slot</td>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="#a7fba4b1dc1e003c880035b08ad6d8b25">fio_fetch_saved_file_info()</a>, <a class="el" href="#a42bb53f53494d0c4fa6c1c5449c8f424">fio_load_game()</a>, and <a class="el" href="#a35f672e0549ee9e8e624bfa7d709fc50">fio_load_globals()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="#a7fba4b1dc1e003c880035b08ad6d8b25">fio_fetch_saved_file_info()</a>, <a class="el" href="#a42bb53f53494d0c4fa6c1c5449c8f424">fio_load_game()</a>, <a class="el" href="#a35f672e0549ee9e8e624bfa7d709fc50">fio_load_globals()</a>, and <a class="el" href="#af06450cdbd0532c41c49b0b887224921">fio_save_game()</a>.</p>
 
 </div>
 </div>
@@ -513,7 +513,7 @@ slot</td>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="#a7fba4b1dc1e003c880035b08ad6d8b25">fio_fetch_saved_file_info()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="#a7fba4b1dc1e003c880035b08ad6d8b25">fio_fetch_saved_file_info()</a>, and <a class="el" href="#a42bb53f53494d0c4fa6c1c5449c8f424">fio_load_game()</a>.</p>
 
 </div>
 </div>
@@ -613,7 +613,7 @@ slot</td>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="#a7fba4b1dc1e003c880035b08ad6d8b25">fio_fetch_saved_file_info()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="#a7fba4b1dc1e003c880035b08ad6d8b25">fio_fetch_saved_file_info()</a>, and <a class="el" href="#af06450cdbd0532c41c49b0b887224921">fio_save_game()</a>.</p>
 
 </div>
 </div>

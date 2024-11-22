@@ -29,7 +29,6 @@ var filemenu__common_8c =
     [ "filemenu_update_show_with_rotation", "filemenu__common_8c.html#ab9e39e38729c8888fb73913eb7943c75", null ],
     [ "func_8024330C", "filemenu__common_8c.html#a3cedf00a9bd8d742b83808923faeed6c", null ],
     [ "func_802435C4", "filemenu__common_8c.html#a038438241c4fbe53df3c5ee3ce0ee885", null ],
-    [ "func_PAL_8002B574", "filemenu__common_8c.html#ac1f8910e8c4b37c304b3064fef336ec2", null ],
     [ "D_80249BB0", "filemenu__common_8c.html#a08c77d09ab777135baab92a1b6085a12", null ],
     [ "D_80249BB4", "filemenu__common_8c.html#a5eb401d5db1deff9a5c7c6ab2f62fe5e", null ],
     [ "D_80249BB8", "filemenu__common_8c.html#a61719783b3f2466a6b8c4a3ee3bdd6e4", null ],

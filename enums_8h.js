@@ -895,7 +895,7 @@ var enums_8h =
       [ "BS_FLAGS2_PARTNER_TURN_USED", "enums_8h.html#a660ef8fd3971a369bb036aabdbc4552cacc5b9542fa2c7ef0304e95af5a12be25", null ],
       [ "BS_FLAGS2_OVERRIDE_INACTIVE_PLAYER", "enums_8h.html#a660ef8fd3971a369bb036aabdbc4552cab93b32a9eab2c5ee446e61dbcaa51569", null ],
       [ "BS_FLAGS2_OVERRIDE_INACTIVE_PARTNER", "enums_8h.html#a660ef8fd3971a369bb036aabdbc4552ca2e5501557064c1c7cc96f3f656d2adb1", null ],
-      [ "BS_FLAGS2_CANT_FLEE", "enums_8h.html#a660ef8fd3971a369bb036aabdbc4552caa89e3c1420939494b472cfe48899ecb3", null ],
+      [ "BS_FLAGS2_CAN_FLEE", "enums_8h.html#a660ef8fd3971a369bb036aabdbc4552cac598aa403ec456840689af3172ff731c", null ],
       [ "BS_FLAGS2_PEACH_BATTLE", "enums_8h.html#a660ef8fd3971a369bb036aabdbc4552caddd29da6bbe56dd11c8e5ebd2d6cba00", null ],
       [ "BS_FLAGS2_STORED_TURBO_CHARGE_TURN", "enums_8h.html#a660ef8fd3971a369bb036aabdbc4552ca366488b075051c150a91e885f0de7675", null ],
       [ "BS_FLAGS2_DOING_JUMP_TUTORIAL", "enums_8h.html#a660ef8fd3971a369bb036aabdbc4552ca7fc486e9c571027b1e71208afc4a331f", null ],

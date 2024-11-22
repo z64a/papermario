@@ -1,6 +1,5 @@
 var npc_8h_structEncounterStatus =
 [
-    [ "allowFleeing", "npc_8h.html#a0b558ad1d12eb507e509d5703c27c328", null ],
     [ "battleOutcome", "npc_8h.html#ac722173efa02dd797679822ba97d5aeb", null ],
     [ "battleStartCountdown", "npc_8h.html#adc56d41dc2563378dcef77b9d5f6aa75", null ],
     [ "battleTriggerCooldown", "npc_8h.html#a5213664ddab26de4a4e3b22d0c616ad6", null ],
@@ -19,6 +18,7 @@ var npc_8h_structEncounterStatus =
     [ "fadeOutAmount", "npc_8h.html#aad09bc4effb34eab90e2077a481a87b3", null ],
     [ "firstStrikeType", "npc_8h.html#ae92869fcd18af29d17b99238d9ad7d66", null ],
     [ "flags", "npc_8h.html#a2ceaac7f1a87580969f1a6e073e408af", null ],
+    [ "forbidFleeing", "npc_8h.html#a87bd49dd9d3330992fea6d8c0702b03c", null ],
     [ "hasMerleeCoinBonus", "npc_8h.html#ac2680f519a0552c9732e66f693b28949", null ],
     [ "hitTier", "npc_8h.html#a067171758c0f92f3c3296247079a52c0", null ],
     [ "hitType", "npc_8h.html#a69f8d717b75cb22052dd17794c0ff190", null ],

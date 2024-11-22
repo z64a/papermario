@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['hadcorrecttiming_0',['hadCorrectTiming',['../action__cmd_8h.html#aca62f50c01e67f6d850d8915028b7938',1,'ActionCommandStatus.__unnamed102__.threeChances']]],
+  ['hadcorrecttiming_0',['hadCorrectTiming',['../action__cmd_8h.html#aca62f50c01e67f6d850d8915028b7938',1,'ActionCommandStatus.__unnamed103__.threeChances']]],
   ['halfheight_1',['halfHeight',['../npc_8h.html#aac85db8bdf040fc9573bf904cf9031bb',1,'EnemyDetectVolume']]],
   ['halfsizex_2',['halfSizeX',['../model_8h.html#a3f41cad50dffd64f2abd4095ee50f8a1',1,'ModelBoundingBox']]],
   ['halfsizey_3',['halfSizeY',['../model_8h.html#afd36d96d86621265fb5831bf1129d3c9',1,'ModelBoundingBox']]],
@@ -577,7 +577,7 @@ var searchData=
   ['hittype_574',['hitType',['../npc_8h.html#a69f8d717b75cb22052dd17794c0ff190',1,'EncounterStatus']]],
   ['hitwalltime_575',['hitWallTime',['../common__structs_8h.html#a65b5f9111260892d3e6fef12e6d99327',1,'PlayerSpinState']]],
   ['hold_576',['hold',['../actions_8h.html#a55dc48098dcefa95e5a49173884dccf5',1,'DisguiseAnims']]],
-  ['holdingleft_577',['holdingLeft',['../action__cmd_8h.html#a97ec895dad1887ac211f3ecbc981bee0',1,'ActionCommandStatus.__unnamed102__.airRaid::holdingLeft'],['../action__cmd_8h.html#a97ec895dad1887ac211f3ecbc981bee0',1,'ActionCommandStatus.__unnamed102__.fireShell::holdingLeft'],['../action__cmd_8h.html#a97ec895dad1887ac211f3ecbc981bee0',1,'ActionCommandStatus.__unnamed102__.smack::holdingLeft'],['../action__cmd_8h.html#a97ec895dad1887ac211f3ecbc981bee0',1,'ActionCommandStatus.__unnamed102__.spook::holdingLeft']]],
+  ['holdingleft_577',['holdingLeft',['../action__cmd_8h.html#a97ec895dad1887ac211f3ecbc981bee0',1,'ActionCommandStatus.__unnamed103__.airRaid::holdingLeft'],['../action__cmd_8h.html#a97ec895dad1887ac211f3ecbc981bee0',1,'ActionCommandStatus.__unnamed103__.fireShell::holdingLeft'],['../action__cmd_8h.html#a97ec895dad1887ac211f3ecbc981bee0',1,'ActionCommandStatus.__unnamed103__.smack::holdingLeft'],['../action__cmd_8h.html#a97ec895dad1887ac211f3ecbc981bee0',1,'ActionCommandStatus.__unnamed103__.spook::holdingLeft']]],
   ['holdinputbuffer_578',['holdInputBuffer',['../structBattleStatus.html#a37e713fb551c69fb2a2a6b3a5612dc05',1,'BattleStatus']]],
   ['holdinputbufferpos_579',['holdInputBufferPos',['../structBattleStatus.html#a784e1cbb91905e9639ce7b95558890f8',1,'BattleStatus']]],
   ['holdmode_580',['holdMode',['../common__structs_8h.html#ae392694e441c51673f642addcd157dbb',1,'CreditsEntry::holdMode'],['../common__structs_8h.html#a121f2f31956c2ba71c350aa205b85c4f',1,'CreditsLine::holdMode']]],

@@ -145,5 +145,5 @@ var searchData=
   ['nuscprenmiflag_142',['nuScPreNMIFlag',['../main__pre__bss_8c.html#a795a041c4720db28a9747b32e71c1fcb',1,'main_pre_bss.c']]],
   ['nusimesgq_143',['nuSiMesgQ',['../main__post__bss_8c.html#a6132895ffb68a47bb05b9377f272c314',1,'main_post_bss.c']]],
   ['nusimgrmesgq_144',['nuSiMgrMesgQ',['../main__post__bss_8c.html#a62dd24eb2284a82dc37173b92b3bfea7',1,'main_post_bss.c']]],
-  ['nuyieldbuf_145',['nuYieldBuf',['../main__post__bss_8c.html#a1397caa456730d2d2493938088e01cfc',1,'nuYieldBuf:&#160;main_post_bss.c'],['../main_8c.html#a7e7b5401ef9f60c96eef7cbb2641b785',1,'nuYieldBuf:&#160;main.c']]]
+  ['nuyieldbuf_145',['nuYieldBuf',['../main__post__bss_8c.html#a1397caa456730d2d2493938088e01cfc',1,'main_post_bss.c']]]
 ];

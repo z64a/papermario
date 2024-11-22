@@ -80,7 +80,7 @@ var searchData=
   ['resampler_77',['resampler',['../audio_8h.html#a8a5ba82e4a1564b47b8eef66adaee45d',1,'AuPVoice']]],
   ['resampler_5f28_78',['resampler_28',['../audio_8h.html#a29dbb4c967f0c6083cd0cd4a14138503',1,'AuDelay']]],
   ['resampler_5f2c_79',['resampler_2C',['../audio_8h.html#ab94a16b0b115c09178fb8152e864a938',1,'AuDelay']]],
-  ['reserved_80',['reserved',['../common__structs_8h.html#a373c7d5fc0c0a99d701fadac4e826a08',1,'PlayerData::reserved'],['../common__structs_8h.html#a7c555c6c787ef589b94012b5a2f6cb0c',1,'SaveGlobals::reserved'],['../audio_8h.html#ac3fe351c8622dfaa28a2ae4fdeb6f736',1,'SBNHeader::reserved']]],
+  ['reserved_80',['reserved',['../common__structs_8h.html#a373c7d5fc0c0a99d701fadac4e826a08',1,'PlayerData::reserved'],['../common__structs_8h.html#a00a33a457cd88ee770d88e5b67623234',1,'SaveGlobals::reserved'],['../audio_8h.html#ac3fe351c8622dfaa28a2ae4fdeb6f736',1,'SBNHeader::reserved']]],
   ['resetframebufferarray_81',['ResetFrameBufferArray',['../main__pre__bss_8c.html#a4c357cae919113e20f449f2e296c5b5e',1,'ResetFrameBufferArray:&#160;main_pre_bss.c'],['../main_8c.html#ae3da46267169982835a73fa93b1bfdf9',1,'ResetFrameBufferArray:&#160;main.c']]],
   ['resetgamestate_82',['ResetGameState',['../main_8c.html#a73e12d251b206ad739a56d6d5bb9e7f4',1,'ResetGameState:&#160;main_pre.c'],['../main__pre_8c.html#a73e12d251b206ad739a56d6d5bb9e7f4',1,'ResetGameState:&#160;main_pre.c']]],
   ['resetmapencounterflags_83',['resetMapEncounterFlags',['../npc_8h.html#a0806be7a76e49812f9147432bed882b6',1,'EncounterStatus']]],

@@ -1335,10 +1335,11 @@ var common__structs_8h =
     [ "SaveGlobals", "common__structs_8h.html#structSaveGlobals", [
       [ "crc1", "common__structs_8h.html#ad3e037c1b12f39c3be0324cf05b092b1", null ],
       [ "crc2", "common__structs_8h.html#a36470f30755eac6a4440553af5490637", null ],
+      [ "language", "common__structs_8h.html#a5959bfd94d77871263be915a917a9fe7", null ],
       [ "lastFileSelected", "common__structs_8h.html#aaf53f979e1da814abdaabed9ed49d48f", null ],
       [ "magicString", "common__structs_8h.html#a1a046b6927f86a6ae65d61b47b3ac39b", null ],
       [ "pad", "common__structs_8h.html#a2a2f91943d5f9ac46c8148164f5b52c5", null ],
-      [ "reserved", "common__structs_8h.html#a7c555c6c787ef589b94012b5a2f6cb0c", null ],
+      [ "reserved", "common__structs_8h.html#a00a33a457cd88ee770d88e5b67623234", null ],
       [ "useMonoSound", "common__structs_8h.html#a5bf6a06747acdc23197d354026b12704", null ]
     ] ],
     [ "SaveMetadata", "common__structs_8h.html#structSaveMetadata", [
@@ -1877,6 +1878,7 @@ var common__structs_8h =
     [ "IMG_BIN", "common__structs_8h.html#a535c3da3dc78922a0715151910952943", null ],
     [ "IMG_PTR", "common__structs_8h.html#a834f416d5ff057ebffe262e7f7d15b9a", null ],
     [ "MAX_ACTOR_DECORATIONS", "common__structs_8h.html#a3937b5b3530e4e6842d410da97215cc9", null ],
+    [ "MAX_CREDITS_LINES", "common__structs_8h.html#af1f5470a926d84c26b024310ac751703", null ],
     [ "MAX_NPC_DECORATIONS", "common__structs_8h.html#a20e87001ccc88be6680bb1b8cdaf2ba8", null ],
     [ "MSG_BIN", "common__structs_8h.html#a02e36ecfef454ae1879810a71a2a3644", null ],
     [ "MSG_PTR", "common__structs_8h.html#a83e8353dd3388058292842bff51901c6", null ],

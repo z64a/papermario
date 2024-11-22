@@ -100,7 +100,7 @@ var searchData=
   ['fio_5fcalc_5ffile_5fchecksum_97',['fio_calc_file_checksum',['../fio_8c.html#aa441e7a633416420a72663d2ac8e6ebc',1,'fio.c']]],
   ['fio_5fcalc_5fglobals_5fchecksum_98',['fio_calc_globals_checksum',['../fio_8c.html#a96c30a6f03c9480098e0350baefbf1ce',1,'fio.c']]],
   ['fio_5fdeserialize_5fstate_99',['fio_deserialize_state',['../fio_8c.html#a1da89c3ea46ad9b1e4289696b51fe58f',1,'fio_deserialize_state(void):&#160;fio.c'],['../world_8c.html#a1da89c3ea46ad9b1e4289696b51fe58f',1,'fio_deserialize_state(void):&#160;fio.c']]],
-  ['fio_5ferase_5fflash_100',['fio_erase_flash',['../fio_8c.html#a5aac7d4cc2674a94a3871f81b830d9f0',1,'fio.c']]],
+  ['fio_5ferase_5fflash_100',['fio_erase_flash',['../fio_8c.html#a5831253783e4b462dafcc2abcde86a0c',1,'fio.c']]],
   ['fio_5ferase_5fgame_101',['fio_erase_game',['../fio_8c.html#a61c296cc6a1cc6968680f6a64da24f41',1,'fio_erase_game(s32 saveSlot):&#160;fio.c'],['../fio_8h.html#a61c296cc6a1cc6968680f6a64da24f41',1,'fio_erase_game(s32 saveSlot):&#160;fio.c']]],
   ['fio_5ffetch_5fsaved_5ffile_5finfo_102',['fio_fetch_saved_file_info',['../fio_8c.html#a7fba4b1dc1e003c880035b08ad6d8b25',1,'fio.c']]],
   ['fio_5finit_5fflash_103',['fio_init_flash',['../functions_8h.html#af65d4787651fd37d502110a565e7a3fb',1,'fio_init_flash(void):&#160;fio.c'],['../fio_8c.html#af65d4787651fd37d502110a565e7a3fb',1,'fio_init_flash(void):&#160;fio.c']]],
@@ -525,11 +525,10 @@ var searchData=
   ['func_5fe011a700_522',['func_E011A700',['../partner__buff_8c.html#a3469e8303a5b6c72aeaa527b297e1030',1,'partner_buff.c']]],
   ['func_5fe02000ac_523',['func_E02000AC',['../effect__utils_8c.html#ab14327925554f1c4205abda0709c8c23',1,'effect_utils.c']]],
   ['func_5ffilemenu_5f8024d710_524',['func_filemenu_8024D710',['../filemenu__selectlanguage_8c.html#a49f48a3a653ae825fbc04d25d520027c',1,'filemenu_selectlanguage.c']]],
-  ['func_5fpal_5f8002b574_525',['func_PAL_8002B574',['../filemenu__common_8c.html#ac1f8910e8c4b37c304b3064fef336ec2',1,'filemenu_common.c']]],
-  ['func_5funka_5fdraw_5fnpc_526',['func_unkA_draw_npc',['../actor__rendering_8c.html#a4319549d347eb366cb21c1307d4e0ec0',1,'actor_rendering.c']]],
-  ['func_5funka_5fdraw_5fplayer_527',['func_unkA_draw_player',['../actor__rendering_8c.html#abe018bf8a58c20cce46ab74b1bcae795',1,'actor_rendering.c']]],
-  ['func_5funkb_5fdraw_5fnpc_528',['func_unkB_draw_npc',['../actor__rendering_8c.html#a0993940783d61945009c8d97ebb43c49',1,'actor_rendering.c']]],
-  ['func_5funkb_5fdraw_5fplayer_529',['func_unkB_draw_player',['../actor__rendering_8c.html#a3892b060798b2bfcc87d6edcf66d3cda',1,'actor_rendering.c']]],
-  ['fx_5fdamage_5fstars_530',['fx_damage_stars',['../world_2partner_2kooper_8c.html#a4e518608d41164da0565269cba959472',1,'kooper.c']]],
-  ['fx_5fsun_5fundeclared_531',['fx_sun_undeclared',['../effects_8h.html#a8f3f4f95205d04d17e6806a5c0e776d5',1,'effects.h']]]
+  ['func_5funka_5fdraw_5fnpc_525',['func_unkA_draw_npc',['../actor__rendering_8c.html#a4319549d347eb366cb21c1307d4e0ec0',1,'actor_rendering.c']]],
+  ['func_5funka_5fdraw_5fplayer_526',['func_unkA_draw_player',['../actor__rendering_8c.html#abe018bf8a58c20cce46ab74b1bcae795',1,'actor_rendering.c']]],
+  ['func_5funkb_5fdraw_5fnpc_527',['func_unkB_draw_npc',['../actor__rendering_8c.html#a0993940783d61945009c8d97ebb43c49',1,'actor_rendering.c']]],
+  ['func_5funkb_5fdraw_5fplayer_528',['func_unkB_draw_player',['../actor__rendering_8c.html#a3892b060798b2bfcc87d6edcf66d3cda',1,'actor_rendering.c']]],
+  ['fx_5fdamage_5fstars_529',['fx_damage_stars',['../world_2partner_2kooper_8c.html#a4e518608d41164da0565269cba959472',1,'kooper.c']]],
+  ['fx_5fsun_5fundeclared_530',['fx_sun_undeclared',['../effects_8h.html#a8f3f4f95205d04d17e6806a5c0e776d5',1,'effects.h']]]
 ];

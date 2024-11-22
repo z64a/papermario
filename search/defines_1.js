@@ -122,7 +122,9 @@ var searchData=
   ['au_5ffx_5fdelay_5fcount_119',['AU_FX_DELAY_COUNT',['../audio_8h.html#ad0990a607e4eba004d45d9ccde06c500',1,'audio.h']]],
   ['au_5ffx_5flength_120',['AU_FX_LENGTH',['../audio_8h.html#a1fde010b78c607c69fec4b9fb50edbe0',1,'audio.h']]],
   ['audio_5fcommand_5flist_5fbuffer_5fsize_121',['AUDIO_COMMAND_LIST_BUFFER_SIZE',['../audio_8h.html#ae21b4ca9784cdc3629e701e21613caa2',1,'audio.h']]],
-  ['audio_5fheap_5fsize_122',['AUDIO_HEAP_SIZE',['../audio_8h.html#a47ad0c17ca696e995e47dad8177b3def',1,'audio.h']]],
-  ['audio_5fsamples_123',['AUDIO_SAMPLES',['../audio_8h.html#a58e80361cf95d18afbe8f25713f4cdc6',1,'audio.h']]],
-  ['aueqpower_5flength_124',['AUEQPOWER_LENGTH',['../33450_8c.html#aec389b54ac9ec96cdaf03dca65db4127',1,'33450.c']]]
+  ['audio_5fframes_5fper_5fsecond_122',['AUDIO_FRAMES_PER_SECOND',['../audio_8h.html#a6acccd72cfae7d930f49ab8c974fa5a5',1,'audio.h']]],
+  ['audio_5fheap_5fsize_123',['AUDIO_HEAP_SIZE',['../audio_8h.html#a47ad0c17ca696e995e47dad8177b3def',1,'audio.h']]],
+  ['audio_5fmax_5fsamples_124',['AUDIO_MAX_SAMPLES',['../audio_8h.html#aa3fceeaa541b55ebf2971194bad1721b',1,'audio.h']]],
+  ['audio_5fsamples_125',['AUDIO_SAMPLES',['../audio_8h.html#a58e80361cf95d18afbe8f25713f4cdc6',1,'audio.h']]],
+  ['aueqpower_5flength_126',['AUEQPOWER_LENGTH',['../33450_8c.html#aec389b54ac9ec96cdaf03dca65db4127',1,'33450.c']]]
 ];

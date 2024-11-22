@@ -340,10 +340,14 @@ Macros</h2></td></tr>
 <tr class="separator:a3f64a29393684a33392b63d4cf66bad8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5974245f32a67e23144d2a33b86009f8" id="r_a5974245f32a67e23144d2a33b86009f8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5974245f32a67e23144d2a33b86009f8">AU_FILE_RELATIVE</a>(base,  offset)&#160;&#160;&#160;((void*)((s32)(offset) + (s32)(base)))</td></tr>
 <tr class="separator:a5974245f32a67e23144d2a33b86009f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a47ad0c17ca696e995e47dad8177b3def" id="r_a47ad0c17ca696e995e47dad8177b3def"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a47ad0c17ca696e995e47dad8177b3def">AUDIO_HEAP_SIZE</a>&#160;&#160;&#160;0x56000</td></tr>
-<tr class="separator:a47ad0c17ca696e995e47dad8177b3def"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a58e80361cf95d18afbe8f25713f4cdc6" id="r_a58e80361cf95d18afbe8f25713f4cdc6"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a58e80361cf95d18afbe8f25713f4cdc6">AUDIO_SAMPLES</a>&#160;&#160;&#160;184</td></tr>
 <tr class="separator:a58e80361cf95d18afbe8f25713f4cdc6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6acccd72cfae7d930f49ab8c974fa5a5" id="r_a6acccd72cfae7d930f49ab8c974fa5a5"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6acccd72cfae7d930f49ab8c974fa5a5">AUDIO_FRAMES_PER_SECOND</a>&#160;&#160;&#160;60</td></tr>
+<tr class="separator:a6acccd72cfae7d930f49ab8c974fa5a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a47ad0c17ca696e995e47dad8177b3def" id="r_a47ad0c17ca696e995e47dad8177b3def"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a47ad0c17ca696e995e47dad8177b3def">AUDIO_HEAP_SIZE</a>&#160;&#160;&#160;0x56000</td></tr>
+<tr class="separator:a47ad0c17ca696e995e47dad8177b3def"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa3fceeaa541b55ebf2971194bad1721b" id="r_aa3fceeaa541b55ebf2971194bad1721b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa3fceeaa541b55ebf2971194bad1721b">AUDIO_MAX_SAMPLES</a>&#160;&#160;&#160;<a class="el" href="#a58e80361cf95d18afbe8f25713f4cdc6">AUDIO_SAMPLES</a></td></tr>
+<tr class="separator:aa3fceeaa541b55ebf2971194bad1721b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae21b4ca9784cdc3629e701e21613caa2" id="r_ae21b4ca9784cdc3629e701e21613caa2"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae21b4ca9784cdc3629e701e21613caa2">AUDIO_COMMAND_LIST_BUFFER_SIZE</a>&#160;&#160;&#160;0x4000</td></tr>
 <tr class="separator:ae21b4ca9784cdc3629e701e21613caa2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8b005f58dd2cfd23a961529b05bede5d" id="r_a8b005f58dd2cfd23a961529b05bede5d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8b005f58dd2cfd23a961529b05bede5d">ADPCMFBYTES</a>&#160;&#160;&#160;9</td></tr>
@@ -6570,6 +6574,22 @@ unk__05</td>
 
 </div>
 </div>
+<a id="a6acccd72cfae7d930f49ab8c974fa5a5" name="a6acccd72cfae7d930f49ab8c974fa5a5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6acccd72cfae7d930f49ab8c974fa5a5">&#9670;&#160;</a></span>AUDIO_FRAMES_PER_SECOND</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define AUDIO_FRAMES_PER_SECOND&#160;&#160;&#160;60</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="25f00__len__940_8c.html#aad79c00dd40a1521f4b16cac6d1b27f7">create_audio_system()</a>.</p>
+
+</div>
+</div>
 <a id="a47ad0c17ca696e995e47dad8177b3def" name="a47ad0c17ca696e995e47dad8177b3def"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a47ad0c17ca696e995e47dad8177b3def">&#9670;&#160;</a></span>AUDIO_HEAP_SIZE</h2>
 
@@ -6586,6 +6606,22 @@ unk__05</td>
 
 </div>
 </div>
+<a id="aa3fceeaa541b55ebf2971194bad1721b" name="aa3fceeaa541b55ebf2971194bad1721b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa3fceeaa541b55ebf2971194bad1721b">&#9670;&#160;</a></span>AUDIO_MAX_SAMPLES</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define AUDIO_MAX_SAMPLES&#160;&#160;&#160;<a class="el" href="#a58e80361cf95d18afbe8f25713f4cdc6">AUDIO_SAMPLES</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="25f00__len__940_8c.html#aad79c00dd40a1521f4b16cac6d1b27f7">create_audio_system()</a>, and <a class="el" href="25f00__len__940_8c.html#aba7ddac34fdd63eea1165d1014ce685c">nuAuMgr()</a>.</p>
+
+</div>
+</div>
 <a id="a58e80361cf95d18afbe8f25713f4cdc6" name="a58e80361cf95d18afbe8f25713f4cdc6"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a58e80361cf95d18afbe8f25713f4cdc6">&#9670;&#160;</a></span>AUDIO_SAMPLES</h2>
 
@@ -6598,7 +6634,7 @@ unk__05</td>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="31650_8c.html#a52f6abfe85fbde7b4b5dec5982f5fee6">alAudioFrame()</a>, <a class="el" href="31650_8c.html#ac7cfba8a9b43600ad9070828332e98f1">au_delay_channel()</a>, <a class="el" href="31650_8c.html#aeac6fabbb9e9893b4cb515a3087039db">au_delay_left_channel()</a>, <a class="el" href="31650_8c.html#a27ab5262e8e0dca5f83f66fd04bcc423">au_delay_right_channel()</a>, <a class="el" href="31650_8c.html#a436ba0aaa57fa271a1c41a6d132eff7d">au_driver_init()</a>, <a class="el" href="private_8h.html#aac9c3a1fe20ef596fcc08761838123e1">au_pull_fx()</a>, <a class="el" href="33450_8c.html#adb326fdf72fb98c34176eac59a698c45">au_pull_voice()</a>, <a class="el" href="2e230__len__2190_8c.html#af57a65a92d86616cdbb2c28d39622e52">au_reset_nonfree_voice()</a>, <a class="el" href="2e230__len__2190_8c.html#a0ced5df485294e7da49b028481f8e978">au_reset_voice()</a>, <a class="el" href="2d9a0__len__890_8c.html#a7bf2a61988654f48ae349de775f922bc">au_update_voices()</a>, <a class="el" href="2d9a0__len__890_8c.html#a9abe874c96754b87a3ae613700c65b46">au_voice_get_delta()</a>, <a class="el" href="25f00__len__940_8c.html#aad79c00dd40a1521f4b16cac6d1b27f7">create_audio_system()</a>, <a class="el" href="private_8h.html#a2fd1875d4c4e01315e0e9a845b20049a">func_8005904C()</a>, and <a class="el" href="25f00__len__940_8c.html#aba7ddac34fdd63eea1165d1014ce685c">nuAuMgr()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="31650_8c.html#a52f6abfe85fbde7b4b5dec5982f5fee6">alAudioFrame()</a>, <a class="el" href="31650_8c.html#ac7cfba8a9b43600ad9070828332e98f1">au_delay_channel()</a>, <a class="el" href="31650_8c.html#aeac6fabbb9e9893b4cb515a3087039db">au_delay_left_channel()</a>, <a class="el" href="31650_8c.html#a27ab5262e8e0dca5f83f66fd04bcc423">au_delay_right_channel()</a>, <a class="el" href="31650_8c.html#a436ba0aaa57fa271a1c41a6d132eff7d">au_driver_init()</a>, <a class="el" href="private_8h.html#aac9c3a1fe20ef596fcc08761838123e1">au_pull_fx()</a>, <a class="el" href="33450_8c.html#adb326fdf72fb98c34176eac59a698c45">au_pull_voice()</a>, <a class="el" href="2e230__len__2190_8c.html#af57a65a92d86616cdbb2c28d39622e52">au_reset_nonfree_voice()</a>, <a class="el" href="2e230__len__2190_8c.html#a0ced5df485294e7da49b028481f8e978">au_reset_voice()</a>, <a class="el" href="2d9a0__len__890_8c.html#a7bf2a61988654f48ae349de775f922bc">au_update_voices()</a>, <a class="el" href="2d9a0__len__890_8c.html#a9abe874c96754b87a3ae613700c65b46">au_voice_get_delta()</a>, <a class="el" href="25f00__len__940_8c.html#aad79c00dd40a1521f4b16cac6d1b27f7">create_audio_system()</a>, and <a class="el" href="private_8h.html#a2fd1875d4c4e01315e0e9a845b20049a">func_8005904C()</a>.</p>
 
 </div>
 </div>
