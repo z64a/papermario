@@ -22,7 +22,7 @@ var searchData=
   ['watersplash_19',['waterSplash',['../effects_8h.html#a91e59a472a318db2ca09b5bfad2027f0',1,'EffectInstanceDataPtr']]],
   ['wattattackpalettesanim_20',['WattAttackPalettesAnim',['../actor__rendering_8c.html#a87e58f3164abaa959da545d92c36fd39',1,'actor_rendering.c']]],
   ['wavdatalength_21',['wavDataLength',['../audio_8h.html#a63e1d321210e57b5ce2843f52c1d3115',1,'Instrument']]],
-  ['wavy_22',['wavy',['../imgfx_8c.html#af2ecc6c17ea78ff4b71c7b72449c47f7',1,'ImgFXIntVars::wavy'],['../imgfx_8c.html#a5ff463446a446525b92e094635a9e2fd',1,'ImgFXFloatVars::wavy']]],
+  ['wavy_22',['wavy',['../imgfx_8c.html#adac706022d9b02acf66ab998253c3e77',1,'ImgFXIntVars::wavy'],['../imgfx_8c.html#a6983158869a686e77629a6265299f77d',1,'ImgFXFloatVars::wavy']]],
   ['wbackgroundtintmode_23',['wBackgroundTintMode',['../model_8c.html#a354e52bd90f43764f5951dd0d8aff535',1,'model.c']]],
   ['wcurrentpartnerid_24',['wCurrentPartnerId',['../partners_8c.html#ab0cbebde613d7ac5914d32a54265d7cf',1,'partners.c']]],
   ['wcustommodelgfx_25',['wCustomModelGfx',['../model_8c.html#af4eefaf899395d55398cc7fbed0d13bf',1,'model.c']]],

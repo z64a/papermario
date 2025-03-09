@@ -1,8 +1,8 @@
 var NAVTREEINDEX381 =
 {
 "world_2area__nok_2nok__02_2main_8c.html":[2,0,1,10,19,2,6],
-"world_2area__nok_2nok__02_2main_8c.html#a02c6d39594a3aa893a4c7c5729890618":[2,0,1,10,19,2,6,0],
 "world_2area__nok_2nok__02_2main_8c.html#a02c6d39594a3aa893a4c7c5729890618":[2,0,1,10,19,2,6,1],
+"world_2area__nok_2nok__02_2main_8c.html#a02c6d39594a3aa893a4c7c5729890618":[2,0,1,10,19,2,6,0],
 "world_2area__nok_2nok__02_2npc_8c.html":[2,0,1,10,19,2,9],
 "world_2area__nok_2nok__02_2npc_8c.html#a819c5e86948b52f9298addc259f04d9a":[2,0,1,10,19,2,9,0],
 "world_2area__nok_2nok__02_2npc_8c.html#af0156a3b22d684db60cd6c6db30fa7e7":[2,0,1,10,19,2,9,1],
