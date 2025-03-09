@@ -312,7 +312,7 @@ var searchData=
   ['prevactionstate_309',['prevActionState',['../common__structs_8h.html#a484b09624358406ac75c29c732daeac1',1,'PlayerStatus::prevActionState'],['../common__structs_8h.html#a9b946112be25aa2460263107dd2ede32',1,'PlayerSpinState::prevActionState']]],
   ['prevalpha_310',['prevAlpha',['../common__structs_8h.html#a0d773be7a80b28773007a451d47b24e7',1,'PlayerStatus']]],
   ['prevarea_311',['prevArea',['../common__structs_8h.html#a41b818db107674400e2a1c1a89a4afc9',1,'GameStatus']]],
-  ['prevbutton_312',['prevButton',['../action__cmd_8h.html#a0d94204b3b220c99dd819e0e0188d654',1,'ActionCommandStatus.__unnamed103__.tidalWave']]],
+  ['prevbutton_312',['prevButton',['../action__cmd_8h.html#a0d94204b3b220c99dd819e0e0188d654',1,'ActionCommandStatus.__unnamed102__.tidalWave']]],
   ['prevbuttons_313',['prevButtons',['../common__structs_8h.html#a7dc7aff76416ae1d2dea36513b076676',1,'GameStatus']]],
   ['prevbuttons_314',['PrevButtons',['../spiny__surge_8c.html#a1300197a55e04d41d1735a41b8b91ec3',1,'spiny_surge.c']]],
   ['preventbgmplayerupdate_315',['PreventBGMPlayerUpdate',['../audio_8h.html#a9dbe215bf88872791e1a34642da3ae9e',1,'PreventBGMPlayerUpdate:&#160;30450.c'],['../30450_8c.html#a9dbe215bf88872791e1a34642da3ae9e',1,'PreventBGMPlayerUpdate:&#160;30450.c']]],

@@ -93,7 +93,7 @@ var searchData=
   ['inputbuffer_90',['inputBuffer',['../phonograph_8c.html#a79e2ddee5a6d449af08f6faae7164aae',1,'PhonographData']]],
   ['inputbufferpos_91',['inputBufferPos',['../structBattleStatus.html#a872f812f4989a0021f7043809dfd261b',1,'BattleStatus::inputBufferPos'],['../phonograph_8c.html#ad23dab82473916d7369ca717dddceaa5',1,'PhonographData::inputBufferPos']]],
   ['inputbufpos_92',['inputBufPos',['../common__structs_8h.html#a39bb9ed6794681897674d91503741ce1',1,'PlayerStatus']]],
-  ['inputcount_93',['inputCount',['../action__cmd_8h.html#a2476191932897a325a00a9a6b6b0f32d',1,'ActionCommandStatus.__unnamed103__.tidalWave']]],
+  ['inputcount_93',['inputCount',['../action__cmd_8h.html#a2476191932897a325a00a9a6b6b0f32d',1,'ActionCommandStatus.__unnamed102__.tidalWave']]],
   ['inputdisabledcount_94',['inputDisabledCount',['../common__structs_8h.html#af6130e83c7d63be4d528f2db098e9683',1,'PlayerStatus::inputDisabledCount'],['../common__structs_8h.html#a1a3c0a36034ef2bab7f153b5559bfa80',1,'PartnerStatus::inputDisabledCount']]],
   ['inputmagnitude_95',['inputMagnitude',['../common__structs_8h.html#aba6f5234e1044795a256c25be009a9ce',1,'PlayerSpinState']]],
   ['ins_96',['ins',['../audio_8h.html#ae22be71e65f5674e62429c1b1ae34911',1,'SeqNote']]],

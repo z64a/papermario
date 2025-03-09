@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['hadcorrecttiming_0',['hadCorrectTiming',['../action__cmd_8h.html#aca62f50c01e67f6d850d8915028b7938',1,'ActionCommandStatus.__unnamed103__.threeChances']]],
+  ['hadcorrecttiming_0',['hadCorrectTiming',['../action__cmd_8h.html#aca62f50c01e67f6d850d8915028b7938',1,'ActionCommandStatus.__unnamed102__.threeChances']]],
   ['halfheight_1',['halfHeight',['../npc_8h.html#aac85db8bdf040fc9573bf904cf9031bb',1,'EnemyDetectVolume']]],
   ['halfsizex_2',['halfSizeX',['../model_8h.html#a3f41cad50dffd64f2abd4095ee50f8a1',1,'ModelBoundingBox']]],
   ['halfsizey_3',['halfSizeY',['../model_8h.html#afd36d96d86621265fb5831bf1129d3c9',1,'ModelBoundingBox']]],
@@ -577,12 +577,12 @@ var searchData=
   ['hittype_574',['hitType',['../npc_8h.html#a69f8d717b75cb22052dd17794c0ff190',1,'EncounterStatus']]],
   ['hitwalltime_575',['hitWallTime',['../common__structs_8h.html#a65b5f9111260892d3e6fef12e6d99327',1,'PlayerSpinState']]],
   ['hold_576',['hold',['../actions_8h.html#a55dc48098dcefa95e5a49173884dccf5',1,'DisguiseAnims']]],
-  ['holdingleft_577',['holdingLeft',['../action__cmd_8h.html#a97ec895dad1887ac211f3ecbc981bee0',1,'ActionCommandStatus.__unnamed103__.airRaid::holdingLeft'],['../action__cmd_8h.html#a97ec895dad1887ac211f3ecbc981bee0',1,'ActionCommandStatus.__unnamed103__.fireShell::holdingLeft'],['../action__cmd_8h.html#a97ec895dad1887ac211f3ecbc981bee0',1,'ActionCommandStatus.__unnamed103__.smack::holdingLeft'],['../action__cmd_8h.html#a97ec895dad1887ac211f3ecbc981bee0',1,'ActionCommandStatus.__unnamed103__.spook::holdingLeft']]],
+  ['holdingleft_577',['holdingLeft',['../action__cmd_8h.html#a97ec895dad1887ac211f3ecbc981bee0',1,'ActionCommandStatus.__unnamed102__.airRaid::holdingLeft'],['../action__cmd_8h.html#a97ec895dad1887ac211f3ecbc981bee0',1,'ActionCommandStatus.__unnamed102__.fireShell::holdingLeft'],['../action__cmd_8h.html#a97ec895dad1887ac211f3ecbc981bee0',1,'ActionCommandStatus.__unnamed102__.smack::holdingLeft'],['../action__cmd_8h.html#a97ec895dad1887ac211f3ecbc981bee0',1,'ActionCommandStatus.__unnamed102__.spook::holdingLeft']]],
   ['holdinputbuffer_578',['holdInputBuffer',['../structBattleStatus.html#a37e713fb551c69fb2a2a6b3a5612dc05',1,'BattleStatus']]],
   ['holdinputbufferpos_579',['holdInputBufferPos',['../structBattleStatus.html#a784e1cbb91905e9639ce7b95558890f8',1,'BattleStatus']]],
   ['holdmode_580',['holdMode',['../common__structs_8h.html#ae392694e441c51673f642addcd157dbb',1,'CreditsEntry::holdMode'],['../common__structs_8h.html#a121f2f31956c2ba71c350aa205b85c4f',1,'CreditsLine::holdMode']]],
   ['holdtime_581',['holdTime',['../common__structs_8h.html#aabc482e390d9275927890bfc8424aeb0',1,'CreditsEntry::holdTime'],['../common__structs_8h.html#adf6d20761d7e1f35e44328767a4a8bb8',1,'CreditsLine::holdTime'],['../common__structs_8h.html#a91046e78f2b4ae75bda70ed5e3aeedf1',1,'SpeechBubbleData::holdTime'],['../inspect__icon_8c.html#a34bbef07df179a05ebea7469bfc006bd',1,'InspectIconData::holdTime']]],
-  ['hologram_582',['hologram',['../imgfx_8c.html#a5311431d84ec0f6cd9dc257abebc564c',1,'ImgFXIntVars']]],
+  ['hologram_582',['hologram',['../imgfx_8c.html#ab7d7baa97753232ddb9d8568b324c1fb',1,'ImgFXIntVars']]],
   ['home_583',['home',['../src_2battle_2battle_8h.html#a4e06d8c5205df98556703ef006853faa',1,'FormationRow']]],
   ['homepos_584',['homePos',['../structNpc.html#ad9c1a49eefddb510d179ddf5e21ce9f2',1,'Npc::homePos'],['../common__structs_8h.html#a8d7151b1987bd434f180139dc07b4a80',1,'Actor::homePos']]],
   ['horizontal_5fpipe_5fcurl_5fheader_585',['horizontal_pipe_curl_header',['../imgfx_8c.html#a9dc3a8c70b754451fa2442da9554d97c',1,'imgfx.c']]],

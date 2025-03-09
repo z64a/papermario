@@ -86,7 +86,7 @@ var searchData=
   ['watteffectdata_83',['WattEffectData',['../effects_8h.html#structWattEffectData',1,'']]],
   ['wavdatalength_84',['wavDataLength',['../audio_8h.html#a63e1d321210e57b5ce2843f52c1d3115',1,'Instrument']]],
   ['wavedata_85',['WaveData',['../audio_8h.html#a792fbd05e36fc8da7f5c6a3bf988395f',1,'audio.h']]],
-  ['wavy_86',['wavy',['../imgfx_8c.html#adac706022d9b02acf66ab998253c3e77',1,'ImgFXIntVars::wavy'],['../imgfx_8c.html#a6983158869a686e77629a6265299f77d',1,'ImgFXFloatVars::wavy']]],
+  ['wavy_86',['wavy',['../imgfx_8c.html#af2ecc6c17ea78ff4b71c7b72449c47f7',1,'ImgFXIntVars::wavy'],['../imgfx_8c.html#a5ff463446a446525b92e094635a9e2fd',1,'ImgFXFloatVars::wavy']]],
   ['wbackgroundtintmode_87',['wBackgroundTintMode',['../model_8c.html#a354e52bd90f43764f5951dd0d8aff535',1,'model.c']]],
   ['wcurrentpartnerid_88',['wCurrentPartnerId',['../partners_8c.html#ab0cbebde613d7ac5914d32a54265d7cf',1,'partners.c']]],
   ['wcustommodelgfx_89',['wCustomModelGfx',['../model_8c.html#af4eefaf899395d55398cc7fbed0d13bf',1,'model.c']]],
