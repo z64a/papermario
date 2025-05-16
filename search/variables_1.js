@@ -1,8 +1,8 @@
 var searchData=
 [
   ['a_0',['a',['../common__structs_8h.html#a6e53f664902eb8109bee19d95f500da5',1,'Color_RGBA8::a'],['../common__structs_8h.html#afc14f1ba1e29b0cad19b577fbe7cb998',1,'Color4f::a'],['../common__structs_8h.html#a3b8e93fc3e1ad6c43e8adc80316d1f57',1,'Color4i::a'],['../imgfx_8c.html#a0cc175b9c0f1b6a831c399e269772661',1,'ImgFXIntVars.color::a']]],
-  ['aabb_1',['aabb',['../structEntity.html#a4ea3c41f0354abe35735c4440b24b425',1,'Entity::aabb'],['../common__structs_8h.html#a5e394281dfac81c1e7dddcaf4d35d1f6',1,'Collider.__unnamed26__::aabb']]],
-  ['aabbs_2',['aabbs',['../common__structs_8h.html#a9f7cf42e0dad89e417c4df57fa80ba25',1,'CollisionData.__unnamed28__']]],
+  ['aabb_1',['aabb',['../structEntity.html#a4ea3c41f0354abe35735c4440b24b425',1,'Entity::aabb'],['../common__structs_8h.html#a5e394281dfac81c1e7dddcaf4d35d1f6',1,'Collider.__unnamed24__::aabb']]],
+  ['aabbs_2',['aabbs',['../common__structs_8h.html#a9f7cf42e0dad89e417c4df57fa80ba25',1,'CollisionData.__unnamed26__']]],
   ['aabbsize_3',['aabbSize',['../structEntityBlueprint.html#a314ca9f9e81fe2b1d7d83e5cf501f74e',1,'EntityBlueprint::aabbSize'],['../structShadowBlueprint.html#a57ca5317e699cc1a18d6e9cf1c93270c',1,'ShadowBlueprint::aabbSize']]],
   ['absolutepos_4',['absolutePos',['../common__structs_8h.html#afeee643b560545d6ae52a44ffdaa83a3',1,'ActorPartMovement::absolutePos'],['../common__structs_8h.html#ad4296e5dfba4a30c2435e597b5e0e72f',1,'ActorPart::absolutePos']]],
   ['accel_5',['accel',['../common__structs_8h.html#a9d58e04c6afe0216e444ad88cbc90f28',1,'Message']]],
@@ -86,7 +86,7 @@ var searchData=
   ['aidetectflags_83',['aiDetectFlags',['../npc_8h.html#a1fe5dc9b9eff1d350fcfc165dcc85650',1,'NpcData::aiDetectFlags'],['../npc_8h.html#ab10c31b30195d948701f36334d544cd0',1,'Enemy::aiDetectFlags']]],
   ['aiflags_84',['aiFlags',['../npc_8h.html#a37d25da3a9246cba3e7d73ac7c82eb91',1,'NpcData::aiFlags'],['../npc_8h.html#acb92fb237d433acc2a2416a534bb851a',1,'Enemy::aiFlags']]],
   ['airliftchance_85',['airLiftChance',['../src_2battle_2battle_8h.html#a7dda95aef49feb694e18b9b630fbdebb',1,'ActorBlueprint']]],
-  ['airraid_86',['airRaid',['../action__cmd_8h.html#a217626ca3fd488c8768295d0e0af4d53',1,'ActionCommandStatus.__unnamed104__']]],
+  ['airraid_86',['airRaid',['../action__cmd_8h.html#a217626ca3fd488c8768295d0e0af4d53',1,'ActionCommandStatus.__unnamed102__']]],
   ['aiscript_87',['aiScript',['../npc_8h.html#af87f4fdf67ef6a1cad083796b0c25371',1,'Enemy']]],
   ['aiscriptid_88',['aiScriptID',['../npc_8h.html#aa2ae88eba11bef5224702bde95664163',1,'Enemy']]],
   ['aisuspendtime_89',['aiSuspendTime',['../npc_8h.html#a78db8761ef623ee4b2810c291bd94698',1,'Enemy']]],
@@ -163,7 +163,7 @@ var searchData=
   ['animstatescaley_160',['animStateScaleY',['../entity_8h.html#abd4164e418d6a359bd3ea9ae1168331d',1,'SwitchData']]],
   ['animtime_161',['animTime',['../effects_8h.html#a52921d5542074b68a2eee7411ab980c0',1,'FireBreathFXData::animTime'],['../effects_8h.html#a440c0cfaf989df91dc98687975f4d8cf',1,'MiscParticlesFXData::animTime'],['../effects_8h.html#a5dafd04e77c10790d264ce8eea07e16c',1,'LilOinkFXData::animTime'],['../status__star__shimmer_8c.html#a654f10f06351f56faddad3aa920d2cd6',1,'ShimmerParticle::animTime']]],
   ['animtimers_162',['animTimers',['../common__structs_8h.html#a635d60a4764af4ac9a240407e8c1f10c',1,'MessagePrintState']]],
-  ['any_163',['any',['../common__structs_8h.html#a4977bb01770343455622c436319bd29c',1,'EntityData::any'],['../effects_8h.html#addf1eb504bdb9ed6a8c2d1eab5a875b0',1,'EffectInstanceDataPtr::any'],['../common__structs_8h.html#a100b8cad7cf2a56f6df78f171f97a1ec',1,'Npc.blur::any'],['../action__cmd_8h.html#a100b8cad7cf2a56f6df78f171f97a1ec',1,'ActionCommandStatus.__unnamed104__::any']]],
+  ['any_163',['any',['../common__structs_8h.html#a4977bb01770343455622c436319bd29c',1,'EntityData::any'],['../effects_8h.html#addf1eb504bdb9ed6a8c2d1eab5a875b0',1,'EffectInstanceDataPtr::any'],['../common__structs_8h.html#a100b8cad7cf2a56f6df78f171f97a1ec',1,'Npc.blur::any'],['../action__cmd_8h.html#a100b8cad7cf2a56f6df78f171f97a1ec',1,'ActionCommandStatus.__unnamed102__::any']]],
   ['appeardelay_164',['appearDelay',['../effects_8h.html#aaa2deac9a35eda7c8fb4538d32a7bdc3',1,'TubbaHeartAttackFXData::appearDelay'],['../pulse__stone_8c.html#a2616b648e1a0d4f2ded991da21de7b04',1,'PulseStoneData::appearDelay']]],
   ['appearmode_165',['appearMode',['../common__structs_8h.html#aa7dbe704dfa95cf64d0bed8965e25618',1,'CreditsEntry::appearMode'],['../common__structs_8h.html#a4d4a0f752bf5ba8cf2f9cf0f518d368a',1,'CreditsLine::appearMode']]],
   ['appearscalepct_166',['AppearScalePct',['../tubba__heart__attack_8c.html#a3dd36ad920bf09546050e8b767309960',1,'tubba_heart_attack.c']]],

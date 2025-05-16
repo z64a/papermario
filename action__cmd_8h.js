@@ -31,7 +31,7 @@ var action__cmd_8h =
       [ "wrongButtonPressed", "action__cmd_8h.html#abb3c15ac99165b7c4c9b2f5bc1bb46e3", null ],
       [ "wrongInputFrameCounter", "action__cmd_8h.html#a0774fb6821fb5a9d5ea83bee2f5f5d4f", null ]
     ] ],
-    [ "ActionCommandStatus.__unnamed104__", "action__cmd_8h.html#unionActionCommandStatus_8____unnamed104____", [
+    [ "ActionCommandStatus.__unnamed102__", "action__cmd_8h.html#unionActionCommandStatus_8____unnamed102____", [
       [ "airRaid", "action__cmd_8h.html#a217626ca3fd488c8768295d0e0af4d53", null ],
       [ "any", "action__cmd_8h.html#a100b8cad7cf2a56f6df78f171f97a1ec", null ],
       [ "breakFree", "action__cmd_8h.html#a64eb5aa3f2a95727d1529acaac3eb825", null ],
@@ -44,44 +44,44 @@ var action__cmd_8h =
       [ "threeChances", "action__cmd_8h.html#a4f306dde92a8942b5ad7c302017e1db7", null ],
       [ "tidalWave", "action__cmd_8h.html#aeba90977c7f01c03356e265d14a0a4a9", null ]
     ] ],
-    [ "ActionCommandStatus.__unnamed104__.any", "action__cmd_8h.html#structActionCommandStatus_8____unnamed104_____8any", [
+    [ "ActionCommandStatus.__unnamed102__.any", "action__cmd_8h.html#structActionCommandStatus_8____unnamed102_____8any", [
       [ "unk_5C", "action__cmd_8h.html#aa90e1492c75ce27e272cdb3eadfabe74", null ],
       [ "unk_5D", "action__cmd_8h.html#a4681c42e566eb74e635f71362faf6299", null ]
     ] ],
-    [ "ActionCommandStatus.__unnamed104__.airRaid", "action__cmd_8h.html#structActionCommandStatus_8____unnamed104_____8airRaid", [
+    [ "ActionCommandStatus.__unnamed102__.airRaid", "action__cmd_8h.html#structActionCommandStatus_8____unnamed102_____8airRaid", [
       [ "holdingLeft", "action__cmd_8h.html#a97ec895dad1887ac211f3ecbc981bee0", null ]
     ] ],
-    [ "ActionCommandStatus.__unnamed104__.breakFree", "action__cmd_8h.html#structActionCommandStatus_8____unnamed104_____8breakFree", [
+    [ "ActionCommandStatus.__unnamed102__.breakFree", "action__cmd_8h.html#structActionCommandStatus_8____unnamed102_____8breakFree", [
       [ "dir", "action__cmd_8h.html#a736007832d2167baaae763fd3a3f3cf1", null ]
     ] ],
-    [ "ActionCommandStatus.__unnamed104__.fireShell", "action__cmd_8h.html#structActionCommandStatus_8____unnamed104_____8fireShell", [
+    [ "ActionCommandStatus.__unnamed102__.fireShell", "action__cmd_8h.html#structActionCommandStatus_8____unnamed102_____8fireShell", [
       [ "holdingLeft", "action__cmd_8h.html#a97ec895dad1887ac211f3ecbc981bee0", null ]
     ] ],
-    [ "ActionCommandStatus.__unnamed104__.flee", "action__cmd_8h.html#structActionCommandStatus_8____unnamed104_____8flee", [
+    [ "ActionCommandStatus.__unnamed102__.flee", "action__cmd_8h.html#structActionCommandStatus_8____unnamed102_____8flee", [
       [ "dir", "action__cmd_8h.html#a736007832d2167baaae763fd3a3f3cf1", null ],
       [ "drainDelay", "action__cmd_8h.html#a1379016b475879ddf3d2ce6cc462c6ba", null ]
     ] ],
-    [ "ActionCommandStatus.__unnamed104__.smack", "action__cmd_8h.html#structActionCommandStatus_8____unnamed104_____8smack", [
+    [ "ActionCommandStatus.__unnamed102__.smack", "action__cmd_8h.html#structActionCommandStatus_8____unnamed102_____8smack", [
       [ "holdingLeft", "action__cmd_8h.html#a97ec895dad1887ac211f3ecbc981bee0", null ]
     ] ],
-    [ "ActionCommandStatus.__unnamed104__.spinySurge", "action__cmd_8h.html#structActionCommandStatus_8____unnamed104_____8spinySurge", [
+    [ "ActionCommandStatus.__unnamed102__.spinySurge", "action__cmd_8h.html#structActionCommandStatus_8____unnamed102_____8spinySurge", [
       [ "tossState", "action__cmd_8h.html#a6e65fc4e99e55751e9a5dd47fa19b578", null ]
     ] ],
-    [ "ActionCommandStatus.__unnamed104__.spook", "action__cmd_8h.html#structActionCommandStatus_8____unnamed104_____8spook", [
+    [ "ActionCommandStatus.__unnamed102__.spook", "action__cmd_8h.html#structActionCommandStatus_8____unnamed102_____8spook", [
       [ "holdingLeft", "action__cmd_8h.html#a97ec895dad1887ac211f3ecbc981bee0", null ]
     ] ],
-    [ "ActionCommandStatus.__unnamed104__.squirt", "action__cmd_8h.html#structActionCommandStatus_8____unnamed104_____8squirt", [
+    [ "ActionCommandStatus.__unnamed102__.squirt", "action__cmd_8h.html#structActionCommandStatus_8____unnamed102_____8squirt", [
       [ "draining", "action__cmd_8h.html#a5591c55cc1f76766490b4d83ba657c95", null ]
     ] ],
-    [ "ActionCommandStatus.__unnamed104__.threeChances", "action__cmd_8h.html#structActionCommandStatus_8____unnamed104_____8threeChances", [
+    [ "ActionCommandStatus.__unnamed102__.threeChances", "action__cmd_8h.html#structActionCommandStatus_8____unnamed102_____8threeChances", [
       [ "hadCorrectTiming", "action__cmd_8h.html#aca62f50c01e67f6d850d8915028b7938", null ],
       [ "time", "action__cmd_8h.html#a07cc694b9b3fc636710fa08b6922c42b", null ]
     ] ],
-    [ "ActionCommandStatus.__unnamed104__.tidalWave", "action__cmd_8h.html#structActionCommandStatus_8____unnamed104_____8tidalWave", [
+    [ "ActionCommandStatus.__unnamed102__.tidalWave", "action__cmd_8h.html#structActionCommandStatus_8____unnamed102_____8tidalWave", [
       [ "inputCount", "action__cmd_8h.html#a2476191932897a325a00a9a6b6b0f32d", null ],
       [ "prevButton", "action__cmd_8h.html#a0d94204b3b220c99dd819e0e0188d654", null ]
     ] ],
-    [ "ActionCommandStatus.__unnamed106__", "action__cmd_8h.html#unionActionCommandStatus_8____unnamed106____", [
+    [ "ActionCommandStatus.__unnamed104__", "action__cmd_8h.html#unionActionCommandStatus_8____unnamed104____", [
       [ "statusChance", "action__cmd_8h.html#ac0402b60984614700dc5b0bb76674949", null ],
       [ "variation", "action__cmd_8h.html#a64037a31cae3aa224737c3dcdfb7bd46", null ]
     ] ],
@@ -93,14 +93,14 @@ var action__cmd_8h =
     [ "PCT_TO_TABLE_RATE", "action__cmd_8h.html#aad273ebac3b5991fea678fd8450d8c1d", null ],
     [ "SCALE_BY_PCT", "action__cmd_8h.html#a75dd8e4bae07a999bc8965deb8709d08", null ],
     [ "ActionCommandDifficulty", "action__cmd_8h.html#a27b10b92f74e2964130eecab8545c9a6", [
-      [ "AC_DIFFICULTY_0", "action__cmd_8h.html#a27b10b92f74e2964130eecab8545c9a6a3f288d377d431472db68c0bffb102db7", null ],
-      [ "AC_DIFFICULTY_1", "action__cmd_8h.html#a27b10b92f74e2964130eecab8545c9a6a41d68faacacbb2e307d741ee69df2b22", null ],
-      [ "AC_DIFFICULTY_2", "action__cmd_8h.html#a27b10b92f74e2964130eecab8545c9a6a28ca75d89b5896b095c287170d86274f", null ],
-      [ "AC_DIFFICULTY_3", "action__cmd_8h.html#a27b10b92f74e2964130eecab8545c9a6a9b909882f3bc22829fb1488b39511536", null ],
-      [ "AC_DIFFICULTY_4", "action__cmd_8h.html#a27b10b92f74e2964130eecab8545c9a6aa6a227f46daae9ad9b3de36c5134f147", null ],
-      [ "AC_DIFFICULTY_5", "action__cmd_8h.html#a27b10b92f74e2964130eecab8545c9a6ab1ad5356e14ba76adef29fe304399c0c", null ],
-      [ "AC_DIFFICULTY_6", "action__cmd_8h.html#a27b10b92f74e2964130eecab8545c9a6aa9894800bd4e3a1bc97a797e48097c76", null ],
-      [ "AC_DIFFICULTY_7", "action__cmd_8h.html#a27b10b92f74e2964130eecab8545c9a6a312cefd6b770d2dc9bb74dc929b0208b", null ]
+      [ "AC_DIFFICULTY_EASIEST", "action__cmd_8h.html#a27b10b92f74e2964130eecab8545c9a6a69acaa82420e19a1a37e33aa6972c5df", null ],
+      [ "AC_DIFFICULTY_VERY_EASY", "action__cmd_8h.html#a27b10b92f74e2964130eecab8545c9a6af0109fdc2dda2eeaf019aadd2b17c13e", null ],
+      [ "AC_DIFFICULTY_EASY", "action__cmd_8h.html#a27b10b92f74e2964130eecab8545c9a6af6f9a865091670c01e9cb3ffa0693282", null ],
+      [ "AC_DIFFICULTY_STANDARD", "action__cmd_8h.html#a27b10b92f74e2964130eecab8545c9a6a0a4a0d12fb6f1f9c3972d9d60e52498e", null ],
+      [ "AC_DIFFICULTY_HARDER", "action__cmd_8h.html#a27b10b92f74e2964130eecab8545c9a6aad96bb1fe4f8adb134d254932362690d", null ],
+      [ "AC_DIFFICULTY_HARD", "action__cmd_8h.html#a27b10b92f74e2964130eecab8545c9a6a3b77ef8d187b650d54aca03041c1fcf6", null ],
+      [ "AC_DIFFICULTY_VERY_HARD", "action__cmd_8h.html#a27b10b92f74e2964130eecab8545c9a6ae923b969f4dfb3adbd81d13031a716f7", null ],
+      [ "AC_DIFFICULTY_HARDEST", "action__cmd_8h.html#a27b10b92f74e2964130eecab8545c9a6a01ad65b1a952d1596911d8560a0d100a", null ]
     ] ],
     [ "ActionCommandModes", "action__cmd_8h.html#aea8bd12e5a52dc30b8802c20efc88e08", [
       [ "AC_MODE_TUTORIAL_BLOCK", "action__cmd_8h.html#aea8bd12e5a52dc30b8802c20efc88e08a746a63aea9b680d8bcdbd30d5d0d6449", null ],

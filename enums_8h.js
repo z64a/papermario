@@ -2395,7 +2395,7 @@ var enums_8h =
     ] ],
     [ "MsgChars", "enums_8h.html#af9e68a4fef9bebab6c9dcf27a6874e54", [
       [ "MSG_CHAR_NOTE", "enums_8h.html#af9e68a4fef9bebab6c9dcf27a6874e54a76d7316503c0a93b4cc286e0bfc4c641", null ],
-      [ "MSG_CHAR_EXCLAMTION", "enums_8h.html#af9e68a4fef9bebab6c9dcf27a6874e54a3a76a5d8d50e54d0d532b85da537d9c5", null ],
+      [ "MSG_CHAR_EXCLAMATION", "enums_8h.html#af9e68a4fef9bebab6c9dcf27a6874e54ad3a49a7f78d1d83487b7160bab8c8e3d", null ],
       [ "MSG_CHAR_BACKSLASH", "enums_8h.html#af9e68a4fef9bebab6c9dcf27a6874e54a8bc357c64de0b26b1d6d3e26e920ae76", null ],
       [ "MSG_CHAR_HASH", "enums_8h.html#af9e68a4fef9bebab6c9dcf27a6874e54a9c63cce29abeef8a22e11f0c7d217541", null ],
       [ "MSG_CHAR_DOLLAR", "enums_8h.html#af9e68a4fef9bebab6c9dcf27a6874e54af7669302ff90c593e832bc002aa8092e", null ],
@@ -2535,7 +2535,7 @@ var enums_8h =
       [ "MSG_CHAR_LOWER_U_ACUTE", "enums_8h.html#af9e68a4fef9bebab6c9dcf27a6874e54a023ddc4e4325970749bfd1f098efc126", null ],
       [ "MSG_CHAR_LOWER_U_CIRCUMFLEX", "enums_8h.html#af9e68a4fef9bebab6c9dcf27a6874e54aee05a47d1639f56bb2d3eed4d32c5f15", null ],
       [ "MSG_CHAR_LOWER_U_UMLAUT", "enums_8h.html#af9e68a4fef9bebab6c9dcf27a6874e54a4f0d14432d7c2ade5ef6a7e130a9cbe1", null ],
-      [ "MSG_CHAR_INVERTED_EXCLAMTION", "enums_8h.html#af9e68a4fef9bebab6c9dcf27a6874e54a294ea3ee147cf1cf773435e88b0df859", null ],
+      [ "MSG_CHAR_INVERTED_EXCLAMATION", "enums_8h.html#af9e68a4fef9bebab6c9dcf27a6874e54ae8665452fe8dfae680d0a619ab017f91", null ],
       [ "MSG_CHAR_INVERTED_QUESTION", "enums_8h.html#af9e68a4fef9bebab6c9dcf27a6874e54ac28529f33ae7f06850e14b72dc2ea3de", null ],
       [ "MSG_CHAR_FEM_ORDINAL", "enums_8h.html#af9e68a4fef9bebab6c9dcf27a6874e54a9558d227ad5c917cf11c53feef186df0", null ],
       [ "MSG_CHAR_HEART", "enums_8h.html#af9e68a4fef9bebab6c9dcf27a6874e54a68911cc9a0f91fb0ed66dc6c6b2ff6f1", null ],

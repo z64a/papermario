@@ -153,9 +153,9 @@ var searchData=
   ['fx_5faura_5fcapture_150',['FX_AURA_CAPTURE',['../effects_8h.html#a77cb0b825fb2e02fb8cb9082d8f0663aa4e5564bc9082f018c5f48eb170ebc64d',1,'effects.h']]],
   ['fx_5faura_5fgold_151',['FX_AURA_GOLD',['../effects_8h.html#a77cb0b825fb2e02fb8cb9082d8f0663aa1bd030e03c8a00111050bc9d7cdc630a',1,'effects.h']]],
   ['fx_5faura_5fred_152',['FX_AURA_RED',['../effects_8h.html#a77cb0b825fb2e02fb8cb9082d8f0663aa26633967e874407457880dcb716954ed',1,'effects.h']]],
-  ['fx_5fbuff_5fdata_5fcloud_5fnine_153',['FX_BUFF_DATA_CLOUD_NINE',['../effects_8h.html#a06fc87d81c62e9abb8790b6e5713c55ba8d17af352888b93471aec32145e36308',1,'effects.h']]],
-  ['fx_5fbuff_5fdata_5fturbo_5fcharge_154',['FX_BUFF_DATA_TURBO_CHARGE',['../effects_8h.html#a06fc87d81c62e9abb8790b6e5713c55ba8026b886e086b77f1d15dcd331dcd9e3',1,'effects.h']]],
-  ['fx_5fbuff_5fdata_5fwater_5fblock_155',['FX_BUFF_DATA_WATER_BLOCK',['../effects_8h.html#a06fc87d81c62e9abb8790b6e5713c55baf041529ba0c92c6607612e878229e77c',1,'effects.h']]],
+  ['fx_5fbuff_5fdata_5fcloud_5fnine_153',['FX_BUFF_DATA_CLOUD_NINE',['../effects_8h.html#a1f9aebf1de3ebbf4283a4dcf73308562a8d17af352888b93471aec32145e36308',1,'effects.h']]],
+  ['fx_5fbuff_5fdata_5fturbo_5fcharge_154',['FX_BUFF_DATA_TURBO_CHARGE',['../effects_8h.html#a1f9aebf1de3ebbf4283a4dcf73308562a8026b886e086b77f1d15dcd331dcd9e3',1,'effects.h']]],
+  ['fx_5fbuff_5fdata_5fwater_5fblock_155',['FX_BUFF_DATA_WATER_BLOCK',['../effects_8h.html#a1f9aebf1de3ebbf4283a4dcf73308562af041529ba0c92c6607612e878229e77c',1,'effects.h']]],
   ['fx_5fbus_5fbgma_5faux_156',['FX_BUS_BGMA_AUX',['../audio_8h.html#a8ccd4a4a9d8fe1150433f751b684d655a550716362634e53aec98378d4f136afe',1,'audio.h']]],
   ['fx_5fbus_5fbgma_5fmain_157',['FX_BUS_BGMA_MAIN',['../audio_8h.html#a8ccd4a4a9d8fe1150433f751b684d655a34408114004d2de3db688e9a0e95d13f',1,'audio.h']]],
   ['fx_5fbus_5fbgmb_158',['FX_BUS_BGMB',['../audio_8h.html#a8ccd4a4a9d8fe1150433f751b684d655aff009061ee847ce19aaa414468fa9854',1,'audio.h']]],
@@ -190,8 +190,8 @@ var searchData=
   ['fx_5fstar_5fforeground_187',['FX_STAR_FOREGROUND',['../effects_8h.html#a4a47b34df8e94d0e26b5b5077e173498aa7c23fdb74c6c66d780236a77cb0fa98',1,'effects.h']]],
   ['fx_5fstar_5flarge_5fbouncing_188',['FX_STAR_LARGE_BOUNCING',['../effects_8h.html#a4a47b34df8e94d0e26b5b5077e173498a4bc43c91830a9c0cd8f80744f8f545df',1,'effects.h']]],
   ['fx_5fstar_5fsmall_5fbouncing_189',['FX_STAR_SMALL_BOUNCING',['../effects_8h.html#a4a47b34df8e94d0e26b5b5077e173498ad7f0a1c183e58345bf574a36b73b9bb8',1,'effects.h']]],
-  ['fx_5fsun_5ffrom_5fleft_190',['FX_SUN_FROM_LEFT',['../effects_8h.html#adf764cbdea00d65edcd07bb9953ad2b7adfc5094f63ceb80ae2356070543799fa',1,'effects.h']]],
-  ['fx_5fsun_5ffrom_5fright_191',['FX_SUN_FROM_RIGHT',['../effects_8h.html#adf764cbdea00d65edcd07bb9953ad2b7afa56b15b771b4a32311a19c3e61629c8',1,'effects.h']]],
+  ['fx_5fsun_5ffrom_5fleft_190',['FX_SUN_FROM_LEFT',['../effects_8h.html#a77867ab4129f63159b37bca3b652a798adfc5094f63ceb80ae2356070543799fa',1,'effects.h']]],
+  ['fx_5fsun_5ffrom_5fright_191',['FX_SUN_FROM_RIGHT',['../effects_8h.html#a77867ab4129f63159b37bca3b652a798afa56b15b771b4a32311a19c3e61629c8',1,'effects.h']]],
   ['fx_5fwater_5fblock_5fcreate_192',['FX_WATER_BLOCK_CREATE',['../effects_8h.html#a7785108bb6dba3a24a61ad599e9ac929a2b60b48417b4f314a82b6834ce1702aa',1,'effects.h']]],
   ['fx_5fwater_5fblock_5fdestroy_193',['FX_WATER_BLOCK_DESTROY',['../effects_8h.html#a7785108bb6dba3a24a61ad599e9ac929a25db2cd464e886249d7a2862f599084d',1,'effects.h']]]
 ];
