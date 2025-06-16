@@ -3,7 +3,7 @@ var searchData=
   ['_5f_5fasm_5f_5f_0',['__asm__',['../include__asm_8h.html#a575fa0b77cc080c68e76e06dbc89c64a',1,'include_asm.h']]],
   ['_5fadd_5fhit_5fvert_5fto_5fbuffer_1',['_add_hit_vert_to_buffer',['../collision_8c.html#ab9cb1ac45913c6395642455b049d8128',1,'collision.c']]],
   ['_5fadd_5fpart_5fdecoration_2',['_add_part_decoration',['../functions_8h.html#a8bcb3000bf9be57dd7d8e7faf7c188bd',1,'_add_part_decoration(ActorPart *):&#160;actor_rendering.c'],['../actor__rendering_8c.html#a682448b2ab8bd7702e5b227c511b74bb',1,'_add_part_decoration(ActorPart *actorPart):&#160;actor_rendering.c']]],
-  ['_5fbgm_5fset_5fsong_3',['_bgm_set_song',['../e0b30__len__b80_8c.html#a08e263940aca7d9cecb6f68f21cf7eb1',1,'e0b30_len_b80.c']]],
+  ['_5fbgm_5fset_5fsong_3',['_bgm_set_song',['../bgm__control_8c.html#a08e263940aca7d9cecb6f68f21cf7eb1',1,'bgm_control.c']]],
   ['_5fdelete_5fshadow_4',['_delete_shadow',['../entity_8c.html#a82fb6f325760fcf7b1cca22630cb9fcc',1,'entity.c']]],
   ['_5fget_5fhit_5fvert_5findex_5ffrom_5fbuffer_5',['_get_hit_vert_index_from_buffer',['../collision_8c.html#a58f35dd3487acc2f733f08da0ff36853',1,'collision.c']]],
   ['_5fheap_5fcreate_6',['_heap_create',['../functions_8h.html#ad829292a5bf16d39153c1245da25d420',1,'_heap_create(HeapNode *addr, u32 size):&#160;43F0.c'],['../43F0_8c.html#ad829292a5bf16d39153c1245da25d420',1,'_heap_create(HeapNode *addr, u32 size):&#160;43F0.c']]],

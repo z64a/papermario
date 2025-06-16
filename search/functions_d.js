@@ -74,11 +74,11 @@ var searchData=
   ['npcjump1_71',['NpcJump1',['../script__api_2common_8h.html#a90c2d91c6ab3a6ae97e691c0b40b2f99',1,'common.h']]],
   ['npcmoveto_72',['NpcMoveTo',['../script__api_2common_8h.html#ad28df2a2f93bb4e4dd3c792e80dbe583',1,'common.h']]],
   ['npcsethomepostocurrent_73',['NpcSetHomePosToCurrent',['../script__api_2common_8h.html#a57207ec05083f5dd14195969c67de43b',1,'common.h']]],
-  ['nuaucleandmabuffers_74',['nuAuCleanDMABuffers',['../25f00__len__940_8c.html#adf092914763e6fc667c2927b525c4789',1,'25f00_len_940.c']]],
-  ['nuaudmacallback_75',['nuAuDmaCallBack',['../25f00__len__940_8c.html#a2682f7c9ee1da523c4961af9ac3b440f',1,'nuAuDmaCallBack(s32 addr, s32 len, void *state, u8 arg3):&#160;25f00_len_940.c'],['../private_8h.html#a2682f7c9ee1da523c4961af9ac3b440f',1,'nuAuDmaCallBack(s32 addr, s32 len, void *state, u8 arg3):&#160;25f00_len_940.c']]],
-  ['nuaudmanew_76',['nuAuDmaNew',['../25f00__len__940_8c.html#ae11e962bf5b1d23dae159eb830728230',1,'25f00_len_940.c']]],
-  ['nuaumgr_77',['nuAuMgr',['../25f00__len__940_8c.html#aba7ddac34fdd63eea1165d1014ce685c',1,'nuAuMgr(void *arg):&#160;25f00_len_940.c'],['../private_8h.html#aba7ddac34fdd63eea1165d1014ce685c',1,'nuAuMgr(void *arg):&#160;25f00_len_940.c']]],
-  ['nuauprenmifuncset_78',['nuAuPreNMIFuncSet',['../25f00__len__940_8c.html#a54ece90eee30f4e8b8beef9d4317e0a7',1,'25f00_len_940.c']]],
-  ['nuauprenmiproc_79',['nuAuPreNMIProc',['../25f00__len__940_8c.html#a9789cadad4a7caf6029288c79e3a2c43',1,'25f00_len_940.c']]],
+  ['nuaucleandmabuffers_74',['nuAuCleanDMABuffers',['../system_8c.html#adf092914763e6fc667c2927b525c4789',1,'system.c']]],
+  ['nuaudmacallback_75',['nuAuDmaCallBack',['../core_8h.html#a96f1c6e48b886122fda1f14fa34ee3ed',1,'nuAuDmaCallBack(s32 addr, s32 len, void *state, u8 useDma):&#160;system.c'],['../system_8c.html#a96f1c6e48b886122fda1f14fa34ee3ed',1,'nuAuDmaCallBack(s32 addr, s32 len, void *state, u8 useDma):&#160;system.c']]],
+  ['nuaudmanew_76',['nuAuDmaNew',['../system_8c.html#ae11e962bf5b1d23dae159eb830728230',1,'system.c']]],
+  ['nuaumgr_77',['nuAuMgr',['../core_8h.html#aba7ddac34fdd63eea1165d1014ce685c',1,'nuAuMgr(void *arg):&#160;system.c'],['../system_8c.html#aba7ddac34fdd63eea1165d1014ce685c',1,'nuAuMgr(void *arg):&#160;system.c']]],
+  ['nuauprenmifuncset_78',['nuAuPreNMIFuncSet',['../system_8c.html#a54ece90eee30f4e8b8beef9d4317e0a7',1,'system.c']]],
+  ['nuauprenmiproc_79',['nuAuPreNMIProc',['../system_8c.html#a9789cadad4a7caf6029288c79e3a2c43',1,'system.c']]],
   ['nuboot_80',['nuBoot',['../functions_8h.html#ab4e190a90fa6ba5f226b61cea57c81a6',1,'functions.h']]]
 ];

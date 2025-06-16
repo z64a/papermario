@@ -27,7 +27,7 @@ var searchData=
   ['_5fai_5fprojectile_5fhitbox_5finc_5f_24',['_AI_PROJECTILE_HITBOX_INC_',['../ProjectileHitbox_8inc_8c.html#af85436be232364a40d13cbc8062ea4f5',1,'ProjectileHitbox.inc.c']]],
   ['_5fai_5ftackle_5fstates_5finc_5f_25',['_AI_TACKLE_STATES_INC_',['../States__TackleAI_8inc_8c.html#ab6d75a63f8ed1dafccb51fbac873fc4e',1,'States_TackleAI.inc.c']]],
   ['_5fas_5fround_26',['_AS_ROUND',['../animation__script_8h.html#a876a5f90964edc4714eef2854e0491bf',1,'animation_script.h']]],
-  ['_5fbgm_5fset_5fsong_27',['_bgm_set_song',['../e0b30__len__b80_8c.html#a08e263940aca7d9cecb6f68f21cf7eb1',1,'e0b30_len_b80.c']]],
+  ['_5fbgm_5fset_5fsong_27',['_bgm_set_song',['../bgm__control_8c.html#a08e263940aca7d9cecb6f68f21cf7eb1',1,'bgm_control.c']]],
   ['_5fchoice_5fsupport_5f_28',['_CHOICE_SUPPORT_',['../KeyItemChoice_8inc_8c.html#a2051c80f2f627c66cee7ce99d84f82b6',1,'_CHOICE_SUPPORT_:&#160;KeyItemChoice.inc.c'],['../NormalItemChoice_8inc_8c.html#a2051c80f2f627c66cee7ce99d84f82b6',1,'_CHOICE_SUPPORT_:&#160;NormalItemChoice.inc.c']]],
   ['_5fcommon_5fconsumable_5fchoice_5f_29',['_COMMON_CONSUMABLE_CHOICE_',['../NormalItemChoice_8inc_8c.html#a16aaab3f54d70e8d7f1d0a3a3879c81d',1,'NormalItemChoice.inc.c']]],
   ['_5fcommon_5fgive_5freward_5fh_5f_30',['_COMMON_GIVE_REWARD_H_',['../GiveReward_8inc_8c.html#a0e237599bb52df354a490ac730a0cb00',1,'GiveReward.inc.c']]],

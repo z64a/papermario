@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['hadcorrecttiming_0',['hadCorrectTiming',['../action__cmd_8h.html#aca62f50c01e67f6d850d8915028b7938',1,'ActionCommandStatus.__unnamed102__.threeChances']]],
+  ['hadcorrecttiming_0',['hadCorrectTiming',['../action__cmd_8h.html#aca62f50c01e67f6d850d8915028b7938',1,'ActionCommandStatus.__unnamed100__.threeChances']]],
   ['halfheight_1',['halfHeight',['../npc_8h.html#aac85db8bdf040fc9573bf904cf9031bb',1,'EnemyDetectVolume']]],
   ['halfsizex_2',['halfSizeX',['../model_8h.html#a3f41cad50dffd64f2abd4095ee50f8a1',1,'ModelBoundingBox']]],
   ['halfsizey_3',['halfSizeY',['../model_8h.html#afd36d96d86621265fb5831bf1129d3c9',1,'ModelBoundingBox']]],
@@ -29,7 +29,7 @@ var searchData=
   ['hasprebattlesongpushed_26',['HasPreBattleSongPushed',['../main__pre__bss_8c.html#a4df3bb388ab71be3ef5ad2a3b4413958',1,'HasPreBattleSongPushed:&#160;main_pre_bss.c'],['../encounter_8c.html#a4192d66d8900097e36852c3dfc1bffd4',1,'HasPreBattleSongPushed:&#160;encounter.c']]],
   ['hazardtype_27',['hazardType',['../common__structs_8h.html#a745952aecfec46b4e799618c831f7769',1,'PlayerStatus']]],
   ['head_28',['head',['../audio_8h.html#ab11c0ee89c99f6f93b8b767102aa1897',1,'AuFxBus']]],
-  ['header_29',['header',['../model_8h.html#ae52af6236042776464161e7846777171',1,'TextureHandle::header'],['../model_8h.html#a39484dc53eef4b4c464f44549a9eb47b',1,'ShapeFile::header']]],
+  ['header_29',['header',['../model_8h.html#ae52af6236042776464161e7846777171',1,'TextureHandle::header'],['../model_8h.html#a39484dc53eef4b4c464f44549a9eb47b',1,'ShapeFile::header'],['../audio_8h.html#a4b00969a77a188a9cfeda0bdc7c0096c',1,'BKFileBuffer::header']]],
   ['heading_30',['heading',['../common__structs_8h.html#a56aabddd9f1a3ce8708d518f7f4766eb',1,'SlideParams::heading'],['../common__structs_8h.html#a531ab138c6b1b99d8f25fc8f8d5f3d42',1,'PlayerStatus::heading']]],
   ['headoffset_31',['headOffset',['../common__structs_8h.html#a4c541c8f86b51348e1c05e88695d320a',1,'Actor']]],
   ['healthbarhidetime_32',['healthBarHideTime',['../common__structs_8h.html#ac9d881f0672f4fd496e75df50ca9b362',1,'Actor']]],
@@ -577,13 +577,13 @@ var searchData=
   ['hittype_574',['hitType',['../npc_8h.html#a69f8d717b75cb22052dd17794c0ff190',1,'EncounterStatus']]],
   ['hitwalltime_575',['hitWallTime',['../common__structs_8h.html#a65b5f9111260892d3e6fef12e6d99327',1,'PlayerSpinState']]],
   ['hold_576',['hold',['../actions_8h.html#a55dc48098dcefa95e5a49173884dccf5',1,'DisguiseAnims']]],
-  ['holdingleft_577',['holdingLeft',['../action__cmd_8h.html#a97ec895dad1887ac211f3ecbc981bee0',1,'ActionCommandStatus.__unnamed102__.airRaid::holdingLeft'],['../action__cmd_8h.html#a97ec895dad1887ac211f3ecbc981bee0',1,'ActionCommandStatus.__unnamed102__.fireShell::holdingLeft'],['../action__cmd_8h.html#a97ec895dad1887ac211f3ecbc981bee0',1,'ActionCommandStatus.__unnamed102__.smack::holdingLeft'],['../action__cmd_8h.html#a97ec895dad1887ac211f3ecbc981bee0',1,'ActionCommandStatus.__unnamed102__.spook::holdingLeft']]],
+  ['holdingleft_577',['holdingLeft',['../action__cmd_8h.html#a97ec895dad1887ac211f3ecbc981bee0',1,'ActionCommandStatus.__unnamed100__.airRaid::holdingLeft'],['../action__cmd_8h.html#a97ec895dad1887ac211f3ecbc981bee0',1,'ActionCommandStatus.__unnamed100__.fireShell::holdingLeft'],['../action__cmd_8h.html#a97ec895dad1887ac211f3ecbc981bee0',1,'ActionCommandStatus.__unnamed100__.smack::holdingLeft'],['../action__cmd_8h.html#a97ec895dad1887ac211f3ecbc981bee0',1,'ActionCommandStatus.__unnamed100__.spook::holdingLeft']]],
   ['holdinputbuffer_578',['holdInputBuffer',['../structBattleStatus.html#a37e713fb551c69fb2a2a6b3a5612dc05',1,'BattleStatus']]],
   ['holdinputbufferpos_579',['holdInputBufferPos',['../structBattleStatus.html#a784e1cbb91905e9639ce7b95558890f8',1,'BattleStatus']]],
   ['holdmode_580',['holdMode',['../common__structs_8h.html#ae392694e441c51673f642addcd157dbb',1,'CreditsEntry::holdMode'],['../common__structs_8h.html#a121f2f31956c2ba71c350aa205b85c4f',1,'CreditsLine::holdMode']]],
   ['holdtime_581',['holdTime',['../common__structs_8h.html#aabc482e390d9275927890bfc8424aeb0',1,'CreditsEntry::holdTime'],['../common__structs_8h.html#adf6d20761d7e1f35e44328767a4a8bb8',1,'CreditsLine::holdTime'],['../common__structs_8h.html#a91046e78f2b4ae75bda70ed5e3aeedf1',1,'SpeechBubbleData::holdTime'],['../inspect__icon_8c.html#a34bbef07df179a05ebea7469bfc006bd',1,'InspectIconData::holdTime']]],
-  ['hologram_582',['hologram',['../imgfx_8c.html#a5311431d84ec0f6cd9dc257abebc564c',1,'ImgFXIntVars']]],
-  ['home_583',['home',['../src_2battle_2battle_8h.html#a4e06d8c5205df98556703ef006853faa',1,'FormationRow']]],
+  ['hologram_582',['hologram',['../imgfx_8c.html#aff3878f0ed16e1e1e109e1da94781112',1,'ImgFXIntVars']]],
+  ['home_583',['home',['../src_2battle_2battle_8h.html#ad3e0aa8ba1882f1fb1a1e70a34322921',1,'FormationRow']]],
   ['homepos_584',['homePos',['../structNpc.html#ad9c1a49eefddb510d179ddf5e21ce9f2',1,'Npc::homePos'],['../common__structs_8h.html#a8d7151b1987bd434f180139dc07b4a80',1,'Actor::homePos']]],
   ['horizontal_5fpipe_5fcurl_5fheader_585',['horizontal_pipe_curl_header',['../imgfx_8c.html#a9dc3a8c70b754451fa2442da9554d97c',1,'imgfx.c']]],
   ['hos_5f00_5fsettings_586',['hos_00_settings',['../hos_8h.html#ada363b2c5dee22ff152307722a194215',1,'hos.h']]],
@@ -620,6 +620,6 @@ var searchData=
   ['hudworker_617',['hudWorker',['../phonograph_8c.html#aae3d2ce298bc5325e2d44485ead9e5c3',1,'PhonographData']]],
   ['huffpuffbreath_618',['huffPuffBreath',['../effects_8h.html#aedfea8fa5930c85faee183ccbf8e9a64',1,'EffectInstanceDataPtr']]],
   ['hurricanechance_619',['hurricaneChance',['../src_2battle_2battle_8h.html#a0e5b2892096df9ea29e35bb41c7e9570',1,'ActorBlueprint']]],
-  ['hurt_620',['hurt',['../src_2battle_2battle_8h.html#aea6c3fc3fdb6ef2c860d15eb7c758833',1,'ActorSounds::hurt'],['../common__structs_8h.html#ac0bb722d28c628d3066cc2264dcc7c87',1,'PartnerAnimations.__unnamed29__::hurt']]],
+  ['hurt_620',['hurt',['../src_2battle_2battle_8h.html#aea6c3fc3fdb6ef2c860d15eb7c758833',1,'ActorSounds::hurt'],['../common__structs_8h.html#ac0bb722d28c628d3066cc2264dcc7c87',1,'PartnerAnimations.__unnamed31__::hurt']]],
   ['hustleturns_621',['hustleTurns',['../structBattleStatus.html#a089949173ac6331110a0cd3451a39cd1',1,'BattleStatus']]]
 ];

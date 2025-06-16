@@ -43,7 +43,7 @@ var variables_8h =
     [ "gMainGfxPos", "variables_8h.html#a6d418be31d2e59e929234198339f00e6", null ],
     [ "gMatrixListPos", "variables_8h.html#a6f8e997f68fc98d6e9dce84be28fde30", null ],
     [ "gMoveTable", "variables_8h.html#a7fc212db718d0015492a86a8fa203b18", null ],
-    [ "gMusicSettings", "variables_8h.html#a04f9948a0251b485c7e4faade4392e05", null ],
+    [ "gMusicControlData", "variables_8h.html#a3e3ba1c64b3b498d9290c6d005589a32", null ],
     [ "gOverrideBattlePtr", "variables_8h.html#a4fd083fc4eda8475268e0d18a14cfcd2", null ],
     [ "gOverrideFlags", "variables_8h.html#a091dc0469f07f19f0ff5ce59bad257ff", null ],
     [ "gPartnerAnimations", "variables_8h.html#a7b520a39c077cd9c43e5a0d2c7a432ce", null ],

@@ -81,6 +81,7 @@ var sprite_8h =
       [ "SPRITE_ID_TAIL_ALLOCATE", "sprite_8h.html#afd4bd5d59daee6ddefb2d17b8f83f801a6a16015391a0c5733632864cdc05d426", null ]
     ] ],
     [ "create_shading_palette", "sprite_8h.html#a60d7a201cbbaf734dcce31b19470329d", null ],
+    [ "func_801491E4", "sprite_8h.html#a46d8c7dd0061c7ad1fa32716743f1de2", null ],
     [ "func_802DDEC4", "sprite_8h.html#af5da5539d944403a17d5c8cebcf55908", null ],
     [ "get_npc_comp_imgfx_idx", "sprite_8h.html#a6df01a58c1be1fdcb666e89fd8dc4d7f", null ],
     [ "imgfx_init", "sprite_8h.html#aac2df68f42dd9135f0623001f190246f", null ],

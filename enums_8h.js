@@ -303,18 +303,20 @@ var enums_8h =
     [ "AmbientSounds", "enums_8h.html#a5677c25ccb83bfc86b6cc3b9ec7df7bc", [
       [ "AMBIENT_SPOOKY", "enums_8h.html#a5677c25ccb83bfc86b6cc3b9ec7df7bca625b8e9b5b29836eb7097e53234114c5", null ],
       [ "AMBIENT_WIND", "enums_8h.html#a5677c25ccb83bfc86b6cc3b9ec7df7bcacce3bfd76bd2f260e2e0f88909f7406b", null ],
-      [ "AMBIENT_BEACH", "enums_8h.html#a5677c25ccb83bfc86b6cc3b9ec7df7bcaba6d124935b2116ed967ed725dafc8ab", null ],
+      [ "AMBIENT_SEA", "enums_8h.html#a5677c25ccb83bfc86b6cc3b9ec7df7bcaa6c7d3c6d7b5b738132d3cad62ad3077", null ],
       [ "AMBIENT_JUNGLE", "enums_8h.html#a5677c25ccb83bfc86b6cc3b9ec7df7bca202016ba877502b715af6e237dd53ff9", null ],
       [ "AMBIENT_LAVA_1", "enums_8h.html#a5677c25ccb83bfc86b6cc3b9ec7df7bca4c232d3cae576a09dbd5c9db33116698", null ],
       [ "AMBIENT_LAVA_2", "enums_8h.html#a5677c25ccb83bfc86b6cc3b9ec7df7bcac090f458d3343464c830ce3db712322a", null ],
-      [ "AMBIENT_SILENCE", "enums_8h.html#a5677c25ccb83bfc86b6cc3b9ec7df7bca75c7bcc003b4e13503255213ea655afc", null ],
+      [ "AMBIENT_LAVA_FADE_IN", "enums_8h.html#a5677c25ccb83bfc86b6cc3b9ec7df7bca8fe6cfe8f28b67e37cb7e7248a019349", null ],
       [ "AMBIENT_LAVA_3", "enums_8h.html#a5677c25ccb83bfc86b6cc3b9ec7df7bca4ee0b016cbf53c29ddf321a489cde0ed", null ],
       [ "AMBIENT_LAVA_4", "enums_8h.html#a5677c25ccb83bfc86b6cc3b9ec7df7bca370603f196816d71ebe6fa686aaa1b73", null ],
       [ "AMBIENT_LAVA_5", "enums_8h.html#a5677c25ccb83bfc86b6cc3b9ec7df7bca1bb82b1b6fd3283d4cb5321734c3a173", null ],
       [ "AMBIENT_LAVA_6", "enums_8h.html#a5677c25ccb83bfc86b6cc3b9ec7df7bca2f1e17b7745006cade418c47af4701ec", null ],
       [ "AMBIENT_LAVA_7", "enums_8h.html#a5677c25ccb83bfc86b6cc3b9ec7df7bcab051bad7bb6887ea9df11c430c4f594f", null ],
       [ "AMBIENT_BIRDS", "enums_8h.html#a5677c25ccb83bfc86b6cc3b9ec7df7bcad0f5f6554115eaca5f76f453109f224f", null ],
-      [ "AMBIENT_SEA", "enums_8h.html#a5677c25ccb83bfc86b6cc3b9ec7df7bcaa6c7d3c6d7b5b738132d3cad62ad3077", null ],
+      [ "AMBIENT_UNUSED_13", "enums_8h.html#a5677c25ccb83bfc86b6cc3b9ec7df7bca8c64e83f0a9ac6c25e9762132602fe3b", null ],
+      [ "AMBIENT_UNUSED_14", "enums_8h.html#a5677c25ccb83bfc86b6cc3b9ec7df7bca542fcaddafad10cd3f18ad1b27c71015", null ],
+      [ "AMBIENT_UNUSED_15", "enums_8h.html#a5677c25ccb83bfc86b6cc3b9ec7df7bca9584f186ea6f465a3f42a7b054cd6601", null ],
       [ "AMBIENT_RADIO", "enums_8h.html#a5677c25ccb83bfc86b6cc3b9ec7df7bcafca75610dce672ccbca1a2c305b4862e", null ]
     ] ],
     [ "AnyEnemyAnims", "enums_8h.html#a867dc1b118aa3dabe4157929b8934dbe", [
@@ -387,9 +389,11 @@ var enums_8h =
     [ "AuResult", "enums_8h.html#ae06a53ac0390ce55621b4d79a2fdba8b", [
       [ "AU_RESULT_OK", "enums_8h.html#ae06a53ac0390ce55621b4d79a2fdba8ba6e635efc0342105830c68bc269f286ec", null ],
       [ "AU_ERROR_1", "enums_8h.html#ae06a53ac0390ce55621b4d79a2fdba8ba3dd5d6420548b1f5f45fae93ac3e0b2b", null ],
-      [ "AU_AMBIENCE_ERROR_1", "enums_8h.html#ae06a53ac0390ce55621b4d79a2fdba8baeadc58cb4d55b6de594b9c703bc03f7d", null ],
+      [ "AU_AMBIENCE_STOP_ERROR_1", "enums_8h.html#ae06a53ac0390ce55621b4d79a2fdba8ba6eabfbdce057ca9889d07de9ce5a7a5e", null ],
+      [ "AU_AMBIENCE_STOP_ERROR_2", "enums_8h.html#ae06a53ac0390ce55621b4d79a2fdba8ba7a1b888fae0501a5c4a0763b3cabb0bb", null ],
+      [ "AU_AMBIENCE_ERROR_PLAYER_BUSY", "enums_8h.html#ae06a53ac0390ce55621b4d79a2fdba8bacfe029075a19dfeaf7189e66c9155930", null ],
       [ "AU_ERROR_SONG_NOT_PLAYING", "enums_8h.html#ae06a53ac0390ce55621b4d79a2fdba8bac0cee2f67fa8d114c7278b14dd34a3b0", null ],
-      [ "AU_AMBIENCE_ERROR_2", "enums_8h.html#ae06a53ac0390ce55621b4d79a2fdba8ba364ac6507d306971fbbdced05799eb59", null ],
+      [ "AU_AMBIENCE_ERROR_MSEQ_NOT_FOUND", "enums_8h.html#ae06a53ac0390ce55621b4d79a2fdba8baabccb85f7707aadc0c0178bd267ced9c", null ],
       [ "AU_ERROR_NULL_SONG_NAME", "enums_8h.html#ae06a53ac0390ce55621b4d79a2fdba8ba07a47f703383244f95e2313f5819243f", null ],
       [ "AU_AMBIENCE_ERROR_3", "enums_8h.html#ae06a53ac0390ce55621b4d79a2fdba8ba9f88ebd3f9282592a8861149f08e87bf", null ],
       [ "AU_ERROR_INVALID_SONG_DURATION", "enums_8h.html#ae06a53ac0390ce55621b4d79a2fdba8bad8a4dd45a7fced17cb12a1849a623312", null ],
@@ -1106,6 +1110,12 @@ var enums_8h =
       [ "BTL_SUBSTATE_END_DEMO_BATTLE_EXEC_STAGE_SCRIPT", "enums_8h.html#aa37e5748d7fee51e59449163738207a4a1a99a5d05ce47fae5de11f49bc028464", null ],
       [ "BTL_SUBSTATE_END_DEMO_BATTLE_AWAIT_STAGE_SCRIPT", "enums_8h.html#aa37e5748d7fee51e59449163738207a4acb5b68555a06e7fa56b2b298008f4aca", null ],
       [ "BTL_SUBSTATE_END_DEMO_BATTLE_CLEANUP", "enums_8h.html#aa37e5748d7fee51e59449163738207a4a6890a1a0ff76f69425c0ab44d4d92bcf", null ]
+    ] ],
+    [ "BGMVariation", "enums_8h.html#a7e8df7443169d58a66aa495a48d27b72", [
+      [ "BGM_VARIATION_0", "enums_8h.html#a7e8df7443169d58a66aa495a48d27b72a1d80a0909c252bbc2ad972bc277f0dbb", null ],
+      [ "BGM_VARIATION_1", "enums_8h.html#a7e8df7443169d58a66aa495a48d27b72acfd3d7822300fa360eddc92da0761781", null ],
+      [ "BGM_VARIATION_2", "enums_8h.html#a7e8df7443169d58a66aa495a48d27b72a35e2620e8119973b64989f33f6c1693f", null ],
+      [ "BGM_VARIATION_3", "enums_8h.html#a7e8df7443169d58a66aa495a48d27b72a2412ec0a221fea457b5ca3995bfd5cd8", null ]
     ] ],
     [ "BlockResult", "enums_8h.html#ade284cc1c9365b55782b81c943ccf4b4", [
       [ "BLOCK_RESULT_NONE", "enums_8h.html#ade284cc1c9365b55782b81c943ccf4b4a243ac1f6afc5938b1ac525a6b9621424", null ],
@@ -2871,19 +2881,11 @@ var enums_8h =
       [ "MSG_WINDOW_STATE_D", "enums_8h.html#afbed3b7eeb9088f1fc4d06ac5a910163acc4505cfc1d9c91d859852d6f632202e", null ],
       [ "MSG_WINDOW_STATE_E", "enums_8h.html#afbed3b7eeb9088f1fc4d06ac5a910163aade9bc704af43a7b4b719f19138aabb5", null ]
     ] ],
-    [ "MusicSettingsFlags", "enums_8h.html#a1a058fe7b8f683c28ecd23c1d4590d7b", [
-      [ "MUSIC_SETTINGS_FLAG_1", "enums_8h.html#a1a058fe7b8f683c28ecd23c1d4590d7baa4bac502a959e0bf4b0360e466f9656e", null ],
-      [ "MUSIC_SETTINGS_FLAG_ENABLE_PROXIMITY_MIX", "enums_8h.html#a1a058fe7b8f683c28ecd23c1d4590d7bab7528c546eeecbc8ad29396dca5b1cbc", null ],
-      [ "MUSIC_SETTINGS_FLAG_4", "enums_8h.html#a1a058fe7b8f683c28ecd23c1d4590d7bac9f8fbadf33a1010f1bc76e1d11314f8", null ],
-      [ "MUSIC_SETTINGS_FLAG_8", "enums_8h.html#a1a058fe7b8f683c28ecd23c1d4590d7baa6cce2aca597d3de61aaf963f7dc8c93", null ],
-      [ "MUSIC_SETTINGS_FLAG_10", "enums_8h.html#a1a058fe7b8f683c28ecd23c1d4590d7ba2c6b7fee65a2a00e18f9b924daf95032", null ],
-      [ "MUSIC_SETTINGS_FLAG_20", "enums_8h.html#a1a058fe7b8f683c28ecd23c1d4590d7ba2aff95e71d2c6a1f653875be9c2fca38", null ]
-    ] ],
     [ "MusicTrackVols", "enums_8h.html#a9c3465a4c60d86fe17ca4b5ee3b0f0c8", [
-      [ "TRACK_VOLS_0", "enums_8h.html#a9c3465a4c60d86fe17ca4b5ee3b0f0c8ad904f8f179d154febb9a7a0d68c694d6", null ],
-      [ "TRACK_VOLS_1", "enums_8h.html#a9c3465a4c60d86fe17ca4b5ee3b0f0c8a05599285460a806aeac9ad0edb93caf2", null ],
-      [ "TRACK_VOLS_2", "enums_8h.html#a9c3465a4c60d86fe17ca4b5ee3b0f0c8ad0e1cdac15b40364ee94f61dd1b19c71", null ],
-      [ "TRACK_VOLS_3", "enums_8h.html#a9c3465a4c60d86fe17ca4b5ee3b0f0c8a8d969e925bfce2cd710bf1a7dada5b04", null ],
+      [ "TRACK_VOLS_JAN_FULL", "enums_8h.html#a9c3465a4c60d86fe17ca4b5ee3b0f0c8adfb3eba2024903ce1461198461217350", null ],
+      [ "TRACK_VOLS_UNUSED_1", "enums_8h.html#a9c3465a4c60d86fe17ca4b5ee3b0f0c8a86d74b379535d17a8bb144f423789377", null ],
+      [ "TRACK_VOLS_TIK_SHIVER", "enums_8h.html#a9c3465a4c60d86fe17ca4b5ee3b0f0c8a1019f7285b0ea7993163a477863ea8e3", null ],
+      [ "TRACK_VOLS_UNUSED_3", "enums_8h.html#a9c3465a4c60d86fe17ca4b5ee3b0f0c8a6e31e591fab8a07e986a09d1dc7867a1", null ],
       [ "TRACK_VOLS_KPA_OUTSIDE", "enums_8h.html#a9c3465a4c60d86fe17ca4b5ee3b0f0c8ab89162d78d4d03d11ec170f410ee4446", null ],
       [ "TRACK_VOLS_KPA_1", "enums_8h.html#a9c3465a4c60d86fe17ca4b5ee3b0f0c8ab97c383614d8701403e23cdd97b96741", null ],
       [ "TRACK_VOLS_KPA_2", "enums_8h.html#a9c3465a4c60d86fe17ca4b5ee3b0f0c8ac191437886ad7aec5ba62f4e9166168d", null ],
@@ -3602,7 +3604,10 @@ var enums_8h =
       [ "SOUND_ID_TRIGGER_CHANGE_SOUND", "enums_8h.html#a8d9f87723bb8639a3cc12f2f67f0fe77ac2a718f1990eb8da17557ed842ed36f3", null ],
       [ "SOUND_ID_SECTION_MASK", "enums_8h.html#a8d9f87723bb8639a3cc12f2f67f0fe77af432ecbf94ace95db5ffd7ce86fd53a3", null ],
       [ "SOUND_ID_INDEX_MASK", "enums_8h.html#a8d9f87723bb8639a3cc12f2f67f0fe77a0ec2b82ce451583e5e126e3d5cfbe317", null ],
-      [ "SOUND_ID_UNK_INDEX_MASK", "enums_8h.html#a8d9f87723bb8639a3cc12f2f67f0fe77a78fcbbbd8a03049712ce0df48e7f3403", null ]
+      [ "SOUND_ID_UNK_INDEX_MASK", "enums_8h.html#a8d9f87723bb8639a3cc12f2f67f0fe77a78fcbbbd8a03049712ce0df48e7f3403", null ],
+      [ "SOUND_ID_UPPER_MASK", "enums_8h.html#a8d9f87723bb8639a3cc12f2f67f0fe77a41a05dcf03961278684c77780ad3242c", null ],
+      [ "SOUND_ID_TYPE_MASK", "enums_8h.html#a8d9f87723bb8639a3cc12f2f67f0fe77a559245d599870cd70e611964f3adfcce", null ],
+      [ "SOUND_ID_TYPE_FLAG", "enums_8h.html#a8d9f87723bb8639a3cc12f2f67f0fe77a315f60d0f57507323f31ec47117da165", null ]
     ] ],
     [ "SoundIDs", "enums_8h.html#ac5d40ac44ef7d8c38c6c72a71348e360", [
       [ "SOUND_NONE", "enums_8h.html#ac5d40ac44ef7d8c38c6c72a71348e360a4e82a734426d08de9deafa5f84310988", null ],
@@ -4811,7 +4816,6 @@ var enums_8h =
       [ "SOUND_TRIGGER_CHANGE_VOLUME", "enums_8h.html#aa470adc25fceb85410cf39b81c0105a7af166bf049da1899fe2bbfa168416315d", null ]
     ] ],
     [ "SoundType", "enums_8h.html#ad2af16bf27c1b83797f1c32686caf1a3", [
-      [ "SOUND_TYPE_SPECIAL", "enums_8h.html#ad2af16bf27c1b83797f1c32686caf1a3a398a2dc479c4b904a154741079d171f7", null ],
       [ "SOUND_TYPE_LOOPING", "enums_8h.html#ad2af16bf27c1b83797f1c32686caf1a3ab8145fb8f179d6f57995111a4a585e67", null ],
       [ "SOUND_TYPE_EXIT_DOOR", "enums_8h.html#ad2af16bf27c1b83797f1c32686caf1a3ad1371da82a14ab73cbe7be434d283b42", null ],
       [ "SOUND_TYPE_ROOM_DOOR", "enums_8h.html#ad2af16bf27c1b83797f1c32686caf1a3a5a35675621da7c9a32f7a0271d67540e", null ],
@@ -5233,6 +5237,11 @@ var enums_8h =
       [ "TEX_PANNER_MAIN", "enums_8h.html#a105a0a292ea686b3615509955c1d5171a07cc304fc8ab0bc813aadd5aecae5705", null ],
       [ "TEX_PANNER_AUX", "enums_8h.html#a105a0a292ea686b3615509955c1d5171ade966f58b9db36a1920bd09bb4c1b749", null ]
     ] ],
+    [ "ThreadIDs", "enums_8h.html#aee8127fd451ae243fa0aff159375c1fd", [
+      [ "THREAD_ID_PI", "enums_8h.html#aee8127fd451ae243fa0aff159375c1fdabde960e9060721cfe632094eaef0b620", null ],
+      [ "THREAD_ID_CRASH", "enums_8h.html#aee8127fd451ae243fa0aff159375c1fda8852e2fb42ab07b7383a4c32af99efc2", null ],
+      [ "THREAD_ID_AUDIO", "enums_8h.html#aee8127fd451ae243fa0aff159375c1fdae9e75ef4af437183e762b428708de500", null ]
+    ] ],
     [ "TimeFreezeMode", "enums_8h.html#aa4d4ef7e7ce3dfab4d09b729fe967f9c", [
       [ "TIME_FREEZE_NONE", "enums_8h.html#aa4d4ef7e7ce3dfab4d09b729fe967f9ca8e2e49e9447455f415fd80dd297ec783", null ],
       [ "TIME_FREEZE_PARTIAL", "enums_8h.html#aa4d4ef7e7ce3dfab4d09b729fe967f9ca786bd551907f20108cd14d6a21d1a3b1", null ],
@@ -5283,6 +5292,17 @@ var enums_8h =
       [ "VIS_GROUP_5", "enums_8h.html#a827450ae6b7f4356908a9cc7f2bf060baf0297b6ac971e945929610336d560075", null ],
       [ "VIS_GROUP_6", "enums_8h.html#a827450ae6b7f4356908a9cc7f2bf060bae8b967481e1e73a5800c55a5dc182550", null ],
       [ "VIS_GROUP_7", "enums_8h.html#a827450ae6b7f4356908a9cc7f2bf060ba136d7a111a86903ac7280daed7260d26", null ]
+    ] ],
+    [ "VolumeLevels", "enums_8h.html#a6c159646898921d9b5fa2d882258fbc3", [
+      [ "VOL_LEVEL_MUTE", "enums_8h.html#a6c159646898921d9b5fa2d882258fbc3a505fe94ad839267a51563274ef646b80", null ],
+      [ "VOL_LEVEL_1", "enums_8h.html#a6c159646898921d9b5fa2d882258fbc3ab9b2c0e2dfaa63a9185aef1f608138a6", null ],
+      [ "VOL_LEVEL_2", "enums_8h.html#a6c159646898921d9b5fa2d882258fbc3a3e222f30e2733803ece41c9f6e0099f2", null ],
+      [ "VOL_LEVEL_3", "enums_8h.html#a6c159646898921d9b5fa2d882258fbc3a856601642854a9daeb8dc7834caecdd2", null ],
+      [ "VOL_LEVEL_4", "enums_8h.html#a6c159646898921d9b5fa2d882258fbc3a49c4cca690606ccb6b0a896beda849c2", null ],
+      [ "VOL_LEVEL_5", "enums_8h.html#a6c159646898921d9b5fa2d882258fbc3a25946f6a8e30c46714e9d11189757db0", null ],
+      [ "VOL_LEVEL_6", "enums_8h.html#a6c159646898921d9b5fa2d882258fbc3a595dfa9340db14da0a32fcedf64a1727", null ],
+      [ "VOL_LEVEL_7", "enums_8h.html#a6c159646898921d9b5fa2d882258fbc3a977b138457081303ad2ebe4ed8fc322f", null ],
+      [ "VOL_LEVEL_FULL", "enums_8h.html#a6c159646898921d9b5fa2d882258fbc3a13aecffdf0b40590e54bd0834c5b595a", null ]
     ] ],
     [ "WindowFlags", "enums_8h.html#a85bb57df22ad4aa3bdf0a3d44a82e7a2", [
       [ "WINDOW_FLAG_INITIALIZED", "enums_8h.html#a85bb57df22ad4aa3bdf0a3d44a82e7a2aaf8fa4844415e90983ba32e76c873b80", null ],
