@@ -167,8 +167,8 @@ Variables</h2></td></tr>
 <tr class="separator:a3929acad4b1781724ca131d6e8e012fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a30383a67dd945089bf43a56d794d9f4a" id="r_a30383a67dd945089bf43a56d794d9f4a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="8a860__len__3f30_8c.html#ad8c86ce808908b33858a59316263c571">Gfx</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a30383a67dd945089bf43a56d794d9f4a">Entity_HeartBlockContent_RenderHeartHappy</a> []</td></tr>
 <tr class="separator:a30383a67dd945089bf43a56d794d9f4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a85d5525fd857065d41faeaf52b98d06a" id="r_a85d5525fd857065d41faeaf52b98d06a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="macros_8h.html#a476baf4669c951eb7864d94f15a49f75">BSS</a> <a class="el" href="8a860__len__3f30_8c.html#ad8c86ce808908b33858a59316263c571">u32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a85d5525fd857065d41faeaf52b98d06a">HeartBlockPrinterClosed</a></td></tr>
-<tr class="separator:a85d5525fd857065d41faeaf52b98d06a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0297fe8af56cbe9462d76281db997439" id="r_a0297fe8af56cbe9462d76281db997439"><td class="memItemLeft" align="right" valign="top"><a class="el" href="macros_8h.html#a476baf4669c951eb7864d94f15a49f75">BSS</a> <a class="el" href="macros_8h.html#af6a258d8f3ee5206d682d799316314b1">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0297fe8af56cbe9462d76281db997439">HeartBlockPrinterClosed</a></td></tr>
+<tr class="separator:a0297fe8af56cbe9462d76281db997439"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5967fd2429569f7c5b433c18169a4658" id="r_a5967fd2429569f7c5b433c18169a4658"><td class="memItemLeft" align="right" valign="top"><a class="el" href="entity_8h.html#aab045e89c17366311e1096445f1ba571">EntityScript</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5967fd2429569f7c5b433c18169a4658">Entity_InertBlock_Script</a></td></tr>
 <tr class="separator:a5967fd2429569f7c5b433c18169a4658"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad30d725e6993604dda978c699e103b5a" id="r_ad30d725e6993604dda978c699e103b5a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="entity_8h.html#aab045e89c17366311e1096445f1ba571">EntityScript</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad30d725e6993604dda978c699e103b5a">Entity_HeartBlockContent_Script</a></td></tr>
@@ -668,7 +668,7 @@ Variables</h2></td></tr>
 <div class="line">    .modelAnimationNodes = 0,</div>
 <div class="line">    .fpInit = <a class="code hl_function" href="#a2ce24fb302e921ab43be6233e62eed7f">entity_HeartBlockContent_init</a>,</div>
 <div class="line">    .updateEntityScript = <a class="code hl_variable" href="#ad30d725e6993604dda978c699e103b5a">Entity_HeartBlockContent_Script</a>,</div>
-<div class="line">    .fpHandleCollision = <a class="code hl_variable" href="8a860__len__3f30_8c.html#ad8c86ce808908b33858a59316263c571">NULL</a>,</div>
+<div class="line">    .fpHandleCollision = <span class="keyword">nullptr</span>,</div>
 <div class="line">    { .dma = <a class="code hl_define" href="entity_8h.html#a7ca50753b79e337135a9f6ab0dd5a2dd">ENTITY_ROM</a>(<a class="code hl_variable" href="8a860__len__3f30_8c.html#ad8c86ce808908b33858a59316263c571">HeartBlockContent</a>) },</div>
 <div class="line">    .entityType = <a class="code hl_enumvalue" href="enums_8h.html#a93ee6a04ce41ceff9cd60fba85c38a53a850e63a968bb156d811013ff52d30f05">ENTITY_TYPE_HEALING_BLOCK_CONTENT</a>,</div>
 <div class="line">    .aabbSize = { 18, 6, 18 }</div>
@@ -819,7 +819,7 @@ Variables</h2></td></tr>
 <div class="line">    <a class="code hl_define" href="entity_8h.html#a4570e12fbc3f2176ed52c172100e282a">es_SetCallback</a>(<a class="code hl_function" href="#afad4f58c022e732c807f9ba57abf0060">entity_HeartBlockContent_anim_heal</a>, 0)</div>
 <div class="line">    <a class="code hl_define" href="entity_8h.html#a10c81a4559fc93dcd2a7edd2b1021081">es_Call</a>(<a class="code hl_function" href="#a4792144d11304359ac46481cf360f8c2">entity_HeartBlock_show_tutorial_message</a>)</div>
 <div class="line">    <a class="code hl_define" href="entity_8h.html#a4570e12fbc3f2176ed52c172100e282a">es_SetCallback</a>(<a class="code hl_function" href="#a7330bf06fbd15ae44c83c08b3650fb77">entity_HeartBlock_wait_for_close_tutorial</a>, 0)</div>
-<div class="line">    <a class="code hl_define" href="entity_8h.html#a4570e12fbc3f2176ed52c172100e282a">es_SetCallback</a>(<a class="code hl_variable" href="8a860__len__3f30_8c.html#ad8c86ce808908b33858a59316263c571">NULL</a>, 60)</div>
+<div class="line">    <a class="code hl_define" href="entity_8h.html#a4570e12fbc3f2176ed52c172100e282a">es_SetCallback</a>(<span class="keywordtype">nullptr</span>, 60)</div>
 <div class="line">    <a class="code hl_define" href="entity_8h.html#a14fc4a7494d4962222341d72fcef34ea">es_Restart</a></div>
 <div class="line">    <a class="code hl_define" href="entity_8h.html#abb0941e798cc0d323a0b03ba5f859d94">es_End</a></div>
 <div class="line">}</div>
@@ -884,14 +884,14 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a85d5525fd857065d41faeaf52b98d06a" name="a85d5525fd857065d41faeaf52b98d06a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a85d5525fd857065d41faeaf52b98d06a">&#9670;&#160;</a></span>HeartBlockPrinterClosed</h2>
+<a id="a0297fe8af56cbe9462d76281db997439" name="a0297fe8af56cbe9462d76281db997439"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0297fe8af56cbe9462d76281db997439">&#9670;&#160;</a></span>HeartBlockPrinterClosed</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="macros_8h.html#a476baf4669c951eb7864d94f15a49f75">BSS</a> <a class="el" href="8a860__len__3f30_8c.html#ad8c86ce808908b33858a59316263c571">u32</a> HeartBlockPrinterClosed</td>
+          <td class="memname"><a class="el" href="macros_8h.html#a476baf4669c951eb7864d94f15a49f75">BSS</a> <a class="el" href="macros_8h.html#af6a258d8f3ee5206d682d799316314b1">bool</a> HeartBlockPrinterClosed</td>
         </tr>
       </table>
 </div><div class="memdoc">

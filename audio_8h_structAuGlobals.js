@@ -42,7 +42,7 @@ var audio_8h_structAuGlobals =
     [ "resumeFadeEnd", "audio_8h.html#aa637e9901d398a432cfbc8980319ccc3", null ],
     [ "resumeFadeStart", "audio_8h.html#ac6a8fcef1deb74fadbaf8858468d0d27", null ],
     [ "resumeFadeTime", "audio_8h.html#ad5b63ef45e1a007e839a582a9959ee0c", null ],
-    [ "resumeRequested", "audio_8h.html#ae28872cbbc27fe32a7ac525904607698", null ],
+    [ "resumeRequested", "audio_8h.html#a937963063f08c03deb4a17182a2f4325", null ],
     [ "resumeSongName", "audio_8h.html#ac9454b2d3a219bc663e27484b2ba124a", null ],
     [ "sbnFileList", "audio_8h.html#a68da000ad7be47135586710ce7cf6d51", null ],
     [ "snapshots", "audio_8h.html#a896a3abc5cdd8468e3e6288871464041", null ],

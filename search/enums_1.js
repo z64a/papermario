@@ -42,5 +42,6 @@ var searchData=
   ['blinkmodes_39',['BlinkModes',['../inventory_8c.html#a4e8fc88e3fc8a2e9f4f736494c4620c8',1,'inventory.c']]],
   ['blockresult_40',['BlockResult',['../enums_8h.html#ade284cc1c9365b55782b81c943ccf4b4',1,'enums.h']]],
   ['blurstate_41',['BlurState',['../enums_8h.html#af5cba5cfe2eb649b395750e6fda05bf3',1,'enums.h']]],
-  ['buttons_42',['Buttons',['../enums_8h.html#a2200c9a3564da59c1160338587ecb034',1,'enums.h']]]
+  ['bool_42',['bool',['../macros_8h.html#af6a258d8f3ee5206d682d799316314b1',1,'macros.h']]],
+  ['buttons_43',['Buttons',['../enums_8h.html#a2200c9a3564da59c1160338587ecb034',1,'enums.h']]]
 ];

@@ -72,7 +72,7 @@ var npc_8c =
     [ "npc_remove_decoration_seeing_stars", "npc_8c.html#af9da87f4da006ea3378910f5649871dd", null ],
     [ "npc_remove_decoration_sweat", "npc_8c.html#a3c758f0d0047faeef86d7fe899175043", null ],
     [ "npc_render_with_double_pal_blending", "npc_8c.html#a4f2f37b2f893e8bc00a719ff8b8de27f", null ],
-    [ "npc_render_with_single_pal_blending", "npc_8c.html#a1b74c4411041f25a96aed589b76f3b83", null ],
+    [ "npc_render_with_single_pal_blending", "npc_8c.html#a5c58635780f41a121939cea2b4596dd1", null ],
     [ "npc_render_with_watt_idle_palettes", "npc_8c.html#a306b654b9e5036c4d8ad2856e7907a05", null ],
     [ "npc_render_without_adjusted_palettes", "npc_8c.html#a00e80d142a468eb09edf7694a72a11c0", null ],
     [ "npc_render_worker_do_nothing", "npc_8c.html#a852b5d73395966f72fd00fa36121bf8b", null ],

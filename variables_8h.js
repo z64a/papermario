@@ -11,7 +11,7 @@ var variables_8h =
     [ "D_8010C950", "variables_8h.html#a8dc835cae8aaebd8230b4ef4d97afc22", null ],
     [ "D_8014C248", "variables_8h.html#a7cec0e65db88941737606b3ad4ce3637", null ],
     [ "D_80164000", "variables_8h.html#a6f87595876932fabe49ecf253b9f9634", null ],
-    [ "EncounterStateChanged", "variables_8h.html#abc14a7de4ec36c08ba7fa1342bd12634", null ],
+    [ "EncounterStateChanged", "variables_8h.html#a3aec6e33bf6a37cc2ff88ed38cab3a65", null ],
     [ "EVS_NpcDefeat", "variables_8h.html#a8b28d53c0021a24a583d7f2137f438e8", null ],
     [ "FootstepSoundSelector", "variables_8h.html#a8e9a14c59b7f37ea5470d943b3d8542e", null ],
     [ "gBackgroundImage", "variables_8h.html#a103dc6be48d2be7b751e41eaaf207f9b", null ],

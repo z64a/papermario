@@ -48,7 +48,7 @@ var snd__interface_8c =
     [ "snd_song_request_snapshot", "snd__interface_8c.html#a95970140f0977e7fd3f0669bf71ebcc2", null ],
     [ "snd_song_request_unpause", "snd__interface_8c.html#a5c79876d54db05957722120a6bf510ee", null ],
     [ "snd_song_set_detune", "snd__interface_8c.html#a69d9097b00441499929887b1d552e5a1", null ],
-    [ "snd_song_set_linked_mode", "snd__interface_8c.html#afa6ddc92199249389274388016c21b37", null ],
+    [ "snd_song_set_linked_mode", "snd__interface_8c.html#ae89cacd23dcc04a4caccf1b4b38e3500", null ],
     [ "snd_song_set_playback_rate", "snd__interface_8c.html#a728a1c087d90e5372c21ddaed275315d", null ],
     [ "snd_song_set_proximity_mix_far", "snd__interface_8c.html#ac84a13b66c89a4992b165ed58ee965d5", null ],
     [ "snd_song_set_proximity_mix_full", "snd__interface_8c.html#ae3837bd4f027526dd338eece8e968753", null ],

@@ -60,7 +60,7 @@ var searchData=
   ['evt_5fchoose_5fany_5fkey_5fitem_57',['EVT_CHOOSE_ANY_KEY_ITEM',['../KeyItemChoice_8inc_8c.html#a94fdfae3c98d5b857b716b0a93adb2fa',1,'KeyItemChoice.inc.c']]],
   ['evt_5fchoose_5fconsumable_5ffrom_58',['EVT_CHOOSE_CONSUMABLE_FROM',['../NormalItemChoice_8inc_8c.html#a5f27e52072071357da95a6e47f9f060b',1,'NormalItemChoice.inc.c']]],
   ['evt_5fchoose_5fkey_5fitem_5ffrom_59',['EVT_CHOOSE_KEY_ITEM_FROM',['../KeyItemChoice_8inc_8c.html#a8d2224ccc45dbf02089ba75c79aae775',1,'KeyItemChoice.inc.c']]],
-  ['evt_5fcmd_60',['EVT_CMD',['../script__api_2macros_8h.html#aeb13f33868c5e801761d3c94d73dcea5',1,'macros.h']]],
+  ['evt_5fcmd_60',['EVT_CMD',['../script__api_2macros_8h.html#a26dffbb144cd63725553f40ed6e7f066',1,'macros.h']]],
   ['evt_5fcontinue_61',['EVT_CONTINUE',['../evt_8h.html#a9426fb0c303cf51848bd0b09a0ec453e',1,'evt.h']]],
   ['evt_5fdebug_5flog_62',['EVT_DEBUG_LOG',['../script__api_2macros_8h.html#aa3fff836932e0dea7f7a6d1d2c9a864e',1,'macros.h']]],
   ['evt_5fdrop_5fstep_5f1_63',['EVT_DROP_STEP_1',['../area__obk_2obk__03_2stairs_8c.html#abbc77da10b8c746939177669bfa93a33',1,'stairs.c']]],
@@ -163,5 +163,6 @@ var searchData=
   ['exec_160',['Exec',['../script__api_2macros_8h.html#afc73bce9a30d9a890a1bfc9444c59c18',1,'macros.h']]],
   ['exec_5fdeath_5fno_5fspinning_161',['EXEC_DEATH_NO_SPINNING',['../src_2battle_2battle_8h.html#a71ac44d4b079e8917df5d94db0347f7d',1,'battle.h']]],
   ['execgettid_162',['ExecGetTID',['../script__api_2macros_8h.html#aae8382f8a24de3f9ec801cc72e7306d1',1,'macros.h']]],
-  ['execwait_163',['ExecWait',['../script__api_2macros_8h.html#a73b76fe2edbe5dc3530323b9cbaf0c31',1,'macros.h']]]
+  ['execwait_163',['ExecWait',['../script__api_2macros_8h.html#a73b76fe2edbe5dc3530323b9cbaf0c31',1,'macros.h']]],
+  ['expand_164',['EXPAND',['../script__api_2macros_8h.html#ae4b532a93c757194ec73b6790a3e6b1f',1,'macros.h']]]
 ];

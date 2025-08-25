@@ -290,12 +290,11 @@ Variables</h2></td></tr>
 <b>Initial value:</b><div class="fragment"><div class="line">= {</div>
 <div class="line">    .flags = <a class="code hl_enumvalue" href="enums_8h.html#acda3452546886b2b713c62c4a07fd52aac5ee026e82789e9f107e16fcae641402">ENTITY_FLAG_DISABLE_COLLISION</a>,</div>
 <div class="line">    .renderCommandList = <a class="code hl_variable" href="#acff3d250846fd5e415f59ebabd518b5a">Entity_CircularShadowA_Render</a>,</div>
-<div class="line">    .animModelNode =  <a class="code hl_variable" href="8a860__len__3f30_8c.html#ad8c86ce808908b33858a59316263c571">NULL</a>,</div>
+<div class="line">    .animModelNode =  <span class="keyword">nullptr</span>,</div>
 <div class="line">    .onCreateCallback = <a class="code hl_function" href="#a45c86f6f871aa0cc7e6693d5f9035ec5">entity_Shadow_init</a>,</div>
 <div class="line">    .entityType = <a class="code hl_enumvalue" href="enums_8h.html#a93ee6a04ce41ceff9cd60fba85c38a53afb9a414bfe36304a07f80667f066b383">ENTITY_TYPE_SHADOW</a>,</div>
 <div class="line">    .aabbSize = { 25, 10, 25 }</div>
 <div class="line">}</div>
-<div class="ttc" id="a8a860__len__3f30_8c_html_ad8c86ce808908b33858a59316263c571"><div class="ttname"><a href="8a860__len__3f30_8c.html#ad8c86ce808908b33858a59316263c571">PopupMenu_SelectedIndex</a></div><div class="ttdeci">BSS s32 PopupMenu_SelectedIndex</div><div class="ttdef"><b>Definition</b> 8a860_len_3f30.c:84</div></div>
 <div class="ttc" id="aShadow_8c_html_a45c86f6f871aa0cc7e6693d5f9035ec5"><div class="ttname"><a href="#a45c86f6f871aa0cc7e6693d5f9035ec5">entity_Shadow_init</a></div><div class="ttdeci">void entity_Shadow_init(Shadow *shadow)</div><div class="ttdef"><b>Definition</b> Shadow.c:5</div></div>
 <div class="ttc" id="aShadow_8c_html_acff3d250846fd5e415f59ebabd518b5a"><div class="ttname"><a href="#acff3d250846fd5e415f59ebabd518b5a">Entity_CircularShadowA_Render</a></div><div class="ttdeci">EntityModelScript Entity_CircularShadowA_Render</div><div class="ttdef"><b>Definition</b> Shadow.c:82</div></div>
 <div class="ttc" id="aenums_8h_html_a93ee6a04ce41ceff9cd60fba85c38a53afb9a414bfe36304a07f80667f066b383"><div class="ttname"><a href="enums_8h.html#a93ee6a04ce41ceff9cd60fba85c38a53afb9a414bfe36304a07f80667f066b383">ENTITY_TYPE_SHADOW</a></div><div class="ttdeci">@ ENTITY_TYPE_SHADOW</div><div class="ttdef"><b>Definition</b> enums.h:2573</div></div>
@@ -319,7 +318,7 @@ Variables</h2></td></tr>
 <b>Initial value:</b><div class="fragment"><div class="line">= {</div>
 <div class="line">    .flags = <a class="code hl_enumvalue" href="enums_8h.html#acda3452546886b2b713c62c4a07fd52aac5ee026e82789e9f107e16fcae641402">ENTITY_FLAG_DISABLE_COLLISION</a>,</div>
 <div class="line">    .renderCommandList = <a class="code hl_variable" href="#af62ffb6be77799800631537125594294">Entity_CircularShadowB_Render</a>,</div>
-<div class="line">    .animModelNode =  <a class="code hl_variable" href="8a860__len__3f30_8c.html#ad8c86ce808908b33858a59316263c571">NULL</a>,</div>
+<div class="line">    .animModelNode =  <span class="keyword">nullptr</span>,</div>
 <div class="line">    .onCreateCallback = <a class="code hl_function" href="#a45c86f6f871aa0cc7e6693d5f9035ec5">entity_Shadow_init</a>,</div>
 <div class="line">    .entityType = <a class="code hl_enumvalue" href="enums_8h.html#a93ee6a04ce41ceff9cd60fba85c38a53afb9a414bfe36304a07f80667f066b383">ENTITY_TYPE_SHADOW</a>,</div>
 <div class="line">    .aabbSize = { 25, 10, 25 }</div>
@@ -412,6 +411,7 @@ Variables</h2></td></tr>
 <div class="line">    <a class="code hl_variable" href="8a860__len__3f30_8c.html#ad8c86ce808908b33858a59316263c571">gsSP2Triangles</a>(0, 1, 2, 0, 0, 2, 3, 0),</div>
 <div class="line">    <a class="code hl_variable" href="8a860__len__3f30_8c.html#ad8c86ce808908b33858a59316263c571">gsSPEndDisplayList</a>(),</div>
 <div class="line">}</div>
+<div class="ttc" id="a8a860__len__3f30_8c_html_ad8c86ce808908b33858a59316263c571"><div class="ttname"><a href="8a860__len__3f30_8c.html#ad8c86ce808908b33858a59316263c571">PopupMenu_SelectedIndex</a></div><div class="ttdeci">BSS s32 PopupMenu_SelectedIndex</div><div class="ttdef"><b>Definition</b> 8a860_len_3f30.c:84</div></div>
 <div class="ttc" id="aShadow_8c_html_aa7548cfc9f5a3d48d650e4c28b74a892"><div class="ttname"><a href="#aa7548cfc9f5a3d48d650e4c28b74a892">Entity_Shadow_LoadTexCircle</a></div><div class="ttdeci">Gfx Entity_Shadow_LoadTexCircle[]</div><div class="ttdef"><b>Definition</b> Shadow.c:46</div></div>
 </div><!-- fragment -->
 </div>
@@ -577,7 +577,7 @@ Variables</h2></td></tr>
 <b>Initial value:</b><div class="fragment"><div class="line">= {</div>
 <div class="line">    .flags = <a class="code hl_enumvalue" href="enums_8h.html#acda3452546886b2b713c62c4a07fd52aac5ee026e82789e9f107e16fcae641402">ENTITY_FLAG_DISABLE_COLLISION</a>,</div>
 <div class="line">    .renderCommandList = <a class="code hl_variable" href="#a168601ee0e9549859c1b26a0e31e652b">Entity_SquareShadow_Render</a>,</div>
-<div class="line">    .animModelNode =  <a class="code hl_variable" href="8a860__len__3f30_8c.html#ad8c86ce808908b33858a59316263c571">NULL</a>,</div>
+<div class="line">    .animModelNode =  <span class="keyword">nullptr</span>,</div>
 <div class="line">    .onCreateCallback = <a class="code hl_function" href="#a45c86f6f871aa0cc7e6693d5f9035ec5">entity_Shadow_init</a>,</div>
 <div class="line">    .entityType = <a class="code hl_enumvalue" href="enums_8h.html#a93ee6a04ce41ceff9cd60fba85c38a53afb9a414bfe36304a07f80667f066b383">ENTITY_TYPE_SHADOW</a>,</div>
 <div class="line">    .aabbSize = { 25, 10, 25 }</div>

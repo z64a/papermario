@@ -110,6 +110,7 @@ var searchData=
   ['bullet_5fbill_5fnpc_107',['BULLET_BILL_NPC',['../BulletBill_8h.html#a1842c997be8a961d9d3201ec670163c8',1,'BulletBill.h']]],
   ['buzzar_5ffill_5ftick_108',['BUZZAR_FILL_TICK',['../battle_2action__cmd_2whirlwind_8c.html#ab0fde41646340616f928da49f0a89105',1,'whirlwind.c']]],
   ['buzzy_5fbeetle_5fanims_109',['BUZZY_BEETLE_ANIMS',['../SpikeTop_8h.html#a46d92f13ef38d9c945e2ddd1d53abdd1',1,'SpikeTop.h']]],
-  ['bzzap_5fanims_110',['BZZAP_ANIMS',['../Bzzap_8h.html#a90d11594c068391149ef46f0db2549ab',1,'Bzzap.h']]],
-  ['bzzap_5fdrops_111',['BZZAP_DROPS',['../Bzzap_8h.html#ad0f3e1c4096e19495a14865022c5bdd4',1,'Bzzap.h']]]
+  ['bytecode_5fcast_110',['BYTECODE_CAST',['../script__api_2macros_8h.html#a735b91c5b102c2044e0fd69e28428c5f',1,'macros.h']]],
+  ['bzzap_5fanims_111',['BZZAP_ANIMS',['../Bzzap_8h.html#a90d11594c068391149ef46f0db2549ab',1,'Bzzap.h']]],
+  ['bzzap_5fdrops_112',['BZZAP_DROPS',['../Bzzap_8h.html#ad0f3e1c4096e19495a14865022c5bdd4',1,'Bzzap.h']]]
 ];

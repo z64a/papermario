@@ -812,7 +812,7 @@ pos</td>
       </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line">    .initialized = <a class="code hl_variable" href="8a860__len__3f30_8c.html#ad8c86ce808908b33858a59316263c571">FALSE</a>,</div>
+<div class="line">    .initialized = <span class="keyword">false</span>,</div>
 <div class="line">    .col = 0,</div>
 <div class="line">    .row = 1,</div>
 <div class="line">    .selected = 0,</div>
@@ -826,7 +826,6 @@ pos</td>
 <div class="line">    .fpUpdate = &amp;<a class="code hl_function" href="#abb1b0fe9338fbde17b4bb6774cb77b87">pause_partners_update</a>,</div>
 <div class="line">    .fpCleanup = &amp;<a class="code hl_function" href="#a2e41dd5cfcc178357142457301b32b71">pause_partners_cleanup</a></div>
 <div class="line">}</div>
-<div class="ttc" id="a8a860__len__3f30_8c_html_ad8c86ce808908b33858a59316263c571"><div class="ttname"><a href="8a860__len__3f30_8c.html#ad8c86ce808908b33858a59316263c571">PopupMenu_SelectedIndex</a></div><div class="ttdeci">BSS s32 PopupMenu_SelectedIndex</div><div class="ttdef"><b>Definition</b> 8a860_len_3f30.c:84</div></div>
 <div class="ttc" id="apause__partners_8c_html_a08119f8754caa7649c3f0432661f4c3c"><div class="ttname"><a href="#a08119f8754caa7649c3f0432661f4c3c">pause_partners_init</a></div><div class="ttdeci">void pause_partners_init(MenuPanel *panel)</div><div class="ttdef"><b>Definition</b> pause_partners.c:626</div></div>
 <div class="ttc" id="apause__partners_8c_html_a2e41dd5cfcc178357142457301b32b71"><div class="ttname"><a href="#a2e41dd5cfcc178357142457301b32b71">pause_partners_cleanup</a></div><div class="ttdeci">void pause_partners_cleanup(MenuPanel *panel)</div><div class="ttdef"><b>Definition</b> pause_partners.c:826</div></div>
 <div class="ttc" id="apause__partners_8c_html_a62de04258ba171332829b4e1267f46b8"><div class="ttname"><a href="#a62de04258ba171332829b4e1267f46b8">gPausePartnersGridData</a></div><div class="ttdeci">s8 gPausePartnersGridData[]</div><div class="ttdef"><b>Definition</b> pause_partners.c:164</div></div>
@@ -905,6 +904,7 @@ pos</td>
 <div class="line">    <a class="code hl_variable" href="8a860__len__3f30_8c.html#ad8c86ce808908b33858a59316263c571">gsSPSetGeometryMode</a>(<a class="code hl_variable" href="8a860__len__3f30_8c.html#ad8c86ce808908b33858a59316263c571">G_SHADE</a> | <a class="code hl_variable" href="8a860__len__3f30_8c.html#ad8c86ce808908b33858a59316263c571">G_CULL_BACK</a> | <a class="code hl_variable" href="8a860__len__3f30_8c.html#ad8c86ce808908b33858a59316263c571">G_SHADING_SMOOTH</a>),</div>
 <div class="line">    <a class="code hl_variable" href="8a860__len__3f30_8c.html#ad8c86ce808908b33858a59316263c571">gsSPEndDisplayList</a>()</div>
 <div class="line">}</div>
+<div class="ttc" id="a8a860__len__3f30_8c_html_ad8c86ce808908b33858a59316263c571"><div class="ttname"><a href="8a860__len__3f30_8c.html#ad8c86ce808908b33858a59316263c571">PopupMenu_SelectedIndex</a></div><div class="ttdeci">BSS s32 PopupMenu_SelectedIndex</div><div class="ttdef"><b>Definition</b> 8a860_len_3f30.c:84</div></div>
 <div class="ttc" id="amacros_8h_html_a948deee7749479b7fea43b17a0166b57"><div class="ttname"><a href="macros_8h.html#a948deee7749479b7fea43b17a0166b57">PM_CC_0F</a></div><div class="ttdeci">#define PM_CC_0F</div><div class="ttdef"><b>Definition</b> macros.h:303</div></div>
 </div><!-- fragment -->
 <p class="reference">Referenced by <a class="el" href="#a97514f79ebe6baa42257dbccf3c674d7">pause_partners_draw_contents()</a>.</p>
@@ -966,8 +966,8 @@ pos</td>
 <div class="ttc" id="abtl__states__menus_8c_html_abdf1dc15743de90ab7d67ca9b3e39737"><div class="ttname"><a href="btl__states__menus_8c.html#abdf1dc15743de90ab7d67ca9b3e39737">HES_MoveGreenOrb</a></div><div class="ttdeci">HudScript HES_MoveGreenOrb</div><div class="ttdef"><b>Definition</b> global_hud_scripts.c:2561</div></div>
 <div class="ttc" id="abtl__states__menus_8c_html_ad7a74fbfad54d1939a91372054549c48"><div class="ttname"><a href="btl__states__menus_8c.html#ad7a74fbfad54d1939a91372054549c48">HES_MoveRedOrb</a></div><div class="ttdeci">HudScript HES_MoveRedOrb</div><div class="ttdef"><b>Definition</b> global_hud_scripts.c:2563</div></div>
 <div class="ttc" id="aenums_8h_html_a9118e3544eba034cdf3894b284a44889"><div class="ttname"><a href="enums_8h.html#a9118e3544eba034cdf3894b284a44889">LANGUAGE_DEFAULT</a></div><div class="ttdeci">#define LANGUAGE_DEFAULT</div><div class="ttdef"><b>Definition</b> enums.h:6435</div></div>
-<div class="ttc" id="amenu__hud__scripts_8c_html_a03c2dc007f01d3deb50774111563372c"><div class="ttname"><a href="menu__hud__scripts_8c.html#a03c2dc007f01d3deb50774111563372c">HES_PartnerRank</a></div><div class="ttdeci">HudScript HES_PartnerRank</div><div class="ttdef"><b>Definition</b> menu_hud_scripts.c:287</div></div>
-<div class="ttc" id="amenu__hud__scripts_8c_html_a8d8e39846b5f01af60d5b150c2831a78"><div class="ttname"><a href="menu__hud__scripts_8c.html#a8d8e39846b5f01af60d5b150c2831a78">HES_StatFp_1</a></div><div class="ttdeci">HudScript HES_StatFp_1</div><div class="ttdef"><b>Definition</b> menu_hud_scripts.c:281</div></div>
+<div class="ttc" id="amenu__hud__scripts_8c_html_a03c2dc007f01d3deb50774111563372c"><div class="ttname"><a href="menu__hud__scripts_8c.html#a03c2dc007f01d3deb50774111563372c">HES_PartnerRank</a></div><div class="ttdeci">HudScript HES_PartnerRank</div><div class="ttdef"><b>Definition</b> menu_hud_scripts.c:533</div></div>
+<div class="ttc" id="amenu__hud__scripts_8c_html_a8d8e39846b5f01af60d5b150c2831a78"><div class="ttname"><a href="menu__hud__scripts_8c.html#a8d8e39846b5f01af60d5b150c2831a78">HES_StatFp_1</a></div><div class="ttdeci">HudScript HES_StatFp_1</div><div class="ttdef"><b>Definition</b> menu_hud_scripts.c:527</div></div>
 </div><!-- fragment -->
 <p class="reference">Referenced by <a class="el" href="#a08119f8754caa7649c3f0432661f4c3c">pause_partners_init()</a>.</p>
 

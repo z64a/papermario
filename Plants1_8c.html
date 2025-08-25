@@ -611,14 +611,13 @@ Variables</h2></td></tr>
 <div class="line">    .typeDataSize = <span class="keyword">sizeof</span>(<a class="code hl_struct" href="entity_8h.html#structCymbalPlantData">CymbalPlantData</a>),</div>
 <div class="line">    .renderCommandList = <a class="code hl_variable" href="#a1f3e789bb403336cbc442c083c4e149f">Entity_CymbalPlant_AnimationIdle</a>,</div>
 <div class="line">    .modelAnimationNodes = <a class="code hl_variable" href="#ac8f0f039e3de1d40e898ca8db2274451">Entity_CymbalPlant_Mesh</a>,</div>
-<div class="line">    .fpInit = <a class="code hl_variable" href="8a860__len__3f30_8c.html#ad8c86ce808908b33858a59316263c571">NULL</a>,</div>
+<div class="line">    .fpInit = <span class="keyword">nullptr</span>,</div>
 <div class="line">    .updateEntityScript = <a class="code hl_variable" href="#a840a5dc0f53f475a9f23d2dfbee6beef">Entity_CymbalPlant_Update</a>,</div>
-<div class="line">    .fpHandleCollision = <a class="code hl_variable" href="8a860__len__3f30_8c.html#ad8c86ce808908b33858a59316263c571">NULL</a>,</div>
+<div class="line">    .fpHandleCollision = <span class="keyword">nullptr</span>,</div>
 <div class="line">    { .dmaList = <a class="code hl_variable" href="#aa163daa9e95b7f413ed27f648f3e5199">Entity_CymbalPlant_dma</a> },</div>
 <div class="line">    .entityType = <a class="code hl_enumvalue" href="enums_8h.html#a93ee6a04ce41ceff9cd60fba85c38a53a7b8cbb4c109cec6327d4569397e35098">ENTITY_TYPE_CYMBAL_PLANT</a>,</div>
 <div class="line">    .aabbSize = { 103, 30, 24 }</div>
 <div class="line">}</div>
-<div class="ttc" id="a8a860__len__3f30_8c_html_ad8c86ce808908b33858a59316263c571"><div class="ttname"><a href="8a860__len__3f30_8c.html#ad8c86ce808908b33858a59316263c571">PopupMenu_SelectedIndex</a></div><div class="ttdeci">BSS s32 PopupMenu_SelectedIndex</div><div class="ttdef"><b>Definition</b> 8a860_len_3f30.c:84</div></div>
 <div class="ttc" id="aPlants1_8c_html_a1f3e789bb403336cbc442c083c4e149f"><div class="ttname"><a href="#a1f3e789bb403336cbc442c083c4e149f">Entity_CymbalPlant_AnimationIdle</a></div><div class="ttdeci">AnimScript Entity_CymbalPlant_AnimationIdle</div><div class="ttdef"><b>Definition</b> CymbalPlant_anim.c:347</div></div>
 <div class="ttc" id="aPlants1_8c_html_a840a5dc0f53f475a9f23d2dfbee6beef"><div class="ttname"><a href="#a840a5dc0f53f475a9f23d2dfbee6beef">Entity_CymbalPlant_Update</a></div><div class="ttdeci">EntityScript Entity_CymbalPlant_Update</div><div class="ttdef"><b>Definition</b> Plants1.c:371</div></div>
 <div class="ttc" id="aPlants1_8c_html_aa163daa9e95b7f413ed27f648f3e5199"><div class="ttname"><a href="#aa163daa9e95b7f413ed27f648f3e5199">Entity_CymbalPlant_dma</a></div><div class="ttdeci">DmaEntry Entity_CymbalPlant_dma[]</div><div class="ttdef"><b>Definition</b> Plants1.c:379</div></div>
@@ -753,7 +752,7 @@ Variables</h2></td></tr>
 <div class="line">    .modelAnimationNodes = <a class="code hl_variable" href="#a1f054a322595916e9bef44cd8be491c0">Entity_PinkFlower_Mesh</a>,</div>
 <div class="line">    .fpInit = <a class="code hl_function" href="#a8a17495b4583228f460a71bf41fb78e8">entity_PinkFlower_init</a>,</div>
 <div class="line">    .updateEntityScript = <a class="code hl_variable" href="#a7cf885dc24872a8253d73cd414eb7d3e">Entity_PinkFlower_Script</a>,</div>
-<div class="line">    .fpHandleCollision = <a class="code hl_variable" href="8a860__len__3f30_8c.html#ad8c86ce808908b33858a59316263c571">NULL</a>,</div>
+<div class="line">    .fpHandleCollision = <span class="keyword">nullptr</span>,</div>
 <div class="line">    { .dmaList = <a class="code hl_variable" href="#a3afa4ea7729a2c8aa32e000deeaf88e5">Entity_PinkFlower_dma</a> },</div>
 <div class="line">    .entityType = <a class="code hl_enumvalue" href="enums_8h.html#a93ee6a04ce41ceff9cd60fba85c38a53a495025124016311c58226ad69d62aa04">ENTITY_TYPE_PINK_FLOWER</a>,</div>
 <div class="line">    .aabbSize = { 44, 100, 25 }</div>
@@ -865,7 +864,7 @@ Variables</h2></td></tr>
 <b>Initial value:</b><div class="fragment"><div class="line">= {</div>
 <div class="line">    <a class="code hl_define" href="entity_8h.html#a4570e12fbc3f2176ed52c172100e282a">es_SetCallback</a>(<a class="code hl_function" href="#a720e66bf336343d1f5e6a5c04d33dcf5">entity_PinkFlower_idle</a>, 0)</div>
 <div class="line">    <a class="code hl_define" href="entity_8h.html#acb31f36b62a3a0157634521e63f1ff96">es_PlaySound</a>(<a class="code hl_enumvalue" href="enums_8h.html#ac5d40ac44ef7d8c38c6c72a71348e360af009dadd7a7b0e5b728768ce21771e91">SOUND_PLANTS_LIGHT_UP</a>)</div>
-<div class="line">    <a class="code hl_define" href="entity_8h.html#a4570e12fbc3f2176ed52c172100e282a">es_SetCallback</a>(<a class="code hl_variable" href="8a860__len__3f30_8c.html#ad8c86ce808908b33858a59316263c571">NULL</a>, 50)</div>
+<div class="line">    <a class="code hl_define" href="entity_8h.html#a4570e12fbc3f2176ed52c172100e282a">es_SetCallback</a>(<span class="keywordtype">nullptr</span>, 50)</div>
 <div class="line">    <a class="code hl_define" href="entity_8h.html#a561baf9141de90dabbc1327ec22e020d">es_SetFlags</a>(<a class="code hl_enumvalue" href="enums_8h.html#acda3452546886b2b713c62c4a07fd52aa858800c9a4b89759f688de3a102d7fdb">ENTITY_FLAG_SHOWS_INSPECT_PROMPT</a>)</div>
 <div class="line">    <a class="code hl_define" href="entity_8h.html#a14fc4a7494d4962222341d72fcef34ea">es_Restart</a></div>
 <div class="line">    <a class="code hl_define" href="entity_8h.html#abb0941e798cc0d323a0b03ba5f859d94">es_End</a></div>
@@ -896,11 +895,12 @@ Variables</h2></td></tr>
 <div class="line">    .modelAnimationNodes = 0,</div>
 <div class="line">    .fpInit = <a class="code hl_function" href="#a7c53334a91fa99ee9249a8580e5a6c53">entity_PinkFlowerLight_init</a>,</div>
 <div class="line">    .updateEntityScript = <a class="code hl_variable" href="#af57b3801d0eec7d57e1ac692e120d2e6">Entity_PinkFlowerLight_Script</a>,</div>
-<div class="line">    .fpHandleCollision = <a class="code hl_variable" href="8a860__len__3f30_8c.html#ad8c86ce808908b33858a59316263c571">NULL</a>,</div>
+<div class="line">    .fpHandleCollision = <span class="keyword">nullptr</span>,</div>
 <div class="line">    { .dma = <a class="code hl_define" href="entity_8h.html#a7ca50753b79e337135a9f6ab0dd5a2dd">ENTITY_ROM</a>(<a class="code hl_variable" href="8a860__len__3f30_8c.html#ad8c86ce808908b33858a59316263c571">PinkFlower_gfx</a>) },</div>
 <div class="line">    .entityType = <a class="code hl_enumvalue" href="enums_8h.html#a93ee6a04ce41ceff9cd60fba85c38a53a495025124016311c58226ad69d62aa04">ENTITY_TYPE_PINK_FLOWER</a>,</div>
 <div class="line">    .aabbSize = { 44, 100, 25 }</div>
 <div class="line">}</div>
+<div class="ttc" id="a8a860__len__3f30_8c_html_ad8c86ce808908b33858a59316263c571"><div class="ttname"><a href="8a860__len__3f30_8c.html#ad8c86ce808908b33858a59316263c571">PopupMenu_SelectedIndex</a></div><div class="ttdeci">BSS s32 PopupMenu_SelectedIndex</div><div class="ttdef"><b>Definition</b> 8a860_len_3f30.c:84</div></div>
 <div class="ttc" id="aPlants1_8c_html_a7c53334a91fa99ee9249a8580e5a6c53"><div class="ttname"><a href="#a7c53334a91fa99ee9249a8580e5a6c53">entity_PinkFlowerLight_init</a></div><div class="ttdeci">void entity_PinkFlowerLight_init(Entity *entity)</div><div class="ttdef"><b>Definition</b> Plants1.c:212</div></div>
 <div class="ttc" id="aPlants1_8c_html_ad7d337d1c641d0feb8e5670a340eaf0f"><div class="ttname"><a href="#ad7d337d1c641d0feb8e5670a340eaf0f">Entity_PinkFlowerLight_RenderScript</a></div><div class="ttdeci">EntityModelScript Entity_PinkFlowerLight_RenderScript</div><div class="ttdef"><b>Definition</b> Plants1.c:376</div></div>
 <div class="ttc" id="aPlants1_8c_html_af57b3801d0eec7d57e1ac692e120d2e6"><div class="ttname"><a href="#af57b3801d0eec7d57e1ac692e120d2e6">Entity_PinkFlowerLight_Script</a></div><div class="ttdeci">EntityScript Entity_PinkFlowerLight_Script</div><div class="ttdef"><b>Definition</b> Plants1.c:365</div></div>
@@ -985,7 +985,7 @@ Variables</h2></td></tr>
 <div class="line">    .modelAnimationNodes = 0,</div>
 <div class="line">    .fpInit = <a class="code hl_function" href="#a80165ab38eebbe926a14fbca0864addb">entity_SpinningFlower_init</a>,</div>
 <div class="line">    .updateEntityScript = <a class="code hl_variable" href="#a5bb8c44e06a42f36c8547db840ded1b1">Entity_SpinningFlower_Script</a>,</div>
-<div class="line">    .fpHandleCollision = <a class="code hl_variable" href="8a860__len__3f30_8c.html#ad8c86ce808908b33858a59316263c571">NULL</a>,</div>
+<div class="line">    .fpHandleCollision = <span class="keyword">nullptr</span>,</div>
 <div class="line">    { .dma = <a class="code hl_define" href="entity_8h.html#a7ca50753b79e337135a9f6ab0dd5a2dd">ENTITY_ROM</a>(<a class="code hl_variable" href="8a860__len__3f30_8c.html#ad8c86ce808908b33858a59316263c571">SpinningFlower</a>) },</div>
 <div class="line">    .entityType = <a class="code hl_enumvalue" href="enums_8h.html#a93ee6a04ce41ceff9cd60fba85c38a53a9b0a67a9e450a41af3a4d42125d93d9e">ENTITY_TYPE_SPINNING_FLOWER</a>,</div>
 <div class="line">    .aabbSize = { 45, 22, 42 }</div>

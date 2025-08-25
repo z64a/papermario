@@ -21,7 +21,7 @@ var main__pre__bss_8c =
     [ "D_8009A648", "main__pre__bss_8c.html#a2e7bf91ae857a6d3e1332108b3b31126", null ],
     [ "D_8009A65C", "main__pre__bss_8c.html#ac3220f0192cc59f5a3130bdc0098ca79", null ],
     [ "D_8009A67C", "main__pre__bss_8c.html#aca09305feb977678ec59cc8175e7449e", null ],
-    [ "EncounterStateChanged", "main__pre__bss_8c.html#ac4333c5e173d873c332021c37a6eab46", null ],
+    [ "EncounterStateChanged", "main__pre__bss_8c.html#a4719003c4b8051db4fcc4308b1803035", null ],
     [ "gAuAmbienceManager", "main__pre__bss_8c.html#a6dda931d9cb213def3ccb07a1a630264", null ],
     [ "gBGMPlayerA", "main__pre__bss_8c.html#ad7f62e04aab8f53260ca4c59ada6b56a", null ],
     [ "gBGMPlayerB", "main__pre__bss_8c.html#aeb7d906b011f6808db15b4434a2530bc", null ],

@@ -1,6 +1,6 @@
 var audio_8h_structSongSwapLinkedRequest =
 [
-    [ "enabled", "audio_8h.html#aa89c5fc02c73142628caecb5b5eb1aed", null ],
+    [ "enabled", "audio_8h.html#abb890b643505e66328f2fb91811cc05c", null ],
     [ "pad_14", "audio_8h.html#a9f0e6971081f7323bcf129e725791264", null ],
     [ "songName", "audio_8h.html#a5c2fba9418d0b4b19aa4b55705a234ee", null ],
     [ "unused_04", "audio_8h.html#a1ddba7adf675f954493cb1d233244a43", null ],

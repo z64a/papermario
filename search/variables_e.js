@@ -1,13 +1,13 @@
 var searchData=
 [
-  ['n_5faspmain_5fdata_5fbin_0',['n_aspMain_data_bin',['../system_8c.html#a1782c8bf4da202f633896154439c3d46',1,'system.c']]],
-  ['n_5faspmain_5ftext_5fbin_1',['n_aspMain_text_bin',['../system_8c.html#aca5bd2d7e941c15c32a284ed22065942',1,'system.c']]],
+  ['n_5faspmaindatastart_0',['n_aspMainDataStart',['../system_8c.html#aaff25cee49ba18eee3d5678319fd29eb',1,'system.c']]],
+  ['n_5faspmaintextstart_1',['n_aspMainTextStart',['../system_8c.html#aed4378f8c68f2c0dc4e4ef1a3001986e',1,'system.c']]],
   ['name_2',['name',['../common__structs_8h.html#a4a405440184ba5665a81330367786804',1,'TextureHeader::name'],['../map_8h.html#aae160ad9f10ae978c826f9492b8ce327',1,'AreaConfig::name'],['../audio_8h.html#a761a5a6c9269dcc22e20c68e698606c7',1,'BGMHeader::name'],['../audio_8h.html#a15eb38b239d7cf5bcf6fa36d57d01697',1,'SEFHeader::name'],['../audio_8h.html#a8e8244620e56904c4c6b031a2ea85c6a',1,'BKHeader::name'],['../audio_8h.html#a8500de04f4f211795cd449f6e08c6b40',1,'MSEQHeader::name'],['../src_2battle_2battle_8h.html#ae794ee3c8e2ae6d9008e20c8c6628830',1,'Battle::name'],['../src_2battle_2battle_8h.html#ac6ac87999f13e835806b229624e8a0b7',1,'StageListRow::name'],['../src_2battle_2battle_8h.html#a711a3b37b0615a7e7b211f9dfad0e78a',1,'BattleArea::name'],['../machi_8h.html#a408d59b7ded5f3765ddfae6dc406fe04',1,'GameVarRange::name'],['../world_8c.html#a1204b58e0c4706da1df61497a6f75bf8',1,'AssetHeader::name']]],
   ['namemsg_3',['nameMsg',['../common__structs_8h.html#acaec355b0a9add94e607471f75bd9f91',1,'MoveData::nameMsg'],['../common__structs_8h.html#a42b7d6239cf46e05e8f30833a46e6b08',1,'ItemData::nameMsg'],['../hud__element_8h.html#a53fe684d84409d3e0f65fb38cff18f8f',1,'PopupMenu::nameMsg'],['../hud__element_8h.html#a09766d6697fe3fb3732267cb620c0d22',1,'PartnerPopupProperties::nameMsg']]],
   ['namespace_4',['NAMESPACE',['../common__koopa__bros_8inc_8c.html#a7d81b5aa9c7b4fcfa98a039812275b07',1,'NAMESPACE:&#160;common_koopa_bros.inc.c'],['../shy__guy__base_8inc_8c.html#a7d81b5aa9c7b4fcfa98a039812275b07',1,'NAMESPACE:&#160;shy_guy_base.inc.c']]],
   ['nearclip_5',['nearClip',['../common__structs_8h.html#acd6208fb606b5283726db1a2fd708f1c',1,'CameraInitData::nearClip'],['../structCamera.html#a6d017bc22be10828497baf2ec32aa782',1,'Camera::nearClip']]],
   ['needsinit_6',['needsInit',['../structCamera.html#a6ba3e50815d399e2d29396c2319ef3cc',1,'Camera::needsInit'],['../common__structs_8h.html#a18c2bbf909387475db65a1dea580c4bb',1,'PopupMessage::needsInit']]],
-  ['needsinitialconstraindir_7',['needsInitialConstrainDir',['../structCamera.html#a5094a78adea7693754ab18d398a66bf6',1,'Camera']]],
+  ['needsinitialconstraindir_7',['needsInitialConstrainDir',['../structCamera.html#a9b2315e920b78018d2ebf14d8e3ae893',1,'Camera']]],
   ['needspawnitem_8',['needSpawnItem',['../entity_8h.html#a17bc4e675a007db0de0d2e9574da175c',1,'HiddenPanelData']]],
   ['needsreinit_9',['needsReinit',['../structCamera.html#a1563c60518c5d8be5ac8bddf8d83263b',1,'Camera']]],
   ['newitemvisgroup_10',['newItemVisGroup',['../script__api_2rooms_8c.html#a0e3aa6225712f0ce5a34a1b2e60db5d1',1,'MapRoom']]],

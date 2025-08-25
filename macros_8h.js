@@ -256,5 +256,9 @@ var macros_8h =
     [ "WORLD_ENTITY_HEAP_SIZE", "macros_8h.html#a60d1341d2d6040d5435a05d7226f04fa", null ],
     [ "X10", "macros_8h.html#aa1e8954d6d27ba7f9e177299a5d040cb", null ],
     [ "Difficulty1D", "macros_8h.html#abcc6f51384e4fd9368229045dae97ab3", null ],
-    [ "Difficulty2D", "macros_8h.html#a84eb4d19ace242c476fb8ebfe298f0d5", null ]
+    [ "Difficulty2D", "macros_8h.html#a84eb4d19ace242c476fb8ebfe298f0d5", null ],
+    [ "bool", "macros_8h.html#af6a258d8f3ee5206d682d799316314b1", [
+      [ "false", "macros_8h.html#af6a258d8f3ee5206d682d799316314b1ae9de385ef6fe9bf3360d1038396b884c", null ],
+      [ "true", "macros_8h.html#af6a258d8f3ee5206d682d799316314b1a08f175a5505a10b9ed657defeb050e4b", null ]
+    ] ]
 ];

@@ -543,8 +543,8 @@ Enumerations</h2></td></tr>
 , <a class="el" href="#aafd7fbe68a634e1d220ee4244dd4231fac383a73784a97d464ff0a62455644527">BGM_COMP_WAIT</a> = 4
 , <br />
 &#160;&#160;<a class="el" href="#aafd7fbe68a634e1d220ee4244dd4231fac3e89d401c9ce9a55af33a08c5161b01">BGM_COMP_END_LOOP</a> = 5
-, <a class="el" href="#aafd7fbe68a634e1d220ee4244dd4231fa550a7a5bd2eb1e683541137014cd65bc">BGM_COMP_END_COND_LOOP_FALSE</a> = 6
-, <a class="el" href="#aafd7fbe68a634e1d220ee4244dd4231fa903db2028a52ebda22d4a003c8072558">BGM_COMP_END_COND_LOOP_TRUE</a> = 7
+, <a class="el" href="#aafd7fbe68a634e1d220ee4244dd4231fa92f12c08ae4948ea32af283392ee44b0">BGM_COMP_END_COND_LOOP_false</a> = 6
+, <a class="el" href="#aafd7fbe68a634e1d220ee4244dd4231fa6b652524d8b22704e3723838c4e41029">BGM_COMP_END_COND_LOOP_true</a> = 7
 <br />
  }</td></tr>
 <tr class="separator:aafd7fbe68a634e1d220ee4244dd4231f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -773,7 +773,7 @@ Variables</h2></td></tr>
 <tr class="memitem:a3abe86041aacd34e84254ae369c4a12a" id="r_a3abe86041aacd34e84254ae369c4a12a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="8a860__len__3f30_8c.html#ad8c86ce808908b33858a59316263c571">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3abe86041aacd34e84254ae369c4a12a">AuEnvelopeIntervals</a> []</td></tr>
 <tr class="separator:a3abe86041aacd34e84254ae369c4a12a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9dbe215bf88872791e1a34642da3ae9e" id="r_a9dbe215bf88872791e1a34642da3ae9e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="8a860__len__3f30_8c.html#ad8c86ce808908b33858a59316263c571">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9dbe215bf88872791e1a34642da3ae9e">PreventBGMPlayerUpdate</a></td></tr>
-<tr class="memdesc:a9dbe215bf88872791e1a34642da3ae9e"><td class="mdescLeft">&#160;</td><td class="mdescRight">While TRUE, the audio thread skips BGM player updates.  <br /></td></tr>
+<tr class="memdesc:a9dbe215bf88872791e1a34642da3ae9e"><td class="mdescLeft">&#160;</td><td class="mdescRight">While true, the audio thread skips BGM player updates.  <br /></td></tr>
 <tr class="separator:a9dbe215bf88872791e1a34642da3ae9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a337a05f19000567d4622ccaa98d0cf90" id="r_a337a05f19000567d4622ccaa98d0cf90"><td class="memItemLeft" align="right" valign="top"><a class="el" href="8a860__len__3f30_8c.html#ad8c86ce808908b33858a59316263c571">u16</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a337a05f19000567d4622ccaa98d0cf90">AmbienceRadioChannel</a></td></tr>
 <tr class="separator:a337a05f19000567d4622ccaa98d0cf90"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1479,7 +1479,7 @@ delta</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="a769982d799a0efc6f171243c88d10eae" name="a769982d799a0efc6f171243c88d10eae"></a><a class="el" href="common__structs_8h.html#a8d2e4e903f7277916e7c1e2f36539d26">b32</a></td>
+<a id="a15a8f6be040151eec8996aabab824989" name="a15a8f6be040151eec8996aabab824989"></a><a class="el" href="macros_8h.html#af6a258d8f3ee5206d682d799316314b1">bool</a></td>
 <td class="fieldname">
 first</td>
 <td class="fielddoc">
@@ -1532,7 +1532,7 @@ delta</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="ae485e5736982e56d73de6efceb16be8e" name="ae485e5736982e56d73de6efceb16be8e"></a><a class="el" href="common__structs_8h.html#a8d2e4e903f7277916e7c1e2f36539d26">b32</a></td>
+<a id="af8a5e1f8bdbf528bfd95b635b6da59b3" name="af8a5e1f8bdbf528bfd95b635b6da59b3"></a><a class="el" href="macros_8h.html#af6a258d8f3ee5206d682d799316314b1">bool</a></td>
 <td class="fieldname">
 dirty</td>
 <td class="fielddoc">
@@ -4049,7 +4049,7 @@ resumeFadeTime</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="ae28872cbbc27fe32a7ac525904607698" name="ae28872cbbc27fe32a7ac525904607698"></a><a class="el" href="common__structs_8h.html#a8d2e4e903f7277916e7c1e2f36539d26">b32</a></td>
+<a id="a937963063f08c03deb4a17182a2f4325" name="a937963063f08c03deb4a17182a2f4325"></a><a class="el" href="macros_8h.html#af6a258d8f3ee5206d682d799316314b1">bool</a></td>
 <td class="fieldname">
 resumeRequested</td>
 <td class="fielddoc">
@@ -5199,7 +5199,7 @@ startVolume</td>
 <table class="fieldtable">
 <tr><th colspan="3">Data Fields</th></tr>
 <tr><td class="fieldtype">
-<a id="aa89c5fc02c73142628caecb5b5eb1aed" name="aa89c5fc02c73142628caecb5b5eb1aed"></a><a class="el" href="common__structs_8h.html#a8d2e4e903f7277916e7c1e2f36539d26">b32</a></td>
+<a id="abb890b643505e66328f2fb91811cc05c" name="abb890b643505e66328f2fb91811cc05c"></a><a class="el" href="macros_8h.html#af6a258d8f3ee5206d682d799316314b1">bool</a></td>
 <td class="fieldname">
 enabled</td>
 <td class="fielddoc">
@@ -6762,7 +6762,7 @@ playerIndex</td>
 <td class="fieldname">
 released</td>
 <td class="fielddoc">
-Set to TRUE when the voice should be released/stopped. </td></tr>
+Set to true when the voice should be released/stopped. </td></tr>
 <tr><td class="fieldtype">
 <a id="a66b1eb646ef4a25a13b63b7cd454c424" name="a66b1eb646ef4a25a13b63b7cd454c424"></a><a class="el" href="8a860__len__3f30_8c.html#ad8c86ce808908b33858a59316263c571">u8</a></td>
 <td class="fieldname">
@@ -8024,8 +8024,8 @@ Note or drum ID used to differentiate voices on the same track. </td></tr>
 <tr><td class="fieldname"><a id="aafd7fbe68a634e1d220ee4244dd4231fa0898e46e3269daf65f8fec628cdf759a" name="aafd7fbe68a634e1d220ee4244dd4231fa0898e46e3269daf65f8fec628cdf759a"></a>BGM_COMP_START_LOOP&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="aafd7fbe68a634e1d220ee4244dd4231fac383a73784a97d464ff0a62455644527" name="aafd7fbe68a634e1d220ee4244dd4231fac383a73784a97d464ff0a62455644527"></a>BGM_COMP_WAIT&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="aafd7fbe68a634e1d220ee4244dd4231fac3e89d401c9ce9a55af33a08c5161b01" name="aafd7fbe68a634e1d220ee4244dd4231fac3e89d401c9ce9a55af33a08c5161b01"></a>BGM_COMP_END_LOOP&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aafd7fbe68a634e1d220ee4244dd4231fa550a7a5bd2eb1e683541137014cd65bc" name="aafd7fbe68a634e1d220ee4244dd4231fa550a7a5bd2eb1e683541137014cd65bc"></a>BGM_COMP_END_COND_LOOP_FALSE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aafd7fbe68a634e1d220ee4244dd4231fa903db2028a52ebda22d4a003c8072558" name="aafd7fbe68a634e1d220ee4244dd4231fa903db2028a52ebda22d4a003c8072558"></a>BGM_COMP_END_COND_LOOP_TRUE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aafd7fbe68a634e1d220ee4244dd4231fa92f12c08ae4948ea32af283392ee44b0" name="aafd7fbe68a634e1d220ee4244dd4231fa92f12c08ae4948ea32af283392ee44b0"></a>BGM_COMP_END_COND_LOOP_false&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aafd7fbe68a634e1d220ee4244dd4231fa6b652524d8b22704e3723838c4e41029" name="aafd7fbe68a634e1d220ee4244dd4231fa6b652524d8b22704e3723838c4e41029"></a>BGM_COMP_END_COND_LOOP_true&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
@@ -8963,7 +8963,7 @@ Note or drum ID used to differentiate voices on the same track. </td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>While TRUE, the audio thread skips BGM player updates. </p>
+<p>While true, the audio thread skips BGM player updates. </p>
 <p>Used by the game thread to lock out BGM updates while modifying player state, to prevent race conditions. </p>
 
 <p class="reference">Referenced by <a class="el" href="core_8h.html#aa0acccdb2cee73a3850390580b0609b8">au_update_clients_for_audio_frame()</a>, <a class="el" href="public_8h.html#a79565c44ff0d1358378b26ae268936a0">snd_notify_engine_ready()</a>, <a class="el" href="public_8h.html#a7ec0418f8e1b0487397f752205229260">snd_song_request_fade_in()</a>, <a class="el" href="public_8h.html#a286292fd3103898d13b9277dc3f76566">snd_song_request_fade_in_default()</a>, <a class="el" href="public_8h.html#a4be613df07ffe46a815f6ab0a6ed4ad4">snd_song_request_play()</a>, <a class="el" href="public_8h.html#ad29ac7ce764a4277955474dc409d0fb7">snd_song_request_play_default()</a>, and <a class="el" href="public_8h.html#a5ce05d319b4bf7ae1c7abd4d8c9c4e54">snd_song_request_pop()</a>.</p>

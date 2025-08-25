@@ -97,7 +97,7 @@ var searchData=
   ['resumefadeend_94',['resumeFadeEnd',['../audio_8h.html#aa637e9901d398a432cfbc8980319ccc3',1,'AuGlobals']]],
   ['resumefadestart_95',['resumeFadeStart',['../audio_8h.html#ac6a8fcef1deb74fadbaf8858468d0d27',1,'AuGlobals']]],
   ['resumefadetime_96',['resumeFadeTime',['../audio_8h.html#ad5b63ef45e1a007e839a582a9959ee0c',1,'AuGlobals']]],
-  ['resumerequested_97',['resumeRequested',['../audio_8h.html#ae28872cbbc27fe32a7ac525904607698',1,'AuGlobals']]],
+  ['resumerequested_97',['resumeRequested',['../audio_8h.html#a937963063f08c03deb4a17182a2f4325',1,'AuGlobals']]],
   ['resumesongname_98',['resumeSongName',['../audio_8h.html#ac9454b2d3a219bc663e27484b2ba124a',1,'AuGlobals']]],
   ['reverb_99',['reverb',['../audio_8h.html#a51d157ddc3570d237c7da252819eaa26',1,'SoundPlayer::reverb'],['../audio_8h.html#ac57cea425c96503edbcf4c6339883daa',1,'AuVoice::reverb'],['../audio_8h.html#a31be9f60bde0e593121cbaf9c58512ee',1,'BGMDrumInfo::reverb'],['../audio_8h.html#a21e96bdaa26f868e35b3483fdd56f7b2',1,'BGMInstrumentInfo::reverb'],['../audio_8h.html#ab8d20ea4b78eb08de187858554d36cec',1,'AmbienceTrack::reverb'],['../audio_8h.html#a84952299b74f7be4aeb1d4f6a9895cc4',1,'SoundPlayChange.__unnamed85__.__unnamed87__::reverb']]],
   ['reverbtype_100',['ReverbType',['../audio_8h.html#a1a57c9df43b36d81a6c3db7e19613520',1,'SeqArgs']]],

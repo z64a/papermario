@@ -4373,7 +4373,7 @@ var enums_8h =
       [ "SOUND_LULLABY", "enums_8h.html#ac5d40ac44ef7d8c38c6c72a71348e360a22d995d41a2581763c9fe57fc8b73c03", null ],
       [ "SOUND_BUBBLES_RISING", "enums_8h.html#ac5d40ac44ef7d8c38c6c72a71348e360ada5c9c413a317ff3e78e724f9ae0cbd9", null ],
       [ "SOUND_DRIP", "enums_8h.html#ac5d40ac44ef7d8c38c6c72a71348e360acc634ad53292c5e5aec88254bd653de1", null ],
-      [ "STONE_STONE_CHOMP_STEP", "enums_8h.html#ac5d40ac44ef7d8c38c6c72a71348e360a93553b573419003cc51ee04a313ce2ea", null ],
+      [ "SOUND_STONE_CHOMP_STEP", "enums_8h.html#ac5d40ac44ef7d8c38c6c72a71348e360ab6853556ff4787212a3b73bdf975b084", null ],
       [ "SOUND_THROW", "enums_8h.html#ac5d40ac44ef7d8c38c6c72a71348e360af7693d2a7d332304d59bb04c752996b8", null ],
       [ "SOUND_PLAYER_COLLAPSE", "enums_8h.html#ac5d40ac44ef7d8c38c6c72a71348e360ab7dd90dcdefeb6a12a34100e432f8dfb", null ],
       [ "SOUND_LUCKY", "enums_8h.html#ac5d40ac44ef7d8c38c6c72a71348e360a77d7ec5e8720b8e84d990a79a04bde82", null ],

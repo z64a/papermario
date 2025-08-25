@@ -415,7 +415,7 @@ var common__structs_8h =
     [ "CameraControlSettings", "common__structs_8h.html#structCameraControlSettings", [
       [ "boomLength", "common__structs_8h.html#a31df96a97099beea323a2580a433a923", null ],
       [ "boomPitch", "common__structs_8h.html#a02e5fb63163388fe72e35a5d38a4eb6a", null ],
-      [ "flag", "common__structs_8h.html#a900057088cc5b670ceca3c69ae2f0bc4", null ],
+      [ "flag", "common__structs_8h.html#aeb407e6e7fd715a6913434669e136bf6", null ],
       [ "points", "common__structs_8h.html#af413eb3838f9c5367df154f3e7c5e208", null ],
       [ "type", "common__structs_8h.html#a3ea030d81e37707c456ae661979ccda4", null ],
       [ "viewPitch", "common__structs_8h.html#a09379e5403b7a58d6aca98f21cc5d3e0", null ]
@@ -559,7 +559,7 @@ var common__structs_8h =
       [ "animTimers", "common__structs_8h.html#a635d60a4764af4ac9a240407e8c1f10c", null ],
       [ "cancelOption", "common__structs_8h.html#ae7d8217e8dadcabee18300880ec752a8", null ],
       [ "charsPerChunk", "common__structs_8h.html#aff0a69dba09b89a9ffcc3e5435ec64d5", null ],
-      [ "closedWritebackBool", "common__structs_8h.html#a2857498ec822696c2c1df70dc0337382", null ],
+      [ "closedWritebackBool", "common__structs_8h.html#abe38cd7931987e7576d8bd14208482f6", null ],
       [ "curAnimFrame", "common__structs_8h.html#ad0930447ff8e9732bb34d2ac9ea740b7", null ],
       [ "curImageIndex", "common__structs_8h.html#a04ec6f2c21b17b0e13917e5fcecf0ef5", null ],
       [ "curLine", "common__structs_8h.html#adce49b0ec2b988c47ff22b1cf4000c6d", null ],
@@ -841,7 +841,7 @@ var common__structs_8h =
       [ "gravity", "common__structs_8h.html#af759c829fa55c94201f48313af8ff935", null ],
       [ "moveAngle", "common__structs_8h.html#aa957a266e303df0bf372dd9fd57717a2", null ],
       [ "timeLeft", "common__structs_8h.html#a59ce0d14741bc4a2638c90faee5dd22c", null ],
-      [ "useSimplePhysics", "common__structs_8h.html#a99b78730748a9915c77d5274b7c865d6", null ],
+      [ "useSimplePhysics", "common__structs_8h.html#aa65b9ddb9e4e55323facdc61e842e09b", null ],
       [ "velX", "common__structs_8h.html#a1ee7e27b1506735c44e721b906dca355", null ],
       [ "velZ", "common__structs_8h.html#a18f6b27130a547583c4d8d1274fbe8a7", null ],
       [ "verticalVel", "common__structs_8h.html#adf69d8d6ead423f8ec19e536811da6b6", null ]
@@ -1527,7 +1527,7 @@ var common__structs_8h =
       [ "rotY", "common__structs_8h.html#aa44b443366b83b817fe24e050236d8e1", null ],
       [ "rotZ", "common__structs_8h.html#aa7ff6b5466965c2a1be31ed7e834b8e3", null ],
       [ "scale", "common__structs_8h.html#ace457db7e7a31112dc7ab67f8251c1e6", null ],
-      [ "unk_00", "common__structs_8h.html#a0dfe7051469b8585233620e8e845f90c", null ],
+      [ "unk_00", "common__structs_8h.html#a3af7acbbc7c77d3973fd166b81b3ee58", null ],
       [ "unk_24", "common__structs_8h.html#a3edf14bf9b525e1954e5da469ead2797", null ],
       [ "unk_48", "common__structs_8h.html#acf3a49c48ef1f24d6b7cc31a656dd518", null ],
       [ "vel", "common__structs_8h.html#a04580a8f0f85a405dc2f88ee4e395bc1", null ]
@@ -1727,6 +1727,7 @@ var common__structs_8h =
     ] ],
     [ "Evt.__unnamed7__", "common__structs_8h.html#unionEvt_8____unnamed7____", [
       [ "functionTemp", "common__structs_8h.html#a77bcd160e703ae33c22a7fad2694d1b5", null ],
+      [ "functionTempBool", "common__structs_8h.html#a5453cbf64e9f9bb39c370ef16f56f268", null ],
       [ "functionTempF", "common__structs_8h.html#a4e3c02ac7fdb10440d0be1d233d09db9", null ],
       [ "functionTempPtr", "common__structs_8h.html#a14c2bd70a1d2a7759f61b3d08fe0524b", null ]
     ] ],
@@ -1882,7 +1883,6 @@ var common__structs_8h =
     [ "ApiFunc", "common__structs_8h.html#abb2fe6792a00929cd514b03bb93f44d2", null ],
     [ "AuCallback", "common__structs_8h.html#a9b09f3cbdafa71e59e6656d52a1f3251", null ],
     [ "b16", "common__structs_8h.html#aa79ecdc271510d27618f5780dda28fd7", null ],
-    [ "b32", "common__structs_8h.html#a8d2e4e903f7277916e7c1e2f36539d26", null ],
     [ "b8", "common__structs_8h.html#ac805e9ac84b4ce4237c3278063da9d62", null ],
     [ "EntityCallback", "common__structs_8h.html#a7ef5b029c610fd3f570e004abbd9d80c", null ],
     [ "EntityList", "common__structs_8h.html#a0a28e86c8b317a799b6cc206babc40c0", null ],
