@@ -356,7 +356,7 @@ HitResult calc_item_damage_enemy(void) {
         INFLICT_STATUS(SLEEP);
         INFLICT_STATUS(STOP);
         INFLICT_STATUS(STATIC);
-        INFLICT_STATUS(FEAR);
+        INFLICT_STATUS(UNUSED);
         INFLICT_STATUS(PARALYZE);
         INFLICT_STATUS(DIZZY);
 
@@ -377,7 +377,7 @@ HitResult calc_item_damage_enemy(void) {
 
     if ((gBattleStatus.flags1 & BS_FLAGS1_TRIGGER_EVENTS) && (battleStatus->curAttackElement & DAMAGE_TYPE_FEAR)) {
         if (rand_int(99) < temp
-            && (target->debuff != STATUS_KEY_FEAR
+            && (target->debuff != STATUS_KEY_UNUSED
                 && target->debuff != STATUS_KEY_DIZZY
                 && target->debuff != STATUS_KEY_PARALYZE
                 && target->debuff != STATUS_KEY_SLEEP

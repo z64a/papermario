@@ -381,7 +381,7 @@ void update_all_status_icons(void* data) {
                 case STATUS_KEY_DIZZY:
                     elementID = icon->status1.activeElementHID = hud_element_create(&HES_DizzyBegin);
                     break;
-                case STATUS_KEY_FEAR:
+                case STATUS_KEY_UNUSED:
                     elementID = icon->status1.activeElementHID = hud_element_create(&HES_WeakenedLoop);
                     break;
                 case STATUS_KEY_STOP:
@@ -419,7 +419,7 @@ void update_all_status_icons(void* data) {
                     case STATUS_KEY_DIZZY:
                         hud_element_set_script(icon->status1.removingElementHID, &HES_DizzyEnd);
                         break;
-                    case STATUS_KEY_FEAR:
+                    case STATUS_KEY_UNUSED:
                         hud_element_set_script(icon->status1.removingElementHID, &HES_WeakenedLoop);
                         break;
                     case STATUS_KEY_STOP:

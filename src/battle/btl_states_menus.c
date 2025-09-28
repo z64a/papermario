@@ -2469,7 +2469,7 @@ s32 can_switch_to_player(void) {
         if (debuff == STATUS_KEY_SLEEP) {
             playerCantMove = true;
         }
-        if (debuff == STATUS_KEY_FEAR) {
+        if (debuff == STATUS_KEY_UNUSED) {
             playerCantMove = true;
         }
         if (debuff == STATUS_KEY_DIZZY) {
@@ -2513,7 +2513,7 @@ s32 btl_menu_can_player_move(void) {
     if (debuff == STATUS_KEY_SLEEP) {
         playerCantMove = true;
     }
-    if (debuff == STATUS_KEY_FEAR) {
+    if (debuff == STATUS_KEY_UNUSED) {
         playerCantMove = true;
     }
     if (debuff == STATUS_KEY_DIZZY) {
@@ -2565,7 +2565,7 @@ s32 can_switch_to_partner(void) {
     if (partnerDebuff == STATUS_KEY_SLEEP) {
         partnerCantMove = true;
     }
-    if (partnerDebuff == STATUS_KEY_FEAR) {
+    if (partnerDebuff == STATUS_KEY_UNUSED) {
         partnerCantMove = true;
     }
     if (partnerDebuff == STATUS_KEY_PARALYZE) {
@@ -5064,7 +5064,7 @@ void btl_state_update_twink_menu(void) {
             if (player->debuff == STATUS_KEY_SLEEP) {
                 shouldSkipTurn = true;
             }
-            if (player->debuff == STATUS_KEY_FEAR) {
+            if (player->debuff == STATUS_KEY_UNUSED) {
                 shouldSkipTurn = true;
             }
             if (player->debuff == STATUS_KEY_DIZZY) {

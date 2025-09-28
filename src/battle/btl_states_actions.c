@@ -1299,7 +1299,7 @@ void btl_state_update_9(void) {
                     actor->flags &= ~ACTOR_FLAG_SKIP_TURN;
 
                     if (actor->debuff != 0) {
-                        if (actor->debuff == STATUS_KEY_FEAR
+                        if (actor->debuff == STATUS_KEY_UNUSED
                             || actor->debuff == STATUS_KEY_DIZZY
                             || actor->debuff == STATUS_KEY_PARALYZE
                             || actor->debuff == STATUS_KEY_SLEEP
@@ -2236,7 +2236,7 @@ void btl_state_update_run_away(void) {
                         if (!(enemy->flags & ACTOR_FLAG_NO_DMG_APPLY)) {
                             f32 escapeChance = enemy->actorBlueprint->escapeChance;
 
-                            if (enemy->debuff == STATUS_KEY_FEAR ||
+                            if (enemy->debuff == STATUS_KEY_UNUSED ||
                                 enemy->debuff == STATUS_KEY_DIZZY ||
                                 enemy->debuff == STATUS_KEY_PARALYZE ||
                                 enemy->debuff == STATUS_KEY_SLEEP ||
@@ -3490,7 +3490,7 @@ void btl_state_update_next_enemy(void) {
             if (enemy->debuff == STATUS_KEY_SLEEP) {
                 skipEnemy = true;
             }
-            if (enemy->debuff == STATUS_KEY_FEAR) {
+            if (enemy->debuff == STATUS_KEY_UNUSED) {
                 skipEnemy = true;
             }
             if (enemy->debuff == STATUS_KEY_DIZZY) {

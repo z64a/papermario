@@ -633,7 +633,7 @@ HitResult calc_enemy_damage_target(Actor* attacker) {
             statusInflicted = one;
             statusInflicted2 = one;
         }
-        if (battleStatus->curAttackStatus & STATUS_FLAG_FEAR && try_inflict_status(target, STATUS_KEY_FEAR, STATUS_TURN_MOD_FEAR)) {
+        if (battleStatus->curAttackStatus & STATUS_FLAG_UNUSED && try_inflict_status(target, STATUS_KEY_UNUSED, STATUS_TURN_MOD_UNUSED)) {
             statusInflicted = one;
             statusInflicted2 = one;
         }
