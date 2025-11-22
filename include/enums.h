@@ -1310,7 +1310,7 @@ enum SoundIDs {
     SOUND_LULLABY                               = 0x000003F4,
     SOUND_BUBBLES_RISING                        = 0x000003F5, // unused
     SOUND_DRIP                                  = 0x000003F6,
-    STONE_STONE_CHOMP_STEP                      = 0x000003F9,
+    SOUND_STONE_CHOMP_STEP                      = 0x000003F9,
     SOUND_THROW                                 = 0x000003FA,
     SOUND_PLAYER_COLLAPSE                       = 0x000003FB,
     SOUND_LUCKY                                 = 0x000003FC,
@@ -1763,7 +1763,7 @@ typedef enum AuResult {
     AU_AMBIENCE_ERROR_PLAYER_BUSY       = 1, // player already has an mseq playing
     AU_ERROR_SONG_NOT_PLAYING           = 2, // player not found for songName
     AU_AMBIENCE_ERROR_MSEQ_NOT_FOUND    = 2, // mseq not found
-    AU_ERROR_NULL_SONG_NAME             = 3, // songName is NULL
+    AU_ERROR_NULL_SONG_NAME             = 3, // songName is nullptr
     AU_AMBIENCE_ERROR_3                 = 3,
     AU_ERROR_INVALID_SONG_DURATION      = 4, // duration out of bounds: (250,10000)
     AU_ERROR_6                          = 6,
@@ -3665,7 +3665,7 @@ enum BattleStates {
     BATTLE_STATE_END_TURN                   = 6,
     BATTLE_STATE_BEGIN_PLAYER_TURN          = 7,
     BATTLE_STATE_BEGIN_PARTNER_TURN         = 8,
-    BATTLE_STATE_9                          = 9,    // can be reached from BATTLE_STATE_PARTNER_MOVE if partner == NULL
+    BATTLE_STATE_9                          = 9,    // can be reached from BATTLE_STATE_PARTNER_MOVE if partner == nullptr
     BATTLE_STATE_SWITCH_TO_PLAYER           = 10,
     BATTLE_STATE_SWITCH_TO_PARTNER          = 11,
     BATTLE_STATE_PREPARE_MENU               = 12,
@@ -4774,9 +4774,9 @@ enum CameraUpdateMode {
     CAM_UPDATE_FROM_ZONE            = 3,
 
     // this camera uses a set of control parameters to calculate its lookAt_obj and lookAt_eye positions,
-    // which are only updated if skipRecalc = FALSE
+    // which are only updated if skipRecalc = false
     // the ultimate target is given by lookAt_obj_target, with an offset given by targetPos (?!)
-    // in practice, this is used for CAM_BATTLE and CAM_TATTLE, with skipRecalc almost always set to FALSE
+    // in practice, this is used for CAM_BATTLE and CAM_TATTLE, with skipRecalc almost always set to false
     CAM_UPDATE_NO_INTERP            = 6,
 
     // this camera tracks lookAt_obj_target in a circular region centered on targetPos. the camera does not update

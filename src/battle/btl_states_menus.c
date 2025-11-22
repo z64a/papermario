@@ -761,7 +761,7 @@ s32 btl_main_menu_update(void) {
             break;
         case BTL_MENU_STATE_ACCEPT_INPUT:
             if (battleStatus->curButtonsPressed & BUTTON_A) {
-                if (BattleMenu_OptionEnabled[BattleMenu_CurPos + BattleMenu_HomePos] == TRUE) {
+                if (BattleMenu_OptionEnabled[BattleMenu_CurPos + BattleMenu_HomePos] == true) {
                     sfx_play_sound(SOUND_MENU_NEXT);
                     BattleMenuState = BTL_MENU_STATE_OPENED_SUBMENU;
                 } else {
@@ -863,21 +863,21 @@ void btl_main_menu_draw(void) {
             func_80144218(-1);
             theta = (D_802AD100 - BattleMenu_CurPos) * 28;
 
-            cond = FALSE;
+            cond = false;
             if (BattleMenu_WheelAngle > theta) {
                 BattleMenu_WheelAngle -= D_802AD070;
                 if (BattleMenu_WheelAngle < theta) {
                     BattleMenu_WheelAngle = theta;
-                    cond = TRUE;
+                    cond = true;
                 }
             } else if (BattleMenu_WheelAngle < theta) {
                 BattleMenu_WheelAngle += D_802AD070;
                 if (BattleMenu_WheelAngle > theta) {
                     BattleMenu_WheelAngle = theta;
-                    cond = TRUE;
+                    cond = true;
                 }
             } else {
-                cond = TRUE;
+                cond = true;
             }
 
             if (!cond) {
@@ -899,7 +899,7 @@ void btl_main_menu_draw(void) {
                 hud_element_set_render_pos(id, 0, 0);
                 hud_element_set_alpha(id, (opacity * 150) / 255);
 
-                if (theta == 56.0f && cond == TRUE) {
+                if (theta == 56.0f && cond == true) {
                     hud_element_set_scale(id, 1.6f);
                 } else {
                     hud_element_set_scale(id, 1.0f);
@@ -981,7 +981,7 @@ void btl_main_menu_draw(void) {
             }
 
             if ((gBattleStatus.flags1 & BS_FLAGS1_TUTORIAL_BATTLE) || (gBattleStatus.flags2 & BS_FLAGS2_PEACH_BATTLE)) {
-                BattleMenu_ShowSwapIcons = FALSE;
+                BattleMenu_ShowSwapIcons = false;
             }
 
             if (BattleMenu_ShowSwapIcons) {
@@ -1353,19 +1353,19 @@ s32 btl_submenu_moves_update(void) {
             moveX = BattleMenu_Moves_PosX;
             moveY = BattleMenu_Moves_PosY;
 #if VERSION_JP
-            set_window_properties(WIN_BTL_MOVES_MENU, moveX, moveY, 140, (D_802AD10E * 13) + 28, 0, btl_menu_moves_draw_content, NULL, -1);
+            set_window_properties(WIN_BTL_MOVES_MENU, moveX, moveY, 140, (D_802AD10E * 13) + 28, 0, btl_menu_moves_draw_content, nullptr, -1);
 #endif
             if (!BattleMenu_UsingSpiritsSubmenu) {
 #if !VERSION_JP
-                set_window_properties(WIN_BTL_MOVES_MENU, moveX, moveY, MOVES_OPTIONS_W, (D_802AD10E * 13) + 28, 0, btl_menu_moves_draw_content, NULL, -1);
+                set_window_properties(WIN_BTL_MOVES_MENU, moveX, moveY, MOVES_OPTIONS_W, (D_802AD10E * 13) + 28, 0, btl_menu_moves_draw_content, nullptr, -1);
 #endif
-                set_window_properties(WIN_BTL_MOVES_TITLE, moveX + MOVES_TITLE_X, moveY - 6, MOVES_TITLE_W, 16, 1, btl_menu_moves_show_title, NULL, -1);
-                set_window_properties(WIN_BTL_MOVES_ICON, moveX + MOVES_ICON_X, moveY - 12, 32, 32, 1, btl_menu_moves_show_icon, NULL, -1);
+                set_window_properties(WIN_BTL_MOVES_TITLE, moveX + MOVES_TITLE_X, moveY - 6, MOVES_TITLE_W, 16, 1, btl_menu_moves_show_title, nullptr, -1);
+                set_window_properties(WIN_BTL_MOVES_ICON, moveX + MOVES_ICON_X, moveY - 12, 32, 32, 1, btl_menu_moves_show_icon, nullptr, -1);
             } else {
                 s16 new_var;
 
 #if !VERSION_JP
-                set_window_properties(WIN_BTL_MOVES_MENU, moveX, moveY, STAR_SPIRITS_OPTIONS_W, (D_802AD10E * 13) + 28, 0, btl_menu_moves_draw_content, NULL, -1);
+                set_window_properties(WIN_BTL_MOVES_MENU, moveX, moveY, STAR_SPIRITS_OPTIONS_W, (D_802AD10E * 13) + 28, 0, btl_menu_moves_draw_content, nullptr, -1);
 #endif
                 new_var = moveY; // todo required to match
                 set_window_properties(WIN_BTL_SPIRITS_TITLE, moveX + STAR_SPIRITS_TITLE_X, new_var - 6, STAR_SPIRITS_TITLE_W, 16, 1, btl_menu_moves_show_title, 0, -1);
@@ -1374,7 +1374,7 @@ s32 btl_submenu_moves_update(void) {
 
             moveX = POS_X;
             moveY = BattleMenu_Moves_PosY;
-            set_window_properties(WIN_BTL_DESC_BOX, moveX, 186, WIDTH_3, 32, WINDOW_PRIORITY_20, btl_menu_moves_show_desc, NULL, -1);
+            set_window_properties(WIN_BTL_DESC_BOX, moveX, 186, WIDTH_3, 32, WINDOW_PRIORITY_20, btl_menu_moves_show_desc, nullptr, -1);
             set_window_update(WIN_BTL_MOVES_MENU, WINDOW_UPDATE_SHOW);
             if (!BattleMenu_UsingSpiritsSubmenu) {
                 set_window_update(WIN_BTL_MOVES_TITLE, WINDOW_UPDATE_SHOW);
@@ -1386,7 +1386,7 @@ s32 btl_submenu_moves_update(void) {
             set_window_update(WIN_BTL_DESC_BOX, WINDOW_UPDATE_SHOW);
 
             do {
-                cond = FALSE;
+                cond = false;
                 if (battle_menu_moveCursorPos >= (battle_menu_moveScrollLine + D_802AD10D) - 1) {
                     battle_menu_moveScrollLine++;
                     if (battle_menu_moveScrollLine > BattleMenu_Moves_OptionCount - 6) {
@@ -1395,7 +1395,7 @@ s32 btl_submenu_moves_update(void) {
                             battle_menu_moveScrollLine = 0;
                         }
                     } else {
-                        cond = TRUE;
+                        cond = true;
                     }
                 }
             } while (cond);
@@ -1589,9 +1589,9 @@ s32 btl_submenu_moves_update(void) {
             msgWidth = get_msg_width(msgID, 0) + 23;
             moveX = (SCREEN_WIDTH / 2) - (msgWidth / 2);
 #if VERSION_JP
-            set_window_properties(WIN_BTL_POPUP, moveX, 80, msgWidth, 28, 20, btl_menu_moves_show_error, NULL, -1);
+            set_window_properties(WIN_BTL_POPUP, moveX, 80, msgWidth, 28, 20, btl_menu_moves_show_error, nullptr, -1);
 #else
-            set_window_properties(WIN_BTL_POPUP, moveX, 80, msgWidth, D_802AB340[get_msg_lines(msgID) - 1], 20, btl_menu_moves_show_error, NULL, -1);
+            set_window_properties(WIN_BTL_POPUP, moveX, 80, msgWidth, D_802AB340[get_msg_lines(msgID) - 1], 20, btl_menu_moves_show_error, nullptr, -1);
 #endif
             set_window_update(WIN_BTL_POPUP, WINDOW_UPDATE_SHOW);
             D_802AD10B = 60;
@@ -2004,7 +2004,7 @@ void func_802A45D8(void) {
 
     D_802AD60C = -D_802AD608 * 13;
     D_802AD60E = ((s8) StratsMenuLastPos - D_802AD608) * 13;
-    ShowingErrorMessage = FALSE;
+    ShowingErrorMessage = false;
     D_802AD6D4 = 0;
 }
 
@@ -2134,16 +2134,16 @@ s32 btl_update_strats_menu(void) {
 #if VERSION_PAL
             width = get_msg_width(MSG_Menus_Strategies, 0) + 32;
             set_window_properties(WIN_BTL_STRATS_MENU, x, y, D_PAL_802AB4C8[gCurrentLanguage], (StratsMenuLines * 13) + 26,
-                0, btl_menu_strats_draw_content, NULL, -1);
+                0, btl_menu_strats_draw_content, nullptr, -1);
             set_window_properties(WIN_BTL_STRATS_TITLE, x + (D_PAL_802AB4C8[gCurrentLanguage] - width) / 2, y - 6, width, 16,
-                1, btl_menu_strats_show_title, NULL, -1);
+                1, btl_menu_strats_show_title, nullptr, -1);
 #else
-            set_window_properties(WIN_BTL_STRATS_MENU, x, y, W_VAR1, (StratsMenuLines * 13) + 26, 0, btl_menu_strats_draw_content, NULL, -1);
-            set_window_properties(WIN_BTL_STRATS_TITLE, x + X_VAR6, y - 6, W_VAR2, 16, 1, btl_menu_strats_show_title, NULL, -1);
+            set_window_properties(WIN_BTL_STRATS_MENU, x, y, W_VAR1, (StratsMenuLines * 13) + 26, 0, btl_menu_strats_draw_content, nullptr, -1);
+            set_window_properties(WIN_BTL_STRATS_TITLE, x + X_VAR6, y - 6, W_VAR2, 16, 1, btl_menu_strats_show_title, nullptr, -1);
 #endif
             x = X_VAR7;
             y = 186;
-            set_window_properties(WIN_BTL_DESC_BOX, x, y, W_VAR3, 32, WINDOW_PRIORITY_20, btl_menu_strats_show_desc, NULL, -1);
+            set_window_properties(WIN_BTL_DESC_BOX, x, y, W_VAR3, 32, WINDOW_PRIORITY_20, btl_menu_strats_show_desc, nullptr, -1);
             set_window_update(WIN_BTL_STRATS_MENU, WINDOW_UPDATE_SHOW);
             set_window_update(WIN_BTL_STRATS_TITLE, WINDOW_UPDATE_SHOW);
             set_window_update(WIN_BTL_DESC_BOX, WINDOW_UPDATE_SHOW);
@@ -2268,9 +2268,9 @@ s32 btl_update_strats_menu(void) {
             x = (SCREEN_WIDTH / 2) - (width / 2);
 #if VERSION_PAL
             set_window_properties(WIN_BTL_POPUP, x, 80, width, D_802AB340[get_msg_lines(msgID) - 1],
-                20, btl_menu_strats_show_error, NULL, -1);
+                20, btl_menu_strats_show_error, nullptr, -1);
 #else
-            set_window_properties(WIN_BTL_POPUP, x, 80, width, 28, 20, btl_menu_strats_show_error, NULL, -1);
+            set_window_properties(WIN_BTL_POPUP, x, 80, width, 28, 20, btl_menu_strats_show_error, nullptr, -1);
 #endif
             set_window_update(WIN_BTL_POPUP, WINDOW_UPDATE_SHOW);
             D_802AD612 = 60;
@@ -2452,43 +2452,43 @@ s32 can_switch_to_player(void) {
     Actor* player = battleStatus->playerActor;
 
     if (battleStatus->flags2 & BS_FLAGS2_PLAYER_TURN_USED) {
-        return FALSE;
+        return false;
     } else {
         s8 debuff = player->debuff;
-        s32 playerCantMove = FALSE;
+        s32 playerCantMove = false;
 
         if (player->koStatus == STATUS_KEY_DAZE) {
-            playerCantMove = TRUE;
+            playerCantMove = true;
         }
         if (debuff == STATUS_KEY_POISON) {
-            playerCantMove = FALSE;
+            playerCantMove = false;
         }
         if (debuff == STATUS_KEY_SHRINK) {
-            playerCantMove = FALSE;
+            playerCantMove = false;
         }
         if (debuff == STATUS_KEY_SLEEP) {
-            playerCantMove = TRUE;
+            playerCantMove = true;
         }
         if (debuff == STATUS_KEY_FEAR) {
-            playerCantMove = TRUE;
+            playerCantMove = true;
         }
         if (debuff == STATUS_KEY_DIZZY) {
-            playerCantMove = TRUE;
+            playerCantMove = true;
         }
         if (debuff == STATUS_KEY_PARALYZE) {
-            playerCantMove = TRUE;
+            playerCantMove = true;
         }
         if (debuff == STATUS_KEY_FROZEN) {
-            playerCantMove = TRUE;
+            playerCantMove = true;
         }
         if (debuff == STATUS_KEY_STOP) {
-            playerCantMove = TRUE;
+            playerCantMove = true;
         }
         if (player->stoneStatus == STATUS_KEY_STONE) {
-            playerCantMove = TRUE;
+            playerCantMove = true;
         }
         if (battleStatus->outtaSightActive) {
-            playerCantMove = TRUE;
+            playerCantMove = true;
         }
         return !playerCantMove;
     }
@@ -2499,40 +2499,40 @@ s32 btl_menu_can_player_move(void) {
     BattleStatus* battleStatus = &gBattleStatus;
     Actor* player = battleStatus->playerActor;
     s8 debuff = player->debuff;
-    s32 playerCantMove = FALSE;
+    s32 playerCantMove = false;
 
     if (player->koStatus == STATUS_KEY_DAZE) {
-        playerCantMove = TRUE;
+        playerCantMove = true;
     }
     if (debuff == STATUS_KEY_POISON) {
-        playerCantMove = FALSE;
+        playerCantMove = false;
     }
     if (debuff == STATUS_KEY_SHRINK) {
-        playerCantMove = FALSE;
+        playerCantMove = false;
     }
     if (debuff == STATUS_KEY_SLEEP) {
-        playerCantMove = TRUE;
+        playerCantMove = true;
     }
     if (debuff == STATUS_KEY_FEAR) {
-        playerCantMove = TRUE;
+        playerCantMove = true;
     }
     if (debuff == STATUS_KEY_DIZZY) {
-        playerCantMove = TRUE;
+        playerCantMove = true;
     }
     if (debuff == STATUS_KEY_PARALYZE) {
-        playerCantMove = TRUE;
+        playerCantMove = true;
     }
     if (debuff == STATUS_KEY_FROZEN) {
-        playerCantMove = TRUE;
+        playerCantMove = true;
     }
     if (debuff == STATUS_KEY_STOP) {
-        playerCantMove = TRUE;
+        playerCantMove = true;
     }
     if (player->stoneStatus == STATUS_KEY_STONE) {
-        playerCantMove = TRUE;
+        playerCantMove = true;
     }
     if (battleStatus->outtaSightActive) {
-        playerCantMove = TRUE;
+        playerCantMove = true;
     }
     return !playerCantMove;
 }
@@ -2547,38 +2547,38 @@ s32 can_switch_to_partner(void) {
     s32 partnerCantMove;
 
     if (battleStatus->flags2 & BS_FLAGS2_PARTNER_TURN_USED || partner == PARTNER_NONE || partner->flags & ACTOR_FLAG_NO_ATTACK) {
-        return FALSE;
+        return false;
     }
 
     partnerDebuff = partner->debuff;
-    partnerCantMove = FALSE;
+    partnerCantMove = false;
 
     if (partner->koStatus == STATUS_KEY_DAZE) {
-        partnerCantMove = TRUE;
+        partnerCantMove = true;
     }
     if (partnerDebuff == STATUS_KEY_POISON) {
-        partnerCantMove = FALSE;
+        partnerCantMove = false;
     }
     if (partnerDebuff == STATUS_KEY_SHRINK) {
-        partnerCantMove = FALSE;
+        partnerCantMove = false;
     }
     if (partnerDebuff == STATUS_KEY_SLEEP) {
-        partnerCantMove = TRUE;
+        partnerCantMove = true;
     }
     if (partnerDebuff == STATUS_KEY_FEAR) {
-        partnerCantMove = TRUE;
+        partnerCantMove = true;
     }
     if (partnerDebuff == STATUS_KEY_PARALYZE) {
-        partnerCantMove = TRUE;
+        partnerCantMove = true;
     }
     if (partnerDebuff == STATUS_KEY_FROZEN) {
-        partnerCantMove = TRUE;
+        partnerCantMove = true;
     }
     if (partnerDebuff == STATUS_KEY_STOP) {
-        partnerCantMove = TRUE;
+        partnerCantMove = true;
     }
     if (partner->stoneStatus == STATUS_KEY_STONE) {
-        partnerCantMove = TRUE;
+        partnerCantMove = true;
     }
     return !partnerCantMove;
 }
@@ -2658,7 +2658,7 @@ void btl_state_update_player_menu(void) {
             gBattleStatus.flags1 |= BS_FLAGS1_MENU_OPEN;
             playerActor->flags &= ~ACTOR_FLAG_USING_IDLE_ANIM;
             playerActor->flags |= ACTOR_FLAG_SHOW_STATUS_ICONS;
-            if (partnerActor != NULL) {
+            if (partnerActor != nullptr) {
                 partnerActor->flags |= ACTOR_FLAG_USING_IDLE_ANIM;
                 partnerActor->flags |= ACTOR_FLAG_SHOW_STATUS_ICONS;
             }
@@ -2679,7 +2679,7 @@ void btl_state_update_player_menu(void) {
 
             // strategies menu category
             battle_menu_submenuIDs[entryIdx] = BTL_MENU_TYPE_STRATEGIES;
-            BattleMenu_OptionEnabled[entryIdx] = TRUE;
+            BattleMenu_OptionEnabled[entryIdx] = true;
             BattleMenu_HudScripts[entryIdx] = battle_menu_StrategiesHudScript.enabled;
             BattleMenu_TitleMessages[entryIdx] = BattleMenu_CenteredMessages[BTL_MENU_TYPE_STRATEGIES];
             if (battleStatus->actionCommandMode == AC_MODE_TUTORIAL || gBattleStatus.flags1 & BS_FLAGS1_TUTORIAL_BATTLE) {
@@ -2688,7 +2688,7 @@ void btl_state_update_player_menu(void) {
             battle_menu_isMessageDisabled[entryIdx] = 0;
             if (!(battleStatus->enabledMenusFlags & BTL_MENU_ENABLED_STRATEGIES)) {
                 BattleMenu_HudScripts[entryIdx] = battle_menu_StrategiesHudScript.disabled;
-                BattleMenu_OptionEnabled[entryIdx] = FALSE;
+                BattleMenu_OptionEnabled[entryIdx] = false;
                 battle_menu_isMessageDisabled[entryIdx] = BTL_MSG_CANT_SELECT_NOW;
             }
             if (battleStatus->lastPlayerMenuSelection[BTL_MENU_IDX_MAIN] == BTL_MENU_TYPE_STRATEGIES) {
@@ -2700,24 +2700,24 @@ void btl_state_update_player_menu(void) {
             if (battleStatus->menuStatus[0] >= 0) {
                 BattleMenu_HudScripts[entryIdx] = battle_menu_ItemHudScripts.enabled;
                 battle_menu_submenuIDs[entryIdx] = BTL_MENU_TYPE_ITEMS;
-                BattleMenu_OptionEnabled[entryIdx] = TRUE;
+                BattleMenu_OptionEnabled[entryIdx] = true;
                 BattleMenu_TitleMessages[entryIdx] = BattleMenu_CenteredMessages[BTL_MENU_TYPE_ITEMS];
 
                 if(battleStatus->menuStatus[0] == 0) {
                     BattleMenu_HudScripts[entryIdx] = battle_menu_ItemHudScripts.disabled;
-                    BattleMenu_OptionEnabled[entryIdx] = FALSE;
+                    BattleMenu_OptionEnabled[entryIdx] = false;
                     battle_menu_isMessageDisabled[entryIdx] = BTL_MSG_NO_ITEM_TARGET;
                 }
 
                 if (!(battleStatus->enabledMenusFlags & BTL_MENU_ENABLED_ITEMS)) {
                     BattleMenu_HudScripts[entryIdx] = battle_menu_ItemHudScripts.disabled;
-                    BattleMenu_OptionEnabled[entryIdx] = FALSE;
+                    BattleMenu_OptionEnabled[entryIdx] = false;
                     battle_menu_isMessageDisabled[entryIdx] = BTL_MSG_CANT_SELECT_NOW;
                 }
 
                 if (battleStatus->itemLossTurns >= 0) {
                     BattleMenu_HudScripts[entryIdx] = battle_menu_ItemHudScripts.disabled;
-                    BattleMenu_OptionEnabled[entryIdx] = FALSE;
+                    BattleMenu_OptionEnabled[entryIdx] = false;
                     battle_menu_isMessageDisabled[entryIdx] = BTL_MSG_CANT_SELECT_NOW;
                 }
 
@@ -2731,22 +2731,22 @@ void btl_state_update_player_menu(void) {
             // jump menu category
             BattleMenu_HudScripts[entryIdx] = battle_menu_JumpHudScripts[playerData->bootsLevel + 1].enabled;
             battle_menu_submenuIDs[entryIdx] = BTL_MENU_TYPE_JUMP;
-            BattleMenu_OptionEnabled[entryIdx] = TRUE;
+            BattleMenu_OptionEnabled[entryIdx] = true;
             BattleMenu_TitleMessages[entryIdx] = BattleMenu_CenteredMessages[BTL_MENU_TYPE_JUMP];
 
             if (battleStatus->menuStatus[1] <= 0) {
                 BattleMenu_HudScripts[entryIdx] = battle_menu_JumpHudScripts[0].enabled;
-                BattleMenu_OptionEnabled[entryIdx] = FALSE;
+                BattleMenu_OptionEnabled[entryIdx] = false;
                 battle_menu_isMessageDisabled[entryIdx] = BTL_MSG_NO_JUMP_TARGET;
             }
             if (!(battleStatus->enabledMenusFlags & BTL_MENU_ENABLED_JUMP)) {
                 BattleMenu_HudScripts[entryIdx] = battle_menu_JumpHudScripts[0].disabled;
-                BattleMenu_OptionEnabled[entryIdx] = FALSE;
+                BattleMenu_OptionEnabled[entryIdx] = false;
                 battle_menu_isMessageDisabled[entryIdx] = BTL_MSG_CANT_SELECT_NOW;
             }
             if (battleStatus->jumpLossTurns >= 0) {
                 BattleMenu_HudScripts[entryIdx] = battle_menu_JumpHudScripts[0].disabled;
-                BattleMenu_OptionEnabled[entryIdx] = FALSE;
+                BattleMenu_OptionEnabled[entryIdx] = false;
                 battle_menu_isMessageDisabled[entryIdx] = BTL_MSG_CANT_SELECT_NOW;
             }
             if (battleStatus->lastPlayerMenuSelection[BTL_MENU_IDX_MAIN] == BTL_MENU_TYPE_JUMP) {
@@ -2758,21 +2758,21 @@ void btl_state_update_player_menu(void) {
             if (playerData->hammerLevel >= 0) {
                 BattleMenu_HudScripts[entryIdx] = battle_menu_HammerHudScripts[playerData->hammerLevel + 1].enabled;
                 battle_menu_submenuIDs[entryIdx] = BTL_MENU_TYPE_SMASH;
-                BattleMenu_OptionEnabled[entryIdx] = TRUE;
+                BattleMenu_OptionEnabled[entryIdx] = true;
                 BattleMenu_TitleMessages[entryIdx] = BattleMenu_CenteredMessages[BTL_MENU_TYPE_SMASH];
                 if (battleStatus->menuStatus[2] <= 0) {
                     BattleMenu_HudScripts[entryIdx] = battle_menu_HammerHudScripts[0].enabled;
-                    BattleMenu_OptionEnabled[entryIdx] = FALSE;
+                    BattleMenu_OptionEnabled[entryIdx] = false;
                     battle_menu_isMessageDisabled[entryIdx] = BTL_MSG_NO_HAMMER_TARGET;
                 }
                 if (!(battleStatus->enabledMenusFlags & BTL_MENU_ENABLED_SMASH)) {
                     BattleMenu_HudScripts[entryIdx] = battle_menu_HammerHudScripts[0].disabled;
-                    BattleMenu_OptionEnabled[entryIdx] = FALSE;
+                    BattleMenu_OptionEnabled[entryIdx] = false;
                     battle_menu_isMessageDisabled[entryIdx] = BTL_MSG_CANT_SELECT_NOW;
                 }
                 if (battleStatus->hammerLossTurns >= 0) {
                     BattleMenu_HudScripts[entryIdx] = battle_menu_HammerHudScripts[0].disabled;
-                    BattleMenu_OptionEnabled[entryIdx] = FALSE;
+                    BattleMenu_OptionEnabled[entryIdx] = false;
                     battle_menu_isMessageDisabled[entryIdx] = BTL_MSG_CANT_SELECT_NOW;
                 }
                 if (battleStatus->lastPlayerMenuSelection[BTL_MENU_IDX_MAIN] == BTL_MENU_TYPE_SMASH) {
@@ -2785,12 +2785,12 @@ void btl_state_update_player_menu(void) {
             if (playerData->maxStarPower != 0) {
                 BattleMenu_HudScripts[entryIdx] = battle_menu_StarPowerHudScripts.enabled;
                 battle_menu_submenuIDs[entryIdx] = BTL_MENU_TYPE_STAR_POWERS;
-                BattleMenu_OptionEnabled[entryIdx] = TRUE;
+                BattleMenu_OptionEnabled[entryIdx] = true;
                 BattleMenu_TitleMessages[entryIdx] = BattleMenu_CenteredMessages[BTL_MENU_TYPE_STAR_POWERS];
                 battle_menu_isMessageDisabled[entryIdx] = 0;
                 if (!(battleStatus->enabledMenusFlags & BTL_MENU_ENABLED_STAR_POWERS)) {
                     BattleMenu_HudScripts[entryIdx] = battle_menu_StarPowerHudScripts.disabled;
-                    BattleMenu_OptionEnabled[entryIdx] = FALSE;
+                    BattleMenu_OptionEnabled[entryIdx] = false;
                     battle_menu_isMessageDisabled[entryIdx] = BTL_MSG_CANT_SELECT_NOW;
                 }
                 if (battleStatus->lastPlayerMenuSelection[BTL_MENU_IDX_MAIN] == BTL_MENU_TYPE_STAR_POWERS) {
@@ -2804,9 +2804,9 @@ void btl_state_update_player_menu(void) {
             D_802AD0B0 = initialPos;
             D_802AD100 = 2 - initialPos;
             if (can_switch_to_partner()) {
-                BattleMenu_ShowSwapIcons = TRUE;
+                BattleMenu_ShowSwapIcons = true;
             } else {
-                BattleMenu_ShowSwapIcons = FALSE;
+                BattleMenu_ShowSwapIcons = false;
             }
             btl_main_menu_init();
             D_802ACC60 = 8;
@@ -2828,7 +2828,7 @@ void btl_state_update_player_menu(void) {
                     battleStatus->lastPlayerMenuSelection[BTL_MENU_IDX_MAIN] = battle_menu_submenuIDs[BattleMenu_CurPos + BattleMenu_HomePos];
                     btl_main_menu_destroy();
                     btl_set_state(BATTLE_STATE_SWITCH_TO_PARTNER);
-                } else if (partnerActor != NULL && !(partnerActor->flags & BS_FLAGS1_YIELD_TURN) && battleStatus->hustleTurns != 1) {
+                } else if (partnerActor != nullptr && !(partnerActor->flags & BS_FLAGS1_YIELD_TURN) && battleStatus->hustleTurns != 1) {
                     sfx_play_sound(SOUND_MENU_ERROR);
                     gBattleSubState = BTL_SUBSTATE_PLAYER_MENU_MAIN_SHOW_CANT_SWAP;
                 }
@@ -3086,7 +3086,7 @@ void btl_state_update_player_menu(void) {
                     BattleMenu_Moves_OptionDescMessages[i] = moveData->shortDescMsg;
 
                 }
-                BattleMenu_UsingSpiritsSubmenu = FALSE;
+                BattleMenu_UsingSpiritsSubmenu = false;
                 D_802AD4A8 = initialPos;
                 BattleMenu_Moves_OptionCount = battleStatus->submenuMoveCount;
                 func_802A2684();
@@ -3192,14 +3192,14 @@ void btl_state_update_player_menu(void) {
             } else {
                 btl_show_variable_battle_message(BTL_MSG_CANT_MOVE, 60, playerData->curPartner);
             }
-            ShowingErrorMessage = TRUE;
+            ShowingErrorMessage = true;
             gBattleSubState = BTL_SUBSTATE_PLAYER_MENU_MAIN_AWAIT_CANT_SWAP;
             break;
         case BTL_SUBSTATE_PLAYER_MENU_MAIN_AWAIT_CANT_SWAP:
             if (btl_is_popup_displayed()) {
                 break;
             }
-            ShowingErrorMessage = FALSE;
+            ShowingErrorMessage = false;
             D_802ACC60 = 0;
             BattleMenu_SwapDelay = 4;
             gBattleSubState = BTL_SUBSTATE_PLAYER_MENU_CHOOSE_CATEGORY;
@@ -3275,7 +3275,7 @@ void btl_state_update_player_menu(void) {
                 create_current_pos_target_list(playerActor);
                 popup->ptrIcon[entryIdx] = hudScriptPair->enabled;
                 popup->userIndex[entryIdx] = playerData->invItems[i];
-                popup->enabled[entryIdx] = TRUE;
+                popup->enabled[entryIdx] = true;
                 popup->nameMsg[entryIdx] = itemData->nameMsg;
                 popup->descMsg[entryIdx] = itemData->shortDescMsg;
                 if (playerActor->targetListLength == 0) {
@@ -3494,7 +3494,7 @@ void btl_state_update_player_menu(void) {
             initialPos = battleStatus->lastPlayerMenuSelection[BTL_MENU_IDX_STAR_POWER];
             BattleMenu_Moves_OptionCount = battleStatus->submenuMoveCount;
             D_802AD4A8 = initialPos;
-            BattleMenu_UsingSpiritsSubmenu = TRUE;
+            BattleMenu_UsingSpiritsSubmenu = true;
             func_802A2684();
             gBattleSubState = BTL_SUBSTATE_PLAYER_MENU_STAR_SPIRITS_2;
             break;
@@ -3579,12 +3579,12 @@ void btl_state_update_player_menu(void) {
                     create_current_pos_target_list(playerActor);
                     popup->ptrIcon[entryIdx] = hudScriptPair->enabled;
                     popup->userIndex[entryIdx] = playerData->invItems[i];
-                    popup->enabled[entryIdx] = TRUE;
+                    popup->enabled[entryIdx] = true;
                     popup->nameMsg[entryIdx] = itemData->nameMsg;
                     popup->descMsg[entryIdx] = itemData->shortDescMsg;
                     if (playerActor->targetListLength == 0) {
                         popup->ptrIcon[entryIdx] = hudScriptPair->disabled;
-                        popup->enabled[entryIdx] = FALSE;
+                        popup->enabled[entryIdx] = false;
                     }
                     entryIdx++;
                 }
@@ -4074,12 +4074,12 @@ void btl_state_update_partner_menu(void) {
 
             // strategies menu category
             battle_menu_submenuIDs[entryIdx] = BTL_MENU_TYPE_STRATEGIES;
-            BattleMenu_OptionEnabled[entryIdx] = TRUE;
+            BattleMenu_OptionEnabled[entryIdx] = true;
             battle_menu_isMessageDisabled[entryIdx] = 0;
             BattleMenu_HudScripts[entryIdx] = battle_menu_StrategiesHudScript.enabled;
             BattleMenu_TitleMessages[entryIdx] = BattleMenu_CenteredMessages[BTL_MENU_TYPE_STRATEGIES];
             if (!(battleStatus->enabledMenusFlags & BTL_MENU_ENABLED_STRATEGIES)) {
-                BattleMenu_OptionEnabled[entryIdx] = FALSE;
+                BattleMenu_OptionEnabled[entryIdx] = false;
                 battle_menu_isMessageDisabled[entryIdx] = BTL_MSG_CANT_SELECT_NOW;
                 BattleMenu_HudScripts[entryIdx] = battle_menu_StrategiesHudScript.disabled;
             }
@@ -4091,16 +4091,16 @@ void btl_state_update_partner_menu(void) {
             // abilities menu category
             BattleMenu_HudScripts[entryIdx] = battle_menu_PartnerMoveHudScripts[playerData->curPartner][0];
             battle_menu_submenuIDs[entryIdx] = BTL_MENU_TYPE_ABILITY;
-            BattleMenu_OptionEnabled[entryIdx] = TRUE;
+            BattleMenu_OptionEnabled[entryIdx] = true;
             BattleMenu_TitleMessages[entryIdx] = BattleMenu_CenteredMessages[BTL_MENU_TYPE_ABILITY];
             if (battleStatus->menuStatus[3] <= 0) {
                 BattleMenu_HudScripts[entryIdx] = battle_menu_PartnerMoveHudScripts[playerData->curPartner][1];
-                BattleMenu_OptionEnabled[entryIdx] = FALSE;
+                BattleMenu_OptionEnabled[entryIdx] = false;
                 battle_menu_isMessageDisabled[entryIdx] = BTL_MSG_CANT_SELECT_NOW;
             }
             if (!(battleStatus->enabledMenusFlags & BTL_MENU_ENABLED_ABILITIES)) {
                 BattleMenu_HudScripts[entryIdx] = battle_menu_PartnerMoveHudScripts[playerData->curPartner][1];
-                BattleMenu_OptionEnabled[entryIdx] = FALSE;
+                BattleMenu_OptionEnabled[entryIdx] = false;
                 battle_menu_isMessageDisabled[entryIdx] = BTL_MSG_CANT_SELECT_NOW;
             }
             if (battleStatus->lastPartnerMenuSelection[BTL_MENU_IDX_MAIN] == BTL_MENU_TYPE_ABILITY) {
@@ -4111,12 +4111,12 @@ void btl_state_update_partner_menu(void) {
             // focus menu category
             if (playerData->maxStarPower != 0 && is_ability_active(ABILITY_GROUP_FOCUS)) {
                 battle_menu_submenuIDs[entryIdx] = BTL_MENU_TYPE_PARTNER_FOCUS;
-                BattleMenu_OptionEnabled[entryIdx] = TRUE;
+                BattleMenu_OptionEnabled[entryIdx] = true;
                 battle_menu_isMessageDisabled[entryIdx] = 0;
                 BattleMenu_HudScripts[entryIdx] = battle_menu_StarPowerHudScripts.enabled;
                 BattleMenu_TitleMessages[entryIdx] = BattleMenu_CenteredMessages[BTL_MENU_TYPE_PARTNER_FOCUS];
                 if (!(battleStatus->enabledMenusFlags & BTL_MENU_ENABLED_PARTNER_FOCUS)) {
-                    BattleMenu_OptionEnabled[entryIdx] = FALSE;
+                    BattleMenu_OptionEnabled[entryIdx] = false;
                     battle_menu_isMessageDisabled[entryIdx] = BTL_MSG_CANT_SELECT_NOW;
                     BattleMenu_HudScripts[entryIdx] = battle_menu_StarPowerHudScripts.disabled;
                 }
@@ -4131,9 +4131,9 @@ void btl_state_update_partner_menu(void) {
             D_802AD0B0 = initialPos;
             D_802AD100 = 2 - initialPos;
             if (can_switch_to_player()) {
-                BattleMenu_ShowSwapIcons = TRUE;
+                BattleMenu_ShowSwapIcons = true;
             } else {
-                BattleMenu_ShowSwapIcons = FALSE;
+                BattleMenu_ShowSwapIcons = false;
             }
             btl_main_menu_init();
             D_802ACC60 = 8;
@@ -4233,7 +4233,7 @@ void btl_state_update_partner_menu(void) {
         } else {
             btl_show_variable_battle_message(BTL_MSG_CANT_SWITCH, 60, 0);
         }
-        ShowingErrorMessage = TRUE;
+        ShowingErrorMessage = true;
         gBattleSubState = BTL_SUBSTATE_PARTNER_MENU_MAIN_AWAIT_CANT_SWAP;
         break;
     case BTL_SUBSTATE_PARTNER_MENU_MAIN_AWAIT_CANT_SWAP:
@@ -4241,7 +4241,7 @@ void btl_state_update_partner_menu(void) {
             break;
         }
         D_802ACC60 = 0;
-        ShowingErrorMessage = FALSE;
+        ShowingErrorMessage = false;
         BattleMenu_SwapDelay = 4;
         gBattleSubState = BTL_SUBSTATE_PARTNER_MENU_MAIN_MENU_1;
         break;
@@ -4287,7 +4287,7 @@ void btl_state_update_partner_menu(void) {
         if (battleStatus->lastPartnerMenuSelection[BTL_MENU_IDX_ABILITY] < 0) {
             battleStatus->lastPartnerMenuSelection[BTL_MENU_IDX_ABILITY] = 0;
         }
-        BattleMenu_UsingSpiritsSubmenu = FALSE;
+        BattleMenu_UsingSpiritsSubmenu = false;
         BattleMenu_Moves_OptionCount = battleStatus->submenuMoveCount;
         initialPos = battleStatus->lastPartnerMenuSelection[BTL_MENU_IDX_ABILITY];
         D_802AD4A8 = initialPos;
@@ -4366,7 +4366,7 @@ void btl_state_update_partner_menu(void) {
             }
             popupMenu->ptrIcon[popupIndex] = hudScript[0];
             popupMenu->userIndex[popupIndex] = playerData->invItems[i];
-            popupMenu->enabled[popupIndex] = TRUE;
+            popupMenu->enabled[popupIndex] = true;
             popupMenu->nameMsg[popupIndex] = item->nameMsg;
             popupMenu->descMsg[popupIndex] = item->shortDescMsg;
             popupIndex++;
@@ -4543,7 +4543,7 @@ void btl_state_update_partner_menu(void) {
         if (battleStatus->lastPartnerMenuSelection[BTL_MENU_IDX_STAR_POWER] < 0) {
             battleStatus->lastPartnerMenuSelection[BTL_MENU_IDX_STAR_POWER] = 0;
         }
-        BattleMenu_UsingSpiritsSubmenu = TRUE;
+        BattleMenu_UsingSpiritsSubmenu = true;
         BattleMenu_Moves_OptionCount = battleStatus->submenuMoveCount;
         initialPos = battleStatus->lastPartnerMenuSelection[BTL_MENU_IDX_STAR_POWER];
         D_802AD4A8 = initialPos;
@@ -4867,9 +4867,9 @@ void btl_state_draw_partner_menu(void) {
 
 s32 btl_menu_show_switch_to_twink(void) {
     if (gBattleStatus.flags2 & BS_FLAGS2_PARTNER_TURN_USED) {
-        return FALSE;
+        return false;
     }
-    return TRUE;
+    return true;
 }
 
 void btl_state_update_peach_menu(void) {
@@ -4928,7 +4928,7 @@ void btl_state_update_peach_menu(void) {
             gBattleStatus.flags1 |= BS_FLAGS1_MENU_OPEN;
             player->flags &= ~ACTOR_FLAG_USING_IDLE_ANIM;
             player->flags |= ACTOR_FLAG_SHOW_STATUS_ICONS;
-            if (partner != NULL) {
+            if (partner != nullptr) {
                 partner->flags |= ACTOR_FLAG_USING_IDLE_ANIM;
                 partner->flags |= ACTOR_FLAG_SHOW_STATUS_ICONS;
             }
@@ -4936,12 +4936,12 @@ void btl_state_update_peach_menu(void) {
             entryIdx = 0;
             battleStatus->selectedMoveID = MOVE_NONE;
             battle_menu_submenuIDs[entryIdx] = BTL_MENU_TYPE_STAR_POWERS;
-            BattleMenu_OptionEnabled[entryIdx] = TRUE;
+            BattleMenu_OptionEnabled[entryIdx] = true;
             battle_menu_isMessageDisabled[entryIdx] = 0;
             BattleMenu_HudScripts[entryIdx] = battle_menu_PeachStarPowerHudScripts.enabled;
             BattleMenu_TitleMessages[entryIdx] = D_802AB728[entryIdx];
             if (!(battleStatus->enabledMenusFlags & BTL_MENU_ENABLED_STAR_POWERS)) {
-                BattleMenu_OptionEnabled[entryIdx] = FALSE;
+                BattleMenu_OptionEnabled[entryIdx] = false;
                 battle_menu_isMessageDisabled[entryIdx] = BTL_MSG_CANT_SELECT_NOW;
                 BattleMenu_HudScripts[entryIdx] = battle_menu_PeachStarPowerHudScripts.disabled;
             }
@@ -4950,9 +4950,9 @@ void btl_state_update_peach_menu(void) {
             entryIdx++;
 
             if (btl_menu_show_switch_to_twink()) {
-                BattleMenu_ShowSwapIcons = TRUE;
+                BattleMenu_ShowSwapIcons = true;
             } else {
-                BattleMenu_ShowSwapIcons = FALSE;
+                BattleMenu_ShowSwapIcons = false;
             }
             BattleMenu_NumOptions = entryIdx;
             D_802AD0A8 = 0;
@@ -5001,14 +5001,14 @@ void btl_state_update_peach_menu(void) {
             break;
         case BTL_SUBSTATE_PEACH_MENU_SHOW_CANT_SWITCH:
             btl_show_variable_battle_message(BTL_MSG_CANT_SWITCH, 60, 0);
-            ShowingErrorMessage = TRUE;
+            ShowingErrorMessage = true;
             gBattleSubState = BTL_SUBSTATE_PEACH_MENU_AWAIT_CANT_SWITCH_POPUP;
             break;
         case BTL_SUBSTATE_PEACH_MENU_AWAIT_CANT_SWITCH_POPUP:
             if (btl_is_popup_displayed()) {
                 break;
             }
-            ShowingErrorMessage = FALSE;
+            ShowingErrorMessage = false;
             D_802ACC60 = 0;
             gBattleSubState = BTL_SUBSTATE_PEACH_MENU_CHOOSE_CATEGORY;
             break;
@@ -5042,9 +5042,9 @@ void btl_state_draw_peach_menu(void) {
 
 s32 btl_menu_show_switch_to_peach(void) {
     if (gBattleStatus.flags2 & BS_FLAGS2_PLAYER_TURN_USED) {
-        return FALSE;
+        return false;
     }
-    return TRUE;
+    return true;
 }
 
 void btl_state_update_twink_menu(void) {
@@ -5060,30 +5060,30 @@ void btl_state_update_twink_menu(void) {
 
     switch (gBattleSubState) {
         case BTL_SUBSTATE_TWINK_MENU_INIT:
-            shouldSkipTurn = FALSE;
+            shouldSkipTurn = false;
             if (player->debuff == STATUS_KEY_SLEEP) {
-                shouldSkipTurn = TRUE;
+                shouldSkipTurn = true;
             }
             if (player->debuff == STATUS_KEY_FEAR) {
-                shouldSkipTurn = TRUE;
+                shouldSkipTurn = true;
             }
             if (player->debuff == STATUS_KEY_DIZZY) {
-                shouldSkipTurn = TRUE;
+                shouldSkipTurn = true;
             }
             if (player->debuff == STATUS_KEY_PARALYZE) {
-                shouldSkipTurn = TRUE;
+                shouldSkipTurn = true;
             }
             if (player->debuff == STATUS_KEY_FROZEN) {
-                shouldSkipTurn = TRUE;
+                shouldSkipTurn = true;
             }
             if (player->debuff == STATUS_KEY_STOP) {
-                shouldSkipTurn = TRUE;
+                shouldSkipTurn = true;
             }
             if (player->stoneStatus == STATUS_KEY_STONE) {
-                shouldSkipTurn = TRUE;
+                shouldSkipTurn = true;
             }
             if (player->koStatus == STATUS_KEY_DAZE) {
-                shouldSkipTurn = TRUE;
+                shouldSkipTurn = true;
             }
 
             if (shouldSkipTurn) {
@@ -5134,7 +5134,7 @@ void btl_state_update_twink_menu(void) {
             gBattleStatus.flags1 |= BS_FLAGS1_MENU_OPEN;
             player->flags &= ~ACTOR_FLAG_USING_IDLE_ANIM;
             player->flags |= ACTOR_FLAG_SHOW_STATUS_ICONS;
-            if (partner != NULL) {
+            if (partner != nullptr) {
                 partner->flags |= ACTOR_FLAG_USING_IDLE_ANIM;
                 partner->flags |= ACTOR_FLAG_SHOW_STATUS_ICONS;
             }
@@ -5142,12 +5142,12 @@ void btl_state_update_twink_menu(void) {
             entryIdx = 0;
             battleStatus->selectedMoveID = MOVE_NONE;
             battle_menu_submenuIDs[entryIdx] = BTL_MENU_TYPE_STAR_POWERS;
-            BattleMenu_OptionEnabled[entryIdx] = TRUE;
+            BattleMenu_OptionEnabled[entryIdx] = true;
             battle_menu_isMessageDisabled[entryIdx] = 0;
             BattleMenu_HudScripts[entryIdx] = battle_menu_TwinkStarPowerHudScripts.enabled;
             BattleMenu_TitleMessages[entryIdx] = D_802AB734[entryIdx];
             if (!(battleStatus->enabledMenusFlags & BTL_MENU_ENABLED_STAR_POWERS)) {
-                BattleMenu_OptionEnabled[entryIdx] = FALSE;
+                BattleMenu_OptionEnabled[entryIdx] = false;
                 battle_menu_isMessageDisabled[entryIdx] = BTL_MSG_CANT_SELECT_NOW;
                 BattleMenu_HudScripts[entryIdx] = battle_menu_TwinkStarPowerHudScripts.disabled;
             }
@@ -5156,9 +5156,9 @@ void btl_state_update_twink_menu(void) {
             entryIdx++;
 
             if (btl_menu_show_switch_to_peach()) {
-                BattleMenu_ShowSwapIcons = TRUE;
+                BattleMenu_ShowSwapIcons = true;
             } else {
-                BattleMenu_ShowSwapIcons = FALSE;
+                BattleMenu_ShowSwapIcons = false;
             }
             BattleMenu_NumOptions = entryIdx;
             D_802AD0A8 = 0;
@@ -5207,14 +5207,14 @@ void btl_state_update_twink_menu(void) {
             break;
         case BTL_SUBSTATE_TWINK_MENU_SHOW_CANT_SWITCH:
             btl_show_variable_battle_message(BTL_MSG_CANT_SWITCH, 60, 0);
-            ShowingErrorMessage = TRUE;
+            ShowingErrorMessage = true;
             gBattleSubState = BTL_SUBSTATE_TWINK_MENU_AWAIT_CANT_SWITCH_POPUP;
             break;
         case BTL_SUBSTATE_TWINK_MENU_AWAIT_CANT_SWITCH_POPUP:
             if (btl_is_popup_displayed()) {
                 break;
             }
-            ShowingErrorMessage = FALSE;
+            ShowingErrorMessage = false;
             D_802ACC60 = 0;
             gBattleSubState = BTL_SUBSTATE_TWINK_MENU_CHOOSE_CATEGORY;
             break;
@@ -5612,7 +5612,7 @@ void btl_state_draw_select_target(void) {
 
     // draw target name box
     draw_box(0, WINDOW_STYLE_4, screenX + BattleMenu_TargetNameOffsetX, screenY, 0, nameWidth, 20, 255, 0,
-                0.0f, 0.0f, 0.0f, 0.0f, 0.0f, NULL, NULL, NULL, SCREEN_WIDTH, SCREEN_HEIGHT, NULL);
+                0.0f, 0.0f, 0.0f, 0.0f, 0.0f, nullptr, nullptr, nullptr, SCREEN_WIDTH, SCREEN_HEIGHT, nullptr);
 
     // draw target name text
     screenX += 4;

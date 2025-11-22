@@ -32,7 +32,7 @@ void footprint_main(f32 arg0, f32 arg1, f32 arg2, f32 arg3, f32 arg4) {
     bp.init = footprint_init;
     bp.update = footprint_update;
     bp.renderScene = footprint_render;
-    bp.renderUI = NULL;
+    bp.renderUI = nullptr;
     bp.effectID = EFFECT_FOOTPRINT;
 
     effect = create_effect_instance(&bp);
@@ -40,12 +40,12 @@ void footprint_main(f32 arg0, f32 arg1, f32 arg2, f32 arg3, f32 arg4) {
     part = general_heap_malloc(numParts * sizeof(*part));
     effect->data.footprint = part;
 
-    ASSERT(effect->data.footprint != NULL);
+    ASSERT(effect->data.footprint != nullptr);
 
     mem_clear(part, numParts * sizeof(*part));
 
     for (i = 0; i < numParts; i++, part++) {
-        part->alive = TRUE;
+        part->alive = true;
         part->unk_7C = 0;
         part->unk_0C = arg0;
         part->unk_10 = arg1;
@@ -76,16 +76,16 @@ void footprint_init(EffectInstance* effect) {
 
 void footprint_update(EffectInstance* effect) {
     FootprintFXData* part = effect->data.footprint;
-    s32 cond = FALSE;
+    s32 cond = false;
     s32 i;
 
     for (i = 0; i < effect->numParts; i++, part++) {
         if (part->alive) {
             part->lifetime--;
             if (part->lifetime <= 0) {
-                part->alive = FALSE;
+                part->alive = false;
             } else {
-                cond = TRUE;
+                cond = true;
                 func_E0018000(part);
                 part->alpha -= 2;
             }

@@ -57,9 +57,9 @@ void state_init_language_select(void) {
     general_heap_create();
     hud_element_set_aux_cache(0, 0);
     hud_element_clear_cache();
-    mdl_load_all_textures(NULL, 0, 0);
+    mdl_load_all_textures(nullptr, 0, 0);
     gCameras[CAM_DEFAULT].updateMode = CAM_UPDATE_NO_INTERP;
-    gCameras[CAM_DEFAULT].needsInit = TRUE;
+    gCameras[CAM_DEFAULT].needsInit = true;
     gCameras[CAM_DEFAULT].nearClip = 16;
     gCameras[CAM_DEFAULT].farClip = 4096;
     gCameras[CAM_DEFAULT].flags |= CAMERA_FLAG_DISABLED;
@@ -79,7 +79,7 @@ void state_init_language_select(void) {
     gCameras[CAM_DEFAULT].bgColor[2] = 0;
     gCameras[CAM_DEFAULT].lookAt_obj_target.x = 25.0f;
     gCameras[CAM_DEFAULT].lookAt_obj_target.y = 25.0f;
-    gCameras[CAM_DEFAULT].params.basic.skipRecalc = FALSE;
+    gCameras[CAM_DEFAULT].params.basic.skipRecalc = false;
     gCameras[CAM_DEFAULT].params.basic.fovScale = 100;
     gCameras[CAM_DEFAULT].params.basic.pitch = 0;
     gOverrideFlags |= GLOBAL_OVERRIDES_WINDOWS_OVER_CURTAINS;
@@ -96,9 +96,9 @@ void state_init_file_select(void) {
     general_heap_create();
     hud_element_set_aux_cache(0, 0);
     hud_element_clear_cache();
-    mdl_load_all_textures(NULL, 0, 0);
+    mdl_load_all_textures(nullptr, 0, 0);
     gCameras[CAM_DEFAULT].updateMode = CAM_UPDATE_NO_INTERP;
-    gCameras[CAM_DEFAULT].needsInit = TRUE;
+    gCameras[CAM_DEFAULT].needsInit = true;
     gCameras[CAM_DEFAULT].nearClip = 16;
     gCameras[CAM_DEFAULT].farClip = 4096;
     gCameras[CAM_DEFAULT].flags |= CAMERA_FLAG_DISABLED;
@@ -118,7 +118,7 @@ void state_init_file_select(void) {
     gCameras[CAM_DEFAULT].bgColor[2] = 0;
     gCameras[CAM_DEFAULT].lookAt_obj_target.x = 25.0f;
     gCameras[CAM_DEFAULT].lookAt_obj_target.y = 25.0f;
-    gCameras[CAM_DEFAULT].params.basic.skipRecalc = FALSE;
+    gCameras[CAM_DEFAULT].params.basic.skipRecalc = false;
     gCameras[CAM_DEFAULT].params.basic.fovScale = 100;
     gCameras[CAM_DEFAULT].params.basic.pitch = 0;
     gOverrideFlags |= GLOBAL_OVERRIDES_WINDOWS_OVER_CURTAINS;
@@ -218,7 +218,7 @@ void state_step_language_select(void) {
                     clear_item_entity_data();
                     clear_script_list();
                     clear_npcs();
-                    clear_entity_data(FALSE);
+                    clear_entity_data(false);
                     clear_trigger_data();
                     nuPiReadRomOverlay(&D_8007798C);
                     filemenu_init(1);
@@ -417,14 +417,14 @@ void state_step_exit_language_select(void) {
                     initialize_collision();
                     restore_map_collision_data();
 
-                    if (mapConfig->dmaStart != NULL) {
+                    if (mapConfig->dmaStart != nullptr) {
                         dma_copy(mapConfig->dmaStart, mapConfig->dmaEnd, mapConfig->dmaDest);
                     }
 
                     load_map_bg(mapConfig->bgName);
 
                     bgHeader = mapSettings->background;
-                    if (bgHeader != NULL) {
+                    if (bgHeader != nullptr) {
                         set_background(bgHeader);
                     } else {
                         set_background_size(296, 200, 12, 20);

@@ -32,12 +32,12 @@ API_CALLABLE(ShowKeyChoicePopup) {
                 s16 invItem = playerData->keyItems[i];
 
                 if (invItem != ITEM_NONE) {
-                    s32 found = FALSE;
+                    s32 found = false;
                     s32* itemIt = trigger->itemList;
 
                     while (*itemIt > 0) {
                         if (invItem == *itemIt) {
-                            found = TRUE;
+                            found = true;
                             break;
                         }
                         itemIt++;
@@ -48,7 +48,7 @@ API_CALLABLE(ShowKeyChoicePopup) {
 
                         menu->ptrIcon[numEntries] = gItemHudScripts[item->hudElemID].enabled;
                         menu->userIndex[numEntries] = i;
-                        menu->enabled[numEntries] = TRUE;
+                        menu->enabled[numEntries] = true;
                         menu->nameMsg[numEntries] = item->nameMsg;
                         menu->descMsg[numEntries] = item->shortDescMsg;
                         numEntries++;
@@ -123,12 +123,12 @@ API_CALLABLE(ShowConsumableChoicePopup) {
                 s16 invItem = playerData->invItems[i];
 
                 if (invItem != ITEM_NONE) {
-                    s32 found = FALSE;
+                    s32 found = false;
                     s32* itemIt = trigger->itemList;
 
                     while (*itemIt > 0) {
                         if (invItem == *itemIt) {
-                            found = TRUE;
+                            found = true;
                             break;
                         }
                         itemIt++;
@@ -139,7 +139,7 @@ API_CALLABLE(ShowConsumableChoicePopup) {
 
                         menu->ptrIcon[numEntries] = gItemHudScripts[item->hudElemID].enabled;
                         menu->userIndex[numEntries] = i;
-                        menu->enabled[numEntries] = TRUE;
+                        menu->enabled[numEntries] = true;
                         menu->nameMsg[numEntries] = item->nameMsg;
                         menu->descMsg[numEntries] = item->shortDescMsg;
                         numEntries++;
@@ -521,7 +521,7 @@ API_CALLABLE(ShowGotItem) {
             script->functionTemp[0] = 1;
             break;
         case 1:
-            if (get_item_entity(script->functionTemp[1]) == NULL) {
+            if (get_item_entity(script->functionTemp[1]) == nullptr) {
                 return ApiStatus_DONE2;
             }
             break;

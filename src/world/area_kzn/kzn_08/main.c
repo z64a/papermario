@@ -103,7 +103,7 @@ LavaReset N(SafeFloorColliders)[] = {
 
 // unused
 EvtScript N(EVS_AnimateLavaScale) = {
-    Call(DisablePlayerInput, TRUE)
+    Call(DisablePlayerInput, true)
     Call(MakeLerp, 1, 100, 200, EASING_LINEAR)
     Label(0)
         Call(UpdateLerp)
@@ -132,7 +132,7 @@ EvtScript N(EVS_AnimateLavaScale) = {
     Thread
         Call(ResetFromLava, Ref(N(SafeFloorColliders)))
     EndThread
-    Call(DisablePlayerInput, FALSE)
+    Call(DisablePlayerInput, false)
     Unbind
     Return
     End
@@ -142,7 +142,7 @@ EvtScript N(EVS_Main) = {
     Set(GB_WorldLocation, LOCATION_MT_LAVALAVA)
     Call(SetSpriteShading, SHADING_KZN_08)
     EVT_SETUP_CAMERA_DEFAULT()
-    Call(MakeNpcs, TRUE, Ref(N(DefaultNPCs)))
+    Call(MakeNpcs, true, Ref(N(DefaultNPCs)))
     ExecWait(N(EVS_MakeEntities))
     Call(SetMusic, 0, SONG_MT_LAVALAVA, 0, VOL_LEVEL_FULL)
     Call(PlayAmbientSounds, AMBIENT_LAVA_1)
@@ -159,7 +159,7 @@ EvtScript N(EVS_Main) = {
     Set(MV_GlowIntensity, 0)
     Thread
         SetGroup(EVT_GROUP_NEVER_PAUSE)
-        Call(N(ApplyLavaGlowLighting), LAVA_GLOW_MODE_2, NULL)
+        Call(N(ApplyLavaGlowLighting), LAVA_GLOW_MODE_2, nullptr)
     EndThread
     Thread
         Call(N(ClearLavaGlowLighting), Ref(N(LavaModelIDs)))

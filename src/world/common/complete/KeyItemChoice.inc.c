@@ -19,11 +19,11 @@ API_CALLABLE(N(ItemChoice_WaitForSelection)) {
     Bytecode* args = script->ptrReadPos;
 
     if (isInitialCall) {
-        N(ItemChoice_HasSelectedItem) = FALSE;
+        N(ItemChoice_HasSelectedItem) = false;
     }
 
     if (N(ItemChoice_HasSelectedItem)) {
-        N(ItemChoice_HasSelectedItem) = FALSE;
+        N(ItemChoice_HasSelectedItem) = false;
         evt_set_variable(script, *args++, N(ItemChoice_SelectedItemID));
         return ApiStatus_DONE2;
     }
@@ -35,7 +35,7 @@ API_CALLABLE(N(ItemChoice_SaveSelected)) {
     Bytecode* args = script->ptrReadPos;
 
     N(ItemChoice_SelectedItemID) = evt_get_variable(script, *args);
-    N(ItemChoice_HasSelectedItem) = TRUE;
+    N(ItemChoice_HasSelectedItem) = true;
     return ApiStatus_DONE2;
 }
 
@@ -77,7 +77,7 @@ EvtScript N(EVS_ChooseKeyItem) = {
 };
 
 #define EVT_CHOOSE_ANY_KEY_ITEM() \
-    Set(LVar0, NULL) \
+    Set(LVar0, nullptr) \
     Set(LVar1, 0) \
     ExecWait(N(EVS_ChooseKeyItem))
 

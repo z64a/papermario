@@ -45,7 +45,7 @@ void parasol_update_spin(void);
 Npc* parasol_get_npc(void) {
     PlayerStatus* playerStatus = &gPlayerStatus;
     f32 angle;
-    Npc* ret = NULL;
+    Npc* ret = nullptr;
     do {                // TODO fix this do...while
         if (playerStatus->availableDisguiseType != PEACH_DISGUISE_NONE) {
             if (gGameStatusPtr->peachFlags & PEACH_FLAG_BLOCK_NEXT_DISGUISE) {
@@ -54,11 +54,11 @@ Npc* parasol_get_npc(void) {
                 ret = npc_find_closest(playerStatus->pos.x, playerStatus->pos.y, playerStatus->pos.z, 100.0f);
                 if (ret != 0) {
                     if (fabs(ret->pos.y - playerStatus->pos.y) - 1.0 > 0.0) {
-                        ret = NULL;
+                        ret = nullptr;
                     } else {
                         angle = clamp_angle(atan2(playerStatus->pos.x, playerStatus->pos.z, ret->pos.x, ret->pos.z));
                         if (fabs(angle - player_get_side_angle()) > 30.0) {
-                            ret = NULL;
+                            ret = nullptr;
                         }
                     }
                 }
@@ -134,7 +134,7 @@ void action_update_parasol(void) {
             if (--playerStatus->curStateTime == 0) {
                 suggest_player_anim_allow_backward(ANIM_Peach2_PutAwayParasol);
                 playerStatus->actionSubstate = SUBSTATE_PUT_AWAY;
-                if (transformation->npc == NULL) {
+                if (transformation->npc == nullptr) {
                     playerStatus->actionSubstate = SUBSTATE_FAILED;
                 } else {
                     set_time_freeze_mode(TIME_FREEZE_FULL);
@@ -163,21 +163,21 @@ void action_update_parasol(void) {
             playerStatus->targetYaw = clamp_angle((cam->curYaw - playerStatus->spriteFacingAngle) - 90);
             if (playerStatus->curStateTime == 0) {
                 // wait for the sprite to rotate into a position where it's tangent to the camera
-                reachedTangentAngle = FALSE;
+                reachedTangentAngle = false;
                 if (transformation->playerRotationRate > 0) {
                     if (prevFacingAngle < 270 && playerStatus->spriteFacingAngle >= 270) {
-                        reachedTangentAngle = TRUE;
+                        reachedTangentAngle = true;
                     }
                 }
                 if (transformation->playerRotationRate < 0) {
                     if (prevFacingAngle > 270 && playerStatus->spriteFacingAngle <= 270) {
-                        reachedTangentAngle = TRUE;
+                        reachedTangentAngle = true;
                     }
                 }
                 if (reachedTangentAngle) {
                     playerStatus->actionSubstate = SUBSTATE_DISGUISE_SPIN_DOWN;
                     playerStatus->curStateTime = 2;
-                    if (peach_make_disguise_npc(playerStatus->availableDisguiseType) != NULL) {
+                    if (peach_make_disguise_npc(playerStatus->availableDisguiseType) != nullptr) {
                         playerStatus->actionSubstate = SUBSTATE_DISGUISE_MAKE_NPC;
                         peach_sync_disguise_npc();
                     }
@@ -206,7 +206,7 @@ void action_update_parasol(void) {
                     playerStatus->actionSubstate++; // SUBSTATE_DISGUISE_DONE
                     playerStatus->spriteFacingAngle = 180;
                     disguiseNpc = get_npc_by_index(PeachDisguiseNpcIndex);
-                    disguiseNpc->isFacingAway = TRUE;
+                    disguiseNpc->isFacingAway = true;
                     disguiseNpc->yaw = clamp_angle((cam->curYaw - playerStatus->spriteFacingAngle) - 90);
                     disguiseNpc->yawCamOffset = disguiseNpc->yaw;
                 }
@@ -218,7 +218,7 @@ void action_update_parasol(void) {
                     playerStatus->spriteFacingAngle = 0;
                     playerStatus->actionSubstate++; // SUBSTATE_DISGUISE_DONE
                     disguiseNpc = get_npc_by_index(PeachDisguiseNpcIndex);
-                    disguiseNpc->isFacingAway = FALSE;
+                    disguiseNpc->isFacingAway = false;
                     disguiseNpc->yaw = clamp_angle((cam->curYaw - playerStatus->spriteFacingAngle) - 90);
                     disguiseNpc->yawCamOffset = disguiseNpc->yaw;
                 }
@@ -249,15 +249,15 @@ void action_update_parasol(void) {
             playerStatus->targetYaw = clamp_angle((cam->curYaw - playerStatus->spriteFacingAngle) - 90);
             if (playerStatus->curStateTime == 0) {
                 // wait for the sprite to rotate into a position where it's tangent to the camera
-                reachedTangentAngle = FALSE;
+                reachedTangentAngle = false;
                 if (transformation->playerRotationRate > 0) {
                     if (prevFacingAngle < 270 && playerStatus->spriteFacingAngle >= 270) {
-                        reachedTangentAngle = TRUE;
+                        reachedTangentAngle = true;
                     }
                 }
                 if (transformation->playerRotationRate < 0) {
                     if (prevFacingAngle > 270 && playerStatus->spriteFacingAngle <= 270) {
-                        reachedTangentAngle = TRUE;
+                        reachedTangentAngle = true;
                     }
                 }
                 if (reachedTangentAngle) {
@@ -317,7 +317,7 @@ void action_update_parasol(void) {
             }
             break;
         case SUBSTATE_ABORT:
-            peach_force_disguise_action(FALSE);
+            peach_force_disguise_action(false);
             enable_player_static_collisions();
             break;
         case SUBSTATE_FAILED:
@@ -374,7 +374,7 @@ void action_update_parasol(void) {
         }
     } else if (transformation->disguiseTime == 0) {
         transformation->disguiseTime = -1;
-        if (transformation->npc != NULL) {
+        if (transformation->npc != nullptr) {
             fx_pink_sparkles(playerStatus->availableDisguiseType - 1,
                 transformation->npc->pos.x,
                 transformation->npc->pos.y,

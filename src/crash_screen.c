@@ -293,7 +293,7 @@ OSThread* crash_screen_get_faulted_thread(void) {
         thread = thread->tlnext;
     }
 
-    return NULL;
+    return nullptr;
 }
 
 void crash_screen_thread_entry(void* unused) {
@@ -306,12 +306,12 @@ void crash_screen_thread_entry(void* unused) {
     do {
         osRecvMesg(&gCrashScreen.queue, &mesg, 1);
         faultedThread = crash_screen_get_faulted_thread();
-    } while (faultedThread == NULL);
+    } while (faultedThread == nullptr);
 
     osStopThread(faultedThread);
     crash_screen_draw(faultedThread);
 
-    while (TRUE) {}
+    while (true) {}
 }
 
 void crash_screen_set_draw_info(u16* frameBufPtr, s16 width, s16 height) {
@@ -325,7 +325,7 @@ void crash_screen_init(void) {
     gCrashScreen.height = 16;
     gCrashScreen.frameBuf = (u16*)((osMemSize | 0xA0000000) - ((SCREEN_WIDTH * SCREEN_HEIGHT) * 2));
     osCreateMesgQueue(&gCrashScreen.queue, &gCrashScreen.mesg, 1);
-    osCreateThread(&gCrashScreen.thread, THREAD_ID_CRASH, crash_screen_thread_entry, NULL,
+    osCreateThread(&gCrashScreen.thread, THREAD_ID_CRASH, crash_screen_thread_entry, nullptr,
                    gCrashScreen.stack + sizeof(gCrashScreen.stack), 0x80);
     osStartThread(&gCrashScreen.thread);
 }

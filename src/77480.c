@@ -509,7 +509,7 @@ HitID player_test_move_without_slipping(PlayerStatus* playerStatus, f32* x, f32*
 
     hitID = player_raycast_general(PLAYER_COLLISION_0, *x, *y + 0.1, *z, sinTheta, 0, cosTheta, &hitX, &hitY, &hitZ, &hitDepth, &hitNx, &hitNy, &hitNz);
     if (hitID > NO_COLLIDER && hitDepth <= depth) {
-        *hasClimbableStep = TRUE;
+        *hasClimbableStep = true;
     }
 
     depth = length + radius;
@@ -636,7 +636,7 @@ void update_player(void) {
     collisionStatus->curWall = NO_COLLIDER;
     collisionStatus->lastWallHammered = NO_COLLIDER;
     collisionStatus->curInspect = NO_COLLIDER;
-    collisionStatus->floorBelow = TRUE;
+    collisionStatus->floorBelow = true;
 
     update_player_input();
     playerStatus->flags &= ~PS_FLAG_SPECIAL_LAND;
@@ -792,16 +792,16 @@ void player_reset_data(void) {
     func_800E5520();
 }
 
-b32 is_player_dismounted(void) {
+bool is_player_dismounted(void) {
     if (gPartnerStatus.partnerActionState == PARTNER_ACTION_USE &&
         (gPartnerStatus.actingPartner == PARTNER_WATT
         || gPartnerStatus.actingPartner == PARTNER_BOW
         || gPartnerStatus.actingPartner == PARTNER_SUSHIE
         || gPartnerStatus.actingPartner == PARTNER_PARAKARRY
         || gPartnerStatus.actingPartner == PARTNER_LAKILESTER)) {
-        return FALSE;
+        return false;
     }
-    return TRUE;
+    return true;
 }
 
 s32 get_overriding_player_anim(s32 anim) {
@@ -891,7 +891,7 @@ void suggest_player_anim_always_forward(AnimID anim) {
 
 void update_player_blink(void) {
     PlayerStatus* playerStatus = &gPlayerStatus;
-    s32 outtaSight = FALSE;
+    s32 outtaSight = false;
     u8 phi_v1;
     u8* alpha;
 
@@ -986,14 +986,14 @@ void func_800E01DC(void) {
     }
 }
 
-b32 check_player_action_debug(void) {
-    b32 ret = FALSE;
+bool check_player_action_debug(void) {
+    bool ret = false;
 
     if (gGameStatusPtr->debugScripts != DEBUG_SCRIPTS_NONE && (gGameStatusPtr->curButtons[0] & BUTTON_R)) {
         if (gPartnerStatus.partnerActionState == PARTNER_ACTION_NONE) {
             set_action_state(ACTION_STATE_IDLE);
         }
-        ret = TRUE;
+        ret = true;
     }
     return ret;
 }
@@ -1008,7 +1008,7 @@ void player_render_interact_prompts(void) {
 void check_for_ispy(void) {
     PlayerStatus* playerStatus = &gPlayerStatus;
 
-    if (gCurrentHiddenPanels.activateISpy && ISpyNotificationCallback == NULL) {
+    if (gCurrentHiddenPanels.activateISpy && ISpyNotificationCallback == nullptr) {
         if (!(playerStatus->animFlags &
             (PA_FLAG_SPEECH_PROMPT_AVAILABLE | PA_FLAG_INTERACT_PROMPT_AVAILABLE))) {
             DMA_COPY_SEGMENT(i_spy);
@@ -1016,19 +1016,19 @@ void check_for_ispy(void) {
         }
     }
 
-    if (ISpyNotificationCallback != NULL) {
+    if (ISpyNotificationCallback != nullptr) {
         ISpyNotificationCallback();
     }
 }
 
 void render_ispy_icon(void) {
-    if ((gPlayerStatusPtr->animFlags & PA_FLAG_ISPY_VISIBLE) && (ISpyNotificationCallback != NULL)) {
+    if ((gPlayerStatusPtr->animFlags & PA_FLAG_ISPY_VISIBLE) && (ISpyNotificationCallback != nullptr)) {
         appendGfx_ispy_icon();
     }
 }
 
 void clear_ispy_icon(void) {
-    ISpyNotificationCallback = NULL;
+    ISpyNotificationCallback = nullptr;
     gPlayerStatusPtr->animFlags &= ~PA_FLAG_ISPY_VISIBLE;
 }
 
@@ -1036,7 +1036,7 @@ void check_for_pulse_stone(void) {
     PlayerStatus* playerStatus = &gPlayerStatus;
     s32 dx, dy;
 
-    if (PulseStoneNotificationCallback == NULL) {
+    if (PulseStoneNotificationCallback == nullptr) {
         if (gPlayerStatus.animFlags & PA_FLAG_ISPY_VISIBLE) {
             return;
         }
@@ -1065,29 +1065,29 @@ void check_for_pulse_stone(void) {
         }
     }
 
-    if (PulseStoneNotificationCallback != NULL) {
+    if (PulseStoneNotificationCallback != nullptr) {
         PulseStoneNotificationCallback();
     }
 }
 
 void render_pulse_stone_icon(void) {
-    if ((gPlayerStatusPtr->animFlags & PA_FLAG_PULSE_STONE_VISIBLE) && (PulseStoneNotificationCallback != NULL)) {
+    if ((gPlayerStatusPtr->animFlags & PA_FLAG_PULSE_STONE_VISIBLE) && (PulseStoneNotificationCallback != nullptr)) {
         appendGfx_pulse_stone_icon();
     }
 }
 
 void clear_pulse_stone_icon(void) {
-    PulseStoneNotificationCallback = NULL;
+    PulseStoneNotificationCallback = nullptr;
     gPlayerStatusPtr->animFlags &= ~PA_FLAG_PULSE_STONE_VISIBLE;
 }
 
 s32 has_valid_conversation_npc(void) {
     PlayerStatus* playerStatus = &gPlayerStatus;
     Npc* npc = playerStatus->encounteredNPC;
-    s32 ret = FALSE;
+    s32 ret = false;
     s32 cond;
 
-    if (npc != NULL && !(npc->flags & NPC_FLAG_USE_INSPECT_ICON)) {
+    if (npc != nullptr && !(npc->flags & NPC_FLAG_USE_INSPECT_ICON)) {
         cond = !(playerStatus->flags & PS_FLAG_INPUT_DISABLED) && (playerStatus->flags & PS_FLAG_HAS_CONVERSATION_NPC);
         ret = cond;
     }
@@ -1095,38 +1095,38 @@ s32 has_valid_conversation_npc(void) {
 }
 
 void check_for_conversation_prompt(void) {
-    if (gPlayerStatus.animFlags & PA_FLAG_ISPY_VISIBLE || InteractNotificationCallback || PulseStoneNotificationCallback != NULL) {
+    if (gPlayerStatus.animFlags & PA_FLAG_ISPY_VISIBLE || InteractNotificationCallback || PulseStoneNotificationCallback != nullptr) {
         return;
     }
 
-    if (TalkNotificationCallback == NULL) {
+    if (TalkNotificationCallback == nullptr) {
         if (gPlayerStatus.inputDisabledCount || gPlayerStatus.flags & PS_FLAG_PAUSED) {
             return;
         }
 
         if (has_valid_conversation_npc()) {
-            TalkNotificationCallback = NULL;
+            TalkNotificationCallback = nullptr;
             DMA_COPY_SEGMENT(speech_bubble);
             TalkNotificationCallback = interact_speech_setup;
         } else {
-            TalkNotificationCallback = NULL;
+            TalkNotificationCallback = nullptr;
             return;
         }
     }
 
-    if (TalkNotificationCallback != NULL) {
+    if (TalkNotificationCallback != nullptr) {
         TalkNotificationCallback();
     }
 }
 
 void render_conversation_prompt(void) {
-    if ((gPlayerStatusPtr->animFlags & PA_FLAG_SPEECH_PROMPT_AVAILABLE) && (TalkNotificationCallback != NULL)) {
+    if ((gPlayerStatusPtr->animFlags & PA_FLAG_SPEECH_PROMPT_AVAILABLE) && (TalkNotificationCallback != nullptr)) {
         appendGfx_speech_bubble();
     }
 }
 
 void clear_conversation_prompt(void) {
-    TalkNotificationCallback = NULL;
+    TalkNotificationCallback = nullptr;
     gPlayerStatusPtr->animFlags &= ~PA_FLAG_SPEECH_PROMPT_AVAILABLE;
 }
 
@@ -1141,42 +1141,42 @@ s32 func_800E06D8(void) {
     s32 currentWall;
 
     if (playerStatus->timeInAir != 0 || playerStatus->inputDisabledCount != 0) {
-        return FALSE;
+        return false;
     }
     if (gCollisionStatus.curWall == NO_COLLIDER) {
-        return FALSE;
+        return false;
     }
     if (playerStatus->flags & PS_FLAG_HAS_CONVERSATION_NPC
         && !(playerStatus->flags & PS_FLAG_INPUT_DISABLED)
-        && npc != NULL
+        && npc != nullptr
         && npc->flags & NPC_FLAG_USE_INSPECT_ICON
     ) {
         playerStatus->interactingWithID = NO_COLLIDER;
-        return TRUE;
+        return true;
     }
 
     currentWall = gCollisionStatus.curWall;
     if (!(currentWall & COLLISION_WITH_ENTITY_BIT)) {
         if (!should_collider_allow_interact(currentWall)) {
-            return FALSE;
+            return false;
         }
     } else if (!phys_can_player_interact()) {
         playerStatus->interactingWithID = NO_COLLIDER;
-        return FALSE;
+        return false;
     } else if (get_entity_type(currentWall) == ENTITY_TYPE_PUSH_BLOCK) {
-        return FALSE;
+        return false;
     }
 
     if (interactingID == currentWall) {
         if (playerStatus->flags & PS_FLAG_INTERACTED) {
-            return FALSE;
+            return false;
         }
     } else {
         playerStatus->flags &= ~PS_FLAG_INTERACTED;
     }
     playerStatus->interactingWithID = NO_COLLIDER;
 
-    return TRUE;
+    return true;
 }
 
 static const f32 padding = 0.0f;
@@ -1186,11 +1186,11 @@ void check_for_interactables(void) {
     Npc* npc = gPlayerStatus.encounteredNPC;
     s32 phi_s2;
 
-    if ((playerStatus->animFlags & PA_FLAG_ISPY_VISIBLE) || TalkNotificationCallback || PulseStoneNotificationCallback != NULL) {
+    if ((playerStatus->animFlags & PA_FLAG_ISPY_VISIBLE) || TalkNotificationCallback || PulseStoneNotificationCallback != nullptr) {
         return;
     }
 
-    if (InteractNotificationCallback == NULL) {
+    if (InteractNotificationCallback == nullptr) {
         s32 curInteraction = gCollisionStatus.curWall;
 
         if (playerStatus->inputDisabledCount != 0) {
@@ -1224,7 +1224,7 @@ void check_for_interactables(void) {
             } else if (
                 (!(playerStatus->flags & PS_FLAG_INPUT_DISABLED))
                 && (playerStatus->flags & PS_FLAG_HAS_CONVERSATION_NPC)
-                && (npc != NULL)
+                && (npc != nullptr)
                 && (npc->flags & NPC_FLAG_USE_INSPECT_ICON)
             ) {
                 curInteraction = npc->npcID | COLLISION_WITH_NPC_BIT;
@@ -1280,13 +1280,13 @@ void check_for_interactables(void) {
         return;
     }
 
-    if (InteractNotificationCallback == NULL) {
+    if (InteractNotificationCallback == nullptr) {
         DMA_COPY_SEGMENT(inspect_icon);
         InteractNotificationCallback = interact_inspect_setup;
 
     }
 
-    if (InteractNotificationCallback != NULL) {
+    if (InteractNotificationCallback != nullptr) {
         InteractNotificationCallback();
     }
 }
@@ -1294,13 +1294,13 @@ void check_for_interactables(void) {
 void appendGfx_interact_prompt(void);
 
 void render_interact_prompt(void) {
-    if ((gPlayerStatusPtr->animFlags & PA_FLAG_INTERACT_PROMPT_AVAILABLE) && (InteractNotificationCallback != NULL)) {
+    if ((gPlayerStatusPtr->animFlags & PA_FLAG_INTERACT_PROMPT_AVAILABLE) && (InteractNotificationCallback != nullptr)) {
         appendGfx_interact_prompt();
     }
 }
 
 void clear_interact_prompt(void) {
-    InteractNotificationCallback = NULL;
+    InteractNotificationCallback = nullptr;
     gPlayerStatusPtr->animFlags &= ~PA_FLAG_INTERACT_PROMPT_AVAILABLE;
 }
 

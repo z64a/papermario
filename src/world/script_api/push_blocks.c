@@ -108,7 +108,7 @@ API_CALLABLE(FinishPushBlockMotion) {
         }
     }
 
-    if (grid->dropCallback != NULL) {
+    if (grid->dropCallback != nullptr) {
         if (grid->dropCallback(block, script)) {
             i = (block->pos.x - grid->centerPos.x) / BLOCK_GRID_SIZE;
             j = (block->pos.z - grid->centerPos.z) / BLOCK_GRID_SIZE;
@@ -248,9 +248,9 @@ API_CALLABLE(CanPlayerPushBlock) {
         || playerStatus->actionState == ACTION_STATE_RUN)
         && !(playerStatus->animFlags & PA_FLAG_USING_WATT))
     {
-        script->varTable[13] = TRUE;
+        script->varTable[13] = true;
     } else {
-        script->varTable[13] = FALSE;
+        script->varTable[13] = false;
     }
 
     return ApiStatus_DONE2;
@@ -270,15 +270,15 @@ API_CALLABLE(IsEventForSourceRunning) {
     Bytecode outVar = *args++;
     Bytecode* sourceToFind = (Bytecode*)evt_get_variable(script, *args++);
 
-    s32 foundScript = FALSE;
+    s32 foundScript = false;
     s32 i;
 
     for (i = 0; i < MAX_SCRIPTS; i++) {
         Evt* iterScript = get_script_by_index(i);
 
-        if (iterScript != NULL) {
+        if (iterScript != nullptr) {
             if (iterScript->ptrFirstLine == sourceToFind) {
-                foundScript = TRUE;
+                foundScript = true;
                 break;
             }
         }
@@ -299,9 +299,9 @@ EvtScript EVS_PushWall_PushBlock = {
     // try setting the player action state
     Set(LVarC, 0)
     Call(CheckPlayerActionState, LVarD, ACTION_STATE_RUN)
-    IfEq(LVarD, FALSE)
+    IfEq(LVarD, false)
         Call(CheckPlayerActionState, LVarD, ACTION_STATE_PUSHING_BLOCK)
-        IfEq(LVarD, FALSE)
+        IfEq(LVarD, false)
             Return
         EndIf
     EndIf
@@ -315,7 +315,7 @@ EvtScript EVS_PushWall_PushBlock = {
     Label(0)
         Add(LVarC, 1)
         Call(CanPlayerPushBlock)
-        IfEq(LVarD, TRUE)
+        IfEq(LVarD, true)
             Goto(1)
         EndIf
             Call(GetPlayerActionState, LVarD)
@@ -334,20 +334,20 @@ EvtScript EVS_PushWall_PushBlock = {
     // perform the push
     Call(ClearPushedBlockFromGrid)
     Call(PlaySound, SOUND_PUSH_BLOCK)
-    Call(DisablePlayerPhysics, TRUE)
+    Call(DisablePlayerPhysics, true)
     Call(UpdatePushBlockMotion)
     Call(FinishPushBlockMotion)
     Thread
         Wait(2)
         Call(CheckPlayerActionState, LVarD, ACTION_STATE_PUSHING_BLOCK)
-        IfNe(LVarD, FALSE)
+        IfNe(LVarD, false)
             Call(IsEventForSourceRunning, LVarD, Ref(EVS_PushWall_PushBlock))
-            IfEq(LVarD, FALSE)
+            IfEq(LVarD, false)
                 Call(SetPlayerActionState, ACTION_STATE_IDLE)
             EndIf
         EndIf
     EndThread
-    Call(DisablePlayerPhysics, FALSE)
+    Call(DisablePlayerPhysics, false)
     Return
     End
 };
@@ -370,7 +370,7 @@ API_CALLABLE(CreatePushBlockGrid) {
 
     blockGrid->cells = general_heap_malloc(sizeNx*sizeNz);
 
-    if (inputGridData == NULL) {
+    if (inputGridData == nullptr) {
         for (i = 0; i < sizeNx*sizeNz; i++) {
             blockGrid->cells[i] = 0;
         }
@@ -386,7 +386,7 @@ API_CALLABLE(CreatePushBlockGrid) {
     blockGrid->centerPos.x = centerX;
     blockGrid->centerPos.y = centerY;
     blockGrid->centerPos.z = centerZ;
-    blockGrid->dropCallback = NULL;
+    blockGrid->dropCallback = nullptr;
 
     return ApiStatus_DONE2;
 }

@@ -20,7 +20,7 @@ void clear_trigger_data(void) {
     }
 
     for (i = 0; i < ARRAY_COUNT(*gCurrentTriggerListPtr); i++) {
-        (*gCurrentTriggerListPtr)[i] = NULL;
+        (*gCurrentTriggerListPtr)[i] = nullptr;
     }
 
     gTriggerCount = 0;
@@ -58,7 +58,7 @@ Trigger* create_trigger(TriggerBlueprint* bp) {
     for (i = 0; i < ARRAY_COUNT(*gCurrentTriggerListPtr); i++) {
         Trigger* listTrigger = (*gCurrentTriggerListPtr)[i];
 
-        if (listTrigger == NULL) {
+        if (listTrigger == nullptr) {
             break;
         }
     }
@@ -68,7 +68,7 @@ Trigger* create_trigger(TriggerBlueprint* bp) {
     (*gCurrentTriggerListPtr)[i] = trigger = heap_malloc(sizeof(*trigger));
     gTriggerCount++;
 
-    ASSERT(trigger != NULL);
+    ASSERT(trigger != nullptr);
 
     trigger->flags = bp->flags | TRIGGER_ACTIVE;
     trigger->varIndex = bp->varIndex;
@@ -78,7 +78,7 @@ Trigger* create_trigger(TriggerBlueprint* bp) {
     trigger->hasPlayerInteractPrompt = bp->hasPlayerInteractPrompt;
 
     trigger->onActivateFunc = bp->onActivateFunc;
-    if (trigger->onActivateFunc == NULL) {
+    if (trigger->onActivateFunc == nullptr) {
         trigger->onActivateFunc = (s32 (*) (Trigger*)) default_trigger_on_activate;
     }
 
@@ -95,7 +95,7 @@ void update_triggers(void) {
     for (i = 0; i < ARRAY_COUNT(*gCurrentTriggerListPtr); i++) {
         listTrigger = (*gCurrentTriggerListPtr)[i];
 
-        if (listTrigger == NULL) {
+        if (listTrigger == nullptr) {
             continue;
         }
 
@@ -221,7 +221,7 @@ void update_triggers(void) {
     for (i = 0; i < ARRAY_COUNT(*gCurrentTriggerListPtr); i++) {
         listTrigger = (*gCurrentTriggerListPtr)[i];
 
-        if (listTrigger == NULL) {
+        if (listTrigger == nullptr) {
             continue;
         }
 
@@ -246,7 +246,7 @@ void delete_trigger(Trigger* toDelete) {
 
     if (i < ARRAY_COUNT(*gCurrentTriggerListPtr)) {
         heap_free((*gCurrentTriggerListPtr)[i]);
-        (*gCurrentTriggerListPtr)[i] = NULL;
+        (*gCurrentTriggerListPtr)[i] = nullptr;
     }
 }
 
@@ -256,44 +256,44 @@ s32 is_another_trigger_bound(Trigger* trigger, EvtScript* script) {
     for (i = 0; i < ARRAY_COUNT(*gCurrentTriggerListPtr); i++) {
         Trigger* listTrigger = (*gCurrentTriggerListPtr)[i];
 
-        if (listTrigger == NULL || listTrigger == trigger) {
+        if (listTrigger == nullptr || listTrigger == trigger) {
             continue;
         }
 
         if (listTrigger->flags & TRIGGER_ACTIVE) {
             if (listTrigger->flags & TRIGGER_ACTIVATED) {
                 if (listTrigger->onTriggerEvt == script) {
-                    return TRUE;
+                    return true;
                 }
             }
         }
     }
 
-    return FALSE;
+    return false;
 }
 
 Trigger* get_trigger_by_id(s32 triggerID) {
     return (*gCurrentTriggerListPtr)[triggerID];
 }
 
-/// @returns TRUE if colliderID is bound to an interaction trigger (press A) and the player can use it.
+/// @returns true if colliderID is bound to an interaction trigger (press A) and the player can use it.
 s32 should_collider_allow_interact(s32 colliderID) {
     s32 i;
 
     if (!phys_can_player_interact()) {
-        return FALSE;
+        return false;
     }
 
     for (i = 0; i < ARRAY_COUNT(*gCurrentTriggerListPtr); i++) {
         Trigger* trigger = (*gCurrentTriggerListPtr)[i];
 
-        if (trigger != NULL
+        if (trigger != nullptr
             && trigger->hasPlayerInteractPrompt != 0
             && trigger->location.colliderID == colliderID
             && trigger->flags & TRIGGER_WALL_PRESS_A
         ) {
-            return TRUE;
+            return true;
         }
     }
-    return FALSE;
+    return false;
 }

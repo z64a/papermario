@@ -27,21 +27,21 @@ void printf(const char* fmt, ...) {
     va_list args;
     va_start(args, fmt);
 
-    _Printf(is_debug_print, NULL, fmt, args);
+    _Printf(is_debug_print, nullptr, fmt, args);
 }
 
 void osSyncPrintf(const char* fmt, ...) {
     va_list args;
     va_start(args, fmt);
 
-    _Printf(is_debug_print, NULL, fmt, args);
+    _Printf(is_debug_print, nullptr, fmt, args);
 }
 
 void rmonPrintf(const char* fmt, ...) {
     va_list args;
     va_start(args, fmt);
 
-    _Printf(is_debug_print, NULL, fmt, args);
+    _Printf(is_debug_print, nullptr, fmt, args);
 }
 
 char* is_debug_print(char* arg0, const char* str, size_t count) {
@@ -93,5 +93,5 @@ char* is_debug_print(char* arg0, const char* str, size_t count) {
 
 void is_debug_panic(const char* message, char* file, s32 line) {
     osSyncPrintf("File:%s Line:%d  %s \n", file, line, message);
-    do {} while (TRUE);
+    do {} while (true);
 }

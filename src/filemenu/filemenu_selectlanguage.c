@@ -71,7 +71,7 @@ MenuWindowBP D_filemenu_8024F1D8[] = {
         .height = 0,
         .priority = WINDOW_PRIORITY_0,
         .fpDrawContents = &filemenu_draw_pal_8024d6a0,
-        .tab = NULL,
+        .tab = nullptr,
         .parentID = WIN_FILES_MAIN,
         .fpUpdate = { .func=&filemenu_update_show_title },
         .extraFlags = 0,
@@ -85,7 +85,7 @@ MenuWindowBP D_filemenu_8024F1D8[] = {
         .height = 20,
         .priority = WINDOW_PRIORITY_0,
         .fpDrawContents = &filemenu_draw_pal_8024DA50,
-        .tab = NULL,
+        .tab = nullptr,
         .parentID = WIN_FILES_MAIN,
         .fpUpdate = { .func=&filemenu_update_pal_80247f40 },
         .extraFlags = 0,
@@ -99,7 +99,7 @@ MenuWindowBP D_filemenu_8024F1D8[] = {
         .height = 20,
         .priority = WINDOW_PRIORITY_0,
         .fpDrawContents = &filemenu_draw_pal_8024DAA0,
-        .tab = NULL,
+        .tab = nullptr,
         .parentID = WIN_FILES_MAIN,
         .fpUpdate = { .func=&filemenu_update_pal_80247f40 },
         .extraFlags = 0,
@@ -113,7 +113,7 @@ MenuWindowBP D_filemenu_8024F1D8[] = {
         .height = 20,
         .priority = WINDOW_PRIORITY_0,
         .fpDrawContents = &filemenu_draw_pal_8024D9B0,
-        .tab = NULL,
+        .tab = nullptr,
         .parentID = WIN_FILES_MAIN,
         .fpUpdate = { .func=&filemenu_update_pal_80247f40 },
         .extraFlags = 0,
@@ -127,7 +127,7 @@ MenuWindowBP D_filemenu_8024F1D8[] = {
         .height = 20,
         .priority = WINDOW_PRIORITY_0,
         .fpDrawContents = &filemenu_draw_pal_8024DA00,
-        .tab = NULL,
+        .tab = nullptr,
         .parentID = WIN_FILES_MAIN,
         .fpUpdate = { .func=&filemenu_update_pal_80247f40 },
         .extraFlags = 0,
@@ -136,7 +136,7 @@ MenuWindowBP D_filemenu_8024F1D8[] = {
 };
 
 MenuPanel filemenu_selectlanguage_menuBP = {
-    .initialized = FALSE,
+    .initialized = false,
     .col = 0,
     .row = 0,
     .selected = 0,
@@ -246,7 +246,7 @@ void filemenu_selectlanguage_handle_input(MenuPanel* menu) {
     s32 var_a1;
 
     if (filemenu_heldButtons & BUTTON_STICK_LEFT) {
-        while (TRUE) {
+        while (true) {
             menu->col--;
             if (menu->col < 0) {
                 menu->col = 0;
@@ -259,7 +259,7 @@ void filemenu_selectlanguage_handle_input(MenuPanel* menu) {
     }
 
     if (filemenu_heldButtons & BUTTON_STICK_RIGHT) {
-        while (TRUE) {
+        while (true) {
             menu->col++;
             if (menu->col >= menu->numCols) {
                 menu->col = menu->numCols - 1;
