@@ -87,7 +87,7 @@ var searchData=
   ['wavdata_84',['wavData',['../audio_8h.html#aa9c88305f2af2c4b8cd854fe67eb6d78',1,'Instrument']]],
   ['wavdatalength_85',['wavDataLength',['../audio_8h.html#a63e1d321210e57b5ce2843f52c1d3115',1,'Instrument']]],
   ['wavedata_86',['WaveData',['../audio_8h.html#a792fbd05e36fc8da7f5c6a3bf988395f',1,'audio.h']]],
-  ['wavy_87',['wavy',['../imgfx_8c.html#a0569dc4cbd190b9f90acf07fc60a7be4',1,'ImgFXIntVars::wavy'],['../imgfx_8c.html#a7a9f0d82301ccc91882a01b28b63e731',1,'ImgFXFloatVars::wavy']]],
+  ['wavy_87',['wavy',['../imgfx_8c.html#a0569dc4cbd190b9f90acf07fc60a7be4',1,'ImgFXIntVars::wavy'],['../imgfx_8c.html#ab2cb4204aed0dc127e10a7983860e1c4',1,'ImgFXFloatVars::wavy']]],
   ['wbackgroundtintmode_88',['wBackgroundTintMode',['../model_8c.html#a354e52bd90f43764f5951dd0d8aff535',1,'model.c']]],
   ['wcurrentpartnerid_89',['wCurrentPartnerId',['../partners_8c.html#ab0cbebde613d7ac5914d32a54265d7cf',1,'partners.c']]],
   ['wcustommodelgfx_90',['wCustomModelGfx',['../model_8c.html#af4eefaf899395d55398cc7fbed0d13bf',1,'model.c']]],

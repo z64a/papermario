@@ -188,7 +188,7 @@ var NAVTREEINDEX =
 "hos__06__shape_8h.html#a85e3b5fb3a56afa515deb450f7b5da4b",
 "hos__bt02__shape_8h.html#a469f819859ebf4b9601fada46a9f6cde",
 "hud__element_8h.html#aa2b08cc9504c389defc3fa8c198960a9",
-"imgfx_8c.html#a8275679a09d7b31f5effc790aefaffb3",
+"imgfx_8c.html#a8992a78e830da3fa3625b48d4ef1c9c7",
 "inventory_8c.html#a15d7996c47dcc86b9ecc36bc49132540",
 "isk__02__hit_8h.html#a4ef0fdf508ccccee791c2e98cf95ffb5",
 "isk__03__hit_8h.html#ad16752ff2687f6b84f2b3a4bdf060439",
