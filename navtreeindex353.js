@@ -1,11 +1,5 @@
 var NAVTREEINDEX353 =
 {
-"sprite_8h.html#structPlayerRastersHeader":[3,0,1,98,6],
-"sprite_8h.html#structPlayerSpriteCacheEntry":[3,0,1,98,8],
-"sprite_8h.html#structPlayerSpriteSet":[3,0,1,98,7],
-"sprite_8h.html#structQuad":[3,0,1,98,9],
-"sprite_8h.html#structSpriteAnimComponent":[3,0,1,98,2],
-"sprite_8h.html#structSpriteAnimData":[3,0,1,98,4],
 "sprite_8h.html#structSpriteComponent":[3,0,1,98,0],
 "sprite_8h.html#structSpriteInstance":[3,0,1,98,5],
 "sprite_8h.html#structSpriteRasterCacheEntry":[3,0,1,98,3],
@@ -249,5 +243,11 @@ var NAVTREEINDEX353 =
 "stage_2jan__01b_8c.html":[3,0,1,1,1,9,1,2],
 "stage_2jan__02_8c.html":[3,0,1,1,1,9,1,3],
 "stage_2jan__03_8c.html":[3,0,1,1,1,9,1,4],
-"stage_2jan__03b_8c.html":[3,0,1,1,1,9,1,5]
+"stage_2jan__03b_8c.html":[3,0,1,1,1,9,1,5],
+"stage_2jan__04_8c.html":[3,0,1,1,1,9,1,6],
+"stage_2jan__04b_8c.html":[3,0,1,1,1,9,1,7],
+"stage_2kpa__01_8c.html":[3,0,1,1,1,16,1,0],
+"stage_2kpa__01b_8c.html":[3,0,1,1,1,16,1,1],
+"stage_2kpa__02_8c.html":[3,0,1,1,1,16,1,2],
+"stage_2kpa__03_8c.html":[3,0,1,1,1,16,1,3]
 };

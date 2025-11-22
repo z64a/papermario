@@ -1,11 +1,5 @@
 var NAVTREEINDEX385 =
 {
-"world_2partner_2goombario_8c.html":[3,0,1,10,32,6],
-"world_2partner_2goombario_8c.html#a10793e1e13133efad92d7365e184032c":[3,0,1,10,32,6,12],
-"world_2partner_2goombario_8c.html#a1cc9427f117970da5f7dd9aece4206d4":[3,0,1,10,32,6,2],
-"world_2partner_2goombario_8c.html#a30ceda8ae15020b9efa0a8f095773cc8":[3,0,1,10,32,6,10],
-"world_2partner_2goombario_8c.html#a4e0adfcb7e0b384a4e8a048d19228194":[3,0,1,10,32,6,4],
-"world_2partner_2goombario_8c.html#a6c7b086bd64b3c2cb76b012dbffacbb2":[3,0,1,10,32,6,1],
 "world_2partner_2goombario_8c.html#a6f9bd980c55f8588a0d5b29091297483":[3,0,1,10,32,6,14],
 "world_2partner_2goombario_8c.html#a72a7eedb2322490600d1ec03619292cb":[3,0,1,10,32,6,5],
 "world_2partner_2goombario_8c.html#a73a657fd37049f798cabb2ad661b1213":[3,0,1,10,32,6,11],

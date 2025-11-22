@@ -1,11 +1,5 @@
 var NAVTREEINDEX381 =
 {
-"world_2area__kzn_2kzn__04_2entity_8c.html":[3,0,1,10,15,4,0],
-"world_2area__kzn_2kzn__04_2entity_8c.html#ae6a337e19438565c24662a50adca4844":[3,0,1,10,15,4,0,1],
-"world_2area__kzn_2kzn__04_2entity_8c.html#afaa242feefc6ca503f1a330bd94b797b":[3,0,1,10,15,4,0,0],
-"world_2area__kzn_2kzn__04_2main_8c.html":[3,0,1,10,15,4,2],
-"world_2area__kzn_2kzn__04_2npc_8c.html":[3,0,1,10,15,4,3],
-"world_2area__kzn_2kzn__05_2main_8c.html":[3,0,1,10,15,5,1],
 "world_2area__kzn_2kzn__06_2entity_8c.html":[3,0,1,10,15,6,0],
 "world_2area__kzn_2kzn__06_2main_8c.html":[3,0,1,10,15,6,3],
 "world_2area__kzn_2kzn__06_2main_8c.html#aa62ef05120a214db9521ceb7d069b9d5":[3,0,1,10,15,6,3,0],
@@ -89,8 +83,8 @@ var NAVTREEINDEX381 =
 "world_2area__mac_2mac__04_2npc_8c.html#a819c5e86948b52f9298addc259f04d9a":[3,0,1,10,16,4,6,0],
 "world_2area__mac_2mac__05_2entity_8c.html":[3,0,1,10,16,5,1],
 "world_2area__mac_2mac__05_2main_8c.html":[3,0,1,10,16,5,3],
-"world_2area__mac_2mac__05_2main_8c.html#afa7779fe56b160955b535cd6a8aaf8f4":[3,0,1,10,16,5,3,0],
 "world_2area__mac_2mac__05_2main_8c.html#afa7779fe56b160955b535cd6a8aaf8f4":[3,0,1,10,16,5,3,1],
+"world_2area__mac_2mac__05_2main_8c.html#afa7779fe56b160955b535cd6a8aaf8f4":[3,0,1,10,16,5,3,0],
 "world_2area__mac_2mac__05_2npc_8c.html":[3,0,1,10,16,5,5],
 "world_2area__mac_2mac__05_2npc_8c.html#a3c8e570c8b8afa9b54bd9ab87593890e":[3,0,1,10,16,5,5,3],
 "world_2area__mac_2mac__05_2npc_8c.html#a4c4defa8da7099192745057934860e30":[3,0,1,10,16,5,5,2],
@@ -176,8 +170,8 @@ var NAVTREEINDEX381 =
 "world_2area__mgm_2mgm__02_2main_8c.html":[3,0,1,10,17,2,1],
 "world_2area__mgm_2mgm__02_2npc_8c.html":[3,0,1,10,17,2,3],
 "world_2area__mgm_2mgm__02_2npc_8c.html#a024af781a43c25fa26109c65a6c2f108":[3,0,1,10,17,2,3,1,2],
-"world_2area__mgm_2mgm__02_2npc_8c.html#a03489319becfc174408e8f8680d15ed7":[3,0,1,10,17,2,3,13],
 "world_2area__mgm_2mgm__02_2npc_8c.html#a03489319becfc174408e8f8680d15ed7":[3,0,1,10,17,2,3,14],
+"world_2area__mgm_2mgm__02_2npc_8c.html#a03489319becfc174408e8f8680d15ed7":[3,0,1,10,17,2,3,13],
 "world_2area__mgm_2mgm__02_2npc_8c.html#a03489319becfc174408e8f8680d15ed7":[3,0,1,10,17,2,3,12],
 "world_2area__mgm_2mgm__02_2npc_8c.html#a08ab2528e2aa11ddc8bafb0be0034e49":[3,0,1,10,17,2,3,1,0],
 "world_2area__mgm_2mgm__02_2npc_8c.html#a151667be97d407d57f4266ddbdbe5fdb":[3,0,1,10,17,2,3,5],
@@ -249,5 +243,11 @@ var NAVTREEINDEX381 =
 "world_2area__mgm_2mgm__02_2npc_8c.html#ac7ce350681c6307eae0ac902191d3182":[3,0,1,10,17,2,3,3],
 "world_2area__mgm_2mgm__02_2npc_8c.html#ac8da78c67c5d1d72f3136006a0e4d856":[3,0,1,10,17,2,3,15],
 "world_2area__mgm_2mgm__02_2npc_8c.html#ad62f3816f87d633a0f4dea68bd67a67a":[3,0,1,10,17,2,3,0,5],
-"world_2area__mgm_2mgm__02_2npc_8c.html#ae2f99e05f64d0383aee9bd75a52c4fbb":[3,0,1,10,17,2,3,4]
+"world_2area__mgm_2mgm__02_2npc_8c.html#ae2f99e05f64d0383aee9bd75a52c4fbb":[3,0,1,10,17,2,3,4],
+"world_2area__mgm_2mgm__02_2npc_8c.html#ae60312c439afe39ee61a5a2c23cd6c16":[3,0,1,10,17,2,3,7],
+"world_2area__mgm_2mgm__02_2npc_8c.html#aec1212a657d5d6560a8a0bb65afd3613":[3,0,1,10,17,2,3,0,3],
+"world_2area__mgm_2mgm__02_2npc_8c.html#structSmashGameBoxData":[3,0,1,10,17,2,3,0],
+"world_2area__mgm_2mgm__02_2npc_8c.html#structSmashGameData":[3,0,1,10,17,2,3,1],
+"world_2area__mgm_2mgm__03_2main_8c.html":[3,0,1,10,17,3,0],
+"world_2area__mim_2mim__01_2entity_8c.html":[3,0,1,10,18,1,0]
 };

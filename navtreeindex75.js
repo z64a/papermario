@@ -243,7 +243,7 @@ var NAVTREEINDEX75 =
 "end__00_2credits__names__jp_8inc_8c.html":[3,0,1,10,4,1,9],
 "end__00_2credits__names__pal_8inc_8c.html":[3,0,1,10,4,1,10],
 "end__00_2parade__setup_8c.html":[3,0,1,10,4,1,18],
-"end__00_2parade__setup_8c.html#a69f9397b49975e41387edf24b15fc722":[3,0,1,10,4,1,18,1],
+"end__00_2parade__setup_8c.html#abe03f48f5ecc5368d49b3aed53ba88d0":[3,0,1,10,4,1,18,1],
 "end__00_2parade__setup_8c.html#acc032660287c289526074a88083c65ae":[3,0,1,10,4,1,18,0],
 "end__00_8h.html":[3,0,1,10,4,1,14],
 "end__00_8h.html#a63e3d1306f4cf08f939e46ed528df4d9":[3,0,1,10,4,1,14,1],

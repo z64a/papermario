@@ -1,11 +1,5 @@
 var NAVTREEINDEX359 =
 {
-"structCamera.html#a7b5aae94eb243469d37b88aca8d79b71":[2,0,95,81],
-"structCamera.html#a7ddc05ebc1326f2fef3d2a2e28aa7685":[2,0,95,26],
-"structCamera.html#a7ec3341168c7043948963d73e89a84f5":[2,0,95,58],
-"structCamera.html#a823c1f674b571fff78129ce7ccebfb3f":[2,0,95,72],
-"structCamera.html#a84cd5383a3f323aa384d42888c3d4eb1":[2,0,95,61],
-"structCamera.html#a878cbf8b4efe9f8157423d8ea3282028":[2,0,95,12],
 "structCamera.html#a8990686e5babdd9a5275b92a33f92584":[2,0,95,2],
 "structCamera.html#a8a609615003ec35c28c2a3ef47a60a52":[2,0,95,42],
 "structCamera.html#a91fc1dd776c79d4932e100de2150272f":[2,0,95,85],
@@ -100,6 +94,7 @@ var NAVTREEINDEX359 =
 "structEntityBlueprint.html#ae0c54e32420b6447c21db3d39ed2c4f3":[2,0,197,6],
 "structEntityModel.html":[2,0,200],
 "structEntityModel.html#a009140aea2c59f4390b80e6020e9a3d9":[2,0,200,2],
+"structEntityModel.html#a1033af90586ac4db55210286381c3924":[2,0,200,4],
 "structEntityModel.html#a1e809103209de8e27416288eb65ce5de":[2,0,200,1],
 "structEntityModel.html#a3c32e0ad6a54f54938f1fbe457decdc9":[2,0,200,3],
 "structEntityModel.html#a6b26d5d61f71846c37ae2b9edf92ffc0":[2,0,200,7],
@@ -110,7 +105,6 @@ var NAVTREEINDEX359 =
 "structEntityModel.html#ac8c19b5059dfd8b22864e59402de35c9":[2,0,200,8],
 "structEntityModel.html#acb403bfdc888b4bbcb21af4f37c78ef5":[2,0,200,11],
 "structEntityModel.html#ae23e56e77c333ac43a2f99ead248e4af":[2,0,200,5],
-"structEntityModel.html#ae9138ea88be5401bf7c189c011f64ff0":[2,0,200,4],
 "structEntityModel.html#aea7524b54e632c7c2e403a5120d54fc7":[2,0,200,6],
 "structEntityModel.html#af572cd1b0855effd4186ffb887288d15":[2,0,200,10],
 "structGameMode.html":[2,0,245],
@@ -249,5 +243,11 @@ var NAVTREEINDEX359 =
 "structNpc.html#ae4297f0d15a90961ea8ce3191bdd3de7":[2,0,371,7],
 "structNpc.html#ae42d75cac08aa4361f612715f6df7aa5":[2,0,371,66],
 "structNpc.html#ae8756b578403d44c3b39e6528bb6bd3a":[2,0,371,17],
-"structNpc.html#aeaf2f627f592b9b62513436d01b1ce98":[2,0,371,63]
+"structNpc.html#aeaf2f627f592b9b62513436d01b1ce98":[2,0,371,63],
+"structNpc.html#af345be8572e307db3b52b1221b141792":[2,0,371,61],
+"structNpc.html#af91016efffd0e36c6d14dde70214802d":[2,0,371,50],
+"structNpc.html#afb77927162202b08052bb5d5cd7b8d2c":[2,0,371,40],
+"structNpc.html#afebed843f138515797a65c6c621a4291":[2,0,371,22],
+"structNpc.html#aff2031b8510cf508122f687360af6988":[2,0,371,14],
+"structNpcBlueprint.html":[2,0,373]
 };

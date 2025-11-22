@@ -1,11 +1,5 @@
 var NAVTREEINDEX384 =
 {
-"world_2area__tik_2tik__05_2entity_8c.html#ac3ab600e99bf8dea5c07c57e0790b672":[3,0,1,10,26,5,1,0],
-"world_2area__tik_2tik__05_2main_8c.html":[3,0,1,10,26,5,2],
-"world_2area__tik_2tik__05_2npc_8c.html":[3,0,1,10,26,5,4],
-"world_2area__tik_2tik__06_2entity_8c.html":[3,0,1,10,26,6,1],
-"world_2area__tik_2tik__06_2main_8c.html":[3,0,1,10,26,6,2],
-"world_2area__tik_2tik__07_2entity_8c.html":[3,0,1,10,26,7,1],
 "world_2area__tik_2tik__07_2entity_8c.html#ae6a337e19438565c24662a50adca4844":[3,0,1,10,26,7,1,1],
 "world_2area__tik_2tik__07_2entity_8c.html#afaa242feefc6ca503f1a330bd94b797b":[3,0,1,10,26,7,1,0],
 "world_2area__tik_2tik__07_2main_8c.html":[3,0,1,10,26,7,2],
@@ -123,9 +117,9 @@ var NAVTREEINDEX384 =
 "world_2dead_2area__flo_2flo__03_2entity_8c.html":[3,0,1,10,30,0,1,0],
 "world_2dead_2area__flo_2flo__03_2main_8c.html":[3,0,1,10,30,0,1,3],
 "world_2dead_2area__flo_2flo__03_2npc_8c.html":[3,0,1,10,30,0,1,5],
-"world_2dead_2area__flo_2flo__03_2npc_8c.html#a4b4419ad1b7722b9bb7c94f01bd7b1fe":[3,0,1,10,30,0,1,5,3],
-"world_2dead_2area__flo_2flo__03_2npc_8c.html#a4b4419ad1b7722b9bb7c94f01bd7b1fe":[3,0,1,10,30,0,1,5,2],
 "world_2dead_2area__flo_2flo__03_2npc_8c.html#a4b4419ad1b7722b9bb7c94f01bd7b1fe":[3,0,1,10,30,0,1,5,1],
+"world_2dead_2area__flo_2flo__03_2npc_8c.html#a4b4419ad1b7722b9bb7c94f01bd7b1fe":[3,0,1,10,30,0,1,5,2],
+"world_2dead_2area__flo_2flo__03_2npc_8c.html#a4b4419ad1b7722b9bb7c94f01bd7b1fe":[3,0,1,10,30,0,1,5,3],
 "world_2dead_2area__flo_2flo__03_2npc_8c.html#a4b4419ad1b7722b9bb7c94f01bd7b1fe":[3,0,1,10,30,0,1,5,0],
 "world_2dead_2area__flo_2flo__07_2main_8c.html":[3,0,1,10,30,0,2,1],
 "world_2dead_2area__flo_2flo__07_2npc_8c.html":[3,0,1,10,30,0,2,3],
@@ -249,5 +243,11 @@ var NAVTREEINDEX384 =
 "world_2partner_2bow_8c.html#af4db3f1ecf23d2b77ae17d37f1cd200e":[3,0,1,10,32,2,10],
 "world_2partner_2bow_8c.html#af5996918db2302efc47b3b2a4cefac0e":[3,0,1,10,32,2,2],
 "world_2partner_2bow_8c.html#afa7779fe56b160955b535cd6a8aaf8f4":[3,0,1,10,32,2,0],
-"world_2partner_2bow_8c.html#afddd0556023e90b1e99e400258ce014c":[3,0,1,10,32,2,6]
+"world_2partner_2bow_8c.html#afddd0556023e90b1e99e400258ce014c":[3,0,1,10,32,2,6],
+"world_2partner_2goombario_8c.html":[3,0,1,10,32,6],
+"world_2partner_2goombario_8c.html#a10793e1e13133efad92d7365e184032c":[3,0,1,10,32,6,12],
+"world_2partner_2goombario_8c.html#a1cc9427f117970da5f7dd9aece4206d4":[3,0,1,10,32,6,2],
+"world_2partner_2goombario_8c.html#a30ceda8ae15020b9efa0a8f095773cc8":[3,0,1,10,32,6,10],
+"world_2partner_2goombario_8c.html#a4e0adfcb7e0b384a4e8a048d19228194":[3,0,1,10,32,6,4],
+"world_2partner_2goombario_8c.html#a6c7b086bd64b3c2cb76b012dbffacbb2":[3,0,1,10,32,6,1]
 };

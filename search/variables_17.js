@@ -2,7 +2,7 @@ var searchData=
 [
   ['waitforstate_0',['waitForState',['../structBattleStatus.html#a6d2c3a1473c5859636af8f9296ccebbe',1,'BattleStatus']]],
   ['waittime_1',['waitTime',['../npc_8h.html#a05737d7f4a6d2803a8e510e5d02ec042',1,'MobileAISettings::waitTime'],['../sprite_8h.html#a3a15451cdd8abe45a2f29d42a73c6dc2',1,'SpriteComponent::waitTime']]],
-  ['walk_2',['walk',['../common__structs_8h.html#abee5056b46cafaa45fbc4c15d0beeec8',1,'FollowAnims::walk'],['../src_2battle_2battle_8h.html#a1459117337112d9d0330726d457aadc6',1,'ActorSounds::walk'],['../actions_8h.html#aa1543e23ad6f3dae2f67d53ec6f92042',1,'DisguiseAnims::walk'],['../common__structs_8h.html#a46f9631576015f35f527af2bc67351a6',1,'PartnerAnimations.__unnamed31__::walk'],['../npc_8h.html#a46f9631576015f35f527af2bc67351a6',1,'NpcData.animations::walk']]],
+  ['walk_2',['walk',['../common__structs_8h.html#abee5056b46cafaa45fbc4c15d0beeec8',1,'FollowAnims::walk'],['../src_2battle_2battle_8h.html#a1459117337112d9d0330726d457aadc6',1,'ActorSounds::walk'],['../actions_8h.html#aa1543e23ad6f3dae2f67d53ec6f92042',1,'DisguiseAnims::walk'],['../common__structs_8h.html#a46f9631576015f35f527af2bc67351a6',1,'PartnerAnimations.__unnamed33__::walk'],['../npc_8h.html#a46f9631576015f35f527af2bc67351a6',1,'NpcData.animations::walk']]],
   ['walkingdust_3',['walkingDust',['../effects_8h.html#a98a3ce8d5ae794b2042052fc6a3501fe',1,'EffectInstanceDataPtr']]],
   ['walkingstepstaken_4',['walkingStepsTaken',['../common__structs_8h.html#aa53828b98235c8c6bbf8c25646eda832',1,'PlayerData']]],
   ['walkpeachanims_5',['WalkPeachAnims',['../walk_8c.html#a1f2a88e8ac31b80c86608930027e6366',1,'walk.c']]],
@@ -23,7 +23,7 @@ var searchData=
   ['wattattackpalettesanim_20',['WattAttackPalettesAnim',['../actor__rendering_8c.html#a87e58f3164abaa959da545d92c36fd39',1,'actor_rendering.c']]],
   ['wavdata_21',['wavData',['../audio_8h.html#aa9c88305f2af2c4b8cd854fe67eb6d78',1,'Instrument']]],
   ['wavdatalength_22',['wavDataLength',['../audio_8h.html#a63e1d321210e57b5ce2843f52c1d3115',1,'Instrument']]],
-  ['wavy_23',['wavy',['../imgfx_8c.html#a0569dc4cbd190b9f90acf07fc60a7be4',1,'ImgFXIntVars::wavy'],['../imgfx_8c.html#ab2cb4204aed0dc127e10a7983860e1c4',1,'ImgFXFloatVars::wavy']]],
+  ['wavy_23',['wavy',['../imgfx_8c.html#a0569dc4cbd190b9f90acf07fc60a7be4',1,'ImgFXIntVars::wavy'],['../imgfx_8c.html#a7a9f0d82301ccc91882a01b28b63e731',1,'ImgFXFloatVars::wavy']]],
   ['wbackgroundtintmode_24',['wBackgroundTintMode',['../model_8c.html#a354e52bd90f43764f5951dd0d8aff535',1,'model.c']]],
   ['wcurrentpartnerid_25',['wCurrentPartnerId',['../partners_8c.html#ab0cbebde613d7ac5914d32a54265d7cf',1,'partners.c']]],
   ['wcustommodelgfx_26',['wCustomModelGfx',['../model_8c.html#af4eefaf899395d55398cc7fbed0d13bf',1,'model.c']]],

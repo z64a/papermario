@@ -453,7 +453,7 @@ var searchData=
   ['bplayerstatustable_450',['bPlayerStatusTable',['../190B20_8c.html#ae4aec5716a64a2086c2d4071c9605ffb',1,'bPlayerStatusTable:&#160;actors.c'],['../actors_8c.html#ae4aec5716a64a2086c2d4071c9605ffb',1,'bPlayerStatusTable:&#160;actors.c']]],
   ['bpopupmessage_451',['bPopupMessage',['../popup__messages_8c.html#a3160eff667292df4bf56baea0e439228',1,'popup_messages.c']]],
   ['branch_452',['Branch',['../audio_8h.html#a45f50552a50d451e4839d562943c71b5',1,'SeqArgs']]],
-  ['breakfree_453',['breakFree',['../action__cmd_8h.html#a64eb5aa3f2a95727d1529acaac3eb825',1,'ActionCommandStatus.__unnamed101__']]],
+  ['breakfree_453',['breakFree',['../action__cmd_8h.html#a64eb5aa3f2a95727d1529acaac3eb825',1,'ActionCommandStatus.__unnamed107__']]],
   ['breakhistory_454',['breakHistory',['../world_2area__mgm_2mgm__01_2npc_8c.html#a2bf136442763d575693ae14c074eee86',1,'JumpGameData']]],
   ['breakingjunk_455',['breakingJunk',['../effects_8h.html#aa40343c3e424f1be44389e379a59e036',1,'EffectInstanceDataPtr']]],
   ['breathsizeincrease_456',['breathSizeIncrease',['../battle_2partner_2lakilester_8c.html#aa78a2f8225478d08b1dcd7d750fe4026',1,'HurricaneState']]],

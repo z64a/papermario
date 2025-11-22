@@ -105,8 +105,7 @@ $(function(){initNavTree('sprite_8h.html',''); initResizable(); });
 <a href="#nested-classes">Data Structures</a> &#124;
 <a href="#define-members">Macros</a> &#124;
 <a href="#enum-members">Enumerations</a> &#124;
-<a href="#func-members">Functions</a> &#124;
-<a href="#var-members">Variables</a>  </div>
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle"><div class="title">sprite.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
@@ -141,6 +140,12 @@ Macros</h2></td></tr>
 <tr class="separator:a453115da1d37d2aa8aa0f3fd5369209d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a77e8092dc5bc33f6ce642c1038213566" id="r_a77e8092dc5bc33f6ce642c1038213566"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="8a860__len__3f30_8c.html#ad8c86ce808908b33858a59316263c571">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a77e8092dc5bc33f6ce642c1038213566">SPR_PEACH_BTL_PAL_STRIDE</a>&#160;&#160;&#160;4</td></tr>
 <tr class="separator:a77e8092dc5bc33f6ce642c1038213566"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abd199243ff531d6ae6acbcd9131bc18e" id="r_abd199243ff531d6ae6acbcd9131bc18e"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="8a860__len__3f30_8c.html#ad8c86ce808908b33858a59316263c571">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abd199243ff531d6ae6acbcd9131bc18e">SPR_UNPACK_SPR</a>(animID)&#160;&#160;&#160;(((animID) &gt;&gt; 16) &amp; 0xFF)</td></tr>
+<tr class="separator:abd199243ff531d6ae6acbcd9131bc18e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a32479246b660971257b444d4dfb3ba07" id="r_a32479246b660971257b444d4dfb3ba07"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="8a860__len__3f30_8c.html#ad8c86ce808908b33858a59316263c571">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a32479246b660971257b444d4dfb3ba07">SPR_UNPACK_PAL</a>(animID)&#160;&#160;&#160;(((animID) &gt;&gt; 8) &amp; 0xFF)</td></tr>
+<tr class="separator:a32479246b660971257b444d4dfb3ba07"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3c638aa61e5a417f27a826656d634984" id="r_a3c638aa61e5a417f27a826656d634984"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="8a860__len__3f30_8c.html#ad8c86ce808908b33858a59316263c571">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3c638aa61e5a417f27a826656d634984">SPR_UNPACK_ANIM</a>(animID)&#160;&#160;&#160;((animID) &amp; 0xFF)</td></tr>
+<tr class="separator:a3c638aa61e5a417f27a826656d634984"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumerations</h2></td></tr>
@@ -204,10 +209,10 @@ Functions</h2></td></tr>
 <tr class="separator:ad77fa0a4a976f09ec78443c54b1f74d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a40f925c183b7f8292d37acb6df194c06" id="r_a40f925c183b7f8292d37acb6df194c06"><td class="memItemLeft" align="right" valign="top"><a class="el" href="8a860__len__3f30_8c.html#ad8c86ce808908b33858a59316263c571">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a40f925c183b7f8292d37acb6df194c06">spr_update_sprite</a> (<a class="el" href="8a860__len__3f30_8c.html#ad8c86ce808908b33858a59316263c571">s32</a> spriteInstanceID, <a class="el" href="8a860__len__3f30_8c.html#ad8c86ce808908b33858a59316263c571">s32</a> animID, <a class="el" href="8a860__len__3f30_8c.html#ad8c86ce808908b33858a59316263c571">f32</a> timeScale)</td></tr>
 <tr class="separator:a40f925c183b7f8292d37acb6df194c06"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1d8052cadb0d5adccd82e3cb59c11fa7" id="r_a1d8052cadb0d5adccd82e3cb59c11fa7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="8a860__len__3f30_8c.html#ad8c86ce808908b33858a59316263c571">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1d8052cadb0d5adccd82e3cb59c11fa7">spr_draw_npc_sprite</a> (<a class="el" href="8a860__len__3f30_8c.html#ad8c86ce808908b33858a59316263c571">s32</a> spriteInstanceID, <a class="el" href="8a860__len__3f30_8c.html#ad8c86ce808908b33858a59316263c571">s32</a> yaw, <a class="el" href="8a860__len__3f30_8c.html#ad8c86ce808908b33858a59316263c571">s32</a> arg2, <a class="el" href="common__structs_8h.html#a82131d977b273184a3b6d0936dd4d932">PAL_PTR</a> *<a class="el" href="8a860__len__3f30_8c.html#ad8c86ce808908b33858a59316263c571">paletteList</a>, <a class="el" href="common__structs_8h.html#a9587453a89fcbd13a2ba23c4b74fc0fd">Matrix4f</a> mtx)</td></tr>
-<tr class="separator:a1d8052cadb0d5adccd82e3cb59c11fa7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8aafbafc8d3986f413e25569668cc842" id="r_a8aafbafc8d3986f413e25569668cc842"><td class="memItemLeft" align="right" valign="top"><a class="el" href="8a860__len__3f30_8c.html#ad8c86ce808908b33858a59316263c571">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8aafbafc8d3986f413e25569668cc842">spr_get_notify_value</a> (<a class="el" href="8a860__len__3f30_8c.html#ad8c86ce808908b33858a59316263c571">s32</a> <a class="el" href="8a860__len__3f30_8c.html#ad8c86ce808908b33858a59316263c571">arg0</a>)</td></tr>
-<tr class="separator:a8aafbafc8d3986f413e25569668cc842"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab7257a18dabf577d8f922a3e777f5481" id="r_ab7257a18dabf577d8f922a3e777f5481"><td class="memItemLeft" align="right" valign="top"><a class="el" href="8a860__len__3f30_8c.html#ad8c86ce808908b33858a59316263c571">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab7257a18dabf577d8f922a3e777f5481">spr_draw_npc_sprite</a> (<a class="el" href="8a860__len__3f30_8c.html#ad8c86ce808908b33858a59316263c571">s32</a> spriteInstanceID, <a class="el" href="8a860__len__3f30_8c.html#ad8c86ce808908b33858a59316263c571">s32</a> yaw, <a class="el" href="8a860__len__3f30_8c.html#ad8c86ce808908b33858a59316263c571">s32</a> <a class="el" href="8a860__len__3f30_8c.html#ad8c86ce808908b33858a59316263c571">alphaIn</a>, <a class="el" href="common__structs_8h.html#a82131d977b273184a3b6d0936dd4d932">PAL_PTR</a> *<a class="el" href="8a860__len__3f30_8c.html#ad8c86ce808908b33858a59316263c571">paletteList</a>, <a class="el" href="common__structs_8h.html#a9587453a89fcbd13a2ba23c4b74fc0fd">Matrix4f</a> mtx)</td></tr>
+<tr class="separator:ab7257a18dabf577d8f922a3e777f5481"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0f651c9f3fc1cd908b2960dfd510a65e" id="r_a0f651c9f3fc1cd908b2960dfd510a65e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="8a860__len__3f30_8c.html#ad8c86ce808908b33858a59316263c571">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0f651c9f3fc1cd908b2960dfd510a65e">spr_get_notify_value</a> (<a class="el" href="8a860__len__3f30_8c.html#ad8c86ce808908b33858a59316263c571">s32</a> spriteInstanceID)</td></tr>
+<tr class="separator:a0f651c9f3fc1cd908b2960dfd510a65e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a448abc4df3402205aeb386e37c028272" id="r_a448abc4df3402205aeb386e37c028272"><td class="memItemLeft" align="right" valign="top"><a class="el" href="8a860__len__3f30_8c.html#ad8c86ce808908b33858a59316263c571">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a448abc4df3402205aeb386e37c028272">spr_free_sprite</a> (<a class="el" href="8a860__len__3f30_8c.html#ad8c86ce808908b33858a59316263c571">s32</a> spriteInstanceID)</td></tr>
 <tr class="separator:a448abc4df3402205aeb386e37c028272"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6df01a58c1be1fdcb666e89fd8dc4d7f" id="r_a6df01a58c1be1fdcb666e89fd8dc4d7f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="8a860__len__3f30_8c.html#ad8c86ce808908b33858a59316263c571">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6df01a58c1be1fdcb666e89fd8dc4d7f">get_npc_comp_imgfx_idx</a> (<a class="el" href="8a860__len__3f30_8c.html#ad8c86ce808908b33858a59316263c571">s32</a>, <a class="el" href="8a860__len__3f30_8c.html#ad8c86ce808908b33858a59316263c571">s32</a>)</td></tr>
@@ -230,27 +235,6 @@ Functions</h2></td></tr>
 <tr class="separator:a46d8c7dd0061c7ad1fa32716743f1de2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a66ed16b18b92e20ed9fc5eaef4ae21b8" id="r_a66ed16b18b92e20ed9fc5eaef4ae21b8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#structSpriteAnimData">SpriteAnimData</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a66ed16b18b92e20ed9fc5eaef4ae21b8">spr_load_sprite</a> (<a class="el" href="8a860__len__3f30_8c.html#ad8c86ce808908b33858a59316263c571">s32</a> <a class="el" href="8a860__len__3f30_8c.html#ad8c86ce808908b33858a59316263c571">idx</a>, <a class="el" href="8a860__len__3f30_8c.html#ad8c86ce808908b33858a59316263c571">s32</a> arg1, <a class="el" href="8a860__len__3f30_8c.html#ad8c86ce808908b33858a59316263c571">s32</a> arg2)</td></tr>
 <tr class="separator:a66ed16b18b92e20ed9fc5eaef4ae21b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
-Variables</h2></td></tr>
-<tr class="memitem:a9b967fab5118df49fcbb40a9ac225ed1" id="r_a9b967fab5118df49fcbb40a9ac225ed1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#structQuad">Quad</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9b967fab5118df49fcbb40a9ac225ed1">spr_defaultQuad</a></td></tr>
-<tr class="separator:a9b967fab5118df49fcbb40a9ac225ed1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7ad2273013536c6a9292314f794d1a79" id="r_a7ad2273013536c6a9292314f794d1a79"><td class="memItemLeft" align="right" valign="top"><a class="el" href="8a860__len__3f30_8c.html#ad8c86ce808908b33858a59316263c571">Vp</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7ad2273013536c6a9292314f794d1a79">SprPauseVp</a></td></tr>
-<tr class="separator:a7ad2273013536c6a9292314f794d1a79"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afe1259f4578729c005c38a8fd866f304" id="r_afe1259f4578729c005c38a8fd866f304"><td class="memItemLeft" align="right" valign="top"><a class="el" href="8a860__len__3f30_8c.html#ad8c86ce808908b33858a59316263c571">Vp</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afe1259f4578729c005c38a8fd866f304">SprPauseVpAlt</a></td></tr>
-<tr class="separator:afe1259f4578729c005c38a8fd866f304"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4c5c9d15e30875e50335cc8ed04082f8" id="r_a4c5c9d15e30875e50335cc8ed04082f8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="8a860__len__3f30_8c.html#ad8c86ce808908b33858a59316263c571">Gfx</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4c5c9d15e30875e50335cc8ed04082f8">D_802DF3F0</a> []</td></tr>
-<tr class="separator:a4c5c9d15e30875e50335cc8ed04082f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8b94b516c2553976c71908742052df75" id="r_a8b94b516c2553976c71908742052df75"><td class="memItemLeft" align="right" valign="top"><a class="el" href="8a860__len__3f30_8c.html#ad8c86ce808908b33858a59316263c571">Gfx</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8b94b516c2553976c71908742052df75">D_802DF428</a> []</td></tr>
-<tr class="separator:a8b94b516c2553976c71908742052df75"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af30f496c7b454a05ce90b5b4bd50434d" id="r_af30f496c7b454a05ce90b5b4bd50434d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="8a860__len__3f30_8c.html#ad8c86ce808908b33858a59316263c571">Gfx</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af30f496c7b454a05ce90b5b4bd50434d">D_802DF460</a> []</td></tr>
-<tr class="separator:af30f496c7b454a05ce90b5b4bd50434d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abf22af29f4ac77c3dd3b7e9700ffc150" id="r_abf22af29f4ac77c3dd3b7e9700ffc150"><td class="memItemLeft" align="right" valign="top"><a class="el" href="8a860__len__3f30_8c.html#ad8c86ce808908b33858a59316263c571">Gfx</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abf22af29f4ac77c3dd3b7e9700ffc150">D_802DF490</a> []</td></tr>
-<tr class="separator:abf22af29f4ac77c3dd3b7e9700ffc150"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad1b28edc6c9d4ed4e09cec62611f6dc7" id="r_ad1b28edc6c9d4ed4e09cec62611f6dc7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="8a860__len__3f30_8c.html#ad8c86ce808908b33858a59316263c571">f32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad1b28edc6c9d4ed4e09cec62611f6dc7">spr_animUpdateTimeScale</a></td></tr>
-<tr class="separator:ad1b28edc6c9d4ed4e09cec62611f6dc7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a13410a9a59dbbd7c48043dd077581eaf" id="r_a13410a9a59dbbd7c48043dd077581eaf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#structPlayerSpriteSet">PlayerSpriteSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a13410a9a59dbbd7c48043dd077581eaf">spr_playerSpriteSets</a> [7]</td></tr>
-<tr class="separator:a13410a9a59dbbd7c48043dd077581eaf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <hr/><h2 class="groupheader">Data Structure Documentation</h2>
 <a name="structSpriteComponent" id="structSpriteComponent"></a>
@@ -720,6 +704,63 @@ v[4]</td>
 
 </div>
 </div>
+<a id="a3c638aa61e5a417f27a826656d634984" name="a3c638aa61e5a417f27a826656d634984"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3c638aa61e5a417f27a826656d634984">&#9670;&#160;</a></span>SPR_UNPACK_ANIM</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#<a class="el" href="8a860__len__3f30_8c.html#ad8c86ce808908b33858a59316263c571">define</a> SPR_UNPACK_ANIM</td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname">animID</span></td><td>)</td>
+          <td>&#160;&#160;&#160;((animID) &amp; 0xFF)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="sprite_8c.html#ab7257a18dabf577d8f922a3e777f5481">spr_draw_npc_sprite()</a>, <a class="el" href="sprite_8c.html#adee115336c3b0d75c7f31ee9dde7c22b">spr_draw_player_sprite()</a>, <a class="el" href="sprite_8c.html#af9231e6c8a16c4658e0064914021704b">spr_update_player_sprite()</a>, and <a class="el" href="sprite_8c.html#a40f925c183b7f8292d37acb6df194c06">spr_update_sprite()</a>.</p>
+
+</div>
+</div>
+<a id="a32479246b660971257b444d4dfb3ba07" name="a32479246b660971257b444d4dfb3ba07"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a32479246b660971257b444d4dfb3ba07">&#9670;&#160;</a></span>SPR_UNPACK_PAL</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#<a class="el" href="8a860__len__3f30_8c.html#ad8c86ce808908b33858a59316263c571">define</a> SPR_UNPACK_PAL</td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname">animID</span></td><td>)</td>
+          <td>&#160;&#160;&#160;(((animID) &gt;&gt; 8) &amp; 0xFF)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="sprite_8c.html#a40f925c183b7f8292d37acb6df194c06">spr_update_sprite()</a>.</p>
+
+</div>
+</div>
+<a id="abd199243ff531d6ae6acbcd9131bc18e" name="abd199243ff531d6ae6acbcd9131bc18e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abd199243ff531d6ae6acbcd9131bc18e">&#9670;&#160;</a></span>SPR_UNPACK_SPR</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#<a class="el" href="8a860__len__3f30_8c.html#ad8c86ce808908b33858a59316263c571">define</a> SPR_UNPACK_SPR</td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname">animID</span></td><td>)</td>
+          <td>&#160;&#160;&#160;(((animID) &gt;&gt; 16) &amp; 0xFF)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="sprite_8c.html#adee115336c3b0d75c7f31ee9dde7c22b">spr_draw_player_sprite()</a>, and <a class="el" href="sprite_8c.html#af9231e6c8a16c4658e0064914021704b">spr_update_player_sprite()</a>.</p>
+
+</div>
+</div>
 <h2 class="groupheader">Enumeration Type Documentation</h2>
 <a id="a0e96acf73ec595679ffcca6fecc4d705" name="a0e96acf73ec595679ffcca6fecc4d705"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0e96acf73ec595679ffcca6fecc4d705">&#9670;&#160;</a></span>anonymous enum</h2>
@@ -1153,8 +1194,8 @@ v[4]</td>
 
 </div>
 </div>
-<a id="a1d8052cadb0d5adccd82e3cb59c11fa7" name="a1d8052cadb0d5adccd82e3cb59c11fa7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1d8052cadb0d5adccd82e3cb59c11fa7">&#9670;&#160;</a></span>spr_draw_npc_sprite()</h2>
+<a id="ab7257a18dabf577d8f922a3e777f5481" name="ab7257a18dabf577d8f922a3e777f5481"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab7257a18dabf577d8f922a3e777f5481">&#9670;&#160;</a></span>spr_draw_npc_sprite()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1172,7 +1213,7 @@ v[4]</td>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="8a860__len__3f30_8c.html#ad8c86ce808908b33858a59316263c571">s32</a></td>          <td class="paramname"><span class="paramname"><em>arg2</em>, </span></td>
+          <td class="paramtype"><a class="el" href="8a860__len__3f30_8c.html#ad8c86ce808908b33858a59316263c571">s32</a></td>          <td class="paramname"><span class="paramname"><em>alphaIn</em>, </span></td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -1284,8 +1325,8 @@ v[4]</td>
 
 </div>
 </div>
-<a id="a8aafbafc8d3986f413e25569668cc842" name="a8aafbafc8d3986f413e25569668cc842"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8aafbafc8d3986f413e25569668cc842">&#9670;&#160;</a></span>spr_get_notify_value()</h2>
+<a id="a0f651c9f3fc1cd908b2960dfd510a65e" name="a0f651c9f3fc1cd908b2960dfd510a65e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0f651c9f3fc1cd908b2960dfd510a65e">&#9670;&#160;</a></span>spr_get_notify_value()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1293,7 +1334,7 @@ v[4]</td>
         <tr>
           <td class="memname"><a class="el" href="8a860__len__3f30_8c.html#ad8c86ce808908b33858a59316263c571">s32</a> spr_get_notify_value </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="8a860__len__3f30_8c.html#ad8c86ce808908b33858a59316263c571">s32</a></td>          <td class="paramname"><span class="paramname"><em>arg0</em></span></td><td>)</td>
+          <td class="paramtype"><a class="el" href="8a860__len__3f30_8c.html#ad8c86ce808908b33858a59316263c571">s32</a></td>          <td class="paramname"><span class="paramname"><em>spriteInstanceID</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -1606,223 +1647,6 @@ v[4]</td>
 </div><div class="memdoc">
 
 <p class="reference">Referenced by <a class="el" href="actor__rendering_8c.html#a8bac6b0d0622fdb6db721c124f855c0c">appendGfx_npc_actor()</a>, <a class="el" href="functions_8h.html#a8d3769822ffb36719bd23409a1327738">pause_handle_input()</a>, <a class="el" href="pause__partners_8c.html#abb1b0fe9338fbde17b4bb6774cb77b87">pause_partners_update()</a>, <a class="el" href="pause__spirits_8c.html#afb1bd553d284ab20a24b56bd0fb7996f">pause_spirits_update()</a>, <a class="el" href="functions_8h.html#a9353416904f922515526f031767eef58">set_actor_anim()</a>, <a class="el" href="functions_8h.html#a519fd4807090671020cb1f79338057bb">set_actor_anim_by_ref()</a>, <a class="el" href="npc_8h.html#ae4bc18c5332214bd405b63d55ecfba4b">set_npc_sprite()</a>, <a class="el" href="actor__rendering_8c.html#acd83185c404bf67058f663d33c2d98e5">update_nonplayer_actor_shadow()</a>, and <a class="el" href="npc_8h.html#a9e4a64381055ca6b0b0f9e70772acf2a">update_npcs()</a>.</p>
-
-</div>
-</div>
-<h2 class="groupheader">Variable Documentation</h2>
-<a id="a4c5c9d15e30875e50335cc8ed04082f8" name="a4c5c9d15e30875e50335cc8ed04082f8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4c5c9d15e30875e50335cc8ed04082f8">&#9670;&#160;</a></span>D_802DF3F0</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="8a860__len__3f30_8c.html#ad8c86ce808908b33858a59316263c571">Gfx</a> D_802DF3F0[]</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="sprite_8c.html#a733f08b416b2823450e8684f4eca1019">spr_appendGfx_component()</a>.</p>
-
-</div>
-</div>
-<a id="a8b94b516c2553976c71908742052df75" name="a8b94b516c2553976c71908742052df75"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8b94b516c2553976c71908742052df75">&#9670;&#160;</a></span>D_802DF428</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="8a860__len__3f30_8c.html#ad8c86ce808908b33858a59316263c571">Gfx</a> D_802DF428[]</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="sprite_8c.html#a733f08b416b2823450e8684f4eca1019">spr_appendGfx_component()</a>.</p>
-
-</div>
-</div>
-<a id="af30f496c7b454a05ce90b5b4bd50434d" name="af30f496c7b454a05ce90b5b4bd50434d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af30f496c7b454a05ce90b5b4bd50434d">&#9670;&#160;</a></span>D_802DF460</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="8a860__len__3f30_8c.html#ad8c86ce808908b33858a59316263c571">Gfx</a> D_802DF460[]</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="sprite_8c.html#a733f08b416b2823450e8684f4eca1019">spr_appendGfx_component()</a>.</p>
-
-</div>
-</div>
-<a id="abf22af29f4ac77c3dd3b7e9700ffc150" name="abf22af29f4ac77c3dd3b7e9700ffc150"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abf22af29f4ac77c3dd3b7e9700ffc150">&#9670;&#160;</a></span>D_802DF490</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="8a860__len__3f30_8c.html#ad8c86ce808908b33858a59316263c571">Gfx</a> D_802DF490[]</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="sprite_8c.html#a733f08b416b2823450e8684f4eca1019">spr_appendGfx_component()</a>.</p>
-
-</div>
-</div>
-<a id="ad1b28edc6c9d4ed4e09cec62611f6dc7" name="ad1b28edc6c9d4ed4e09cec62611f6dc7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad1b28edc6c9d4ed4e09cec62611f6dc7">&#9670;&#160;</a></span>spr_animUpdateTimeScale</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="8a860__len__3f30_8c.html#ad8c86ce808908b33858a59316263c571">f32</a> spr_animUpdateTimeScale</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="sprite_8c.html#a0feb24984a7ab7f4cddc348536e67cb6">spr_component_update_commands()</a>, and <a class="el" href="sprite_8c.html#a7309ee407c3e95834e2e20576e87850f">spr_set_anim_timescale()</a>.</p>
-
-</div>
-</div>
-<a id="a9b967fab5118df49fcbb40a9ac225ed1" name="a9b967fab5118df49fcbb40a9ac225ed1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9b967fab5118df49fcbb40a9ac225ed1">&#9670;&#160;</a></span>spr_defaultQuad</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="#structQuad">Quad</a> spr_defaultQuad</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="sprite_8c.html#a1d3694144080940cd837ffd1b14ede29">spr_make_quad_for_size()</a>.</p>
-
-</div>
-</div>
-<a id="a13410a9a59dbbd7c48043dd077581eaf" name="a13410a9a59dbbd7c48043dd077581eaf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a13410a9a59dbbd7c48043dd077581eaf">&#9670;&#160;</a></span>spr_playerSpriteSets</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="#structPlayerSpriteSet">PlayerSpriteSet</a> spr_playerSpriteSets[7]</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="sprite_8c.html#ab9a59a4feb3db717acaae64aab57de8e">spr_init_sprites()</a>.</p>
-
-</div>
-</div>
-<a id="a7ad2273013536c6a9292314f794d1a79" name="a7ad2273013536c6a9292314f794d1a79"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7ad2273013536c6a9292314f794d1a79">&#9670;&#160;</a></span>SprPauseVp</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="8a860__len__3f30_8c.html#ad8c86ce808908b33858a59316263c571">Vp</a> SprPauseVp</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="sprite_8c.html#a71c33e155c6241257e4e99cf4f14ba61">spr_appendGfx_component_flat()</a>.</p>
-
-</div>
-</div>
-<a id="afe1259f4578729c005c38a8fd866f304" name="afe1259f4578729c005c38a8fd866f304"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afe1259f4578729c005c38a8fd866f304">&#9670;&#160;</a></span>SprPauseVpAlt</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="8a860__len__3f30_8c.html#ad8c86ce808908b33858a59316263c571">Vp</a> SprPauseVpAlt</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="sprite_8c.html#a71c33e155c6241257e4e99cf4f14ba61">spr_appendGfx_component_flat()</a>.</p>
 
 </div>
 </div>

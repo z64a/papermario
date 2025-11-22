@@ -1,11 +1,5 @@
 var NAVTREEINDEX379 =
 {
-"world_2area__flo_2flo__24_2entity_8c.html":[3,0,1,10,5,19,0],
-"world_2area__flo_2flo__24_2main_8c.html":[3,0,1,10,5,19,3],
-"world_2area__flo_2flo__25_2entity_8c.html":[3,0,1,10,5,20,0],
-"world_2area__flo_2flo__25_2main_8c.html":[3,0,1,10,5,20,3],
-"world_2area__flo_2flo__25_2npc_8c.html":[3,0,1,10,5,20,5],
-"world_2area__gv_2gv__01_2main_8c.html":[3,0,1,10,6,0,1],
 "world_2area__hos_2hos__00_2entity_8c.html":[3,0,1,10,7,1,0],
 "world_2area__hos_2hos__00_2main_8c.html":[3,0,1,10,7,1,2],
 "world_2area__hos_2hos__00_2npc_8c.html":[3,0,1,10,7,1,4],
@@ -152,8 +146,8 @@ var NAVTREEINDEX379 =
 "world_2area__jan_2jan__03_2main_8c.html":[3,0,1,10,10,4,3],
 "world_2area__jan_2jan__03_2main_8c.html#a4e96916f3d71fe02e079bbb090e97f04":[3,0,1,10,10,4,3,0],
 "world_2area__jan_2jan__03_2npc_8c.html":[3,0,1,10,10,4,5],
-"world_2area__jan_2jan__03_2npc_8c.html#a02c6d39594a3aa893a4c7c5729890618":[3,0,1,10,10,4,5,2],
 "world_2area__jan_2jan__03_2npc_8c.html#a02c6d39594a3aa893a4c7c5729890618":[3,0,1,10,10,4,5,1],
+"world_2area__jan_2jan__03_2npc_8c.html#a02c6d39594a3aa893a4c7c5729890618":[3,0,1,10,10,4,5,2],
 "world_2area__jan_2jan__03_2npc_8c.html#a819c5e86948b52f9298addc259f04d9a":[3,0,1,10,10,4,5,0],
 "world_2area__jan_2jan__03_2npc_8c.html#af0156a3b22d684db60cd6c6db30fa7e7":[3,0,1,10,10,4,5,3],
 "world_2area__jan_2jan__04_2entity_8c.html":[3,0,1,10,10,5,2],
@@ -249,5 +243,11 @@ var NAVTREEINDEX379 =
 "world_2area__kkj_2kkj__20_2npc_8c.html":[3,0,1,10,12,15,4],
 "world_2area__kkj_2kkj__21_2main_8c.html":[3,0,1,10,12,16,1],
 "world_2area__kkj_2kkj__22_2main_8c.html":[3,0,1,10,12,17,1],
-"world_2area__kkj_2kkj__23_2main_8c.html":[3,0,1,10,12,18,1]
+"world_2area__kkj_2kkj__23_2main_8c.html":[3,0,1,10,12,18,1],
+"world_2area__kkj_2kkj__23_2main_8c.html#a4e96916f3d71fe02e079bbb090e97f04":[3,0,1,10,12,18,1,0],
+"world_2area__kkj_2kkj__24_2entity_8c.html":[3,0,1,10,12,19,0],
+"world_2area__kkj_2kkj__24_2main_8c.html":[3,0,1,10,12,19,2],
+"world_2area__kkj_2kkj__25_2entity_8c.html":[3,0,1,10,12,20,2],
+"world_2area__kkj_2kkj__25_2main_8c.html":[3,0,1,10,12,20,5],
+"world_2area__kkj_2kkj__26_2main_8c.html":[3,0,1,10,12,21,2]
 };
