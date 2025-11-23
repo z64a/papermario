@@ -629,7 +629,7 @@ s32 func_8026324C(Actor* actor, Actor* targetActor) {
     return func_80263064(actor, targetActor, true);
 }
 
-void func_80263268(void) {
+void btl_check_can_change_partner(void) {
     BattleStatus* battleStatus = &gBattleStatus;
     PlayerData* playerData = &gPlayerData;
     Actor* partner = battleStatus->partnerActor;
@@ -664,7 +664,7 @@ void func_80263268(void) {
     }
 }
 
-void func_80263300(void) {
+void btl_init_menu_items(void) {
     BattleStatus* battleStatus = &gBattleStatus;
     Actor* player = battleStatus->playerActor;
     PlayerData* playerData = &gPlayerData;

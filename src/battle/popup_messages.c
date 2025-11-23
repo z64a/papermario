@@ -70,7 +70,7 @@ u16 TipAction_ReduceDamage_X[] = { 64, 72, 185, 67 };
 #endif
 
 //TODO Vec3f[]
-f32 D_802835DC[] = {
+f32 BonkAnimAccel[] = {
     0.0f, 4.5f, 0.0f,
     1.0f, 4.0f, 0.0f,
     2.0f, 3.0f, 0.0f,
@@ -88,7 +88,7 @@ f32 D_802835DC[] = {
     0.0f, -4.5f, 0.0f,
 };
 
-Vec3f D_80283690[] = {
+Vec3f BonkAnimScale[] = {
     { 1.0f, 1.0f, 1.0f },
     { 0.8f, 0.8f, 0.8f },
     { 0.9f, 0.9f, 0.9f },
@@ -434,9 +434,9 @@ void show_immune_bonk(f32 x, f32 y, f32 z, s32 numStars, s32 arg4, s32 arg5) {
             one = 1;
             two = 2;
 
-            f1 = &D_802835DC[arg5mod8 * 3];
-            f2 = &D_802835DC[arg5mod8 * 3 + one];
-            f3 = &D_802835DC[arg5mod8 * 3 + two];
+            f1 = &BonkAnimAccel[arg5mod8 * 3];
+            f2 = &BonkAnimAccel[arg5mod8 * 3 + one];
+            f3 = &BonkAnimAccel[arg5mod8 * 3 + two];
             message->vel.x = 2.0 * *f1 * sign * var_f20;
             message->vel.y = 2.0 * *f2 * var_f20;
             message->vel.z = 2.0 * *f3 * var_f20;
@@ -445,7 +445,7 @@ void show_immune_bonk(f32 x, f32 y, f32 z, s32 numStars, s32 arg4, s32 arg5) {
             message->accel.z = *f3 * var_f20;
 
             iMod8 = (i % 8);
-            message->scale = D_80283690[iMod8].x * baseScale;
+            message->scale = BonkAnimScale[iMod8].x * baseScale;
             message->rotZ = 0;
             message->rotVelZ = sign * 107;
             message->rotY = clamp_angle(180.0f - gCameras[CAM_BATTLE].curYaw);
