@@ -50,7 +50,7 @@ HudScript* bHPDigitHudScripts[] = {
 
 s32 BattleScreenFadeAmt = 255;
 
-EvtScript BtlPutPartnerAway = {
+EvtScript EVS_BtlPutPartnerAway = {
     Call(DispatchEvent, ACTOR_PARTNER, EVENT_PUT_PARTNER_AWAY)
     ChildThread
         SetF(LVar0, Float(1.0))
@@ -76,7 +76,7 @@ EvtScript BtlPutPartnerAway = {
     End
 };
 
-EvtScript BtlBringPartnerOut = {
+EvtScript EVS_BtlBringPartnerOut = {
     ChildThread
         SetF(LVar0, Float(0.1))
         Loop(20)

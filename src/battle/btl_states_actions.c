@@ -2503,7 +2503,7 @@ void btl_state_update_change_partner(void) {
                 break;
             }
             deduct_current_move_fp();
-            script = start_script(&BtlPutPartnerAway, EVT_PRIORITY_A, 0);
+            script = start_script(&EVS_BtlPutPartnerAway, EVT_PRIORITY_A, 0);
             battleStatus->controlScript = script;
             battleStatus->controlScriptID = script->id;
             script->owner1.actorID = ACTOR_PARTNER;
@@ -2540,7 +2540,7 @@ void btl_state_update_change_partner(void) {
                 partner->takeTurnScript = nullptr;
             }
 
-            script = start_script(&BtlBringPartnerOut, EVT_PRIORITY_A, 0);
+            script = start_script(&EVS_BtlBringPartnerOut, EVT_PRIORITY_A, 0);
             battleStatus->controlScript = script;
             battleStatus->controlScriptID = script->id;
             script->owner1.actorID = ACTOR_PARTNER;

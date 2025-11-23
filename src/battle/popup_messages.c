@@ -1546,7 +1546,7 @@ void btl_message_popup_draw_content(void* data, s32 x, s32 y) {
                     hud_element_set_render_pos(HID_BattleMessage2, x + TIP_X_HLA2, y + TIP_Y_HLA2);
                     hud_element_set_scale(HID_BattleMessage2, 0.8f);
                     hud_element_set_alpha(HID_BattleMessage2, opacity);
-                    func_80144218(HID_BattleMessage2);
+                    hud_element_draw_complex_hud_first(HID_BattleMessage2);
                     break;
 #if VERSION_JP
                 case BTL_MSG_ACTION_TIP_UNUSED_1:
@@ -1668,12 +1668,12 @@ void btl_message_popup_draw_content(void* data, s32 x, s32 y) {
                     hud_element_set_render_pos(HID_BattleMessage2, x + TIP_X_MTA2, y + TIP_Y_MTA2);
                     hud_element_set_scale(HID_BattleMessage2, TIP_SCALE1);
                     hud_element_set_alpha(HID_BattleMessage2, opacity);
-                    func_80144218(HID_BattleMessage2);
+                    hud_element_draw_complex_hud_first(HID_BattleMessage2);
 
                     hud_element_set_render_pos(HID_BattleMessage3, x + TIP_X_MTA3, y + 15);
                     hud_element_set_scale(HID_BattleMessage3, TIP_SCALE2);
                     hud_element_set_alpha(HID_BattleMessage3, opacity);
-                    func_80144218(HID_BattleMessage3);
+                    hud_element_draw_complex_hud_first(HID_BattleMessage3);
                     break;
 #if VERSION_JP
                 case BTL_MSG_ACTION_TIP_UNUSED_4:

@@ -468,15 +468,15 @@ void render_hud_elements_backUI(void);
 
 void render_hud_elements_frontUI(void);
 
-void render_hud_element(HudElement* hudElement);
+void render_complex_hud_element(HudElement* hudElement);
 
 void render_transformed_hud_elements(void);
 
-void func_80143C48(s32 arg0, s32 arg1, s32 camID);
-void func_80144218(s32 arg0);
-void func_80144238(s32 arg0);
-void func_80144258(s32 arg0);
-void func_80144278(s32 arg0);
+void immediately_render_complex_hud_element(s32 arg0, s32 arg1, s32 camID);
+void hud_element_draw_complex_hud_first(s32 arg0);
+void hud_element_draw_complex_hud_next(s32 arg0);
+void hud_element_draw_complex_battle_first(s32 arg0);
+void hud_element_draw_complex_battle_next(s32 arg0);
 
 void draw_hud_element_internal(s32 id, s32 clipMode);
 void hud_element_draw_clipped(s32 id);
@@ -510,9 +510,9 @@ void hud_element_set_scale(s32 index, f32 scale);
 
 void hud_element_use_preset_size(s32 id, s8 size);
 
-s32 func_80144E4C(s32 id);
+s32 hud_element_get_variable(s32 id);
 
-void func_80144E74(s32 id, s32 arg1);
+void hud_element_set_variable(s32 id, s32 arg1);
 
 /// @param opacity 0 = invisible; 255 = opaque
 void hud_element_set_alpha(s32 id, s32 opacity);

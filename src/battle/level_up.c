@@ -1597,10 +1597,10 @@ void btl_state_draw_celebration(void) {
                 }
             }
 
-            func_80144218(-1);
+            hud_element_draw_complex_hud_first(-1);
             id = LevelUpSpotlightID;
             hud_element_set_transform_rotation(id, 0.0f, 0.0f, rotZ);
-            func_80144238(id);
+            hud_element_draw_complex_hud_next(id);
             break;
         case BTL_SUBSTATE_CELEBRATE_LEVEL_UP_UPGRADE:
         case BTL_SUBSTATE_CELEBRATE_LEVEL_UP_FADE_OUT:
