@@ -917,7 +917,7 @@ EvtScript EVS_StartDefend = {
 EvtScript EVS_Player_HandleEvent = {
     Call(GetLastEvent, ACTOR_PLAYER, LVarF)
     Switch(LVarF)
-        CaseNe(EVENT_32)
+        CaseNe(EVENT_RECOVER_FROZEN)
             Call(UseIdleAnimation, ACTOR_PLAYER, false)
     EndSwitch
     Call(InterruptActionCommand)
@@ -1057,7 +1057,7 @@ EvtScript EVS_Player_HandleEvent = {
             Call(SetAnimation, ACTOR_PLAYER, 0, ANIM_Mario1_Run)
             Call(PlayerRunToGoal, 0)
             Call(SetAnimation, ACTOR_PLAYER, 0, ANIM_Mario1_Idle)
-        CaseEq(EVENT_32)
+        CaseEq(EVENT_RECOVER_FROZEN)
             Wait(10)
             Call(UseIdleAnimation, ACTOR_PLAYER, false)
             Call(SetActorJumpGravity, ACTOR_PLAYER, Float(1.8))

@@ -726,7 +726,7 @@ HitResult calc_partner_damage_enemy(void) {
     statusChanceOrDefense = (battleStatus->statusChance * statusChanceOrDefense) / 100;
 
     if (gBattleStatus.flags1 & BS_FLAGS1_TRIGGER_EVENTS) {
-        if (battleStatus->curAttackElement & ) {
+        if (battleStatus->curAttackElement & DAMAGE_TYPE_FEAR) {
             if (rand_int(99) < statusChanceOrDefense) {
                 if (!(target->debuff == STATUS_KEY_UNUSED ||
                       target->debuff == STATUS_KEY_DIZZY ||

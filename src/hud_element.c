@@ -165,7 +165,7 @@ void hud_element_load_script(HudElement* hudElement, HudScript* anim) {
             case HUD_ELEMENT_OP_AddTexelOffsetY:
             case HUD_ELEMENT_OP_SetScale:
             case HUD_ELEMENT_OP_SetAlpha:
-            case HUD_ELEMENT_OP_op_15:
+            case HUD_ELEMENT_OP_SetVariable:
             case HUD_ELEMENT_OP_RandomBranch:
             case HUD_ELEMENT_OP_SetFlags:
             case HUD_ELEMENT_OP_ClearFlags:
@@ -782,9 +782,9 @@ void update_hud_elements(void) {
                 if (elem->updateTimer == 0) {
                     while (hud_element_update(elem) != 0);
                 }
-                if (elem->flags & HUD_ELEMENT_FLAG_FIXEDSCALE) {
-                    elem->unkImgScale[0] += elem->deltaSizeX;
-                    elem->unkImgScale[1] += elem->deltaSizeY;
+                if (elem->flags & HUD_ELEMENT_FLAG_RESIZING) {
+                    elem->dynamicSize[0] += elem->deltaSizeX;
+                    elem->dynamicSize[1] += elem->deltaSizeY;
                 }
                 i++;
             } else {
@@ -857,7 +857,7 @@ s32 hud_element_update(HudElement* hudElement) {
                 hudElement->imageAddr += hudElement->memOffset;
             }
 
-            if (hudElement->flags & HUD_ELEMENT_FLAG_FIXEDSCALE) {
+            if (hudElement->flags & HUD_ELEMENT_FLAG_RESIZING) {
                 if (!(hudElement->flags & HUD_ELEMENT_FLAG_CUSTOM_SIZE)) {
                     tileSizePreset = hudElement->tileSizePreset;
                     drawSizePreset = hudElement->drawSizePreset;
@@ -872,16 +872,16 @@ s32 hud_element_update(HudElement* hudElement) {
                     drawHeight = hudElement->customDrawSize.y;
                 }
 
-                if (!(hudElement->flags & HUD_ELEMENT_FLAG_200)) {
-                    hudElement->flags |= HUD_ELEMENT_FLAG_200;
-                    hudElement->unkImgScale[0] = imageWidth;
-                    hudElement->unkImgScale[1] = imageHeight;
+                if (!(hudElement->flags & HUD_ELEMENT_FLAG_RESIZE_DIR)) {
+                    hudElement->flags |= HUD_ELEMENT_FLAG_RESIZE_DIR;
+                    hudElement->dynamicSize[0] = imageWidth;
+                    hudElement->dynamicSize[1] = imageHeight;
                     hudElement->deltaSizeX = ((f32)drawWidth - (f32)imageWidth) / (f32)hudElement->updateTimer;
                     hudElement->deltaSizeY = ((f32)drawHeight - (f32)imageHeight) / (f32)hudElement->updateTimer;
                 } else {
-                    hudElement->flags &= ~HUD_ELEMENT_FLAG_200;
-                    hudElement->unkImgScale[0] = drawWidth;
-                    hudElement->unkImgScale[1] = drawHeight;
+                    hudElement->flags &= ~HUD_ELEMENT_FLAG_RESIZE_DIR;
+                    hudElement->dynamicSize[0] = drawWidth;
+                    hudElement->dynamicSize[1] = drawHeight;
                     hudElement->deltaSizeX = ((f32)imageWidth - (f32)drawWidth) / (f32)hudElement->updateTimer;
                     hudElement->deltaSizeY = ((f32)imageHeight - (f32)drawHeight) / (f32)hudElement->updateTimer;
                 }
@@ -898,7 +898,7 @@ s32 hud_element_update(HudElement* hudElement) {
                 hudElement->paletteAddr += hudElement->memOffset;
             }
 
-            if (hudElement->flags & HUD_ELEMENT_FLAG_FIXEDSCALE) {
+            if (hudElement->flags & HUD_ELEMENT_FLAG_RESIZING) {
                 if (!(hudElement->flags & HUD_ELEMENT_FLAG_CUSTOM_SIZE)) {
                     tileSizePreset = hudElement->tileSizePreset;
                     drawSizePreset = hudElement->drawSizePreset;
@@ -913,16 +913,16 @@ s32 hud_element_update(HudElement* hudElement) {
                     drawHeight = hudElement->customDrawSize.y;
                 }
 
-                if (!(hudElement->flags & HUD_ELEMENT_FLAG_200)) {
-                    hudElement->flags |= HUD_ELEMENT_FLAG_200;
-                    hudElement->unkImgScale[0] = imageWidth;
-                    hudElement->unkImgScale[1] = imageHeight;
+                if (!(hudElement->flags & HUD_ELEMENT_FLAG_RESIZE_DIR)) {
+                    hudElement->flags |= HUD_ELEMENT_FLAG_RESIZE_DIR;
+                    hudElement->dynamicSize[0] = imageWidth;
+                    hudElement->dynamicSize[1] = imageHeight;
                     hudElement->deltaSizeX = ((f32)drawWidth - (f32)imageWidth) / (f32)hudElement->updateTimer;
                     hudElement->deltaSizeY = ((f32)drawHeight - (f32)imageHeight) / (f32)hudElement->updateTimer;
                 } else {
-                    hudElement->flags &= ~HUD_ELEMENT_FLAG_200;
-                    hudElement->unkImgScale[0] = drawWidth;
-                    hudElement->unkImgScale[1] = drawHeight;
+                    hudElement->flags &= ~HUD_ELEMENT_FLAG_RESIZE_DIR;
+                    hudElement->dynamicSize[0] = drawWidth;
+                    hudElement->dynamicSize[1] = drawHeight;
                     hudElement->deltaSizeX = ((f32)imageWidth - (f32)drawWidth) / (f32)hudElement->updateTimer;
                     hudElement->deltaSizeY = ((f32)imageHeight - (f32)drawHeight) / (f32)hudElement->updateTimer;
                 }
@@ -961,7 +961,7 @@ s32 hud_element_update(HudElement* hudElement) {
             nextPos += 3;
             hudElement->readPos = (HudScript*)nextPos;
 
-            if (hudElement->flags & HUD_ELEMENT_FLAG_FIXEDSCALE) {
+            if (hudElement->flags & HUD_ELEMENT_FLAG_RESIZING) {
                 if (!(hudElement->flags & HUD_ELEMENT_FLAG_CUSTOM_SIZE)) {
                     tileSizePreset = hudElement->tileSizePreset;
                     drawSizePreset = hudElement->drawSizePreset;
@@ -976,16 +976,16 @@ s32 hud_element_update(HudElement* hudElement) {
                     drawHeight = hudElement->customDrawSize.y;
                 }
 
-                if (!(hudElement->flags & HUD_ELEMENT_FLAG_200)) {
-                    hudElement->flags |= HUD_ELEMENT_FLAG_200;
-                    hudElement->unkImgScale[0] = imageWidth;
-                    hudElement->unkImgScale[1] = imageHeight;
+                if (!(hudElement->flags & HUD_ELEMENT_FLAG_RESIZE_DIR)) {
+                    hudElement->flags |= HUD_ELEMENT_FLAG_RESIZE_DIR;
+                    hudElement->dynamicSize[0] = imageWidth;
+                    hudElement->dynamicSize[1] = imageHeight;
                     hudElement->deltaSizeX = ((f32)drawWidth - (f32)imageWidth) / (f32)hudElement->updateTimer;
                     hudElement->deltaSizeY = ((f32)drawHeight - (f32)imageHeight) / (f32)hudElement->updateTimer;
                 } else {
-                    hudElement->flags &= ~HUD_ELEMENT_FLAG_200;
-                    hudElement->unkImgScale[0] = drawWidth;
-                    hudElement->unkImgScale[1] = drawHeight;
+                    hudElement->flags &= ~HUD_ELEMENT_FLAG_RESIZE_DIR;
+                    hudElement->dynamicSize[0] = drawWidth;
+                    hudElement->dynamicSize[1] = drawHeight;
                     hudElement->deltaSizeX = ((f32)imageWidth - (f32)drawWidth) / (f32)hudElement->updateTimer;
                     hudElement->deltaSizeY = ((f32)imageHeight - (f32)drawHeight) / (f32)hudElement->updateTimer;
                 }
@@ -1014,7 +1014,7 @@ s32 hud_element_update(HudElement* hudElement) {
             hudElement->readPos = (HudScript*)nextPos;
             hudElement->drawSizePreset = sizePreset;
             hudElement->tileSizePreset = sizePreset;
-            hudElement->flags &= ~HUD_ELEMENT_FLAG_FIXEDSCALE;
+            hudElement->flags &= ~HUD_ELEMENT_FLAG_RESIZING;
             hudElement->flags &= ~HUD_ELEMENT_FLAG_REPEATED;
             return true;
         case HUD_ELEMENT_OP_SetSizesAutoScale:
@@ -1039,7 +1039,7 @@ s32 hud_element_update(HudElement* hudElement) {
             hudElement->widthScale = X10(xScaled);
             hudElement->heightScale = X10(yScaled);
 
-            hudElement->flags &= ~HUD_ELEMENT_FLAG_FIXEDSCALE;
+            hudElement->flags &= ~HUD_ELEMENT_FLAG_RESIZING;
             hudElement->flags |= HUD_ELEMENT_FLAG_REPEATED;
             return true;
         case HUD_ELEMENT_OP_SetSizesFixedScale:
@@ -1051,9 +1051,9 @@ s32 hud_element_update(HudElement* hudElement) {
             hudElement->readPos = (HudScript*)nextPos;
             hudElement->tileSizePreset = tileSizePreset;
             hudElement->drawSizePreset = drawSizePreset;
-            hudElement->flags |= HUD_ELEMENT_FLAG_FIXEDSCALE;
+            hudElement->flags |= HUD_ELEMENT_FLAG_RESIZING;
             hudElement->flags &= ~HUD_ELEMENT_FLAG_REPEATED;
-            hudElement->flags &= ~HUD_ELEMENT_FLAG_200;
+            hudElement->flags &= ~HUD_ELEMENT_FLAG_RESIZE_DIR;
             return true;
         case HUD_ELEMENT_OP_AddTexelOffsetX:
             s1 = *nextPos++;
@@ -1109,7 +1109,7 @@ s32 hud_element_update(HudElement* hudElement) {
             hudElement->heightScale = X10(yScaled);
 
             hudElement->readPos = (HudScript*)nextPos;
-            hudElement->flags &= ~HUD_ELEMENT_FLAG_FIXEDSCALE;
+            hudElement->flags &= ~HUD_ELEMENT_FLAG_RESIZING;
             hudElement->flags |= HUD_ELEMENT_FLAG_REPEATED | HUD_ELEMENT_FLAG_SCALED;
             return true;
         case HUD_ELEMENT_OP_SetAlpha:
@@ -1135,14 +1135,14 @@ s32 hud_element_update(HudElement* hudElement) {
             hudElement->heightScale = X10(1);
             hudElement->drawSizePreset = 0;
             hudElement->tileSizePreset = 0;
-            hudElement->flags &= ~HUD_ELEMENT_FLAG_FIXEDSCALE;
+            hudElement->flags &= ~HUD_ELEMENT_FLAG_RESIZING;
             hudElement->flags &= ~HUD_ELEMENT_FLAG_REPEATED;
             hudElement->flags |= HUD_ELEMENT_FLAG_CUSTOM_SIZE;
             return true;
-        case HUD_ELEMENT_OP_op_15:
+        case HUD_ELEMENT_OP_SetVariable:
             s1 = *nextPos++;
             hudElement->readPos = (HudScript*)nextPos;
-            hudElement->flags &= ~(HUD_ELEMENT_FLAG_1000000 | HUD_ELEMENT_FLAG_2000000 | HUD_ELEMENT_FLAG_4000000 | HUD_ELEMENT_FLAG_8000000);
+            hudElement->flags &= ~HUD_ELEMENT_VARIABLE_MASK;
             hudElement->flags |= s1 << 24;
             return true;
         case HUD_ELEMENT_OP_RandomBranch:
@@ -1195,7 +1195,7 @@ void render_hud_elements_backUI(void) {
         if (hudElement != nullptr) {
             s32 flags = hudElement->flags;
             if (flags && !(flags & HUD_ELEMENT_FLAG_DISABLED)) {
-                if (!(flags & (HUD_ELEMENT_FLAG_80 | HUD_ELEMENT_FLAG_TRANSFORM | HUD_ELEMENT_FLAG_200000 | HUD_ELEMENT_FLAG_10000000 | HUD_ELEMENT_FLAG_40000000))) {
+                if (!(flags & (HUD_ELEMENT_FLAG_MANUAL_RENDER | HUD_ELEMENT_FLAG_TRANSFORM | HUD_ELEMENT_FLAG_INVISIBLE | HUD_ELEMENT_FLAG_HIDDEN | HUD_ELEMENT_FLAG_BATTLE_CAM))) {
                     if (!(flags & HUD_ELEMENT_FLAG_FRONTUI) && hudElement->drawSizePreset >= 0) {
                         sortedElements[count++] = i;
                     }
@@ -1222,7 +1222,7 @@ void render_hud_elements_backUI(void) {
             break;
         }
 
-        if (!(hudElement->flags & HUD_ELEMENT_FLAG_FIXEDSCALE)) {
+        if (!(hudElement->flags & HUD_ELEMENT_FLAG_RESIZING)) {
             if (!(hudElement->flags & HUD_ELEMENT_FLAG_CUSTOM_SIZE)) {
                 texSizeX = gHudElementSizes[hudElement->tileSizePreset].width;
                 texSizeY = gHudElementSizes[hudElement->tileSizePreset].height;
@@ -1276,11 +1276,11 @@ void render_hud_elements_backUI(void) {
                 texSizeY = hudElement->customImageSize.y;
             }
 
-            drawSizeX = hudElement->unkImgScale[0];
-            drawSizeY = hudElement->unkImgScale[1];
+            drawSizeX = hudElement->dynamicSize[0];
+            drawSizeY = hudElement->dynamicSize[1];
 
-            offsetX = -hudElement->unkImgScale[0] / 2;
-            offsetY = -hudElement->unkImgScale[1] / 2;
+            offsetX = -hudElement->dynamicSize[0] / 2;
+            offsetY = -hudElement->dynamicSize[1] / 2;
 
             xScaled = (f32) drawSizeX / (f32) texSizeX;
             yScaled = (f32) drawSizeY / (f32) texSizeY;
@@ -1315,7 +1315,7 @@ void render_hud_elements_frontUI(void) {
         if (hudElement != nullptr) {
             s32 flags = hudElement->flags;
             if (flags && !(flags & HUD_ELEMENT_FLAG_DISABLED)) {
-                if (!(flags & (HUD_ELEMENT_FLAG_80 | HUD_ELEMENT_FLAG_TRANSFORM | HUD_ELEMENT_FLAG_200000 | HUD_ELEMENT_FLAG_10000000))) {
+                if (!(flags & (HUD_ELEMENT_FLAG_MANUAL_RENDER | HUD_ELEMENT_FLAG_TRANSFORM | HUD_ELEMENT_FLAG_INVISIBLE | HUD_ELEMENT_FLAG_HIDDEN))) {
                     if ((flags & HUD_ELEMENT_FLAG_FRONTUI) && hudElement->drawSizePreset >= 0) {
                         sortedElements[count++] = i;
                     }
@@ -1337,7 +1337,7 @@ void render_hud_elements_frontUI(void) {
 
     for (i = 0; i < count; i++) {
         hudElement = (*gHudElements)[sortedElements[i]];
-        if (!(hudElement->flags & HUD_ELEMENT_FLAG_FIXEDSCALE)) {
+        if (!(hudElement->flags & HUD_ELEMENT_FLAG_RESIZING)) {
             if (!(hudElement->flags & HUD_ELEMENT_FLAG_CUSTOM_SIZE)) {
                 texSizeX = gHudElementSizes[hudElement->tileSizePreset].width;
                 texSizeY = gHudElementSizes[hudElement->tileSizePreset].height;
@@ -1391,11 +1391,11 @@ void render_hud_elements_frontUI(void) {
                 texSizeY = hudElement->customImageSize.y;
             }
 
-            drawSizeX = hudElement->unkImgScale[0];
-            drawSizeY = hudElement->unkImgScale[1];
+            drawSizeX = hudElement->dynamicSize[0];
+            drawSizeY = hudElement->dynamicSize[1];
 
-            offsetX = -hudElement->unkImgScale[0] / 2;
-            offsetY = -hudElement->unkImgScale[1] / 2;
+            offsetX = -hudElement->dynamicSize[0] / 2;
+            offsetY = -hudElement->dynamicSize[1] / 2;
 
             xScaled = (f32) drawSizeX / (f32) texSizeX;
             yScaled = (f32) drawSizeY / (f32) texSizeY;
@@ -1444,7 +1444,7 @@ void render_hud_element(HudElement* hudElement) {
         gDPSetTextureFilter(gMainGfxPos++, G_TF_POINT);
     }
 
-    if (!(hudElement->flags & HUD_ELEMENT_FLAG_FIXEDSCALE)) {
+    if (!(hudElement->flags & HUD_ELEMENT_FLAG_RESIZING)) {
         xScaleFactor = 1.0f;
         yScaleFactor = 1.0f;
     } else {
@@ -1455,9 +1455,9 @@ void render_hud_element(HudElement* hudElement) {
             xScaleFactor = hudElement->customImageSize.x;
             yScaleFactor = hudElement->customImageSize.y;
         }
-        xScaleFactor /= hudElement->unkImgScale[0];
+        xScaleFactor /= hudElement->dynamicSize[0];
         xScaleFactor = 1.0f / xScaleFactor;
-        yScaleFactor /= hudElement->unkImgScale[1];
+        yScaleFactor /= hudElement->dynamicSize[1];
         yScaleFactor = 1.0f / yScaleFactor;
     }
 
@@ -1551,12 +1551,12 @@ void render_hud_element(HudElement* hudElement) {
             }
             break;
         case 2:
-            transform->unk_30[D_80159180].vtx[0] = D_8014F0C8[0];
-            transform->unk_30[D_80159180].vtx[1] = D_8014F0C8[1];
-            transform->unk_30[D_80159180].vtx[2] = D_8014F0C8[2];
-            transform->unk_30[D_80159180].vtx[3] = D_8014F0C8[3];
+            transform->quadBuffers[D_80159180].vtx[0] = D_8014F0C8[0];
+            transform->quadBuffers[D_80159180].vtx[1] = D_8014F0C8[1];
+            transform->quadBuffers[D_80159180].vtx[2] = D_8014F0C8[2];
+            transform->quadBuffers[D_80159180].vtx[3] = D_8014F0C8[3];
 
-            vtx2 = transform->unk_30[D_80159180].vtx;
+            vtx2 = transform->quadBuffers[D_80159180].vtx;
             vtx = vtx2;
 
             vtx2->v.ob[0] = -width / 2;
@@ -1605,7 +1605,7 @@ void render_hud_element(HudElement* hudElement) {
                                 G_TX_NOLOD, G_TX_NOLOD);
 
             gDPSetTextureLUT(gMainGfxPos++, G_TT_NONE);
-            gSPVertex(gMainGfxPos++, &transform->unk_30[D_80159180], 4, 0);
+            gSPVertex(gMainGfxPos++, &transform->quadBuffers[D_80159180], 4, 0);
             gSP1Triangle(gMainGfxPos++, 0, 1, 2, 0);
             gSP1Triangle(gMainGfxPos++, 0, 2, 3, 0);
             break;
@@ -1640,7 +1640,7 @@ void render_transformed_hud_elements(void) {
                         continue;
                     }
 
-                    if (flags & (HUD_ELEMENT_FLAG_200000 | HUD_ELEMENT_FLAG_10000000)) {
+                    if (flags & (HUD_ELEMENT_FLAG_INVISIBLE | HUD_ELEMENT_FLAG_HIDDEN)) {
                         continue;
                     }
 
@@ -1648,11 +1648,11 @@ void render_transformed_hud_elements(void) {
                         continue;
                     }
 
-                    if (flags & HUD_ELEMENT_FLAG_40000000) {
+                    if (flags & HUD_ELEMENT_FLAG_BATTLE_CAM) {
                         continue;
                     }
 
-                    if (flags & HUD_ELEMENT_FLAG_FRONTUI || hudElement->drawSizePreset < 0 || flags & HUD_ELEMENT_FLAG_80) {
+                    if (flags & HUD_ELEMENT_FLAG_FRONTUI || hudElement->drawSizePreset < 0 || flags & HUD_ELEMENT_FLAG_MANUAL_RENDER) {
                         continue;
                     }
 
@@ -1702,7 +1702,7 @@ void render_transformed_hud_elements(void) {
                         continue;
                     }
 
-                    if (flags & (HUD_ELEMENT_FLAG_200000 | HUD_ELEMENT_FLAG_10000000)) {
+                    if (flags & (HUD_ELEMENT_FLAG_INVISIBLE | HUD_ELEMENT_FLAG_HIDDEN)) {
                         continue;
                     }
 
@@ -1711,11 +1711,11 @@ void render_transformed_hud_elements(void) {
                     }
 
                     // different from CAM_HUD pass
-                    if (!(flags & HUD_ELEMENT_FLAG_40000000)) {
+                    if (!(flags & HUD_ELEMENT_FLAG_BATTLE_CAM)) {
                         continue;
                     }
 
-                    if (flags & HUD_ELEMENT_FLAG_FRONTUI || hudElement->drawSizePreset < 0 || flags & HUD_ELEMENT_FLAG_80) {
+                    if (flags & HUD_ELEMENT_FLAG_FRONTUI || hudElement->drawSizePreset < 0 || flags & HUD_ELEMENT_FLAG_MANUAL_RENDER) {
                         continue;
                     }
 
@@ -1824,7 +1824,7 @@ void func_80143C48(s32 elemID, s32 arg1, s32 camID) {
             return;
         }
 
-        if (elem->flags & (HUD_ELEMENT_FLAG_200000 | HUD_ELEMENT_FLAG_10000000)) {
+        if (elem->flags & (HUD_ELEMENT_FLAG_INVISIBLE | HUD_ELEMENT_FLAG_HIDDEN)) {
             return;
         }
 
@@ -1832,7 +1832,7 @@ void func_80143C48(s32 elemID, s32 arg1, s32 camID) {
             return;
         }
 
-        if (elem->flags & HUD_ELEMENT_FLAG_FRONTUI || elem->drawSizePreset < 0 || !(elem->flags & HUD_ELEMENT_FLAG_80)) {
+        if (elem->flags & HUD_ELEMENT_FLAG_FRONTUI || elem->drawSizePreset < 0 || !(elem->flags & HUD_ELEMENT_FLAG_MANUAL_RENDER)) {
             return;
         }
 
@@ -1864,7 +1864,7 @@ void draw_hud_element_internal(s32 id, s32 clipMode) {
     s32 preset;
 
     if (elem->flags && !(elem->flags & HUD_ELEMENT_FLAG_DISABLED)) {
-        if (!(elem->flags & (HUD_ELEMENT_FLAG_200000 | HUD_ELEMENT_FLAG_10000000)) && (elem->drawSizePreset >= 0)) {
+        if (!(elem->flags & (HUD_ELEMENT_FLAG_INVISIBLE | HUD_ELEMENT_FLAG_HIDDEN)) && (elem->drawSizePreset >= 0)) {
             if (clipMode != HUD_ELEMENT_DRAW_NEXT) {
                 if (clipMode == HUD_ELEMENT_DRAW_FIRST_WITH_CLIPPING) {
                     gDPSetScissor(gMainGfxPos++, G_SC_NON_INTERLACE, 12, 20, SCREEN_WIDTH - 12, SCREEN_HEIGHT - 20);
@@ -1883,7 +1883,7 @@ void draw_hud_element_internal(s32 id, s32 clipMode) {
                 gSPTexture(gMainGfxPos++, -1, -1, 0, G_TX_RENDERTILE, G_ON);
             }
 
-            if (!(elem->flags & HUD_ELEMENT_FLAG_FIXEDSCALE)) {
+            if (!(elem->flags & HUD_ELEMENT_FLAG_RESIZING)) {
                 if (!(elem->flags & HUD_ELEMENT_FLAG_CUSTOM_SIZE)) {
                     preset = elem->tileSizePreset;
                     texSizeX = gHudElementSizes[preset].width;
@@ -1934,11 +1934,11 @@ void draw_hud_element_internal(s32 id, s32 clipMode) {
                     texSizeY = elem->customImageSize.y;
                 }
 
-                drawSizeX = elem->unkImgScale[0];
-                drawSizeY = elem->unkImgScale[1];
+                drawSizeX = elem->dynamicSize[0];
+                drawSizeY = elem->dynamicSize[1];
 
-                offsetX = -elem->unkImgScale[0] / 2;
-                offsetY = -elem->unkImgScale[1] / 2;
+                offsetX = -elem->dynamicSize[0] / 2;
+                offsetY = -elem->dynamicSize[1] / 2;
 
                 xScaled = (f32) drawSizeX / (f32) texSizeX;
                 yScaled = (f32) drawSizeY / (f32) texSizeY;
@@ -1989,7 +1989,7 @@ void hud_element_set_script(s32 id, HudScript* anim) {
     hudElement->worldPosOffset.y = 0;
     hudElement->flags &= ~HUD_ELEMENT_FLAG_ANIMATION_FINISHED;
     hudElement->uniformScale = 1.0f;
-    hudElement->flags &= ~(HUD_ELEMENT_FLAG_SCALED | HUD_ELEMENT_FLAG_TRANSPARENT | HUD_ELEMENT_FLAG_FIXEDSCALE | HUD_ELEMENT_FLAG_REPEATED);
+    hudElement->flags &= ~(HUD_ELEMENT_FLAG_SCALED | HUD_ELEMENT_FLAG_TRANSPARENT | HUD_ELEMENT_FLAG_RESIZING | HUD_ELEMENT_FLAG_REPEATED);
     hud_element_load_script(hudElement, anim);
 
     while (hud_element_update(hudElement) != 0) {}
@@ -2101,7 +2101,7 @@ void hud_element_set_scale(s32 index, f32 scale) {
     }
     elem->sizeX = drawSizeX * scale;
     elem->sizeY = drawSizeY * scale;
-    elem->flags &= ~HUD_ELEMENT_FLAG_FIXEDSCALE;
+    elem->flags &= ~HUD_ELEMENT_FLAG_RESIZING;
     elem->flags |= HUD_ELEMENT_FLAG_REPEATED | HUD_ELEMENT_FLAG_SCALED;
 
     xScaled = ((f32) drawSizeX / (f32) imgSizeX) * scale;
@@ -2122,7 +2122,7 @@ void hud_element_use_preset_size(s32 id, s8 sizePreset) {
     hudElement->tileSizePreset = sizePreset;
     hudElement->drawSizePreset = sizePreset;
     hudElement->uniformScale = 1.0f;
-    hudElement->flags &= ~HUD_ELEMENT_FLAG_FIXEDSCALE;
+    hudElement->flags &= ~HUD_ELEMENT_FLAG_RESIZING;
     hudElement->flags &= ~(HUD_ELEMENT_FLAG_SCALED | HUD_ELEMENT_FLAG_REPEATED);
 }
 
@@ -2133,7 +2133,7 @@ s32 func_80144E4C(s32 id) {
 void func_80144E74(s32 id, s32 arg1) {
     HudElement* hudElement = (*gHudElements)[id & ~HUD_ELEMENT_BATTLE_ID_MASK];
 
-    hudElement->flags &= ~(HUD_ELEMENT_FLAG_1000000 | HUD_ELEMENT_FLAG_2000000 | HUD_ELEMENT_FLAG_4000000 | HUD_ELEMENT_FLAG_8000000);
+    hudElement->flags &= ~HUD_ELEMENT_VARIABLE_MASK;
     hudElement->flags |= arg1 << 24;
 }
 
@@ -2204,7 +2204,7 @@ void hud_element_create_transform_C(s32 id) {
 
     element->hudTransform = transform;
     ASSERT(transform != nullptr);
-    element->flags |= HUD_ELEMENT_FLAG_40000000 | HUD_ELEMENT_FLAG_NO_FOLD | HUD_ELEMENT_FLAG_TRANSFORM;
+    element->flags |= HUD_ELEMENT_FLAG_BATTLE_CAM | HUD_ELEMENT_FLAG_NO_FOLD | HUD_ELEMENT_FLAG_TRANSFORM;
     transform->imgfxIdx = 0;
     transform->pos.x = 0.0f;
     transform->pos.y = 0.0f;
@@ -2228,7 +2228,7 @@ void hud_element_free_transform(s32 id) {
 
     heap_free(hudElement->hudTransform);
     hudElement->hudTransform = nullptr;
-    hudElement->flags &= ~(HUD_ELEMENT_FLAG_40000000 | HUD_ELEMENT_FLAG_NO_FOLD | HUD_ELEMENT_FLAG_TRANSFORM);
+    hudElement->flags &= ~(HUD_ELEMENT_FLAG_BATTLE_CAM | HUD_ELEMENT_FLAG_NO_FOLD | HUD_ELEMENT_FLAG_TRANSFORM);
 }
 
 void hud_element_set_transform_pos(s32 id, f32 x, f32 y, f32 z) {

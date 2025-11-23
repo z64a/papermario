@@ -2289,15 +2289,15 @@ API_CALLABLE(WaitForState) {
 
     if (isInitialCall) {
         waitForState = evt_get_variable(script, *args++);
-        if (waitForState == BATTLE_STATE_0) {
-            battleStatus->waitForState = BATTLE_STATE_0;
+        if (waitForState == BATTLE_STATE_NONE) {
+            battleStatus->waitForState = BATTLE_STATE_NONE;
             return ApiStatus_DONE2;
         }
         battleStatus->waitForState = waitForState;
     }
 
     waitForState = battleStatus->waitForState;
-    if (waitForState == BATTLE_STATE_0) {
+    if (waitForState == BATTLE_STATE_NONE) {
         return ApiStatus_DONE2;
     }
 
@@ -2315,10 +2315,10 @@ API_CALLABLE(CancelEnemyTurn) {
 
     switch (cancelMode) {
         case 0:
-            battleStatus->unk_94 = 1;
+            battleStatus->cancelTurnMode = 1;
             break;
         case 1:
-            battleStatus->unk_94 = -1;
+            battleStatus->cancelTurnMode = -1;
             break;
     }
 

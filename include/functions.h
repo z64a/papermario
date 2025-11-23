@@ -334,8 +334,8 @@ void btl_state_update_begin_partner_turn(void);
 void btl_state_draw_begin_partner_turn(void);
 void btl_state_update_switch_to_partner(void);
 void btl_state_draw_switch_to_partner(void);
-void btl_state_update_9(void);
-void btl_state_draw_9(void);
+void btl_state_update_transfer_turn(void);
+void btl_state_draw_transfer_turn(void);
 void btl_state_update_prepare_menu(void);
 void btl_state_draw_prepare_menu(void);
 void btl_state_update_end_turn(void);
@@ -982,8 +982,8 @@ void reset_player_blur(void);
 void force_disable_player_blur(void);
 void force_disable_player_blur_immediately(void);
 
-void func_8023E104(void);
-void func_8023E11C(void);
+void btl_start_blinking_starpoints(void);
+void btl_stop_blinking_starpoints(void);
 
 void set_goal_pos_to_part(ActorState* state, s32 actorID, s32 partID);
 

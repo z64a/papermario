@@ -2043,6 +2043,13 @@ enum DamageSources {
     DMG_SRC_INK_BLAST               = 26,
 };
 
+enum GearRank {
+    GEAR_RANK_NONE   = -1,
+    GEAR_RANK_NORMAL = 0,
+    GEAR_RANK_SUPER  = 1,
+    GEAR_RANK_ULTRA  = 2,
+};
+
 enum PartnerRank {
     PARTNER_RANK_NORMAL = 0,
     PARTNER_RANK_SUPER  = 1,
@@ -2194,7 +2201,7 @@ enum Events {
     EVENT_SHOCK_HIT                   = 0x0000002F,
     EVENT_30                          = 0x00000030,
     EVENT_RECOVER_STATUS              = 0x00000031,
-    EVENT_32                          = 0x00000032,
+    EVENT_RECOVER_FROZEN              = 0x00000032,
     EVENT_33                          = 0x00000033,
     EVENT_RECOVER_FROM_KO             = 0x00000034,
     EVENT_END_FIRST_STRIKE            = 0x00000035,
@@ -2225,7 +2232,7 @@ enum StatusKeys {
     STATUS_END                      = 0x00000000,
     STATUS_KEY_NORMAL               = 0x00000001,
     STATUS_KEY_DEFAULT              = 0x00000002,
-    STATUS_KEY_UNUSED                 = 0x00000003,
+    STATUS_KEY_UNUSED               = 0x00000003,
     STATUS_KEY_DIZZY                = 0x00000004,
     STATUS_KEY_PARALYZE             = 0x00000005,
     STATUS_KEY_SLEEP                = 0x00000006,
@@ -2257,7 +2264,7 @@ enum StatusKeys {
     STATUS_TURN_MOD_SLEEP           = 0x00000020,
     STATUS_TURN_MOD_STATIC          = 0x00000021,
     STATUS_TURN_MOD_FROZEN          = 0x00000022,
-    STATUS_TURN_MOD_UNUSED            = 0x00000023,
+    STATUS_TURN_MOD_UNUSED          = 0x00000023,
     STATUS_TURN_MOD_DIZZY           = 0x00000024,
     STATUS_TURN_MOD_POISON          = 0x00000025,
     STATUS_TURN_MOD_PARALYZE        = 0x00000026,
@@ -3655,9 +3662,9 @@ enum BattleStatusReflectionFlags {
 };
 
 enum BattleStates {
-    BATTLE_STATE_NEGATIVE_1                 = -1,
-    BATTLE_STATE_0                          = 0,
-    BATTLE_STATE_NORMAL_START               = 1,
+    BATTLE_STATE_INVALID                    = -1,  // may have been part of a debug state at some point, unused
+    BATTLE_STATE_NONE                       = 0,
+    BATTLE_STATE_START                      = 1,
     BATTLE_STATE_FIRST_STRIKE               = 2,
     BATTLE_STATE_PARTNER_FIRST_STRIKE       = 3,
     BATTLE_STATE_ENEMY_FIRST_STRIKE         = 4,
@@ -3665,7 +3672,7 @@ enum BattleStates {
     BATTLE_STATE_END_TURN                   = 6,
     BATTLE_STATE_BEGIN_PLAYER_TURN          = 7,
     BATTLE_STATE_BEGIN_PARTNER_TURN         = 8,
-    BATTLE_STATE_9                          = 9,    // can be reached from BATTLE_STATE_PARTNER_MOVE if partner == nullptr
+    BATTLE_STATE_TRANSFER_TURN              = 9,
     BATTLE_STATE_SWITCH_TO_PLAYER           = 10,
     BATTLE_STATE_SWITCH_TO_PARTNER          = 11,
     BATTLE_STATE_PREPARE_MENU               = 12,
@@ -3698,7 +3705,7 @@ enum BattleSubStates {
     // shared
     BTL_SUBSTATE_INIT                                       = 0,
 
-    // BATTLE_STATE_NORMAL_START
+    // BATTLE_STATE_START
     BTL_SUBSTATE_NORMAL_START_INIT                          = 0, // loads assets, initializes state, and runs OnBattleInit script
     BTL_SUBSTATE_NORMAL_START_CREATE_ENEMIES                = 1,
     BTL_SUBSTATE_NORMAL_START_CHECK_FIRST_STRIKE            = 4, // wait for actor scripts to finish
@@ -3758,7 +3765,7 @@ enum BattleSubStates {
     BTL_SUBSTATE_BEGIN_PARTNER_TURN_END_DELAY               = 10,
     BTL_SUBSTATE_BEGIN_PARTNER_TURN_RESET_STATE             = 100,
 
-    // BATTLE_STATE_9
+    // BATTLE_STATE_TRANSFER_TURN
     BTL_SUBSTATE_9_INIT                                     = 0,
     BTL_SUBSTATE_9_1                                        = 1,
     BTL_SUBSTATE_9_2                                        = 2,
