@@ -1212,7 +1212,7 @@ void btl_state_update_celebration(void) {
             set_window_update(WIN_BTL_DESC_BOX, WINDOW_UPDATE_HIDE);
 
             switch (battleStatus->curSubmenu) {
-                case 0:
+                case MENU_HP:
                     playerData->hardMaxHP += 5;
                     playerData->curMaxHP += 5;
                     playerData->curHP += 5;
@@ -1225,7 +1225,7 @@ void btl_state_update_celebration(void) {
                     player->maxHP = playerData->curMaxHP;
                     player->curHP = playerData->curHP;
                     break;
-                case 1:
+                case MENU_FP:
                     playerData->hardMaxFP += 5;
                     playerData->curMaxFP += 5;
                     playerData->curFP += 5;
@@ -1236,7 +1236,7 @@ void btl_state_update_celebration(void) {
                         playerData->curFP = playerData->curMaxFP;
                     }
                     break;
-                case 2:
+                case MENU_BP:
                     playerData->maxBP += 3;
                     if (playerData->maxBP > 30) {
                         playerData->maxBP = 30;
@@ -1261,27 +1261,27 @@ void btl_state_update_celebration(void) {
         case BTL_SUBSTATE_CELEBRATE_LEVEL_UP_FADE_OUT:
             if ((gGameStatusPtr->frameCounter % 2) != 0) {
                 switch (battleStatus->curSubmenu) {
-                    case 0:
+                    case MENU_HP:
                         hud_element_set_flags(LevelUpStatEmblemIDs[0], HUD_ELEMENT_FLAG_DISABLED);
                         break;
-                    case 1:
+                    case MENU_FP:
                         hud_element_set_flags(LevelUpStatEmblemIDs[1], HUD_ELEMENT_FLAG_DISABLED);
                         hud_element_set_flags(LevelUpStatEmblemIDs[3], HUD_ELEMENT_FLAG_DISABLED);
                         break;
-                    case 2:
+                    case MENU_BP:
                         hud_element_set_flags(LevelUpStatEmblemIDs[2], HUD_ELEMENT_FLAG_DISABLED);
                         break;
                 }
             } else {
                 switch (battleStatus->curSubmenu) {
-                    case 0:
+                    case MENU_HP:
                         hud_element_clear_flags(LevelUpStatEmblemIDs[0], HUD_ELEMENT_FLAG_DISABLED);
                         break;
-                    case 1:
+                    case MENU_FP:
                         hud_element_clear_flags(LevelUpStatEmblemIDs[1], HUD_ELEMENT_FLAG_DISABLED);
                         hud_element_clear_flags(LevelUpStatEmblemIDs[3], HUD_ELEMENT_FLAG_DISABLED);
                         break;
-                    case 2:
+                    case MENU_BP:
                         hud_element_clear_flags(LevelUpStatEmblemIDs[2], HUD_ELEMENT_FLAG_DISABLED);
                         break;
                 }
@@ -1490,7 +1490,7 @@ void btl_state_draw_celebration(void) {
         case BTL_SUBSTATE_CELEBRATE_LEVEL_UP_INVALID:
         case BTL_SUBSTATE_CELEBRATE_LEVEL_UP_INVALID_DELAY:
             switch (battleStatus->curSubmenu) {
-                case 0:
+                case MENU_HP:
                     rotZ = 152;
                     hud_element_set_tint(LevelUpStatEmblemIDs[0], 255, 255, 255);
                     hud_element_set_tint(LevelUpStatEmblemIDs[3], 128, 128, 128);
@@ -1532,7 +1532,7 @@ void btl_state_draw_celebration(void) {
                         hud_element_set_script(id, &HES_level_up_badge);
                     }
                     break;
-                case 1:
+                case MENU_FP:
                     rotZ = 180;
                     hud_element_set_tint(LevelUpStatEmblemIDs[0], 128, 128, 128);
                     hud_element_set_tint(LevelUpStatEmblemIDs[3], 255, 255, 255);
@@ -1557,7 +1557,7 @@ void btl_state_draw_celebration(void) {
                         hud_element_set_tint(id, 128, 128, 128);
                     }
                     break;
-                case 2:
+                case MENU_BP:
                 default:
                     rotZ = 208;
                     hud_element_set_tint(LevelUpStatEmblemIDs[0], 128, 128, 128);

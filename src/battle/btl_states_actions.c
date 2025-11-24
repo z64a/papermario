@@ -1248,7 +1248,7 @@ void btl_state_update_transfer_turn(void) {
 
     s32 oldKoDuration;
 
-    if (gBattleSubState == BTL_SUBSTATE_9_INIT) {
+    if (gBattleSubState == BTL_SUBSTATE_TRANSFER_TURN_INIT) {
         if (!(gBattleStatus.flags2 & BS_FLAGS2_PLAYER_TURN_USED)) {
             btl_set_state(BATTLE_STATE_SWITCH_TO_PLAYER);
             return;
@@ -1268,7 +1268,7 @@ void btl_state_update_transfer_turn(void) {
             partner->flags |= ACTOR_FLAG_USING_IDLE_ANIM;
         }
 
-        gBattleSubState = BTL_SUBSTATE_9_1;
+        gBattleSubState = BTL_SUBSTATE_TRANSFER_TURN_RESET_ENEMIES;
         BattleStatusUpdateDelay = 0;
         gBattleStatus.flags2 &= ~BS_FLAGS2_PLAYER_TURN_USED;
         gBattleStatus.flags2 &= ~BS_FLAGS2_PARTNER_TURN_USED;
@@ -1276,7 +1276,7 @@ void btl_state_update_transfer_turn(void) {
         gBattleStatus.flags2 &= ~BS_FLAGS2_OVERRIDE_INACTIVE_PARTNER;
     }
 
-    if (gBattleSubState == BTL_SUBSTATE_9_1) {
+    if (gBattleSubState == BTL_SUBSTATE_TRANSFER_TURN_RESET_ENEMIES) {
         waitingForScript = false;
         for (i = 0; i < ARRAY_COUNT(battleStatus->enemyActors); i++) {
             actor = battleStatus->enemyActors[i];
@@ -1359,11 +1359,11 @@ void btl_state_update_transfer_turn(void) {
                     }
                 }
             }
-            gBattleSubState = BTL_SUBSTATE_9_2;
+            gBattleSubState = BTL_SUBSTATE_TRANSFER_TURN_AWAIT_ALL;
         }
     }
 
-    if (gBattleSubState == BTL_SUBSTATE_9_2) {
+    if (gBattleSubState == BTL_SUBSTATE_TRANSFER_TURN_AWAIT_ALL) {
         // wait for player HandleEvent script to finish
         if(player->handleEventScript != nullptr && does_script_exist(player->handleEventScriptID)) {
             goto WAITING;
@@ -1402,9 +1402,9 @@ void btl_state_update_transfer_turn(void) {
 
         btl_cam_use_preset(BTL_CAM_DEFAULT);
         if (partner == nullptr || !(gBattleStatus.flags1 & BS_FLAGS1_PLAYER_IN_BACK)) {
-            gBattleSubState = BTL_SUBSTATE_9_4;
+            gBattleSubState = BTL_SUBSTATE_TRANSFER_TURN_TRY_MERLEE_DEF;
         } else if (gBattleStatus.flags2 & BS_FLAGS2_PEACH_BATTLE) {
-            gBattleSubState = BTL_SUBSTATE_9_4;
+            gBattleSubState = BTL_SUBSTATE_TRANSFER_TURN_TRY_MERLEE_DEF;
         } else {
             player->flags &= ~ACTOR_FLAG_SHOW_STATUS_ICONS;
             partner->flags &= ~ACTOR_FLAG_SHOW_STATUS_ICONS;
@@ -1426,12 +1426,12 @@ void btl_state_update_transfer_turn(void) {
             }
             state->moveTime = 4;
             state->angle = 0.0f;
-            gBattleSubState = BTL_SUBSTATE_9_3;
+            gBattleSubState = BTL_SUBSTATE_TRANSFER_TURN_RESET_POSITIONS;
         }
     }
     WAITING:
 
-    if (gBattleSubState == BTL_SUBSTATE_9_3) {
+    if (gBattleSubState == BTL_SUBSTATE_TRANSFER_TURN_RESET_POSITIONS) {
         if (partner->state.moveTime != 0) {
             partner->curPos.x += (partner->state.goalPos.x - partner->curPos.x) / partner->state.moveTime;
             partner->curPos.z += (partner->state.goalPos.z - partner->curPos.z) / partner->state.moveTime;
@@ -1460,12 +1460,12 @@ void btl_state_update_transfer_turn(void) {
                 player->homePos.x = player->curPos.x;
                 player->homePos.z = player->curPos.z;
             }
-            gBattleSubState = BTL_SUBSTATE_9_4;
+            gBattleSubState = BTL_SUBSTATE_TRANSFER_TURN_TRY_MERLEE_DEF;
             gBattleStatus.flags1 &= ~BS_FLAGS1_PLAYER_IN_BACK;
         }
     }
 
-    if (gBattleSubState == BTL_SUBSTATE_9_4) {
+    if (gBattleSubState == BTL_SUBSTATE_TRANSFER_TURN_TRY_MERLEE_DEF) {
         if (BattleStatusUpdateDelay != 0) {
             BattleStatusUpdateDelay--;
         } else {
@@ -1485,7 +1485,7 @@ void btl_state_update_transfer_turn(void) {
                 partner->flags &= ~ACTOR_FLAG_SHOW_STATUS_ICONS;
                 partner->flags |= ACTOR_FLAG_USING_IDLE_ANIM;
             }
-            gBattleSubState = BTL_SUBSTATE_9_5;
+            gBattleSubState = BTL_SUBSTATE_TRANSFER_TURN_NOTIFY_ENEMY_PHASE;
             gBattleStatus.flags2 &= ~BS_FLAGS2_PLAYER_TURN_USED;
             gBattleStatus.flags2 &= ~BS_FLAGS2_PARTNER_TURN_USED;
             gBattleStatus.flags2 &= ~BS_FLAGS2_OVERRIDE_INACTIVE_PLAYER;
@@ -1493,7 +1493,7 @@ void btl_state_update_transfer_turn(void) {
         }
     }
 
-    if (gBattleSubState == BTL_SUBSTATE_9_5) {
+    if (gBattleSubState == BTL_SUBSTATE_TRANSFER_TURN_NOTIFY_ENEMY_PHASE) {
         if (player->takeTurnScript == nullptr || (does_script_exist(player->takeTurnScriptID) == 0)) {
             player->takeTurnScript = nullptr;
 
@@ -1507,12 +1507,12 @@ void btl_state_update_transfer_turn(void) {
                     script->owner1.enemyID = i | ACTOR_CLASS_ENEMY;
                 }
             }
-            gBattleSubState = BTL_SUBSTATE_9_6;
+            gBattleSubState = BTL_SUBSTATE_TRANSFER_TURN_AWAIT_ENEMY_PHASE;
         }
     }
 
     waitingForScript = false;
-    if (gBattleSubState == BTL_SUBSTATE_9_6) {
+    if (gBattleSubState == BTL_SUBSTATE_TRANSFER_TURN_AWAIT_ENEMY_PHASE) {
         for (i = 0; i < ARRAY_COUNT(battleStatus->enemyActors); i++) {
             actor = battleStatus->enemyActors[i];
             if (actor != nullptr && actor->handlePhaseSource != nullptr && does_script_exist(actor->handlePhaseScriptID)) {
@@ -1520,11 +1520,11 @@ void btl_state_update_transfer_turn(void) {
             }
         }
         if (!waitingForScript) {
-            gBattleSubState = BTL_SUBSTATE_9_7;
+            gBattleSubState = BTL_SUBSTATE_TRANSFER_TURN_DONE;
         }
     }
 
-    if (gBattleSubState == BTL_SUBSTATE_9_7) {
+    if (gBattleSubState == BTL_SUBSTATE_TRANSFER_TURN_DONE) {
         btl_set_state(BATTLE_STATE_NEXT_ENEMY);
     }
 }
@@ -1552,7 +1552,7 @@ void btl_state_update_prepare_menu(void) {
         btl_set_state(BATTLE_STATE_PARTNER_MENU);
     } else if (gBattleSubState == BATTLE_SUBSTATE_PREPARE_MENU_DIPPING) {
         btl_set_state(BATTLE_STATE_PLAYER_MENU);
-        gBattleSubState = BTL_SUBSTATE_PLAYER_MENU_DIPPING_1;
+        gBattleSubState = BTL_SUBSTATE_PLAYER_MENU_NEXT_DIP_BUILD_MENU;
     } else {
         btl_set_state(BATTLE_STATE_PLAYER_MENU);
     }
