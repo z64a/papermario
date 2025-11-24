@@ -4202,12 +4202,12 @@ void btl_state_update_partner_menu(void) {
             break;
     case BTL_SUBSTATE_PARTNER_MENU_MAIN_HANDOVER:
         entryIdx = btl_main_menu_update();
-        if ((battleStatus->curButtonsPressed & BUTTON_B) && entryIdx == 0) {
+        if ((battleStatus->curButtonsPressed & BUTTON_B) && entryIdx == POPUP_RESULT_CHOOSING) {
             btl_main_menu_restore_choose();
             gBattleSubState = BTL_SUBSTATE_PARTNER_MENU_MAIN_REOPEN_MENU;
             return;
         }
-        if (entryIdx != 0) {
+        if (entryIdx != POPUP_RESULT_CHOOSING) {
             battleStatus->moveCategory = BTL_MENU_TYPE_STAR_POWERS;
             battleStatus->selectedMoveID = MOVE_FOCUS;
             battleStatus->moveArgument = 0;
@@ -4299,10 +4299,10 @@ void btl_state_update_partner_menu(void) {
         break;
     case BTL_SUBSTATE_PARTNER_MENU_ABILITIES_CHOOSING:
         entryIdx = btl_submenu_moves_update();
-        if (entryIdx == -1) {
+        if (entryIdx == POPUP_RESULT_INVALID) {
             gBattleSubState = BTL_SUBSTATE_PARTNER_MENU_ABILITIES_SHOW_ERROR;
-        } else if (entryIdx  != 0) {
-            if (entryIdx == 255) {
+        } else if (entryIdx != POPUP_RESULT_CHOOSING) {
+            if (entryIdx == POPUP_RESULT_CANCEL) {
                 btl_main_menu_resume_choose();
                 BattleMenu_ChooseDelay = 8;
                 BattleMenu_SwapDelay = 4;
@@ -4319,7 +4319,7 @@ void btl_state_update_partner_menu(void) {
         break;
     case BTL_SUBSTATE_PARTNER_MENU_ABILITIES_HANDOVER:
         entryIdx = btl_submenu_moves_update();
-        if ((battleStatus->curButtonsPressed & BUTTON_B) && entryIdx == 0) {
+        if ((battleStatus->curButtonsPressed & BUTTON_B) && entryIdx == POPUP_RESULT_CHOOSING) {
             btl_submenu_moves_restore_choose();
             btl_main_menu_restore_submenu();
             gBattleSubState = BTL_SUBSTATE_PARTNER_MENU_ABILITIES_REOPEN_MENU;
@@ -4555,8 +4555,8 @@ void btl_state_update_partner_menu(void) {
         break;
     case BTL_SUBSTATE_PARTNER_MENU_FOCUS_CHOOSING:
         entryIdx = btl_submenu_moves_update();
-        if (entryIdx != 0) {
-            if (entryIdx == 255) {
+        if (entryIdx != POPUP_RESULT_CHOOSING) {
+            if (entryIdx == POPUP_RESULT_CANCEL) {
                 btl_main_menu_resume_choose();
                 BattleMenu_ChooseDelay = 8;
                 BattleMenu_SwapDelay = 4;
@@ -4573,7 +4573,7 @@ void btl_state_update_partner_menu(void) {
         break;
     case BTL_SUBSTATE_PARTNER_MENU_FOCUS_HANDOVER:
         entryIdx = btl_submenu_moves_update();
-        if ((battleStatus->curButtonsPressed & BUTTON_B) && (entryIdx == 0)) {
+        if ((battleStatus->curButtonsPressed & BUTTON_B) && (entryIdx == POPUP_RESULT_CHOOSING)) {
             btl_submenu_moves_restore_choose();
             btl_main_menu_restore_submenu();
             gBattleSubState = BTL_SUBSTATE_PARTNER_MENU_FOCUS_REOPEN_MENU;
@@ -4641,8 +4641,8 @@ void btl_state_update_partner_menu(void) {
         break;
     case BTL_SUBSTATE_PARTNER_MENU_STRATEGIES_CHOOSING:
         entryIdx = btl_submenu_strats_update();
-        if (entryIdx == 0) {
-        } else if (entryIdx == 255) {
+        if (entryIdx == POPUP_RESULT_CHOOSING) {
+        } else if (entryIdx == POPUP_RESULT_CANCEL) {
             btl_main_menu_resume_choose();
             BattleMenu_ChooseDelay = 8;
             BattleMenu_SwapDelay = 4;
@@ -4665,7 +4665,7 @@ void btl_state_update_partner_menu(void) {
         break;
     case BTL_SUBSTATE_PARTNER_MENU_STRATEGIES_HANDOVER:
         entryIdx = btl_submenu_strats_update();
-        if ((battleStatus->curButtonsPressed & BUTTON_B) && entryIdx == 0) {
+        if ((battleStatus->curButtonsPressed & BUTTON_B) && entryIdx == POPUP_RESULT_CHOOSING) {
             btl_submenu_strats_restore_choose();
             btl_main_menu_restore_submenu();
             gBattleSubState = BTL_SUBSTATE_PARTNER_MENU_STRATEGIES_REOPEN_MENU;
