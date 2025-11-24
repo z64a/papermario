@@ -87,7 +87,7 @@ void step_game_loop(void) {
     update_scripts();
     update_messages();
     update_hud_elements();
-    step_current_game_mode();
+    step_game_mode();
     update_entities();
     func_80138198();
     bgm_update_music_control();
@@ -196,7 +196,7 @@ void gfx_draw_frame(void) {
     render_workers_backUI();
     render_hud_elements_backUI();
     render_effects_UI();
-    state_render_backUI();
+    render_game_mode_backUI();
 
     if (!(gOverrideFlags & GLOBAL_OVERRIDES_WINDOWS_OVER_CURTAINS)) {
         render_window_root();
@@ -232,7 +232,7 @@ void gfx_draw_frame(void) {
         render_window_root();
     }
 
-    state_render_frontUI();
+    render_game_mode_frontUI();
 
     if (gOverrideFlags & GLOBAL_OVERRIDES_SOFT_RESET) {
         switch (SoftResetState) {
@@ -294,7 +294,7 @@ void load_engine_data(void) {
     reset_background_settings();
     clear_character_set();
     clear_printers();
-    clear_game_modes();
+    clear_game_mode();
     clear_npcs();
     hud_element_clear_cache();
     clear_trigger_data();
