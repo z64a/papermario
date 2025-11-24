@@ -31,7 +31,7 @@ s32 N(DefaultAnims)[] = {
     STATUS_KEY_STATIC,    ANIM_MediGuy_Anim01,
     STATUS_KEY_PARALYZE,  ANIM_MediGuy_Anim00,
     STATUS_KEY_DIZZY,     ANIM_MediGuy_Anim0A,
-    STATUS_KEY_UNUSED,      ANIM_MediGuy_Anim0A,
+    STATUS_KEY_UNUSED,    ANIM_MediGuy_Anim0A,
     STATUS_END,
 };
 
@@ -58,7 +58,7 @@ s32 N(StatusTable)[] = {
     STATUS_TURN_MOD_POISON,         0,
     STATUS_TURN_MOD_FROZEN,         0,
     STATUS_TURN_MOD_DIZZY,          1,
-    STATUS_TURN_MOD_UNUSED,           0,
+    STATUS_TURN_MOD_UNUSED,         0,
     STATUS_TURN_MOD_STATIC,         0,
     STATUS_TURN_MOD_PARALYZE,       1,
     STATUS_TURN_MOD_SHRINK,         0,

@@ -40,7 +40,7 @@ s32 N(StatusTable)[] = {
     STATUS_TURN_MOD_POISON,         0,
     STATUS_TURN_MOD_FROZEN,         0,
     STATUS_TURN_MOD_DIZZY,          0,
-    STATUS_TURN_MOD_UNUSED,           0,
+    STATUS_TURN_MOD_UNUSED,         0,
     STATUS_TURN_MOD_STATIC,         0,
     STATUS_TURN_MOD_PARALYZE,       0,
     STATUS_TURN_MOD_SHRINK,         0,
@@ -95,7 +95,7 @@ s32 N(DefaultAnims)[] = {
     STATUS_KEY_STATIC,    ANIM_Goomba_Dark_Idle,
     STATUS_KEY_PARALYZE,  ANIM_Goomba_Dark_Still,
     STATUS_KEY_DIZZY,     ANIM_Goomba_Dark_Dizzy,
-    STATUS_KEY_UNUSED,      ANIM_Goomba_Dark_Dizzy,
+    STATUS_KEY_UNUSED,    ANIM_Goomba_Dark_Dizzy,
     STATUS_END,
 };
 
@@ -108,7 +108,7 @@ s32 N(ShuffleAnims)[] = {
     STATUS_KEY_STATIC,    ANIM_Goomba_Dark_Run,
     STATUS_KEY_PARALYZE,  ANIM_Goomba_Dark_Still,
     STATUS_KEY_DIZZY,     ANIM_Goomba_Dark_Dizzy,
-    STATUS_KEY_UNUSED,      ANIM_Goomba_Dark_Dizzy,
+    STATUS_KEY_UNUSED,    ANIM_Goomba_Dark_Dizzy,
     STATUS_END,
 };
 
