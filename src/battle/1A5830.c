@@ -452,7 +452,7 @@ HitResult calc_enemy_damage_target(Actor* attacker) {
                     gBattleStatus.flags1 |= BS_FLAGS1_ATK_BLOCKED;
                     break;
                 }
-                func_80266970(target);
+                cancel_action_rating_combo(target);
             }
             break;
         case ACTOR_CLASS_PARTNER:
@@ -465,14 +465,14 @@ HitResult calc_enemy_damage_target(Actor* attacker) {
                         gBattleStatus.flags1 |= BS_FLAGS1_ATK_BLOCKED;
                         break;
                     }
-                    func_80266970(target);
+                    cancel_action_rating_combo(target);
                 }
             }
             break;
     }
 
     if (gBattleStatus.flags1 & BS_FLAGS1_TRIGGER_EVENTS) {
-        func_80266970(target);
+        cancel_action_rating_combo(target);
     }
 
     // deal damage and determine resulting battle event
