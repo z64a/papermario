@@ -649,7 +649,7 @@ void btl_check_can_change_partner(void) {
         }
 
         if (partnersEnabled >= 2) {
-            if (partner->koStatus == STATUS_KEY_DAZE) {
+            if (partner->koStatus == STATUS_KEY_KO) {
                 battleStatus->changePartnerAllowed = 0;
             } else if (partner->debuff == STATUS_KEY_FROZEN) {
                 battleStatus->changePartnerAllowed = 0;
@@ -2245,14 +2245,14 @@ s32 inflict_status(Actor* target, s32 statusTypeKey, s32 duration) {
                 target->statusAfflicted = STATUS_KEY_STONE;
             }
             return true;
-        case STATUS_KEY_DAZE:
+        case STATUS_KEY_KO:
             if (target->koStatus < statusTypeKey) {
-                target->koStatus = STATUS_KEY_DAZE;
+                target->koStatus = STATUS_KEY_KO;
                 target->koDuration = duration;
                 if ((s8)duration > 9) {
                     target->koDuration = 9;
                 }
-                target->statusAfflicted = STATUS_KEY_DAZE;
+                target->statusAfflicted = STATUS_KEY_KO;
             }
             return true;
         case STATUS_KEY_TRANSPARENT:
@@ -2275,9 +2275,9 @@ s32 inflict_status(Actor* target, s32 statusTypeKey, s32 duration) {
 }
 
 s32 inflict_partner_ko(Actor* target, s32 statusTypeKey, s32 duration) {
-    if (statusTypeKey == STATUS_KEY_DAZE) {
+    if (statusTypeKey == STATUS_KEY_KO) {
         if (statusTypeKey != target->koStatus) {
-            inflict_status(target, STATUS_KEY_DAZE, duration);
+            inflict_status(target, STATUS_KEY_KO, duration);
             sfx_play_sound(SOUND_INFLICT_KO);
         } else {
             target->koDuration += duration;
@@ -2980,7 +2980,7 @@ void btl_update_ko_status(void) {
 
     player->koDuration = player->debuffDuration;
     if (player->koDuration > 0) {
-        player->koStatus = STATUS_KEY_DAZE;
+        player->koStatus = STATUS_KEY_KO;
         player->disableEffect->data.disableX->koDuration = player->koDuration;
 
         if (koDuration == 0) {
@@ -2990,12 +2990,12 @@ void btl_update_ko_status(void) {
 
     if (partner != nullptr) {
         if (partner->koDuration < partner->debuffDuration) {
-            partner->koStatus = STATUS_KEY_DAZE;
+            partner->koStatus = STATUS_KEY_KO;
             partner->koDuration = partner->debuffDuration;
         }
 
         if (partner->koDuration > 0) {
-            partner->koStatus = STATUS_KEY_DAZE;
+            partner->koStatus = STATUS_KEY_KO;
             partner->disableEffect->data.disableX->koDuration = partner->koDuration;
         }
     }
@@ -3006,7 +3006,7 @@ void btl_update_ko_status(void) {
         if (enemy != nullptr) {
             enemy->koDuration = enemy->debuffDuration;
             if (enemy->koDuration > 0) {
-                enemy->koStatus = STATUS_KEY_DAZE;
+                enemy->koStatus = STATUS_KEY_KO;
                 enemy->disableEffect->data.disableX->koDuration = enemy->koDuration;
             }
         }

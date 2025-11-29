@@ -2875,7 +2875,7 @@ API_CALLABLE(GetStatusFlags) {
     switch (actor->koStatus) {
         case 0:
             break;
-        case STATUS_KEY_DAZE:
+        case STATUS_KEY_KO:
             flags |= STATUS_FLAG_KO;
             break;
     }

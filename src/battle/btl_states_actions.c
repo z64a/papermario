@@ -840,7 +840,7 @@ void btl_state_update_begin_player_turn(void) {
         case BTL_SUBSTATE_BEGIN_PLAYER_TURN_AWAIT_TURBO_CHARGE:
             if (0) { // TODO relocated block - required to match
 back:
-                player->koStatus = STATUS_KEY_DAZE;
+                player->koStatus = STATUS_KEY_KO;
                 player->disableEffect->data.disableX->koDuration = player->koDuration;
                 goto later;
             }
@@ -1346,7 +1346,7 @@ void btl_state_update_transfer_turn(void) {
                     oldKoDuration = actor->koDuration;
                     actor->koDuration = actor->debuffDuration;
                     if (actor->koDuration > 0) {
-                        actor->koStatus = STATUS_KEY_DAZE;
+                        actor->koStatus = STATUS_KEY_KO;
                         actor->disableEffect->data.disableX->koDuration = actor->koDuration;
                     } else if (oldKoDuration != actor->koDuration) {
                         actor->koStatus = 0;
@@ -1789,7 +1789,7 @@ void btl_state_update_victory(void) {
             gBattleStatus.flags2 &= ~BS_FLAGS2_OVERRIDE_INACTIVE_PARTNER;
 
             gBattleStatus.flags1 &= ~BS_FLAGS1_SHOW_PLAYER_DECORATIONS;
-            if (player->koStatus == STATUS_KEY_DAZE) {
+            if (player->koStatus == STATUS_KEY_KO) {
                 dispatch_event_player(EVENT_RECOVER_FROM_KO);
                 gBattleSubState = BTL_SUBSTATE_VICTORY_AWAIT_RECOVER_KO;
             }
@@ -1802,7 +1802,7 @@ void btl_state_update_victory(void) {
             player->disableEffect->data.disableX->koDuration = 0;
 
             if (partner != nullptr) {
-                if (partner->koStatus == STATUS_KEY_DAZE) {
+                if (partner->koStatus == STATUS_KEY_KO) {
                     dispatch_event_partner(EVENT_RECOVER_FROM_KO);
                     gBattleSubState = BTL_SUBSTATE_VICTORY_AWAIT_RECOVER_KO;
                 }
@@ -1961,7 +1961,7 @@ void btl_state_update_end_training_battle(void) {
             gBattleStatus.flags2 &= ~BS_FLAGS2_OVERRIDE_INACTIVE_PLAYER;
             gBattleStatus.flags2 &= ~BS_FLAGS2_OVERRIDE_INACTIVE_PARTNER;
 
-            if (player->koStatus == STATUS_KEY_DAZE) {
+            if (player->koStatus == STATUS_KEY_KO) {
                 dispatch_event_player(EVENT_RECOVER_FROM_KO);
                 gBattleSubState = BTL_SUBSTATE_END_TRAINING_AWAIT_RECOVERING;
             }
@@ -1973,7 +1973,7 @@ void btl_state_update_end_training_battle(void) {
             player->koDuration = 0;
             player->disableEffect->data.disableX->koDuration = 0;
             if (partner != nullptr) {
-                if (partner->koStatus == STATUS_KEY_DAZE) {
+                if (partner->koStatus == STATUS_KEY_KO) {
                     dispatch_event_partner(EVENT_RECOVER_FROM_KO);
                     gBattleSubState = BTL_SUBSTATE_END_TRAINING_AWAIT_RECOVERING;
                 }
@@ -3297,7 +3297,7 @@ void btl_state_update_partner_move(void) {
 
             btl_update_ko_status();
 
-            if (partner->statusAfflicted == STATUS_KEY_DAZE && !btl_are_all_enemies_defeated()) {
+            if (partner->statusAfflicted == STATUS_KEY_KO && !btl_are_all_enemies_defeated()) {
                 btl_cam_use_preset(BTL_CAM_PARTNER_INJURED);
                 btl_show_battle_message(BTL_MSG_PARTNER_INJURED, 60);
                 partner->statusAfflicted = 0;
@@ -3762,7 +3762,7 @@ void btl_state_update_enemy_move(void) {
     switch (gBattleSubState) {
         case BTL_SUBSTATE_ENEMY_MOVE_CHECK_PARTNER:
             if (partner != nullptr) {
-                if (partner->statusAfflicted == STATUS_KEY_DAZE) {
+                if (partner->statusAfflicted == STATUS_KEY_KO) {
                     player->flags |= ACTOR_FLAG_SHOW_STATUS_ICONS | ACTOR_FLAG_USING_IDLE_ANIM;
                     partner->flags |= ACTOR_FLAG_SHOW_STATUS_ICONS | ACTOR_FLAG_USING_IDLE_ANIM;
                     btl_cam_use_preset(BTL_CAM_PARTNER_INJURED);

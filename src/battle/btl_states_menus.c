@@ -2460,7 +2460,7 @@ s32 btl_player_can_act(void) {
         s8 debuff = player->debuff;
         s32 playerCantMove = false;
 
-        if (player->koStatus == STATUS_KEY_DAZE) {
+        if (player->koStatus == STATUS_KEY_KO) {
             playerCantMove = true;
         }
         if (debuff == STATUS_KEY_POISON) {
@@ -2504,7 +2504,7 @@ s32 btl_menu_can_player_move(void) {
     s8 debuff = player->debuff;
     s32 playerCantMove = false;
 
-    if (player->koStatus == STATUS_KEY_DAZE) {
+    if (player->koStatus == STATUS_KEY_KO) {
         playerCantMove = true;
     }
     if (debuff == STATUS_KEY_POISON) {
@@ -2556,7 +2556,7 @@ s32 btl_partner_can_act(void) {
     partnerDebuff = partner->debuff;
     partnerCantMove = false;
 
-    if (partner->koStatus == STATUS_KEY_DAZE) {
+    if (partner->koStatus == STATUS_KEY_KO) {
         partnerCantMove = true;
     }
     if (partnerDebuff == STATUS_KEY_POISON) {
@@ -5085,7 +5085,7 @@ void btl_state_update_twink_menu(void) {
             if (player->stoneStatus == STATUS_KEY_STONE) {
                 shouldSkipTurn = true;
             }
-            if (player->koStatus == STATUS_KEY_DAZE) {
+            if (player->koStatus == STATUS_KEY_KO) {
                 shouldSkipTurn = true;
             }
 
