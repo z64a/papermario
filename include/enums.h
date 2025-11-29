@@ -2831,7 +2831,7 @@ enum Buttons {
 };
 
 enum PlayerBuffs {
-    PLAYER_BUFF_ALL             = 0xFFFFFFFF,
+    PLAYER_BUFF_ALL             = 0x0FFFFFFF,
     PLAYER_BUFF_JUMP_CHARGE     = 0x00000001,
     PLAYER_BUFF_HAMMER_CHARGE   = 0x00000002,
     PLAYER_BUFF_STONE           = 0x00000008,
@@ -2868,21 +2868,21 @@ enum StatusFlags {
 
 // general combination of flags for checking if an enemy is immobilized
 #define STATUS_FLAGS_IMMOBILIZED \
-     (STATUS_FLAG_SLEEP \
+    ( STATUS_FLAG_SLEEP \
     | STATUS_FLAG_FROZEN \
     | STATUS_FLAG_UNUSED \
     | STATUS_FLAG_PARALYZE \
     | STATUS_FLAG_DIZZY \
     | STATUS_FLAG_STONE \
-    | STATUS_FLAG_STOP)
+    | STATUS_FLAG_STOP )
 
 // common set of flags used in checks throughout Dojo fights
 #define STATUS_FLAGS_DOJO \
-     (STATUS_FLAG_SLEEP \
+    ( STATUS_FLAG_SLEEP \
     | STATUS_FLAG_PARALYZE \
     | STATUS_FLAG_DIZZY \
     | STATUS_FLAG_STONE \
-    | STATUS_FLAG_STOP)
+    | STATUS_FLAG_STOP )
 
 enum DamageTypes {
     DAMAGE_TYPE_FIRE                       = 0x00000002,
