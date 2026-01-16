@@ -603,7 +603,7 @@ void render_workers_frontUI(void);
 void render_screen_overlay_frontUI(void);
 void render_curtains(void);
 void fio_init_flash(void);
-void func_80028838(void);
+void clear_input(void);
 void clear_screen_overlays(void);
 void reset_ambient_sounds(void);
 void poll_rumble(void);
