@@ -4,8 +4,8 @@
 OSContPad ContPadData;
 BSS s16 StickExtremeX;
 BSS s16 StickExtremeY;
-BSS s16 StickAnchorStateX;
-BSS s16 StickAnchorStateY;
+BSS s16 StickRetriggerStateX;
+BSS s16 StickRetriggerStateY;
 BSS s32 D_8009A6A8; // unused
 
 #define STICK_DEADZONE_THRESHOLD 4
@@ -26,8 +26,8 @@ BSS s32 D_8009A6A8; // unused
  *   and a new input may be triggered *without* having to fully return the stick to neutral.
  */
 enum {
-    STATE_BUILDUP = 0, // track outward extremes while the stick is pressed past the threshold
-    STATE_RELEASE = 1, // track inward motion and determine when the stick direction should be released
+    DIR_OUTWARD = 0, // track outward extremes while the stick is pressed past the threshold
+    DIR_INWARD = 1, // track inward motion and determine when the stick direction should be released
 };
 
 void reset_input_state(void) {
@@ -47,8 +47,8 @@ void clear_input(void) {
     reset_input_state();
     StickExtremeX = 0;
     StickExtremeY = 0;
-    StickAnchorStateX = STATE_BUILDUP;
-    StickAnchorStateY = STATE_BUILDUP;
+    StickRetriggerStateX = DIR_OUTWARD;
+    StickRetriggerStateY = DIR_OUTWARD;
 }
 
 void update_input(void) {
@@ -120,13 +120,13 @@ void update_input(void) {
         buttons |= BUTTON_STICK_RIGHT;
         if (!(gGameStatusPtr->prevButtons[0] & BUTTON_STICK_RIGHT)) {
             StickExtremeX = stickX;
-        } else if (StickAnchorStateX == STATE_BUILDUP) {
-            // track largest value during STATE_BUILDUP
+        } else if (StickRetriggerStateX == DIR_OUTWARD) {
+            // track largest value during DIR_OUTWARD
             if (StickExtremeX < stickX) {
                 StickExtremeX = stickX;
             }
         } else {
-            // track smallest value during STATE_RELEASE
+            // track smallest value during DIR_INWARD
             if (StickExtremeX > stickX) {
                 StickExtremeX = stickX;
             }
@@ -139,7 +139,7 @@ void update_input(void) {
         buttons |= BUTTON_STICK_LEFT;
         if (!(gGameStatusPtr->prevButtons[0] & BUTTON_STICK_LEFT)) {
             StickExtremeX = stickX;
-        } else if (StickAnchorStateX == STATE_BUILDUP) {
+        } else if (StickRetriggerStateX == DIR_OUTWARD) {
             if (StickExtremeX > stickX) {
                 StickExtremeX = stickX;
             }
@@ -152,7 +152,7 @@ void update_input(void) {
     }
 
     if (!stickButtonDetected) {
-        StickAnchorStateX = STATE_BUILDUP;
+        StickRetriggerStateX = DIR_OUTWARD;
         StickExtremeX = stickX;
     }
 
@@ -163,7 +163,7 @@ void update_input(void) {
         buttons |= BUTTON_STICK_UP;
         if (!(gGameStatusPtr->prevButtons[0] & BUTTON_STICK_UP)) {
             StickExtremeY = stickY;
-        } else if (StickAnchorStateY == STATE_BUILDUP) {
+        } else if (StickRetriggerStateY == DIR_OUTWARD) {
             if (StickExtremeY < stickY) {
                 StickExtremeY = stickY;
             }
@@ -180,7 +180,7 @@ void update_input(void) {
         buttons |= BUTTON_STICK_DOWN;
         if (!(gGameStatusPtr->prevButtons[0] & BUTTON_STICK_DOWN)) {
             StickExtremeY = stickY;
-        } else if (StickAnchorStateY == STATE_BUILDUP) {
+        } else if (StickRetriggerStateY == DIR_OUTWARD) {
             if (StickExtremeY > stickY) {
                 StickExtremeY = stickY;
             }
@@ -192,51 +192,51 @@ void update_input(void) {
     }
 
     if (!stickButtonDetected) {
-        StickAnchorStateY = STATE_BUILDUP;
+        StickRetriggerStateY = DIR_OUTWARD;
         StickExtremeY = stickY;
     }
 
     if (stickX > STICK_BUTTON_THRESHOLD) {
         // if stick changes direction of motion during a release (from inward back to outward),
-        // clear the old input and reset to BUILDUP in preparation for a new input. this allows quick
+        // clear the old input and reset to DIR_OUTWARD in preparation for a new input. this allows quick
         // repeated inputs by rocking the stick without having to fully return to neutral between each.
-        if (StickAnchorStateX == STATE_RELEASE && stickX - StickExtremeX > STICK_RELEASE_THRESHOLD) {
+        if (StickRetriggerStateX == DIR_INWARD && stickX - StickExtremeX > STICK_RELEASE_THRESHOLD) {
             buttons &= ~BUTTON_STICK_RIGHT;
-            StickAnchorStateX = STATE_BUILDUP;
+            StickRetriggerStateX = DIR_OUTWARD;
         }
-        // if we ever fall STICK_RELEASE_THRESHOLD units below the maximum value recorded, begin RELEASE checks
+        // if we ever fall RELEASE_THRESHOLD units below the maximum value recorded, begin DIR_INWARD reversal checks
         if (StickExtremeX - stickX > STICK_RELEASE_THRESHOLD) {
-            StickAnchorStateX = STATE_RELEASE;
+            StickRetriggerStateX = DIR_INWARD;
         }
     }
 
     if (stickX < -STICK_BUTTON_THRESHOLD) {
-        if (StickAnchorStateX == STATE_RELEASE && StickExtremeX - stickX > STICK_RELEASE_THRESHOLD) {
+        if (StickRetriggerStateX == DIR_INWARD && StickExtremeX - stickX > STICK_RELEASE_THRESHOLD) {
             buttons &= ~BUTTON_STICK_LEFT;
-            StickAnchorStateX = STATE_BUILDUP;
+            StickRetriggerStateX = DIR_OUTWARD;
         }
         if (stickX - StickExtremeX > STICK_RELEASE_THRESHOLD) {
-            StickAnchorStateX = STATE_RELEASE;
+            StickRetriggerStateX = DIR_INWARD;
         }
     }
 
     if (stickY > STICK_BUTTON_THRESHOLD) {
-        if (StickAnchorStateY == STATE_RELEASE && stickY - StickExtremeY > STICK_RELEASE_THRESHOLD) {
+        if (StickRetriggerStateY == DIR_INWARD && stickY - StickExtremeY > STICK_RELEASE_THRESHOLD) {
             buttons &= ~BUTTON_STICK_UP;
-            StickAnchorStateY = STATE_BUILDUP;
+            StickRetriggerStateY = DIR_OUTWARD;
         }
         if (StickExtremeY - stickY > STICK_RELEASE_THRESHOLD) {
-            StickAnchorStateY = STATE_RELEASE;
+            StickRetriggerStateY = DIR_INWARD;
         }
     }
 
     if (stickY < -STICK_BUTTON_THRESHOLD) {
-        if (StickAnchorStateY == STATE_RELEASE && StickExtremeY - stickY > STICK_RELEASE_THRESHOLD) {
+        if (StickRetriggerStateY == DIR_INWARD && StickExtremeY - stickY > STICK_RELEASE_THRESHOLD) {
             buttons &= ~BUTTON_STICK_DOWN;
-            StickAnchorStateY = STATE_BUILDUP;
+            StickRetriggerStateY = DIR_OUTWARD;
         }
         if (stickY - StickExtremeY > STICK_RELEASE_THRESHOLD) {
-            StickAnchorStateY = STATE_RELEASE;
+            StickRetriggerStateY = DIR_INWARD;
         }
     }
 
@@ -248,7 +248,7 @@ void update_input(void) {
             gGameStatusPtr->heldButtons[0] = 0;
         } else if (gGameStatusPtr->prevButtons[0] != gGameStatusPtr->curButtons[0]) {
             // buttons changed this frame: treat new presses as an immediate "held" pulse
-            gGameStatusPtr->heldButtons[0] = gGameStatusPtr->pressedButtons[0];
+            gGameStatusPtr->heldButtons[0] = gGameStatusPtr->curButtons[0];
             // NOTE: next two lines are just a duplicate calculation for heldButtons = pressedButtons
             gGameStatusPtr->heldButtons[0] = gGameStatusPtr->curButtons[0] ^ gGameStatusPtr->prevButtons[0];
             gGameStatusPtr->heldButtons[0] &= gGameStatusPtr->curButtons[0];
