@@ -5111,7 +5111,7 @@ enum ImgFXStateFlags {
     IMGFX_FLAG_8                    = 0x00000008,
     IMGFX_FLAG_SKIP_GFX_SETUP       = 0x00000010,
     IMGFX_FLAG_SKIP_TEX_SETUP       = 0x00000020,
-    IMGFX_FLAG_40                   = 0x00000040,
+    IMGFX_FLAG_SKIP_ZBUF            = 0x00000040,
     IMGFX_FLAG_LOOP_ANIM            = 0x00000080,
     IMGFX_FLAG_REVERSE_ANIM         = 0x00000100, // fold animation plays backwards (from end to start)
     IMGFX_FLAG_200                  = 0x00000200,
