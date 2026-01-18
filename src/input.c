@@ -14,9 +14,9 @@ BSS s32 D_8009A6A8; // unused
 
 /*
  * When converting analog stick input into digital direction buttons (BUTTON_STICK_LEFT/RIGHT/UP/DOWN),
- * small oscillations near the threshold can trigger rapid spurious stick 'button' inputs.
- * This input system tracks recent stick positions by recording most recent 'extreme' values of StickX/Y
- * along with movement direction.
+ * small oscillations near the threshold could trigger rapid spurious stick 'button' inputs. This code
+ * prevents such inputs by recording the most recent 'extreme' values of StickX/Y along with the direction
+ * of motion, inward or outward, and then only counting directional reversals from those extremes.
  *
  * How it works:
  * - When the stick crosses the main threshold (|stick| > 32), the corresponding digital stick 'button' is set.
