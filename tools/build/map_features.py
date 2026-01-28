@@ -53,7 +53,7 @@ class MarkerType(str, Enum):
     Path = "Path"
     NPC = "NPC"
     Entity = "Entity"
-    BlockGrid = "Push Block Grid"
+    BlockGrid = "BlockGrid"
     CamTarget = "Camera Target"
 
 
@@ -409,7 +409,7 @@ def add_tex_panners(lines: list[str], json_map: JsonMap) -> None:
 
         max_uv, step_uv, freq, init_uv = p.get_output()
 
-        lines.append(f"#define TEX_PANNER_{p.id:X} \\")
+        lines.append(f"#define {GEN_PREFIX}TEX_PANNER_{p.id:X} \\")
 
         lines.append(f"    TEX_PAN_PARAMS_ID(TEX_PANNER_{p.id:X}) \\")
 
@@ -435,14 +435,14 @@ def add_block_grid_defines(lines: list[str], marker: JsonMarker, namespace: str)
     px, py, pz = marker.pos
 
     gi = marker.gridComp.gridIndex
-    size_x = m.gridComp.gridSizeX
-    size_z = m.gridComp.gridSizeZ
+    size_x = marker.gridComp.gridSizeX
+    size_z = marker.gridComp.gridSizeZ
 
     lines.append(
         f"#define {namespace}_GRID_PARAMS {gi}, {size_x}, {size_z}, {px}, {py}, {pz}, {NULL_STR}"
     )
 
-    occs = m.gridComp.occupants or []
+    occs = marker.gridComp.occupants or []
     if len(occs) == 0:
         lines.append(f"#define {namespace}_GRID_CONTENT \\")
         lines.append("    Set(LVar0, LVar0) \\") # NOP
@@ -454,12 +454,12 @@ def add_block_grid_defines(lines: list[str], marker: JsonMarker, namespace: str)
     # fill occupants: grid[x][z] = typeID
     for occ in occs:
         if len(occ) < 3:
-            raise ValueError(f"BlockGrid marker '{m.name}' has malformed occupant {occ!r}")
+            raise ValueError(f"BlockGrid marker '{marker.name}' has malformed occupant {occ!r}")
         ox, oz, type_id = occ[0], occ[1], occ[2]
 
         if not (0 <= ox < size_x and 0 <= oz < size_z):
             raise ValueError(
-                f"BlockGrid marker '{m.name}' occupant out of bounds: x={ox}, z={oz}, "
+                f"BlockGrid marker '{marker.name}' occupant out of bounds: x={ox}, z={oz}, "
                 f"gridSizeX={size_x}, gridSizeZ={size_z}"
             )
         grid[ox][oz] = int(type_id)
