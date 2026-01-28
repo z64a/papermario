@@ -327,6 +327,8 @@ def write_ninja_rules(
 
     ninja.rule("pm_sbn", command=f"$python {BUILD_TOOLS}/audio/sbn.py $out $asset_stack")
 
+    ninja.rule("map_features", command=f"$python {BUILD_TOOLS}/map_features.py $map_dir")
+
     with Path("tools/permuter_settings.toml").open("w") as f:
         f.write(f"compiler_command = \"{cc} {CPPFLAGS.replace('$version', 'pal')} {cflags} -DPERMUTER -fforce-addr\"\n")
         f.write(f'assembler_command = "{cross}as -EB -march=vr4300 -mtune=vr4300 -Iinclude"\n')
@@ -613,6 +615,25 @@ class Configure:
             [Path("src/move_table.yaml")],
             "move_data",
         )
+
+        map_root = Path("src/world")
+        for area_dir in sorted(map_root.glob("area_*")):
+            if not area_dir.is_dir():
+                continue
+            for map_dir in sorted(area_dir.iterdir()):
+                if not map_dir.is_dir():
+                    continue
+                features_json = map_dir / "features.json"
+                if not features_json.exists():
+                    continue
+                build(
+                    map_dir / "generated.h",
+                    [features_json],
+                    "map_features",
+                    variables={
+                        "map_dir": str(map_dir),
+                    },
+                )
 
         item_table_data = Path("src/item_table.yaml")
         if self.version == "pal":
