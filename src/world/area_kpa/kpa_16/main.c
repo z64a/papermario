@@ -19,7 +19,7 @@ EvtScript N(EVS_EnterMap) = {
 
 EvtScript N(EVS_TexPan_Steam) = {
     Thread
-        TEX_PAN_PARAMS_SKIP_ID(TEX_PANNER_2)
+        TEX_PAN_SKIP_PARAMS_ID(TEX_PANNER_2)
         TEX_PAN_PARAMS_STEP(    0,  400,    0,  800)
         TEX_PAN_PARAMS_FREQ(    0,    1,    0,    1)
         TEX_PAN_PARAMS_INIT(    0,    0,    0,    0)

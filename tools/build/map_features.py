@@ -15,6 +15,8 @@ from pydantic import BaseModel, ConfigDict
 GEN_PREFIX = "GEN_"
 NULL_STR = "nullptr"
 
+matching = True
+
 
 def clean_name(name: str) -> str:
     # remove non-alphanumeric and non-whitespace characters
@@ -579,10 +581,11 @@ def add_markers(lines: list[str], json_map: JsonMap) -> None:
                 x1, y1, z1 = (int(round(v)) for v in m.volComp.minPos[:3])
                 x2, y2, z2 = (int(round(v)) for v in m.volComp.maxPos[:3])
 
-                # ensure min <= max per axis
-                if x2 < x1: x1, x2 = x2, x1
-                if y2 < y1: y1, y2 = y2, y1
-                if z2 < z1: z1, z2 = z2, z1
+                if not matching:
+                    # ensure min <= max per axis
+                    if x2 < x1: x1, x2 = x2, x1
+                    if y2 < y1: y1, y2 = y2, y1
+                    if z2 < z1: z1, z2 = z2, z1
 
                 lines.append(f"#define {namespace}_MIN_X {x1}")
                 lines.append(f"#define {namespace}_MIN_Y {y1}")

@@ -68,7 +68,7 @@ EvtScript N(EVS_Main) = {
         EndThread
     Else
         Thread
-            TEX_PAN_PARAMS_SKIP_ID(TEX_PANNER_1)
+            TEX_PAN_SKIP_PARAMS_ID(TEX_PANNER_1)
             TEX_PAN_PARAMS_STEP( -400, -150, -200,   60)
             TEX_PAN_PARAMS_FREQ(    1,    1,    1,    1)
             TEX_PAN_PARAMS_INIT(    0,    0,    0,    0)
