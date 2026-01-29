@@ -1,7 +1,16 @@
 
 
 #define TEX_PAN_SKIP_PARAMS_ID(panID) \
-        Set(LVar0, (panID))
+        TEX_PAN_PARAMS_ID(panID)
+
+#define TEX_PAN_SKIP_PARAMS_STEP(main_step_du, main_step_dv, aux_step_du, aux_step_dv) \
+        TEX_PAN_PARAMS_STEP(main_step_du, main_step_dv, aux_step_du, aux_step_dv)
+
+#define TEX_PAN_SKIP_PARAMS_FREQ(main_freq_u, main_freq_v, aux_freq_u, aux_freq_v) \
+        TEX_PAN_PARAMS_FREQ(main_freq_u, main_freq_v, aux_freq_u, aux_freq_v)
+
+#define TEX_PAN_SKIP_PARAMS_INIT(main_init_u, main_init_v, aux_init_u, aux_init_v) \
+        TEX_PAN_PARAMS_INIT(main_init_u, main_init_v, aux_init_u, aux_init_v)
 
 #define TEX_PAN_PARAMS_ID(panID) \
         Set(LVar0, (panID))
