@@ -1,3 +1,8 @@
+
+
+#define TEX_PAN_PARAMS_SKIP_ID(panID) \
+        Set(LVar0, (panID))
+
 #define TEX_PAN_PARAMS_ID(panID) \
         Set(LVar0, (panID))
 

@@ -464,6 +464,49 @@ def add_block_grid_defines(lines: list[str], marker: JsonMarker, namespace: str)
             )
         grid[ox][oz] = int(type_id)
 
+    lines.append(f"#define {namespace}_GRID_CONTENT \\")
+    for j in range(size_z):
+        for i in range(size_x):
+            cur = grid[i][j]
+            if cur == 0:
+                lines.append(f"    Call(SetPushBlock, {gi}, {i}, {j}, PUSH_GRID_OBSTRUCTION) \\")
+            else:
+                lines.append(f"    Call(SetPushBlock, {gi}, {i}, {j}, PUSH_GRID_BLOCK) \\")
+
+
+def add_block_grid_defines_dx(lines: list[str], marker: JsonMarker, namespace: str) -> None:
+    px, py, pz = marker.pos
+
+    gi = marker.gridComp.gridIndex
+    size_x = marker.gridComp.gridSizeX
+    size_z = marker.gridComp.gridSizeZ
+
+    lines.append(
+        f"#define {namespace}_GRID_PARAMS {gi}, {size_x}, {size_z}, {px}, {py}, {pz}, {NULL_STR}"
+    )
+
+    occs = marker.gridComp.occupants or []
+    if len(occs) == 0:
+        lines.append(f"#define {namespace}_GRID_CONTENT \\")
+        lines.append("    Set(LVar0, LVar0) \\") # NOP
+        return
+
+    # build grid[sizeX][sizeZ] filled with 0
+    grid = [[0 for _ in range(size_z)] for _ in range(size_x)]
+
+    # fill occupants: grid[x][z] = typeID
+    for occ in occs:
+        if len(occ) < 3:
+            raise ValueError(f"BlockGrid marker '{marker.name}' has malformed occupant {occ!r}")
+        ox, oz, type_id = occ[0], occ[1], occ[2]
+
+        if not (0 <= ox < size_x and 0 <= oz < size_z):
+            raise ValueError(
+                f"BlockGrid marker '{marker.name}' occupant out of bounds: x={ox}, z={oz}, "
+                f"gridSizeX={size_x}, gridSizeZ={size_z}"
+            )
+        grid[ox][oz] = int(type_id)
+
     # optimize using FillPushBlockZ: scan each Z row, compress runs across X
     lines.append(f"#define {namespace}_GRID_CONTENT \\")
     for j in range(size_z):

@@ -520,6 +520,15 @@ typedef s32 Difficulty2D[AC_DIFFICULTY_LEN][2];
 #define PM_CC_CONST_0               0, 0, 0, 0, 0, 0, 0, 0
 #define PM_CC_CONST_1               0, 0, 0, 1, 0, 0, 0, 1
 
+#define EVT_MAKE_ITEM_ENTITY(args...) \
+    Call(MakeItemEntity, args)
+
+#define EVT_MAKE_ENTITY(type, args...) \
+    Call(MakeEntity, Ref(Entity_##type), args, MAKE_ENTITY_END)
+
+#define GEN_FLOWER_SPAWN_REGION(args...) \
+    EVT_FLOWER_SPAWN_REGION(args)
+
 #ifdef OLD_GCC
 #define VLA 0
 #else

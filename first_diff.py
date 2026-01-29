@@ -74,9 +74,16 @@ def search_rom_address(target_addr):
                 if ".bss" in line or ".bss" in prev_line:
                     ram_offset = None
                     continue
-                ram = int(line[16 : 16 + 18], 0)
-                rom = int(line[59 : 59 + 18], 0)
-                ram_offset = ram - rom
+
+                parts = line.split()
+                # Find the first two hex-ish tokens on the line
+                hexes = [p for p in parts if p.startswith("0x")]
+                if len(hexes) >= 2:
+                    ram = int(hexes[0], 0)
+                    rom = int(hexes[1], 0)
+                    ram_offset = ram - rom
+                else:
+                    ram_offset = None
                 continue
 
             prev_line = line
@@ -122,9 +129,15 @@ def parse_map(map_fname):
     with open(map_fname) as f:
         for line in f:
             if "load address" in line:
-                ram = int(line[16 : 16 + 18], 0)
-                rom = int(line[59 : 59 + 18], 0)
-                ram_offset = ram - rom
+                parts = line.split()
+                # Find the first two hex-ish tokens on the line
+                hexes = [p for p in parts if p.startswith("0x")]
+                if len(hexes) >= 2:
+                    ram = int(hexes[0], 0)
+                    rom = int(hexes[1], 0)
+                    ram_offset = ram - rom
+                else:
+                    ram_offset = None
                 continue
 
             prev_line = line
