@@ -213,6 +213,7 @@ class JsonDetectData(Model):
     center: List[int]
     useCircle: bool
     radius: int
+    height: Optional[int] = None
     sizeX: int
     sizeZ: int
 
@@ -223,7 +224,6 @@ class JsonWanderData(Model):
     radius: int
     sizeX: int
     sizeZ: int
-
     overrideSpeed: bool
     speed: float
 
@@ -238,7 +238,6 @@ class JsonSpriteData(Model):
     id: int
     palette: int
     anim: int
-
     animName: Optional[str] = None
     flipX: bool
     flipY: bool
@@ -433,6 +432,92 @@ def add_tex_panners(lines: list[str], json_map: JsonMap) -> None:
         lines.append("")
 
 
+def add_npc_defines(lines: list[str], npc: JsonNpcComp, namespace: str) -> None:
+    is_flying = "TRUE" if npc.flying else "FALSE"
+
+    def speed_override_text(override: bool, speed: float) -> str:
+        if override:
+            return f"OVERRIDE_MOVEMENT_SPEED({speed:f})"
+        return "NO_OVERRIDE_MOVEMENT_SPEED"
+
+    lines.append(f"#define {namespace}_TERRITORY \\")
+
+    if npc.moveType == MoveType.Wander and npc.wander is not None:
+        spd = speed_override_text(npc.wander.overrideSpeed, npc.wander.speed)
+
+        cx, cy, cz = npc.wander.center
+        lines.append("{ \\")
+        lines.append("    .wander = { \\")
+        lines.append(f"        .centerPos   = {{ {cx}, {cy}, {cz} }}, \\")
+
+        if npc.wander.useCircle:
+            lines.append(f"        .wanderSize  = {{ {npc.wander.radius} }}, \\")
+            wander_shape = "SHAPE_CYLINDER"
+        else:
+            lines.append(f"        .wanderSize  = {{ {npc.wander.sizeX}, {npc.wander.sizeZ} }}, \\")
+            wander_shape = "SHAPE_RECT"
+
+        lines.append(f"        .moveSpeedOverride = {spd}, \\")
+        lines.append(f"        .wanderShape = {wander_shape}, \\")
+
+        if npc.detect is None:
+            raise ValueError("NPC Wander territory requires detect data")
+
+        dx, dy, dz = npc.detect.center
+        lines.append(f"        .detectPos   = {{ {dx}, {dy}, {dz} }}, \\")
+
+        if npc.detect.useCircle:
+            lines.append(f"        .detectSize  = {{ {npc.detect.radius}, {npc.detect.height} }}, \\")
+            detect_shape = "SHAPE_CYLINDER"
+        else:
+            lines.append(f"        .detectSize  = {{ {npc.detect.sizeX}, {npc.detect.sizeZ} }}, \\")
+            detect_shape = "SHAPE_RECT"
+
+        lines.append(f"        .detectShape = {detect_shape}, \\")
+        lines.append(f"        .isFlying = {is_flying}, \\")
+        lines.append("    }, \\")
+        lines.append("}") # no line continuation
+
+    elif npc.moveType == MoveType.Patrol and npc.patrol is not None:
+        spd = speed_override_text(npc.patrol.overrideSpeed, npc.patrol.speed)
+
+        pts = npc.patrol.points or []
+        lines.append("{ \\")
+        lines.append("    .patrol = { \\")
+        lines.append(f"        .numPoints = {len(pts)}, \\")
+        lines.append("        .points = { \\")
+
+        for p in pts:
+            if p is None or len(p) != 3:
+                continue
+            x, y, z = p
+            lines.append(f"            {{ {x}, {y}, {z} }}, \\")
+
+        lines.append("        }, \\")
+        lines.append(f"        .moveSpeedOverride = {spd}, \\")
+
+        if npc.detect is None:
+            raise ValueError("NPC Patrol territory requires detect data")
+
+        dx, dy, dz = npc.detect.center
+        lines.append(f"        .detectPos   = {{ {dx}, {dy}, {dz} }}, \\")
+
+        if npc.detect.useCircle:
+            lines.append(f"        .detectSize  = {{ {npc.detect.radius}, {npc.detect.height} }}, \\")
+            detect_shape = "SHAPE_CYLINDER"
+        else:
+            lines.append(f"        .detectSize  = {{ {npc.detect.sizeX}, {npc.detect.sizeZ} }}, \\")
+            detect_shape = "SHAPE_RECT"
+
+        lines.append(f"        .detectShape = {detect_shape}, \\")
+        lines.append(f"        .isFlying = {is_flying}, \\")
+        lines.append("    }, \\")
+        lines.append("}") # no line continuation
+
+    else:
+        lines.append("{}") # no line continuation
+
+
 def add_block_grid_defines(lines: list[str], marker: JsonMarker, namespace: str) -> None:
     px, py, pz = marker.pos
 
@@ -608,7 +693,8 @@ def add_markers(lines: list[str], json_map: JsonMap) -> None:
             case MarkerType.NPC:
                 if m.npcComp is None:
                     raise ValueError(f"NPC marker '{m.name}' missing npcComp")
-                m.npcComp.add_header_defines(h)
+
+                add_npc_defines(lines, m.npcComp, namespace)
 
             case MarkerType.Entity:
                 if m.entityComp is None:
@@ -638,11 +724,10 @@ def add_markers(lines: list[str], json_map: JsonMap) -> None:
 def render_header(map_name: str, features_path: Path | None, json_map: JsonMap) -> str:
     lines: list[str] = []
     lines.append("// Auto-generated from features.json. Do not edit.")
-    lines.append(f"// Map: {map_name}")
     lines.append("")
 
-    if json_map.locationName != None:
-        lines.append(f"#define MAP_LOCATION {json_map.locationName}")
+    if json_map.locationName is not None:
+        lines.append(f"#define {GEN_PREFIX}MAP_LOCATION {json_map.locationName}")
 
     lines.append("")
 
