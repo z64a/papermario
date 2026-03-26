@@ -148,7 +148,7 @@ EvtScript N(EVS_MakeEntities) = {
         Set(MV_Unk_00, LVar0)
     EndIf
     IfLe(GB_StoryProgress, STORY_CH1_DEFEATED_BASEMENT_GUARD)
-        Call(MakeEntity, Ref(Entity_BlueSwitch), NPC_DISPOSE_LOCATION, 0, MAKE_ENTITY_END)
+        Call(MakeEntity, Ref(Entity_BlueSwitch), 0, -1000, 0, 0, MAKE_ENTITY_END)
         Call(AssignSwitchFlag, EVT_INDEX_OF_AREA_FLAG(AF_TRD04_LowerStairs))
         Set(MV_EntityID_Switch, LVar0)
         IfEq(GB_StoryProgress, STORY_CH1_DEFEATED_BASEMENT_GUARD)

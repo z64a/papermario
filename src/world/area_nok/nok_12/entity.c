@@ -61,7 +61,7 @@ EvtScript N(EVS_MakeEntities) = {
             Call(MakeEntity, Ref(Entity_BlueSwitch), -470, 0, -150, 0, MAKE_ENTITY_END)
             Call(AssignSwitchFlag, EVT_INDEX_OF_AREA_FLAG(AF_NOK12_HitSwitch))
         Else
-            Call(MakeEntity, Ref(Entity_BlueSwitch), NPC_DISPOSE_LOCATION, 0, MAKE_ENTITY_END)
+            Call(MakeEntity, Ref(Entity_BlueSwitch), 0, -1000, 0, 0, MAKE_ENTITY_END)
             Call(AssignSwitchFlag, EVT_INDEX_OF_AREA_FLAG(AF_NOK12_HitSwitch))
             Set(MV_SwitchEntityID, LVar0)
         EndIf
