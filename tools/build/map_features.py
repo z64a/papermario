@@ -6,7 +6,7 @@ import argparse
 import json
 import re
 from pathlib import Path
-from typing import Optional, List
+from typing import Optional, List, ClassVar
 from enum import Enum
 from pydantic import BaseModel, ConfigDict
 
@@ -24,6 +24,10 @@ def clean_name(name: str) -> str:
     # replace any whitespace with underscore
     s = re.sub(r"\s+", "_", s)
     return s
+
+
+def is_blank(s: str | None) -> bool:
+    return not bool(s and s.strip())
 
 
 class EntranceType(str, Enum):
@@ -519,13 +523,16 @@ def add_npc_defines(lines: list[str], npc: JsonNpcComp, namespace: str) -> None:
 
 
 def add_block_grid_defines(lines: list[str], marker: JsonMarker, namespace: str) -> None:
+    assert marker.gridComp is not None
+    grid = marker.gridComp
+
     px, py, pz = marker.pos
 
-    gi = marker.gridComp.gridIndex
-    size_x = marker.gridComp.gridSizeX
-    size_z = marker.gridComp.gridSizeZ
-    occupants = marker.gridComp.occupants or []
-    useGravity = marker.gridComp.gridUseGravity
+    gi = grid.gridIndex
+    size_x = grid.gridSizeX
+    size_z = grid.gridSizeZ
+    occupants = grid.occupants or []
+    useGravity = grid.gridUseGravity
 
     lines.append(
         f"#define {namespace}_GRID_PARAMS {gi}, {size_x}, {size_z}, {px}, {py}, {pz}, {NULL_STR}"
@@ -617,7 +624,246 @@ def add_block_grid_defines_dx(lines: list[str], marker: JsonMarker, namespace: s
             i = end + 1
 
 
+def add_entity_defines(lines: list[str], ent: JsonEntityComp, namespace: str, marker_lookup: dict[str, JsonMarker]) -> None:
+    # special case item entities
+    if ent.type is EntityType.Item:
+        add_entity_item_defines(lines, ent, namespace)
+        return
+
+    # collect type specific arg defines and setup script body
+    args: list[str] = []
+    body: list[str] = []
+
+    args.append(f"#define {namespace}_TYPE Entity_{ent.type.value}")
+    body.append(f"#define {namespace}_BODY \\")
+    body.append(f"    EVT_MAKE_ENTITY({namespace}_TYPE, {namespace}_ARGS) \\")
+
+    match ent.type:
+        case EntityType.Item:
+            # already handled
+            return
+
+        case (
+            EntityType.SavePoint
+            | EntityType.Padlock
+            | EntityType.PadlockRedFrame
+            | EntityType.PadlockRedFace
+            | EntityType.PadlockBlueFace
+            | EntityType.CymbalPlant
+            | EntityType.PinkFlower
+            | EntityType.BellbellPlant
+            | EntityType.TrumpetPlant
+            | EntityType.Munchlesia
+        ):
+            # basic entities only need position and yaw
+            args.append(f"#define {namespace}_ARGS {namespace}_VEC, {namespace}_DIR")
+
+        case (
+            EntityType.BrickBlock
+            | EntityType.TriggerBlock
+            | EntityType.InertYellowBlock
+            | EntityType.PowBlock
+            | EntityType.RedSwitch
+            | EntityType.GreenStompSwitch
+            | EntityType.Signpost
+            | EntityType.BoardedFloor
+            | EntityType.ScriptSpring
+            | EntityType.StarBoxLauncher
+            | EntityType.BombableRock
+            | EntityType.BombableRockWide
+            | EntityType.Hammer1Block
+            | EntityType.Hammer1BlockWideX
+            | EntityType.Hammer1BlockWideZ
+            | EntityType.Hammer1BlockTiny
+            | EntityType.Hammer2Block
+            | EntityType.Hammer2BlockWideX
+            | EntityType.Hammer2BlockWideZ
+            | EntityType.Hammer2BlockTiny
+            | EntityType.Hammer3Block
+            | EntityType.Hammer3BlockWideX
+            | EntityType.Hammer3BlockWideZ
+            | EntityType.Hammer3BlockTiny
+        ):
+            args.append(f"#define {namespace}_ARGS {namespace}_VEC, {namespace}_DIR")
+
+            if not is_blank(ent.scriptName):
+                args.append(f"#define {namespace}_SCRIPT {ent.scriptName}")
+                body.append(f"    Call(AssignScript, Ref({namespace}_SCRIPT)) \\")
+
+        case (
+            EntityType.YellowBlock
+            | EntityType.HiddenYellowBlock
+            | EntityType.RedBlock
+            | EntityType.HiddenRedBlock
+        ):
+            if is_blank(ent.itemName):
+                raise ValueError(f"{namespace}: {ent.type.value} requires itemName")
+
+            args.append(f"#define {namespace}_ITEM {ent.itemName}")
+            args.append(f"#define {namespace}_ARGS {namespace}_VEC, {namespace}_DIR, {namespace}_ITEM")
+
+            if ent.gameFlagName is not None:
+                args.append(f"#define {namespace}_FLAG {ent.gameFlagName}")
+                body.append(f"    Call(AssignBlockFlag, {namespace}_FLAG) \\")
+
+            if ent.scriptName is not None:
+                args.append(f"#define {namespace}_SCRIPT {ent.scriptName}")
+                body.append(f"    Call(AssignScript, Ref({namespace}_SCRIPT)) \\")
+
+        case EntityType.MulticoinBlock:
+            args.append(f"#define {namespace}_ARGS {namespace}_VEC, {namespace}_DIR")
+
+            if ent.gameFlagName is not None:
+                args.append(f"#define {namespace}_FLAG {ent.gameFlagName}")
+                body.append(f"    Call(AssignBlockFlag, {namespace}_FLAG) \\")
+
+        case EntityType.HiddenPanel:
+            if ent.modelName is None:
+                raise ValueError(f"{namespace}: HiddenPanel requires modelName")
+
+            args.append(f"#define {namespace}_MODEL {ent.modelName}")
+            args.append(f"#define {namespace}_ARGS {namespace}_VEC, {namespace}_DIR, {namespace}_MODEL")
+
+            if ent.gameFlagName is not None:
+                args.append(f"#define {namespace}_FLAG {ent.gameFlagName}")
+                body.append(f"    Call(AssignPanelFlag, {namespace}_FLAG) \\")
+
+        case (
+            EntityType.Chest
+            | EntityType.GiantChest
+        ):
+            # chests have unused arg for itemID. generate with ITEM_NONE to match.
+            # ...except a couple giant chests (tik_25) DO have this set, even though its unused.
+            if ent.itemName is not None:
+                args.append(f"#define {namespace}_ITEM {ent.itemName}")
+                args.append(f"#define {namespace}_ARGS {namespace}_VEC, {namespace}_DIR, {namespace}_ITEM")
+            else:
+                args.append(f"#define {namespace}_ARGS {namespace}_VEC, {namespace}_DIR, ITEM_NONE")
+
+            if ent.gameFlagName is not None:
+                args.append(f"#define {namespace}_FLAG {ent.gameFlagName}")
+                body.append(f"    Call(AssignChestFlag, {namespace}_FLAG) \\")
+
+            if ent.scriptName is not None:
+                args.append(f"#define {namespace}_SCRIPT {ent.scriptName}")
+                body.append(f"    Call(AssignScript, Ref({namespace}_SCRIPT)) \\")
+
+        case EntityType.WoodenCrate:
+            # too restrictive?
+            if ent.itemName is None or not ent.itemName.startswith("ITEM_"):
+                raise ValueError(f"{namespace}: WoodenCrate requires valid itemName ({ent.itemName})")
+
+            if not ent.itemName or ent.itemName == "ITEM_NONE":
+                args.append(f"#define {namespace}_ITEM -1")
+            else:
+                args.append(f"#define {namespace}_ITEM {ent.itemName}")
+
+            args.append(f"#define {namespace}_ARGS {namespace}_VEC, {namespace}_DIR, {namespace}_ITEM")
+
+            if ent.gameFlagName is not None:
+                args.append(f"#define {namespace}_FLAG {ent.gameFlagName}")
+                body.append(f"    Call(AssignCrateFlag, {namespace}_FLAG) \\")
+
+        case EntityType.HeartBlock:
+            if ent.style is not None:
+                args.append(f"#define {namespace}_STYLE {ent.style}")
+                args.append(f"#define {namespace}_ARGS {namespace}_VEC, {namespace}_DIR, {namespace}_STYLE")
+            else:
+                args.append(f"#define {namespace}_ARGS {namespace}_VEC, {namespace}_DIR")
+
+        case EntityType.SuperBlock:
+            if is_blank(ent.mapVarName):
+                raise ValueError(f"{namespace}: SuperBlock requires mapVarName")
+            if is_blank(ent.gameFlagName):
+                raise ValueError(f"{namespace}: SuperBlock requires gameFlagName")
+
+            args.append(f"#define {namespace}_VAR {ent.mapVarName}")
+            args.append(f"#define {namespace}_FLAG {ent.gameFlagName}")
+            args.append(f"#define {namespace}_ARGS {namespace}_VEC, {namespace}_DIR")
+
+        case EntityType.ArrowSign:
+            args.append(f"#define {namespace}_ANGLE {ent.angle}")
+            args.append(f"#define {namespace}_ARGS {namespace}_VEC, {namespace}_DIR, {namespace}_ANGLE")
+
+        case EntityType.SimpleSpring:
+            if ent.launchDist is None:
+                raise ValueError(f"{namespace}: SimpleSpring requires launchDist")
+
+            args.append(f"#define {namespace}_DIST {ent.launchDist}")
+            args.append(f"#define {namespace}_ARGS {namespace}_VEC, {namespace}_DIR, {namespace}_DIST")
+
+        case EntityType.SpinningFlower:
+            if ent.targetName is not None:
+                target = marker_lookup.get(ent.targetName)
+                if target is None:
+                    raise ValueError(f"{namespace}: target marker '{ent.targetName}' not found")
+                target_namespace = GEN_PREFIX + clean_name(target.name)
+
+                args.append(f"#define {namespace}_ARGS {namespace}_VEC, {namespace}_DIR, {target_namespace}_VEC")
+            else:
+                args.append(f"#define {namespace}_ARGS {namespace}_VEC, {namespace}_DIR")
+
+        case EntityType.BlueWarpPipe:
+            if is_blank(ent.entryName):
+                raise ValueError(f"{namespace}: BlueWarpPipe requires entryName")
+            if is_blank(ent.scriptName):
+                raise ValueError(f"{namespace}: BlueWarpPipe requires scriptName")
+            if is_blank(ent.gameFlagName):
+                raise ValueError(f"{namespace}: BlueWarpPipe requires gameFlagName")
+
+            args.append(f"#define {namespace}_ENTRY {ent.entryName}")
+            args.append(f"#define {namespace}_SCRIPT {ent.scriptName}")
+            args.append(f"#define {namespace}_FLAG {ent.gameFlagName}")
+
+            args.append(f"#define {namespace}_ARGS {namespace}_VEC, {namespace}_DIR, "
+                f"{namespace}_ENTRY, {namespace}_SCRIPT, EVT_INDEX_OF_GAME_FLAG({namespace}_FLAG)")
+
+        case EntityType.Tweester:
+            if is_blank(ent.pathsName):
+                raise ValueError(f"{namespace}: Tweester requires pathsName")
+            if is_blank(ent.scriptName):
+                raise ValueError(f"{namespace}: Tweester requires scriptName")
+
+            args.append(f"#define {namespace}_PATHS {ent.pathsName}")
+            args.append(f"#define {namespace}_ARGS {namespace}_VEC, {namespace}_DIR, {namespace}_PATHS")
+
+            if ent.scriptName is not None:
+                args.append(f"#define {namespace}_SCRIPT {ent.scriptName}")
+                body.append(f"    Call(AssignScript, {namespace}_SCRIPT) \\")
+
+        case _:
+            pass
+
+    lines.extend(args)
+    lines.extend(body)
+
+
+def add_entity_item_defines(lines: list[str], ent: JsonEntityComp, namespace: str) -> None:
+    # too restrictive?
+    if ent.itemName is None or not ent.itemName.startswith("ITEM_"):
+        raise ValueError(f"{namespace}: ItemEntity requires valid itemName ({ent.itemName})")
+    if is_blank(ent.spawnMode):
+        raise ValueError(f"{namespace}: ItemEntity requires spawnMode")
+    if is_blank(ent.gameFlagName):
+        raise ValueError(f"{namespace}: ItemEntity requires gameFlagName")
+
+    lines.append(f"#define {namespace}_ITEM {ent.itemName}")
+    lines.append(f"#define {namespace}_SPAWN {ent.spawnMode}")
+    lines.append(f"#define {namespace}_FLAG {ent.gameFlagName}")
+
+    lines.append(
+        f"#define {namespace}_ARGS "
+        f"{ent.itemName}, {namespace}_VEC, {ent.spawnMode}, {ent.gameFlagName}"
+    )
+
+    lines.append(f"#define {namespace}_BODY \\")
+    lines.append(f"    Call(MakeItemEntity, {namespace}_ARGS)")
+
+
 def add_markers(lines: list[str], json_map: JsonMap) -> None:
+    # create name --> marker lookup
+    marker_lookup = {m.name: m for m in (json_map.markers or [])}
+
     for m in (json_map.markers or []):
         if m.type in (MarkerType.Root, MarkerType.Group):
             continue
@@ -699,11 +945,8 @@ def add_markers(lines: list[str], json_map: JsonMap) -> None:
             case MarkerType.Entity:
                 if m.entityComp is None:
                     raise ValueError(f"Entity marker '{m.name}' missing entityComp")
-                # Java: h.setType("Marker:" + type.name() + ":" + entityComponent.type.get().name());
-                # In JSON, entityComp.type is already the entity type enum/string.
-                ent_type_name = m.entityComp.type.name if hasattr(m.entityComp.type, "name") else str(m.entityComp.type)
-                h.set_type(f"Marker:{m.type.name}:{ent_type_name}")
-                m.entityComp.add_header_defines(h)
+
+                add_entity_defines(lines, m.entityComp, namespace, marker_lookup)
 
             case MarkerType.BlockGrid:
                 if m.gridComp is None:

@@ -520,11 +520,13 @@ typedef s32 Difficulty2D[AC_DIFFICULTY_LEN][2];
 #define PM_CC_CONST_0               0, 0, 0, 0, 0, 0, 0, 0
 #define PM_CC_CONST_1               0, 0, 0, 1, 0, 0, 0, 1
 
-#define EVT_MAKE_ITEM_ENTITY(args...) \
-    Call(MakeItemEntity, args)
-
+// MakeEntity varargs wrapper with built-in termintator
 #define EVT_MAKE_ENTITY(type, args...) \
-    Call(MakeEntity, Ref(Entity_##type), args, MAKE_ENTITY_END)
+    Call(MakeEntity, Ref(type), args, MAKE_ENTITY_END)
+
+// Uses the body generated for an entity marker of a given name
+#define AUTO_ENTITY(name) \
+    GEN_##name##_BODY
 
 #define GEN_FLOWER_SPAWN_REGION(args...) \
     EVT_FLOWER_SPAWN_REGION(args)
