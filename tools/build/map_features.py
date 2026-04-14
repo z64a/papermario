@@ -366,12 +366,18 @@ class JsonMap(Model):
     camVfov: int
     camNearClip: int
     camFarClip: int
-    bgColor: List[int]
+    camBackgroundColor: List[int]
+    camLeadsPlayer: bool
 
     fogWorld: List[int]
     fogEntity: List[int]
 
+    hasSpriteShading: bool
+    # used by pmret
     shadingProfile: Optional[str] = None
+    # used by dx
+    shadingOffset: int
+    shadingBaseColor: Optional[List[int]] = None
 
     texPanners: List[JsonTexturePanner] = []
     entrances: List[JsonEntrance] = []
@@ -691,6 +697,20 @@ def add_entity_defines(lines: list[str], ent: JsonEntityComp, namespace: str, ma
                 body.append(f"    Call(AssignScript, Ref({namespace}_SCRIPT)) \\")
 
         case (
+            EntityType.BlueSwitch
+            | EntityType.HugeBlueSwitch
+        ):
+            if ent.index is not None:
+                args.append(f"#define {namespace}_INDEX {ent.index}")
+                args.append(f"#define {namespace}_ARGS {namespace}_VEC, {namespace}_DIR, {namespace}_INDEX")
+            else:
+                args.append(f"#define {namespace}_ARGS {namespace}_VEC, {namespace}_DIR")
+
+            if ent.areaFlagName is not None:
+                args.append(f"#define {namespace}_FLAG {ent.areaFlagName}")
+                body.append(f"    Call(AssignSwitchFlag, EVT_INDEX_OF_AREA_FLAG({namespace}_FLAG)) \\")
+
+        case (
             EntityType.YellowBlock
             | EntityType.HiddenYellowBlock
             | EntityType.RedBlock
@@ -832,7 +852,7 @@ def add_entity_defines(lines: list[str], ent: JsonEntityComp, namespace: str, ma
                 body.append(f"    Call(AssignScript, {namespace}_SCRIPT) \\")
 
         case _:
-            pass
+            raise ValueError(f"{namespace}: Unsupported entity type ({ent.type.value})")
 
     lines.extend(args)
     lines.extend(body)
@@ -964,6 +984,26 @@ def add_markers(lines: list[str], json_map: JsonMap) -> None:
         lines.append("")
 
 
+def add_fog_defines(lines: list[str], name: str, params: List[int]) -> None:
+    # check if enabled
+    if params[0] == 0:
+        return
+
+    # unpack
+    r = params[1]
+    g = params[2]
+    b = params[3]
+    a = params[4]
+    near = params[5]
+    far = params[6]
+
+    lines.append(f"#define {GEN_PREFIX}{name}_FOG_RGBA {r:d},{g:d},{b:d},{a:d}")
+    lines.append(f"#define {GEN_PREFIX}{name}_FOG_NEAR {near:d}")
+    lines.append(f"#define {GEN_PREFIX}{name}_FOG_FAR  {far:d}")
+    lines.append(f"#define {GEN_PREFIX}{name}_FOG_DIST {near:d},{far:d}")
+    lines.append("")
+
+
 def render_header(map_name: str, features_path: Path | None, json_map: JsonMap) -> str:
     lines: list[str] = []
     lines.append("// Auto-generated from features.json. Do not edit.")
@@ -972,7 +1012,24 @@ def render_header(map_name: str, features_path: Path | None, json_map: JsonMap) 
     if json_map.locationName is not None:
         lines.append(f"#define {GEN_PREFIX}MAP_LOCATION {json_map.locationName}")
 
+    if json_map.shadingProfile is not None:
+        lines.append(f"#define {GEN_PREFIX}SPRITE_SHADING SHADING_{json_map.shadingProfile.upper()}")
+    else:
+        lines.append(f"#define {GEN_PREFIX}SPRITE_SHADING SHADING_NONE")
+
     lines.append("")
+
+    lines.append(f"#define {GEN_PREFIX}CAM_VFOV {json_map.camVfov:d}")
+    lines.append(f"#define {GEN_PREFIX}CAM_NEAR_CLIP {json_map.camNearClip:d}")
+    lines.append(f"#define {GEN_PREFIX}CAM_FAR_CLIP {json_map.camFarClip:d}")
+    lines.append(f"#define {GEN_PREFIX}CAM_BG_R {json_map.camBackgroundColor[0]:d}")
+    lines.append(f"#define {GEN_PREFIX}CAM_BG_G {json_map.camBackgroundColor[1]:d}")
+    lines.append(f"#define {GEN_PREFIX}CAM_BG_B {json_map.camBackgroundColor[2]:d}")
+    lines.append(f"#define {GEN_PREFIX}CAM_LEADS_PLAYER {json_map.camLeadsPlayer:d}")
+    lines.append("")
+
+    add_fog_defines(lines, "WORLD", json_map.fogWorld)
+    add_fog_defines(lines, "ENTITY", json_map.fogEntity)
 
     add_entry_list(lines, json_map)
 
@@ -1012,7 +1069,7 @@ def ensure_header_include(map_header: Path) -> None:
 
 
 def main() -> None:
-    parser = argparse.ArgumentParser(description="Generate map feature header")
+    parser = argparse.ArgumentParser(description="Generate map features header")
     parser.add_argument("map_dir")
     args = parser.parse_args()
 

@@ -51,7 +51,7 @@ segments:
     - [auto, c, background_gfx]
     - [auto, c, input]
     - [auto, c, rumble]
-    - [auto, c, 43F0]
+    - [auto, c, math_utils]
     - [auto, c, heap]
     - [auto, c, fio]
     - [auto, c, curtains]
