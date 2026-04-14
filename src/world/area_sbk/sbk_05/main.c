@@ -53,7 +53,10 @@ EvtScript N(EVS_Main) = {
     IfEq(GB_StoryProgress, STORY_CH2_GOT_PULSE_STONE)
         Call(DisablePulseStone, false)
     EndIf
-    SetUP_CAMERA_NO_LEAD()
+    Call(SetCamPerspective, CAM_DEFAULT, CAM_UPDATE_FROM_ZONE, 25, 16, 4096)
+    Call(SetCamBGColor, CAM_DEFAULT, 0, 0, 0)
+    Call(SetCamEnabled, CAM_DEFAULT, true)
+    Call(SetCamLeadPlayer, CAM_DEFAULT, false)
     Call(MakeNpcs, false, Ref(N(DefaultNPCs)))
     ExecWait(N(EVS_MakeEntities))
     Call(N(SpawnSunEffect))

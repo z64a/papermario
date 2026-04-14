@@ -158,7 +158,10 @@ EvtScript N(EVS_E8CA04) = {
 EvtScript N(EVS_Main) = {
     Call(DisablePlayerInput, true)
     Call(ModifyGlobalOverrideFlags, 0, GLOBAL_OVERRIDES_DONT_RESUME_SONG_AFTER_BATTLE)
-    SetUP_CAMERA_NO_LEAD()
+    Call(SetCamPerspective, CAM_DEFAULT, CAM_UPDATE_FROM_ZONE, 25, 16, 4096)
+    Call(SetCamBGColor, CAM_DEFAULT, 0, 0, 0)
+    Call(SetCamEnabled, CAM_DEFAULT, true)
+    Call(SetCamLeadPlayer, CAM_DEFAULT, false)
     Thread
         Call(GetCurrentPartnerID, LVar0)
         IfNe(LVar0, PARTNER_NONE)

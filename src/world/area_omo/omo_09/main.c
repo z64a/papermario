@@ -16,7 +16,9 @@ EvtScript N(EVS_Main) = {
         Set(GF_OMO09_SpawnedPeachChoice3, true)
     EndIf
     Call(SetSpriteShading, SHADING_NONE)
-    EVT_SETUP_CAMERA_DEFAULT()
+    Call(SetCamPerspective, CAM_DEFAULT, CAM_UPDATE_FROM_ZONE, 25, 16, 4096)
+    Call(SetCamBGColor, CAM_DEFAULT, 0, 0, 0)
+    Call(SetCamEnabled, CAM_DEFAULT, true)
 #if VERSION_PAL
     Call(GetLanguage, LVar0)
     IfEq(LVar0, LANGUAGE_ES)

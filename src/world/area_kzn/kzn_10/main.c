@@ -23,7 +23,9 @@ API_CALLABLE(N(func_8024030C_C7E48C)) {
 EvtScript N(EVS_Main) = {
     Set(GB_WorldLocation, LOCATION_MT_LAVALAVA)
     Call(SetSpriteShading, SHADING_KZN_10)
-    EVT_SETUP_CAMERA_DEFAULT()
+    Call(SetCamPerspective, CAM_DEFAULT, CAM_UPDATE_FROM_ZONE, 25, 16, 4096)
+    Call(SetCamBGColor, CAM_DEFAULT, 0, 0, 0)
+    Call(SetCamEnabled, CAM_DEFAULT, true)
     Thread
         Call(GetEntryID, LVar0)
         IfEq(LVar0, kzn_10_ENTRY_0)

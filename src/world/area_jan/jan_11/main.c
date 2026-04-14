@@ -54,7 +54,10 @@ EvtScript N(D_80241F38_B72798) = {
 EvtScript N(EVS_Main) = {
     Set(GB_WorldLocation, LOCATION_JADE_JUNGLE)
     Call(SetSpriteShading, SHADING_NONE)
-    SetUP_CAMERA_ALT_NO_LEAD()
+    Call(SetCamPerspective, CAM_DEFAULT, CAM_UPDATE_FROM_ZONE, 25, 16, 4096)
+    Call(SetCamBGColor, CAM_DEFAULT, 0, 0, 0)
+    Call(SetCamLeadPlayer, CAM_DEFAULT, false)
+    Call(SetCamEnabled, CAM_DEFAULT, true)
     Call(MakeNpcs, false, Ref(N(DefaultNPCs)))
     Exec(N(EVS_CreateDarkness))
     Set(LVar0, Ref(N(D_80241F38_B72798)))

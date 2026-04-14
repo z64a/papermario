@@ -95,7 +95,10 @@ EvtScript N(EVS_EnterMap) = {
 };
 
 EvtScript N(EVS_Main) = {
-    SetUP_CAMERA_NO_LEAD()
+    Call(SetCamPerspective, CAM_DEFAULT, CAM_UPDATE_FROM_ZONE, 25, 16, 4096)
+    Call(SetCamBGColor, CAM_DEFAULT, 0, 0, 0)
+    Call(SetCamEnabled, CAM_DEFAULT, true)
+    Call(SetCamLeadPlayer, CAM_DEFAULT, false)
     ExecWait(N(D_80243C40_E123E0))
     Call(MakeNpcs, false, Ref(N(DefaultNPCs)))
     ExecWait(N(D_80241850_E0FFF0))

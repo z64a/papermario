@@ -94,7 +94,10 @@ EvtScript N(EVS_Main) = {
         Set(GF_MAP_PeachsCastle, true)
     EndIf
     Call(SetSpriteShading, SHADING_OSR_02)
-    SetUP_CAMERA_NO_LEAD()
+    Call(SetCamPerspective, CAM_DEFAULT, CAM_UPDATE_FROM_ZONE, 25, 16, 4096)
+    Call(SetCamBGColor, CAM_DEFAULT, 0, 0, 0)
+    Call(SetCamEnabled, CAM_DEFAULT, true)
+    Call(SetCamLeadPlayer, CAM_DEFAULT, false)
     IfEq(GB_StoryProgress, STORY_CH6_BEGAN_PEACH_MISSION)
         Call(N(SetAvailableDisguise), PEACH_DISGUISE_CLUBBA)
         Call(MakeNpcs, false, Ref(N(PeachNPCs)))
