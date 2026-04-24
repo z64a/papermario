@@ -141,7 +141,7 @@ EvtScript N(EVS_Scene_LuigiWaitingAround) = {
     Thread
         Loop(10)
             Call(GetNpcPos, NPC_Luigi_1, LVar0, LVar1, LVar2)
-            PlayEffect(EFFECT_WALKING_DUST, 1, LVar0, LVar1, LVar2, 0, 0)
+            PlayEffect(EFFECT_WALKING_DUST, FX_DUST_1, LVar0, LVar1, LVar2, 0, 0)
             Wait(6)
         EndLoop
     EndThread

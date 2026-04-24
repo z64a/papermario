@@ -93,7 +93,7 @@ MAP_STATIC_PAD(1,choice);
 #include "world/common/complete/NormalItemChoice.inc.c"
 
 EvtScript N(EVS_SetCam_MeetingDoor) = {
-    Call(SetCamType, CAM_DEFAULT, 4, false)
+    Call(SetCamType, CAM_DEFAULT, CAM_CONTROL_FIXED_POS_AND_ORIENTATION, false)
     Call(SetCamSpeed, CAM_DEFAULT, Float(3.0 / DT))
     Call(SetCamPitch, CAM_DEFAULT, Float(11.0), Float(-10.0))
     Call(SetCamDistance, CAM_DEFAULT, Float(450.0))
@@ -107,7 +107,7 @@ EvtScript N(EVS_SetCam_MeetingDoor) = {
 };
 
 EvtScript N(EVS_SetCam_AfterBattle) = {
-    Call(SetCamType, CAM_DEFAULT, 4, false)
+    Call(SetCamType, CAM_DEFAULT, CAM_CONTROL_FIXED_POS_AND_ORIENTATION, false)
     Call(SetCamSpeed, CAM_DEFAULT, Float(3.0 / DT))
     Call(SetCamPitch, CAM_DEFAULT, Float(5.0), Float(-14.0))
     Call(SetCamDistance, CAM_DEFAULT, Float(375.0))
@@ -121,7 +121,7 @@ EvtScript N(EVS_SetCam_AfterBattle) = {
 };
 
 EvtScript N(EVS_SetCam_AfterResult) = {
-    Call(SetCamType, CAM_DEFAULT, 4, false)
+    Call(SetCamType, CAM_DEFAULT, CAM_CONTROL_FIXED_POS_AND_ORIENTATION, false)
     Call(SetCamSpeed, CAM_DEFAULT, Float(90.0))
     Call(SetCamPitch, CAM_DEFAULT, Float(11.0), Float(-14.0))
     Call(SetCamDistance, CAM_DEFAULT, Float(450.0))
@@ -135,7 +135,7 @@ EvtScript N(EVS_SetCam_AfterResult) = {
 };
 
 EvtScript N(EVS_SetCam_AskQuestion) = {
-    Call(SetCamType, CAM_DEFAULT, 4, false)
+    Call(SetCamType, CAM_DEFAULT, CAM_CONTROL_FIXED_POS_AND_ORIENTATION, false)
     Call(SetCamSpeed, CAM_DEFAULT, Float(90.0))
     Call(SetCamPitch, CAM_DEFAULT, Float(11.0), Float(-10.5))
     Call(SetCamPosA, CAM_DEFAULT, Float(88.0), Float(256.6))
@@ -148,7 +148,7 @@ EvtScript N(EVS_SetCam_AskQuestion) = {
 };
 
 EvtScript N(EVS_SetCam_ViewRoom) = {
-    Call(SetCamType, CAM_DEFAULT, 4, false)
+    Call(SetCamType, CAM_DEFAULT, CAM_CONTROL_FIXED_POS_AND_ORIENTATION, false)
     Call(SetCamSpeed, CAM_DEFAULT, LVar6)
     Call(SetCamDistance, CAM_DEFAULT, Float(470.0))
     Call(SetCamPitch, CAM_DEFAULT, Float(16.0), Float(-9.0))
@@ -171,7 +171,7 @@ EvtScript N(EVS_SetCam_BeforeBattle) = {
     Call(WaitForCam, CAM_DEFAULT, Float(1.0))
     Wait(20)
 #else
-    Call(SetCamType, CAM_DEFAULT, 4, false)
+    Call(SetCamType, CAM_DEFAULT, CAM_CONTROL_FIXED_POS_AND_ORIENTATION, false)
     Call(SetCamSpeed, CAM_DEFAULT, LVar6)
     Call(SetCamDistance, CAM_DEFAULT, Float(470.0))
     Call(SetCamPitch, CAM_DEFAULT, Float(16.0), Float(-9.0))

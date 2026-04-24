@@ -512,7 +512,7 @@ EvtScript N(EVS_NpcDefeat_Lakilester) = {
     Switch(LVar0)
         CaseEq(OUTCOME_PLAYER_WON)
             Call(SetNpcAnimation, NPC_SELF, ANIM_WorldLakilester_Tired)
-            Call(SetCamType, CAM_DEFAULT, 6, true)
+            Call(SetCamType, CAM_DEFAULT, CAM_CONTROL_CONSTAIN_BETWEEN_POINTS, true)
             Call(GetNpcPos, NPC_SELF, LVar3, LVar1, LVar2)
             Call(GetPlayerPos, LVar0, LVar1, LVar2)
             Add(LVar0, LVar3)

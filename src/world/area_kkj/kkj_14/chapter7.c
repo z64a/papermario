@@ -99,7 +99,7 @@ EvtScript N(EVS_TiePeachUp) = {
             Call(RandInt, 50, LVar4)
             Add(LVar3, LVar0)
             Add(LVar4, LVar1)
-            PlayEffect(EFFECT_WALKING_DUST, 1, LVar3, LVar4, LVar2, 1, 1)
+            PlayEffect(EFFECT_WALKING_DUST, FX_DUST_1, LVar3, LVar4, LVar2, 1, 1)
             Wait(1)
         EndLoop
     EndThread

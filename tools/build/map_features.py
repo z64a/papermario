@@ -14,6 +14,8 @@ from pydantic import BaseModel, ConfigDict
 # constants
 GEN_PREFIX = "GEN_"
 NULL_STR = "nullptr"
+CONST_TRUE = "true"
+CONST_FALSE = "false"
 
 matching = True
 
@@ -203,16 +205,6 @@ class JsonExit(Model):
     hasCallback: bool
 
 
-class JsonTree(Model):
-    # TODO: define when known
-    pass
-
-
-class JsonBush(Model):
-    # TODO: define when known
-    pass
-
-
 class JsonDetectData(Model):
     center: List[int]
     useCircle: bool
@@ -368,6 +360,7 @@ class JsonMap(Model):
     camFarClip: int
     camBackgroundColor: List[int]
     camLeadsPlayer: bool
+    camEnabledLast: Optional[bool] = True
 
     fogWorld: List[int]
     fogEntity: List[int]
@@ -382,8 +375,6 @@ class JsonMap(Model):
     texPanners: List[JsonTexturePanner] = []
     entrances: List[JsonEntrance] = []
     exits: List[JsonExit] = []
-    trees: List[JsonTree] = []
-    bushes: List[JsonBush] = []
     markers: List[JsonMarker] = []
 
 
@@ -951,7 +942,14 @@ def add_markers(lines: list[str], json_map: JsonMap) -> None:
                 if m.pathComp is None:
                     raise ValueError(f"Path marker '{m.name}' missing pathComp")
 
+                # generate two path tokens: one nested and one single-level
+                # single level is required to match for TweesterPath
                 if len(m.pathComp.waypoints) > 0:
+                    lines.append(f"#define {namespace}_PATH_FLAT \\")
+                    for x, y, z in m.pathComp.waypoints:
+                        lines.append(f"    {x:4d}, {y:4d}, {z:4d}, \\")
+                    lines.append("")
+
                     lines.append(f"#define {namespace}_PATH \\")
                     for x, y, z in m.pathComp.waypoints:
                         lines.append(f"    {{ {x:4d}, {y:4d}, {z:4d} }}, \\")
@@ -982,6 +980,36 @@ def add_markers(lines: list[str], json_map: JsonMap) -> None:
                 raise ValueError(f"Unhandled marker type: {m.type}")
 
         lines.append("")
+
+
+def add_camera_defines(lines: list[str], json_map: JsonMap) -> None:
+    lines.append(f"#define {GEN_PREFIX}CAM_VFOV {json_map.camVfov:d}")
+    lines.append(f"#define {GEN_PREFIX}CAM_NEAR_CLIP {json_map.camNearClip:d}")
+    lines.append(f"#define {GEN_PREFIX}CAM_FAR_CLIP {json_map.camFarClip:d}")
+    lines.append(f"#define {GEN_PREFIX}CAM_BG_R {json_map.camBackgroundColor[0]:d}")
+    lines.append(f"#define {GEN_PREFIX}CAM_BG_G {json_map.camBackgroundColor[1]:d}")
+    lines.append(f"#define {GEN_PREFIX}CAM_BG_B {json_map.camBackgroundColor[2]:d}")
+    lines.append("")
+
+    lines.append(f"#define {GEN_PREFIX}SETUP_CAMERA() \\")
+    lines.append(
+        f"    Call(SetCamPerspective, CAM_DEFAULT, CAM_UPDATE_FROM_ZONE, "
+        f"{GEN_PREFIX}CAM_VFOV, {GEN_PREFIX}CAM_NEAR_CLIP, {GEN_PREFIX}CAM_FAR_CLIP) \\"
+    )
+    lines.append(
+        f"    Call(SetCamBGColor, CAM_DEFAULT, "
+        f"{GEN_PREFIX}CAM_BG_R, {GEN_PREFIX}CAM_BG_G, {GEN_PREFIX}CAM_BG_B) \\"
+    )
+
+    if json_map.camEnabledLast is None or json_map.camEnabledLast:
+        if not json_map.camLeadsPlayer:
+            lines.append(f"    Call(SetCamLeadPlayer, CAM_DEFAULT, {CONST_FALSE}) \\")
+        lines.append(f"    Call(SetCamEnabled, CAM_DEFAULT, {CONST_TRUE}) \\")
+    else:
+        lines.append(f"    Call(SetCamEnabled, CAM_DEFAULT, {CONST_TRUE}) \\")
+        if not json_map.camLeadsPlayer:
+            lines.append(f"    Call(SetCamLeadPlayer, CAM_DEFAULT, {CONST_FALSE}) \\")
+    lines.append("")
 
 
 def add_fog_defines(lines: list[str], name: str, params: List[int]) -> None:
@@ -1019,14 +1047,7 @@ def render_header(map_name: str, features_path: Path | None, json_map: JsonMap) 
 
     lines.append("")
 
-    lines.append(f"#define {GEN_PREFIX}CAM_VFOV {json_map.camVfov:d}")
-    lines.append(f"#define {GEN_PREFIX}CAM_NEAR_CLIP {json_map.camNearClip:d}")
-    lines.append(f"#define {GEN_PREFIX}CAM_FAR_CLIP {json_map.camFarClip:d}")
-    lines.append(f"#define {GEN_PREFIX}CAM_BG_R {json_map.camBackgroundColor[0]:d}")
-    lines.append(f"#define {GEN_PREFIX}CAM_BG_G {json_map.camBackgroundColor[1]:d}")
-    lines.append(f"#define {GEN_PREFIX}CAM_BG_B {json_map.camBackgroundColor[2]:d}")
-    lines.append(f"#define {GEN_PREFIX}CAM_LEADS_PLAYER {json_map.camLeadsPlayer:d}")
-    lines.append("")
+    add_camera_defines(lines, json_map)
 
     add_fog_defines(lines, "WORLD", json_map.fogWorld)
     add_fog_defines(lines, "ENTITY", json_map.fogEntity)

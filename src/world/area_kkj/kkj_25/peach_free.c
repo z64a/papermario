@@ -78,7 +78,7 @@ EvtScript N(EVS_Scene_PeachBreaksFree) = {
     Call(SetNpcDecoration, NPC_Bowser_01, 1, NPC_DECORATION_CHARGED)
     Set(LVar8, NPC_Bowser_01)
     Exec(N(EVS_SpawnBowserStarEnergyWaves))
-    Call(SetCamType, CAM_DEFAULT, 0, false)
+    Call(SetCamType, CAM_DEFAULT, CAM_CONTROL_FIXED_ORIENTATION, false)
     Call(GetPlayerPos, LVar0, LVar1, LVar2)
     Call(UseSettingsFrom, CAM_DEFAULT, LVar0, LVar1, LVar2)
     Call(SetPanTarget, CAM_DEFAULT, LVar0, LVar1, LVar2)

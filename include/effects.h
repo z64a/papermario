@@ -41,21 +41,26 @@ typedef struct LandingDustFXData {
     /* 0x40 */ s32 unk_40;
 } LandingDustFXData; // size = 0x44
 
+enum DustFXType {
+    FX_DUST_WALK    = 0,
+    FX_DUST_1       = 1,
+    FX_DUST_2       = 2,
+    FX_DUST_3       = 3,
+};
+
 typedef struct WalkingDustFXData {
     /* 0x00 */ s32 unk_00;
-    /* 0x04 */ u16 unk_04;
-    /* 0x08 */ f32 unk_08;
-    /* 0x0C */ f32 unk_0C;
-    /* 0x10 */ f32 unk_10;
+    /* 0x04 */ u16 type;
+    /* 0x08 */ Vec3f pos;
     /* 0x14 */ char unk_14[0x44];
-    /* 0x58 */ f32 unk_58;
-    /* 0x5C */ f32 unk_5C;
-    /* 0x60 */ f32 unk_60;
-    /* 0x64 */ f32 unk_64;
-    /* 0x68 */ f32 unk_68;
-    /* 0x6C */ s32 unk_6C;
-    /* 0x70 */ s32 unk_70;
-    /* 0x74 */ s32 unk_74;
+    /* 0x58 */ f32 velR;
+    /* 0x5C */ f32 velV;
+    /* 0x60 */ f32 accelV;
+    /* 0x64 */ f32 velX;
+    /* 0x68 */ f32 velZ;
+    /* 0x6C */ s32 texSet;
+    /* 0x70 */ s32 lifetime;
+    /* 0x74 */ s32 curFrameIdx;
 } WalkingDustFXData; // size = 0x78
 
 // Used by both flower_splash and flower_trail
@@ -179,7 +184,7 @@ typedef struct SnowflakeFXData {
     /* 0x28 */ s32 unk_28;
 } SnowflakeFXData; // size = 0x2C
 
-enum StarFXTypes {
+enum StarFXType {
     FX_STAR_BACKGROUND      = 0,
     FX_STAR_FOREGROUND      = 1,
     FX_STAR_LARGE_BOUNCING  = 2,
@@ -240,7 +245,7 @@ typedef struct SparklesFXData {
     /* 0x2C */ s32 unk_2C;
 } SparklesFXData; // size = 0x30
 
-enum SparkesFXTypes {
+enum SparkesFXType {
     FX_SPARKLES_0   = 0,
     FX_SPARKLES_1   = 1,
     FX_SPARKLES_2   = 2,
@@ -362,7 +367,7 @@ typedef struct SmokeRingFXData {
     /* 0x40 */ s32 unk_40;
 } SmokeRingFXData; // size = 0x44
 
-enum DamageStarsFXTypes {
+enum DamageStarsFXType {
     FX_DAMAGE_STARS_0   = 0,
     FX_DAMAGE_STARS_1   = 1,
     FX_DAMAGE_STARS_2   = 2,
@@ -486,7 +491,7 @@ typedef struct PurpleRingFXData {
     /* 0x7A */ char unk_7A[2];
 } PurpleRingFXData; // size = 0x7C
 
-enum FlameFXTypes {
+enum FlameFXType {
     FX_FLAME_BLUE           = 0,
     FX_FLAME_RED            = 1,
     FX_FLAME_SMALL_BLUE     = 2,
@@ -992,7 +997,7 @@ typedef struct ShimmerWaveFXData {
     /* 0x68 */ f32 unk_68;
 } ShimmerWaveFXData; // size = 0x6C
 
-enum AuraFXTypes {
+enum AuraFXType {
     FX_AURA_CAPTURE     = 0, // star spirit being captured in the intro
     FX_AURA_RED         = 1, // used by Kooper's Fire Shell
     FX_AURA_BLUE        = 2, // used by Final Bowser
@@ -1269,7 +1274,7 @@ typedef struct SmallGoldSparkleFXData {
     /* 0x20 */ s32 unk_20;
 } SmallGoldSparkleFXData; // size = 0x24
 
-enum ShockOverlayFXTypes {
+enum ShockOverlayFXType {
     FX_SHOCK_OVERLAY_SHOCK_HIT          = 0,
     FX_SHOCK_OVERLAY_LIGHTNING_WORLD    = 1,
     FX_SHOCK_OVERLAY_MEGA_SHOCK         = 2,
@@ -1545,7 +1550,7 @@ typedef struct SquirtFXData {
     /* 0x1D8 */ u8 unk_1D8[12];
 } SquirtFXData; // size = 0x1E4
 
-enum WaterBlockFXTypes {
+enum WaterBlockFXType {
     FX_WATER_BLOCK_CREATE   = 0,
     FX_WATER_BLOCK_DESTROY  = 1,
 };
@@ -1806,7 +1811,7 @@ typedef struct Effect65FXData {
 
 #define TUBBA_MINI_HEART_COUNT 25
 
-enum HeartSwarmFXTypes {
+enum HeartSwarmFXType {
     FX_HEART_SWARM_HIT      = 0,
     FX_HEART_SWARM_MISS     = 1,
 };

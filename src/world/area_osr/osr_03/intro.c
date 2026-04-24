@@ -213,7 +213,7 @@ EvtScript N(MV_Scene_CastleAscending) = {
     Call(EnableGroup, MODEL_g277, false)
     Call(SetCamPerspective, CAM_DEFAULT, CAM_UPDATE_FROM_ZONE, 80, 16, 4096)
     Call(UseSettingsFrom, CAM_DEFAULT, 0, -1, 0)
-    Call(SetCamType, CAM_DEFAULT, 1, true)
+    Call(SetCamType, CAM_DEFAULT, CAM_CONTROL_LOOK_AT_POINT, true)
     Call(SetPanTarget, CAM_DEFAULT, -150, 0, 0)
     Call(SetCamPitch, CAM_DEFAULT, Float(-13.0), Float(18.0))
     Call(SetCamSpeed, CAM_DEFAULT, Float(90.0))

@@ -194,7 +194,7 @@ void N(HoppingAI_Chase)(Evt* script, MobileAISettings* aiSettings, EnemyDetectVo
             npc->jumpVel = 0.0f;
             npc->pos.y = posY;
             npc->flags &= ~NPC_FLAG_JUMPING;
-            fx_walking_dust(2, npc->pos.x, npc->pos.y, npc->pos.z, 0.0f, 0.0f);
+            fx_walking_dust(FX_DUST_2, npc->pos.x, npc->pos.y, npc->pos.z, 0.0f, 0.0f);
             script->AI_TEMP_STATE = AI_STATE_CHASE_INIT;
 
             if (basic_ai_check_player_dist(territory, enemy, aiSettings->chaseRadius, aiSettings->chaseOffsetDist, 1) == 0) {

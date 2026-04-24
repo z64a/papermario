@@ -309,10 +309,10 @@ EvtScript N(EVS_TransformFX) = {
     Call(GetActorPos, ACTOR_SELF, LVar0, LVar1, LVar2)
     Add(LVar1, 15)
     PlayEffect(EFFECT_ENERGY_ORB_WAVE, 4, LVar0, LVar1, LVar2, 1, 40, 0)
-    PlayEffect(EFFECT_WALKING_DUST, 0, LVar0, LVar1, LVar2, -4, 0, 0)
-    PlayEffect(EFFECT_WALKING_DUST, 0, LVar0, LVar1, LVar2, -4, 4, 0)
-    PlayEffect(EFFECT_WALKING_DUST, 0, LVar0, LVar1, LVar2, 4, 0, 0)
-    PlayEffect(EFFECT_WALKING_DUST, 0, LVar0, LVar1, LVar2, 4, 4, 0)
+    PlayEffect(EFFECT_WALKING_DUST, FX_DUST_WALK, LVar0, LVar1, LVar2, -4, 0, 0)
+    PlayEffect(EFFECT_WALKING_DUST, FX_DUST_WALK, LVar0, LVar1, LVar2, -4, 4, 0)
+    PlayEffect(EFFECT_WALKING_DUST, FX_DUST_WALK, LVar0, LVar1, LVar2, 4, 0, 0)
+    PlayEffect(EFFECT_WALKING_DUST, FX_DUST_WALK, LVar0, LVar1, LVar2, 4, 4, 0)
     Return
     End
 };
@@ -1154,7 +1154,7 @@ EvtScript N(EVS_Attack_MagicSpell) = {
                 Sub(LVar0, 7)
                 Add(LVar1, 14)
                 Add(LVar2, 4)
-                PlayEffect(EFFECT_WALKING_DUST, 2, LVar0, LVar1, LVar2, 0, 0, 0)
+                PlayEffect(EFFECT_WALKING_DUST, FX_DUST_2, LVar0, LVar1, LVar2, 0, 0, 0)
                 Wait(20)
                 Call(SetAnimation, ACTOR_SELF, PRT_MAGE, ANIM_MageJrTroopa_Idle)
             EndThread
@@ -1276,7 +1276,7 @@ EvtScript N(EVS_Attack_LightningBolt) = {
                 Sub(LVar0, 7)
                 Add(LVar1, 14)
                 Add(LVar2, 4)
-                PlayEffect(EFFECT_WALKING_DUST, 2, LVar0, LVar1, LVar2, 0, 0, 0)
+                PlayEffect(EFFECT_WALKING_DUST, FX_DUST_2, LVar0, LVar1, LVar2, 0, 0, 0)
                 Wait(20)
                 Call(SetAnimation, ACTOR_SELF, PRT_MAGE, ANIM_MageJrTroopa_Idle)
             EndThread

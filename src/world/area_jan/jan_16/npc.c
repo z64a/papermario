@@ -27,7 +27,7 @@ EvtScript N(D_802412D4_B812D4) = {
         Call(EnableGroup, MODEL_g38, false)
         Call(EnableGroup, MODEL_g54, false)
         Call(PanToTarget, CAM_DEFAULT, 0, false)
-        Call(SetCamType, CAM_DEFAULT, 1, false)
+        Call(SetCamType, CAM_DEFAULT, CAM_CONTROL_LOOK_AT_POINT, false)
         Call(UseSettingsFrom, CAM_DEFAULT, -269, 94, -8)
         Call(SetPanTarget, CAM_DEFAULT, -269, 94, -8)
         Call(SetCamDistance, CAM_DEFAULT, 1000)

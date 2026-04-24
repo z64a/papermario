@@ -114,7 +114,7 @@ EvtScript N(EVS_Scene_TossedBackInRoom) = {
         Add(LVar2, 10)
         Add(LVar3, 5)
         Loop(4)
-            PlayEffect(EFFECT_WALKING_DUST, 1, LVar1, LVar2, LVar3, 0, 0)
+            PlayEffect(EFFECT_WALKING_DUST, FX_DUST_1, LVar1, LVar2, LVar3, 0, 0)
             Wait(10 * DT)
         EndLoop
     EndThread

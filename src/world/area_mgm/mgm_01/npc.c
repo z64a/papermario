@@ -475,7 +475,7 @@ API_CALLABLE(N(DestroyBlockEntities)) {
 
     for (i = 0; i < ARRAY_COUNT(data->panels); i++) {
         if (data->panels[i].entityIndex >= 0) {
-            fx_walking_dust(1, N(BlockPosX)[i], N(BlockPosY)[i] + 13, N(BlockPosZ)[i] + 5, 0, 0);
+            fx_walking_dust(FX_DUST_1, N(BlockPosX)[i], N(BlockPosY)[i] + 13, N(BlockPosZ)[i] + 5, 0, 0);
             delete_entity(data->panels[i].entityIndex);
         }
     }

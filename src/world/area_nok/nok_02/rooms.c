@@ -2,9 +2,9 @@
 #include "effects.h"
 
 API_CALLABLE(N(SpawnKooperFightingDust)) {
-    fx_walking_dust(2, rand_int(200) - 100, rand_int(150), -180.0f, 0.0f, 0.0f);
-    fx_walking_dust(2, rand_int(200) - 100, rand_int(150), -180.0f, 0.0f, 0.0f);
-    fx_walking_dust(2, rand_int(200) - 100, rand_int(150), -180.0f, 0.0f, 0.0f);
+    fx_walking_dust(FX_DUST_2, rand_int(200) - 100, rand_int(150), -180.0f, 0.0f, 0.0f);
+    fx_walking_dust(FX_DUST_2, rand_int(200) - 100, rand_int(150), -180.0f, 0.0f, 0.0f);
+    fx_walking_dust(FX_DUST_2, rand_int(200) - 100, rand_int(150), -180.0f, 0.0f, 0.0f);
     return ApiStatus_DONE2;
 }
 

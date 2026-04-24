@@ -347,7 +347,7 @@ EvtScript N(EVS_Scene_ShuffleFuzzyPositions) = {
     Call(PlayerFaceNpc, NPC_BossFuzzy, false)
     Call(ShowMessageAtScreenPos, MSG_CH1_00BE, 160, 40)
     Call(GetPlayerPos, LVar0, LVar1, LVar2)
-    Call(SetCamType, CAM_DEFAULT, 1, false)
+    Call(SetCamType, CAM_DEFAULT, CAM_CONTROL_LOOK_AT_POINT, false)
     Call(SetCamDistance, CAM_DEFAULT, -597)
     Call(SetCamPitch, CAM_DEFAULT, 10, -11)
     Call(SetCamPosA, CAM_DEFAULT, 0, 707)

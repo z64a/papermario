@@ -21,7 +21,7 @@ API_CALLABLE(N(SpawnMovingDoorDust)) {
     s32 posZ = evt_get_variable(script, *args++);
     f32 yaw = evt_get_variable(script, *args++);
 
-    fx_walking_dust(1, posX, posY + 10, posZ, sin_deg(yaw), -cos_deg(yaw));
+    fx_walking_dust(FX_DUST_1, posX, posY + 10, posZ, sin_deg(yaw), -cos_deg(yaw));
     return ApiStatus_DONE2;
 }
 

@@ -80,7 +80,7 @@ EvtScript N(EVS_Scene_MarioConfrontsBowser) = {
     Exec(N(EVS_UpdatePropellerSounds))
     Call(SpeakToPlayer, NPC_CaptivePeach, ANIM_Peach2_TiedHangStruggle, ANIM_Peach2_TiedHangIdle, 0, MSG_CH8_006F)
     Call(EnableNpcShadow, NPC_Bowser_Body, false)
-    Call(SetCamType, CAM_DEFAULT, 1, false)
+    Call(SetCamType, CAM_DEFAULT, CAM_CONTROL_LOOK_AT_POINT, false)
     Set(LVar0, 725)
     Set(LVar1, 50)
     Set(LVar2, -25)

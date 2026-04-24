@@ -9,7 +9,7 @@ EvtScript N(EVS_Scene_Epilogue) = {
     Call(DisablePlayerInput, true)
     Call(DisablePlayerPhysics, true)
     Call(SetPlayerPos, NPC_DISPOSE_LOCATION)
-    Call(SetCamType, CAM_DEFAULT, 4, true)
+    Call(SetCamType, CAM_DEFAULT, CAM_CONTROL_FIXED_POS_AND_ORIENTATION, true)
     Call(SetCamSpeed, CAM_DEFAULT, Float(90.0))
     Call(SetCamPitch, CAM_DEFAULT, Float(15.0), Float(-8.0))
     Call(SetCamDistance, CAM_DEFAULT, 450)

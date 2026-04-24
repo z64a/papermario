@@ -1252,7 +1252,7 @@ void play_movement_dust_effects(s32 var0, f32 xPos, f32 yPos, f32 zPos, f32 angl
         sinTheta = sin_rad(theta);
         cosTheta = cos_rad(theta);
         fx_walking_dust(
-            0,
+            FX_DUST_WALK,
             xPos + (sinTheta * 24.0f * 0.2f),
             yPos + 1.5f,
             zPos + (cosTheta * 24.0f * 0.2f),

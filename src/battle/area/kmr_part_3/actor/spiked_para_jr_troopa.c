@@ -182,10 +182,10 @@ EvtScript N(EVS_Transform) = {
     Call(GetActorPos, ACTOR_SELF, LVar0, LVar1, LVar2)
     Add(LVar1, 15)
     PlayEffect(EFFECT_ENERGY_ORB_WAVE, 4, LVar0, LVar1, LVar2, 1, 40, 0)
-    PlayEffect(EFFECT_WALKING_DUST, 0, LVar0, LVar1, LVar2, -4, 0, 0)
-    PlayEffect(EFFECT_WALKING_DUST, 0, LVar0, LVar1, LVar2, -4, 4, 0)
-    PlayEffect(EFFECT_WALKING_DUST, 0, LVar0, LVar1, LVar2, 4, 0, 0)
-    PlayEffect(EFFECT_WALKING_DUST, 0, LVar0, LVar1, LVar2, 4, 4, 0)
+    PlayEffect(EFFECT_WALKING_DUST, FX_DUST_WALK, LVar0, LVar1, LVar2, -4, 0, 0)
+    PlayEffect(EFFECT_WALKING_DUST, FX_DUST_WALK, LVar0, LVar1, LVar2, -4, 4, 0)
+    PlayEffect(EFFECT_WALKING_DUST, FX_DUST_WALK, LVar0, LVar1, LVar2, 4, 0, 0)
+    PlayEffect(EFFECT_WALKING_DUST, FX_DUST_WALK, LVar0, LVar1, LVar2, 4, 4, 0)
     Return
     End
 };

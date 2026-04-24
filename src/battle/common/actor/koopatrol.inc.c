@@ -887,7 +887,7 @@ EvtScript N(EVS_Attack_ChargedToss) = {
             Thread
                 Loop(30)
                     Call(GetActorPos, ACTOR_SELF, LVar0, LVar1, LVar2)
-                    PlayEffect(EFFECT_WALKING_DUST, 2, LVar0, LVar1, LVar2, 0, 0, 0)
+                    PlayEffect(EFFECT_WALKING_DUST, FX_DUST_2, LVar0, LVar1, LVar2, 0, 0, 0)
                     Wait(1)
                 EndLoop
             EndThread
@@ -924,7 +924,7 @@ EvtScript N(EVS_Attack_ChargedToss) = {
     Thread
         Loop(30)
             Call(GetActorPos, ACTOR_SELF, LVar0, LVar1, LVar2)
-            PlayEffect(EFFECT_WALKING_DUST, 2, LVar0, LVar1, LVar2, 0, 0, 0)
+            PlayEffect(EFFECT_WALKING_DUST, FX_DUST_2, LVar0, LVar1, LVar2, 0, 0, 0)
             Wait(1)
         EndLoop
     EndThread

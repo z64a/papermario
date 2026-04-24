@@ -97,7 +97,7 @@ EvtScript N(EVS_NpcHit_MontyMole_Stone) = {
         CaseEq(ENCOUNTER_TRIGGER_JUMP)
             Call(SetSelfVar, 0, 4)
             Call(GetNpcPos, NPC_SELF, LVar0, LVar1, LVar2)
-            PlayEffect(EFFECT_WALKING_DUST, 2, LVar0, LVar1, LVar2, 0, 0)
+            PlayEffect(EFFECT_WALKING_DUST, FX_DUST_2, LVar0, LVar1, LVar2, 0, 0)
             Call(SetNpcPos, NPC_SELF, NPC_DISPOSE_LOCATION)
             Call(SetSelfVar, 0, 0)
         EndCaseGroup

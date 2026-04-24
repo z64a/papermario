@@ -758,7 +758,7 @@ EvtScript N(EVS_ToadHouse_GetInBed) = {
     Thread
         Wait(15)
         Call(N(ToadHouse_CamSetFOV), 0, Float(40.0))
-        Call(SetCamType, CAM_DEFAULT, 4, false)
+        Call(SetCamType, CAM_DEFAULT, CAM_CONTROL_FIXED_POS_AND_ORIENTATION, false)
         Call(SetCamPitch, CAM_DEFAULT, Float(50.0), Float(-16.0))
         Call(SetCamDistance, CAM_DEFAULT, Float(111.0))
         Call(SetCamPosA, CAM_DEFAULT, Float(-92.0), Float(94.0))

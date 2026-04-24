@@ -25,7 +25,7 @@ API_CALLABLE(N(SetPlayerSpriteFacingAngle)) {
 }
 
 EvtScript N(EVS_FocusCam_LookAtDoor) = {
-    Call(SetCamType, CAM_DEFAULT, 4, false)
+    Call(SetCamType, CAM_DEFAULT, CAM_CONTROL_FIXED_POS_AND_ORIENTATION, false)
     Call(SetCamSpeed, CAM_DEFAULT, LVar6)
     Call(SetCamPitch, CAM_DEFAULT, Float(15.0), Float(-10.0))
     Call(SetCamDistance, CAM_DEFAULT, Float(500.0))
@@ -160,7 +160,7 @@ EvtScript N(EVS_NpcIdle_Door) = {
     Call(GetPlayerPos, LVar0, LVar1, LVar2)
     Call(SetPlayerSpeed, Float(3.0 / DT))
     Call(PlayerMoveTo, -150, LVar2, 0)
-    Call(SetCamType, CAM_DEFAULT, 6, false)
+    Call(SetCamType, CAM_DEFAULT, CAM_CONTROL_CONSTAIN_BETWEEN_POINTS, false)
     Set(LVar6, Float(3.0 / DT))
     ExecWait(N(EVS_FocusCam_LookAtDoor))
     Set(MF_DoneIntroMessage, false)

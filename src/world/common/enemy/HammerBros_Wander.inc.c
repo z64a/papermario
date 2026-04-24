@@ -95,7 +95,7 @@ EvtScript N(EVS_NpcHit_HammerBros_Hammer) = {
         CaseOrEq(ENCOUNTER_TRIGGER_PARTNER)
             Call(SetSelfVar, 0, 4)
             Call(GetNpcPos, NPC_SELF, LVar0, LVar1, LVar2)
-            PlayEffect(EFFECT_WALKING_DUST, 2, LVar0, LVar1, LVar2, 0, 0)
+            PlayEffect(EFFECT_WALKING_DUST, FX_DUST_2, LVar0, LVar1, LVar2, 0, 0)
             Call(SetNpcPos, NPC_SELF, NPC_DISPOSE_LOCATION)
             Call(SetSelfVar, 0, 0)
         EndCaseGroup

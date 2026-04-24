@@ -6,7 +6,7 @@ extern EvtScript N(EVS_EndKoopaBrosTheme);
 extern EvtScript N(EVS_EnterMap);
 
 API_CALLABLE(N(MakeHammerDust)) {
-    fx_walking_dust(2, script->varTable[0], script->varTable[1], script->varTable[2], 0, 0);
+    fx_walking_dust(FX_DUST_2, script->varTable[0], script->varTable[1], script->varTable[2], 0, 0);
     return ApiStatus_DONE2;
 }
 

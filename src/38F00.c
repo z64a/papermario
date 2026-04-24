@@ -1,90 +1,5 @@
 #include "common.h"
 
-API_CALLABLE(func_8005DB00);
-API_CALLABLE(func_8005DD54);
-API_CALLABLE(func_8005DDF0);
-
-EvtScript EVS_800936C0 = {
-    Call(func_8005DB00)
-    Return
-    End
-};
-
-EvtScript EVS_NpcHitRecoil = {
-    Call(SetNpcAnimation, NPC_SELF, LVar0)
-    Call(GetNpcPos, NPC_SELF, LVar0, LVar3, LVar2)
-    Set(LVar1, LVar3)
-    Add(LVar1, 1)
-    Call(SetNpcPos, NPC_SELF, LVar0, LVar1, LVar2)
-    Wait(1)
-    Set(LVar1, LVar3)
-    Add(LVar1, 4)
-    Call(SetNpcPos, NPC_SELF, LVar0, LVar1, LVar2)
-    Wait(1)
-    Set(LVar1, LVar3)
-    Add(LVar1, 16)
-    Call(SetNpcPos, NPC_SELF, LVar0, LVar1, LVar2)
-    Wait(1)
-    Set(LVar1, LVar3)
-    Add(LVar1, 8)
-    Call(SetNpcPos, NPC_SELF, LVar0, LVar1, LVar2)
-    Wait(1)
-    Set(LVar1, LVar3)
-    Add(LVar1, 20)
-    Call(SetNpcPos, NPC_SELF, LVar0, LVar1, LVar2)
-    Wait(1)
-    Set(LVar1, LVar3)
-    Add(LVar1, 8)
-    Call(SetNpcPos, NPC_SELF, LVar0, LVar1, LVar2)
-    Wait(1)
-    Set(LVar1, LVar3)
-    Add(LVar1, 12)
-    Call(SetNpcPos, NPC_SELF, LVar0, LVar1, LVar2)
-    Wait(1)
-    Set(LVar1, LVar3)
-    Add(LVar1, 6)
-    Call(SetNpcPos, NPC_SELF, LVar0, LVar1, LVar2)
-    Wait(1)
-    Set(LVar1, LVar3)
-    Add(LVar1, 0)
-    Call(SetNpcPos, NPC_SELF, LVar0, LVar1, LVar2)
-    Wait(1)
-    Return
-    End
-};
-
-EvtScript D_800939A4 = {
-    Return
-    End
-};
-
-EvtScript D_800939B4 = {
-    Call(GetSelfVar, 0, LVar0)
-    IfEq(LVar0, 0)
-        Call(SetSelfVar, 0, 1)
-        Call(BindNpcAI, NPC_SELF, Ref(D_800939A4))
-        Call(SetNpcFlagBits, NPC_SELF, NPC_FLAG_GRAVITY | NPC_FLAG_IGNORE_CAMERA_FOR_YAW, true)
-        Call(SetNpcFlagBits, NPC_SELF, NPC_FLAG_FLYING | NPC_FLAG_JUMPING, false)
-        Call(SetNpcAnimation, NPC_SELF, LVar2)
-        Set(LVar0, 0)
-        Loop(30)
-            Call(SetNpcRotation, NPC_SELF, 0, LVar0, 0)
-            Call(func_8005DD54)
-            Call(SetNpcImgFXParams, NPC_SELF, IMGFX_SET_COLOR, LVar2, LVar2, LVar2, 0)
-            Add(LVar0, 30)
-            Wait(1)
-        EndLoop
-        Call(SetNpcRotation, NPC_SELF, 0, 0, 0)
-        Call(SetNpcImgFXParams, NPC_SELF, IMGFX_SET_COLOR, 255, 255, 255, 0)
-        Call(SetNpcFlagBits, NPC_SELF, NPC_FLAG_IGNORE_CAMERA_FOR_YAW, false)
-        Call(SetSelfVar, 0, 0)
-        Call(func_8005DDF0)
-        Call(BindNpcAI, NPC_SELF, LVar1)
-    EndIf
-    Return
-    End
-};
-
 API_CALLABLE(func_8005DB00) {
     Npc* npc;
     f32 targetDir, npcYaw;
@@ -143,6 +58,55 @@ API_CALLABLE(func_8005DB00) {
     return ApiStatus_BLOCK;
 }
 
+EvtScript EVS_AwaitPlayerLineOfSight = {
+    Call(func_8005DB00)
+    Return
+    End
+};
+
+EvtScript EVS_NpcHitRecoil = {
+    Call(SetNpcAnimation, NPC_SELF, LVar0)
+    Call(GetNpcPos, NPC_SELF, LVar0, LVar3, LVar2)
+    Set(LVar1, LVar3)
+    Add(LVar1, 1)
+    Call(SetNpcPos, NPC_SELF, LVar0, LVar1, LVar2)
+    Wait(1)
+    Set(LVar1, LVar3)
+    Add(LVar1, 4)
+    Call(SetNpcPos, NPC_SELF, LVar0, LVar1, LVar2)
+    Wait(1)
+    Set(LVar1, LVar3)
+    Add(LVar1, 16)
+    Call(SetNpcPos, NPC_SELF, LVar0, LVar1, LVar2)
+    Wait(1)
+    Set(LVar1, LVar3)
+    Add(LVar1, 8)
+    Call(SetNpcPos, NPC_SELF, LVar0, LVar1, LVar2)
+    Wait(1)
+    Set(LVar1, LVar3)
+    Add(LVar1, 20)
+    Call(SetNpcPos, NPC_SELF, LVar0, LVar1, LVar2)
+    Wait(1)
+    Set(LVar1, LVar3)
+    Add(LVar1, 8)
+    Call(SetNpcPos, NPC_SELF, LVar0, LVar1, LVar2)
+    Wait(1)
+    Set(LVar1, LVar3)
+    Add(LVar1, 12)
+    Call(SetNpcPos, NPC_SELF, LVar0, LVar1, LVar2)
+    Wait(1)
+    Set(LVar1, LVar3)
+    Add(LVar1, 6)
+    Call(SetNpcPos, NPC_SELF, LVar0, LVar1, LVar2)
+    Wait(1)
+    Set(LVar1, LVar3)
+    Add(LVar1, 0)
+    Call(SetNpcPos, NPC_SELF, LVar0, LVar1, LVar2)
+    Wait(1)
+    Return
+    End
+};
+
 API_CALLABLE(func_8005DD54) {
     f32 angle = clamp_angle(script->varTable[0]);
 
@@ -164,3 +128,35 @@ API_CALLABLE(func_8005DDF0) {
         return ApiStatus_BLOCK;
     }
 }
+
+EvtScript D_800939A4 = {
+    Return
+    End
+};
+
+EvtScript D_800939B4 = {
+    Call(GetSelfVar, 0, LVar0)
+    IfEq(LVar0, 0)
+        Call(SetSelfVar, 0, 1)
+        Call(BindNpcAI, NPC_SELF, Ref(D_800939A4))
+        Call(SetNpcFlagBits, NPC_SELF, NPC_FLAG_GRAVITY | NPC_FLAG_IGNORE_CAMERA_FOR_YAW, true)
+        Call(SetNpcFlagBits, NPC_SELF, NPC_FLAG_FLYING | NPC_FLAG_JUMPING, false)
+        Call(SetNpcAnimation, NPC_SELF, LVar2)
+        Set(LVar0, 0)
+        Loop(30)
+            Call(SetNpcRotation, NPC_SELF, 0, LVar0, 0)
+            Call(func_8005DD54)
+            Call(SetNpcImgFXParams, NPC_SELF, IMGFX_SET_COLOR, LVar2, LVar2, LVar2, 0)
+            Add(LVar0, 30)
+            Wait(1)
+        EndLoop
+        Call(SetNpcRotation, NPC_SELF, 0, 0, 0)
+        Call(SetNpcImgFXParams, NPC_SELF, IMGFX_SET_COLOR, 255, 255, 255, 0)
+        Call(SetNpcFlagBits, NPC_SELF, NPC_FLAG_IGNORE_CAMERA_FOR_YAW, false)
+        Call(SetSelfVar, 0, 0)
+        Call(func_8005DDF0)
+        Call(BindNpcAI, NPC_SELF, LVar1)
+    EndIf
+    Return
+    End
+};

@@ -125,7 +125,7 @@ void surface_standard_behavior(void) {
             } else {
                 sin_cos_rad(DEG_TO_RAD(clamp_angle(-playerStatus->curYaw)), &sinTheta, &cosTheta);
                 fx_walking_dust(
-                    0,
+                    FX_DUST_WALK,
                     playerStatus->pos.x + (playerStatus->colliderDiameter * sinTheta * 0.2f),
                     playerStatus->pos.y + 1.5f,
                     playerStatus->pos.z + (playerStatus->colliderDiameter * cosTheta * 0.2f),
@@ -146,7 +146,7 @@ void surface_standard_behavior(void) {
             if (!cond) {
                 sin_cos_rad(DEG_TO_RAD(clamp_angle(-playerStatus->curYaw)), &sinTheta, &cosTheta);
                 fx_walking_dust(
-                    0,
+                    FX_DUST_WALK,
                     playerStatus->pos.x + (playerStatus->colliderDiameter * sinTheta * 0.2f),
                     playerStatus->pos.y + 1.5f,
                     playerStatus->pos.z + (playerStatus->colliderDiameter * cosTheta * 0.2f),

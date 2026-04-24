@@ -64,6 +64,6 @@ MapSettings* get_current_map_settings(void);
 extern AreaConfig gAreas[29];
 
 extern EvtScript EVS_NpcHitRecoil;
-extern EvtScript EVS_800936C0;
+extern EvtScript EVS_AwaitPlayerLineOfSight;
 
 #endif

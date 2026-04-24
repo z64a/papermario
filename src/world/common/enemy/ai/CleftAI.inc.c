@@ -160,7 +160,7 @@ void N(CleftAI_RevUp)(Evt* script, MobileAISettings* aiSettings, EnemyDetectVolu
 
     npc->yaw = atan2(npc->pos.x, npc->pos.z, gPlayerStatusPtr->pos.x, gPlayerStatusPtr->pos.z);
     if (npc->duration % 3 == 0) {
-        fx_walking_dust(2, npc->pos.x, npc->pos.y, npc->pos.z + 2.0f, 0, 0);
+        fx_walking_dust(FX_DUST_2, npc->pos.x, npc->pos.y, npc->pos.z + 2.0f, 0, 0);
     }
 
     npc->duration--;

@@ -70,7 +70,7 @@ EvtScript N(EVS_NpcIdle_JrTroopa_01) = {
         Wait(10 * DT)
         Loop(10 * DT)
             Call(GetNpcPos, NPC_SELF, LVar0, LVar1, LVar2)
-            PlayEffect(EFFECT_WALKING_DUST, 2, LVar0, LVar1, LVar2, 0, 0)
+            PlayEffect(EFFECT_WALKING_DUST, FX_DUST_2, LVar0, LVar1, LVar2, 0, 0)
             Wait(2)
         EndLoop
     EndThread

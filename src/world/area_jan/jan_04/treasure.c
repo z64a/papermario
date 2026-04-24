@@ -126,9 +126,9 @@ EvtScript N(EVS_Scene_TreasureChest) = {
         EndLoop
         Call(PlaySoundAt, SOUND_JAN_CHEST_IMPACT, SOUND_SPACE_DEFAULT, LVar1, LVar2, LVar3)
         Thread
-            PlayEffect(EFFECT_WALKING_DUST, 2, -15, 0, 0, 10, 10)
-            PlayEffect(EFFECT_WALKING_DUST, 2, 0, 0, 0, 0, 0)
-            PlayEffect(EFFECT_WALKING_DUST, 2, 15, 0, 0, 350, 350)
+            PlayEffect(EFFECT_WALKING_DUST, FX_DUST_2, -15, 0, 0, 10, 10)
+            PlayEffect(EFFECT_WALKING_DUST, FX_DUST_2, 0, 0, 0, 0, 0)
+            PlayEffect(EFFECT_WALKING_DUST, FX_DUST_2, 15, 0, 0, 350, 350)
             Call(ShakeCam, CAM_DEFAULT, 0, 30, Float(1.0))
         EndThread
         Call(LoadPath, 10, Ref(N(ChestBouncePath)), ARRAY_COUNT(N(ChestBouncePath)), EASING_LINEAR)
@@ -141,8 +141,8 @@ EvtScript N(EVS_Scene_TreasureChest) = {
             EndIf
         EndLoop
         Call(PlaySoundAt, SOUND_JAN_CHEST_IMPACT, SOUND_SPACE_DEFAULT, LVar1, LVar2, LVar3)
-        PlayEffect(EFFECT_WALKING_DUST, 2, -10, 0, 15, 0, 0)
-        PlayEffect(EFFECT_WALKING_DUST, 2, -10, 0, 15, 0, 0)
+        PlayEffect(EFFECT_WALKING_DUST, FX_DUST_2, -10, 0, 15, 0, 0)
+        PlayEffect(EFFECT_WALKING_DUST, FX_DUST_2, -10, 0, 15, 0, 0)
         Wait(60)
         Exec(N(EVS_GotoMap_kmr_24_0))
     EndIf

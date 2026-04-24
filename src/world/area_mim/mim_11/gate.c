@@ -32,7 +32,7 @@ EvtScript N(D_80242560_BB95D0) = {
     Call(ShakeCam, CAM_DEFAULT, 0, 15, Float(1.5))
     Wait(20 * DT)
     Call(SetCamSpeed, CAM_DEFAULT, Float(1.0 / DT))
-    Call(SetCamType, CAM_DEFAULT, 0, true)
+    Call(SetCamType, CAM_DEFAULT, CAM_CONTROL_FIXED_ORIENTATION, true)
     Call(SetCamPitch, CAM_DEFAULT, Float(19.5), Float(-14.9))
     Call(SetCamDistance, CAM_DEFAULT, 350)
     Call(SetCamPosA, CAM_DEFAULT, -133, 52)

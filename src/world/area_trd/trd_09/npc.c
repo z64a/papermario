@@ -30,7 +30,7 @@ EvtScript N(EVS_NpcAuxAI_BillBlaster) = {
     End
 };
 
-EvtScript N(D_80240844_9BDEA4) = {
+EvtScript N(EVS_NpcAI_BillBlaster_Sniper) = {
     Label(0)
         SetF(LVar0, Float(400.0))
         Set(LVar1, 1)
@@ -38,7 +38,7 @@ EvtScript N(D_80240844_9BDEA4) = {
         Set(LVar3, 10)
         Set(LVarA, ANIM_BillBlaster_Idle)
         Set(LVarB, ANIM_BillBlaster_Idle)
-        ExecWait(EVS_800936C0)
+        ExecWait(EVS_AwaitPlayerLineOfSight)
         Call(SetNpcAnimation, NPC_SELF, ANIM_BillBlaster_Fire)
         Wait(15)
         Call(GetNpcPos, NPC_SELF, LVar0, LVar1, LVar2)
@@ -93,7 +93,7 @@ EvtScript N(EVS_NpcHit_BillBlaster) = {
     End
 };
 
-EvtScript N(D_80240B80_9BE1E0) = {
+EvtScript N(EVS_Defeat_BillBlaster_Sniper) = {
     Call(GetBattleOutcome, LVar0)
     Switch(LVar0)
         CaseEq(OUTCOME_PLAYER_WON)
@@ -112,12 +112,12 @@ EvtScript N(EVS_NpcAuxAI_BulletBill) = {
     End
 };
 
-EvtScript N(D_80240C1C_9BE27C) = {
+EvtScript N(EVS_NpcAI_BulletBill_Sniper) = {
     Return
     End
 };
 
-EvtScript N(D_80240C2C_9BE28C) = {
+EvtScript N(EVS_Defeat_BulletBill_Sniper) = {
     Call(SetNpcRotation, NPC_SELF, 0, 0, 0)
     Call(GetBattleOutcome, LVar0)
     Switch(LVar0)
@@ -132,26 +132,28 @@ EvtScript N(D_80240C2C_9BE28C) = {
     End
 };
 
-NpcSettings N(missing_80240CE4) = {
+// blaster for unused 'sniper' mode where the blaster waits for player in line-of-sight to fire
+NpcSettings N(NpcSettings_BillBlaster_Sniper) = {
     .defaultAnim = ANIM_BillBlaster_Idle,
     .height = 26,
     .radius = 32,
     .level = ACTOR_LEVEL_BILL_BLASTER,
     .otherAI = &N(EVS_NpcAuxAI_BillBlaster),
-    .ai = &N(D_80240844_9BDEA4),
+    .ai = &N(EVS_NpcAI_BillBlaster_Sniper),
     .onHit = &N(EVS_NpcHit_BillBlaster),
-    .onDefeat = &N(D_80240B80_9BE1E0),
+    .onDefeat = &N(EVS_Defeat_BillBlaster_Sniper),
 };
 
-NpcSettings N(missing_80240D10) = {
+// bullet for unused 'sniper' mode where the blaster waits for player in line-of-sight to fire
+NpcSettings N(NpcSettings_BulletBill_Sniper) = {
     .defaultAnim = ANIM_BulletBill_Idle,
     .height = 14,
     .radius = 31,
     .level = ACTOR_LEVEL_BULLET_BILL,
     .otherAI = &N(EVS_NpcAuxAI_BulletBill),
-    .ai = &N(D_80240C1C_9BE27C),
+    .ai = &N(EVS_NpcAI_BulletBill_Sniper),
     .onHit = &EnemyNpcHit,
-    .onDefeat = &N(D_80240C2C_9BE28C),
+    .onDefeat = &N(EVS_Defeat_BulletBill_Sniper),
 };
 
 EvtScript N(EVS_NpcAuxAI_KoopaBros_Red) = {
@@ -421,7 +423,7 @@ EvtScript N(EVS_NpcAI_BulletBill) = {
         Add(LVarB, 5)
         Set(LVarC, LVar3)
         Add(LVarC, 3)
-        PlayEffect(EFFECT_WALKING_DUST, 2, LVarA, LVarB, LVarC, 0, 0)
+        PlayEffect(EFFECT_WALKING_DUST, FX_DUST_2, LVarA, LVarB, LVarC, 0, 0)
         Call(SetNpcSpeed, NPC_SELF, Float(6.0))
         Switch(LVar0)
             CaseEq(NPC_BillBlaster_01)

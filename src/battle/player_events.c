@@ -1219,7 +1219,7 @@ EvtScript EVS_RunAwayNoCommand = {
                 Sub(LVar0, 8)
                 Add(LVar1, 14)
                 Add(LVar2, 5)
-                PlayEffect(EFFECT_WALKING_DUST, 0, LVar0, LVar1, LVar2, Float(1.0), Float(1.0))
+                PlayEffect(EFFECT_WALKING_DUST, FX_DUST_WALK, LVar0, LVar1, LVar2, Float(1.0), Float(1.0))
                 Wait(5)
             EndLoop
         EndChildThread
@@ -1333,7 +1333,7 @@ EvtScript EVS_RunAwayStart = {
                 Sub(LVar0, 8)
                 Add(LVar1, 14)
                 Add(LVar2, 5)
-                PlayEffect(EFFECT_WALKING_DUST, 0, LVar0, LVar1, LVar2, Float(1.0), Float(1.0))
+                PlayEffect(EFFECT_WALKING_DUST, FX_DUST_WALK, LVar0, LVar1, LVar2, Float(1.0), Float(1.0))
                 Wait(5)
             EndLoop
         EndChildThread
@@ -1400,7 +1400,7 @@ EvtScript EVS_PlayerDies = {
     Call(SetActorPos, ACTOR_PLAYER, LVar0, LVar1, LVar2)
     Call(GetActorPos, ACTOR_PLAYER, LVar0, LVar1, LVar2)
     Add(LVar2, 20)
-    PlayEffect(EFFECT_WALKING_DUST, 1, LVar0, LVar1, LVar2, Float(1.0), Float(1.0))
+    PlayEffect(EFFECT_WALKING_DUST, FX_DUST_1, LVar0, LVar1, LVar2, Float(1.0), Float(1.0))
     Wait(15)
     Return
     End

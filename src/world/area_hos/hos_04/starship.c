@@ -60,7 +60,7 @@ EvtScript N(EVS_Starship_FlyingAway) = {
     Call(SetCamPerspective, CAM_DEFAULT, CAM_UPDATE_FROM_ZONE, 45, 16, 4096)
     Call(UseSettingsFrom, CAM_DEFAULT, -280, 0, 0)
     Call(SetPanTarget, CAM_DEFAULT, -280, 0, 0)
-    Call(SetCamType, CAM_DEFAULT, 0, false)
+    Call(SetCamType, CAM_DEFAULT, CAM_CONTROL_FIXED_ORIENTATION, false)
     Call(SetCamDistance, CAM_DEFAULT, Float(550.0))
     Call(SetCamPosA, CAM_DEFAULT, Float(-688.0), Float(50.0))
     Call(SetCamPosB, CAM_DEFAULT, Float(-544.0), Float(50.0))

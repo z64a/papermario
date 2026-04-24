@@ -11,7 +11,7 @@ EvtScript N(EVS_NpcIdle_TubbasHeart) = {
         Wait(1)
     EndLoop
     Thread
-        Call(SetCamType, CAM_DEFAULT, 6, true)
+        Call(SetCamType, CAM_DEFAULT, CAM_CONTROL_CONSTAIN_BETWEEN_POINTS, true)
         Call(SetCamSpeed, CAM_DEFAULT, Float(4.0 / DT))
         Call(GetPlayerPos, LVar0, LVar1, LVar2)
         Add(LVar0, 50)
@@ -71,7 +71,7 @@ Vec3i N(HeartJumpPath)[] = {
 
 EvtScript N(EVS_Scene_HeartEscape) = {
     Thread
-        Call(SetCamType, CAM_DEFAULT, 6, true)
+        Call(SetCamType, CAM_DEFAULT, CAM_CONTROL_CONSTAIN_BETWEEN_POINTS, true)
         Call(SetCamSpeed, CAM_DEFAULT, Float(90.0))
         Call(GetPlayerPos, LVar0, LVar1, LVar2)
         Add(LVar0, 50)
@@ -91,7 +91,7 @@ EvtScript N(EVS_Scene_HeartEscape) = {
     EndLoop
     Thread
         Wait(10 * DT)
-        Call(SetCamType, CAM_DEFAULT, 4, true)
+        Call(SetCamType, CAM_DEFAULT, CAM_CONTROL_FIXED_POS_AND_ORIENTATION, true)
         Call(SetCamSpeed, CAM_DEFAULT, Float(2.0 / DT))
         Call(SetCamPitch, CAM_DEFAULT, Float(17.0), Float(-7.0))
         Call(SetCamDistance, CAM_DEFAULT, 450)
@@ -123,7 +123,7 @@ EvtScript N(EVS_Scene_HeartEscape) = {
     EndLoop
     Exec(N(EVS_Heart_CloseDoor))
     Wait(30 * DT)
-    Call(SetCamType, CAM_DEFAULT, 6, true)
+    Call(SetCamType, CAM_DEFAULT, CAM_CONTROL_CONSTAIN_BETWEEN_POINTS, true)
     Call(SetCamSpeed, CAM_DEFAULT, Float(90.0))
     Call(GetPlayerPos, LVar0, LVar1, LVar2)
     Call(UseSettingsFrom, CAM_DEFAULT, LVar0, LVar1, LVar2)

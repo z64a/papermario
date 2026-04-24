@@ -3874,7 +3874,7 @@ void add_part_decor_steam(ActorPart* part, s32 idx) {
                 angle = DEG_TO_RAD(clamp_angle(-part->yaw));
                 sinA = sin_rad(angle);
                 cosA = cos_rad(angle);
-                fx_walking_dust(0,
+                fx_walking_dust(FX_DUST_WALK,
                     part->curPos.x + (part->size.x * sinA * 0.2f),
                     part->curPos.y + 1.5f,
                     part->curPos.z + (part->size.x * cosA * 0.2f),

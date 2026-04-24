@@ -564,7 +564,7 @@ API_CALLABLE(N(RunMinigame)) {
                         data->box[i].state = BOX_STATE_FUZZY_DONE;
                         disable_npc_shadow(npc);
                         npc->flags |= NPC_FLAG_INVISIBLE;
-                        fx_walking_dust(1, npc->pos.x, npc->pos.y + 10.0f, npc->pos.z + 1.0f, 0, 0);
+                        fx_walking_dust(FX_DUST_1, npc->pos.x, npc->pos.y + 10.0f, npc->pos.z + 1.0f, 0, 0);
                     }
                     break;
                 case BOX_STATE_FUZZY_DONE:
@@ -926,7 +926,7 @@ API_CALLABLE(N(CleanupGame)) {
 
             get_screen_coords(CAM_DEFAULT, npc->pos.x, npc->pos.y, npc->pos.z, &screenX, &screenY, &screenZ);
             if (screenX - 1 < SCREEN_WIDTH - 1) {
-                fx_walking_dust(1, npc->pos.x, npc->pos.y, npc->pos.z, 0, 0);
+                fx_walking_dust(FX_DUST_1, npc->pos.x, npc->pos.y, npc->pos.z, 0, 0);
                 sfx_play_sound(SOUND_KOOPER_SHELL_KICK);
             }
             npc->flags |= NPC_FLAG_INVISIBLE;
@@ -1108,7 +1108,7 @@ EvtScript N(EVS_HideBoxWithSmoke) = {
     Wait(1)
     Call(GetColliderCenter, LVar1)
     Sub(LVar1, 5)
-    PlayEffect(EFFECT_WALKING_DUST, 1, LVar0, LVar1, LVar2)
+    PlayEffect(EFFECT_WALKING_DUST, FX_DUST_1, LVar0, LVar1, LVar2)
     Return
     End
 };
@@ -1478,11 +1478,11 @@ EvtScript N(EVS_OnHitBox) = {
             Call(ModifyColliderFlags, MODIFY_COLLIDER_FLAGS_SET_BITS, LVarB, COLLIDER_FLAGS_UPPER_MASK)
             Wait(4)
             Sub(LVar1, 5)
-            PlayEffect(EFFECT_WALKING_DUST, 1, LVar0, LVar1, LVar2)
+            PlayEffect(EFFECT_WALKING_DUST, FX_DUST_1, LVar0, LVar1, LVar2)
         CaseOrEq(0)
         CaseOrEq(1)
             Sub(LVar1, 5)
-            PlayEffect(EFFECT_WALKING_DUST, 1, LVar0, LVar1, LVar2)
+            PlayEffect(EFFECT_WALKING_DUST, FX_DUST_1, LVar0, LVar1, LVar2)
         EndCaseGroup
     EndSwitch
     Call(EnableModel, LVarA, false)
@@ -1637,11 +1637,11 @@ EvtScript N(EVS_Toad_GovernGame) = {
     EndThread
     Call(SetNpcFlagBits, NPC_Toad, NPC_FLAG_IGNORE_PLAYER_COLLISION, true)
     Call(N(CreateSignpost))
-    PlayEffect(EFFECT_WALKING_DUST, 1, 355, 45, -175)
+    PlayEffect(EFFECT_WALKING_DUST, FX_DUST_1, 355, 45, -175)
     Thread
         Call(SetNpcPos, NPC_Toad, 358, -20, 185)
         Call(EnableNpcShadow, NPC_Toad, true)
-        PlayEffect(EFFECT_WALKING_DUST, 1, 358, 5, 189)
+        PlayEffect(EFFECT_WALKING_DUST, FX_DUST_1, 358, 5, 189)
         Call(SetSelfEnemyFlagBits, ENEMY_FLAG_IGNORE_TOUCH | ENEMY_FLAG_CANT_INTERACT | ENEMY_FLAG_IGNORE_PARTNER, false)
     EndThread
     Call(GetPlayerPos, LVar0, LVar1, LVar2)
@@ -1773,11 +1773,11 @@ EvtScript N(EVS_NpcInteract_Toad) = {
     Wait(25)
     Thread
         Wait(12)
-        PlayEffect(EFFECT_WALKING_DUST, 1, 358, -10, 185)
+        PlayEffect(EFFECT_WALKING_DUST, FX_DUST_1, 358, -10, 185)
         Call(SetNpcPos, NPC_Toad, 358, 500, 185)
         Call(EnableNpcShadow, NPC_Toad, false)
         Call(N(DestroySignpost))
-        PlayEffect(EFFECT_WALKING_DUST, 1, 355, 30, -180)
+        PlayEffect(EFFECT_WALKING_DUST, FX_DUST_1, 355, 30, -180)
     EndThread
     Call(EndSpeech, NPC_Toad, ANIM_Toad_Red_Talk, ANIM_Toad_Red_Idle, 5)
     Call(PushSong, SONG_PLAYROOM, 0)

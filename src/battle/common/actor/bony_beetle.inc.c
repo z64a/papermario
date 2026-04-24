@@ -689,7 +689,7 @@ EvtScript N(EVS_Attack_SpikeBounce) = {
     Thread
         Loop(20)
             Call(GetActorPos, ACTOR_SELF, LVar0, LVar1, LVar2)
-            PlayEffect(EFFECT_WALKING_DUST, 0, LVar0, LVar1, LVar2, 0, 0, 0)
+            PlayEffect(EFFECT_WALKING_DUST, FX_DUST_WALK, LVar0, LVar1, LVar2, 0, 0, 0)
             Wait(1)
         EndLoop
     EndThread

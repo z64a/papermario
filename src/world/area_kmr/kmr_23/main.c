@@ -47,7 +47,7 @@ EvtScript N(EVS_Main) = {
     Call(SetCamBGColor, CAM_DEFAULT, 0, 0, 0)
     Call(SetCamEnabled, CAM_DEFAULT, true)
     Call(SetCamLeadPlayer, CAM_DEFAULT, false)
-    Call(SetCamType, CAM_DEFAULT, 4, false)
+    Call(SetCamType, CAM_DEFAULT, CAM_CONTROL_FIXED_POS_AND_ORIENTATION, false)
     Call(SetCamPitch, CAM_DEFAULT, 0, 0)
     Call(SetCamDistance, CAM_DEFAULT, 440)
     Call(SetCamPosA, CAM_DEFAULT, 0, 100)

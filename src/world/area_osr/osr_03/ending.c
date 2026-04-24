@@ -125,7 +125,7 @@ EvtScript N(EVS_Scene_CastleDestruction) = {
     ExecGetTID(N(EVS_PlayExplosionFX), LVar9)
     Call(SetCamPerspective, CAM_DEFAULT, CAM_UPDATE_FROM_ZONE, 22, 16, 4096)
     Call(UseSettingsFrom, CAM_DEFAULT, 0, 0, 0)
-    Call(SetCamType, CAM_DEFAULT, 1, true)
+    Call(SetCamType, CAM_DEFAULT, CAM_CONTROL_LOOK_AT_POINT, true)
     Call(SetPanTarget, CAM_DEFAULT, -60, 0, 0)
     Call(SetCamPitch, CAM_DEFAULT, Float(-20.0), Float(-4.0))
     Call(SetCamPosA, CAM_DEFAULT, 0, -40)

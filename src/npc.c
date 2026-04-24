@@ -2268,7 +2268,7 @@ void spawn_default_surface_effects(Npc* npc, SurfaceInteractMode mode) {
             D_80077C14 = 0;
             if (!mapIsStarWay) {
                 sin_cos_rad(DEG_TO_RAD(clamp_angle(-npc->yaw)), &sinTheta, &cosTheta);
-                fx_walking_dust(0, npc->pos.x + (npc->collisionDiameter * sinTheta * 0.2f), npc->pos.y + 1.5f,
+                fx_walking_dust(FX_DUST_WALK, npc->pos.x + (npc->collisionDiameter * sinTheta * 0.2f), npc->pos.y + 1.5f,
                                npc->pos.z + (npc->collisionDiameter * cosTheta * 0.2f), sinTheta, cosTheta);
             } else {
                 sin_cos_rad(DEG_TO_RAD(clamp_angle(npc->yaw)), &sinTheta, &cosTheta);

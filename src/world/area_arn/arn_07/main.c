@@ -145,7 +145,7 @@ EvtScript N(EVS_Scene_TubbaReunion) = {
     Call(SetPlayerPos, -28, 0, -333)
     Call(SetNpcPos, NPC_PARTNER, -28, 0, -333)
     Call(SetCamSpeed, CAM_DEFAULT, Float(90.0))
-    Call(SetCamType, CAM_DEFAULT, 0, false)
+    Call(SetCamType, CAM_DEFAULT, CAM_CONTROL_FIXED_ORIENTATION, false)
     Call(SetCamPitch, CAM_DEFAULT, Float(25.0), Float(-4.0))
     Call(SetCamDistance, CAM_DEFAULT, 1100)
     Call(SetCamPosA, CAM_DEFAULT, 500, 0)

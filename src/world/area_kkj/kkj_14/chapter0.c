@@ -211,7 +211,7 @@ EvtScript N(EVS_Scene_Chapter0) = {
     ExecGetTID(N(EVS_TwinkTappingOnGlassDoor), LVarA)
     Thread
         Call(UseSettingsFrom, CAM_DEFAULT, 413, 0, -66)
-        Call(SetCamType, CAM_DEFAULT, 4, false)
+        Call(SetCamType, CAM_DEFAULT, CAM_CONTROL_FIXED_POS_AND_ORIENTATION, false)
         Call(SetCamPosA, CAM_DEFAULT, 338, 44)
         Call(SetCamPosB, CAM_DEFAULT, 413, -66)
         Call(SetCamSpeed, CAM_DEFAULT, Float(2.0 / DT))

@@ -104,7 +104,7 @@ EvtScript N(EVS_RoomListener_Hideout) = {
     Switch(LVar0)
         CaseEq(ROOM_UPDATE_ENTER_BEGIN)
             Call(SetGroupVisibility, MODEL_ie5_naka, MODEL_GROUP_VISIBLE)
-            Call(SetCamType, CAM_DEFAULT, 0, false)
+            Call(SetCamType, CAM_DEFAULT, CAM_CONTROL_FIXED_ORIENTATION, false)
             Call(SetCamDistance, CAM_DEFAULT, 260)
             Call(SetCamPitch, CAM_DEFAULT, 22, -13)
             Call(SetCamPosA, CAM_DEFAULT, 0, 290)

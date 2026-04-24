@@ -247,7 +247,7 @@ API_CALLABLE(N(ProjectileAI_Main)) {
                 npc->pos.y += npc->jumpVel;
                 npc->jumpVel -= npc->jumpScale;
             } else {
-                fx_walking_dust(2, npc->pos.x, npc->pos.y, npc->pos.z, 0, 0);
+                fx_walking_dust(FX_DUST_2, npc->pos.x, npc->pos.y, npc->pos.z, 0, 0);
                 enemy->varTable[0] = 0;
                 npc->pos.x = NPC_DISPOSE_POS_X;
                 npc->pos.y = NPC_DISPOSE_POS_Y;
@@ -298,7 +298,7 @@ API_CALLABLE(N(ProjectileAI_Reflect)) {
     npc = get_npc_unsafe(enemy->npcID);
     switch (script->functionTemp[0]) {
         case 0:
-            fx_walking_dust(2, npc->pos.x, npc->pos.y, npc->pos.z, 0.0f, 0.0f);
+            fx_walking_dust(FX_DUST_2, npc->pos.x, npc->pos.y, npc->pos.z, 0.0f, 0.0f);
             yaw = clamp_angle(camera->curYaw);
             temp_f20_2 = clamp_angle(yaw + 180.0);
             temp_f22 = clamp_angle(yaw + 90.0);
@@ -352,7 +352,7 @@ API_CALLABLE(N(ProjectileAI_Reflect)) {
             }
 
             if (phi_s4 != 0) {
-                fx_walking_dust(2, npc->pos.x, npc->pos.y, npc->pos.z, 0, 0);
+                fx_walking_dust(FX_DUST_2, npc->pos.x, npc->pos.y, npc->pos.z, 0, 0);
                 enemy->varTable[0] = 0;
                 npc->pos.x = NPC_DISPOSE_POS_X;
                 npc->pos.y = NPC_DISPOSE_POS_Y;

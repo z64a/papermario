@@ -278,7 +278,7 @@ EvtScript N(EVS_Scene_BowserDefeated) = {
     Set(LVar4, 3)
     Call(N(SpawnStarsOrbitingBowser))
     Set(MV_OrbitingEffectAIdx, LVar0)
-    Call(SetCamType, CAM_DEFAULT, 0, false)
+    Call(SetCamType, CAM_DEFAULT, CAM_CONTROL_FIXED_ORIENTATION, false)
     Call(UseSettingsFrom, CAM_DEFAULT, 300, 0, 50)
     Call(SetPanTarget, CAM_DEFAULT, 300, 0, 50)
     Call(SetCamDistance, CAM_DEFAULT, 375)
