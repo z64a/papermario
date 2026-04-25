@@ -92,8 +92,8 @@ EvtScript N(EVS_ShakeTree_StarHaven) = {
             BufRead1(LVar5)
             Loop(LVar5)
                 BufRead3(LVar6, LVar7, LVar8)
-                PlayEffect(EFFECT_SPARKLES, 2, LVar6, LVar7, LVar8, 50)
-                PlayEffect(EFFECT_SPARKLES, 2, LVar6, LVar7, LVar8, 50)
+                PlayEffect(EFFECT_SPARKLES, FX_SPARKLES_SCATTER_MANY, LVar6, LVar7, LVar8, 50)
+                PlayEffect(EFFECT_SPARKLES, FX_SPARKLES_SCATTER_MANY, LVar6, LVar7, LVar8, 50)
             EndLoop
         EndIf
     EndThread

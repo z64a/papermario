@@ -1349,7 +1349,7 @@ EvtScript N(EVS_Move_HealSelf) = {
     Call(PlaySoundAtActor, ACTOR_SELF, SOUND_HEART_BOUNCE)
     Call(GetActorPos, ACTOR_SELF, LVar1, LVar2, LVar3)
     Add(LVar2, 50)
-    PlayEffect(EFFECT_SPARKLES, 1, LVar1, LVar2, LVar3, 10, 0)
+    PlayEffect(EFFECT_SPARKLES, FX_SPARKLES_SCATTER_FEW, LVar1, LVar2, LVar3, 10, 0)
     PlayEffect(EFFECT_RECOVER, 2, LVar1, LVar2, LVar3, 0, 0)
     Wait(30)
     Call(SetAnimation, ACTOR_SELF, PRT_MAGE, ANIM_MageJrTroopa_Idle)

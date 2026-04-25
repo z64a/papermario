@@ -23,7 +23,7 @@ EvtScript N(EVS_BreakBlock_Third) = {
         Call(PlaySound, SOUND_CHIME_SOLVED_PUZZLE)
         Call(PlaySoundAt, SOUND_SPAWN_BLOCK, SOUND_SPACE_DEFAULT, 40, 60, -285)
         Set(AB_NOK_1, 3)
-        PlayEffect(EFFECT_SPARKLES, 0, 40, 73, -285, 10)
+        PlayEffect(EFFECT_SPARKLES, FX_SPARKLES_STAR, 40, 73, -285, 10)
         Call(MakeEntity, Ref(Entity_RedBlock), 40, 60, -285, 90, ITEM_ATTACK_FX_B, MAKE_ENTITY_END)
         Call(AssignBlockFlag, GF_NOK13_BadgeBlock_AttackFXB)
     EndIf

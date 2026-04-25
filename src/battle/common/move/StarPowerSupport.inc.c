@@ -10,7 +10,7 @@ API_CALLABLE(N(SpawnStarSparkleFX)) {
     s32 y = evt_get_variable(script, *args++);
     s32 z = evt_get_variable(script, *args++);
 
-    fx_sparkles(FX_SPARKLES_0, x, y, z, 40.0f);
+    fx_sparkles(FX_SPARKLES_STAR, x, y, z, 40.0f);
     return ApiStatus_DONE2;
 }
 
@@ -30,7 +30,7 @@ API_CALLABLE(N(SpawnStarSpiritArriveFX)) {
     s32 y = evt_get_variable(script, *args++);
     s32 z = evt_get_variable(script, *args++);
 
-    fx_sparkles(FX_SPARKLES_0, x, y, z, 30.0f);
+    fx_sparkles(FX_SPARKLES_STAR, x, y, z, 30.0f);
     return ApiStatus_DONE2;
 }
 

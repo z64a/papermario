@@ -350,7 +350,7 @@ void action_update_parasol(void) {
         if (transformation->disguiseTime <= 10 && transformation->disguiseTime & 1) {
             f64 tempX, tempZ;
 
-            fx_sparkles(FX_SPARKLES_3,
+            fx_sparkles(FX_SPARKLES_FALLING_FEW,
                 transformation->pos.x - 8,
                 transformation->pos.y + 50,
                 transformation->pos.z,

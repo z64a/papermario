@@ -34,7 +34,7 @@ EvtScript N(EVS_StarSpirit_FlyAway) = {
     Thread
         Loop(30)
             Call(GetNpcPos, LVar4, LVar0, LVar1, LVar2)
-            PlayEffect(EFFECT_SPARKLES, 3, LVar0, LVar1, LVar2, 20)
+            PlayEffect(EFFECT_SPARKLES, FX_SPARKLES_FALLING_FEW, LVar0, LVar1, LVar2, 20)
             Wait(6)
         EndLoop
     EndThread
@@ -42,7 +42,7 @@ EvtScript N(EVS_StarSpirit_FlyAway) = {
         Loop(30)
             Call(GetNpcPos, LVar4, LVar0, LVar1, LVar2)
             Add(LVar1, 20)
-            PlayEffect(EFFECT_SPARKLES, 4, LVar0, LVar1, LVar2, 40)
+            PlayEffect(EFFECT_SPARKLES, FX_SPARKLES_FALLING_MANY, LVar0, LVar1, LVar2, 40)
             Wait(8)
         EndLoop
     EndThread
@@ -76,7 +76,7 @@ EvtScript N(EVS_Twink_FlyAway) = {
     Thread
         Loop(30)
             Call(GetNpcPos, NPC_Twink, LVar0, LVar1, LVar2)
-            PlayEffect(EFFECT_SPARKLES, 3, LVar0, LVar1, LVar2, 20)
+            PlayEffect(EFFECT_SPARKLES, FX_SPARKLES_FALLING_FEW, LVar0, LVar1, LVar2, 20)
             Wait(6)
         EndLoop
     EndThread
@@ -84,7 +84,7 @@ EvtScript N(EVS_Twink_FlyAway) = {
         Loop(30)
             Call(GetNpcPos, NPC_Twink, LVar0, LVar1, LVar2)
             Add(LVar1, 20)
-            PlayEffect(EFFECT_SPARKLES, 4, LVar0, LVar1, LVar2, 40)
+            PlayEffect(EFFECT_SPARKLES, FX_SPARKLES_FALLING_MANY, LVar0, LVar1, LVar2, 40)
             Wait(8)
         EndLoop
     EndThread
@@ -155,7 +155,7 @@ EvtScript N(EVS_Scene_ReturnStarRod) = {
     Call(PlaySound, SOUND_RECEIVE_STAR_POWER)
     Loop(6)
         PlayEffect(EFFECT_RADIAL_SHIMMER, 9, LVar0, LVar1, LVar2, 1, 20)
-        PlayEffect(EFFECT_SPARKLES, 1, LVar0, LVar1, LVar2, 30)
+        PlayEffect(EFFECT_SPARKLES, FX_SPARKLES_SCATTER_FEW, LVar0, LVar1, LVar2, 30)
         Wait(10)
     EndLoop
     Loop(20)

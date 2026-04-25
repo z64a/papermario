@@ -58,8 +58,8 @@ EvtScript N(EVS_Amayze_Dayzees) = {
     Add(LVar4, 30)
     Sub(LVar5, 2)
     Loop(0)
-        PlayEffect(EFFECT_SPARKLES, 3, LVar0, LVar1, LVar2, 30)
-        PlayEffect(EFFECT_SPARKLES, 3, LVar0, LVar1, LVar2, 30)
+        PlayEffect(EFFECT_SPARKLES, FX_SPARKLES_FALLING_FEW, LVar0, LVar1, LVar2, 30)
+        PlayEffect(EFFECT_SPARKLES, FX_SPARKLES_FALLING_FEW, LVar0, LVar1, LVar2, 30)
         Wait(15)
     EndLoop
     Return

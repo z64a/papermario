@@ -113,7 +113,7 @@ void entity_Padlock_idle(Entity* entity) {
                 data->fallSpeed = 5.0f;
                 data->rotSpeed = 3.0f;
                 data->state++;
-                fx_sparkles(FX_SPARKLES_0, entity->pos.x, entity->pos.y + 25.0f, entity->pos.z, 10.0f);
+                fx_sparkles(FX_SPARKLES_STAR, entity->pos.x, entity->pos.y + 25.0f, entity->pos.z, 10.0f);
                 entity->flags |= ENTITY_FLAG_DISABLE_COLLISION;
             }
             break;

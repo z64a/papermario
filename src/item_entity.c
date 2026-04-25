@@ -1978,7 +1978,7 @@ void update_item_entity_collectable(ItemEntity* item) {
                         playerData->curHP = playerData->curMaxHP;
                     }
                     sfx_play_sound_at_position(SOUND_HEART_PICKUP, SOUND_SPACE_DEFAULT, item->pos.x, item->pos.y, item->pos.z);
-                    fx_sparkles(4, playerStatus->pos.x, playerStatus->pos.y + playerStatus->colliderHeight, playerStatus->pos.z, 30.0f);
+                    fx_sparkles(FX_SPARKLES_FALLING_MANY, playerStatus->pos.x, playerStatus->pos.y + playerStatus->colliderHeight, playerStatus->pos.z, 30.0f);
                     break;
                 case ITEM_FLOWER_POINT:
                     if (playerData->curFP < playerData->curMaxFP) {
@@ -1990,7 +1990,7 @@ void update_item_entity_collectable(ItemEntity* item) {
                         playerData->curFP = playerData->curMaxFP;
                     }
                     sfx_play_sound_at_position(SOUND_FLOWER_PICKUP, SOUND_SPACE_DEFAULT, item->pos.x, item->pos.y, item->pos.z);
-                    fx_sparkles(4, playerStatus->pos.x, playerStatus->pos.y + playerStatus->colliderHeight, playerStatus->pos.z, 30.0f);
+                    fx_sparkles(FX_SPARKLES_FALLING_MANY, playerStatus->pos.x, playerStatus->pos.y + playerStatus->colliderHeight, playerStatus->pos.z, 30.0f);
                     break;
                 case ITEM_COIN:
                     playerData->coins++;

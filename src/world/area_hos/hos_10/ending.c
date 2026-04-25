@@ -24,7 +24,7 @@ API_CALLABLE(N(NpcOrbitPlayerPos)) {
             npc->moveToPos.y = 3.0f;
             add_vec2D_polar(&npc->pos.x, &npc->pos.z, 70.0f, npc->moveToPos.x + (script->functionTemp[2] * 51) + 153.0f);
             if ((script->functionTemp[3] + script->functionTemp[2]) % 13 == 0)  {
-                fx_sparkles(3, npc->pos.x, npc->pos.y + 10.0f, npc->pos.z, 10.0f);
+                fx_sparkles(FX_SPARKLES_FALLING_FEW, npc->pos.x, npc->pos.y + 10.0f, npc->pos.z, 10.0f);
             }
             if (script->functionTemp[3] > 350) {
                 script->functionTemp[0] = 1;
@@ -44,7 +44,7 @@ API_CALLABLE(N(NpcOrbitPlayerPos)) {
                 npc->moveToPos.x + (script->functionTemp[2] * 51) + 153.0f
             );
             if ((script->functionTemp[3] + script->functionTemp[2]) % 13 == 0) {
-                fx_sparkles(3, npc->pos.x, npc->pos.y + 10.0f, npc->pos.z, 10.0f);
+                fx_sparkles(FX_SPARKLES_FALLING_FEW, npc->pos.x, npc->pos.y + 10.0f, npc->pos.z, 10.0f);
             }
             if (script->functionTemp[3] > 190) {
                 return ApiStatus_DONE2;
@@ -360,7 +360,7 @@ EvtScript N(EVS_MakeNpcSparkleTrail) = {
     ChildThread
         Loop(30)
             Call(GetNpcPos, LVar0, LVar1, LVar2, LVar3)
-            PlayEffect(EFFECT_SPARKLES, 3, LVar1, LVar2, LVar3, 20)
+            PlayEffect(EFFECT_SPARKLES, FX_SPARKLES_FALLING_FEW, LVar1, LVar2, LVar3, 20)
             Wait(6)
         EndLoop
     EndChildThread
@@ -368,7 +368,7 @@ EvtScript N(EVS_MakeNpcSparkleTrail) = {
         Loop(30)
             Call(GetNpcPos, LVar0, LVar1, LVar2, LVar3)
             Add(LVar1, 20)
-            PlayEffect(EFFECT_SPARKLES, 4, LVar1, LVar2, LVar3, 40)
+            PlayEffect(EFFECT_SPARKLES, FX_SPARKLES_FALLING_MANY, LVar1, LVar2, LVar3, 40)
             Wait(8)
         EndLoop
     EndChildThread

@@ -181,14 +181,14 @@ EvtScript N(EVS_StarKid_SpawnSparkles) = {
         Add(LVar0, 575)
         Add(LVar1, 89)
         Add(LVar2, 0)
-        PlayEffect(EFFECT_SPARKLES, 1, LVar0, LVar1, LVar2, 7)
+        PlayEffect(EFFECT_SPARKLES, FX_SPARKLES_SCATTER_FEW, LVar0, LVar1, LVar2, 7)
         Wait(2)
         Call(RandInt, 80, LVar0)
         Call(RandInt, 80, LVar1)
         Add(LVar0, 575)
         Add(LVar1, 89)
         Add(LVar2, 0)
-        PlayEffect(EFFECT_SPARKLES, 1, LVar0, LVar1, LVar2, 7)
+        PlayEffect(EFFECT_SPARKLES, FX_SPARKLES_SCATTER_FEW, LVar0, LVar1, LVar2, 7)
         Wait(3)
     EndLoop
     Return

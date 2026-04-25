@@ -65,7 +65,7 @@ API_CALLABLE(N(FlyAroundPlayer)) {
             npc->pos.z = npc->moveToPos.z;
             add_vec2D_polar(&npc->pos.x, &npc->pos.z, npc->planarFlyDist, npc->yaw);
             if ((npc->duration % 14) == 0) {
-                fx_sparkles(0, npc->pos.x, npc->pos.y, npc->pos.z, 30.0f);
+                fx_sparkles(FX_SPARKLES_STAR, npc->pos.x, npc->pos.y, npc->pos.z, 30.0f);
             }
 
             npc->duration++;

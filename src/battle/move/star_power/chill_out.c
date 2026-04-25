@@ -30,7 +30,7 @@ API_CALLABLE(N(SpawnChillOutFX)) {
     y = rand_int(120) + 7;
     z = rand_int(50) - 25;
 
-    fx_sparkles(FX_SPARKLES_4, x, y, z, 40.0f);
+    fx_sparkles(FX_SPARKLES_FALLING_MANY, x, y, z, 40.0f);
 
     return ApiStatus_DONE2;
 }

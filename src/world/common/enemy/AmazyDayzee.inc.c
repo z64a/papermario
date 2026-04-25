@@ -28,7 +28,7 @@ EvtScript N(EVS_NpcAux_AmazyDayzee) = {
         Call(GetNpcPos, NPC_SELF, LVar0, LVar1, LVar2)
         Add(LVar1, 30)
         Sub(LVar2, 2)
-        PlayEffect(EFFECT_SPARKLES, 3, LVar0, LVar1, LVar2, 30)
+        PlayEffect(EFFECT_SPARKLES, FX_SPARKLES_FALLING_FEW, LVar0, LVar1, LVar2, 30)
         Wait(15)
         Goto(0)
     Return

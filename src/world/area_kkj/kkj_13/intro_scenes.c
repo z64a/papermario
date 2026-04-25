@@ -310,7 +310,7 @@ EvtScript N(EVS_Scene_BowserAttacks) = {
         Call(EnableGroup, MODEL_g152, true)
         Call(EnableGroup, MODEL_g154, true)
         Call(PlaySoundAt, SOUND_GLASS_SHATTER, SOUND_SPACE_DEFAULT, 600, 60, -150)
-        PlayEffect(EFFECT_SPARKLES, 0, 600, 60, -150, 120)
+        PlayEffect(EFFECT_SPARKLES, FX_SPARKLES_STAR, 600, 60, -150, 120)
         Call(N(ShatterWindow))
         Wait(1)
         Call(N(ScreenWhiteFlashOff))

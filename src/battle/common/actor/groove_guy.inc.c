@@ -707,7 +707,7 @@ EvtScript N(EVS_PerformSummonDance) = {
     Call(SetActorRotation, ACTOR_SELF, 0, 0, 0)
     Call(GetActorPos, ACTOR_SELF, LVar0, LVar1, LVar2)
     Add(LVar1, 30)
-    PlayEffect(EFFECT_SPARKLES, 0, LVar0, LVar1, LVar2, 30, 0)
+    PlayEffect(EFFECT_SPARKLES, FX_SPARKLES_STAR, LVar0, LVar1, LVar2, 30, 0)
     Call(PlaySoundAtActor, ACTOR_SELF, SOUND_RECOVER_HEART)
     Call(SetAnimation, ACTOR_SELF, PRT_MAIN, ANIM_GrooveGuy_Anim0A)
     Wait(8)

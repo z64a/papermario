@@ -231,26 +231,25 @@ typedef struct EmoteFXData {
 } EmoteFXData; // size = 0x40
 
 typedef struct SparklesFXData {
-    /* 0x00 */ s32 unk_00;
-    /* 0x04 */ f32 unk_04;
-    /* 0x08 */ f32 unk_08;
-    /* 0x0C */ f32 unk_0C;
-    /* 0x10 */ f32 unk_10;
-    /* 0x14 */ f32 unk_14;
-    /* 0x18 */ f32 unk_18;
-    /* 0x1C */ f32 unk_1C;
-    /* 0x20 */ s32 unk_20;
-    /* 0x24 */ s32 unk_24;
-    /* 0x28 */ s32 unk_28;
-    /* 0x2C */ s32 unk_2C;
+    /* 0x00 */ s32 type;
+    /* 0x04 */ Vec3f pos;
+    /* 0x10 */ f32 velX;
+    /* 0x14 */ f32 velY;
+    /* 0x18 */ f32 accelY;
+    /* 0x1C */ f32 scale;
+    /* 0x20 */ s32 lifetime;
+    /* 0x24 */ s32 timeLeft;
+    /* 0x28 */ s32 variant; // unused, allows per-particle variation
+    /* 0x2C */ s32 animFrame;
 } SparklesFXData; // size = 0x30
 
 enum SparkesFXType {
-    FX_SPARKLES_0   = 0,
-    FX_SPARKLES_1   = 1,
-    FX_SPARKLES_2   = 2,
-    FX_SPARKLES_3   = 3,
-    FX_SPARKLES_4   = 4
+    FX_SPARKLES_STAR            = 0,
+    FX_SPARKLES_SCATTER_FEW     = 1,
+    FX_SPARKLES_SCATTER_MANY    = 2,
+    FX_SPARKLES_FALLING_FEW     = 3,
+    FX_SPARKLES_FALLING_MANY    = 4,
+    FX_SPARKLES_ADRIFT          = 10,
 };
 
 typedef struct ShapeSpellFXData {

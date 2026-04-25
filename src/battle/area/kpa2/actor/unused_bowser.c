@@ -610,7 +610,7 @@ EvtScript N(EVS_ReturnHome) = {
 EvtScript N(EVS_Recover) = {
     Call(GetActorPos, ACTOR_SELF, LVar1, LVar2, LVar3)
     Add(LVar2, 60)
-    PlayEffect(EFFECT_SPARKLES, 0, LVar1, LVar2, LVar3, Float(1.0), 0)
+    PlayEffect(EFFECT_SPARKLES, FX_SPARKLES_STAR, LVar1, LVar2, LVar3, Float(1.0), 0)
     Add(LVar1, 30)
     Add(LVar2, 20)
     PlayEffect(EFFECT_RECOVER, 0, LVar1, LVar2, LVar3, 10, 0)

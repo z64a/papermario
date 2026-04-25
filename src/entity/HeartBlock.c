@@ -181,7 +181,7 @@ void entity_HeartBlockContent__anim_heal(Entity* entity, s32 arg1) {
 
     switch (data->state) {
         case 0:
-            fx_sparkles(FX_SPARKLES_0, entity->pos.x, entity->pos.y, entity->pos.z, 2.0f);
+            fx_sparkles(FX_SPARKLES_STAR, entity->pos.x, entity->pos.y, entity->pos.z, 2.0f);
             data->bouncePhase = 0.0f;
             data->state++;
             data->riseVel = 6.0f;
@@ -237,7 +237,7 @@ void entity_HeartBlockContent__anim_heal(Entity* entity, s32 arg1) {
             data->sparkleTrailPosY -= 0.7;
 
             if ((data->sparkleTrailTimer++ & 1) != 0) {
-                fx_sparkles(FX_SPARKLES_3, playerStatus->pos.x + offsetX,
+                fx_sparkles(FX_SPARKLES_FALLING_FEW, playerStatus->pos.x + offsetX,
                         playerStatus->pos.y + offsetY,
                         playerStatus->pos.z - offsetZ,
                         8.0f

@@ -427,7 +427,7 @@ void N(card_worker_update)(void) {
             N(RitualStateTime)++;
             if (N(RitualStateTime) == 8) {
                 N(GetCardOrientation)(0, &posX5, &posY5, &posZ5, &yaw5);
-                fx_sparkles(FX_SPARKLES_0, posX5, posY5 + 20.0f, posZ5, 30.0f);
+                fx_sparkles(FX_SPARKLES_STAR, posX5, posY5 + 20.0f, posZ5, 30.0f);
             }
             if (N(RitualStateTime) == 10) {
                 N(RitualStateTime) = 0;
@@ -442,7 +442,7 @@ void N(card_worker_update)(void) {
             N(RitualStateTime)++;
             if (N(RitualStateTime) == 8) {
                 N(GetCardOrientation)(2, &posX6, &posY6, &posZ6, &yaw6);
-                fx_sparkles(FX_SPARKLES_0, posX6, posY6 + 20.0f, posZ6, 30.0f);
+                fx_sparkles(FX_SPARKLES_STAR, posX6, posY6 + 20.0f, posZ6, 30.0f);
             }
             if (N(RitualStateTime) == 10) {
                 N(RitualStateTime) = 0;
@@ -457,7 +457,7 @@ void N(card_worker_update)(void) {
             N(RitualStateTime)++;
             if (N(RitualStateTime) == 8) {
                 N(GetCardOrientation)(1, &posX7, &posY7, &posZ7, &yaw7);
-                fx_sparkles(FX_SPARKLES_0, posX7, posY7 + 20.0f, posZ7, 30.0f);
+                fx_sparkles(FX_SPARKLES_STAR, posX7, posY7 + 20.0f, posZ7, 30.0f);
             }
             if (N(RitualStateTime) == 10) {
                 N(RitualStateTime) = 0;
@@ -565,7 +565,7 @@ void N(card_worker_update)(void) {
                 N(RitualCards)[0].drawMode = DRAW_NONE;
                 N(RitualCards)[1].drawMode = DRAW_NONE;
                 N(GetCardOrientation)(1, &sp68, &sp6C, &sp70, &sp74);
-                fx_sparkles(FX_SPARKLES_0, sp68, sp6C + 20.0f, sp70, 30.0f);
+                fx_sparkles(FX_SPARKLES_STAR, sp68, sp6C + 20.0f, sp70, 30.0f);
                 sfx_play_sound(SOUND_MERLEE_COMPLETE_SPELL);
 
                 for (j = 0; j < ARRAY_COUNT(N(RitualEnergyEffects)); j++) {

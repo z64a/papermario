@@ -112,7 +112,7 @@ EvtScript N(EVS_Idle) = {
         Call(GetActorPos, ACTOR_SELF, LVar0, LVar1, LVar2)
         Add(LVar1, 15)
         Sub(LVar2, 2)
-        PlayEffect(EFFECT_SPARKLES, 2, LVar0, LVar1, LVar2, 30, 0)
+        PlayEffect(EFFECT_SPARKLES, FX_SPARKLES_SCATTER_MANY, LVar0, LVar1, LVar2, 30, 0)
         Wait(15)
         Goto(0)
     Return

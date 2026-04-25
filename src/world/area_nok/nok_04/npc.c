@@ -1340,9 +1340,9 @@ EvtScript N(EVS_HitTree_Correct) = {
                 Add(LVar4, 50)
                 Add(LVar5, 2)
                 Add(LVar3, 8)
-                PlayEffect(EFFECT_SPARKLES, 3, LVar3, LVar4, LVar5, 20)
+                PlayEffect(EFFECT_SPARKLES, FX_SPARKLES_FALLING_FEW, LVar3, LVar4, LVar5, 20)
                 Add(LVar3, -16)
-                PlayEffect(EFFECT_SPARKLES, 3, LVar3, LVar4, LVar5, 20)
+                PlayEffect(EFFECT_SPARKLES, FX_SPARKLES_FALLING_FEW, LVar3, LVar4, LVar5, 20)
             EndThread
             Call(PlaySound, SOUND_JINGLE_GOT_KEY)
             Call(ShowMessageAtScreenPos, MSG_Menus_GotKooperShell, 160, 40)

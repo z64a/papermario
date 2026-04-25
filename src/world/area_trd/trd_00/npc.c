@@ -177,9 +177,9 @@ EvtScript N(D_80241DA4_99BA14) = {
     Add(LVar2, 10)
     Add(LVar3, 30)
     Loop(6)
-        PlayEffect(EFFECT_SPARKLES, 3, LVar0, LVar1, LVar2, 20)
+        PlayEffect(EFFECT_SPARKLES, FX_SPARKLES_FALLING_FEW, LVar0, LVar1, LVar2, 20)
         Wait(6 * DT)
-        PlayEffect(EFFECT_SPARKLES, 1, LVar0, LVar3, LVar2, 20)
+        PlayEffect(EFFECT_SPARKLES, FX_SPARKLES_SCATTER_FEW, LVar0, LVar3, LVar2, 20)
         Wait(6 * DT)
     EndLoop
     Wait(20 * DT)
@@ -237,7 +237,7 @@ EvtScript N(D_80241DA4_99BA14) = {
     Thread
         Loop(25)
             Call(GetNpcPos, NPC_Eldstar, LVar0, LVar1, LVar2)
-            PlayEffect(EFFECT_SPARKLES, 4, LVar0, LVar1, LVar2, 20)
+            PlayEffect(EFFECT_SPARKLES, FX_SPARKLES_FALLING_MANY, LVar0, LVar1, LVar2, 20)
             Wait(4 * DT)
         EndLoop
     EndThread

@@ -1652,7 +1652,7 @@ EvtScript N(EVS_Move_HealOrSlam) = {
     EndThread
     Call(GetActorPos, ACTOR_SELF, LVar0, LVar1, LVar2)
     Call(GetActorVar, ACTOR_SELF, AVAR_ScaleX, LVar3)
-    PlayEffect(EFFECT_SPARKLES, 0, LVar0, LVar1, LVar2, LVar3, 0)
+    PlayEffect(EFFECT_SPARKLES, FX_SPARKLES_STAR, LVar0, LVar1, LVar2, LVar3, 0)
     Add(LVar0, 20)
     PlayEffect(EFFECT_RECOVER, 0, LVar0, LVar1, LVar2, LVarA, 0)
     Call(GetActorHP, ACTOR_SELF, LVarB)

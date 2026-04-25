@@ -3903,12 +3903,12 @@ void add_part_decor_sparkles(ActorPart* part, s32 idx) {
                 z = part->curPos.z - 5.0f;
                 /// @bug this should be % 4
                 if ((gGameStatusPtr->frameCounter / 4) == 0) {
-                    fx_sparkles(FX_SPARKLES_1, x, y, z, 10.0f);
+                    fx_sparkles(FX_SPARKLES_SCATTER_FEW, x, y, z, 10.0f);
                 }
                 decorations->stateResetTimer[idx]++;
                 if (SparkleSpawnIntervals[decorations->decorData[idx].sparkles.spawnInterval] < decorations->stateResetTimer[idx]) {
                     decorations->stateResetTimer[idx] = 0;
-                    fx_sparkles(FX_SPARKLES_1, x, y, z, 20.0f);
+                    fx_sparkles(FX_SPARKLES_SCATTER_FEW, x, y, z, 20.0f);
                 }
                 break;
         }

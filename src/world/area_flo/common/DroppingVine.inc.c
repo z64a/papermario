@@ -39,7 +39,7 @@ EvtScript N(EVS_DroppingVine) = {
             Set(LVar2, LVar5)
             Add(LVar1, 10)
             Add(LVar2, 8)
-            PlayEffect(EFFECT_SPARKLES, 4, LVar0, LVar1, LVar2, 15)
+            PlayEffect(EFFECT_SPARKLES, FX_SPARKLES_FALLING_MANY, LVar0, LVar1, LVar2, 15)
             Wait(15)
             Sub(LVar1, 10)
             Call(MakeItemEntity, LVarA, LVar0, LVar1, LVar2, ITEM_SPAWN_MODE_FALL, 0)

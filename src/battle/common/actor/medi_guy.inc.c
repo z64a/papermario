@@ -376,7 +376,7 @@ EvtScript N(EVS_Move_HealOne) = {
     Call(PlaySoundAtActor, ACTOR_SELF, SOUND_NONE)
     Call(SetAnimation, ACTOR_SELF, PRT_MAIN, ANIM_MediGuy_Anim05)
     Add(LVar2, 50)
-    PlayEffect(EFFECT_SPARKLES, 1, LVar1, LVar2, LVar3, 10, 0)
+    PlayEffect(EFFECT_SPARKLES, FX_SPARKLES_SCATTER_FEW, LVar1, LVar2, LVar3, 10, 0)
     PlayEffect(EFFECT_RECOVER, 2, LVar1, LVar2, LVar3, 0, 0)
     Wait(30)
     Call(SetAnimation, ACTOR_SELF, PRT_MAIN, ANIM_MediGuy_Anim01)

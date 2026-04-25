@@ -85,7 +85,7 @@ EvtScript N(EVS_MerlarFlickering) = {
 EvtScript N(EVS_SpawnStarStoneSparkles) = {
     Call(PlaySoundAt, SOUND_STAR_SPIRIT_DEPART_1, SOUND_SPACE_DEFAULT, 230, 30, 0)
     Label(0)
-        PlayEffect(EFFECT_SPARKLES, 2, 230, 30, 0, 30)
+        PlayEffect(EFFECT_SPARKLES, FX_SPARKLES_SCATTER_MANY, 230, 30, 0, 30)
         Wait(20)
         Goto(0)
     Return
@@ -97,7 +97,7 @@ EvtScript N(EVS_SpawnMerlarSparkles) = {
     Call(GetNpcPos, NPC_Merlar, LVar0, LVar1, LVar2)
     Add(LVar1, 30)
     Loop(8)
-        PlayEffect(EFFECT_SPARKLES, 2, LVar0, LVar1, LVar2, 30)
+        PlayEffect(EFFECT_SPARKLES, FX_SPARKLES_SCATTER_MANY, LVar0, LVar1, LVar2, 30)
         Wait(10)
     EndLoop
     Return
@@ -242,7 +242,7 @@ EvtScript N(EVS_Scene_MeetMerlar) = {
         Set(LVar0, 30)
         Loop(5)
             Sub(LVar0, 5)
-            PlayEffect(EFFECT_SPARKLES, 2, 230, 30, 0, LVar0)
+            PlayEffect(EFFECT_SPARKLES, FX_SPARKLES_SCATTER_MANY, 230, 30, 0, LVar0)
             Wait(20)
         EndLoop
     EndThread

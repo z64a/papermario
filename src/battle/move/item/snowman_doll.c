@@ -14,8 +14,8 @@ API_CALLABLE(N(func_802A123C_71C06C)) {
     s32 y = evt_get_variable(script, *args++);
     s32 z = evt_get_variable(script, *args++);
 
-    fx_sparkles(FX_SPARKLES_2, x, y, z, 30.0f);
-    fx_sparkles(FX_SPARKLES_2, x, y, z, 30.0f);
+    fx_sparkles(FX_SPARKLES_SCATTER_MANY, x, y, z, 30.0f);
+    fx_sparkles(FX_SPARKLES_SCATTER_MANY, x, y, z, 30.0f);
 
     return ApiStatus_DONE2;
 }

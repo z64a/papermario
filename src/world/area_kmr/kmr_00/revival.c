@@ -77,7 +77,7 @@ API_CALLABLE(N(func_80240530_8AC4C0)) {
     s32 npcID = evt_get_variable(script, *args++);
     Npc* npc = get_npc_unsafe(npcID);
 
-    fx_sparkles(FX_SPARKLES_3, npc->pos.x, npc->pos.y + 10.0f, npc->pos.z, 10.0f);
+    fx_sparkles(FX_SPARKLES_FALLING_FEW, npc->pos.x, npc->pos.y + 10.0f, npc->pos.z, 10.0f);
     return ApiStatus_DONE2;
 }
 
@@ -143,7 +143,7 @@ API_CALLABLE(N(func_802405F0_8AC580)) {
                 add_vec2D_polar(&npc->pos.x, &npc->pos.z, 70.0f / (f32) DT, npc->moveToPos.x + (script->functionTemp[2] * 51) + 153.0f);
                 npc->pos.y += (-npc->pos.z + -50.0f + 70.0f / (f32) DT) * 0.15f;
                 sfx_play_sound_at_position(SOUND_SEQ_STAR_SPIRIT_APPEAR, SOUND_SPACE_DEFAULT, npc->pos.x, npc->pos.y, npc->pos.z);
-                fx_sparkles(FX_SPARKLES_0, npc->pos.x, npc->pos.y + 20.0f, npc->pos.z, 20.0f);
+                fx_sparkles(FX_SPARKLES_STAR, npc->pos.x, npc->pos.y + 20.0f, npc->pos.z, 20.0f);
                 script->functionTemp[0] = FUNC_STATE_1;
             }
             break;
@@ -154,7 +154,7 @@ API_CALLABLE(N(func_802405F0_8AC580)) {
             add_vec2D_polar(&npc->pos.x, &npc->pos.z, 70.0f / (f32) DT, npc->moveToPos.x + (script->functionTemp[2] * 51) + 153.0f);
             npc->pos.y += (-npc->pos.z + -50.0f + 70.0f / (f32) DT) * 0.15f;
             if ((script->VAR_1 + script->functionTemp[2]) % 13 == 0) {
-                fx_sparkles(FX_SPARKLES_3, npc->pos.x, npc->pos.y + 10.0f, npc->pos.z, 10.0f);
+                fx_sparkles(FX_SPARKLES_FALLING_FEW, npc->pos.x, npc->pos.y + 10.0f, npc->pos.z, 10.0f);
             }
             if (script->VAR_1 > 256) {
                 script->functionTemp[0] = FUNC_STATE_2;
@@ -168,7 +168,7 @@ API_CALLABLE(N(func_802405F0_8AC580)) {
             add_vec2D_polar(&npc->pos.x, &npc->pos.z, 70.0f / (f32) DT, npc->moveToPos.x + (script->functionTemp[2] * 51) + 153.0f);
             npc->pos.y += (-npc->pos.z + -50.0f + 70.0f / (f32) DT) * 0.15f;
             if ((script->VAR_1 + script->functionTemp[2]) % 13 == 0) {
-                fx_sparkles(FX_SPARKLES_3, npc->pos.x, npc->pos.y + 10.0f, npc->pos.z, 10.0f);
+                fx_sparkles(FX_SPARKLES_FALLING_FEW, npc->pos.x, npc->pos.y + 10.0f, npc->pos.z, 10.0f);
             }
             if (script->VAR_2++ > 180) {
                 script->functionTemp[0] = FUNC_STATE_3;
@@ -188,7 +188,7 @@ API_CALLABLE(N(func_802405F0_8AC580)) {
             add_vec2D_polar(&npc->pos.x, &npc->pos.z, 70.0f / (f32) DT, npc->moveToPos.x + (script->functionTemp[2] * 51) + 153.0f);
             npc->pos.y += (-npc->pos.z + -50.0f + 70.0f / (f32) DT) * 0.15f;
             if ((script->VAR_1 + script->functionTemp[2]) % 13 == 0) {
-                fx_sparkles(FX_SPARKLES_3, npc->pos.x, npc->pos.y + 10.0f, npc->pos.z, 10.0f);
+                fx_sparkles(FX_SPARKLES_FALLING_FEW, npc->pos.x, npc->pos.y + 10.0f, npc->pos.z, 10.0f);
             }
             if (npc->moveToPos.y < 0.0f) {
 #if VERSION_PAL
@@ -219,7 +219,7 @@ API_CALLABLE(N(func_80240BD8_8ACB68)) {
         script->functionTemp[1] = evt_get_variable(script, *args);
         npc = get_npc_unsafe(script->functionTemp[1]);
         sfx_play_sound_at_position(SOUND_SEQ_STAR_SPIRIT_APPEAR, SOUND_SPACE_DEFAULT, npc->pos.x, npc->pos.y, npc->pos.z);
-        fx_sparkles(FX_SPARKLES_0, npc->pos.x, npc->pos.y + 20.0f, npc->pos.z, 10.0f);
+        fx_sparkles(FX_SPARKLES_STAR, npc->pos.x, npc->pos.y + 20.0f, npc->pos.z, 10.0f);
         script->functionTemp[0] = 3;
     }
 

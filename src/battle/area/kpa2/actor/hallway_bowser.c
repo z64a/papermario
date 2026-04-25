@@ -397,7 +397,7 @@ EvtScript N(EVS_HandleEvent) = {
             EndIf
             Call(GetActorPos, ACTOR_SELF, LVar0, LVar1, LVar2)
             Add(LVar1, LVar3)
-            PlayEffect(EFFECT_SPARKLES, 0, LVar0, LVar1, LVar2, 50, 0)
+            PlayEffect(EFFECT_SPARKLES, FX_SPARKLES_STAR, LVar0, LVar1, LVar2, 50, 0)
             Call(GetActorPos, ACTOR_SELF, LVar0, LVar1, LVar2)
             Add(LVar1, LVar4)
             PlayEffect(EFFECT_SHIMMER_BURST, 1, LVar0, LVar1, LVar2, Float(0.7), 30, 0)

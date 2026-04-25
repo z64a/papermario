@@ -654,7 +654,7 @@ EvtScript N(EVS_Move_SummonBackup) = {
     Call(RunToGoal, ACTOR_SELF, 0, false)
     Call(GetActorPos, ACTOR_SELF, LVar0, LVar1, LVar2)
     Add(LVar1, 15)
-    PlayEffect(EFFECT_SPARKLES, 0, LVar0, LVar1, LVar2, 30, 0)
+    PlayEffect(EFFECT_SPARKLES, FX_SPARKLES_STAR, LVar0, LVar1, LVar2, 30, 0)
     Call(PlaySoundAtActor, ACTOR_SELF, SOUND_RECOVER_HEART)
     Call(SetAnimation, ACTOR_SELF, PRT_SPEAR_GUY, ANIM_SpearGuy_Anim0E)
     Wait(20)
@@ -723,7 +723,7 @@ EvtScript N(EVS_Move_SummonBackup) = {
     Call(PlaySoundAtActor, ACTOR_SELF, SOUND_RECOVER_HEART)
     Call(GetActorPos, LVarB, LVar0, LVar1, LVar2)
     Add(LVar1, 15)
-    PlayEffect(EFFECT_SPARKLES, 0, LVar0, LVar1, LVar2, 30, 0)
+    PlayEffect(EFFECT_SPARKLES, FX_SPARKLES_STAR, LVar0, LVar1, LVar2, 30, 0)
     Call(SetAnimation, LVarB, PRT_SPEAR_GUY, ANIM_SpearGuy_Anim0E)
     Wait(20)
     IfEq(LFlag0, false)
@@ -787,7 +787,7 @@ EvtScript N(EVS_BecomeShyGuy) = {
     Thread
         Loop(10)
             Call(GetPartOffset, ACTOR_SELF, PRT_GRASS_SKIRT, LVar0, LVar1, LVar2)
-            PlayEffect(EFFECT_SPARKLES, 3, LVar0, LVar1, LVar2, 5, 0)
+            PlayEffect(EFFECT_SPARKLES, FX_SPARKLES_FALLING_FEW, LVar0, LVar1, LVar2, 5, 0)
             Wait(3)
         EndLoop
     EndThread

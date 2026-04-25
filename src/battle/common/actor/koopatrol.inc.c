@@ -1081,7 +1081,7 @@ EvtScript N(EVS_Move_SummonBackup) = {
     Thread
         Wait(8)
         Call(GetActorPos, ACTOR_SELF, LVar0, LVar1, LVar2)
-        PlayEffect(EFFECT_SPARKLES, 0, LVar0, LVar1, LVar2, 30, 0)
+        PlayEffect(EFFECT_SPARKLES, FX_SPARKLES_STAR, LVar0, LVar1, LVar2, 30, 0)
         Call(PlaySoundAtActor, ACTOR_SELF, SOUND_RECOVER_HEART)
     EndThread
     Call(SetAnimation, ACTOR_SELF, PRT_MAIN, ANIM_Koopatrol_Anim16)

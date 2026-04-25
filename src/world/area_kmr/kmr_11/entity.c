@@ -65,7 +65,7 @@ EvtScript N(EVS_Interact_SwitchBush) = {
 EvtScript N(EVS_OnBreak_SpecialBrick) = {
     Call(PlaySound, SOUND_CHIME_SOLVED_PUZZLE)
     Call(PlaySoundAt, SOUND_SPAWN_BLOCK, SOUND_SPACE_DEFAULT, 665, 35, 70)
-    PlayEffect(EFFECT_SPARKLES, 0, 665, 48, 70, 10)
+    PlayEffect(EFFECT_SPARKLES, FX_SPARKLES_STAR, 665, 48, 70, 10)
     Call(MakeEntity, Ref(Entity_YellowBlock), 665, 35, 70, 45, ITEM_SUPER_SHROOM, MAKE_ENTITY_END)
     Call(AssignBlockFlag, GF_KMR11_ItemBlock_SuperShroom)
     Return

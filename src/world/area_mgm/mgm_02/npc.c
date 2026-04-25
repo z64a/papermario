@@ -1466,7 +1466,7 @@ EvtScript N(EVS_OnHitBox) = {
     Switch(LVarC)
         CaseEq(2)
             Add(LVar1, 2)
-            PlayEffect(EFFECT_SPARKLES, 0, LVar0, LVar1, LVar2, 25)
+            PlayEffect(EFFECT_SPARKLES, FX_SPARKLES_STAR, LVar0, LVar1, LVar2, 25)
         CaseEq(3)
             Call(TranslateModel, LVarA, 0, -9, 0)
             Wait(1)
