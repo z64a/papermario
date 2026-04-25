@@ -1469,7 +1469,7 @@ EvtScript N(EVS_Move_MakeClone) = {
         Call(GetActorPos, ACTOR_SELF, LVar0, LVar1, LVar2)
         Add(LVar1, 23)
     EndIf
-    PlayEffect(EFFECT_ENERGY_IN_OUT, 1, LVar0, LVar1, LVar2, Float(1.0), 30, 0)
+    PlayEffect(EFFECT_ENERGY_IN_OUT, FX_ENERGY_IN_STARS, LVar0, LVar1, LVar2, Float(1.0), 30, 0)
     Wait(10)
     Call(EnableIdleScript, ACTOR_SELF, IDLE_SCRIPT_ENABLE)
     Call(EnableIdleScript, LVar9, IDLE_SCRIPT_ENABLE)

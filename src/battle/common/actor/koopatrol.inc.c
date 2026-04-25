@@ -819,7 +819,7 @@ EvtScript N(EVS_Attack_ChargedToss) = {
         Call(PlaySoundAtActor, ACTOR_SELF, SOUND_POWER_UP)
         Call(GetActorPos, ACTOR_SELF, LVar0, LVar1, LVar2)
         Add(LVar1, 10)
-        PlayEffect(EFFECT_ENERGY_IN_OUT, 6, LVar0, LVar1, LVar2, Float(1.0), 45, 0)
+        PlayEffect(EFFECT_ENERGY_IN_OUT, FX_ENERGY_IN_LONG_STREAKS1, LVar0, LVar1, LVar2, Float(1.0), 45, 0)
         Call(SetAnimation, ACTOR_SELF, PRT_MAIN, ANIM_Koopatrol_Anim15)
         Wait(30)
         Call(UseBattleCamPreset, BTL_CAM_DEFAULT)

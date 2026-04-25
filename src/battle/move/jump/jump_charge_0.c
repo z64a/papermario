@@ -38,7 +38,7 @@ API_CALLABLE(N(func_802A120C_74D77C)) {
     s32 var2 = evt_get_variable(script, *args++);
     f32 var3 = evt_get_float_variable(script, *args++);
 
-    fx_energy_in_out(6, var0 + 10, var1 + 18, var2, var3, 45);
+    fx_energy_in_out(FX_ENERGY_IN_LONG_STREAKS1, var0 + 10, var1 + 18, var2, var3, 45);
 
     return ApiStatus_DONE2;
 }

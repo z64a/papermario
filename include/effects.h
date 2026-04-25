@@ -1923,23 +1923,34 @@ typedef struct FloatingCloudPuffFXData {
     /* 0x38 */ f32 unk_38;
 } FloatingCloudPuffFXData; // size = 0x3C
 
+enum {
+    FX_ENERGY_IN_SHORT_STREAKS          = 0,
+	FX_ENERGY_IN_STARS                  = 1,
+	FX_ENERGY_IN_YELLOW_POINTS          = 2,
+	FX_ENERGY_OUT_SHORT_STREAKS         = 3,
+	FX_ENERGY_OUT_STARS                 = 4,
+	FX_ENERGY_OUT_YELLOW_POINTS         = 5,
+	FX_ENERGY_IN_LONG_STREAKS1          = 6,
+	FX_ENERGY_IN_LONG_STREAKS2          = 7,
+	FX_ENERGY_OUT_LONG_STREAKS1         = 8,
+	FX_ENERGY_OUT_RED_POINTS            = 9,
+	FX_ENERGY_OUT_LONG_STREAKS2         = 10,
+	FX_ENERGY_OUT_LONG_STREAKS_SPIN     = 11,
+	FX_ENERGY_OUT_YELLOW_POINTS_SPIN    = 12,
+};
+
 typedef struct EnergyInOutFXData {
-    /* 0x00 */ s32 unk_00;
+    /* 0x00 */ s32 type;
     /* 0x04 */ Vec3f pos;
-    /* 0x10 */ s32 unk_10;
-    /* 0x14 */ s32 unk_14;
-    /* 0x18 */ s32 unk_18;
-    /* 0x1C */ s32 unk_1C;
-    /* 0x20 */ s32 unk_20;
-    /* 0x24 */ s32 unk_24;
-    /* 0x28 */ s32 unk_28;
-    /* 0x2C */ s32 unk_2C;
-    /* 0x30 */ s32 unk_30;
+    /* 0x10 */ s32 timeLeft;
+    /* 0x14 */ s32 lifetime;
+    /* 0x18 */ Color4i primCol;
+    /* 0x28 */ Color3i envCol;
     /* 0x34 */ f32 scale;
-    /* 0x38 */ f32 unk_38;
-    /* 0x3C */ f32 unk_3C;
-    /* 0x40 */ f32 unk_40;
-    /* 0x44 */ f32 unk_44;
+    /* 0x38 */ f32 curDepth;
+    /* 0x3C */ f32 rollAngle;
+    /* 0x40 */ f32 rollVel;
+    /* 0x44 */ f32 userScale; // independent scale factor for clients to modulate size
 } EnergyInOutFXData; // size = 0x48
 
 typedef struct Effect6BFXData {

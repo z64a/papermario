@@ -3963,7 +3963,7 @@ void add_part_decor_radiating_stars(ActorPart* part, s32 idx) {
 
     switch (decorations->state[idx]) {
         case 0:
-            decorations->effect[idx] = fx_energy_in_out(4, part->curPos.x, part->curPos.y, part->curPos.z, 1.2f, 0);
+            decorations->effect[idx] = fx_energy_in_out(FX_ENERGY_OUT_STARS, part->curPos.x, part->curPos.y, part->curPos.z, 1.2f, 0);
             decorations->state[idx] = 1;
             decorations->decorData[idx].stars.scalePct = 120;
             decorations->decorData[idx].stars.offsetY = 0;
@@ -3972,7 +3972,7 @@ void add_part_decor_radiating_stars(ActorPart* part, s32 idx) {
             data = decorations->effect[idx]->data.energyInOut;
             scale = decorations->decorData[idx].stars.scalePct;
             scale /= 100.0f;
-            data->unk_44 = scale;
+            data->userScale = scale;
             data->pos.x = part->curPos.x;
             data->pos.y = (part->curPos.y + (scale * 41.0f));
             data->pos.z = (part->curPos.z + decorations->decorData[idx].stars.offsetY);

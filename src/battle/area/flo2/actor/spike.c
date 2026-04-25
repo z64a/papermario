@@ -293,7 +293,7 @@ EvtScript N(EVS_Attack_SpinyToss) = {
         Add(LVar2, 5)
         SetF(LVar3, Float(1.0))
     EndIf
-    PlayEffect(EFFECT_ENERGY_IN_OUT, 0, LVar0, LVar1, LVar2, LVar3, 30, 0)
+    PlayEffect(EFFECT_ENERGY_IN_OUT, FX_ENERGY_IN_SHORT_STREAKS, LVar0, LVar1, LVar2, LVar3, 30, 0)
     Call(PlaySoundAtActor, ACTOR_SELF, SOUND_SPIKE_SUMMON_SPINY)
     Thread
         Loop(15)

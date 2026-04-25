@@ -44,7 +44,7 @@ Vec3f N(TwinkArrivePath)[] = {
 EvtScript N(EVS_SpawnBowserStarEnergyWaves) = {
     Call(GetNpcPos, LVar8, LVar0, LVar1, LVar2)
     Add(LVar1, Float(54.0))
-    PlayEffect(EFFECT_ENERGY_IN_OUT, 4, LVar0, LVar1, LVar2, Float(1.5), -1)
+    PlayEffect(EFFECT_ENERGY_IN_OUT, FX_ENERGY_OUT_STARS, LVar0, LVar1, LVar2, Float(1.5), -1)
     Loop(0)
         Wait(1)
         Call(GetNpcPos, LVar8, LVar0, LVar1, LVar2)

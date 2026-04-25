@@ -361,7 +361,7 @@ API_CALLABLE(PlayBattleMerleeGatherFX) {
     s32 var2 = evt_get_variable(script, *args++);
     s32 var3 = evt_get_variable(script, *args++);
 
-    fx_energy_in_out(6, var1, var2 + 15, var3, 1.2f, 30);
+    fx_energy_in_out(FX_ENERGY_IN_LONG_STREAKS1, var1, var2 + 15, var3, 1.2f, 30);
     return ApiStatus_DONE2;
 }
 
@@ -1554,7 +1554,7 @@ EvtScript EVS_UseLifeShroom = {
     EndIf
     Call(PlaySoundAtActor, ACTOR_PLAYER, SOUND_LIFE_SHROOM_CHIME)
     Add(LVar4, 15)
-    PlayEffect(EFFECT_ENERGY_IN_OUT, 3, LVar3, LVar4, LVar5, Float(1.0))
+    PlayEffect(EFFECT_ENERGY_IN_OUT, FX_ENERGY_OUT_SHORT_STREAKS, LVar3, LVar4, LVar5, Float(1.0))
     Set(LVar0, LVarF)
     Loop(4)
         Call(SetItemFlags, LVarA, 64, 1)

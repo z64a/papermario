@@ -524,7 +524,7 @@ EvtScript N(EVS_Move_Charge) = {
         SetF(LVar3, Float(0.4))
     EndIf
     PlayEffect(EFFECT_GATHER_MAGIC, 1, LVar0, LVar1, LVar2, LVar3, 60, 0)
-    PlayEffect(EFFECT_ENERGY_IN_OUT, 6, LVar0, LVar1, LVar2, LVar3, 60, 0)
+    PlayEffect(EFFECT_ENERGY_IN_OUT, FX_ENERGY_IN_LONG_STREAKS1, LVar0, LVar1, LVar2, LVar3, 60, 0)
     Call(PlaySoundAtActor, ACTOR_SELF, SOUND_TUBBAS_HEART_CHARGE)
     Wait(60)
     Call(UseBattleCamPreset, BTL_CAM_DEFAULT)
@@ -543,7 +543,7 @@ EvtScript N(EVS_Move_Charge) = {
         Add(LVar1, 6)
         SetF(LVar3, Float(0.4))
     EndIf
-    PlayEffect(EFFECT_ENERGY_IN_OUT, 3, LVar0, LVar1, LVar2, LVar3, 0, 0)
+    PlayEffect(EFFECT_ENERGY_IN_OUT, FX_ENERGY_OUT_SHORT_STREAKS, LVar0, LVar1, LVar2, LVar3, 0, 0)
     Call(SetActorVar, ACTOR_SELF, AVAR_ChargedEffectID, LVarF)
     Call(EnableActorGlow, ACTOR_SELF, true)
     Call(SetIdleAnimations, ACTOR_SELF, PRT_MAIN, Ref(N(ChargedAnims)))

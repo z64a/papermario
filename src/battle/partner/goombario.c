@@ -465,7 +465,7 @@ API_CALLABLE(N(PlayChargeFX)) {
     s32 var3 = evt_get_variable(script, *args++);
     f32 var4 = evt_get_float_variable(script, *args++);
 
-    fx_energy_in_out(6, var1, var2, var3, var4, 45);
+    fx_energy_in_out(FX_ENERGY_IN_LONG_STREAKS1, var1, var2, var3, var4, 45);
 
     return ApiStatus_DONE2;
 }

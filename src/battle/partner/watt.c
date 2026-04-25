@@ -1017,7 +1017,7 @@ EvtScript N(EVS_Attack_PowerShock) = {
         EndLoop
         Call(GetActorPos, ACTOR_PARTNER, LVar0, LVar1, LVar2)
         Add(LVar1, 8)
-        PlayEffect(EFFECT_ENERGY_IN_OUT, 6, LVar0, LVar1, LVar2, Float(1.8), 30, 0)
+        PlayEffect(EFFECT_ENERGY_IN_OUT, FX_ENERGY_IN_LONG_STREAKS1, LVar0, LVar1, LVar2, Float(1.8), 30, 0)
     EndThread
     Call(GetActorPos, ACTOR_PARTNER, LVar0, LVar1, LVar2)
     Add(LVar1, 20)

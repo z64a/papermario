@@ -922,8 +922,8 @@ EvtScript N(spook) = {
     EndThread
     Call(GetActorPos, ACTOR_PARTNER, LVar0, LVar1, LVar2)
     Add(LVar1, 32)
-    PlayEffect(EFFECT_ENERGY_IN_OUT, 6, LVar0, LVar1, LVar2, Float(1.8), 45, 0)
-    PlayEffect(EFFECT_ENERGY_IN_OUT, 6, LVar0, LVar1, LVar2, Float(1.0), 45, 0)
+    PlayEffect(EFFECT_ENERGY_IN_OUT, FX_ENERGY_IN_LONG_STREAKS1, LVar0, LVar1, LVar2, Float(1.8), 45, 0)
+    PlayEffect(EFFECT_ENERGY_IN_OUT, FX_ENERGY_IN_LONG_STREAKS1, LVar0, LVar1, LVar2, Float(1.0), 45, 0)
     Wait(15)
     Call(InitTargetIterator)
     Call(GetActionProgress, LVarF)

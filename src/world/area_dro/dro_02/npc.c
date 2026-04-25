@@ -7,11 +7,11 @@
 
 #define CHUCK_QUIZMO_NPC_ID NPC_ChuckQuizmo
 
-BSS f32 N(D_8024EF80);
-BSS f32 N(D_8024EF84);
+BSS f32 N(RitualCardRiseSpeed);
+BSS f32 N(RitualPlayerFallSpeed);
 BSS s32 N(RitualStateTime);
 BSS s8 N(pad_D_8024EF8C)[0x4];
-BSS EffectInstance* N(D_8024EF90)[4];
+BSS EffectInstance* N(RitualEnergyEffects)[4];
 
 #include "world/common/complete/Quizmo.inc.c"
 
@@ -319,7 +319,7 @@ EvtScript N(EVS_ToadHouse_GetInBed) = {
     Call(InterpPlayerYaw, 230, 1)
     Call(HidePlayerShadow, true)
     Call(SetPlayerAnimation, ANIM_Mario1_Idle)
-    Call(SetPlayerImgFXFlags, IMGFX_FLAG_800)
+    Call(SetPlayerImgFXFlags, IMGFX_FLAG_HOLD_DONE)
     Call(UpdatePlayerImgFX, ANIM_Mario1_Idle, IMGFX_SET_ANIM, IMGFX_ANIM_GET_IN_BED, 1, 1, 0)
     Thread
         Wait(60)

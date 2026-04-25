@@ -401,7 +401,7 @@ API_CALLABLE(PlayMerleeGatherFX) {
     s32 var1 = evt_get_variable(script, *args++);
     s32 var2 = evt_get_variable(script, *args++);
 
-    fx_energy_in_out(6, var0, var1, var2, 1.2f, 30);
+    fx_energy_in_out(FX_ENERGY_IN_LONG_STREAKS1, var0, var1, var2, 1.2f, 30);
     return ApiStatus_DONE2;
 }
 

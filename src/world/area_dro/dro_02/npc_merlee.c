@@ -1,11 +1,17 @@
 #include "dro_02.h"
+#include "effects.h"
 #include "model.h"
 #include "sprite/player.h"
 #include "include_asset.h"
 
+extern f32 N(RitualCardRiseSpeed);
+extern f32 N(RitualPlayerFallSpeed);
+extern s32 N(RitualStateTime);
+extern EffectInstance* N(RitualEnergyEffects)[4];
+
 // cards used during Merlee's ritual
 typedef struct RitualCard {
-    /* 0x00 */ s32 unk_00;
+    /* 0x00 */ s32 drawMode;
     /* 0x04 */ Vec3f pos;
     /* 0x10 */ f32 yaw;
     /* 0x14 */ f32 pitch;
@@ -35,19 +41,28 @@ enum {
 
 enum {
     RITUAL_STATE_INIT           = 0,
-    RITUAL_STATE_APPEAR         = 1,
-    RITUAL_STATE_2              = 2,
-    RITUAL_STATE_3              = 3,
-    RITUAL_STATE_4              = 4,
-    RITUAL_STATE_FLIP_LEFT      = 5,
-    RITUAL_STATE_FLIP_MIDDLE    = 6,
-    RITUAL_STATE_FLIP_RIGHT     = 7,
-    RITUAL_STATE_8              = 8,
-    RITUAL_STATE_9              = 9,
-    RITUAL_STATE_A              = 10,
-    RITUAL_STATE_B              = 11,
-    RITUAL_STATE_C              = 12,
-    RITUAL_STATE_D              = 13,
+    RITUAL_STATE_APPEAR         = 1, // gather cards to shuffle
+    RITUAL_STATE_SHUFFLE        = 2, // do shuffle animation
+    RITUAL_STATE_SEPARATE       = 3, // move cards apart after shuffling
+    RITUAL_STATE_FLIP_DELAY     = 4, // delay before we begin flipping
+    RITUAL_STATE_FLIP_LEFT      = 5, // begin left card flip
+    RITUAL_STATE_FLIP_MIDDLE    = 6, // begin middle card flip, finish left
+    RITUAL_STATE_FLIP_RIGHT     = 7, // begin right card flip, finish middle
+    RITUAL_STATE_FLIP_FINISH    = 8, // continue right card flip until done
+    RITUAL_STATE_GATHER         = 9, // gather the cards together
+    RITUAL_STATE_BEND           = 10, // bend the card with the player attached
+    RITUAL_STATE_BEND_DETACH    = 11, // detach the player
+    RITUAL_STATE_FALL           = 12, // player falls and power-up effects play
+    RITUAL_STATE_DONE           = 13,
+};
+
+enum {
+    DRAW_NONE           = 0, // draw nothing
+    DRAW_BOTH           = 1, // draw card with player
+    DRAW_SHUFFLE        = 2, // draw using IMGFX_ANIM_SHUFFLE_CARDS
+    DRAW_FLIP           = 3, // draw using IMGFX_ANIM_FLIP_CARD_1
+    DRAW_CARD           = 4, // draw card without player
+    DRAW_PLAYER         = 5, // draw player only
 };
 
 BSS RitualCard N(RitualCards)[3];
@@ -175,16 +190,16 @@ API_CALLABLE(N(CreateRitualCards)) {
     N(CreatorScript) = script;
 
     imgfxIdx = imgfx_get_free_instances(1);
-    imgfx_update(imgfxIdx, IMGFX_SET_ANIM, IMGFX_ANIM_SHUFFLE_CARDS, 1, 1, 0, IMGFX_FLAG_800);
+    imgfx_update(imgfxIdx, IMGFX_SET_ANIM, IMGFX_ANIM_SHUFFLE_CARDS, 1, 1, 0, IMGFX_FLAG_HOLD_DONE);
     evt_set_variable(script, RITUAL_VAR_SHUFFLE_IMGFX, imgfxIdx);
     imgfxIdx = imgfx_get_free_instances(1);
-    imgfx_update(imgfxIdx, IMGFX_SET_ANIM, IMGFX_ANIM_FLIP_CARD_1, 1, 1, 0, IMGFX_FLAG_800);
+    imgfx_update(imgfxIdx, IMGFX_SET_ANIM, IMGFX_ANIM_FLIP_CARD_1, 1, 1, 0, IMGFX_FLAG_HOLD_DONE);
     evt_set_variable(script, RITUAL_VAR_FILP1_IMGFX, imgfxIdx);
     imgfxIdx = imgfx_get_free_instances(1);
-    imgfx_update(imgfxIdx, IMGFX_SET_ANIM, IMGFX_ANIM_FLIP_CARD_2, 1, 1, 0, IMGFX_FLAG_800);
+    imgfx_update(imgfxIdx, IMGFX_SET_ANIM, IMGFX_ANIM_FLIP_CARD_2, 1, 1, 0, IMGFX_FLAG_HOLD_DONE);
     evt_set_variable(script, RITUAL_VAR_FILP2_IMGFX, imgfxIdx);
     imgfxIdx = imgfx_get_free_instances(1);
-    imgfx_update(imgfxIdx, IMGFX_SET_ANIM, IMGFX_ANIM_FLIP_CARD_3, 1, 1, 0, IMGFX_FLAG_800);
+    imgfx_update(imgfxIdx, IMGFX_SET_ANIM, IMGFX_ANIM_FLIP_CARD_3, 1, 1, 0, IMGFX_FLAG_HOLD_DONE);
     evt_set_variable(script, RITUAL_VAR_FILP3_IMGFX, imgfxIdx);
 
     evt_set_variable(script, RITUAL_VAR_WORKER, create_worker_scene(
@@ -202,20 +217,20 @@ API_CALLABLE(N(DestroyRitualCards)) {
     return ApiStatus_DONE2;
 }
 
-u32 N(appendGfx_ritual_card)(RitualCard* card, Matrix4f mtxParent) {
+s32 N(appendGfx_ritual_card)(RitualCard* card, Matrix4f mtxParent) {
     Matrix4f mtxTransform;
     Matrix4f mtxTemp;
     ImgFXTexture ifxImg;
     SpriteRasterInfo rasterInfo;
     s32 ret;
 
-    if (card->unk_00 == 0) {
-        return 1;
+    if (card->drawMode == DRAW_NONE) {
+        return IMGFX_RENDER_RESULT_DONE;
     }
 
     gSPDisplayList(gMainGfxPos++, N(card_setup_gfx));
 
-    if (card->unk_00 == 1 || card->unk_00 == 4 || card->unk_00 == 5) {
+    if (card->drawMode == DRAW_BOTH || card->drawMode == DRAW_CARD || card->drawMode == DRAW_PLAYER) {
         guTranslateF(mtxTemp, card->pos.x, card->pos.y, card->pos.z);
         guMtxCatF(mtxTemp, mtxParent, mtxTransform);
         guRotateF(mtxTemp, card->yaw, 0.0f, 1.0f, 0.0f);
@@ -225,11 +240,11 @@ u32 N(appendGfx_ritual_card)(RitualCard* card, Matrix4f mtxParent) {
         guMtxF2L(mtxTransform, &gDisplayContext->matrixStack[gMatrixListPos]);
         gSPMatrix(gMainGfxPos++, VIRTUAL_TO_PHYSICAL(&gDisplayContext->matrixStack[gMatrixListPos++]), G_MTX_PUSH | G_MTX_LOAD | G_MTX_MODELVIEW);
 
-        if (card->unk_00 == 1 || card->unk_00 == 4) {
+        if (card->drawMode == DRAW_BOTH || card->drawMode == DRAW_CARD) {
             gSPDisplayList(gMainGfxPos++, N(card_1_gfx));
         }
 
-        if (card->unk_00 == 1 || card->unk_00 == 5) {
+        if (card->drawMode == DRAW_BOTH || card->drawMode == DRAW_PLAYER) {
             spr_get_player_raster_info(&rasterInfo, card->spriteID, card->rasterIndex);
             gDPSetTextureLUT(gMainGfxPos++, G_TT_RGBA16);
             gDPLoadTLUT_pal16(gMainGfxPos++, 0, rasterInfo.defaultPal);
@@ -243,10 +258,10 @@ u32 N(appendGfx_ritual_card)(RitualCard* card, Matrix4f mtxParent) {
             gSPPopMatrix(gMainGfxPos++, G_MTX_MODELVIEW);
         }
         gSPPopMatrix(gMainGfxPos++, G_MTX_MODELVIEW);
-        return 1;
+        return IMGFX_RENDER_RESULT_DONE;
     }
 
-    if (card->unk_00 == 2) {
+    if (card->drawMode == DRAW_SHUFFLE) {
         gDPSetTileSize(gMainGfxPos++, G_TX_RENDERTILE, 256 * 4, 256 * 4, 287 * 4, 287 * 4);
         guTranslateF(mtxTemp, N(RitualCards)[0].pos.x, N(RitualCards)[0].pos.y, N(RitualCards)[0].pos.z);
         guMtxCatF(mtxTemp, mtxParent, mtxTransform);
@@ -257,7 +272,7 @@ u32 N(appendGfx_ritual_card)(RitualCard* card, Matrix4f mtxParent) {
         return ret;
     }
 
-    if (card->unk_00 == 3) {
+    if (card->drawMode == DRAW_FLIP) {
         gDPSetTileSize(gMainGfxPos++, G_TX_RENDERTILE, 256 * 4, 256 * 4, 287 * 4, 287 * 4);
         guTranslateF(mtxTemp, N(RitualCards)[0].pos.x, N(RitualCards)[0].pos.y, N(RitualCards)[0].pos.z);
         guMtxCatF(mtxTemp, mtxParent, mtxTransform);
@@ -283,7 +298,7 @@ u32 N(appendGfx_ritual_card)(RitualCard* card, Matrix4f mtxParent) {
         return ret;
     }
 
-    return 1;
+    return IMGFX_RENDER_RESULT_DONE;
 }
 
 void N(GetCardOrientation)(s32 index, f32* outX, f32* outY, f32* outZ, f32* outAngle) {
@@ -325,34 +340,34 @@ void N(card_worker_update)(void) {
         case RITUAL_STATE_INIT:
             N(RitualStateTime) = 0;
             evt_set_variable(N(CreatorScript), RITUAL_VAR_STATE, RITUAL_STATE_APPEAR);
-            N(RitualCards)[0].unk_00 = 1;
+            N(RitualCards)[0].drawMode = DRAW_BOTH;
             N(RitualCards)[0].pos.x = -200.0f;
             N(RitualCards)[0].pos.y = 0.0f;
             N(RitualCards)[0].pos.z = 0.0f;
             N(RitualCards)[0].pitch = 0.0f;
             N(RitualCards)[0].yaw = 0.0f;
-            N(RitualCards)[0].spriteID = 1;
-            N(RitualCards)[0].rasterIndex = 12;
+            N(RitualCards)[0].spriteID = SPR_Mario1;
+            N(RitualCards)[0].rasterIndex = SPR_IMG_Mario1_0C;
             N(RitualCards)[0].xoffset = 2;
 
-            N(RitualCards)[1].unk_00 = 1;
+            N(RitualCards)[1].drawMode = DRAW_BOTH;
             N(RitualCards)[1].pos.x = 200.0f;
             N(RitualCards)[1].pos.y = 0.0f;
             N(RitualCards)[1].pos.z = 1.0f;
             N(RitualCards)[1].pitch = 0.0f;
             N(RitualCards)[1].yaw = 0.0f;
-            N(RitualCards)[1].spriteID = 1;
-            N(RitualCards)[1].rasterIndex = 48;
+            N(RitualCards)[1].spriteID = SPR_Mario1;
+            N(RitualCards)[1].rasterIndex = SPR_IMG_Mario1_30;
             N(RitualCards)[1].xoffset = 0;
 
-            N(RitualCards)[2].spriteID = 8;
-            N(RitualCards)[2].rasterIndex = 5;
-            N(RitualCards)[2].unk_00 = 1;
+            N(RitualCards)[2].drawMode = DRAW_BOTH;
             N(RitualCards)[2].pos.x = 0.0f;
             N(RitualCards)[2].pos.y = 200.0f;
             N(RitualCards)[2].pos.z = 2.0f;
             N(RitualCards)[2].pitch = 0.0f;
             N(RitualCards)[2].yaw = 0.0f;
+            N(RitualCards)[2].spriteID = SPR_MarioW2;
+            N(RitualCards)[2].rasterIndex = SPR_IMG_Mario1_05;
             N(RitualCards)[2].xoffset = 4;
             break;
         case RITUAL_STATE_APPEAR:
@@ -364,31 +379,31 @@ void N(card_worker_update)(void) {
                 gPlayerStatus.pos.y = NPC_DISPOSE_POS_Y;
             }
             if (N(RitualStateTime) == 20) {
-                evt_set_variable(N(CreatorScript), RITUAL_VAR_STATE, RITUAL_STATE_2);
+                evt_set_variable(N(CreatorScript), RITUAL_VAR_STATE, RITUAL_STATE_SHUFFLE);
                 N(RitualStateTime) = 0;
             }
             break;
-        case RITUAL_STATE_2:
-            N(RitualCards)[0].unk_00 = 2;
-            N(RitualCards)[1].unk_00 = 0;
-            N(RitualCards)[2].unk_00 = 0;
+        case RITUAL_STATE_SHUFFLE:
+            N(RitualCards)[0].drawMode = DRAW_SHUFFLE;
+            N(RitualCards)[1].drawMode = DRAW_NONE;
+            N(RitualCards)[2].drawMode = DRAW_NONE;
             N(RitualCards)[0].pos.x = 0.0f;
             N(RitualCards)[0].pos.y = 0.0f;
             N(RitualCards)[0].pos.z = 0;
             break;
-        case RITUAL_STATE_3:
-            N(RitualCards)[0].unk_00 = 1;
-            N(RitualCards)[1].unk_00 = 1;
-            N(RitualCards)[2].unk_00 = 1;
+        case RITUAL_STATE_SEPARATE:
+            N(RitualCards)[0].drawMode = DRAW_BOTH;
+            N(RitualCards)[1].drawMode = DRAW_BOTH;
+            N(RitualCards)[2].drawMode = DRAW_BOTH;
             N(RitualStateTime)++;
             N(RitualCards)[0].pos.x -= 10.0f;
             N(RitualCards)[1].pos.x += 10.0f;
             if (N(RitualStateTime) == 10) {
                 N(RitualStateTime) = 0;
-                evt_set_variable(N(CreatorScript), RITUAL_VAR_STATE, RITUAL_STATE_4);
+                evt_set_variable(N(CreatorScript), RITUAL_VAR_STATE, RITUAL_STATE_FLIP_DELAY);
             }
             break;
-        case RITUAL_STATE_4:
+        case RITUAL_STATE_FLIP_DELAY:
             N(RitualCards)[0].pos.x = -100.0f;
             N(RitualCards)[0].pos.y = 0.0f;
             N(RitualCards)[0].pos.z = 0;
@@ -412,7 +427,7 @@ void N(card_worker_update)(void) {
             N(RitualStateTime)++;
             if (N(RitualStateTime) == 8) {
                 N(GetCardOrientation)(0, &posX5, &posY5, &posZ5, &yaw5);
-                fx_sparkles(0, posX5, posY5 + 20.0f, posZ5, 30.0f);
+                fx_sparkles(FX_SPARKLES_0, posX5, posY5 + 20.0f, posZ5, 30.0f);
             }
             if (N(RitualStateTime) == 10) {
                 N(RitualStateTime) = 0;
@@ -427,7 +442,7 @@ void N(card_worker_update)(void) {
             N(RitualStateTime)++;
             if (N(RitualStateTime) == 8) {
                 N(GetCardOrientation)(2, &posX6, &posY6, &posZ6, &yaw6);
-                fx_sparkles(0, posX6, posY6 + 20.0f, posZ6, 30.0f);
+                fx_sparkles(FX_SPARKLES_0, posX6, posY6 + 20.0f, posZ6, 30.0f);
             }
             if (N(RitualStateTime) == 10) {
                 N(RitualStateTime) = 0;
@@ -442,24 +457,24 @@ void N(card_worker_update)(void) {
             N(RitualStateTime)++;
             if (N(RitualStateTime) == 8) {
                 N(GetCardOrientation)(1, &posX7, &posY7, &posZ7, &yaw7);
-                fx_sparkles(0, posX7, posY7 + 20.0f, posZ7, 30.0f);
+                fx_sparkles(FX_SPARKLES_0, posX7, posY7 + 20.0f, posZ7, 30.0f);
             }
             if (N(RitualStateTime) == 10) {
                 N(RitualStateTime) = 0;
-                evt_set_variable(N(CreatorScript), RITUAL_VAR_STATE, RITUAL_STATE_8);
+                evt_set_variable(N(CreatorScript), RITUAL_VAR_STATE, RITUAL_STATE_FLIP_FINISH);
             }
             break;
-        case RITUAL_STATE_8:
+        case RITUAL_STATE_FLIP_FINISH:
             N(RitualCards)[0].yaw = 0.0f;
             N(RitualCards)[1].yaw += 18.0f;
             N(RitualCards)[2].yaw = 0.0f;
             N(RitualStateTime)++;
             if (N(RitualStateTime) == 10) {
                 N(RitualStateTime) = 0;
-                evt_set_variable(N(CreatorScript), RITUAL_VAR_STATE, RITUAL_STATE_9);
+                evt_set_variable(N(CreatorScript), RITUAL_VAR_STATE, RITUAL_STATE_GATHER);
             }
             break;
-        case RITUAL_STATE_9:
+        case RITUAL_STATE_GATHER:
             N(RitualCards)[0].pos.x += 10.0f;
             N(RitualCards)[0].pos.y = 0.0f;
             N(RitualCards)[0].yaw = 0.0f;
@@ -472,123 +487,123 @@ void N(card_worker_update)(void) {
             N(RitualStateTime)++;
             if (N(RitualStateTime) == 10) {
                 N(RitualStateTime) = 0;
-                evt_set_variable(N(CreatorScript), RITUAL_VAR_STATE, RITUAL_STATE_A);
+                evt_set_variable(N(CreatorScript), RITUAL_VAR_STATE, RITUAL_STATE_BEND);
                 return;
             }
             break;
-        case RITUAL_STATE_A:
-            N(RitualCards)[0].unk_00 = 3;
-            N(RitualCards)[0].spriteID = 8;
-            N(RitualCards)[1].unk_00 = 0;
-            N(RitualCards)[2].unk_00 = 0;
-            N(RitualCards)[0].rasterIndex = 0x11;
+        case RITUAL_STATE_BEND:
+            N(RitualCards)[0].drawMode = DRAW_FLIP;
+            N(RitualCards)[1].drawMode = DRAW_NONE;
+            N(RitualCards)[2].drawMode = DRAW_NONE;
+            N(RitualCards)[0].spriteID = SPR_MarioW2;
+            N(RitualCards)[0].rasterIndex = SPR_IMG_MarioW2_11;
             return;
-        case RITUAL_STATE_B:
-            N(RitualCards)[0].unk_00 = 4;
-            N(RitualCards)[1].unk_00 = 5;
-            N(RitualCards)[1].spriteID = 8;
+        case RITUAL_STATE_BEND_DETACH:
+            N(RitualCards)[0].drawMode = DRAW_CARD;
+            N(RitualCards)[1].drawMode = DRAW_PLAYER;
             N(RitualCards)[0].pos.x = 0.0f;
             N(RitualCards)[0].pos.z = 0;
             N(RitualCards)[1].pos.x = 0.0f;
             N(RitualCards)[1].pos.z = 0;
-            N(RitualCards)[1].rasterIndex = 10;
+            N(RitualCards)[1].spriteID = SPR_MarioW2;
+            N(RitualCards)[1].rasterIndex = SPR_IMG_MarioW2_0A;
             N(RitualCards)[1].xoffset = 0;
             N(RitualStateTime) = 0;
             N(RitualCards)[0].pos.y = 68.0f;
             N(RitualCards)[0].yaw = 180.0f;
             N(RitualCards)[1].pos.y = 68.0f;
             N(RitualCards)[1].yaw = 180.0f;
-            evt_set_variable(N(CreatorScript), RITUAL_VAR_STATE, RITUAL_STATE_C);
-            N(D_8024EF80) = 0.0f;
-            N(D_8024EF84) = 1.0f;
+            evt_set_variable(N(CreatorScript), RITUAL_VAR_STATE, RITUAL_STATE_FALL);
+            N(RitualCardRiseSpeed) = 0.0f;
+            N(RitualPlayerFallSpeed) = 1.0f;
 
             N(GetCardOrientation)(1, &sp48, &sp4C, &sp50, &sp54);
 
-            for (j = 0; j < ARRAY_COUNT(N(D_8024EF90)); j++) {
+            for (j = 0; j < ARRAY_COUNT(N(RitualEnergyEffects)); j++) {
                 s32 i;
 
-                N(D_8024EF90)[j] = fx_energy_in_out(2, sp48, sp4C + 20.0f, sp50, 8.0f, -1);
-                N(D_8024EF90)[j]->data.energyInOut->unk_28 = 215;
-                N(D_8024EF90)[j]->data.energyInOut->unk_2C = 55;
-                N(D_8024EF90)[j]->data.energyInOut->unk_30 = 255;
+                N(RitualEnergyEffects)[j] = fx_energy_in_out(FX_ENERGY_IN_YELLOW_POINTS, sp48, sp4C + 20.0f, sp50, 8.0f, -1);
+                N(RitualEnergyEffects)[j]->data.energyInOut->envCol.r = 215;
+                N(RitualEnergyEffects)[j]->data.energyInOut->envCol.g = 55;
+                N(RitualEnergyEffects)[j]->data.energyInOut->envCol.b = 255;
 
-                for (i = 1; i < N(D_8024EF90)[j]->numParts; i++) {
-                    N(D_8024EF90)[j]->data.energyInOut[i].unk_38 *= 0.1;
+                for (i = 1; i < N(RitualEnergyEffects)[j]->numParts; i++) {
+                    N(RitualEnergyEffects)[j]->data.energyInOut[i].curDepth *= 0.1;
                 }
             }
             break;
-        case RITUAL_STATE_C:
+        case RITUAL_STATE_FALL:
             N(GetCardOrientation)(1, &sp58, &sp5C, &sp60, &sp64);
 
-            for (j = 0; j < ARRAY_COUNT(N(D_8024EF90)); j++) {
+            for (j = 0; j < ARRAY_COUNT(N(RitualEnergyEffects)); j++) {
                 s32 i;
 
-                N(D_8024EF90)[j]->data.energyInOut->pos.x = sp58;
-                N(D_8024EF90)[j]->data.energyInOut->pos.y = sp5C + 20.0f;
-                N(D_8024EF90)[j]->data.energyInOut->pos.z = sp60;
-                N(D_8024EF90)[j]->data.energyInOut->scale -= 0.1;
+                N(RitualEnergyEffects)[j]->data.energyInOut->pos.x = sp58;
+                N(RitualEnergyEffects)[j]->data.energyInOut->pos.y = sp5C + 20.0f;
+                N(RitualEnergyEffects)[j]->data.energyInOut->pos.z = sp60;
+                N(RitualEnergyEffects)[j]->data.energyInOut->scale -= 0.1;
 
-                if (N(D_8024EF90)[j]->data.energyInOut->scale < 0.1) {
-                    N(D_8024EF90)[j]->data.energyInOut->scale = 0.1f;
+                if (N(RitualEnergyEffects)[j]->data.energyInOut->scale < 0.1) {
+                    N(RitualEnergyEffects)[j]->data.energyInOut->scale = 0.1f;
                 }
 
-                for (i = 1; i < N(D_8024EF90)[j]->numParts; i++, data++) {
-                    N(D_8024EF90)[j]->data.energyInOut[i].unk_38 += 0.01;
+                for (i = 1; i < N(RitualEnergyEffects)[j]->numParts; i++, data++) {
+                    N(RitualEnergyEffects)[j]->data.energyInOut[i].curDepth += 0.01;
                 }
             }
 
-            N(RitualCards)[0].pos.y += N(D_8024EF80);
-            N(RitualCards)[1].pos.y += N(D_8024EF84);
-            N(D_8024EF80) += 0.4;
-            N(D_8024EF84) -= 0.05;
+            N(RitualCards)[0].pos.y += N(RitualCardRiseSpeed);
+            N(RitualCards)[1].pos.y += N(RitualPlayerFallSpeed);
+            N(RitualCardRiseSpeed) += 0.4;
+            N(RitualPlayerFallSpeed) -= 0.05;
             N(RitualStateTime)++;
 
             if (N(RitualCards)[1].pos.y < -5.0f) {
                 N(RitualCards)[1].pos.y = -5.0f;
                 N(RitualStateTime) = 0;
-                evt_set_variable(N(CreatorScript), RITUAL_VAR_STATE, RITUAL_STATE_D);
-                N(RitualCards)[0].unk_00 = 0;
-                N(RitualCards)[1].unk_00 = 0;
+                evt_set_variable(N(CreatorScript), RITUAL_VAR_STATE, RITUAL_STATE_DONE);
+                N(RitualCards)[0].drawMode = DRAW_NONE;
+                N(RitualCards)[1].drawMode = DRAW_NONE;
                 N(GetCardOrientation)(1, &sp68, &sp6C, &sp70, &sp74);
-                fx_sparkles(0, sp68, sp6C + 20.0f, sp70, 30.0f);
+                fx_sparkles(FX_SPARKLES_0, sp68, sp6C + 20.0f, sp70, 30.0f);
                 sfx_play_sound(SOUND_MERLEE_COMPLETE_SPELL);
 
-                for (j = 0; j < ARRAY_COUNT(N(D_8024EF90)); j++) {
-                    N(D_8024EF90)[j]->flags |= FX_INSTANCE_FLAG_DISMISS;
+                for (j = 0; j < ARRAY_COUNT(N(RitualEnergyEffects)); j++) {
+                    N(RitualEnergyEffects)[j]->flags |= FX_INSTANCE_FLAG_DISMISS;
                 }
             }
             break;
-        case RITUAL_STATE_D:
+        case RITUAL_STATE_DONE:
             break;
     }
 }
 
 void N(card_worker_render)(void) {
     Matrix4f mtx;
-    u32 temp_s1;
+    s32 renderResult;
 
     guPositionF(mtx, 0.0f, -gCameras[gCurrentCameraID].curYaw, 0.0f, SPRITE_WORLD_SCALE_F,
                 evt_get_variable(N(CreatorScript), RITUAL_VAR_POS_X),
                 evt_get_variable(N(CreatorScript), RITUAL_VAR_POS_Y),
                 evt_get_variable(N(CreatorScript), RITUAL_VAR_POS_Z));
 
-    temp_s1 = N(appendGfx_ritual_card)(&N(RitualCards)[0], mtx);
+    renderResult = N(appendGfx_ritual_card)(&N(RitualCards)[0], mtx);
     N(appendGfx_ritual_card)(&N(RitualCards)[1], mtx);
     N(appendGfx_ritual_card)(&N(RitualCards)[2], mtx);
-    if ((N(RitualCards)[0].unk_00 == 2) && ((temp_s1 - 1) < 2)) {
-        evt_set_variable(N(CreatorScript), RITUAL_VAR_STATE, RITUAL_STATE_3);
+    if ((N(RitualCards)[0].drawMode == DRAW_SHUFFLE) && ((renderResult == IMGFX_RENDER_RESULT_DONE) || (renderResult == IMGFX_RENDER_RESULT_HOLDING))) {
+        evt_set_variable(N(CreatorScript), RITUAL_VAR_STATE, RITUAL_STATE_SEPARATE);
     }
-    if ((N(RitualCards)[0].unk_00 == 3) && ((temp_s1 - 1) < 2)) {
-        evt_set_variable(N(CreatorScript), RITUAL_VAR_STATE, RITUAL_STATE_B);
+    if ((N(RitualCards)[0].drawMode == DRAW_FLIP) && ((renderResult == IMGFX_RENDER_RESULT_DONE) || (renderResult == IMGFX_RENDER_RESULT_HOLDING))) {
+        evt_set_variable(N(CreatorScript), RITUAL_VAR_STATE, RITUAL_STATE_BEND_DETACH);
     }
 }
 
-API_CALLABLE(N(func_8024303C_96C1FC)) {
+API_CALLABLE(N(PlayShuffleSoundL)) {
     sfx_play_sound_with_params(SOUND_SHUFFLE_CARD_A, 0, 24, 0);
     return ApiStatus_DONE2;
 }
 
-API_CALLABLE(N(func_80243068_96C228)) {
+API_CALLABLE(N(PlayShuffleSoundR)) {
     sfx_play_sound_with_params(SOUND_SHUFFLE_CARD_B, 0, 104, 0);
     return ApiStatus_DONE2;
 }
@@ -655,7 +670,7 @@ EvtScript N(EVS_PerformRitual) = {
     Call(N(CreateRitualCards))
     Thread
         Loop(0)
-            IfEq(RITUAL_VAR_STATE, RITUAL_STATE_2)
+            IfEq(RITUAL_VAR_STATE, RITUAL_STATE_SHUFFLE)
                 BreakLoop
             EndIf
             Wait(1)
@@ -694,17 +709,17 @@ EvtScript N(EVS_PerformRitual) = {
     EndThread
     Thread
         Loop(0)
-            IfGe(RITUAL_VAR_STATE, RITUAL_STATE_3)
+            IfGe(RITUAL_VAR_STATE, RITUAL_STATE_SEPARATE)
                 BreakLoop
             EndIf
             Wait(1)
         EndLoop
         Wait(9)
-        Call(N(func_8024303C_96C1FC))
+        Call(N(PlayShuffleSoundL))
         Wait(2)
-        Call(N(func_80243068_96C228))
+        Call(N(PlayShuffleSoundR))
         Loop(0)
-            IfGe(RITUAL_VAR_STATE, RITUAL_STATE_A)
+            IfGe(RITUAL_VAR_STATE, RITUAL_STATE_BEND)
                 BreakLoop
             EndIf
             Wait(1)
@@ -712,7 +727,7 @@ EvtScript N(EVS_PerformRitual) = {
         Wait(3)
         Call(PlaySound, SOUND_MERLEE_GATHER_CARDS)
         Loop(0)
-            IfGe(RITUAL_VAR_STATE, RITUAL_STATE_B)
+            IfGe(RITUAL_VAR_STATE, RITUAL_STATE_BEND_DETACH)
                 BreakLoop
             EndIf
             Wait(1)
@@ -721,7 +736,7 @@ EvtScript N(EVS_PerformRitual) = {
         Call(PlaySound, SOUND_MERLEE_RELEASE_PLAYER)
     EndThread
     Loop(0)
-        IfEq(RITUAL_VAR_STATE, RITUAL_STATE_D)
+        IfEq(RITUAL_VAR_STATE, RITUAL_STATE_DONE)
             BreakLoop
         EndIf
         Wait(1)
