@@ -1,7 +1,7 @@
 var searchData=
 [
   ['game_5finput_5fto_5fmove_5fvector_0',['game_input_to_move_vector',['../functions_8h.html#a811994c8e0082b0b4144f3d53b6deaa7',1,'game_input_to_move_vector(f32 *x, f32 *y):&#160;7B440.c'],['../7B440_8c.html#a2f0659818a4e3d746b46de041a172388',1,'game_input_to_move_vector(f32 *outAngle, f32 *outMagnitude):&#160;7B440.c']]],
-  ['game_5fmode_5fset_5ffpdrawauxui_1',['game_mode_set_fpDrawAuxUI',['../game__modes_8h.html#a58f715432b4fb183237d9e345201088f',1,'game_mode_set_fpDrawAuxUI(s32 i, void(*fn)(void)):&#160;game_states.c'],['../game__states_8c.html#a58f715432b4fb183237d9e345201088f',1,'game_mode_set_fpDrawAuxUI(s32 i, void(*fn)(void)):&#160;game_states.c']]],
+  ['game_5fmode_5fnop_1',['game_mode_nop',['../game__states_8c.html#a73182aa01d7b019a85d7e041a4b60a61',1,'game_states.c']]],
   ['gather_5fenergy_5fpink_5fappendgfx_2',['gather_energy_pink_appendGfx',['../gather__energy__pink_8c.html#ad14c44ce04788c693b160119a2778fb7',1,'gather_energy_pink.c']]],
   ['gather_5fenergy_5fpink_5finit_3',['gather_energy_pink_init',['../gather__energy__pink_8c.html#ad7aacdfb771a30363208c37b7d9ce362',1,'gather_energy_pink.c']]],
   ['gather_5fenergy_5fpink_5fmain_4',['gather_energy_pink_main',['../gather__energy__pink_8c.html#ad74cc3f70db675a419a488d835669f97',1,'gather_energy_pink.c']]],

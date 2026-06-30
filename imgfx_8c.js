@@ -1,19 +1,19 @@
 var imgfx_8c =
 [
     [ "ImgFXIntVars", "imgfx_8c.html#unionImgFXIntVars", [
-      [ "anim", "imgfx_8c.html#ae381ed627bcd2fb951719b61c6d9c1ce", null ],
-      [ "args", "imgfx_8c.html#a14c12ed882a95fe9d4b7f11455dab19d", null ],
-      [ "color", "imgfx_8c.html#a775212395c3872a61823340ef957de42", null ],
-      [ "hologram", "imgfx_8c.html#aff3878f0ed16e1e1e109e1da94781112", null ],
-      [ "overlay", "imgfx_8c.html#ad7453637b534d240310627e992be1599", null ],
+      [ "anim", "imgfx_8c.html#a89e6e7370ba45fa01f174f976f673415", null ],
+      [ "args", "imgfx_8c.html#aa1cd2641409273a8afe3a968496006a3", null ],
+      [ "color", "imgfx_8c.html#a2f8596c1b14af8087a174da013cb4235", null ],
+      [ "hologram", "imgfx_8c.html#ab7d7baa97753232ddb9d8568b324c1fb", null ],
+      [ "overlay", "imgfx_8c.html#a1a866c1ddaa72c8406fa4ef586dd4b9d", null ],
       [ "raw", "imgfx_8c.html#a903fa6db05540cd91a99ef398343ff88", null ],
-      [ "wavy", "imgfx_8c.html#af8a2b1f54545eee2c004a4e0a9050a6e", null ]
+      [ "wavy", "imgfx_8c.html#af2ecc6c17ea78ff4b71c7b72449c47f7", null ]
     ] ],
     [ "ImgFXFloatVars", "imgfx_8c.html#unionImgFXFloatVars", [
-      [ "anim", "imgfx_8c.html#afbd76712cd3f68485cf695c7aeac033e", null ],
-      [ "overlay", "imgfx_8c.html#acfbed7e8bb885614087e59b45c87b7df", null ],
+      [ "anim", "imgfx_8c.html#a18bd198b1008f11f056e635bd2c79d03", null ],
+      [ "overlay", "imgfx_8c.html#aeadcab6800ff212d4bb55df73d72238a", null ],
       [ "raw", "imgfx_8c.html#abe83327cd7c09513e3d99934c2e98e71", null ],
-      [ "wavy", "imgfx_8c.html#ab2cb4204aed0dc127e10a7983860e1c4", null ]
+      [ "wavy", "imgfx_8c.html#a5ff463446a446525b92e094635a9e2fd", null ]
     ] ],
     [ "ImgFXState", "imgfx_8c.html#structImgFXState", [
       [ "arrayIdx", "imgfx_8c.html#ac20cfcbf4b200349f343234a73f22e0d", null ],
@@ -97,6 +97,10 @@ var imgfx_8c =
       [ "posY", "imgfx_8c.html#a1290ba19e61f7cf98197f983aa2dbb5c", null ],
       [ "unk_00", "imgfx_8c.html#adb21bd90eee83d6f739b01091d222293", null ]
     ] ],
+    [ "RM_IMGFX_A1", "imgfx_8c.html#a2141dd12e7966b8ac83e3c8b2b5ee524", null ],
+    [ "RM_IMGFX_A2", "imgfx_8c.html#a4723ae7ea1169a1c2f171d0bed8258f0", null ],
+    [ "RM_IMGFX_B1", "imgfx_8c.html#afcd07d01aa7581b9dce9595ca784d4d4", null ],
+    [ "RM_IMGFX_B2", "imgfx_8c.html#a75cd292b3cdaa163cca715a0720a27aa", null ],
     [ "ImgFXInstanceList", "imgfx_8c.html#a08dd4ebd14027b69a6948fc5cbc69481", null ],
     [ "ImgFXAnimFlags", "imgfx_8c.html#aacb67ff621380062e232fc3bb8d78d1f", [
       [ "IMGFX_ANIM_FLAG_ABSOLUTE_COORDS", "imgfx_8c.html#aacb67ff621380062e232fc3bb8d78d1fa490a8d7016703e159fdd08b14a4ae6f8", null ]

@@ -1032,8 +1032,8 @@ var audio_8h =
       [ "BGM_COMP_START_LOOP", "audio_8h.html#aafd7fbe68a634e1d220ee4244dd4231fa0898e46e3269daf65f8fec628cdf759a", null ],
       [ "BGM_COMP_WAIT", "audio_8h.html#aafd7fbe68a634e1d220ee4244dd4231fac383a73784a97d464ff0a62455644527", null ],
       [ "BGM_COMP_END_LOOP", "audio_8h.html#aafd7fbe68a634e1d220ee4244dd4231fac3e89d401c9ce9a55af33a08c5161b01", null ],
-      [ "BGM_COMP_END_COND_LOOP_false", "audio_8h.html#aafd7fbe68a634e1d220ee4244dd4231fa92f12c08ae4948ea32af283392ee44b0", null ],
-      [ "BGM_COMP_END_COND_LOOP_true", "audio_8h.html#aafd7fbe68a634e1d220ee4244dd4231fa6b652524d8b22704e3723838c4e41029", null ]
+      [ "BGM_COMP_END_COND_LOOP_FALSE", "audio_8h.html#aafd7fbe68a634e1d220ee4244dd4231fa550a7a5bd2eb1e683541137014cd65bc", null ],
+      [ "BGM_COMP_END_COND_LOOP_TRUE", "audio_8h.html#aafd7fbe68a634e1d220ee4244dd4231fa903db2028a52ebda22d4a003c8072558", null ]
     ] ],
     [ "BGMPlayerState", "audio_8h.html#a7a7fe2ac8c7ce7fb5b265443eb8892af", [
       [ "BGM_PLAY_STATE_IDLE", "audio_8h.html#a7a7fe2ac8c7ce7fb5b265443eb8892afa031c6eda59171ef5c86d1194583d8e30", null ],

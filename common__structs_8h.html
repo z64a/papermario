@@ -508,6 +508,8 @@ Typedefs</h2></td></tr>
 <tr class="separator:af250d7e0529e8afdd2a419f09d0f5e45"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8c46c9af25c9d7ff77957b7753679b5a" id="r_a8c46c9af25c9d7ff77957b7753679b5a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="8a860__len__3f30_8c.html#ad8c86ce808908b33858a59316263c571">typedef</a> <a class="el" href="8a860__len__3f30_8c.html#ad8c86ce808908b33858a59316263c571">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8c46c9af25c9d7ff77957b7753679b5a">HudElemID</a></td></tr>
 <tr class="separator:a8c46c9af25c9d7ff77957b7753679b5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af6f825e5415a8363be9b02eae7053e20" id="r_af6f825e5415a8363be9b02eae7053e20"><td class="memItemLeft" align="right" valign="top"><a class="el" href="8a860__len__3f30_8c.html#ad8c86ce808908b33858a59316263c571">typedef</a> <a class="el" href="8a860__len__3f30_8c.html#ad8c86ce808908b33858a59316263c571">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af6f825e5415a8363be9b02eae7053e20">MsgID</a></td></tr>
+<tr class="separator:af6f825e5415a8363be9b02eae7053e20"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9587453a89fcbd13a2ba23c4b74fc0fd" id="r_a9587453a89fcbd13a2ba23c4b74fc0fd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="8a860__len__3f30_8c.html#ad8c86ce808908b33858a59316263c571">typedef</a> <a class="el" href="8a860__len__3f30_8c.html#ad8c86ce808908b33858a59316263c571">f32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9587453a89fcbd13a2ba23c4b74fc0fd">Matrix4f</a>[4][4]</td></tr>
 <tr class="separator:a9587453a89fcbd13a2ba23c4b74fc0fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1b8829b2f214e40ef91c50a162665ed4" id="r_a1b8829b2f214e40ef91c50a162665ed4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="8a860__len__3f30_8c.html#ad8c86ce808908b33858a59316263c571">typedef</a> <a class="el" href="structNpc.html">Npc</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1b8829b2f214e40ef91c50a162665ed4">NpcList</a>[64]</td></tr>
@@ -5467,6 +5469,30 @@ heldButtons[4]</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
+<a id="ab452ca761a938026e22002b57271bd80" name="ab452ca761a938026e22002b57271bd80"></a><a class="el" href="8a860__len__3f30_8c.html#ad8c86ce808908b33858a59316263c571">s16</a></td>
+<td class="fieldname">
+holdDelayCounter</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="a4cdf41a9c8398b446b330fad4e8ea1a7" name="a4cdf41a9c8398b446b330fad4e8ea1a7"></a><a class="el" href="8a860__len__3f30_8c.html#ad8c86ce808908b33858a59316263c571">s16</a></td>
+<td class="fieldname">
+holdDelayTime[4]</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="a9ef8606b97fd0957050a89b9489d03cc" name="a9ef8606b97fd0957050a89b9489d03cc"></a><a class="el" href="8a860__len__3f30_8c.html#ad8c86ce808908b33858a59316263c571">s16</a></td>
+<td class="fieldname">
+holdRepeatCounter</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="a24f38e128ecccf0219a6b7b0c68ce772" name="a24f38e128ecccf0219a6b7b0c68ce772"></a><a class="el" href="8a860__len__3f30_8c.html#ad8c86ce808908b33858a59316263c571">s16</a></td>
+<td class="fieldname">
+holdRepeatInterval[4]</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
 <a id="ac36453fb6b60a8e130b872be9af30e86" name="ac36453fb6b60a8e130b872be9af30e86"></a><a class="el" href="8a860__len__3f30_8c.html#ad8c86ce808908b33858a59316263c571">s8</a></td>
 <td class="fieldname">
 introPart</td>
@@ -5720,33 +5746,9 @@ unk_16C[12]</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="ae0d9c11cddd5a0132c618c17f5b1f703" name="ae0d9c11cddd5a0132c618c17f5b1f703"></a><a class="el" href="8a860__len__3f30_8c.html#ad8c86ce808908b33858a59316263c571">s16</a></td>
-<td class="fieldname">
-unk_48[4]</td>
-<td class="fielddoc">
-</td></tr>
-<tr><td class="fieldtype">
-<a id="a961bc8eb60b19bc1ac7d864e8076ce5a" name="a961bc8eb60b19bc1ac7d864e8076ce5a"></a><a class="el" href="8a860__len__3f30_8c.html#ad8c86ce808908b33858a59316263c571">s16</a></td>
-<td class="fieldname">
-unk_50[4]</td>
-<td class="fielddoc">
-</td></tr>
-<tr><td class="fieldtype">
-<a id="a11b94f47921aa922a841d172a8e42d31" name="a11b94f47921aa922a841d172a8e42d31"></a><a class="el" href="8a860__len__3f30_8c.html#ad8c86ce808908b33858a59316263c571">s16</a></td>
-<td class="fieldname">
-unk_58</td>
-<td class="fielddoc">
-</td></tr>
-<tr><td class="fieldtype">
 <a id="acf81b2e7f117f36c3057589102af5a44" name="acf81b2e7f117f36c3057589102af5a44"></a><a class="el" href="8a860__len__3f30_8c.html#ad8c86ce808908b33858a59316263c571">char</a></td>
 <td class="fieldname">
 unk_5A[6]</td>
-<td class="fielddoc">
-</td></tr>
-<tr><td class="fieldtype">
-<a id="a2eb07b6cd0f1a304eba4ae3ce1ad6b97" name="a2eb07b6cd0f1a304eba4ae3ce1ad6b97"></a><a class="el" href="8a860__len__3f30_8c.html#ad8c86ce808908b33858a59316263c571">s16</a></td>
-<td class="fieldname">
-unk_60</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
@@ -7962,12 +7964,6 @@ footStepCounter</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="af6a8b59cd9e43210c11a628584f090f3" name="af6a8b59cd9e43210c11a628584f090f3"></a><a class="el" href="8a860__len__3f30_8c.html#ad8c86ce808908b33858a59316263c571">s32</a></td>
-<td class="fieldname">
-handleBatttlePhaseScriptID</td>
-<td class="fielddoc">
-</td></tr>
-<tr><td class="fieldtype">
 <a id="a68b4413773d37f561fdefacc93de5b3d" name="a68b4413773d37f561fdefacc93de5b3d"></a><a class="el" href="8a860__len__3f30_8c.html#ad8c86ce808908b33858a59316263c571">struct</a> <a class="el" href="#structEvt">Evt</a> *</td>
 <td class="fieldname">
 handleEventScript</td>
@@ -7989,6 +7985,12 @@ handleEventSource</td>
 <a id="a08662ff07749467f80e1d6afc8749c23" name="a08662ff07749467f80e1d6afc8749c23"></a><a class="el" href="8a860__len__3f30_8c.html#ad8c86ce808908b33858a59316263c571">struct</a> <a class="el" href="#structEvt">Evt</a> *</td>
 <td class="fieldname">
 handlePhaseScript</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="ae0c7b8d57ed87403a02e8f668bfe97ce" name="ae0c7b8d57ed87403a02e8f668bfe97ce"></a><a class="el" href="8a860__len__3f30_8c.html#ad8c86ce808908b33858a59316263c571">s32</a></td>
+<td class="fieldname">
+handlePhaseScriptID</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
@@ -8121,6 +8123,12 @@ maxHP</td>
 <a id="a18d142c747c3b1eacb7191959f29b218" name="a18d142c747c3b1eacb7191959f29b218"></a><a class="el" href="8a860__len__3f30_8c.html#ad8c86ce808908b33858a59316263c571">s8</a></td>
 <td class="fieldname">
 numParts</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="aa1b47c17adf5ae4b8142b044a7296c4f" name="aa1b47c17adf5ae4b8142b044a7296c4f"></a><a class="el" href="8a860__len__3f30_8c.html#ad8c86ce808908b33858a59316263c571">u8</a></td>
+<td class="fieldname">
+ordinal</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
@@ -8313,12 +8321,6 @@ turnPriority</td>
 <a id="ac12337f08cbfc5d37fbc52bf2e645947" name="ac12337f08cbfc5d37fbc52bf2e645947"></a><a class="el" href="8a860__len__3f30_8c.html#ad8c86ce808908b33858a59316263c571">char</a></td>
 <td class="fieldname">
 unk_124[16]</td>
-<td class="fielddoc">
-</td></tr>
-<tr><td class="fieldtype">
-<a id="ae8a700ab0d7b39d6e1c990aa4c747815" name="ae8a700ab0d7b39d6e1c990aa4c747815"></a><a class="el" href="8a860__len__3f30_8c.html#ad8c86ce808908b33858a59316263c571">u8</a></td>
-<td class="fieldname">
-unk_134</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
@@ -12522,7 +12524,7 @@ ptr</td>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="msg_8c.html#a4fdbe533b9c744b51798168db4195dc2">appendGfx_message()</a>, <a class="el" href="sticker__sign_8c.html#aab7c793073cfb75a7694a16062bc50e8">appendGfx_sticker()</a>, <a class="el" href="functions_8h.html#af87442688e4ea30572dbf0c9037d34ff">draw_number()</a>, <a class="el" href="got__item__outline_8c.html#a31fcc9674a8240cd92d06fd2ca426f0f">got_item_outline_appendGfx()</a>, <a class="el" href="hud__element_8c.html#a91a07292406afd1947bc20cbd93114d0">hud_element_draw_rect()</a>, <a class="el" href="model_8c.html#ad40178faa8f1807b84b3c2175b6522f1">load_texture_impl()</a>, <a class="el" href="model_8c.html#acda7b0d07b30b2ddbdf1618696c58a5a">make_texture_gfx()</a>, <a class="el" href="hud__element_8c.html#a39353b4b17bc480e4c391960ea671a6b">render_hud_element()</a>, <a class="el" href="item__entity_8c.html#ae2adc823ffd9737e8a75099636854fa6">sparkle_script_step()</a>, and <a class="el" href="101b90__len__8f0_8c.html#ab401274767d430814f6ed12a0487ea7b">spr_load_sprite()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="msg_8c.html#a4fdbe533b9c744b51798168db4195dc2">appendGfx_message()</a>, <a class="el" href="sticker__sign_8c.html#aab7c793073cfb75a7694a16062bc50e8">appendGfx_sticker()</a>, <a class="el" href="functions_8h.html#af87442688e4ea30572dbf0c9037d34ff">draw_number()</a>, <a class="el" href="got__item__outline_8c.html#a31fcc9674a8240cd92d06fd2ca426f0f">got_item_outline_appendGfx()</a>, <a class="el" href="hud__element_8c.html#a91a07292406afd1947bc20cbd93114d0">hud_element_draw_rect()</a>, <a class="el" href="model_8c.html#ad40178faa8f1807b84b3c2175b6522f1">load_texture_impl()</a>, <a class="el" href="model_8c.html#acda7b0d07b30b2ddbdf1618696c58a5a">make_texture_gfx()</a>, <a class="el" href="hud__element_8c.html#aec2299ee2f0ba2ba0d972a9677cf92f7">render_complex_hud_element()</a>, <a class="el" href="item__entity_8c.html#ae2adc823ffd9737e8a75099636854fa6">sparkle_script_step()</a>, and <a class="el" href="101b90__len__8f0_8c.html#ab401274767d430814f6ed12a0487ea7b">spr_load_sprite()</a>.</p>
 
 </div>
 </div>
@@ -12640,7 +12642,7 @@ ptr</td>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="msg_8c.html#a4fdbe533b9c744b51798168db4195dc2">appendGfx_message()</a>, <a class="el" href="sticker__sign_8c.html#aab7c793073cfb75a7694a16062bc50e8">appendGfx_sticker()</a>, <a class="el" href="actor__rendering_8c.html#a4319549d347eb366cb21c1307d4e0ec0">func_unkA_draw_npc()</a>, <a class="el" href="actor__rendering_8c.html#abe018bf8a58c20cce46ab74b1bcae795">func_unkA_draw_player()</a>, <a class="el" href="hud__element_8c.html#a91a07292406afd1947bc20cbd93114d0">hud_element_draw_rect()</a>, <a class="el" href="model_8c.html#ad40178faa8f1807b84b3c2175b6522f1">load_texture_impl()</a>, <a class="el" href="actor__rendering_8c.html#ab5cd513edc05c05f35375457ac2f1b00">make_flash_palettes()</a>, <a class="el" href="npc_8h.html#a2e5619518ac7ce174484d016dcc86cd5">npc_reload_all()</a>, <a class="el" href="npc_8h.html#a44f8ed26ebdffd1886708ac4d60627b4">npc_render_with_double_pal_blending()</a>, <a class="el" href="npc_8h.html#a5c58635780f41a121939cea2b4596dd1">npc_render_with_single_pal_blending()</a>, <a class="el" href="npc_8h.html#abcd0ca788c2c3cb80439cb693bc28302">npc_render_with_watt_idle_palettes()</a>, <a class="el" href="hud__element_8c.html#a39353b4b17bc480e4c391960ea671a6b">render_hud_element()</a>, <a class="el" href="actor__rendering_8c.html#aa84bc1c10240b7cbb3a1dd450116dc03">render_with_berserk_palettes()</a>, <a class="el" href="actor__rendering_8c.html#ae2b13481f9a6b3055abbb2cf592d49d2">render_with_fear_palettes()</a>, <a class="el" href="actor__rendering_8c.html#aa10e13197fe26949dbd82fb8fe62ad7a">render_with_pal_blending()</a>, <a class="el" href="actor__rendering_8c.html#a35b821e33fd8d684ef15e6ec5bd6fd61">render_with_palset_blending()</a>, <a class="el" href="actor__rendering_8c.html#a251fb1581a7dd92c52600dbeb4e2ff18">render_with_paralyze_palettes()</a>, <a class="el" href="actor__rendering_8c.html#a094307b7bba8fe4d74670ea35adb6296">render_with_player_debuff_palettes()</a>, <a class="el" href="actor__rendering_8c.html#ae375c4f11e92fdedbfd52f3fa2bcf2f5">render_with_poison_palettes()</a>, <a class="el" href="actor__rendering_8c.html#aec97441f82e48d5c568b4e2dac368863">render_with_sleep_palettes()</a>, <a class="el" href="actor__rendering_8c.html#a70fd1f88f065da661984ae017c580e53">render_with_static_palettes()</a>, <a class="el" href="actor__rendering_8c.html#a5de9aacc898d7291ab889f7984c9b348">render_with_watt_attack_palettes()</a>, <a class="el" href="actor__rendering_8c.html#a6d32b90e99bea87c5ce2d20f52edc372">render_with_watt_idle_palettes()</a>, <a class="el" href="item__entity_8c.html#ae2adc823ffd9737e8a75099636854fa6">sparkle_script_step()</a>, <a class="el" href="sprite_8c.html#a0b1a7ff908d7462a1ae4a9ef85e80691">spr_draw_component()</a>, <a class="el" href="sprite_8c.html#ab7257a18dabf577d8f922a3e777f5481">spr_draw_npc_sprite()</a>, <a class="el" href="sprite_8c.html#adee115336c3b0d75c7f31ee9dde7c22b">spr_draw_player_sprite()</a>, <a class="el" href="sprite_8c.html#a81250e0c77c77bc0d992bb7f970f4e2c">spr_get_npc_raster_info()</a>, <a class="el" href="101b90__len__8f0_8c.html#ab401274767d430814f6ed12a0487ea7b">spr_load_sprite()</a>, and <a class="el" href="entity__model_8c.html#a12124a7d8a185c5c0f2a89d7cae41916">step_entity_model_commandlist()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="msg_8c.html#a4fdbe533b9c744b51798168db4195dc2">appendGfx_message()</a>, <a class="el" href="sticker__sign_8c.html#aab7c793073cfb75a7694a16062bc50e8">appendGfx_sticker()</a>, <a class="el" href="actor__rendering_8c.html#a4319549d347eb366cb21c1307d4e0ec0">func_unkA_draw_npc()</a>, <a class="el" href="actor__rendering_8c.html#abe018bf8a58c20cce46ab74b1bcae795">func_unkA_draw_player()</a>, <a class="el" href="hud__element_8c.html#a91a07292406afd1947bc20cbd93114d0">hud_element_draw_rect()</a>, <a class="el" href="model_8c.html#ad40178faa8f1807b84b3c2175b6522f1">load_texture_impl()</a>, <a class="el" href="actor__rendering_8c.html#ab5cd513edc05c05f35375457ac2f1b00">make_flash_palettes()</a>, <a class="el" href="npc_8h.html#a2e5619518ac7ce174484d016dcc86cd5">npc_reload_all()</a>, <a class="el" href="npc_8h.html#a44f8ed26ebdffd1886708ac4d60627b4">npc_render_with_double_pal_blending()</a>, <a class="el" href="npc_8h.html#a5c58635780f41a121939cea2b4596dd1">npc_render_with_single_pal_blending()</a>, <a class="el" href="npc_8h.html#abcd0ca788c2c3cb80439cb693bc28302">npc_render_with_watt_idle_palettes()</a>, <a class="el" href="hud__element_8c.html#aec2299ee2f0ba2ba0d972a9677cf92f7">render_complex_hud_element()</a>, <a class="el" href="actor__rendering_8c.html#aa84bc1c10240b7cbb3a1dd450116dc03">render_with_berserk_palettes()</a>, <a class="el" href="actor__rendering_8c.html#ae2b13481f9a6b3055abbb2cf592d49d2">render_with_fear_palettes()</a>, <a class="el" href="actor__rendering_8c.html#aa10e13197fe26949dbd82fb8fe62ad7a">render_with_pal_blending()</a>, <a class="el" href="actor__rendering_8c.html#a35b821e33fd8d684ef15e6ec5bd6fd61">render_with_palset_blending()</a>, <a class="el" href="actor__rendering_8c.html#a251fb1581a7dd92c52600dbeb4e2ff18">render_with_paralyze_palettes()</a>, <a class="el" href="actor__rendering_8c.html#a094307b7bba8fe4d74670ea35adb6296">render_with_player_debuff_palettes()</a>, <a class="el" href="actor__rendering_8c.html#ae375c4f11e92fdedbfd52f3fa2bcf2f5">render_with_poison_palettes()</a>, <a class="el" href="actor__rendering_8c.html#aec97441f82e48d5c568b4e2dac368863">render_with_sleep_palettes()</a>, <a class="el" href="actor__rendering_8c.html#a70fd1f88f065da661984ae017c580e53">render_with_static_palettes()</a>, <a class="el" href="actor__rendering_8c.html#a5de9aacc898d7291ab889f7984c9b348">render_with_watt_attack_palettes()</a>, <a class="el" href="actor__rendering_8c.html#a6d32b90e99bea87c5ce2d20f52edc372">render_with_watt_idle_palettes()</a>, <a class="el" href="item__entity_8c.html#ae2adc823ffd9737e8a75099636854fa6">sparkle_script_step()</a>, <a class="el" href="sprite_8c.html#a0b1a7ff908d7462a1ae4a9ef85e80691">spr_draw_component()</a>, <a class="el" href="sprite_8c.html#ab7257a18dabf577d8f922a3e777f5481">spr_draw_npc_sprite()</a>, <a class="el" href="sprite_8c.html#adee115336c3b0d75c7f31ee9dde7c22b">spr_draw_player_sprite()</a>, <a class="el" href="sprite_8c.html#a81250e0c77c77bc0d992bb7f970f4e2c">spr_get_npc_raster_info()</a>, <a class="el" href="101b90__len__8f0_8c.html#ab401274767d430814f6ed12a0487ea7b">spr_load_sprite()</a>, and <a class="el" href="entity__model_8c.html#a12124a7d8a185c5c0f2a89d7cae41916">step_entity_model_commandlist()</a>.</p>
 
 </div>
 </div>
@@ -12835,6 +12837,20 @@ ptr</td>
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="8a860__len__3f30_8c.html#ad8c86ce808908b33858a59316263c571">typedef</a> <a class="el" href="8a860__len__3f30_8c.html#ad8c86ce808908b33858a59316263c571">f32</a> Matrix4f[4][4]</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af6f825e5415a8363be9b02eae7053e20" name="af6f825e5415a8363be9b02eae7053e20"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af6f825e5415a8363be9b02eae7053e20">&#9670;&#160;</a></span>MsgID</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="8a860__len__3f30_8c.html#ad8c86ce808908b33858a59316263c571">typedef</a> <a class="el" href="8a860__len__3f30_8c.html#ad8c86ce808908b33858a59316263c571">s32</a> <a class="el" href="#af6f825e5415a8363be9b02eae7053e20">MsgID</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
