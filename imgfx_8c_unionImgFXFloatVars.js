@@ -1,7 +1,7 @@
 var imgfx_8c_unionImgFXFloatVars =
 [
-    [ "anim", "imgfx_8c.html#a18bd198b1008f11f056e635bd2c79d03", null ],
-    [ "overlay", "imgfx_8c.html#aeadcab6800ff212d4bb55df73d72238a", null ],
+    [ "anim", "imgfx_8c.html#a4dda8f894a943afa5c6409f00d467199", null ],
+    [ "overlay", "imgfx_8c.html#ad12b791ccb23b2b2516c1a5c2f57d261", null ],
     [ "raw", "imgfx_8c.html#abe83327cd7c09513e3d99934c2e98e71", null ],
-    [ "wavy", "imgfx_8c.html#a5ff463446a446525b92e094635a9e2fd", null ]
+    [ "wavy", "imgfx_8c.html#a7a9f0d82301ccc91882a01b28b63e731", null ]
 ];

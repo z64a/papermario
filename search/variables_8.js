@@ -602,7 +602,7 @@ var searchData=
   ['holdrepeatcounter_599',['holdRepeatCounter',['../common__structs_8h.html#a9ef8606b97fd0957050a89b9489d03cc',1,'GameStatus']]],
   ['holdrepeatinterval_600',['holdRepeatInterval',['../common__structs_8h.html#a24f38e128ecccf0219a6b7b0c68ce772',1,'GameStatus']]],
   ['holdtime_601',['holdTime',['../common__structs_8h.html#aabc482e390d9275927890bfc8424aeb0',1,'CreditsEntry::holdTime'],['../common__structs_8h.html#adf6d20761d7e1f35e44328767a4a8bb8',1,'CreditsLine::holdTime'],['../common__structs_8h.html#a91046e78f2b4ae75bda70ed5e3aeedf1',1,'SpeechBubbleData::holdTime'],['../inspect__icon_8c.html#a34bbef07df179a05ebea7469bfc006bd',1,'InspectIconData::holdTime']]],
-  ['hologram_602',['hologram',['../imgfx_8c.html#ab7d7baa97753232ddb9d8568b324c1fb',1,'ImgFXIntVars']]],
+  ['hologram_602',['hologram',['../imgfx_8c.html#ae2bf42b39a2dff8a322d98809eb4a44d',1,'ImgFXIntVars']]],
   ['home_603',['home',['../src_2battle_2battle_8h.html#ad3e0aa8ba1882f1fb1a1e70a34322921',1,'FormationRow']]],
   ['homepos_604',['homePos',['../structNpc.html#ad9c1a49eefddb510d179ddf5e21ce9f2',1,'Npc::homePos'],['../common__structs_8h.html#a8d7151b1987bd434f180139dc07b4a80',1,'Actor::homePos']]],
   ['horizontal_5fpipe_5fcurl_5fheader_605',['horizontal_pipe_curl_header',['../imgfx_8c.html#a9dc3a8c70b754451fa2442da9554d97c',1,'imgfx.c']]],
@@ -647,6 +647,6 @@ var searchData=
   ['hudworker_644',['hudWorker',['../phonograph_8c.html#aae3d2ce298bc5325e2d44485ead9e5c3',1,'PhonographData']]],
   ['huffpuffbreath_645',['huffPuffBreath',['../effects_8h.html#aedfea8fa5930c85faee183ccbf8e9a64',1,'EffectInstanceDataPtr']]],
   ['hurricanechance_646',['hurricaneChance',['../src_2battle_2battle_8h.html#a0e5b2892096df9ea29e35bb41c7e9570',1,'ActorBlueprint']]],
-  ['hurt_647',['hurt',['../src_2battle_2battle_8h.html#aea6c3fc3fdb6ef2c860d15eb7c758833',1,'ActorSounds::hurt'],['../common__structs_8h.html#ac0bb722d28c628d3066cc2264dcc7c87',1,'PartnerAnimations.__unnamed31__::hurt']]],
+  ['hurt_647',['hurt',['../src_2battle_2battle_8h.html#aea6c3fc3fdb6ef2c860d15eb7c758833',1,'ActorSounds::hurt'],['../common__structs_8h.html#ac0bb722d28c628d3066cc2264dcc7c87',1,'PartnerAnimations.__unnamed29__::hurt']]],
   ['hustleturns_648',['hustleTurns',['../structBattleStatus.html#a089949173ac6331110a0cd3451a39cd1',1,'BattleStatus']]]
 ];

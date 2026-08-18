@@ -1,6 +1,6 @@
 var NAVTREEINDEX270 =
 {
-"npc__chapter3_8c.html#a02c6d39594a3aa893a4c7c5729890618":[4,0,1,10,12,10,9,0],
+"npc__chapter3_8c.html#a02c6d39594a3aa893a4c7c5729890618":[4,0,1,10,12,10,9,1],
 "npc__chet__rippo_8inc_8c.html":[4,0,1,10,16,4,7],
 "npc__collision_8c.html":[4,0,1,89],
 "npc__collision_8c.html#a0387921c27aaf4cab8af6142c0a81898":[4,0,1,89,6],
@@ -47,8 +47,8 @@ var NAVTREEINDEX270 =
 "npc__hint__dryite_8c.html#ae23b24777b4b6c4abe66d2c2ad8930eb":[4,0,1,10,3,0,7,0],
 "npc__hint__dryite__companion_8c.html":[4,0,1,10,3,0,8],
 "npc__initial_8c.html":[4,0,1,10,12,20,7],
-"npc__initial_8c.html#a02c6d39594a3aa893a4c7c5729890618":[4,0,1,10,12,20,7,0],
 "npc__initial_8c.html#a02c6d39594a3aa893a4c7c5729890618":[4,0,1,10,12,20,7,1],
+"npc__initial_8c.html#a02c6d39594a3aa893a4c7c5729890618":[4,0,1,10,12,20,7,0],
 "npc__initial_8c.html#a02c6d39594a3aa893a4c7c5729890618":[4,0,1,10,12,20,7,2],
 "npc__initial_8c.html#a02c6d39594a3aa893a4c7c5729890618":[4,0,1,10,12,20,7,3],
 "npc__koopa__bros_8c.html":[4,0,1,10,27,6,3],

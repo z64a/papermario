@@ -103,7 +103,7 @@ var searchData=
   ['overallscale_100',['overallScale',['../effects_8h.html#afff059167710a4423550d559483b1233',1,'TubbaHeartAttackFXData']]],
   ['overlappushamount_101',['overlapPushAmount',['../common__structs_8h.html#abd6f551335d49575247736e406a59485',1,'PlayerStatus']]],
   ['overlappushyaw_102',['overlapPushYaw',['../common__structs_8h.html#ae966635cef6ed97274e81e9fdd933fcf',1,'PlayerStatus']]],
-  ['overlay_103',['overlay',['../imgfx_8c.html#a1a866c1ddaa72c8406fa4ef586dd4b9d',1,'ImgFXIntVars::overlay'],['../imgfx_8c.html#aeadcab6800ff212d4bb55df73d72238a',1,'ImgFXFloatVars::overlay']]],
+  ['overlay_103',['overlay',['../imgfx_8c.html#afcc327f16a25106295a3f2e0b150a032',1,'ImgFXIntVars::overlay'],['../imgfx_8c.html#ad12b791ccb23b2b2516c1a5c2f57d261',1,'ImgFXFloatVars::overlay']]],
   ['overridedescmsg_104',['overrideDescMsg',['../world_2area__kkj_2kkj__19_2main_8c.html#abe89b164b73fe6d6b46577265200ec0b',1,'IngredientSouce']]],
   ['overridedropdoor_105',['overrideDropDoor',['../script__api_2rooms_8c.html#a1d62c9a5cb3ca19571830fa12a981289',1,'MapRoom']]],
   ['overridemovewall_106',['overrideMoveWall',['../script__api_2rooms_8c.html#ae75976c704ba700bd3587a7d3f9d8d6c',1,'MapRoom']]],
@@ -113,6 +113,6 @@ var searchData=
   ['overshootanglevel_110',['overshootAngleVel',['../world_2area__nok_2nok__04_2npc_8c.html#a682e13aa348617aa1d6778a38e586423',1,'FuzzyThread']]],
   ['overshootvel_111',['overshootVel',['../world_2area__nok_2nok__04_2npc_8c.html#af0251e5a6576f2f063f9fc2832584e61',1,'FuzzyThread']]],
   ['owner_112',['owner',['../hud__element_8h.html#a8d6fb6d9ef95fd28922f53ed3a887b88',1,'Shop']]],
-  ['owner1_113',['owner1',['../common__structs_8h.html#af5dd142b2e1cbfea2cc4f87ee7b5bd6a',1,'Evt']]],
-  ['owner2_114',['owner2',['../common__structs_8h.html#a6a82dd1b06bed0d23f8fff1aec824007',1,'Evt']]]
+  ['owner1_113',['owner1',['../common__structs_8h.html#a9daba8b7c2a762030d1c73bda6776619',1,'Evt']]],
+  ['owner2_114',['owner2',['../common__structs_8h.html#ab664b580259ddc3e0a5aa980e938494e',1,'Evt']]]
 ];
