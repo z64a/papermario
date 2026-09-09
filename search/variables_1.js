@@ -1,8 +1,8 @@
 var searchData=
 [
   ['a_0',['a',['../common__structs_8h.html#a6e53f664902eb8109bee19d95f500da5',1,'Color_RGBA8::a'],['../common__structs_8h.html#afc14f1ba1e29b0cad19b577fbe7cb998',1,'Color4f::a'],['../common__structs_8h.html#a3b8e93fc3e1ad6c43e8adc80316d1f57',1,'Color4i::a'],['../imgfx_8c.html#a0cc175b9c0f1b6a831c399e269772661',1,'ImgFXIntVars.color::a']]],
-  ['aabb_1',['aabb',['../structEntity.html#a4ea3c41f0354abe35735c4440b24b425',1,'Entity::aabb'],['../common__structs_8h.html#a5e394281dfac81c1e7dddcaf4d35d1f6',1,'Collider.__unnamed24__::aabb']]],
-  ['aabbs_2',['aabbs',['../common__structs_8h.html#a9f7cf42e0dad89e417c4df57fa80ba25',1,'CollisionData.__unnamed26__']]],
+  ['aabb_1',['aabb',['../structEntity.html#a4ea3c41f0354abe35735c4440b24b425',1,'Entity::aabb'],['../common__structs_8h.html#a5e394281dfac81c1e7dddcaf4d35d1f6',1,'Collider.__unnamed26__::aabb']]],
+  ['aabbs_2',['aabbs',['../common__structs_8h.html#a9f7cf42e0dad89e417c4df57fa80ba25',1,'CollisionData.__unnamed28__']]],
   ['aabbsize_3',['aabbSize',['../structEntityBlueprint.html#a314ca9f9e81fe2b1d7d83e5cf501f74e',1,'EntityBlueprint::aabbSize'],['../structShadowBlueprint.html#a57ca5317e699cc1a18d6e9cf1c93270c',1,'ShadowBlueprint::aabbSize']]],
   ['absolutepos_4',['absolutePos',['../common__structs_8h.html#afeee643b560545d6ae52a44ffdaa83a3',1,'ActorPartMovement::absolutePos'],['../common__structs_8h.html#ad4296e5dfba4a30c2435e597b5e0e72f',1,'ActorPart::absolutePos']]],
   ['accel_5',['accel',['../common__structs_8h.html#a9d58e04c6afe0216e444ad88cbc90f28',1,'Message']]],
@@ -126,7 +126,7 @@ var searchData=
   ['angularspeed_123',['angularSpeed',['../UnkLightningBoltFxFunc1_8inc_8c.html#ae383677d57086ba43537fedf15e7daac',1,'FxLightningBoltState']]],
   ['angularvel_124',['angularVel',['../common__structs_8h.html#a548da30c89d93c06b6b6a5bcb74f7791',1,'TweesterPhysics::angularVel'],['../effects_8h.html#ac748ebf3dacb8f173716bf9ea18a0ef1',1,'FloatingFlowerFXData::angularVel'],['../effects_8h.html#a54a8313d028cd55e3559a0dd45bdacc7',1,'IceShardFXData::angularVel'],['../barricade_8c.html#ab72907ae8108dd8cf4bdff56b6b0cd6a',1,'BarricadePart::angularVel']]],
   ['angularvelocity_125',['angularVelocity',['../world_2area__kmr_2kmr__23_2npc_8c.html#a35f2dcb216722a5c9adce8fac50c258a',1,'EndChapter']]],
-  ['anim_126',['anim',['../common__structs_8h.html#a2ebbbf57f3f966a713137a868da05b94',1,'PlayerStatus::anim'],['../effects_8h.html#af7283f96cec625799bd9417092a774fe',1,'LilOinkFXData::anim'],['../effects_8h.html#a58901e66ca97e157b59c6ab53080b830',1,'QuizmoAssistantFXData::anim'],['../hud__element_8h.html#a215a20a115cfcd3d7ecf9ae5e4f1db03',1,'HudElement::anim'],['../imgfx_8c.html#a45abea9ac2edfdd9f65b60846094c4b7',1,'ImgFXIntVars::anim'],['../imgfx_8c.html#a4dda8f894a943afa5c6409f00d467199',1,'ImgFXFloatVars::anim'],['../imgfx_8c.html#a2aa66ff73b83598a459e2ba9c31d4d1c',1,'ImgFXIntVars.args::anim']]],
+  ['anim_126',['anim',['../common__structs_8h.html#a2ebbbf57f3f966a713137a868da05b94',1,'PlayerStatus::anim'],['../effects_8h.html#af7283f96cec625799bd9417092a774fe',1,'LilOinkFXData::anim'],['../effects_8h.html#a58901e66ca97e157b59c6ab53080b830',1,'QuizmoAssistantFXData::anim'],['../hud__element_8h.html#a215a20a115cfcd3d7ecf9ae5e4f1db03',1,'HudElement::anim'],['../imgfx_8c.html#a89e6e7370ba45fa01f174f976f673415',1,'ImgFXIntVars::anim'],['../imgfx_8c.html#a18bd198b1008f11f056e635bd2c79d03',1,'ImgFXFloatVars::anim'],['../imgfx_8c.html#a2aa66ff73b83598a459e2ba9c31d4d1c',1,'ImgFXIntVars.args::anim']]],
   ['anim_5f4_127',['anim_4',['../npc_8h.html#aa4e4fa04195f42e1dd22acca4f5745af',1,'NpcData.animations']]],
   ['anim_5f5_128',['anim_5',['../npc_8h.html#ad8b48c90870737333f7d6146e199bb09',1,'NpcData.animations']]],
   ['anim_5f8_129',['anim_8',['../npc_8h.html#a6ae4390a2b7b69c36199d86c06ac5160',1,'NpcData.animations']]],
@@ -178,7 +178,7 @@ var searchData=
   ['areaid_175',['areaID',['../common__structs_8h.html#aadf20e4f3dcd33b27d9d2c15f19c7d31',1,'GameStatus::areaID'],['../common__structs_8h.html#a32dacb3237754c71b6f14c2acaef13d8',1,'SaveData::areaID']]],
   ['arg1_176',['arg1',['../audio_8h.html#ae866231598ed4cb18be5e493240a11b0',1,'SeqArgs.Special']]],
   ['arg2_177',['arg2',['../audio_8h.html#a80a26383e00e892c98ebd598edcc5dbb',1,'SeqArgs.Special']]],
-  ['args_178',['args',['../imgfx_8c.html#a3757f0e337ff1ed46bf71fb0cd6e36b3',1,'ImgFXIntVars']]],
+  ['args_178',['args',['../imgfx_8c.html#aa1cd2641409273a8afe3a968496006a3',1,'ImgFXIntVars']]],
   ['arn_5f02_5fsettings_179',['arn_02_settings',['../arn_8h.html#a02b488743496693011809c5beab94695',1,'arn.h']]],
   ['arn_5f03_5fsettings_180',['arn_03_settings',['../arn_8h.html#a46c83c235839513301f20ac6c131a5b8',1,'arn.h']]],
   ['arn_5f04_5fsettings_181',['arn_04_settings',['../arn_8h.html#ad33b0007baacdbc9d307011045246fd5',1,'arn.h']]],
