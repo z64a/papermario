@@ -105,6 +105,7 @@ var NAVTREEINDEX359 =
 "structEntityBlueprint.html#ae0c54e32420b6447c21db3d39ed2c4f3":[3,0,197,6],
 "structEntityModel.html":[3,0,200],
 "structEntityModel.html#a009140aea2c59f4390b80e6020e9a3d9":[3,0,200,2],
+"structEntityModel.html#a1033af90586ac4db55210286381c3924":[3,0,200,4],
 "structEntityModel.html#a1e809103209de8e27416288eb65ce5de":[3,0,200,1],
 "structEntityModel.html#a3c32e0ad6a54f54938f1fbe457decdc9":[3,0,200,3],
 "structEntityModel.html#a6b26d5d61f71846c37ae2b9edf92ffc0":[3,0,200,7],
@@ -115,7 +116,6 @@ var NAVTREEINDEX359 =
 "structEntityModel.html#ac8c19b5059dfd8b22864e59402de35c9":[3,0,200,8],
 "structEntityModel.html#acb403bfdc888b4bbcb21af4f37c78ef5":[3,0,200,11],
 "structEntityModel.html#ae23e56e77c333ac43a2f99ead248e4af":[3,0,200,5],
-"structEntityModel.html#ae9138ea88be5401bf7c189c011f64ff0":[3,0,200,4],
 "structEntityModel.html#aea7524b54e632c7c2e403a5120d54fc7":[3,0,200,6],
 "structEntityModel.html#af572cd1b0855effd4186ffb887288d15":[3,0,200,10],
 "structGameMode.html":[3,0,245],
@@ -247,7 +247,7 @@ var NAVTREEINDEX359 =
 "structNpc.html#acedfb238f9afb2df14912e7a1098b8ce":[3,0,371,30],
 "structNpc.html#ad545c6d44c87883f6e755d030b0bbc60":[3,0,371,36],
 "structNpc.html#ad9c1a49eefddb510d179ddf5e21ce9f2":[3,0,371,26],
+"structNpc.html#adbb4b2ade732b902adf378e52d42015b":[3,0,371,8],
 "structNpc.html#aded6d17a770ed130c2ee597451625bd2":[3,0,371,27],
-"structNpc.html#ae120c637b5b97e8ce7a04434c8922e3f":[3,0,371,19],
-"structNpc.html#ae25059f7bd84c6bf313add4ef8d0fac8":[3,0,371,49]
+"structNpc.html#ae120c637b5b97e8ce7a04434c8922e3f":[3,0,371,19]
 };

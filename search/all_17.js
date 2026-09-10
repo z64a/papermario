@@ -344,14 +344,14 @@ var searchData=
   ['otherai_341',['otherAI',['../npc_8h.html#a54c3ae96fdae2a19f83d62dc4c0e3603',1,'NpcSettings']]],
   ['othermodel_342',['otherModeL',['../imgfx_8c.html#a575f545a098ff4dcdb593295d91a8b91',1,'ImgFXState']]],
   ['outcome_5fenemy_5ffled_343',['OUTCOME_ENEMY_FLED',['../enums_8h.html#ad5153a0073fcd5294ed9348e7fc7fbb8a001cf0ae9bd7969b7c0c28a134d83a71',1,'enums.h']]],
-  ['outcome_5fleft_5fwon_344',['OUTCOME_LEFT_WON',['../quiz_8c.html#a7378af4faef86e8b2bea8277617c0890a0e07d8613d5c620129e87a93d1c281e5',1,'quiz.c']]],
-  ['outcome_5fpeach_5fwon_345',['OUTCOME_PEACH_WON',['../quiz_8c.html#a7378af4faef86e8b2bea8277617c0890acf555a191ca8d4e9bda1240f0cd2a398',1,'quiz.c']]],
+  ['outcome_5fleft_5fwon_344',['OUTCOME_LEFT_WON',['../quiz_8c.html#a7e2a066bd5c9537cb1c73d6974cce2bca0e07d8613d5c620129e87a93d1c281e5',1,'quiz.c']]],
+  ['outcome_5fpeach_5fwon_345',['OUTCOME_PEACH_WON',['../quiz_8c.html#a7e2a066bd5c9537cb1c73d6974cce2bcacf555a191ca8d4e9bda1240f0cd2a398',1,'quiz.c']]],
   ['outcome_5fplayer_5ffled_346',['OUTCOME_PLAYER_FLED',['../enums_8h.html#ad5153a0073fcd5294ed9348e7fc7fbb8ad5c3adf1ab0c47f3373bedfd8080e622',1,'enums.h']]],
   ['outcome_5fplayer_5flost_347',['OUTCOME_PLAYER_LOST',['../enums_8h.html#ad5153a0073fcd5294ed9348e7fc7fbb8acf5c1f14c5ad6598cc21aa5bc4f464f0',1,'enums.h']]],
   ['outcome_5fplayer_5fwon_348',['OUTCOME_PLAYER_WON',['../enums_8h.html#ad5153a0073fcd5294ed9348e7fc7fbb8a139b014647cbd30bfe886274f9dd7add',1,'enums.h']]],
-  ['outcome_5fright_5fwon_349',['OUTCOME_RIGHT_WON',['../quiz_8c.html#a7378af4faef86e8b2bea8277617c0890adfc8b9a203af016c2183d8c673f4144b',1,'quiz.c']]],
+  ['outcome_5fright_5fwon_349',['OUTCOME_RIGHT_WON',['../quiz_8c.html#a7e2a066bd5c9537cb1c73d6974cce2bcadfc8b9a203af016c2183d8c673f4144b',1,'quiz.c']]],
   ['outcome_5fskip_350',['OUTCOME_SKIP',['../enums_8h.html#ad5153a0073fcd5294ed9348e7fc7fbb8ac2c0638d1edb8e55237195f5f065fc39',1,'enums.h']]],
-  ['outcome_5ftie_351',['OUTCOME_TIE',['../quiz_8c.html#a7378af4faef86e8b2bea8277617c0890a9c8f93e830b7bf5e049e349676f4d7e6',1,'quiz.c']]],
+  ['outcome_5ftie_351',['OUTCOME_TIE',['../quiz_8c.html#a7e2a066bd5c9537cb1c73d6974cce2bca9c8f93e830b7bf5e049e349676f4d7e6',1,'quiz.c']]],
   ['outercolor_352',['outerColor',['../effects_8h.html#a5e2e9d4510ad6ec84a765e358c31f59a',1,'LightningBoltFXData']]],
   ['outerdist_353',['outerDist',['../common__structs_8h.html#a98a4819bda89b9db49559bdc2ca98c96',1,'MusicProximityTrigger']]],
   ['outerlinklen_354',['outerLinkLen',['../common__structs_8h.html#a5f7df607bea13f4f11bc4f9be6ab2c31',1,'ChompChain']]],
@@ -395,6 +395,6 @@ var searchData=
   ['overshootanglevel_392',['overshootAngleVel',['../world_2area__nok_2nok__04_2npc_8c.html#a682e13aa348617aa1d6778a38e586423',1,'FuzzyThread']]],
   ['overshootvel_393',['overshootVel',['../world_2area__nok_2nok__04_2npc_8c.html#af0251e5a6576f2f063f9fc2832584e61',1,'FuzzyThread']]],
   ['owner_394',['owner',['../hud__element_8h.html#a8d6fb6d9ef95fd28922f53ed3a887b88',1,'Shop']]],
-  ['owner1_395',['owner1',['../common__structs_8h.html#a9daba8b7c2a762030d1c73bda6776619',1,'Evt']]],
-  ['owner2_396',['owner2',['../common__structs_8h.html#ab664b580259ddc3e0a5aa980e938494e',1,'Evt']]]
+  ['owner1_395',['owner1',['../common__structs_8h.html#af5dd142b2e1cbfea2cc4f87ee7b5bd6a',1,'Evt']]],
+  ['owner2_396',['owner2',['../common__structs_8h.html#a6a82dd1b06bed0d23f8fff1aec824007',1,'Evt']]]
 ];
